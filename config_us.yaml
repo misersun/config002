@@ -1,51 +1,34 @@
 proxies:
-- name: 2.11|US193392935
-  server: 150.230.43.190
+- name: 2.08| US13343 5730Mb
+  server: nn-ssr24.feiclouddd.me
   type: vmess
-  country: US
-  port: 80
-  uuid: 476c12d2-676b-4ee3-bed7-1430f8e93589
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /BEN
-  servername: 150.230.43.190
-  ws-headers:
-    HOST: 150.230.43.190
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.03|US194043000
-  server: 72.167.45.6
-  type: trojan
-  country: US
+  country: ' US'
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.71|US193342930
-  server: 150.230.45.118
-  type: vmess
-  country: US
-  port: 80
-  uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18
-  alterId: 16
+  uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9
+  alterId: 60
   cipher: auto
   network: ws
-  ws-path: /BEN
-  servername: 150.230.45.118
+  ws-path: /dsafasdf
+  servername: nn-ssr24.feiclouddd.me
   ws-headers:
-    HOST: 150.230.45.118
+    HOST: nn-ssr24.feiclouddd.me
   http-opts: {}
   h2-opts: {}
+  tls: true
   skip-cert-verify: true
-- name: 1.68| 美国  Los Angeles2176
-  server: us11.holiganfan.com
-  port: 10088
-  type: trojan
-  password: d1458f16-addb-4d41-a3eb-e02b85a2ac14
-  sni: us11.holiganfan.com
-- name: 1.50|US193312927
+- alterId: 2
+  cipher: auto
+  name: 1.99|1.25|1005oslook3818053080
+  network: ws
+  port: 80
+  server: v103.v2dns.xyz
+  tls: false
+  type: vmess
+  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
+  ws-headers:
+    Host: gd.189.cn
+  ws-path: /v1032N9rN0yPy
+- name: 1.74|1.50|US193312927
   server: 45.58.45.93
   type: vmess
   country: US
@@ -61,7 +44,33 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.44|US1916230333103
+- name: 1.70|RelayUSUS4890
+  server: inap.qqnz.com.cn
+  type: vmess
+  country: US
+  port: 443
+  uuid: a8f3742c-4422-4943-9293-3ea618a846df
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /IJPCL0JG
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.35| cfmemcomUS美国19
+  server: 23.234.223.28
+  port: 443
+  type: vmess
+  uuid: e52db663-720b-4894-8235-dac718e65e3f
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/323127100515
+  ws-headers:
+    Host: www.68080962.xyz
+- name: 1.35|1.44|US1916230333103
   server: 23.94.217.239
   type: vmess
   country: US
@@ -78,29 +87,84 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.35|US1918030513104
-  server: 149.248.19.78
+- name: 1.32|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.19|US19733
+  server: 104.251.233.106
   type: vmess
   country: US
-  port: 443
-  uuid: 79214731-7f0c-4f2d-a894-13b7df293624
-  alterId: 60
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+  alterId: 10
   cipher: auto
   network: ws
-  ws-path: /sadfasdf
+  ws-path: /ray
+  servername: en.tgchannels.org/channel/vpnpool
+  ws-headers:
+    HOST: en.tgchannels.org/channel/vpnpool
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- alterId: 2
-  cipher: auto
-  name: 1.25|1005oslook3818053080
-  network: ws
-  port: 80
-  server: v103.v2dns.xyz
-  tls: false
+- name: 1.19|US19728
+  server: 198.200.51.18
   type: vmess
-  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
+  country: US
+  port: 62096
+  uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.18|RelayUSUS21302
+  server: usml.52jjy.top
+  type: vmess
+  country: US
+  port: 88
+  uuid: 56a60bab-bcb5-4408-a956-59cb9987a784
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /jjyunml
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.05|2.11|US193392935
+  server: 150.230.43.190
+  type: vmess
+  country: US
+  port: 80
+  uuid: 476c12d2-676b-4ee3-bed7-1430f8e93589
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /BEN
+  servername: 150.230.43.190
   ws-headers:
-    Host: gd.189.cn
-  ws-path: /v1032N9rN0yPy
+    HOST: 150.230.43.190
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.05|RelayUSUS21296
+  server: usgia.jjyun.ren
+  type: vmess
+  country: US
+  port: 88
+  uuid: 56a60bab-bcb5-4408-a956-59cb9987a784
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: /jjyun
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
