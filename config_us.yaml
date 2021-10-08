@@ -1,77 +1,5 @@
 proxies:
-- alterId: 2
-  cipher: auto
-  name: 1005oslook3818053080
-  network: ws
-  port: 80
-  server: v103.v2dns.xyz
-  tls: false
-  type: vmess
-  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
-  ws-headers:
-    Host: gd.189.cn
-  ws-path: /v1032N9rN0yPy
-- name: US193342930
-  server: 150.230.45.118
-  type: vmess
-  country: US
-  port: 80
-  uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /BEN
-  servername: 150.230.45.118
-  ws-headers:
-    HOST: 150.230.45.118
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4566157195tcp7
-  server: 45.66.157.195
-  port: 7596
-  type: vmess
-  uuid: 4cbb0ce4-1ec3-11ec-b76f-00163c06ad53
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: US194043000
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: ' 美国  Los Angeles2176'
-  server: us11.holiganfan.com
-  port: 10088
-  type: trojan
-  password: d1458f16-addb-4d41-a3eb-e02b85a2ac14
-  sni: us11.holiganfan.com
-- name: US1918030513104
-  server: 149.248.19.78
-  type: vmess
-  country: US
-  port: 443
-  uuid: 79214731-7f0c-4f2d-a894-13b7df293624
-  alterId: 60
-  cipher: auto
-  network: ws
-  ws-path: /sadfasdf
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: ' httpsgitiov9999 圣何塞 51355'
-  server: 198.200.51.34
-  port: 17838
-  type: vmess
-  uuid: 53e483d4-1ea9-11ec-ad60-00163cc87418
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: US193392935
+- name: 2.11|US193392935
   server: 150.230.43.190
   type: vmess
   country: US
@@ -87,7 +15,53 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: US1916230333103
+- name: 2.03|US194043000
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.71|US193342930
+  server: 150.230.45.118
+  type: vmess
+  country: US
+  port: 80
+  uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /BEN
+  servername: 150.230.45.118
+  ws-headers:
+    HOST: 150.230.45.118
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.68| 美国  Los Angeles2176
+  server: us11.holiganfan.com
+  port: 10088
+  type: trojan
+  password: d1458f16-addb-4d41-a3eb-e02b85a2ac14
+  sni: us11.holiganfan.com
+- name: 1.50|US193312927
+  server: 45.58.45.93
+  type: vmess
+  country: US
+  port: 8888
+  uuid: 27d6dfa1-d290-443a-c697-56bb3b41715e
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /ben
+  servername: 45.58.45.93
+  ws-headers:
+    HOST: 45.58.45.93
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.44|US1916230333103
   server: 23.94.217.239
   type: vmess
   country: US
@@ -104,45 +78,29 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: ' cfmemcomUS美国1919923086'
-  server: 23.234.223.28
-  port: 443
-  type: vmess
-  uuid: e52db663-720b-4894-8235-dac718e65e3f
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /path/323127100515
-  ws-headers:
-    Host: www.68080962.xyz
-- name: US193312927
-  server: 45.58.45.93
-  type: vmess
-  country: US
-  port: 8888
-  uuid: 27d6dfa1-d290-443a-c697-56bb3b41715e
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /ben
-  servername: 45.58.45.93
-  ws-headers:
-    HOST: 45.58.45.93
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: US193372933
-  server: usdll.jjyun.ren
+- name: 1.35|US1918030513104
+  server: 149.248.19.78
   type: vmess
   country: US
   port: 443
-  uuid: c3ddd243-c953-4a5e-b458-d0c8e35c432c
-  alterId: 1
+  uuid: 79214731-7f0c-4f2d-a894-13b7df293624
+  alterId: 60
   cipher: auto
   network: ws
-  ws-path: /jjyunml
+  ws-path: /sadfasdf
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
+- alterId: 2
+  cipher: auto
+  name: 1.25|1005oslook3818053080
+  network: ws
+  port: 80
+  server: v103.v2dns.xyz
+  tls: false
+  type: vmess
+  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
+  ws-headers:
+    Host: gd.189.cn
+  ws-path: /v1032N9rN0yPy
