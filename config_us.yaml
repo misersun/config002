@@ -1,5 +1,38 @@
 proxies:
-- name: 2.08| US13343 5730Mb
+- name: 2.05|4566157195tcp
+  server: 45.66.157.195
+  port: 7596
+  type: vmess
+  uuid: 4cbb0ce4-1ec3-11ec-b76f-00163c06ad53
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.03|US19894
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.96|1.32|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.93|US19943
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.76|2.08| US13343 5730Mb
   server: nn-ssr24.feiclouddd.me
   type: vmess
   country: ' US'
@@ -16,35 +49,36 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- alterId: 2
-  cipher: auto
-  name: 1.99|1.25|1005oslook3818053080
-  network: ws
-  port: 80
-  server: v103.v2dns.xyz
-  tls: false
-  type: vmess
-  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
-  ws-headers:
-    Host: gd.189.cn
-  ws-path: /v1032N9rN0yPy
-- name: 1.74|1.50|US193312927
-  server: 45.58.45.93
+- name: 1.75|US19829
+  server: c23s3.jamjams.net
   type: vmess
   country: US
-  port: 8888
-  uuid: 27d6dfa1-d290-443a-c697-56bb3b41715e
-  alterId: 2
+  port: 61173
+  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
+  alterId: 8
   cipher: auto
-  network: ws
-  ws-path: /ben
-  servername: 45.58.45.93
-  ws-headers:
-    HOST: 45.58.45.93
+  network: tcp
+  ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.70|RelayUSUS4890
+- name: 1.75|US19837
+  server: 150.230.45.118
+  type: vmess
+  country: US
+  port: 80
+  uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /BEN
+  servername: 150.230.45.118
+  ws-headers:
+    HOST: 150.230.45.118
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.65|1.70|RelayUSUS4890
   server: inap.qqnz.com.cn
   type: vmess
   country: US
@@ -58,50 +92,12 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.35| cfmemcomUS美国19
-  server: 23.234.223.28
-  port: 443
-  type: vmess
-  uuid: e52db663-720b-4894-8235-dac718e65e3f
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /path/323127100515
-  ws-headers:
-    Host: www.68080962.xyz
-- name: 1.35|1.44|US1916230333103
-  server: 23.94.217.239
-  type: vmess
-  country: US
-  port: 65443
-  uuid: e6b18c33-cc39-42c2-a6e5-c359d20de8d2
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /97b9183/
-  servername: nl1.piyou.cyou
-  ws-headers:
-    HOST: nl1.piyou.cyou
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.32|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.19|US19733
-  server: 104.251.233.106
+- name: 1.54|US19823
+  server: 128.14.157.112
   type: vmess
   country: US
   port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
   alterId: 10
   cipher: auto
   network: ws
@@ -113,12 +109,32 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.19|US19728
-  server: 198.200.51.18
+- name: 1.41|216105168138tcp
+  server: 216.105.168.138
+  port: 10964
   type: vmess
-  country: US
-  port: 62096
-  uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c
+  uuid: b874d3a8-1ff8-11ec-9fc6-0cc47a52170a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.31|1.35| cfmemcomUS美国19
+  server: 23.234.223.28
+  port: 443
+  type: vmess
+  uuid: e52db663-720b-4894-8235-dac718e65e3f
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/323127100515
+  ws-headers:
+    Host: www.68080962.xyz
+- name: 1.15| US13446
+  server: 45.140.88.192
+  type: vmess
+  country: ' US'
+  port: 16389
+  uuid: 9194ba91-fe8d-4557-e7b9-2dad813e899b
   alterId: 0
   cipher: auto
   network: tcp
@@ -126,36 +142,34 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.18|RelayUSUS21302
-  server: usml.52jjy.top
+- name: 1.15|840 6175Mb
+  server: v1.ssrsub.com
   type: vmess
-  country: US
-  port: 88
-  uuid: 56a60bab-bcb5-4408-a956-59cb9987a784
-  alterId: 1
+  port: 158
+  udp: true
+  uuid: 683ec608-5af9-4f91-bd5b-ce493307fe56
+  alterId: 0
   cipher: auto
   network: ws
-  ws-path: /jjyunml
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.05|2.11|US193392935
-  server: 150.230.43.190
-  type: vmess
-  country: US
-  port: 80
-  uuid: 476c12d2-676b-4ee3-bed7-1430f8e93589
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /BEN
-  servername: 150.230.43.190
+  ws-path: /ssrsub
   ws-headers:
-    HOST: 150.230.43.190
+    Host: v1.ssrsub.com
   http-opts: {}
   h2-opts: {}
-  skip-cert-verify: true
-- name: 1.05|RelayUSUS21296
+  tls: true
+- name: 1.11| RelayUS31
+  server: v2.ssrsub.com
+  port: 158
+  type: vmess
+  uuid: dde769da-8da0-47d8-bda4-192c761f882a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v2.ssrsub.com
+- name: 1.05|1.05|RelayUSUS21296
   server: usgia.jjyun.ren
   type: vmess
   country: US

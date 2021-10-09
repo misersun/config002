@@ -1,18 +1,21 @@
 proxies:
-- name: 5.72|RelayUSUS4869
-  server: v2-xgb.cl123.xyz
-  type: vmess
-  country: US
-  port: 80
-  uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  http-opts: {}
-  h2-opts: {}
+- name: 6.31|RO11532
+  server: hk-server-01.selfupay.com
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
-- name: 4.90|CN2998 1124Mb
+  udp: true
+- name: 5.41|3.59|RelayCNJP4470
+  server: jp-tyo-04-tr.cdn.savoy.click
+  type: trojan
+  country: CN
+  port: 889
+  password: UiLPqefVfielqkDjEwBV
+  skip-cert-verify: true
+  udp: true
+- name: 4.89|4.90|CN2998 1124Mb
   server: hk1.v3.zz.cn.fuckword.club
   type: trojan
   country: CN
@@ -20,7 +23,23 @@ proxies:
   password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
   skip-cert-verify: true
   udp: true
-- name: 4.26|RelayCNJP4378
+- name: 4.76|1.94|JP8274 2453Mb
+  server: 132.145.127.177
+  type: vmess
+  country: JP
+  port: 80
+  uuid: 24f08007-c3d9-4509-8ab0-020bdba37285
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /BEN
+  servername: 132.145.127.177
+  ws-headers:
+    HOST: 132.145.127.177
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.47|4.26|RelayCNJP4378
   server: sd.hy-hk.uuv2.uk
   type: vmess
   country: CN
@@ -37,71 +56,28 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 3.59|RelayCNJP4470
-  server: jp-tyo-04-tr.cdn.savoy.click
-  type: trojan
-  country: CN
-  port: 889
-  password: UiLPqefVfielqkDjEwBV
-  skip-cert-verify: true
-  udp: true
-- name: 3.44|RelayHKHK9183
-  server: azure-f4s-hk.transfer-xray.tk
+- name: 4.42|2.66|RelayJPJP11197
+  server: jp1.np.qjnodeip.xyz
   type: vmess
-  country: HK
-  port: 22103
-  uuid: dab33111-2716-11ec-b3d5-1f8ef29a1816
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.26|CN2999 1099Mb
-  server: gb1.v2.zz.cn.fuckword.club
-  type: trojan
-  country: CN
-  port: 47836
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 3.25|CN3001 1154Mb
-  server: 3.sg.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 36679
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 3.20|RelayKRKR11372
-  server: kr1.xh.qjnodeip.xyz
-  type: vmess
-  country: KR
-  port: 20120
-  uuid: 92aa60ca-1349-3fcb-9824-663972a108f1
-  alterId: 2
+  country: JP
+  port: 80
+  uuid: e11d6761-d8b6-4be5-8fde-071c95e3bffd
+  alterId: 1
   cipher: auto
   network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 3.08|RelayCNJP4392
-  server: jp2.xh.qjnodeip.xyz
-  type: vmess
-  country: CN
-  port: 62869
-  uuid: 65a6e3e1-8f89-3484-a52d-36433031004b
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
+  ws-path: /index
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.90|RelayCNKR4341
+- name: 4.18|2.89|JP8284 2522Mb
+  server: 45.66.134.219
+  type: trojan
+  country: JP
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 4.11|2.90|RelayCNKR4341
   server: sd.hy-hk.uuv2.uk
   type: vmess
   country: CN
@@ -118,7 +94,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 2.90|CN3000  976Mb
+- name: 3.68|2.90|CN3000  976Mb
   server: 3.hk.zz.xxxxx.x-t-fuckword.network
   type: trojan
   country: CN
@@ -126,750 +102,7 @@ proxies:
   password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
   skip-cert-verify: true
   udp: true
-- name: 2.89|JP8284 2522Mb
-  server: 45.66.134.219
-  type: trojan
-  country: JP
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 2.78|CN2996  924Mb
-  server: 2.jp.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 36671
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 2.75|CN2997 1158Mb
-  server: 3.jp.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 36675
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 2.68| 香港I02BGZ
-  server: gz.nat.beer.mypeter.top
-  port: 60610
-  type: vmess
-  uuid: 205c9676-57ec-31dd-b28b-21784535e18c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /ss
-  ws-headers:
-    Host: inkhk02.mypeter.top
-- name: 2.66|RelayJPJP11197
-  server: jp1.np.qjnodeip.xyz
-  type: vmess
-  country: JP
-  port: 80
-  uuid: e11d6761-d8b6-4be5-8fde-071c95e3bffd
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /index
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- tls: false
-  server: 20.205.103.152
-  alterId: 4
-  ws-path: /
-  type: vmess
-  name: 2.62|美国00v2ray2020510315210026
-  uuid: 8b4aa23f-e553-4493-9260-77e56a2a9a0d
-  cipher: auto
-  port: 10026
-  network: ws
-- name: 2.60|RelayCNSG4355
-  server: sg3.xh.qjnodeip.xyz
-  type: vmess
-  country: CN
-  port: 58025
-  uuid: 65a6e3e1-8f89-3484-a52d-36433031004b
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.58|CN2906  668Mb
-  server: ngzyd-1.okex-tradebot.xyz
-  type: vmess
-  country: CN
-  port: 30004
-  uuid: 4b72e8d6-ff5b-4860-82da-820da8cc8f3b
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.57|RelayJPJP11199
-  server: jp1.xh.qjnodeip.xyz
-  type: vmess
-  country: JP
-  port: 80
-  uuid: 65a6e3e1-8f89-3484-a52d-36433031004b
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /index
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.53|CN3003  520Mb
-  server: hkt01.hk.zz.xxxxx.x-t-fuckword.network
-  type: trojan
-  country: CN
-  port: 56812
-  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
-  skip-cert-verify: true
-  udp: true
-- name: 2.48|RelaySGSG13566
-  server: sg1.xh.qjnodeip.xyz
-  type: vmess
-  country: SG
-  port: 20102
-  uuid: 65a6e3e1-8f89-3484-a52d-36433031004b
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /index
-  servername: 13.76.226.184
-  ws-headers:
-    HOST: 13.76.226.184
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.44|RelaySGSG13560
-  server: sg2.xh.qjnodeip.xyz
-  type: vmess
-  country: SG
-  port: 2002
-  uuid: e91bcbc6-e52f-3d0c-823e-837b17634982
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /index
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.39|RelayCNSG912
-  server: icajm.moox.icu
-  type: vmess
-  country: CN
-  port: 40007
-  uuid: 9a42cfbc-aeac-4940-a593-555db6af20ca
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: sgnf.xlanfly.xyz
-  ws-headers:
-    HOST: sgnf.xlanfly.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.22|1.99| 御坂群专属 HK AZ中转 109备用机子别挤
-  server: azure-f4s-hk.transfer-xray.tk
-  port: 33314
-  type: vmess
-  uuid: 8ed48144-1f51-11ec-9c65-c772c4cbe9da
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /V6EbU1hL/
-  ws-headers:
-    Host: azure-f4s-hk.transfer-xray.tk
-- name: 2.20|US19713
-  server: 150.230.249.245
-  type: vmess
-  country: US
-  port: 80
-  uuid: 45f75b04-e22d-40a9-b906-57abfa40a927
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /ben
-  servername: 节点分享Q群:262349039
-  ws-headers:
-    HOST: 节点分享Q群:262349039
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.19|US19716
-  server: 158.101.90.133
-  type: vmess
-  country: US
-  port: 80
-  uuid: b7b41bdd-3a39-4cd5-ea16-261c6c1b01af
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /BEN
-  servername: 158.101.90.133
-  ws-headers:
-    HOST: 158.101.90.133
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.17|RelaySGSG13552
-  server: sgy01.quickairport.top
-  type: vmess
-  country: SG
-  port: 80
-  uuid: 7458cb31-c9e0-4dcc-ab17-4438bba2492b
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /index
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.16|CN2993  630Mb
-  server: ngzyd-1.okex-tradebot.xyz
-  type: vmess
-  country: CN
-  port: 30014
-  uuid: 4b72e8d6-ff5b-4860-82da-820da8cc8f3b
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.10|JP8272  934Mb
-  server: 146.56.110.45
-  type: vmess
-  country: JP
-  port: 80
-  uuid: d8992174-62c3-4eb0-f435-fc1c9ab0f8df
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /BEN
-  servername: 146.56.110.45
-  ws-headers:
-    HOST: 146.56.110.45
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.08| US13343 5730Mb
-  server: nn-ssr24.feiclouddd.me
-  type: vmess
-  country: ' US'
-  port: 443
-  uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9
-  alterId: 60
-  cipher: auto
-  network: ws
-  ws-path: /dsafasdf
-  servername: nn-ssr24.feiclouddd.me
-  ws-headers:
-    HOST: nn-ssr24.feiclouddd.me
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.02| v2ray 马来西亚联通 Netflix
-  server: cu.cheapv2.xyz
-  port: 26610
-  type: vmess
-  uuid: 888215a8-77d4-3f31-8826-960470aa38af
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: cu.cheapv2.xyz
-- alterId: 2
-  cipher: auto
-  name: 1.99|1.25|1005oslook3818053080
-  network: ws
-  port: 80
-  server: v103.v2dns.xyz
-  tls: false
-  type: vmess
-  uuid: 892ebb75-7055-3007-8d16-356e65c6a49a
-  ws-headers:
-    Host: gd.189.cn
-  ws-path: /v1032N9rN0yPy
-- name: 1.94|JP8274 2453Mb
-  server: 132.145.127.177
-  type: vmess
-  country: JP
-  port: 80
-  uuid: 24f08007-c3d9-4509-8ab0-020bdba37285
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /BEN
-  servername: 132.145.127.177
-  ws-headers:
-    HOST: 132.145.127.177
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.90|1.69|CN285329233095
-  server: dx3.heartyu.cn
-  type: vmess
-  country: CN
-  port: 24856
-  uuid: e20135bb-fb16-4f9d-bbe3-a298dc994e41
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: a.189.cn
-  ws-headers:
-    HOST: a.189.cn
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.88|CN2994  378Mb
-  server: rxzgzq.moox.icu
-  type: vmess
-  country: CN
-  port: 34004
-  uuid: 9a42cfbc-aeac-4940-a593-555db6af20ca
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: hinetddns.qiqifamily.top
-  ws-headers:
-    HOST: hinetddns.qiqifamily.top
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.87|JP8270  855Mb
-  server: 146.56.118.208
-  type: vmess
-  country: JP
-  port: 80
-  uuid: 1d6e5f77-9af4-4709-dcbc-4fa280b32110
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /ben
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.86|HK6399 1025Mb
-  server: azure-f4s-hk.transfer-xray.tk
-  type: trojan
-  country: HK
-  port: 14407
-  password: 04fe8b98-8a68-4824-9612-7ed0228d9a76
-  skip-cert-verify: true
-  udp: true
-- name: 1.85|RelayCNKR4389
-  server: sd.hy-hk.uuv2.uk
-  type: vmess
-  country: CN
-  port: 56301
-  uuid: 800cf93f-c43d-4037-a90d-c9d445d696a6
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: krz1.uuv2.uk
-  ws-headers:
-    HOST: krz1.uuv2.uk
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.83|US19712
-  server: 152.67.201.196
-  type: vmess
-  country: US
-  port: 80
-  uuid: 1195cacf-a3cc-4f27-bac7-e2009cff1131
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /ben
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.83|CN2938  472Mb
-  server: ngzyd-1.okex-tradebot.xyz
-  type: vmess
-  country: CN
-  port: 30010
-  uuid: 4b72e8d6-ff5b-4860-82da-820da8cc8f3b
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.77|JP8282 1029Mb
-  server: 5.183.177.111
-  type: trojan
-  country: JP
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.74|1.50|US193312927
-  server: 45.58.45.93
-  type: vmess
-  country: US
-  port: 8888
-  uuid: 27d6dfa1-d290-443a-c697-56bb3b41715e
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /ben
-  servername: 45.58.45.93
-  ws-headers:
-    HOST: 45.58.45.93
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.70|RelayUSUS4890
-  server: inap.qqnz.com.cn
-  type: vmess
-  country: US
-  port: 443
-  uuid: a8f3742c-4422-4943-9293-3ea618a846df
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /IJPCL0JG
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.67|RelayCNTW907
-  server: icajm.moox.icu
-  type: vmess
-  country: CN
-  port: 40020
-  uuid: 9a42cfbc-aeac-4940-a593-555db6af20ca
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: hinetddns.qiqifamily.top
-  ws-headers:
-    HOST: hinetddns.qiqifamily.top
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.63|1.87|HK89719053068
-  server: 62.216.92.180
-  type: trojan
-  country: HK
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.59|NL9068 3613Mb
-  server: ned-server-01.selfupay.com
-  type: trojan
-  country: NL
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.56|NL9062 5625Mb
-  server: 178.62.201.120
-  type: trojan
-  country: NL
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.54| httpsgitiov9999 圣何塞 8
-  server: 107.148.200.123
-  port: 52025
-  type: vmess
-  uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.49|NL9059 5228Mb
-  server: 89.31.127.151
-  type: trojan
-  country: NL
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.46| httpsgitiov9999 莫斯科TTK 2
-  server: 45.144.178.97
-  port: 32231
-  type: vmess
-  uuid: 57a951d4-1c0b-11ec-8be6-365aa404540b
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.45|DE3970 4785Mb
-  server: 5.183.179.138
-  type: trojan
-  country: DE
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.41|CA2510 20949Mb
-  server: 138.197.162.114
-  type: trojan
-  country: CA
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.41|RO11452 4661Mb
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.37|CN2898  010Mb
-  server: 139.155.22.227
-  type: vmess
-  country: CN
-  port: 49110
-  uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- alterId: 8
-  cipher: auto
-  name: 1.36|1.60|1006oslook荷兰NLNetherlandsAmsterdam171834
-  network: tcp
-  port: 61173
-  server: 104.245.96.123
-  tls: false
-  type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: t.me/vpnpool
-- name: 1.35| cfmemcomUS美国19
-  server: 23.234.223.28
-  port: 443
-  type: vmess
-  uuid: e52db663-720b-4894-8235-dac718e65e3f
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /path/323127100515
-  ws-headers:
-    Host: www.68080962.xyz
-- name: 1.35|1.44|US1916230333103
-  server: 23.94.217.239
-  type: vmess
-  country: US
-  port: 65443
-  uuid: e6b18c33-cc39-42c2-a6e5-c359d20de8d2
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /97b9183/
-  servername: nl1.piyou.cyou
-  ws-headers:
-    HOST: nl1.piyou.cyou
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- alterId: 1
-  cipher: auto
-  name: 1.34|1.56|1006oslook澳大利亚AUAustraliaSydney471857
-  network: ws
-  port: 12222
-  server: 149.28.172.85
-  tls: false
-  type: vmess
-  uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: /
-- name: 1.32|RelayTWTW15058
-  server: tw1.xh.qjnodeip.xyz
-  type: vmess
-  country: TW
-  port: 20102
-  uuid: e91bcbc6-e52f-3d0c-823e-837b17634982
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /index
-  servername: tw.node.qchwnd.moe
-  ws-headers:
-    HOST: tw.node.qchwnd.moe
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.32|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.27|CN2904 1183Mb
-  server: rxzgzq.moox.icu
-  type: vmess
-  country: CN
-  port: 34025
-  uuid: 9a42cfbc-aeac-4940-a593-555db6af20ca
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.27|1.53|CN282928993093
-  server: gy.jjxcloud.xyz
-  type: vmess
-  country: CN
-  port: 51520
-  uuid: fcd7ec54-8e19-399d-8a36-415a064b82c4
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.25|JP8271 1315Mb
-  server: 146.56.117.74
-  type: vmess
-  country: JP
-  port: 80
-  uuid: a266d302-9059-4f01-d03b-7a01b8d300dd
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /BEN
-  servername: 146.56.117.74
-  ws-headers:
-    HOST: 146.56.117.74
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.25|RO11454 5433Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.24| Game 3 PPhttp
-  type: trojan
-  server: sg2-trojan.bonds.id
-  port: 443
-  password: 7d450710-f1ad-11eb-a226-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2c
-  - http/1.1
-  skip-cert-verify: true
-- name: 1.21|NL9065 5149Mb
-  server: 185.171.120.144
-  type: trojan
-  country: NL
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.20|RelayRURU13240
-  server: ruml.jjyun.ren
-  type: vmess
-  country: RU
-  port: 88
-  uuid: 6cb4893e-c977-497c-8f68-0b3645e4b51f
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /jjyun
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.19|DE3973 2339Mb
-  server: 194.195.124.174
-  type: trojan
-  country: DE
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.19|US19733
-  server: 104.251.233.106
-  type: vmess
-  country: US
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /ray
-  servername: en.tgchannels.org/channel/vpnpool
-  ws-headers:
-    HOST: en.tgchannels.org/channel/vpnpool
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.19|US19728
-  server: 198.200.51.18
-  type: vmess
-  country: US
-  port: 62096
-  uuid: 42f7eabe-0d3f-11ec-859b-00163caf481c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.18|RelayUSUS21302
-  server: usml.52jjy.top
-  type: vmess
-  country: US
-  port: 88
-  uuid: 56a60bab-bcb5-4408-a956-59cb9987a784
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /jjyunml
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.09|更新地址reurlccW35gV7
+- name: 3.65|1.09|更新地址reurlccW35gV7
   server: tk.shcn2.tkddns.xyz
   type: vmess
   country: HK
@@ -886,23 +119,648 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.05|2.11|US193392935
-  server: 150.230.43.190
+- name: 3.62|SG12089
+  server: 188.166.242.117
+  type: trojan
+  country: SG
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 3.39|更新地址reurlccW35gV7
+  server: kry01.quickairport.top
   type: vmess
   country: US
   port: 80
-  uuid: 476c12d2-676b-4ee3-bed7-1430f8e93589
+  uuid: 7458cb31-c9e0-4dcc-ab17-4438bba2492b
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /index
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.21| 日本 03  PCCW
+  server: mack.dliroom.co
+  port: 10007
+  type: vmess
+  uuid: b567bd47-bae6-3a4f-976a-3a64b701549c
+  alterId: 2
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: pqjp01.0894168.xyz
+- name: 3.19|1.32|RelayTWTW15058
+  server: tw1.xh.qjnodeip.xyz
+  type: vmess
+  country: TW
+  port: 20102
+  uuid: e91bcbc6-e52f-3d0c-823e-837b17634982
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /index
+  servername: tw.node.qchwnd.moe
+  ws-headers:
+    HOST: tw.node.qchwnd.moe
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.15|2.53|CN3003  520Mb
+  server: hkt01.hk.zz.xxxxx.x-t-fuckword.network
+  type: trojan
+  country: CN
+  port: 56812
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
+- name: 2.83|2.17|RelaySGSG13552
+  server: sgy01.quickairport.top
+  type: vmess
+  country: SG
+  port: 80
+  uuid: 7458cb31-c9e0-4dcc-ab17-4438bba2492b
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /index
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.75|3.25|CN3001 1154Mb
+  server: 3.sg.zz.xxxxx.x-t-fuckword.network
+  type: trojan
+  country: CN
+  port: 36679
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
+- name: 2.72|3.26|CN2999 1099Mb
+  server: gb1.v2.zz.cn.fuckword.club
+  type: trojan
+  country: CN
+  port: 47836
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
+- name: 2.70|2.02| v2ray 马来西亚联通 Netflix
+  server: cu.cheapv2.xyz
+  port: 26610
+  type: vmess
+  uuid: 888215a8-77d4-3f31-8826-960470aa38af
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: cu.cheapv2.xyz
+- name: 2.66|1.37|CN2898  010Mb
+  server: 139.155.22.227
+  type: vmess
+  country: CN
+  port: 49110
+  uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.53|1.83|US19712
+  server: 152.67.201.196
+  type: vmess
+  country: US
+  port: 80
+  uuid: 1195cacf-a3cc-4f27-bac7-e2009cff1131
+  alterId: 16
+  cipher: auto
+  network: ws
+  ws-path: /ben
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.45| v2ray 马来西亚移动 Netflix
+  server: cm.cheapv2.xyz
+  port: 26610
+  type: vmess
+  uuid: 888215a8-77d4-3f31-8826-960470aa38af
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: cm.cheapv2.xyz
+- name: 2.38|台湾01
+  type: vmess
+  server: jike-cccn2.ddns-only.xyz
+  port: 39205
+  uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a
+  alterId: 2
+  cipher: auto
+  udp: true
+  network: ws
+  ws-path: /jike1
+  ws-headers:
+    Host: jike1-hinet03.ddns-only.xyz
+- name: 2.24|839 3098Mb
+  server: v4.ssrsub.com
+  type: vmess
+  port: 158
+  udp: true
+  uuid: 683ec608-5af9-4f91-bd5b-ce493307fe56
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v4.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: 2.19|850 3200Mb
+  server: t4.ssrsub.com
+  type: trojan
+  port: 8443
+  password: dde769da-8da0-47d8-bda4-192c761f882a
+  sni: t4.ssrsub.com
+  udp: true
+- name: 2.15|RelayHKUS2073
+  server: azure-f4s-hk.transfer-xray.tk
+  type: vmess
+  country: HK
+  port: 53420
+  uuid: 1b93051f-c9ad-4908-874e-ccb5e8da27ef
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /liuwei
+  servername: usss222.liuwei01.tk
+  ws-headers:
+    HOST: usss222.liuwei01.tk
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.10|1.87|JP8270  855Mb
+  server: 146.56.118.208
+  type: vmess
+  country: JP
+  port: 80
+  uuid: 1d6e5f77-9af4-4709-dcbc-4fa280b32110
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /ben
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.05|4566157195tcp
+  server: 45.66.157.195
+  port: 7596
+  type: vmess
+  uuid: 4cbb0ce4-1ec3-11ec-b76f-00163c06ad53
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.05|1.24| Game 3 PPhttp
+  type: trojan
+  server: sg2-trojan.bonds.id
+  port: 443
+  password: 7d450710-f1ad-11eb-a226-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2c
+  - http/1.1
+  skip-cert-verify: true
+- name: 2.03|US19894
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 2.02|2.68| 香港I02BGZ
+  server: gz.nat.beer.mypeter.top
+  port: 60610
+  type: vmess
+  uuid: 205c9676-57ec-31dd-b28b-21784535e18c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /ss
+  ws-headers:
+    Host: inkhk02.mypeter.top
+- name: 2.01|2.75|CN2997 1158Mb
+  server: 3.jp.zz.xxxxx.x-t-fuckword.network
+  type: trojan
+  country: CN
+  port: 36675
+  password: 5f97472b-b910-32fd-bbd2-403f0c6c5ae0
+  skip-cert-verify: true
+  udp: true
+- name: 1.96|1.32|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.93|US19943
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.89|852 2611Mb
+  server: t7.ssrsub.com
+  type: trojan
+  port: 8443
+  password: dde769da-8da0-47d8-bda4-192c761f882a
+  sni: t7.ssrsub.com
+  udp: true
+- name: 1.87|1.45|DE3970 4785Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.81|1.86|HK6399 1025Mb
+  server: azure-f4s-hk.transfer-xray.tk
+  type: trojan
+  country: HK
+  port: 14407
+  password: 04fe8b98-8a68-4824-9612-7ed0228d9a76
+  skip-cert-verify: true
+  udp: true
+- name: 1.76|2.08| US13343 5730Mb
+  server: nn-ssr24.feiclouddd.me
+  type: vmess
+  country: ' US'
+  port: 443
+  uuid: 94d3ddba-3c75-4ddd-84c5-b859a30b1fb9
+  alterId: 60
+  cipher: auto
+  network: ws
+  ws-path: /dsafasdf
+  servername: nn-ssr24.feiclouddd.me
+  ws-headers:
+    HOST: nn-ssr24.feiclouddd.me
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.75|US19829
+  server: c23s3.jamjams.net
+  type: vmess
+  country: US
+  port: 61173
+  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
+  alterId: 8
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.75|US19837
+  server: 150.230.45.118
+  type: vmess
+  country: US
+  port: 80
+  uuid: 9e1af19d-b520-45d8-babb-a797b8db3f18
   alterId: 16
   cipher: auto
   network: ws
   ws-path: /BEN
-  servername: 150.230.43.190
+  servername: 150.230.45.118
   ws-headers:
-    HOST: 150.230.43.190
+    HOST: 150.230.45.118
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.05|RelayUSUS21296
+- name: 1.74|NL9117
+  server: 132.226.169.93
+  type: vmess
+  country: NL
+  port: 24353
+  uuid: 0453154b-db51-4a66-8f7c-0887878cb9a3
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.69|1.85|RelayCNKR4389
+  server: sd.hy-hk.uuv2.uk
+  type: vmess
+  country: CN
+  port: 56301
+  uuid: 800cf93f-c43d-4037-a90d-c9d445d696a6
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: krz1.uuv2.uk
+  ws-headers:
+    HOST: krz1.uuv2.uk
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.69| zr的HK AWS 电信一般没速度 推荐移动使用
+  server: 18.166.70.251
+  port: 54250
+  type: vmess
+  uuid: edcccf02-2718-11ec-b3d5-1f8ef29a1816
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.67|1.19|DE3973 2339Mb
+  server: 194.195.124.174
+  type: trojan
+  country: DE
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.65|1.70|RelayUSUS4890
+  server: inap.qqnz.com.cn
+  type: vmess
+  country: US
+  port: 443
+  uuid: a8f3742c-4422-4943-9293-3ea618a846df
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /IJPCL0JG
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.65|1.77|JP8282 1029Mb
+  server: 5.183.177.111
+  type: trojan
+  country: JP
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.58|1.41|CA2510 20949Mb
+  server: 138.197.162.114
+  type: trojan
+  country: CA
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.57|TR12597
+  server: 185.247.138.25
+  type: vmess
+  country: TR
+  port: 15079
+  uuid: a1d846ec-9bef-4ffd-e34a-43bb06323ac3
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.54|US19823
+  server: 128.14.157.112
+  type: vmess
+  country: US
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: en.tgchannels.org/channel/vpnpool
+  ws-headers:
+    HOST: en.tgchannels.org/channel/vpnpool
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.52|1.25|RO11454 5433Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.47|1.56|NL9062 5625Mb
+  server: 178.62.201.120
+  type: trojan
+  country: NL
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.44|838 1185Mb
+  server: v5.ssrsub.com
+  type: vmess
+  port: 158
+  udp: true
+  uuid: 683ec608-5af9-4f91-bd5b-ce493307fe56
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v5.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: 1.43|CN2962
+  server: 42.157.8.162
+  type: vmess
+  country: CN
+  port: 46006
+  uuid: 3959477e-55c4-453f-bc80-3b13e64891ac
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.41|833 7796Mb
+  server: v9.ssrsub.com
+  type: vmess
+  port: 158
+  udp: true
+  uuid: 683ec608-5af9-4f91-bd5b-ce493307fe56
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v9.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: 1.41|216105168138tcp
+  server: 216.105.168.138
+  port: 10964
+  type: vmess
+  uuid: b874d3a8-1ff8-11ec-9fc6-0cc47a52170a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.40|1.49|NL9059 5228Mb
+  server: 89.31.127.151
+  type: trojan
+  country: NL
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.37|RelayAUDE336
+  server: 1.0.0.0
+  type: vmess
+  country: AU
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.36|1.41|RO11452 4661Mb
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.31|1.35| cfmemcomUS美国19
+  server: 23.234.223.28
+  port: 443
+  type: vmess
+  uuid: e52db663-720b-4894-8235-dac718e65e3f
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/323127100515
+  ws-headers:
+    Host: www.68080962.xyz
+- name: 1.24|829 2355Mb
+  server: v7.ssrsub.com
+  type: vmess
+  port: 158
+  udp: true
+  uuid: dde769da-8da0-47d8-bda4-192c761f882a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v7.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: 1.20|841 7537Mb
+  server: v10.ssrsub.com
+  type: vmess
+  port: 158
+  udp: true
+  uuid: dde769da-8da0-47d8-bda4-192c761f882a
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v10.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: 1.20|SG12093
+  server: 81.90.189.85
+  type: trojan
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.16|1.21|NL9065 5149Mb
+  server: 185.171.120.144
+  type: trojan
+  country: NL
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.15| US13446
+  server: 45.140.88.192
+  type: vmess
+  country: ' US'
+  port: 16389
+  uuid: 9194ba91-fe8d-4557-e7b9-2dad813e899b
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.15|840 6175Mb
+  server: v1.ssrsub.com
+  type: vmess
+  port: 158
+  udp: true
+  uuid: 683ec608-5af9-4f91-bd5b-ce493307fe56
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v1.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: 1.11| RelayUS31
+  server: v2.ssrsub.com
+  port: 158
+  type: vmess
+  uuid: dde769da-8da0-47d8-bda4-192c761f882a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v2.ssrsub.com
+- name: 1.05|1.05|RelayUSUS21296
   server: usgia.jjyun.ren
   type: vmess
   country: US
@@ -915,3 +773,10 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
+- name: 1.02|854 6542Mb
+  server: t9.ssrsub.com
+  type: trojan
+  port: 8443
+  password: dde769da-8da0-47d8-bda4-192c761f882a
+  sni: t9.ssrsub.com
+  udp: true
