@@ -1,5 +1,5 @@
 proxies:
-- name: 2.23|1.66|2.03|US19894
+- name: 2.20|2.23|1.66|2.03|US19894
   server: 72.167.33.106
   type: trojan
   country: US
@@ -7,7 +7,7 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 2.13|US12786
+- name: 2.11|2.13|US12786
   server: 72.167.45.6
   type: trojan
   country: US
@@ -15,7 +15,14 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 2.00|1.28|1.96|1.32|trojan
+- name: 1.96|1.15|532 6393Mb
+  server: t1.ssrsub.com
+  type: trojan
+  port: 8443
+  password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
+  sni: t1.ssrsub.com
+  udp: true
+- name: 1.77|2.00|1.28|1.96|1.32|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -24,10 +31,10 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.15|532 6393Mb
-  server: t1.ssrsub.com
+- name: 1.31|642 17410Mb
+  server: t6.ssrsub.com
   type: trojan
   port: 8443
   password: 360ecd87-72e8-4706-b252-79d0d0cfe6aa
-  sni: t1.ssrsub.com
+  sni: t6.ssrsub.com
   udp: true
