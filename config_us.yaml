@@ -1,5 +1,5 @@
 proxies:
-- name: 2.13|US18210
+- name: 1.92|2.13|US18210
   server: 107.172.122.231
   type: trojan
   country: US
@@ -8,23 +8,7 @@ proxies:
   sni: t.me/vpnhat
   skip-cert-verify: true
   udp: true
-- name: 2.00|1.88|US16599
-  server: 72.167.33.106
-  type: trojan
-  country: US
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.97|1.97|US16525
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.76|2.06|trojan
+- name: 1.89|1.76|2.06|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -33,3 +17,49 @@ proxies:
   alpn:
   - h2
   - http/1.1
+- name: 1.71|2.00|1.88|US16599
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.65|1.97|1.97|US16525
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: '1.53| Lv1 美国B '
+  server: hinet.rdns.link
+  port: 51659
+  type: ssr
+  cipher: aes-256-cfb
+  password: adsl.cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 6332:wX7v2s
+  obfs-param: 428886332.software-download.microsoft.com
+- name: '1.49| Lv1 美国A '
+  server: hinet.rdns.link
+  port: 51658
+  type: ssr
+  cipher: aes-256-cfb
+  password: adsl.cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 6332:wX7v2s
+  obfs-param: 428886332.software-download.microsoft.com
+- name: '1.49| Lv1 美国C '
+  server: hinet.rdns.link
+  port: 51660
+  type: ssr
+  cipher: aes-256-cfb
+  password: adsl.cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 6332:wX7v2s
+  obfs-param: 428886332.software-download.microsoft.com
