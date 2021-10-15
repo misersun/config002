@@ -1,14 +1,23 @@
 proxies:
-- name: 1.92|2.13|US18210
-  server: 107.172.122.231
+- name: 2.16| H26xUS紐約DigitalOceanRC3312121
+  server: SCDN.3312121.DOVKDO.China-nCDN-nRDS.com
+  port: 12121
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 2.11|1.71|2.00|1.88|US16599
+  server: 72.167.33.106
   type: trojan
   country: US
-  port: 10088
-  password: 79fb4d2f-9632-4fb3-9851-72cc77b2b4e4
-  sni: t.me/vpnhat
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 1.89|1.76|2.06|trojan
+- name: 1.87|1.89|1.76|2.06|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -17,49 +26,27 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.71|2.00|1.88|US16599
-  server: 72.167.33.106
+- name: 1.51|768
+  server: t1.ssrsub.com
   type: trojan
-  country: US
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
+  port: 8443
+  password: 9f665f12-29a2-4ff7-a456-c41f9443e8a7
+  sni: t1.ssrsub.com
   udp: true
-- name: 1.65|1.97|1.97|US16525
-  server: 72.167.45.6
+- name: 1.19| H26xUS舊金山DigitalOceanRC3312223
+  server: SCDN.3312223.BPQZDO.China-nCDN-nRDS.com
+  port: 12223
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 1.05|757
+  server: t2.ssrsub.com
   type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
+  port: 8443
+  password: 9f665f12-29a2-4ff7-a456-c41f9443e8a7
+  sni: t2.ssrsub.com
   udp: true
-- name: '1.53| Lv1 美国B '
-  server: hinet.rdns.link
-  port: 51659
-  type: ssr
-  cipher: aes-256-cfb
-  password: adsl.cloud
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 6332:wX7v2s
-  obfs-param: 428886332.software-download.microsoft.com
-- name: '1.49| Lv1 美国A '
-  server: hinet.rdns.link
-  port: 51658
-  type: ssr
-  cipher: aes-256-cfb
-  password: adsl.cloud
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 6332:wX7v2s
-  obfs-param: 428886332.software-download.microsoft.com
-- name: '1.49| Lv1 美国C '
-  server: hinet.rdns.link
-  port: 51660
-  type: ssr
-  cipher: aes-256-cfb
-  password: adsl.cloud
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 6332:wX7v2s
-  obfs-param: 428886332.software-download.microsoft.com
