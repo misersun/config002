@@ -1,5 +1,5 @@
 proxies:
-- name: 2.38|2.86|1.19| H26xUS舊金山DigitalOceanRC3312223
+- name: 2.85|2.38|2.86|1.19| H26xUS舊金山DigitalOceanRC3312223
   server: SCDN.3312223.BPQZDO.China-nCDN-nRDS.com
   port: 12223
   type: ssr
@@ -9,29 +9,42 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 2.16|CN NodeTest 24  29091 KB
-  server: 14.152.92.72
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
+- name: 2.24|1.89|2.07|1.87|1.89|1.76|2.06|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 2.12|2.08|1.93|2.11|1.71|2.00|1.88|US16599
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
   udp: true
-  speedtest: 297890
-- name: 2.13|1.78| H26xUS紐約DigitalOceanRC3312123
-  server: SCDN.3312123.HPQDDO.China-nCDN-nRDS.com
-  port: 12123
+- name: '2.08| Lv1 美国B '
+  server: hinet.rdns.link
+  port: 51659
   type: ssr
   cipher: aes-256-cfb
-  password: http://cc.ax/
+  password: adsl.cloud
   protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.11|1.88|2.16| H26xUS紐約DigitalOceanRC3312121
+  obfs: tls1.2_ticket_auth
+  protocol-param: 6332:wX7v2s
+  obfs-param: 428886332.software-download.microsoft.com
+- name: 1.91|1.42|1.78|US17981 7682Mb
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.85|2.11|1.88|2.16| H26xUS紐約DigitalOceanRC3312121
   server: SCDN.3312121.DOVKDO.China-nCDN-nRDS.com
   port: 12121
   type: ssr
@@ -41,25 +54,8 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 2.08|1.93|2.11|1.71|2.00|1.88|US16599
-  server: 72.167.33.106
-  type: trojan
-  country: US
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.89|2.07|1.87|1.89|1.76|2.06|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.68|CN NodeTest 4  112 MB
-  server: 42.157.195.233
+- name: 1.69|CN NodeTest 4  105 MB
+  server: 42.157.195.230
   port: 12127
   type: ssr
   cipher: aes-256-cfb
@@ -69,20 +65,8 @@ proxies:
   protocol-param: 600777:154T8b
   obfs-param: 0f099600777.v23f7nM0
   udp: true
-  speedtest: 1178175
-- name: 1.68|CN NodeTest 7  71111 KB
-  server: 42.157.195.229
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-  udp: true
-  speedtest: 728177
-- name: 1.68|CN NodeTest 3  12 MB
+  speedtest: 1103764
+- name: 1.68|1.68|CN NodeTest 3  12 MB
   server: 42.157.195.236
   port: 12127
   type: ssr
@@ -94,42 +78,7 @@ proxies:
   obfs-param: 0f099600777.v23f7nM0
   udp: true
   speedtest: 1263344
-- name: 1.68|CN NodeTest 6  108 MB
-  server: 42.157.195.237
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-  udp: true
-  speedtest: 1127501
-- name: 1.68|CN NodeTest 1  13 MB
-  server: 42.157.195.234
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-  udp: true
-  speedtest: 1361787
-- name: 1.65|RelayCNUS4112
-  server: 42.157.195.228
-  type: ssr
-  country: CN
-  port: 12127
-  password: 68xdgu9eyif
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 600777:154T8b
-  obfs: http_simple
-  obfs-param: 0f099600777.v23f7nM0
-- name: 1.60|CN NodeTest 5  11 MB
+- name: 1.68|1.60|CN NodeTest 5  11 MB
   server: 42.157.195.232
   port: 12127
   type: ssr
@@ -141,121 +90,7 @@ proxies:
   obfs-param: 0f099600777.v23f7nM0
   udp: true
   speedtest: 1152281
-- name: 1.54|CN NodeTest 26  28524 KB
-  server: 42.157.195.239
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-  udp: true
-  speedtest: 292082
-- name: 1.54|CN NodeTest 28  28287 KB
-  server: 42.157.195.240
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-  udp: true
-  speedtest: 289661
-- name: 1.53|CN NodeTest 27  28444 KB
-  server: 42.157.195.238
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-  udp: true
-  speedtest: 291271
-- name: 1.53|RelayCNUS4098
-  server: 14.152.92.74
-  type: ssr
-  country: CN
-  port: 12127
-  password: 68xdgu9eyif
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 600777:154T8b
-  obfs: http_simple
-  obfs-param: 0f099600777.v23f7nM0
-- name: 1.53|CN NodeTest 30  28132 KB
-  server: 14.152.92.70
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-  udp: true
-  speedtest: 288070
-- name: 1.53|CN NodeTest 25  28683 KB
-  server: 42.157.195.241
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-  udp: true
-  speedtest: 293718
-- name: 1.53|CN NodeTest 31  27978 KB
-  server: 14.152.92.71
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-  udp: true
-  speedtest: 286496
-- name: 1.53|CN NodeTest 29  28287 KB
-  server: 42.157.195.242
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-  udp: true
-  speedtest: 289661
-- name: 1.52|CN NodeTest 32  27902 KB
-  server: 14.152.92.73
-  port: 12127
-  type: ssr
-  cipher: aes-256-cfb
-  password: 68xdgu9eyif
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 600777:154T8b
-  obfs-param: 0f099600777.v23f7nM0
-  udp: true
-  speedtest: 285715
-- name: 1.51|1.30|1.51|768
-  server: t1.ssrsub.com
-  type: trojan
-  port: 8443
-  password: 9f665f12-29a2-4ff7-a456-c41f9443e8a7
-  sni: t1.ssrsub.com
-  udp: true
-- name: 1.49|CN NodeTest 2  128 MB
+- name: 1.68|1.49|CN NodeTest 2  128 MB
   server: 42.157.195.231
   port: 12127
   type: ssr
@@ -267,11 +102,193 @@ proxies:
   obfs-param: 0f099600777.v23f7nM0
   udp: true
   speedtest: 1344328
-- name: 1.42|1.78|US17981 7682Mb
-  server: 72.167.45.6
+- name: 1.68|1.68|CN NodeTest 4  112 MB
+  server: 42.157.195.233
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+  speedtest: 1178175
+- name: 1.68|1.68|CN NodeTest 7  71111 KB
+  server: 42.157.195.229
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+  speedtest: 728177
+- name: 1.68|1.68|CN NodeTest 6  108 MB
+  server: 42.157.195.237
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+  speedtest: 1127501
+- name: 1.66|1.65|RelayCNUS4112
+  server: 42.157.195.228
+  type: ssr
+  country: CN
+  port: 12127
+  password: 68xdgu9eyif
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 600777:154T8b
+  obfs: http_simple
+  obfs-param: 0f099600777.v23f7nM0
+- name: 1.60|1.68|CN NodeTest 1  13 MB
+  server: 42.157.195.234
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+  speedtest: 1361787
+- name: 1.53|1.53|CN NodeTest 29  28287 KB
+  server: 42.157.195.242
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+  speedtest: 289661
+- name: 1.53|1.52|CN NodeTest 32  27902 KB
+  server: 14.152.92.73
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+  speedtest: 285715
+- name: 1.53|1.53|CN NodeTest 27  28444 KB
+  server: 42.157.195.238
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+  speedtest: 291271
+- name: 1.53|1.53|CN NodeTest 25  28683 KB
+  server: 42.157.195.241
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+  speedtest: 293718
+- name: 1.53|2.16|CN NodeTest 24  29091 KB
+  server: 14.152.92.72
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+  speedtest: 297890
+- name: 1.53|1.53|CN NodeTest 31  27978 KB
+  server: 14.152.92.71
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+  speedtest: 286496
+- name: 1.52|1.54|CN NodeTest 26  28524 KB
+  server: 42.157.195.239
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+  speedtest: 292082
+- name: 1.52|1.53|RelayCNUS4098
+  server: 14.152.92.74
+  type: ssr
+  country: CN
+  port: 12127
+  password: 68xdgu9eyif
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 600777:154T8b
+  obfs: http_simple
+  obfs-param: 0f099600777.v23f7nM0
+- name: 1.51|1.54|CN NodeTest 28  28287 KB
+  server: 42.157.195.240
+  port: 12127
+  type: ssr
+  cipher: aes-256-cfb
+  password: 68xdgu9eyif
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 600777:154T8b
+  obfs-param: 0f099600777.v23f7nM0
+  udp: true
+  speedtest: 289661
+- name: 1.29|1.51|1.30|1.51|768
+  server: t1.ssrsub.com
   type: trojan
-  country: US
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
+  port: 8443
+  password: 9f665f12-29a2-4ff7-a456-c41f9443e8a7
+  sni: t1.ssrsub.com
+  udp: true
+- name: 1.12|2.13|1.78| H26xUS紐約DigitalOceanRC3312123
+  server: SCDN.3312123.HPQDDO.China-nCDN-nRDS.com
+  port: 12123
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 1.09|737 1248Mb
+  server: t2.ssrsub.com
+  type: trojan
+  port: 8443
+  password: 9f665f12-29a2-4ff7-a456-c41f9443e8a7
+  sni: t2.ssrsub.com
   udp: true

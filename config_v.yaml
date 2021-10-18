@@ -1,47 +1,60 @@
 proxies:
-- name: 5.50|4.51|5.18|5.04|3.96|5.12| 香港免流01 2
-  server: hk01.zz123.xyz
+- name: 7.04| IEPL2日本专线V2RAYv3x30
+  server: iepl1.tedsc.online
+  port: 25547
+  type: vmess
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: iepl1.tedsc.online
+  udp: true
+- name: 5.82|4.00|4.64|5.19|4.83|5.39|JP6468
+  server: 146.56.187.13
+  type: vmess
+  country: JP
+  port: 80
+  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.75|3.58|3.41|5.51|4.25|3.86| 香港3三网优化
+  server: 615hk2.fans8.xyz
   port: 80
   type: vmess
-  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
+  uuid: dd1e127b-7068-384f-98ac-b0358163017f
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /zz
+  ws-path: /v2ray
   ws-headers:
-    Host: a.189.cn
+    Host: 615hk2.fans8.xyz
   udp: true
-- name: 5.40|5.79|5.64|5.04|5.43| 新加坡01 2
-  server: azhk.zz123.xyz
-  port: 38141
+- name: 5.68| 香港V2RAY03VIP2原生x10
+  server: fsy02.tedsc.online
+  port: 25512
   type: vmess
-  uuid: 4a4afac5-1d6c-3014-be38-a7f79a0b8e7a
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /zz
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: azhk.zz123.xyz
+    Host: fsy02.tedsc.online
   udp: true
-- name: 5.35|5.54|4.58|5.25|5.53|4.81| 香港免流03 2
-  server: hk03.zz123.xyz
-  port: 80
-  type: vmess
-  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: a.189.cn
-  udp: true
-- name: 5.23|1.71|3.87|3.92|5.73|1.29| 香港1三网优化
+- name: 5.49|5.23|1.71|3.87|3.92|5.73|1.29| 香港1三网优化
   server: 909hk1.fans8.xyz
   port: 80
   type: vmess
@@ -55,21 +68,96 @@ proxies:
   ws-headers:
     Host: 909hk1.fans8.xyz
   udp: true
-- name: 5.20|4.71|5.43|4.92|4.48| 新加坡02 2
-  server: azhk.zz123.xyz
-  port: 35724
+- name: 5.42| 香港V2RAY07VIP1x10
+  server: fsy01.tedsc.online
+  port: 25554
   type: vmess
-  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /zz
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: azhk.zz123.xyz
+    Host: fsy01.tedsc.online
   udp: true
-- name: 4.86|2.50|4.33|4.48|2.61|1.49|台湾01
+- name: 5.40|亚洲负载均衡
+  server: fz.v2ray.asia
+  port: 25349
+  type: vmess
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 5.31|
+  server: jpwx.52jjyun.top
+  type: vmess
+  country: JP
+  port: 22
+  uuid: 8b76ab3f-e78e-454b-9a70-937c608e49b6
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: /jjyun
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.21| JP C SH负载均衡IPV6
+  server: sh.v2ray.asia
+  port: 25101
+  type: vmess
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 5.06| 香港V2RAY02VIP2原生x10
+  server: fsy01.tedsc.online
+  port: 25511
+  type: vmess
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: fsy01.tedsc.online
+  udp: true
+- name: 5.06| 台湾V2RAY05VIP1原生x10
+  server: fsy02.tedsc.online
+  port: 25521
+  type: vmess
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: fsy02.tedsc.online
+  udp: true
+- name: 4.99| 台湾V2RAY08VIP1原生x10
+  server: fsy02.tedsc.online
+  port: 25544
+  type: vmess
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: fsy02.tedsc.online
+  udp: true
+- name: 4.80|4.86|2.50|4.33|4.48|2.61|1.49|台湾01
   type: vmess
   server: jike-cccn2.ddns-only.xyz
   port: 39205
@@ -81,23 +169,23 @@ proxies:
   ws-path: /jike1
   ws-headers:
     Host: jike1-hinet03.ddns-only.xyz
-- name: 4.82|4.96|4.83|4.04|4.98|4.15| 香港免流04 2
-  server: hk04.zz123.xyz
-  port: 80
+- name: 4.69| 台湾V2RAY01VIP2原生x10
+  server: fsy02.tedsc.online
+  port: 25517
   type: vmess
-  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /zz
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: a.189.cn
+    Host: fsy02.tedsc.online
   udp: true
-- name: 4.82|4.09|1.51|4.10|2.94|2.78| HTW高雄龍抬頭HiNetVC33131
-  server: yqy33131.china-cdn-net.com
-  port: 33131
+- name: 4.64|2.76|4.62|2.05|3.31|3.45|1.14| ITW高雄龍抬頭HiNetVC33132
+  server: yqy33132.china-cdn-net.com
+  port: 33132
   type: vmess
   uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
   alterId: 2
@@ -107,35 +195,8 @@ proxies:
   network: ws
   ws-path: /iso
   ws-headers:
-    Host: yqy33131.china-cdn-net.com
-- name: 4.79|4.41|5.30|5.04|5.49|4.97| 香港免流02
-  server: hk02.zz123.xyz
-  port: 80
-  type: vmess
-  uuid: 4a4afac5-1d6c-3014-be38-a7f79a0b8e7a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: a.189.cn
-  udp: true
-- name: 4.79|4.62|3.73|5.19|4.67| H25xTW台北HiNetVC31132
-  server: yqy31132.china-cdn-net.com
-  port: 31132
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy31132.china-cdn-net.com
-- name: 4.74|3.99|4.37| H3xHKHKTBGPVC36233
+    Host: yqy33132.china-cdn-net.com
+- name: 4.60|4.74|3.99|4.37| H3xHKHKTBGPVC36233
   server: yqy36233.china-cdn-net.com
   port: 36233
   type: vmess
@@ -148,21 +209,20 @@ proxies:
   ws-path: /iso
   ws-headers:
     Host: yqy36233.china-cdn-net.com
-- name: 4.73|4.31|5.16|5.24| 新加坡03 2
-  server: azhk.zz123.xyz
-  port: 32819
+- name: 4.56|2.09|3.79|3.97| I6xHKHKTBGPVC36234
+  server: yqy36234.china-cdn-net.com
+  port: 36234
   type: vmess
-  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /zz
+  ws-path: /iso
   ws-headers:
-    Host: azhk.zz123.xyz
-  udp: true
-- name: 4.65|5.40|4.48|HK5645
+    Host: yqy36234.china-cdn-net.com
+- name: 4.53|4.65|5.40|4.48|HK5645
   server: 18.163.112.47
   type: vmess
   country: HK
@@ -178,207 +238,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.57|3.32|4.55|3.32|CYL科技 5
-  server: lv26wr2p4q0pl8v4i8h.v22222.xyz
-  port: 33331
-  type: vmess
-  uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /tnt-awsxjp1
-  ws-headers:
-    Host: baidu.com
-  udp: true
-- name: 4.48|5.09|4.21|4.77|2.97|4.33| I6xTW台北HiNetVC31138
-  server: yqy31138.china-cdn-net.com
-  port: 31138
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy31138.china-cdn-net.com
-- name: 4.44|2.84|5.19| 香港免流05 2
-  server: hk05.zz123.xyz
-  port: 80
-  type: vmess
-  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: a.189.cn
-  udp: true
-- name: 4.30|3.48|1.36|1.92|35包括V2ray和Trojan
-  server: yqy2335.china-cdn-net.com
-  port: 2335
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy2335.china-cdn-net.com
-- name: 4.29|4.47|4.55|2.63|3.79|3.41| I5xTW台北HiNetVC31131
-  server: yqy31131.china-cdn-net.com
-  port: 31131
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy31131.china-cdn-net.com
-- name: 4.29|3.12|2.77|2.44|37长期套餐覆盖IPLC专线
-  server: yqy2337.china-cdn-net.com
-  port: 2337
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy2337.china-cdn-net.com
-- name: 4.15|1.73|3.21|3.17|3.58|3.61| HTW高雄龍抬頭HiNetVC33237
-  server: yqy33237.china-cdn-net.com
-  port: 33237
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy33237.china-cdn-net.com
-- name: 4.13|4.45|3.82|4.68|3.13|3.83| H3xTW台北HiNetVC31136
-  server: yqy31136.china-cdn-net.com
-  port: 31136
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy31136.china-cdn-net.com
-- name: 4.00|4.64|5.19|4.83|5.39|JP6468
-  server: 146.56.187.13
-  type: vmess
-  country: JP
-  port: 80
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.94|2.06|3.26|3.92|3.59|3.45| I5xTW彰化HiNetVC32131
-  server: yqy32131.china-cdn-net.com
-  port: 32131
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy32131.china-cdn-net.com
-- name: 3.84|4.26|4.53|4.55|4.37| 日本03 2
-  server: azhk.zz123.xyz
-  port: 36813
-  type: vmess
-  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: azhk.zz123.xyz
-  udp: true
-- name: 3.80|3.47|3.90|3.15|3.78| 韩国 2
-  server: azhk.zz123.xyz
-  port: 42799
-  type: vmess
-  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: azhk.zz123.xyz
-  udp: true
-- name: 3.71|4.30|2.67|3.35|3.90|4.27| H3xTW彰化HiNetVC32135
-  server: yqy32135.china-cdn-net.com
-  port: 32135
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy32135.china-cdn-net.com
-- name: 3.66|3.58|2.28|2.12|3.89|1.78| I5xTW彰化HiNetVC32233
-  server: yqy32233.china-cdn-net.com
-  port: 32233
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy32233.china-cdn-net.com
-- name: 3.58|3.41|5.51|4.25|3.86| 香港3三网优化
-  server: 615hk2.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: dd1e127b-7068-384f-98ac-b0358163017f
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 615hk2.fans8.xyz
-  udp: true
-- name: 3.52|3.29|2.16|2.05|36中继中转隧道线路覆盖
+- name: 4.46|3.52|3.29|2.16|2.05|36中继中转隧道线路覆盖
   server: yqy2336.china-cdn-net.com
   port: 2336
   type: vmess
@@ -391,22 +251,9 @@ proxies:
   ws-path: /iso
   ws-headers:
     Host: yqy2336.china-cdn-net.com
-- name: 3.51|CN2771
-  server: gy.jjxcloud.xyz
-  type: vmess
-  country: CN
-  port: 51520
-  uuid: fcd7ec54-8e19-399d-8a36-415a064b82c4
-  alterId: 16
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.41|3.09|2.90|2.98| 31ChinaG几鸡学习助理
-  server: yqy2331.china-cdn-net.com
-  port: 2331
+- name: 4.46|3.94|2.06|3.26|3.92|3.59|3.45| I5xTW彰化HiNetVC32131
+  server: yqy32131.china-cdn-net.com
+  port: 32131
   type: vmess
   uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
   alterId: 2
@@ -416,8 +263,21 @@ proxies:
   network: ws
   ws-path: /iso
   ws-headers:
-    Host: yqy2331.china-cdn-net.com
-- name: 3.13|3.08|4.02|3.31|2.71|2.78| H25xTW彰化HiNetVC32132
+    Host: yqy32131.china-cdn-net.com
+- name: 4.42|3.71|4.30|2.67|3.35|3.90|4.27| H3xTW彰化HiNetVC32135
+  server: yqy32135.china-cdn-net.com
+  port: 32135
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy32135.china-cdn-net.com
+- name: 4.41|3.13|3.08|4.02|3.31|2.71|2.78| H25xTW彰化HiNetVC32132
   server: yqy32132.china-cdn-net.com
   port: 32132
   type: vmess
@@ -430,72 +290,35 @@ proxies:
   ws-path: /iso
   ws-headers:
     Host: yqy32132.china-cdn-net.com
-- name: 3.02|4.71|2.78|4.72|5.37|4.31| I6xTW台北HiNetVC31137
-  server: yqy31137.china-cdn-net.com
-  port: 31137
+- name: 4.32| 台湾V2RAY07VIP1原生x10
+  server: fsy02.tedsc.online
+  port: 25543
   type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /iso
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: yqy31137.china-cdn-net.com
-- name: 3.01|2.83|2.86|4.34|33公益等级線路嚴格限速
-  server: yqy2333.china-cdn-net.com
-  port: 2333
+    Host: fsy02.tedsc.online
+  udp: true
+- name: 4.21| 台湾V2RAY02VIP2原生x10
+  server: fsy02.tedsc.online
+  port: 25518
   type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: yqy2333.china-cdn-net.com
-- name: 2.96|3.24|3.64|1.68|4.31|1.21| HTW高雄龍抬頭HiNetVC33135
-  server: yqy33135.china-cdn-net.com
-  port: 33135
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /iso
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: yqy33135.china-cdn-net.com
-- name: 2.79|2.70|3.13|2.50|US16467
-  server: 3.36.66.100
-  type: vmess
-  country: US
-  port: 80
-  uuid: 562398c8-cb7f-4850-90eb-2fd17dccb13a
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.76|4.62|2.05|3.31|3.45|1.14| ITW高雄龍抬頭HiNetVC33132
-  server: yqy33132.china-cdn-net.com
-  port: 33132
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy33132.china-cdn-net.com
-- name: 2.73|2.67|4.08|1.65|1.70|2.15| ITW高雄龍抬頭HiNetVC33137
+    Host: fsy02.tedsc.online
+  udp: true
+- name: 4.04|2.73|2.67|4.08|1.65|1.70|2.15| ITW高雄龍抬頭HiNetVC33137
   server: yqy33137.china-cdn-net.com
   port: 33137
   type: vmess
@@ -508,35 +331,34 @@ proxies:
   ws-path: /iso
   ws-headers:
     Host: yqy33137.china-cdn-net.com
-- name: 2.69|2.58|2.63|2.58|2.45|2.46| 美国02 2
-  server: azhk.zz123.xyz
-  port: 54188
+- name: 3.88| H3xHKHKTBGPVC36133
+  server: yqy36133.china-cdn-net.com
+  port: 36133
   type: vmess
-  uuid: 4aa916ea-c6b9-3e4c-ba36-7c7c2cbcd903
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /zz
+  ws-path: /iso
   ws-headers:
-    Host: azhk.zz123.xyz
-  udp: true
-- name: 2.68| v2ray 马来西亚移动 Netflix
-  server: cm.cheapv2.xyz
-  port: 26610
+    Host: yqy36133.china-cdn-net.com
+- name: 3.86| 马来西亚测试V2RAY02VIP2原生x10
+  server: fsy02.tedsc.online
+  port: 25541
   type: vmess
-  uuid: 888215a8-77d4-3f31-8826-960470aa38af
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /index
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: cm.cheapv2.xyz
+    Host: genshin.mihoyo.com
   udp: true
-- name: 2.57|4.06|3.68|4.43|2.38|RelayCNSG3844
+- name: 3.85|2.57|4.06|3.68|4.43|2.38|RelayCNSG3844
   server: jxcn2.xhbao.me
   type: vmess
   country: CN
@@ -549,125 +371,284 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.57|2.37|2.65|2.43|34捐赠解锁更多协议线路
-  server: yqy2334.china-cdn-net.com
-  port: 2334
+- name: 3.84| 韩国V2RAY02VIP2x10
+  server: fsy01.tedsc.online
+  port: 25539
   type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /iso
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: yqy2334.china-cdn-net.com
-- name: 2.49|2.09|2.62|2.32|1.80|更新地址reurlccW35gV7
-  server: 139.155.22.227
-  type: vmess
-  country: CN
-  port: 49110
-  uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.43|3.87|4.62|1.69|2.59|1.49| ITW高雄龍抬頭HiNetVC33138
-  server: yqy33138.china-cdn-net.com
-  port: 33138
-  type: vmess
-  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /iso
-  ws-headers:
-    Host: yqy33138.china-cdn-net.com
-- name: 2.40|2.13|RelayCNUS4135
-  server: 120.232.41.42
-  type: vmess
-  country: CN
-  port: 33331
-  uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /tnt-us2
-  servername: t.me/vpnhat
-  ws-headers:
-    HOST: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.39|RelayJPJP10635
-  server: jpy01.quickairport.top
-  type: vmess
-  country: JP
-  port: 80
-  uuid: 7458cb31-c9e0-4dcc-ab17-4438bba2492b
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /index
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.34|3.55|3.65|3.16|3.06|3.99| 印度01
-  server: azhk.zz123.xyz
-  port: 33959
-  type: vmess
-  uuid: 4a4afac5-1d6c-3014-be38-a7f79a0b8e7a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: azhk.zz123.xyz
+    Host: fsy01.tedsc.online
   udp: true
-- name: 2.28|216105168138tcp
-  server: 216.105.168.138
-  port: 10964
+- name: 3.81| HK A HZ
+  server: hy.v2ray.asia
+  port: 25044
   type: vmess
-  uuid: b874d3a8-1ff8-11ec-9fc6-0cc47a52170a
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.25|2.11|RelayCNUS4118
-  server: 111.6.76.34
+  skip-cert-verify: false
+  udp: true
+- name: 3.75| 韩国V2RAY04VIP1x10
+  server: fsy02.tedsc.online
+  port: 25553
   type: vmess
-  country: CN
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: fsy02.tedsc.online
+  udp: true
+- name: 3.73| 香港V2RAY06VIP1x10
+  server: fsy02.tedsc.online
+  port: 25514
+  type: vmess
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: fsy02.tedsc.online
+  udp: true
+- name: 3.69| 马来西亚测试V2RAY01VIP2原生x10
+  server: fsy01.tedsc.online
+  port: 25540
+  type: vmess
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: genshin.mihoyo.com
+  udp: true
+- name: 3.66|1.70|1.20| HTW高雄龍抬頭HiNetVC33136
+  server: yqy33136.china-cdn-net.com
+  port: 33136
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy33136.china-cdn-net.com
+- name: 3.63| IEPL1香港专线V2RAYv3x30
+  server: iepl1.tedsc.online
+  port: 25546
+  type: vmess
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: iepl1.tedsc.online
+  udp: true
+- name: 3.59| HK A GZB
+  server: gyb.v2ray.asia
+  port: 36857
+  type: vmess
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 3.58| 台湾V2RAY03VIP2原生x10
+  server: fsy01.tedsc.online
+  port: 25519
+  type: vmess
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: fsy01.tedsc.online
+  udp: true
+- name: 3.51| JP A HZ负载均衡IPV6
+  server: hl.v2ray.asia
+  port: 25033
+  type: vmess
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 3.49| JP A JM负载均衡IPV6
+  server: jm.v2ray.asia
+  port: 29955
+  type: vmess
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 3.45|1.77|5.11|4.82|4.52|4.41|4.05| H3xTW台北HiNetVC31135
+  server: yqy31135.china-cdn-net.com
+  port: 31135
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy31135.china-cdn-net.com
+- name: 3.37|4.79|4.62|3.73|5.19|4.67| H25xTW台北HiNetVC31132
+  server: yqy31132.china-cdn-net.com
+  port: 31132
+  type: vmess
+  uuid: 27d52299-cc4e-3a79-830a-bc7ee4c81a8e
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: yqy31132.china-cdn-net.com
+- name: 3.36| HK A JM
+  server: jm.v2ray.asia
+  port: 31262
+  type: vmess
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 3.35| HK A GZA
+  server: gya.v2ray.asia
+  port: 33532
+  type: vmess
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 3.31| 新加坡专线1
+  server: sg1.exo123.club
+  port: 10080
+  type: vmess
+  uuid: 8adc3677-60c1-48b5-94ae-08ef78fd1e96
+  alterId: 5
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: sg1.exo123.club
+  udp: true
+- name: 3.28| 印度V2RAY01VIP1x10
+  server: fsy02.tedsc.online
+  port: 25550
+  type: vmess
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: fsy02.tedsc.online
+  udp: true
+- name: 3.25| Lv310x 马来西亚IP均衡优化混合负载
+  server: lv3fl2ciw6cwas22peq.v22222.xyz
   port: 33332
+  type: vmess
   uuid: dc66f479-7453-33ea-9d7f-9a10e04591bf
   alterId: 1
   cipher: auto
+  tls: false
+  skip-cert-verify: false
   network: ws
-  ws-path: /tnt-us2
-  servername: t.me/vpnhat
+  ws-path: /tnt-mlxy
   ws-headers:
-    HOST: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.21|3.41|1.64|2.77|RelaySGSG12672
-  server: sg1.xh.qjnodeip.xyz
+    Host: baidu.com
+  udp: true
+- name: 3.21| 马来西亚1三网优化
+  server: 923my.fans8.xyz
+  port: 80
   type: vmess
-  country: SG
-  port: 20102
-  uuid: 65a6e3e1-8f89-3484-a52d-36433031004b
+  uuid: dd1e127b-7068-384f-98ac-b0358163017f
   alterId: 2
   cipher: auto
+  tls: false
+  skip-cert-verify: false
   network: ws
-  ws-path: /index
-  servername: 13.76.226.184
+  ws-path: /v2ray
   ws-headers:
-    HOST: 13.76.226.184
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
+    Host: 923my.fans8.xyz
+  udp: true
+- name: 3.20| 韩国专线1
+  server: kr1.exo123.club
+  port: 10080
+  type: vmess
+  uuid: 8adc3677-60c1-48b5-94ae-08ef78fd1e96
+  alterId: 5
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: kr1.exo123.club
+  udp: true
+- name: 3.15| IEPL3马来西亚专线测试V2RAYv3奈飞x30
+  server: iepl1.tedsc.online
+  port: 25559
+  type: vmess
+  uuid: 8a2fade0-487b-31a3-a8be-73d547b1195d
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: iepl1.tedsc.online
+  udp: true
+- name: 3.14| 新加坡专线1广移
+  server: zf.gzhk2.anyhk.xyz
+  port: 56524
+  type: vmess
+  uuid: 8adc3677-60c1-48b5-94ae-08ef78fd1e96
+  alterId: 5
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: zf.gzhk2.anyhk.xyz
+  udp: true
