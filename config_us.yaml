@@ -1,29 +1,29 @@
 proxies:
-- name: 2.80|CN2689
-  server: front.sh.9929.nkeo.top
+- name: 2.76| US11271
+  server: az.iganfan.store
   type: trojan
-  country: CN
-  port: 55133
-  password: e0ccff28-4c8e-4936-a91e-3898037764e0
+  country: ' US'
+  port: 12306
+  password: ganfanbaipiao
   skip-cert-verify: true
   udp: true
-- name: 2.45|US16888
-  server: azhk.alink123.com
-  type: trojan
-  country: US
-  port: 444
-  password: e0ccff28-4c8e-4936-a91e-3898037764e0
-  skip-cert-verify: true
-  udp: true
-- name: 2.26|US16827
-  server: azhk.alink123.com
+- name: 2.15|US17637 5693Mb
+  server: 72.167.33.106
   type: trojan
   country: US
   port: 443
-  password: e0ccff28-4c8e-4936-a91e-3898037764e0
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.99|trojan
+- name: 2.00|US16467
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.78|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -32,25 +32,9 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.74|US17637 5693Mb
-  server: 72.167.33.106
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.48|US16903
-  server: usfts.bridge.qchwnd.moe
-  type: trojan
-  country: US
-  port: 28340
-  password: e0ccff28-4c8e-4936-a91e-3898037764e0
-  skip-cert-verify: true
-  udp: true
-- name: 1.31| H26xUS紐約DigitalOceanRC3312121
-  server: SCDN.3312121.DOVKDO.China-nCDN-nRDS.com
-  port: 12121
+- name: 1.74| H26xUS舊金山DigitalOceanRC3312223
+  server: SCDN.3312223.BPQZDO.China-nCDN-nRDS.com
+  port: 12223
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -58,9 +42,19 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 1.21| H26xUS舊金山DigitalOceanRC3312223
-  server: SCDN.3312223.BPQZDO.China-nCDN-nRDS.com
-  port: 12223
+- name: 1.42| H26xUS紐約DigitalOceanRC3312123
+  server: SCDN.3312123.HPQDDO.China-nCDN-nRDS.com
+  port: 12123
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 1.14| H26xUS紐約DigitalOceanRC3312121
+  server: SCDN.3312121.DOVKDO.China-nCDN-nRDS.com
+  port: 12121
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
