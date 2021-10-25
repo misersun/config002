@@ -1,150 +1,27 @@
 proxies:
-- name: 5.38| I5xTW台北HiNetRC31223
-  server: yqy31223.china-cdn-net.com
-  port: 31223
+- name: 6.48| 香港 01 3
+  server: dg-hk-node01.linkthink.app
+  port: 10418
   type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
+  cipher: rc4-md5
+  password: abK09D1FnV
   protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 5.09| H3xTW台北HiNetRC31126
-  server: yqy31126.china-cdn-net.com
-  port: 31126
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.86| H25xTW台北HiNetRC31121
-  server: yqy31121.china-cdn-net.com
-  port: 31121
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.81| H3xHKHKTBGPRC36423
-  server: yqy36423.china-cdn-net.com
-  port: 36423
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.70| I6xHKHKTBGPRC36224
-  server: yqy36224.china-cdn-net.com
-  port: 36224
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.46| H3xHKHKTBGPRC36223
-  server: yqy36223.china-cdn-net.com
-  port: 36223
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.44|05包括V2ray和Trojan
-  server: yqy2325.china-cdn-net.com
-  port: 2325
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.32| HKT转江门427
-  server: sl201.jdxx.xyz
-  port: 35004
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
+  obfs: http_post
+  protocol-param: 227785:819VOzCkG3
+  obfs-param: ''
   udp: true
-- name: 4.28|AZ转移动0327
-  server: sl201.jdxx.xyz
-  port: 25987
+- name: 6.36| 香港 01 2
+  server: dg-hk-node01.linkthink.app
+  port: 10520
   type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
+  cipher: rc4-md5
+  password: abK09D1FnV
   protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
+  obfs: http_post
+  protocol-param: 227782:L1x3oQKUMT
+  obfs-param: ''
   udp: true
-- name: 4.27| I6xHKHKTBGPRC36124
-  server: yqy36124.china-cdn-net.com
-  port: 36124
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.26|AZ转移动0527 2
-  server: sl201.jdxx.xyz
-  port: 25989
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 4.26| I6xHKHKTBGPRC36424
-  server: yqy36424.china-cdn-net.com
-  port: 36424
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.12| HKT转江门227 2
-  server: sl201.jdxx.xyz
-  port: 35002
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 4.09|AZ转移动0427
-  server: sl201.jdxx.xyz
-  port: 25988
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 4.03| I6xHKHKTBGPRC36324
+- name: 5.26| I6xHKHKTBGPRC36324
   server: yqy36324.china-cdn-net.com
   port: 36324
   type: ssr
@@ -154,18 +31,27 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 3.96| HKT转江门327
-  server: sl201.jdxx.xyz
-  port: 35003
+- name: 5.11| I5xTW台北HiNetRC31223
+  server: yqy31223.china-cdn-net.com
+  port: 31223
   type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
+  cipher: aes-256-cfb
+  password: http://cc.ax/
   protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 3.93| I6xTW台北HiNetRC31127
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 5.06| H3xHKHKTBGPRC36123
+  server: yqy36123.china-cdn-net.com
+  port: 36123
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 5.05| I6xTW台北HiNetRC31127
   server: yqy31127.china-cdn-net.com
   port: 31127
   type: ssr
@@ -175,18 +61,38 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 3.89|AZ转移动0227
-  server: sl201.jdxx.xyz
-  port: 25986
+- name: 5.03| I6xHKHKTBGPRC36124
+  server: yqy36124.china-cdn-net.com
+  port: 36124
   type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
+  cipher: aes-256-cfb
+  password: http://cc.ax/
   protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.85| H3xTW彰化HiNetRC32126
+  server: yqy32126.china-cdn-net.com
+  port: 32126
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.73| 香港 免费节点EC2负载均衡
+  server: gz2.52168.xyz
+  port: 2109
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
+  protocol-param: 623:f91myz466fp
+  obfs-param: bcbf9623.baidu.com
   udp: true
-- name: 3.88| I5xTW台北HiNetRC31122
+- name: 4.66| I5xTW台北HiNetRC31122
   server: yqy31122.china-cdn-net.com
   port: 31122
   type: ssr
@@ -196,18 +102,37 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 3.83| HKT转江门127
-  server: sl201.jdxx.xyz
-  port: 35001
+- name: 4.51| H25xTW台北HiNetRC31121
+  server: yqy31121.china-cdn-net.com
+  port: 31121
   type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
+  cipher: aes-256-cfb
+  password: http://cc.ax/
   protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 3.80|国内中专127 2
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.47| H3xTW台北HiNetRC31125
+  server: yqy31125.china-cdn-net.com
+  port: 31125
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.46| I5xTW彰化HiNetRC32223
+  server: yqy32223.china-cdn-net.com
+  port: 32223
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.45|国内中专127 2
   server: tz-yd01.jdxx.xyz
   port: 35008
   type: ssr
@@ -218,9 +143,49 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 3.80|国内中专227 2
-  server: tz-yd01.jdxx.xyz
-  port: 35007
+- name: 4.42| H3xHKHKTBGPRC36423
+  server: yqy36423.china-cdn-net.com
+  port: 36423
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.41| I6xHKHKTBGPRC36224
+  server: yqy36224.china-cdn-net.com
+  port: 36224
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.40| H3xHKHKTBGPRC36223
+  server: yqy36223.china-cdn-net.com
+  port: 36223
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.39| HTW高雄龍抬頭HiNetRC33121
+  server: yqy33121.china-cdn-net.com
+  port: 33121
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.38|AZ转移动0427
+  server: sl201.jdxx.xyz
+  port: 25988
   type: ssr
   cipher: chacha20-ietf
   password: MaOKEa
@@ -229,9 +194,9 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 3.78| H3xTW台北HiNetRC31125
-  server: yqy31125.china-cdn-net.com
-  port: 31125
+- name: 4.35| H3xTW台北HiNetRC31126
+  server: yqy31126.china-cdn-net.com
+  port: 31126
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -239,9 +204,20 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 3.77| I6xTW台北HiNetRC31128
-  server: yqy31128.china-cdn-net.com
-  port: 31128
+- name: 4.34| HKT转江门427
+  server: sl201.jdxx.xyz
+  port: 35004
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1237:Wa2lOa
+  obfs-param: b00e31237.microsoft.com
+  udp: true
+- name: 4.29| ITW高雄龍抬頭HiNetRC33122
+  server: yqy33122.china-cdn-net.com
+  port: 33122
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -249,7 +225,60 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 3.70|国内中专327 2
+- name: 4.22| 新加坡 VIP节点
+  server: gz2.52168.xyz
+  port: 2106
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:f91myz466fp
+  obfs-param: bcbf9623.baidu.com
+  udp: true
+- name: 4.19| 香港 02 2
+  server: dg-hk-node02.linkthink.app
+  port: 12312
+  type: ssr
+  cipher: aes-256-cfb
+  password: e5opjuLDEQ
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227003:iawnbjGNuv
+  obfs-param: ''
+  udp: true
+- name: 4.16| I6xHKHKTBGPRC36424
+  server: yqy36424.china-cdn-net.com
+  port: 36424
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.15|AZ转移动0527 2
+  server: sl201.jdxx.xyz
+  port: 25989
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1237:Wa2lOa
+  obfs-param: b00e31237.microsoft.com
+  udp: true
+- name: 4.15| H25xTW彰化HiNetRC32121
+  server: yqy32121.china-cdn-net.com
+  port: 32121
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 4.14|国内中专327 2
   server: tz-yd01.jdxx.xyz
   port: 35006
   type: ssr
@@ -260,29 +289,20 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 3.67|07长期套餐覆盖IPLC专线
-  server: yqy2327.china-cdn-net.com
-  port: 2327
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.64| HTW高雄龍抬頭HiNetRC33126
-  server: yqy33126.china-cdn-net.com
-  port: 33126
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.60| 日本移动隧道227 2
+- name: 4.12|AZ转移动0127
   server: sl201.jdxx.xyz
-  port: 26387
+  port: 25985
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1620:BfGQJg
+  obfs-param: 2605b1620.microsoft.com
+  udp: true
+- name: 3.99|AZ转移动0327
+  server: sl201.jdxx.xyz
+  port: 25987
   type: ssr
   cipher: chacha20-ietf
   password: MaOKEa
@@ -291,7 +311,18 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 3.58| 韩国移动隧道527 2
+- name: 3.97| HKT转江门127
+  server: sl201.jdxx.xyz
+  port: 35001
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1237:Wa2lOa
+  obfs-param: b00e31237.microsoft.com
+  udp: true
+- name: 3.96| 韩国移动隧道527 2
   server: sl201.jdxx.xyz
   port: 26390
   type: ssr
@@ -302,7 +333,70 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 3.53| 日本移动隧道427 2
+- name: 3.87| H3xTW彰化HiNetRC32125
+  server: yqy32125.china-cdn-net.com
+  port: 32125
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 3.86| I5xTW彰化HiNetRC32122
+  server: yqy32122.china-cdn-net.com
+  port: 32122
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 3.84|AZ转移动0227
+  server: sl201.jdxx.xyz
+  port: 25986
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1237:Wa2lOa
+  obfs-param: b00e31237.microsoft.com
+  udp: true
+- name: 3.82| 日本移动隧道227 2
+  server: sl201.jdxx.xyz
+  port: 26387
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1237:Wa2lOa
+  obfs-param: b00e31237.microsoft.com
+  udp: true
+- name: 3.70|国内中专227 2
+  server: tz-yd01.jdxx.xyz
+  port: 35007
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1237:Wa2lOa
+  obfs-param: b00e31237.microsoft.com
+  udp: true
+- name: 3.66| I6xTW彰化HiNetRC32127
+  server: yqy32127.china-cdn-net.com
+  port: 32127
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 3.65| 日本移动隧道427 2
   server: sl201.jdxx.xyz
   port: 26389
   type: ssr
@@ -313,9 +407,9 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 3.49| 日本移动隧道127 2
+- name: 3.55| HKT转江门227 2
   server: sl201.jdxx.xyz
-  port: 26386
+  port: 35002
   type: ssr
   cipher: chacha20-ietf
   password: MaOKEa
@@ -324,67 +418,7 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 3.39|06中继中转隧道线路覆盖
-  server: yqy2326.china-cdn-net.com
-  port: 2326
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.27| ITW高雄龍抬頭HiNetRC33127
-  server: yqy33127.china-cdn-net.com
-  port: 33127
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.10| HTW高雄龍抬頭HiNetRC33227
-  server: yqy33227.china-cdn-net.com
-  port: 33227
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.90| ITW高雄龍抬頭HiNetRC33128
-  server: yqy33128.china-cdn-net.com
-  port: 33128
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.87| HTW高雄龍抬頭HiNetRC33125
-  server: yqy33125.china-cdn-net.com
-  port: 33125
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.84| H3xHKHKTBGPRC36123
-  server: yqy36123.china-cdn-net.com
-  port: 36123
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 2.17| 01ChinaG几鸡学习助理
+- name: 3.05| 01ChinaG几鸡学习助理
   server: yqy2321.china-cdn-net.com
   port: 2321
   type: ssr
@@ -394,9 +428,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 1.86| HTW高雄龍抬頭HiNetRC33121
-  server: yqy33121.china-cdn-net.com
-  port: 33121
+- name: 2.43| I6xTW彰化HiNetRC32128
+  server: yqy32128.china-cdn-net.com
+  port: 32128
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
@@ -404,7 +438,69 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 1.75|04捐赠解锁更多协议线路
+- name: 2.40| I6xTW台北HiNetRC31128
+  server: yqy31128.china-cdn-net.com
+  port: 31128
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 2.35|07长期套餐覆盖IPLC专线
+  server: yqy2327.china-cdn-net.com
+  port: 2327
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 2.25| ITW高雄龍抬頭HiNetRC33127
+  server: yqy33127.china-cdn-net.com
+  port: 33127
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 1.86| 香港04测试 4
+  server: 42.157.196.104
+  port: 20758
+  type: ssr
+  cipher: aes-256-cfb
+  password: CWSZscLkjf
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227785:819VOzCkG3
+  obfs-param: ''
+  udp: true
+- name: 1.84| HKT转江门327
+  server: sl201.jdxx.xyz
+  port: 35003
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1237:Wa2lOa
+  obfs-param: b00e31237.microsoft.com
+  udp: true
+- name: 1.80| HTW高雄龍抬頭HiNetRC33227
+  server: yqy33227.china-cdn-net.com
+  port: 33227
+  type: ssr
+  cipher: aes-256-cfb
+  password: http://cc.ax/
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 48529:tCIwlf
+  obfs-param: data.bilibili.com/8d41348529
+- name: 1.79|04捐赠解锁更多协议线路
   server: yqy2324.china-cdn-net.com
   port: 2324
   type: ssr
@@ -414,49 +510,9 @@ proxies:
   obfs: plain
   protocol-param: 48529:tCIwlf
   obfs-param: data.bilibili.com/8d41348529
-- name: 1.74| H26xUS舊金山DigitalOceanRC3312223
-  server: SCDN.3312223.BPQZDO.China-nCDN-nRDS.com
-  port: 12223
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 1.42| H26xUS紐約DigitalOceanRC3312123
-  server: SCDN.3312123.HPQDDO.China-nCDN-nRDS.com
-  port: 12123
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 1.39|03公益等级線路嚴格限速
-  server: yqy2323.china-cdn-net.com
-  port: 2323
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 1.14| H26xUS紐約DigitalOceanRC3312121
-  server: SCDN.3312121.DOVKDO.China-nCDN-nRDS.com
-  port: 12121
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 1.04| ITW高雄龍抬頭HiNetRC33122
-  server: yqy33122.china-cdn-net.com
-  port: 33122
+- name: 1.74|06中继中转隧道线路覆盖
+  server: yqy2326.china-cdn-net.com
+  port: 2326
   type: ssr
   cipher: aes-256-cfb
   password: http://cc.ax/
