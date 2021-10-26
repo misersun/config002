@@ -1,5 +1,37 @@
 proxies:
-- name: 2.15|trojan
+- name: 2.77|RelayUSUS78 1843Mb
+  server: az.iganfan.store
+  type: trojan
+  country: US
+  port: 12306
+  password: ganfanbaipiao
+  skip-cert-verify: true
+  udp: true
+- name: 2.11|US17637 5693Mb
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.83|US16467
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.79|RelayUSUS4060
+  server: t1.ssrsub.com
+  type: trojan
+  country: US
+  port: 8443
+  password: 5b092e88-82d8-47eb-a7a2-98bcf02754e9
+  skip-cert-verify: true
+  udp: true
+- name: 1.73|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -8,39 +40,3 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 2.14|US16467
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.90|US17637 5693Mb
-  server: 72.167.33.106
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.34| H26xUS紐約DigitalOceanRC3312121
-  server: SCDN.3312121.DOVKDO.China-nCDN-nRDS.com
-  port: 12121
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 1.28| H26xUS紐約DigitalOceanRC3312123
-  server: SCDN.3312123.HPQDDO.China-nCDN-nRDS.com
-  port: 12123
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
