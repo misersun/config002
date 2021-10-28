@@ -1,45 +1,32 @@
 proxies:
-- name: 5.79| 香港寬頻
-  server: hkbn2.tcpbbr.net
-  port: 80
+- name: 5.67|更新地址reurlccW35gV7
+  server: cn2.relay.starlink.st
   type: vmess
-  uuid: 4c3ba552-174e-11ec-a8bf-f23c91cfbbc9
-  alterId: 2
+  country: CN
+  port: 65011
+  uuid: 6c810d84-b725-4a7a-8c9a-10d99a14cfcb
+  alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: broadcastlv.chat.bilibili.com
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 5.57|1024oslook中国香港中国台湾CNChinaHangzhou可能是中转节点6
   network: tcp
-  port: 25033
-  server: 101.67.7.29
-  tls: false
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.11| V2新加坡02 中继C  15x
+  server: in03.ddns168.com
+  port: 63052
   type: vmess
-  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: t.me/vpnpool
-- name: 5.55| 香港免流03
-  server: hk03.zz123.xyz
-  port: 80
-  type: vmess
-  uuid: 08090dfa-3bad-3fb3-82cd-f7bd238c4abf
-  alterId: 2
+  uuid: 1dc83945-fda1-32a1-821c-2a395ae98161
+  alterId: 1
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /zz
+  ws-path: /hls
   ws-headers:
-    Host: a.189.cn
+    Host: cdn.bootcdn.net
   udp: true
-- name: 5.36| 香港3三网优化
+- name: 4.58| 香港3三网优化
   server: 615hk2.fans8.xyz
   port: 80
   type: vmess
@@ -53,85 +40,59 @@ proxies:
   ws-headers:
     Host: 615hk2.fans8.xyz
   udp: true
-- name: 5.00| 香港免流02
-  server: hk02.zz123.xyz
-  port: 80
+- name: 4.51| V2新加坡01 中继C  NF 15x
+  server: in03.ddns168.com
+  port: 63013
   type: vmess
-  uuid: 08090dfa-3bad-3fb3-82cd-f7bd238c4abf
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: a.189.cn
-  udp: true
-- name: 4.95| 香港免流05 解锁新加坡区奈飞
-  server: hk05.zz123.xyz
-  port: 80
-  type: vmess
-  uuid: 08090dfa-3bad-3fb3-82cd-f7bd238c4abf
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: a.189.cn
-  udp: true
-- name: 4.78| 新加坡01
-  server: azhk.zz123.xyz
-  port: 38141
-  type: vmess
-  uuid: 08090dfa-3bad-3fb3-82cd-f7bd238c4abf
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: azhk.zz123.xyz
-  udp: true
-- name: 4.37| 新加坡G2
-  server: ah.cncm.v2bees.com
-  port: 51003
-  type: vmess
-  uuid: 5d6c7299-810e-49a4-b10f-e8a6987e5b51
+  uuid: 1dc83945-fda1-32a1-821c-2a395ae98161
   alterId: 1
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /
+  ws-path: /mg
   ws-headers:
-    Host: xueshu.baidu.com
+    Host: mugua-sg01.covid19.rip
   udp: true
-- name: 4.02| 新加坡G3
-  server: ah.cncm.v2bees.com
-  port: 51013
+- name: 4.28| V2新加坡02 中继D  15x
+  server: in04.ddns168.com
+  port: 63052
   type: vmess
-  uuid: 5d6c7299-810e-49a4-b10f-e8a6987e5b51
+  uuid: 1dc83945-fda1-32a1-821c-2a395ae98161
   alterId: 1
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /
+  ws-path: /hls
   ws-headers:
-    Host: xueshu.baidu.com
+    Host: cdn.bootcdn.net
   udp: true
-- name: 3.99|do原
-  server: 144.126.240.174
-  port: 80
+- name: 4.05|RelayCNUS264
+  server: 120.240.86.53
   type: vmess
-  uuid: ec4b0068-91e9-45b7-a6b5-cf2db3eaacda
+  country: CN
+  port: 29955
+  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
   alterId: 0
   cipher: auto
+  network: tcp
+  ws-path: t.me/vpnpool
+  servername: t.me/vpnhat
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- alterId: 0
+  cipher: auto
+  name: 3.77|1028oslook新加坡SGSingaporeSingapore36
+  network: ws
+  port: 80
+  server: 157.245.151.90
   tls: false
-- name: 3.94| 广州移动香港vpnpool
+  type: vmess
+  uuid: d96115c5-ec25-45a3-bc94-2b813db31e09
+  ws-path: /
+- name: 3.77| 广州移动香港vpnpool
   server: 120.236.198.153
   port: 33082
   type: vmess
@@ -141,126 +102,21 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: 3.78| 新加坡G1
-  server: g.v2bees.com
-  port: 26457
+- name: 3.40| V2新加坡02 中继E  15x
+  server: in05.ddns168.com
+  port: 63052
   type: vmess
-  uuid: 5d6c7299-810e-49a4-b10f-e8a6987e5b51
+  uuid: 1dc83945-fda1-32a1-821c-2a395ae98161
   alterId: 1
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /
+  ws-path: /hls
   ws-headers:
-    Host: www.baidu.com
+    Host: cdn.bootcdn.net
   udp: true
-- name: 3.64| 广移 香港 ZR公益
-  server: gzcm.xhbao.me
-  port: 58963
-  type: vmess
-  uuid: 00138042-5598-459e-a56b-d1c7833e5a28
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: gzcm.xhbao.me
-- name: 3.59| 香港免流01
-  server: hk01.zz123.xyz
-  port: 80
-  type: vmess
-  uuid: 08090dfa-3bad-3fb3-82cd-f7bd238c4abf
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: a.189.cn
-  udp: true
-- name: 3.56|更新地址reurlccW35gV7
-  server: 146.56.159.81
-  type: vmess
-  country: JP
-  port: 25487
-  uuid: d965d82e-b325-44e8-a472-84721a3ab07c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.50| 香港G2
-  server: g.v2bees.com
-  port: 36567
-  type: vmess
-  uuid: 5d6c7299-810e-49a4-b10f-e8a6987e5b51
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: www.baidu.com
-  udp: true
-- name: 3.47| 香港G5
-  server: ahmas.v2bees.com
-  port: 32315
-  type: vmess
-  uuid: 5d6c7299-810e-49a4-b10f-e8a6987e5b51
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: www.baidu.com
-  udp: true
-- name: 3.41| 日本03
-  server: azhk.zz123.xyz
-  port: 34083
-  type: vmess
-  uuid: 08090dfa-3bad-3fb3-82cd-f7bd238c4abf
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: azhk.zz123.xyz
-  udp: true
-- name: 3.40| 广州移动香港vpnpool 2
-  server: 120.236.198.153
-  port: 33105
-  type: vmess
-  uuid: dd519488-3552-362d-a881-57523865295e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
-- name: 3.37| 香港G4
-  server: ahmas.v2bees.com
-  port: 31774
-  type: vmess
-  uuid: 5d6c7299-810e-49a4-b10f-e8a6987e5b51
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: www.baidu.com
-  udp: true
-- name: 3.26| JP A JM 两台负载IPV6
+- name: 3.38| JP A JM 两台负载IPV6
   server: jm.v2ray.asia
   port: 29955
   type: vmess
@@ -270,33 +126,7 @@ proxies:
   tls: false
   skip-cert-verify: false
   udp: true
-- name: 3.23| 江门 香港 ZR公益
-  server: cmjm.xhbao.me
-  port: 58963
-  type: vmess
-  uuid: 00138042-5598-459e-a56b-d1c7833e5a28
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cmjm.xhbao.me
-- name: 3.06| 香港VIP01奈飞解锁
-  server: g.v2bees.com
-  port: 31000
-  type: vmess
-  uuid: 5d6c7299-810e-49a4-b10f-e8a6987e5b51
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: www.baidu.com
-  udp: true
-- name: 3.05| 香港8三网优化
+- name: 3.21| 香港8三网优化
   server: 909hk2.fans8.xyz
   port: 80
   type: vmess
@@ -310,77 +140,88 @@ proxies:
   ws-headers:
     Host: 909hk2.fans8.xyz
   udp: true
-- name: 3.05| 香港G3
-  server: g.v2bees.com
-  port: 25015
+- name: 3.18| V3IEPL专线 新加坡05  10x 原生IP
+  server: iplc01.ddns168.com
+  port: 3053
   type: vmess
-  uuid: 5d6c7299-810e-49a4-b10f-e8a6987e5b51
+  uuid: 1dc83945-fda1-32a1-821c-2a395ae98161
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 2.94| 广州移动香港vpnpool 2
+  server: 120.236.198.153
+  port: 33105
+  type: vmess
+  uuid: dd519488-3552-362d-a881-57523865295e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  udp: true
+- name: 2.81|台湾01
+  type: vmess
+  server: jike-cccn2.ddns-only.xyz
+  port: 39205
+  uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a
+  alterId: 2
+  cipher: auto
+  udp: true
+  network: ws
+  ws-path: /jike1
+  ws-headers:
+    Host: jike1-hinet03.ddns-only.xyz
+- name: 2.65|更新地址reurlccW35gV7
+  server: 139.155.22.227
+  type: vmess
+  country: CN
+  port: 49110
+  uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.60|do原
+  server: 144.126.240.174
+  port: 80
+  type: vmess
+  uuid: ec4b0068-91e9-45b7-a6b5-cf2db3eaacda
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.41| 香港1三网优化
+  server: 909hk1.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: dd1e127b-7068-384f-98ac-b0358163017f
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 909hk1.fans8.xyz
+  udp: true
+- name: 2.40| V2新加坡02 中继B  15x
+  server: in02.ddns168.com
+  port: 63052
+  type: vmess
+  uuid: 1dc83945-fda1-32a1-821c-2a395ae98161
   alterId: 1
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /
+  ws-path: /hls
   ws-headers:
-    Host: www.baidu.com
+    Host: cdn.bootcdn.net
   udp: true
-- name: 3.01| 新加坡02
-  server: azhk.zz123.xyz
-  port: 35724
-  type: vmess
-  uuid: 08090dfa-3bad-3fb3-82cd-f7bd238c4abf
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: azhk.zz123.xyz
-  udp: true
-- name: 2.64| 印度01 包月3元起
-  server: azhk.zz123.xyz
-  port: 33959
-  type: vmess
-  uuid: 08090dfa-3bad-3fb3-82cd-f7bd238c4abf
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: azhk.zz123.xyz
-  udp: true
-- name: 2.51| 新加坡03
-  server: azhk.zz123.xyz
-  port: 32819
-  type: vmess
-  uuid: 08090dfa-3bad-3fb3-82cd-f7bd238c4abf
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: azhk.zz123.xyz
-  udp: true
-- name: 2.51| 韩国
-  server: azhk.zz123.xyz
-  port: 33413
-  type: vmess
-  uuid: 08090dfa-3bad-3fb3-82cd-f7bd238c4abf
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: azhk.zz123.xyz
-  udp: true
-- name: 2.49| 马来西亚1三网优化
+- name: 2.20| 马来西亚1三网优化
   server: 923my.fans8.xyz
   port: 80
   type: vmess
@@ -394,68 +235,55 @@ proxies:
   ws-headers:
     Host: 923my.fans8.xyz
   udp: true
-- name: 2.47|更新地址reurlccW35gV7
-  server: 139.155.22.227
+- name: 2.17| V2台湾01 中继C  NF
+  server: in03.ddns168.com
+  port: 63002
   type: vmess
-  country: CN
-  port: 49110
-  uuid: f7675b7e-59bf-435c-ac03-dc2482f27e5d
-  alterId: 64
+  uuid: 1dc83945-fda1-32a1-821c-2a395ae98161
+  alterId: 2
   cipher: auto
-  network: tcp
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls
+  ws-headers:
+    Host: cdn.bootcdn.net
+  udp: true
+- name: 1.95|直连 新加坡1 Netflix SG
+  type: vmess
+  server: 165.22.61.210
+  port: 21888
+  uuid: 6ae2e994-2018-4f9f-a5bb-4639c14ba05f
+  alterId: 1
+  cipher: auto
+  udp: true
+  network: ws
+- name: 1.86|RelayHK4278  175Mb
+  server: hkt.nkeo.top
+  type: vmess
+  country: HK
+  port: 48691
+  uuid: d96115c5-ec25-45a3-bc94-2b813db31e09
+  alterId: 0
+  cipher: auto
+  network: ws
   ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.14| US A HZ NETFLIX
-  server: hy.v2ray.asia
-  port: 25019
-  type: vmess
-  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 2.10|1024oslook中国香港中国台湾CNChinaHangzhou可能是中转节点15
+  name: 1.83|1024oslook中国香港中国台湾CNChinaShenzhen可能是中转节点22
   network: tcp
-  port: 25019
-  server: 101.67.7.29
+  port: 33130
+  server: 120.240.86.53
   tls: false
   type: vmess
   uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
   ws-headers:
     Host: t.me/vpnhat
   ws-path: t.me/vpnpool
-- name: 2.05|US15377  980Mb
-  server: aws.mooncloud.bike
-  type: vmess
-  country: US
-  port: 10021
-  uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.91|US15375  925Mb
-  server: azxg.mooncloud.bike
-  type: vmess
-  country: US
-  port: 10020
-  uuid: 792f7496-a1e2-4694-96f4-5fbe5e13d68b
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.90|RelayCNSG266
+- name: 1.79|RelayCNSG266
   server: 120.232.173.88
   type: vmess
   country: CN
@@ -469,61 +297,40 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- alterId: 0
-  cipher: auto
-  name: 1.86|1024oslook中国香港中国台湾CNChinaShenzhen可能是中转节点22
-  network: tcp
-  port: 33130
-  server: 120.240.86.53
-  tls: false
+- name: 1.59|RelayKRKR672
+  server: kr.52jjyun.top
   type: vmess
-  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: t.me/vpnpool
-- name: 1.81|HK4990  862Mb
-  server: 18.163.112.47
-  type: vmess
-  country: HK
-  port: 10086
-  uuid: 9ac3fec9-337b-47c9-c6b3-888921500779
-  alterId: 0
+  country: KR
+  port: 88
+  uuid: bf7134c3-914d-4294-8cdf-6eda920d1a42
+  alterId: 10
   cipher: auto
   network: ws
-  ws-path: /Download
-  servername: www.amazon.co.jp
-  ws-headers:
-    HOST: www.amazon.co.jp
+  ws-path: /jjyun
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- alterId: 0
+- name: 1.45|TUR  Bursa
+  server: 185.247.138.25
+  port: 15079
+  type: vmess
+  uuid: a1d846ec-9bef-4ffd-e34a-43bb06323ac3
+  alterId: 64
   cipher: auto
-  name: 1.59|1024oslook中国香港中国台湾CNChinaShenzhen可能是中转节点1
-  network: tcp
-  port: 28592
-  server: 120.240.86.53
   tls: false
+- name: 1.29| 香港HK 05
+  server: v1-aws-hk-05.niaoyun.online
+  port: 666
   type: vmess
-  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
-  ws-headers:
-    Host: t.me/vpnhat
-  ws-path: t.me/vpnpool
-- name: 1.57|RelayCNUS264
-  server: 120.240.86.53
-  type: vmess
-  country: CN
-  port: 29955
-  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
-  alterId: 0
+  uuid: 8596cfc7-8d6b-3dc9-8cb3-c73c6678da80
+  alterId: 1
   cipher: auto
-  network: tcp
-  ws-path: t.me/vpnpool
-  servername: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.55|直连 英国 BBC Netflix SG
+  tls: false
+  network: ws
+  ws-path: /niaocloud
+  ws-headers:
+    Host: v1-aws-hk-05.niaoyun.online
+- name: 1.25|直连 英国 BBC Netflix SG
   type: vmess
   server: 46.101.28.98
   port: 12222
@@ -534,7 +341,17 @@ proxies:
   network: ws
 - alterId: 0
   cipher: auto
-  name: 1.46|1024oslook中国香港中国台湾CNChinaGuangzhou可能是中转节点41
+  name: 1.23|1028oslook新加坡SGSingaporeSingapore38
+  network: ws
+  port: 80
+  server: 165.232.167.127
+  tls: false
+  type: vmess
+  uuid: d96115c5-ec25-45a3-bc94-2b813db31e09
+  ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 1.15|1024oslook中国香港中国台湾CNChinaGuangzhou可能是中转节点41
   network: tcp
   port: 25610
   server: 120.232.173.88
@@ -544,36 +361,25 @@ proxies:
   ws-headers:
     Host: t.me/vpnhat
   ws-path: t.me/vpnpool
-- alterId: 10
-  cipher: auto
-  name: 1.37|1026oslook英国GBUnited KiongdomLondon86
-  network: ws
-  port: 80
-  server: ukwx.52jjyun.top
-  tls: false
+- name: 1.13|34
+  server: 18.163.112.47
+  port: 8080
   type: vmess
-  uuid: 8b76ab3f-e78e-454b-9a70-937c608e49b6
-  ws-path: /jjyun
-- name: 1.32|RelayRURU2625
-  server: ruml.jjyun.ren
-  type: vmess
-  country: RU
-  port: 88
-  uuid: bf7134c3-914d-4294-8cdf-6eda920d1a42
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /jjyun
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.15| SG A JM
-  server: jm.v2ray.asia
-  port: 28592
-  type: vmess
-  uuid: fdc2ac0a-ce39-4b69-ae6a-4cc38643440f
+  uuid: 858432a9-4a9c-4690-ef7b-c7adeb4c9f21
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
-  udp: true
+  network: ws
+  ws-path: /Download
+  ws-headers:
+    Host: 18.163.112.47
+- type: vmess
+  port: 48691
+  uuid: d96115c5-ec25-45a3-bc94-2b813db31e09
+  network: ws
+  ws-path: /
+  server: 42.3.18.244
+  tls: false
+  name: 1.01|中国香港0v2ray4231824448691
+  cipher: auto
+  alterId: 4
