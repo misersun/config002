@@ -1,5 +1,5 @@
 proxies:
-- name: 1.90|trojan
+- name: 2.22|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -8,11 +8,33 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.88|US17637 5693Mb
+- name: 1.76|US17637 5693Mb
   server: 72.167.33.106
   type: trojan
   country: US
   port: 443
   password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.55|US15275 8659Mb
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.38|httpsgitiov9999 clash ip1 7
+  server: cloud7.yixiu.ga
+  port: 443
+  type: trojan
+  password: f65eb556-2e2b-4fbb-8ab5-914313200f77
+  sni: cloud7.yixiu.ga
+- name: 1.24|RelayUSUS93 2369Mb
+  server: az.iganfan.store
+  type: trojan
+  country: US
+  port: 12306
+  password: ganfanbaipiao
   skip-cert-verify: true
   udp: true
