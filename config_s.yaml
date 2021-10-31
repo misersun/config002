@@ -1,13 +1,13 @@
 proxies:
-- name: 5.89|RO10015  858Mb
-  server: 62.216.92.180
+- name: 6.70|  426Mb
+  server: 62.216.92.179
   type: trojan
   country: RO
   port: 443
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 5.31|RO10010  951Mb
+- name: 6.05|RO10010  951Mb
   server: hk-server-01.selfupay.com
   type: trojan
   country: RO
@@ -15,7 +15,23 @@ proxies:
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 4.21|RelayCNJP750
+- name: 5.57|RO10015  858Mb
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 4.69|RelayUSUS93 2369Mb
+  server: az.iganfan.store
+  type: trojan
+  country: US
+  port: 12306
+  password: ganfanbaipiao
+  skip-cert-verify: true
+  udp: true
+- name: 4.50|RelayCNJP750
   server: tk.shcn2.tkddns.xyz
   type: vmess
   country: CN
@@ -32,7 +48,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 3.94|SG10520 1246Mb
+- name: 3.98|SG10520 1246Mb
   server: 188.166.242.117
   type: trojan
   country: SG
@@ -40,43 +56,7 @@ proxies:
   password: 7x42LetRa0
   skip-cert-verify: true
   udp: true
-- name: 3.91|RelayUSUS93 2369Mb
-  server: az.iganfan.store
-  type: trojan
-  country: US
-  port: 12306
-  password: ganfanbaipiao
-  skip-cert-verify: true
-  udp: true
-- name: 3.70| 日本 01  上海独享
-  server: mack.dliroom.co
-  port: 10006
-  type: vmess
-  uuid: b567bd47-bae6-3a4f-976a-3a64b701549c
-  alterId: 2
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jp03.ui3fuj66606.com
-  udp: true
-- name: 3.69| 日本 03  PCCW
-  server: mack.dliroom.co
-  port: 10007
-  type: vmess
-  uuid: b567bd47-bae6-3a4f-976a-3a64b701549c
-  alterId: 2
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: pqjp01.0894168.xyz
-  udp: true
-- name: 3.46|SG10131
+- name: 3.76|SG10131
   server: 81.90.189.85
   type: trojan
   country: SG
@@ -84,7 +64,29 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 2.99| Game 3 PPhttp
+- name: 3.40|HK502
+  server: 210.0.158.130
+  type: vmess
+  country: HK
+  port: 443
+  uuid: d12b7888-e61f-3308-a752-33d491dbaa1b
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /racernet
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 3.39|US15483 1518Mb
+  server: 184.168.127.50
+  type: trojan
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 3.33| Game 3 PPhttp
   type: trojan
   server: sg2-trojan.bonds.id
   port: 443
@@ -95,140 +97,7 @@ proxies:
   - h2c
   - http/1.1
   skip-cert-verify: true
-- name: 2.91| Game 1 PPhttp
-  type: trojan
-  server: id1-trojan.bonds.id
-  port: 443
-  password: 9e266b10-f204-11eb-96b8-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: 2.45|Relay 1079Mb
-  server: gmegme.ml
-  type: trojan
-  country: JP
-  port: 443
-  password: d48629f1-ac71-45ef-b325-37d73da258e8
-  skip-cert-verify: true
-  udp: true
-- name: 2.42|JP6270 2757Mb
-  server: gmegme.ga
-  type: vmess
-  country: JP
-  port: 443
-  uuid: 160ce2c0-89d2-11eb-aef3-560003425baf
-  alterId: 12
-  cipher: auto
-  network: ws
-  ws-path: /zwWptVxh/
-  servername: gmegme.ga
-  ws-headers:
-    HOST: gmegme.ga
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.10| US10443 2377Mb
-  server: agals02.subyyds.xyz
-  type: trojan
-  country: ' US'
-  port: 992
-  password: 5d2f53fb-cc28-3f91-9844-02a4ccedfd4a
-  skip-cert-verify: true
-  udp: true
-- name: 2.09|御坂群专属永久维护备用机子别挤 ZR公益
-  server: zzr.zzzr.ltd
-  port: 2053
-  type: vmess
-  uuid: a737264c-2bea-11ec-83c0-414353016dec
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /8qgBdhe3/
-  ws-headers:
-    Host: zzr.zzzr.ltd
-- name: 1.94|US15275 8659Mb
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.91|
-  server: kr1.futi.online
-  type: vmess
-  country: US
-  port: 443
-  uuid: 6a5b2dee-6e88-46db-9275-d8c6e042c3db
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: kr1.futi.online
-  ws-headers:
-    HOST: kr1.futi.online
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.90|665  728Mb
-  server: t4.ssrsub.com
-  type: trojan
-  port: 844
-  password: 52f31fcb-f948-4f71-bca8-795fdcf7b754
-  sni: t4.ssrsub.com
-  udp: true
-- name: 1.85|IN5427 2325Mb
-  server: 159.89.168.0
-  type: trojan
-  country: IN
-  port: 1443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.82|RU8922  402Mb
-  server: 194.87.103.61
-  type: vmess
-  country: RU
-  port: 159
-  uuid: 52f31fcb-f948-4f71-bca8-795fdcf7b754
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.79|653  789Mb
-  server: v4.ssrsub.com
-  type: vmess
-  port: 159
-  udp: true
-  uuid: 52f31fcb-f948-4f71-bca8-795fdcf7b754
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v4.ssrsub.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-- name: 1.76|US17637 5693Mb
-  server: 72.167.33.106
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.76|JP6268 2537Mb
+- name: 3.11|JP6268 2537Mb
   server: 66.42.43.239
   type: vmess
   country: JP
@@ -245,7 +114,92 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.70|trojan
+- name: 3.03|JP6270 2757Mb
+  server: gmegme.ga
+  type: vmess
+  country: JP
+  port: 443
+  uuid: 160ce2c0-89d2-11eb-aef3-560003425baf
+  alterId: 12
+  cipher: auto
+  network: ws
+  ws-path: /zwWptVxh/
+  servername: gmegme.ga
+  ws-headers:
+    HOST: gmegme.ga
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.81| Game 1 PPhttp
+  type: trojan
+  server: id1-trojan.bonds.id
+  port: 443
+  password: 9e266b10-f204-11eb-96b8-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: 2.45|RelayHKUS500
+  server: aga-sg.ddns.tjiasu.xyz
+  type: vmess
+  country: HK
+  port: 443
+  uuid: d3b96bac-b365-48fa-bbac-e23a58801dd2
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /api/rn
+  servername: usbv2.ddns.tjiasu.xyz
+  ws-headers:
+    HOST: usbv2.ddns.tjiasu.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.81|US15275 8659Mb
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.80|DE3525
+  server: 194.195.124.174
+  type: trojan
+  country: DE
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 1.77|1031oslook中国香港中国台湾CNChinaPudong可能是中转节点9
+  network: ws
+  port: 22080
+  server: ctsh1.racernet.link
+  tls: true
+  type: vmess
+  uuid: d12b7888-e61f-3308-a752-33d491dbaa1b
+  ws-path: /ctsh1de1
+- name: 1.73|RelayHKHK533
+  server: wtt.tcpbbr.net
+  type: vmess
+  country: HK
+  port: 443
+  uuid: 73a4ff1c-85c8-11ea-82ef-f23c9164ca5d
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.69|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -254,7 +208,15 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.62|NL7849 5004Mb
+- name: 1.64|GB5059
+  server: 138.68.179.78
+  type: trojan
+  country: GB
+  port: 1443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.63|NL7849 5004Mb
   server: 185.171.120.144
   type: trojan
   country: NL
@@ -262,7 +224,23 @@ proxies:
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 1.60|US14938  521Mb
+- name: 1.56|NL7624
+  server: 178.62.201.120
+  type: trojan
+  country: NL
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.55|DE3524
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.52|US14938  521Mb
   server: tt2.feiclouddd.me
   type: vmess
   country: US
@@ -279,124 +257,24 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.60|656  500Mb
-  server: v1.ssrsub.com
-  type: vmess
-  port: 159
-  udp: true
-  uuid: 52f31fcb-f948-4f71-bca8-795fdcf7b754
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v1.ssrsub.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-- name: 1.57|DE3525
-  server: 194.195.124.174
-  type: trojan
-  country: DE
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.52|DE3522
-  server: 139.59.209.152
-  type: trojan
-  country: DE
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.50|  297Mb
-  server: 138.197.162.114
-  type: trojan
-  country: CA
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.48|US14944  401Mb
-  server: jp3.futi.online
+- name: 1.50|US861
+  server: 209.141.32.104
   type: vmess
   country: US
-  port: 443
-  uuid: 6a5b2dee-6e88-46db-9275-d8c6e042c3db
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.43|GB5059
-  server: 138.68.179.78
-  type: trojan
-  country: GB
-  port: 1443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.43|NL7624
-  server: 178.62.201.120
-  type: trojan
-  country: NL
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 1.25|RelayAUDE253
-  server: 1.0.0.0
-  type: vmess
-  country: AU
-  port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
-  ws-headers:
-    HOST: cdnde.irteyz.today
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.23|DE3524
-  server: 5.183.179.138
-  type: trojan
-  country: DE
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.23|657  922Mb
-  server: v2.ssrsub.com
-  type: vmess
-  port: 159
-  udp: true
-  uuid: 52f31fcb-f948-4f71-bca8-795fdcf7b754
+  port: 2087
+  uuid: 60665a07-09d5-3505-9bd4-c09d02fe46b8
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /ssrsub
+  ws-path: /110fcc6c
+  servername: t.me/vpnhat
   ws-headers:
-    Host: v2.ssrsub.com
+    HOST: t.me/vpnhat
   http-opts: {}
   h2-opts: {}
   tls: true
-- name: 1.22|RO8860 5270Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
-  udp: true
-- name: 1.19|RO10004
+- name: 1.27|RO10004
   server: 185.126.116.235
   type: trojan
   country: RO
@@ -404,15 +282,51 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.14|US15483 1518Mb
-  server: 184.168.127.50
+- name: 1.26|US17637 5693Mb
+  server: 72.167.33.106
   type: trojan
   country: US
   port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.11|RelayRURU2432
+- name: 1.25|DE3522
+  server: 139.59.209.152
+  type: trojan
+  country: DE
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.20|SOAF  Johannesburg 2
+  server: 104.16.105.139
+  port: 443
+  type: vmess
+  uuid: f06e1803-63f8-4c3b-9315-8389a0a78984
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sshocean
+  ws-headers:
+    Host: uk3.v2rayserv.com
+- name: 1.15|RelayUSUS3937
+  server: t1.ssrsub.com
+  type: trojan
+  country: US
+  port: 844
+  password: f5487ee3-aef5-436f-adf9-673b1afe2ff7
+  skip-cert-verify: true
+  udp: true
+- name: 1.10|RO8860 5270Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.08|RelayRURU2432
   server: t3.ssrsub.com
   type: trojan
   country: RU
@@ -420,29 +334,11 @@ proxies:
   password: f5487ee3-aef5-436f-adf9-673b1afe2ff7
   skip-cert-verify: true
   udp: true
-- name: 1.10|RU8925  209Mb
-  server: 193.53.127.125
-  type: vmess
-  country: RU
-  port: 443
-  uuid: 8b76ab3f-e78e-454b-9a70-937c608e49b6
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /jjyun
-  http-opts: {}
-  h2-opts: {}
-  tls: true
+- name: 1.04|RelaySGSG689
+  server: sglmz9.zhs.company
+  type: trojan
+  country: SG
+  port: 8443
+  password: 60665a07-09d5-3505-9bd4-c09d02fe46b8
   skip-cert-verify: true
-- name: 1.01|httpsgitiov9999 clash ip3
-  server: clouda.yixiu.ga
-  port: 443
-  type: vmess
-  uuid: f65eb556-2e2b-4fbb-8ab5-914313200f77
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /qgebvws
-  ws-headers:
-    Host: clouda.yixiu.ga
+  udp: true

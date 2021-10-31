@@ -1,5 +1,5 @@
 proxies:
-- name: 3.91|RelayUSUS93 2369Mb
+- name: 4.69|RelayUSUS93 2369Mb
   server: az.iganfan.store
   type: trojan
   country: US
@@ -7,15 +7,24 @@ proxies:
   password: ganfanbaipiao
   skip-cert-verify: true
   udp: true
-- name: 1.76|US17637 5693Mb
-  server: 72.167.33.106
+- name: 2.21|  202Mb
+  server: 117.28.243.169
+  type: ssr
+  country: CN
+  port: 8333
+  password: passfw2xs4e!
+  cipher: rc4-md5
+  protocol: origin
+  obfs: plain
+- name: 1.81|US15275 8659Mb
+  server: 72.167.45.6
   type: trojan
   country: US
   port: 443
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.70|trojan
+- name: 1.69|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -24,3 +33,29 @@ proxies:
   alpn:
   - h2
   - http/1.1
+- name: 1.52| 美国 VIP节点洛杉矶
+  server: gz1.52168.xyz
+  port: 1110
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 1.26|US17637 5693Mb
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.15|RelayUSUS3937
+  server: t1.ssrsub.com
+  type: trojan
+  country: US
+  port: 844
+  password: f5487ee3-aef5-436f-adf9-673b1afe2ff7
+  skip-cert-verify: true
+  udp: true

@@ -1,16 +1,5 @@
 proxies:
-- name: 6.18| 香港 01 3
-  server: dg-hk-node01.linkthink.app
-  port: 10418
-  type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 227785:819VOzCkG3
-  obfs-param: ''
-  udp: true
-- name: 6.13| 香港 01 2
+- name: 7.05| 香港 01 2
   server: dg-hk-node01.linkthink.app
   port: 10520
   type: ssr
@@ -21,15 +10,56 @@ proxies:
   protocol-param: 227782:L1x3oQKUMT
   obfs-param: ''
   udp: true
-- name: 5.89|RO10015  858Mb
-  server: 62.216.92.180
+- name: 6.98|RelayCNCN752
+  server: dg-hk-node01.linkthink.app
+  type: ssr
+  country: CN
+  port: 10329
+  password: abK09D1FnV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 221785:QTlcmVwZki
+  obfs: http_post
+- name: 6.84|RelayCNCN760
+  server: dg-hk-node01.linkthink.app
+  type: ssr
+  country: CN
+  port: 10569
+  password: abK09D1FnV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 224324:YEbW2wX0Fa
+  obfs: http_post
+- name: 6.70|  426Mb
+  server: 62.216.92.179
   type: trojan
   country: RO
   port: 443
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 5.69| 香港 01
+- name: 6.37| 香港 01 3
+  server: dg-hk-node01.linkthink.app
+  port: 10418
+  type: ssr
+  cipher: rc4-md5
+  password: abK09D1FnV
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227785:819VOzCkG3
+  obfs-param: ''
+  udp: true
+- name: 6.25|RelayCNCN754
+  server: dg-hk-node01.linkthink.app
+  type: ssr
+  country: CN
+  port: 10583
+  password: abK09D1FnV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 225617:CWURDVzIgc
+  obfs: http_post
+- name: 6.14| 香港 01
   server: dg-hk-node01.linkthink.app
   port: 10704
   type: ssr
@@ -40,27 +70,17 @@ proxies:
   protocol-param: 227003:iawnbjGNuv
   obfs-param: ''
   udp: true
-- name: 5.41| H3xHKHKTBGPRC36123
-  server: yqy36123.china-cdn-net.com
-  port: 36123
+- name: 6.10|RelayCNCN756
+  server: dg-hk-node01.linkthink.app
   type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
+  country: CN
+  port: 10917
+  password: abK09D1FnV
+  cipher: rc4-md5
   protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 5.35| HTW高雄龍抬頭HiNetRC33227
-  server: yqy33227.china-cdn-net.com
-  port: 33227
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 5.31|RO10010  951Mb
+  protocol-param: 226549:1jlcom6s0Z
+  obfs: http_post
+- name: 6.05|RO10010  951Mb
   server: hk-server-01.selfupay.com
   type: trojan
   country: RO
@@ -68,244 +88,45 @@ proxies:
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 5.13| H3xHKHKTBGPRC36423
-  server: yqy36423.china-cdn-net.com
-  port: 36423
+- name: 5.75|RelayCNCN759
+  server: dg-hk-node01.linkthink.app
   type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
+  country: CN
+  port: 10388
+  password: abK09D1FnV
+  cipher: rc4-md5
   protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.99| H3xHKHKTBGPRC36223
-  server: yqy36223.china-cdn-net.com
-  port: 36223
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.95| I6xHKHKTBGPRC36124
-  server: yqy36124.china-cdn-net.com
-  port: 36124
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.88| 香港 免费节点EC2负载均衡
-  server: gz2.52168.xyz
-  port: 2109
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:f91myz466fp
-  obfs-param: bcbf9623.baidu.com
+  protocol-param: 221010:hJzE3rWbD8
+  obfs: http_post
+- name: 5.57|RO10015  858Mb
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
   udp: true
-- name: 4.78| 新加坡 VIP节点
-  server: gz2.52168.xyz
-  port: 2106
+- name: 5.06|RelayCNCN755
+  server: dg-hk-node01.linkthink.app
   type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:f91myz466fp
-  obfs-param: bcbf9623.baidu.com
-  udp: true
-- name: 4.74| 香港 广港国际以太网专线AZ
+  country: CN
+  port: 10477
+  password: abK09D1FnV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 218914:Xsx20EOKlg
+  obfs: http_post
+- name: 4.92| 香港 VIP节点HKT1 500MB
   server: gz1.52168.xyz
-  port: 1114
+  port: 1112
   type: ssr
   cipher: aes-256-cfb
   password: epChJS35fV
   protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
-  protocol-param: 623:f91myz466fp
-  obfs-param: bcbf9623.baidu.com
-  udp: true
-- name: 4.74| H25xTW台北HiNetRC31121
-  server: yqy31121.china-cdn-net.com
-  port: 31121
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.69| H3xTW彰化HiNetRC32125
-  server: yqy32125.china-cdn-net.com
-  port: 32125
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.67| I5xTW彰化HiNetRC32223
-  server: yqy32223.china-cdn-net.com
-  port: 32223
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.57| I6xTW台北HiNetRC31128
-  server: yqy31128.china-cdn-net.com
-  port: 31128
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.44| I5xTW台北HiNetRC31223
-  server: yqy31223.china-cdn-net.com
-  port: 31223
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.43| H25xTW彰化HiNetRC32121
-  server: yqy32121.china-cdn-net.com
-  port: 32121
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.42| H3xTW台北HiNetRC31126
-  server: yqy31126.china-cdn-net.com
-  port: 31126
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.41| I5xTW台北HiNetRC31122
-  server: yqy31122.china-cdn-net.com
-  port: 31122
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.40| I5xTW彰化HiNetRC32122
-  server: yqy32122.china-cdn-net.com
-  port: 32122
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.33| H3xTW台北HiNetRC31125
-  server: yqy31125.china-cdn-net.com
-  port: 31125
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.32|AZ转移动0227
-  server: sl201.jdxx.xyz
-  port: 25986
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 4.23| 日本移动隧道227 2
-  server: sl201.jdxx.xyz
-  port: 26387
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 4.20| I6xTW彰化HiNetRC32127
-  server: yqy32127.china-cdn-net.com
-  port: 32127
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.18|AZ转移动0527 2
-  server: sl201.jdxx.xyz
-  port: 25989
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 4.17| I6xTW台北HiNetRC31127
-  server: yqy31127.china-cdn-net.com
-  port: 31127
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.15| 印度尼西亚 免费节点雅加达 2
-  server: gz1.52168.xyz
-  port: 1103
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:f91myz466fp
-  obfs-param: bcbf9623.baidu.com
-  udp: true
-- name: 4.11|07长期套餐覆盖IPLC专线
-  server: yqy2327.china-cdn-net.com
-  port: 2327
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 4.10| HKT转江门227 2
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 4.73| HKT转江门227 2
   server: sl201.jdxx.xyz
   port: 35002
   type: ssr
@@ -316,28 +137,26 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 4.07| HKT转江门327
-  server: sl201.jdxx.xyz
-  port: 35003
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
+- name: 4.69|RelayUSUS93 2369Mb
+  server: az.iganfan.store
+  type: trojan
+  country: US
+  port: 12306
+  password: ganfanbaipiao
+  skip-cert-verify: true
   udp: true
-- name: 4.00|05包括V2ray和Trojan
-  server: yqy2325.china-cdn-net.com
-  port: 2325
+- name: 4.38| 韩国 VIP节点首尔
+  server: gz2.52168.xyz
+  port: 2108
   type: ssr
   cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.97| HKT转江门427
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:f91myz466fp
+  obfs-param: bcbf9623.baidu.com
+  udp: true
+- name: 4.31| HKT转江门427
   server: sl201.jdxx.xyz
   port: 35004
   type: ssr
@@ -348,119 +167,7 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 3.94|SG10520 1246Mb
-  server: 188.166.242.117
-  type: trojan
-  country: SG
-  port: 4443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 3.92| 韩国移动隧道527 2
-  server: sl201.jdxx.xyz
-  port: 26390
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 3.91|RelayUSUS93 2369Mb
-  server: az.iganfan.store
-  type: trojan
-  country: US
-  port: 12306
-  password: ganfanbaipiao
-  skip-cert-verify: true
-  udp: true
-- name: 3.91|AZ转移动0127
-  server: sl201.jdxx.xyz
-  port: 25985
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1620:BfGQJg
-  obfs-param: 2605b1620.microsoft.com
-  udp: true
-- name: 3.89|06中继中转隧道线路覆盖
-  server: yqy2326.china-cdn-net.com
-  port: 2326
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.85| 香港 VIP节点HKBN 1G 2
-  server: gz1.52168.xyz
-  port: 1113
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 26901:ggyf3c2qzog
-  obfs-param: 94d9b26901.baidu.com
-  udp: true
-- name: 3.84| I6xHKHKTBGPRC36424
-  server: yqy36424.china-cdn-net.com
-  port: 36424
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.84|AZ转移动0427
-  server: sl201.jdxx.xyz
-  port: 25988
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 3.83| H3xTW彰化HiNetRC32126
-  server: yqy32126.china-cdn-net.com
-  port: 32126
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 3.82|国内中专327 2
-  server: tz-yd01.jdxx.xyz
-  port: 35006
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 3.82|国内中专127 2
-  server: tz-yd01.jdxx.xyz
-  port: 35008
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 3.80|国内中专227 2
+- name: 4.29|国内中专227 2
   server: tz-yd01.jdxx.xyz
   port: 35007
   type: ssr
@@ -471,7 +178,37 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 3.70| 日本移动隧道127 2
+- name: 4.04| 韩国移动隧道527 2
+  server: sl201.jdxx.xyz
+  port: 26390
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1237:Wa2lOa
+  obfs-param: b00e31237.microsoft.com
+  udp: true
+- name: 3.98|SG10520 1246Mb
+  server: 188.166.242.117
+  type: trojan
+  country: SG
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 3.93|国内中专127 2
+  server: tz-yd01.jdxx.xyz
+  port: 35008
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1237:Wa2lOa
+  obfs-param: b00e31237.microsoft.com
+  udp: true
+- name: 3.86| 日本移动隧道127 2
   server: sl201.jdxx.xyz
   port: 26386
   type: ssr
@@ -482,29 +219,7 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 3.69|AZ转移动0327
-  server: sl201.jdxx.xyz
-  port: 25987
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 3.68| HKT转江门127
-  server: sl201.jdxx.xyz
-  port: 35001
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 1237:Wa2lOa
-  obfs-param: b00e31237.microsoft.com
-  udp: true
-- name: 3.46|SG10131
+- name: 3.76|SG10131
   server: 81.90.189.85
   type: trojan
   country: SG
@@ -512,3 +227,274 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
+- name: 3.39|US15483 1518Mb
+  server: 184.168.127.50
+  type: trojan
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 3.33| Game 3 PPhttp
+  type: trojan
+  server: sg2-trojan.bonds.id
+  port: 443
+  password: 7d450710-f1ad-11eb-a226-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2c
+  - http/1.1
+  skip-cert-verify: true
+- name: 2.85|RelayCNCN751
+  server: dg-hk-node01.linkthink.app
+  type: ssr
+  country: CN
+  port: 10515
+  password: abK09D1FnV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 218006:z5tnA1ldZO
+  obfs: http_post
+- name: 2.81| Game 1 PPhttp
+  type: trojan
+  server: id1-trojan.bonds.id
+  port: 443
+  password: 9e266b10-f204-11eb-96b8-1239d0255272
+  udp: true
+  sni: pmsc.pubgmobile.com
+  alpn:
+  - h2
+  - http/1.1
+  skip-cert-verify: true
+- name: 2.52|RelayCNHK757
+  server: 117.28.242.137
+  type: ssr
+  country: CN
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 2.24| 美国 免费节点洛杉矶
+  server: gz1.52168.xyz
+  port: 1109
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 2.21|  202Mb
+  server: 117.28.243.169
+  type: ssr
+  country: CN
+  port: 8333
+  password: passfw2xs4e!
+  cipher: rc4-md5
+  protocol: origin
+  obfs: plain
+- name: 2.15| 香港 免费节点EC2负载均衡
+  server: gz2.52168.xyz
+  port: 2109
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:f91myz466fp
+  obfs-param: bcbf9623.baidu.com
+  udp: true
+- name: 2.12| 香港 广港国际以太网专线AZ
+  server: gz1.52168.xyz
+  port: 1114
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:f91myz466fp
+  obfs-param: bcbf9623.baidu.com
+  udp: true
+- name: 2.10| 菲律宾 VIP节点马尼拉 2
+  server: gz1.52168.xyz
+  port: 1102
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+  udp: true
+- name: 2.09| 新加坡 VIP节点
+  server: gz2.52168.xyz
+  port: 2106
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:f91myz466fp
+  obfs-param: bcbf9623.baidu.com
+  udp: true
+- name: 2.06| 菲律宾 免费节点马尼拉
+  server: gz1.52168.xyz
+  port: 1101
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+  udp: true
+- name: 2.03| 香港 免费节点EC2负载均衡
+  server: gz1.52168.xyz
+  port: 1111
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 2.02| 日本 VIP节点
+  server: gz2.52168.xyz
+  port: 2107
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 2.02| 印度尼西亚 免费节点雅加达 2
+  server: gz1.52168.xyz
+  port: 1103
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:f91myz466fp
+  obfs-param: bcbf9623.baidu.com
+  udp: true
+- name: 2.02|RelayCNCN314
+  server: dg-hk-node01.linkthink.app
+  type: ssr
+  country: CN
+  port: 10631
+  password: abK09D1FnV
+  cipher: rc4-md5
+  protocol: auth_aes128_md5
+  protocol-param: 219976:FtBqVvnmNI
+  obfs: http_post
+- name: 2.01| 越南 免费节点胡志明
+  server: gz1.52168.xyz
+  port: 1107
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 1.99| 越南 VIP节点胡志明
+  server: gz1.52168.xyz
+  port: 1108
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 1.97| 印度尼西亚 VIP节点雅加达
+  server: gz1.52168.xyz
+  port: 1104
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 1.95| 印度 VIP节点孟买
+  server: gz2.52168.xyz
+  port: 2104
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+  udp: true
+- name: 1.92|RelayCNHK315
+  server: hkchiansax2.msservicevip.pw
+  type: ssr
+  country: CN
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.81| 澳大利亚 免费节点悉尼 2
+  server: gz1.52168.xyz
+  port: 1117
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+  udp: true
+- name: 1.81|US15275 8659Mb
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.80| 台湾 VIP节点HINET
+  server: gz2.52168.xyz
+  port: 2105
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 1.80|DE3525
+  server: 194.195.124.174
+  type: trojan
+  country: DE
+  port: 4443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 1.73| 香港04测试 3
+  server: 42.157.196.104
+  port: 20011
+  type: ssr
+  cipher: aes-256-cfb
+  password: CWSZscLkjf
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 227782:L1x3oQKUMT
+  obfs-param: ''
+  udp: true
+- name: 1.69|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
