@@ -1,23 +1,5 @@
 proxies:
-- name: 2.19| 美国 免费节点洛杉矶
-  server: gz1.52168.xyz
-  port: 1109
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 26901:ggyf3c2qzog
-  obfs-param: 94d9b26901.baidu.com
-- name: 2.02|US15275 8659Mb
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.90| 美国 VIP节点洛杉矶
+- name: 2.42| 美国 VIP节点洛杉矶
   server: gz1.52168.xyz
   port: 1110
   type: ssr
@@ -27,7 +9,17 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 26901:ggyf3c2qzog
   obfs-param: 94d9b26901.baidu.com
-- name: 1.82|US17637 5693Mb
+- name: 2.38| 美国 免费节点洛杉矶
+  server: gz1.52168.xyz
+  port: 1109
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 2.05|US17637 5693Mb
   server: 72.167.33.106
   type: trojan
   country: US
@@ -35,7 +27,7 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.33|trojan
+- name: 1.66|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -44,23 +36,3 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.28| H26xUS紐約DigitalOceanRC3312121
-  server: SCDN.3312121.DOVKDO.China-nCDN-nRDS.com
-  port: 12121
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
-- name: 1.01| H26xUS舊金山DigitalOceanRC3312223
-  server: SCDN.3312223.BPQZDO.China-nCDN-nRDS.com
-  port: 12223
-  type: ssr
-  cipher: aes-256-cfb
-  password: http://cc.ax/
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 48529:tCIwlf
-  obfs-param: data.bilibili.com/8d41348529
