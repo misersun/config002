@@ -1,5 +1,5 @@
 proxies:
-- name: 3.82| 高速印度312x
+- name: 3.74| 高速印度312x
   server: azhk.alink123.com
   port: 11045
   type: trojan
@@ -7,64 +7,77 @@ proxies:
   sni: azhk.alink123.com
   skip-cert-verify: false
   udp: true
-- name: 3.12| Game 3 PPhttp
-  type: trojan
-  server: sg2-trojan.bonds.id
-  port: 443
-  password: 7d450710-f1ad-11eb-a226-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2c
-  - http/1.1
-  skip-cert-verify: true
-- name: 2.95| Game 1 PPhttp
-  type: trojan
-  server: id1-trojan.bonds.id
-  port: 443
-  password: 9e266b10-f204-11eb-96b8-1239d0255272
-  udp: true
-  sni: pmsc.pubgmobile.com
-  alpn:
-  - h2
-  - http/1.1
-  skip-cert-verify: true
-- name: 1.70|602  839Mb
-  server: antigfwjp.tk
+- name: 3.00| RelayCNUS1855
+  server: cmgz1.racernet.link
+  port: 1443
   type: vmess
-  port: 443
-  udp: true
-  uuid: fb294abd-d3cc-4504-8d40-866b7622ce59
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
   alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /114514
-  ws-headers:
-    Host: antigfwjp.tk
-  http-opts: {}
-  h2-opts: {}
   tls: true
-- name: 1.34|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.22|609  592Mb
-  server: v5.ssrsub.com
-  type: vmess
-  port: 166
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cmgz1
+  ws-headers:
+    Host: cmgz1.racernet.link
   udp: true
-  uuid: 8962d993-c7ff-4768-9dce-e2e8273f73dc
-  alterId: 0
+- name: 2.45| mattkaydiarycom日本JPJapanTokyo
+  server: ycgyg.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
   cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v5.ssrsub.com
-  http-opts: {}
-  h2-opts: {}
   tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: ycgyg.com
+- name: 1.82| mattkaydiarycom韩国KRKoreaSeoul
+  server: kr3.futi.online
+  port: 2053
+  type: vmess
+  uuid: fb354731-1f2d-4731-8cbf-3b071e49701d
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: kr3.futi.online
+- name: 1.73| mattkaydiarycom中国香港特别行政区HKHongkong SAR ChinaHong Kong
+  server: a.transit.t.qjnodeip.xyz
+  port: 52161
+  type: vmess
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: 8
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /Xjibjp04e
+  ws-headers:
+    Host: xjp04.cswtw.xyz
+- name: 1.30| mattkaydiarycom韩国KRKoreaChuncheonsi
+  server: kr4.futi.online
+  port: 2053
+  type: vmess
+  uuid: fb354731-1f2d-4731-8cbf-3b071e49701d
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: kr4.futi.online
+- name: 1.06| mattkaydiarycom中国香港中国台湾CNChinaGuangzhou小东的程序未能精准识别可能是中转节点
+  server: b.transit.t.qjnodeip.xyz
+  port: 56642
+  type: vmess
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: 8
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /HGzsmqib01A
+  ws-headers:
+    Host: hg03.usarugg.xyz
