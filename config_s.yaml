@@ -1,126 +1,49 @@
 proxies:
-- name: 4.78| mattkaydiarycom日本JPJapanTokyo
-  server: ycgyg.com
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: ycgyg.com
-- name: 3.47| 高速印度312x
-  server: azhk.alink123.com
-  port: 11045
-  type: trojan
-  password: 765040cb-15f4-43da-9e07-4b92c767d222
-  sni: azhk.alink123.com
-  skip-cert-verify: false
-  udp: true
-- name: 2.26| mattkaydiarycom中国香港特别行政区HKHongkong SAR ChinaHong Kong
-  server: a.transit.t.qjnodeip.xyz
-  port: 52161
-  type: vmess
-  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
-  alterId: 8
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /Xjibjp04e
-  ws-headers:
-    Host: xjp04.cswtw.xyz
-- name: 1.80| mattkaydiarycom韩国KRKoreaChuncheonsi
-  server: kr4.futi.online
+- name: 3.58|Relay 2464Mb
+  server: kr2.futi.online
   port: 2053
   type: vmess
-  uuid: fb354731-1f2d-4731-8cbf-3b071e49701d
+  uuid: 6003c865-0baa-4bbc-9379-f4758f498016
   alterId: 1
   cipher: auto
   tls: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: kr4.futi.online
-- name: 1.70| mattkaydiarycom新加坡SGSingaporeSingapore
-  server: sg3.futi.online
+    Host: kr2.futi.online
+- name: 2.01|SSRSUBV13付费推荐suoytssrsub
+  server: v2.leftvalues.xyz
   port: 443
   type: vmess
-  uuid: fb354731-1f2d-4731-8cbf-3b071e49701d
-  alterId: 1
+  uuid: deb4643e-d10c-44f0-a7a2-62217c91cfb3
+  alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: sg3.futi.online
-- name: 1.65| mattkaydiarycom中国香港中国台湾CNChinaGuangzhou小东的程序未能精准识别可能是中转节点
-  server: 1.transit.t.qjnodeip.xyz
-  port: 15140
-  type: vmess
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
-  alterId: 8
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /Ub6w
-  ws-headers:
-    Host: usa04.dadwff.xyz
-- name: 1.62| RelayCNUS2185  798Mb
-  server: b.transit.t.qjnodeip.xyz
-  port: 15140
-  type: vmess
-  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
-  alterId: 8
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /Ub6w
-  ws-headers:
-    Host: usa04.dadwff.xyz
-- name: 1.54|RelayAUDE246
-  server: 1.0.0.0
-  type: vmess
-  country: AU
+    Host: v2.leftvalues.xyz
+- name: 1.95|美国加州A年付专线22
+  server: 107.148.209.108
   port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
   alterId: 64
   cipher: auto
-  network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
-  ws-headers:
-    HOST: cdnde.irteyz.today
-  http-opts: {}
-  h2-opts: {}
   tls: true
-  skip-cert-verify: true
-- name: 1.47| mattkaydiarycom日本JPJapanTokyo
-  server: jp-tokyo-node2.ycgyg.com
+  network: ws
+  ws-path: /path/243535322906
+  ws-headers:
+    Host: www.19379708.xyz
+- name: 1.80|US13911 6328Mb
+  server: 72.167.45.6
+  type: trojan
+  country: US
   port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: jp-tokyo-node2.ycgyg.com
-- name: 1.41| RelayCNUS2158  727Mb
-  server: b.transit.t.qjnodeip.xyz
-  port: 60649
-  type: vmess
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
-  alterId: 8
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /HGzsmqibHG02Z
-  ws-headers:
-    Host: dddwda.xyz
-- name: 1.39|trojan
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.76|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -129,19 +52,43 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.31| mattkaydiarycom中国香港中国台湾CNChinaGuangzhou小东的程序未能精准识别可能是中转节点
+- name: 1.55| mattkaydiarycom中国香港中国台湾CNChinaGuangzhou小东的程序未能精准识别可能是中转节点
   server: 1.transit.t.qjnodeip.xyz
-  port: 60649
+  port: 15140
+  type: vmess
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: 8
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /Ub6w
+  ws-headers:
+    Host: usa04.dadwff.xyz
+- name: 1.40| RelayCNUS2185  798Mb
+  server: b.transit.t.qjnodeip.xyz
+  port: 15140
   type: vmess
   uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
   alterId: 8
   cipher: auto
   tls: true
   network: ws
-  ws-path: /HGzsmqibHG02Z
+  ws-path: /Ub6w
   ws-headers:
-    Host: dddwda.xyz
-- name: 1.31| mattkaydiarycom中国香港中国台湾CNChinaGuangzhou小东的程序未能精准识别可能是中转节点
+    Host: usa04.dadwff.xyz
+- name: 1.40|mattkaydiarycom
+  server: b.transit.t.qjnodeip.xyz
+  port: 40249
+  type: vmess
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: 8
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /JS6
+  ws-headers:
+    Host: usa06.sdhexzy.xyz
+- name: 1.39| mattkaydiarycom中国香港中国台湾CNChinaGuangzhou小东的程序未能精准识别可能是中转节点
   server: 1.transit.t.qjnodeip.xyz
   port: 40249
   type: vmess
@@ -153,19 +100,7 @@ proxies:
   ws-path: /JS6
   ws-headers:
     Host: usa06.sdhexzy.xyz
-- name: 1.30| mattkaydiarycom韩国KRKoreaSeoul
-  server: kr3.futi.online
-  port: 2053
-  type: vmess
-  uuid: fb354731-1f2d-4731-8cbf-3b071e49701d
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: kr3.futi.online
-- name: 1.29| mattkaydiarycom中国香港中国台湾CNChinaGuangzhou小东的程序未能精准识别可能是中转节点
+- name: 1.36| mattkaydiarycom中国香港中国台湾CNChinaGuangzhou小东的程序未能精准识别可能是中转节点
   server: 1.transit.t.qjnodeip.xyz
   port: 27435
   type: vmess
@@ -177,19 +112,7 @@ proxies:
   ws-path: /JP03W
   ws-headers:
     Host: xjp03.cswtw.xyz
-- name: 1.25| mattkaydiarycom中国香港中国台湾CNChinaGuangzhou小东的程序未能精准识别可能是中转节点
-  server: b.transit.t.qjnodeip.xyz
-  port: 56642
-  type: vmess
-  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
-  alterId: 8
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /HGzsmqib01A
-  ws-headers:
-    Host: hg03.usarugg.xyz
-- name: 1.20| mattkaydiarycom中国香港中国台湾CNChinaGuangzhou小东的程序未能精准识别可能是中转节点
+- name: 1.36| mattkaydiarycom中国香港中国台湾CNChinaGuangzhou小东的程序未能精准识别可能是中转节点
   server: b.transit.t.qjnodeip.xyz
   port: 27435
   type: vmess
@@ -201,3 +124,76 @@ proxies:
   ws-path: /JP03W
   ws-headers:
     Host: xjp03.cswtw.xyz
+- name: 1.35|Relay  642Mb
+  server: 120.232.174.72
+  port: 60649
+  type: vmess
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: 8
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /HGzsmqibHG02Z
+  ws-headers:
+    Host: dddwda.xyz
+- name: 1.26| RelayCNUS2158  727Mb
+  server: b.transit.t.qjnodeip.xyz
+  port: 60649
+  type: vmess
+  uuid: 1439886a-ecb5-3bbf-bc65-8bfb23d72ea0
+  alterId: 8
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /HGzsmqibHG02Z
+  ws-headers:
+    Host: dddwda.xyz
+- name: 1.21| mattkaydiarycom中国香港中国台湾CNChinaGuangzhou小东的程序未能精准识别可能是中转节点
+  server: 1.transit.t.qjnodeip.xyz
+  port: 60649
+  type: vmess
+  uuid: 615505e8-e63c-3bad-b3e7-d5e6cf99387e
+  alterId: 8
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /HGzsmqibHG02Z
+  ws-headers:
+    Host: dddwda.xyz
+- name: 1.15|RelayGBGB1950  184Mb
+  server: us1nhg-node.aiqiche123.com
+  port: 13723
+  type: vmess
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: ray
+  ws-headers:
+    Host: us1nhg-node.aiqiche123.com
+- name: 1.07| CH281
+  server: sw.oracleusa.ml
+  type: vmess
+  country: ' CH'
+  port: 443
+  uuid: d1270d12-76b7-4c4d-97ff-6d6f41a013b0
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /4Y3g3EnSU
+  servername: sw.oracleusa.ml
+  ws-headers:
+    HOST: sw.oracleusa.ml
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.00|DE2766 4887Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
