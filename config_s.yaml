@@ -1,69 +1,41 @@
 proxies:
-- name: 4.90|Relay 2464Mb
-  server: kr2.futi.online
+- name: 3.62| SG35
+  server: 81.90.189.85
+  type: trojan
+  country: ' SG'
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 2.35|wwwimlamcom提供节点 9
+  server: kr3.futi.online
   port: 2053
   type: vmess
-  uuid: 6003c865-0baa-4bbc-9379-f4758f498016
+  uuid: eb4494a8-2acc-4d72-810c-01a3e4589e0f
   alterId: 1
   cipher: auto
   tls: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: kr2.futi.online
-- name: 3.65| 印度003 关注Tg交流群MshareT
-  server: azhk.alink123.com
-  port: 11045
-  type: trojan
-  password: 765040cb-15f4-43da-9e07-4b92c767d222
-  sni: azhk.alink123.com
-- name: 3.04| RelayJPJP5328 3104Mb
-  server: jp1.futi.online
-  port: 443
-  type: vmess
-  uuid: 6003c865-0baa-4bbc-9379-f4758f498016
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jp1.futi.online
-- name: 2.02| US44
-  server: sg.idvpn.me
-  type: vmess
-  country: ' US'
-  port: 8443
-  uuid: c74e2d99-6fbd-4e87-dc25-c05348571ef1
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: HTTPS://T.ME/NGE_GASSS•HTTPS://T.ME/DUNIAVPN
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.97|US13911 6328Mb
-  server: 72.167.45.6
+    Host: kr3.futi.online
+- name: 1.96|US13543 3833Mb
+  server: 72.167.33.106
   type: trojan
   country: US
   port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.86|美国加州A年付专线22
-  server: 107.148.209.108
+- name: 1.91|JP5629  953Mb
+  server: 5.183.177.111
+  type: trojan
+  country: JP
   port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /path/243535322906
-  ws-headers:
-    Host: www.19379708.xyz
-- name: 1.74|trojan
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.77|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -72,65 +44,46 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.71|JP5629  953Mb
-  server: 5.183.177.111
+- name: 1.66|RelayRU15
+  server: v1.ssrsub.com
+  type: vmess
+  port: 168
+  udp: true
+  uuid: 92a95e6d-cf89-42ee-8110-66fab6871e2f
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v1.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: 1.60| NL17
+  server: 89.31.127.151
   type: trojan
-  country: JP
+  country: ' NL'
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.58|NL6168 3990Mb
-  server: 185.171.120.144
+- name: 1.55|RO7753 4419Mb
+  server: 185.105.191.92
   type: trojan
-  country: NL
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.53|RO7752 4677Mb
+  server: 185.126.116.235
+  type: trojan
+  country: RO
   port: 443
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.52|DE2766 4887Mb
-  server: 5.183.179.138
-  type: trojan
-  country: DE
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.48| CH281
-  server: sw.oracleusa.ml
-  type: vmess
-  country: ' CH'
-  port: 443
-  uuid: d1270d12-76b7-4c4d-97ff-6d6f41a013b0
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /4Y3g3EnSU
-  servername: sw.oracleusa.ml
-  ws-headers:
-    HOST: sw.oracleusa.ml
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.42|US13885 5308Mb
-  server: 104.160.43.43
-  type: vmess
-  country: US
-  port: 443
-  uuid: a307a6f7-b697-400e-bc7e-e6356de877c2
-  alterId: 60
-  cipher: auto
-  network: ws
-  ws-path: /asdfaszzsdfa
-  servername: tt2.feiclouddd.me
-  ws-headers:
-    HOST: tt2.feiclouddd.me
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.38|SSRSUBV13付费推荐suoytssrsub
+- name: 1.43|SSRSUBV13付费推荐suoytssrsub
   server: v2.leftvalues.xyz
   port: 443
   type: vmess
@@ -142,70 +95,68 @@ proxies:
   ws-path: /
   ws-headers:
     Host: v2.leftvalues.xyz
-- name: 1.28|RelayRU31
-  server: v5.ssrsub.com
+- name: 1.40|RelayCA34
+  server: t6.ssrsub.com
+  type: trojan
+  port: 1033
+  password: e54a480c-77e3-41ca-8f8b-17ffb50dbd08
+  sni: t6.ssrsub.com
+  udp: true
+- name: 1.40|NL6168 3990Mb
+  server: 185.171.120.144
+  type: trojan
+  country: NL
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.38|DE2766 4887Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.21|wwwimlamcom提供节点 18
+  server: us2.futi.online
+  port: 2063
+  type: vmess
+  uuid: eb4494a8-2acc-4d72-810c-01a3e4589e0f
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: us2.futi.online
+- name: 1.18|RelayRU12
+  server: v7.ssrsub.com
   type: vmess
   port: 168
   udp: true
-  uuid: e54a480c-77e3-41ca-8f8b-17ffb50dbd08
+  uuid: 92a95e6d-cf89-42ee-8110-66fab6871e2f
   alterId: 0
   cipher: auto
   network: ws
   ws-path: /ssrsub
   ws-headers:
-    Host: v5.ssrsub.com
+    Host: v7.ssrsub.com
   http-opts: {}
   h2-opts: {}
   tls: true
-- name: 1.18|RO7752 4677Mb
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.15|RO7753 4419Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.12|RelayRU42
-  server: t7.ssrsub.com
-  type: trojan
-  port: 1033
-  password: e54a480c-77e3-41ca-8f8b-17ffb50dbd08
-  sni: t7.ssrsub.com
-  udp: true
-- name: 1.07|RelayGBGB1950  184Mb
-  server: us1nhg-node.aiqiche123.com
-  port: 13723
+- name: 1.11|RelayCA26
+  server: v6.ssrsub.com
   type: vmess
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  alterId: 10
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: ray
-  ws-headers:
-    Host: us1nhg-node.aiqiche123.com
-- name: 1.05|RelayAUDE253
-  server: 1.0.0.0
-  type: vmess
-  country: AU
-  port: 443
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
+  port: 168
+  udp: true
+  uuid: 92a95e6d-cf89-42ee-8110-66fab6871e2f
+  alterId: 0
   cipher: auto
   network: ws
-  ws-path: /
-  servername: cdnde.irteyz.today
+  ws-path: /ssrsub
   ws-headers:
-    HOST: cdnde.irteyz.today
+    Host: v6.ssrsub.com
   http-opts: {}
   h2-opts: {}
   tls: true
-  skip-cert-verify: true
