@@ -1,21 +1,13 @@
 proxies:
-- name: 6.31| RO25
-  server: 62.216.92.180
+- name: 3.60|JP5085 2857Mb
+  server: 45.66.134.219
   type: trojan
-  country: ' RO'
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 5.64| RO24
-  server: 62.216.92.179
-  type: trojan
-  country: ' RO'
+  country: JP
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 4.04| SG35
+- name: 2.37| SG35
   server: 81.90.189.85
   type: trojan
   country: ' SG'
@@ -23,35 +15,15 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 3.69|RO7306 1166Mb
-  server: hk-server-01.selfupay.com
+- name: 1.85|US12975
+  server: 72.167.45.6
   type: trojan
-  country: RO
+  country: US
   port: 443
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 3.55|wwwimlamcom提供节点 9
-  server: kr3.futi.online
-  port: 2053
-  type: vmess
-  uuid: eb4494a8-2acc-4d72-810c-01a3e4589e0f
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: kr3.futi.online
-- name: 1.95|US13543 3833Mb
-  server: 72.167.33.106
-  type: trojan
-  country: US
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.73|JP5629  953Mb
+- name: 1.59|JP5629  953Mb
   server: 5.183.177.111
   type: trojan
   country: JP
@@ -59,39 +31,15 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.68|trojan
+- name: 1.37| RO24
+  server: 62.216.92.179
   type: trojan
-  server: 65.49.196.246
+  country: ' RO'
   port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.65|RelayRU11
-  server: antigfwjp.tk
-  type: vmess
-  port: 443
-  udp: true
-  uuid: fb294abd-d3cc-4504-8d40-866b7622ce59
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /114514
-  ws-headers:
-    Host: antigfwjp.tk
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-- name: 1.43|NL6168 3990Mb
-  server: 185.171.120.144
-  type: trojan
-  country: NL
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.43|DE2766 4887Mb
+- name: 1.16|DE2766 4887Mb
   server: 5.183.179.138
   type: trojan
   country: DE
@@ -99,38 +47,28 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.41|RelayCA34
-  server: t6.ssrsub.com
-  type: trojan
-  port: 1033
-  password: e54a480c-77e3-41ca-8f8b-17ffb50dbd08
-  sni: t6.ssrsub.com
-  udp: true
-- name: 1.40| NL17
-  server: 89.31.127.151
-  type: trojan
-  country: ' NL'
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.37|NL5723  705Mb
-  server: ned-server-01.selfupay.com
+- name: 1.05|NL6168 3990Mb
+  server: 185.171.120.144
   type: trojan
   country: NL
   port: 443
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.25|RO7752 4677Mb
-  server: 185.126.116.235
-  type: trojan
-  country: RO
+- name: 1.03|505
+  server: 64.32.7.155
   port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.18|RO7753 4419Mb
+  type: vmess
+  uuid: 979e9170-08df-4712-aa99-3d1037e0fb5d
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /path/020724193005
+  ws-headers:
+    Host: www.65370497.xyz
+- name: 0.91|RO7753 4419Mb
   server: 185.105.191.92
   type: trojan
   country: RO
