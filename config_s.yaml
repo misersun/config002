@@ -1,13 +1,50 @@
 proxies:
-- name: 3.60|JP5085 2857Mb
-  server: 45.66.134.219
+- name: 5.13|RO7235 1429Mb
+  server: hk-server-01.selfupay.com
   type: trojan
-  country: JP
+  country: RO
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 2.37| SG35
+- name: 4.37|RO98
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 3.90|JP5136 1073Mb
+  server: jp1.futi.online
+  type: vmess
+  country: JP
+  port: 443
+  uuid: eb4494a8-2acc-4d72-810c-01a3e4589e0f
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: jp1.futi.online
+  ws-headers:
+    HOST: jp1.futi.online
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 3.62|wwwimlamcom提供节点 9
+  server: kr3.futi.online
+  port: 2053
+  type: vmess
+  uuid: eb4494a8-2acc-4d72-810c-01a3e4589e0f
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: kr3.futi.online
+- name: 3.35| SG35
   server: 81.90.189.85
   type: trojan
   country: ' SG'
@@ -15,15 +52,66 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.85|US12975
-  server: 72.167.45.6
+- name: 2.46|HK290
+  server: 13.70.7.214
   type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  country: HK
+  port: 10180
+  password: e438cc34-21de-497f-89a5-4e181cf50d72
+  sni: t.me/vpnhat
   skip-cert-verify: true
   udp: true
-- name: 1.59|JP5629  953Mb
+- name: 2.02|HK289
+  server: 52.184.19.139
+  type: trojan
+  country: HK
+  port: 19213
+  password: e438cc34-21de-497f-89a5-4e181cf50d72
+  sni: t.me/vpnhat
+  skip-cert-verify: true
+  udp: true
+- name: 1.99| RelayCNUS1250 1241Mb
+  server: 520yyds.zhqt.xyz
+  port: 50092
+  type: vmess
+  uuid: e71f0963-e272-41c9-ad1c-2c1d214cffeb
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 135.zhqt.xyz
+- name: 1.92| 美国Youtube频道工具大师 9
+  server: us1nhg-node.aiqiche123.com
+  port: 13723
+  type: vmess
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: ray
+  ws-headers:
+    Host: us1nhg-node.aiqiche123.com
+- name: 1.70|JP5163  517Mb
+  server: kr2.futi.online
+  type: vmess
+  country: JP
+  port: 2053
+  uuid: eb4494a8-2acc-4d72-810c-01a3e4589e0f
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: kr2.futi.online
+  ws-headers:
+    HOST: kr2.futi.online
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.68|JP5629  953Mb
   server: 5.183.177.111
   type: trojan
   country: JP
@@ -31,23 +119,7 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.37| RO24
-  server: 62.216.92.179
-  type: trojan
-  country: ' RO'
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.16|DE2766 4887Mb
-  server: 5.183.179.138
-  type: trojan
-  country: DE
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.05|NL6168 3990Mb
+- name: 1.66|NL6168 3990Mb
   server: 185.171.120.144
   type: trojan
   country: NL
@@ -55,7 +127,16 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.03|505
+- name: 1.65|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.55|505
   server: 64.32.7.155
   port: 443
   type: vmess
@@ -68,7 +149,87 @@ proxies:
   ws-path: /path/020724193005
   ws-headers:
     Host: www.65370497.xyz
-- name: 0.91|RO7753 4419Mb
+- name: 1.54|DE2766 4887Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.51|519
+  server: 173.82.51.121
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /path/020724193005
+  ws-headers:
+    Host: www.39613440.xyz
+- name: 1.51|NL76
+  server: 89.31.127.151
+  type: trojan
+  country: NL
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.48|RO7242 4684Mb
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.46|504
+  server: 64.32.7.154
+  port: 443
+  type: vmess
+  uuid: 979e9170-08df-4712-aa99-3d1037e0fb5d
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /path/020724193005
+  ws-headers:
+    Host: www.65370497.xyz
+- name: 1.46| RelayCNUS1253  738Mb
+  server: 520yyds.zhqt.xyz
+  port: 50090
+  type: vmess
+  uuid: e71f0963-e272-41c9-ad1c-2c1d214cffeb
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: free-3.joker007.top
+- name: 1.44|HK291
+  server: 52.184.19.139
+  type: trojan
+  country: HK
+  port: 448
+  password: e438cc34-21de-497f-89a5-4e181cf50d72
+  sni: t.me/vpnhat
+  skip-cert-verify: true
+  udp: true
+- name: 1.32|HK292
+  server: 52.184.19.139
+  type: trojan
+  country: HK
+  port: 449
+  password: e438cc34-21de-497f-89a5-4e181cf50d72
+  sni: t.me/vpnhat
+  skip-cert-verify: true
+  udp: true
+- name: 1.27|RO7753 4419Mb
   server: 185.105.191.92
   type: trojan
   country: RO
@@ -76,3 +237,35 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
+- name: 1.02|108
+  server: t6.ssrsub.com
+  type: trojan
+  port: 1033
+  password: 92a95e6d-cf89-42ee-8110-66fab6871e2f
+  sni: t6.ssrsub.com
+  udp: true
+- name: 1.00| RelayUSUS4857  585Mb
+  server: v8.ssrsub.com
+  port: 8443
+  type: vmess
+  uuid: 92a95e6d-cf89-42ee-8110-66fab6871e2f
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v8.ssrsub.com
+- name: 0.98|503
+  server: 170.178.172.74
+  port: 443
+  type: vmess
+  uuid: 206d5f57-cac1-42b1-908b-d74acc41aa3b
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /path/020724193005
+  ws-headers:
+    Host: www.12163699.xyz
