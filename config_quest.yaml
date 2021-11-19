@@ -1,5 +1,13 @@
 proxies:
-- name: 5.18|RO7235 1429Mb
+- name: 5.45|RO98
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 4.75|RO7235 1429Mb
   server: hk-server-01.selfupay.com
   type: trojan
   country: RO
@@ -7,68 +15,34 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 4.74| CTCM HKT L
-  server: shonlinesandcu03.proconcn.xyz
-  port: 561
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-  udp: true
-- name: 4.49| 台湾 H
-  server: cstwrelay.onlineto.xyz
-  port: 567
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-  udp: true
-- name: 4.34| CTCM HKT D
-  server: shonlinecu.proconcn.xyz
-  port: 561
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-- name: 4.32| CTCM HKT H
-  server: shonlinecu.proconcn.xyz
-  port: 562
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-  udp: true
-- name: 3.86| CTCM HKT N
-  server: shcris02stand.proconcn.xyz
-  port: 561
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-  udp: true
-- name: 3.69|ss
+- name: 4.41|ss
   type: ss
   server: fkgfw-prod.i.sxl.cn
   port: 443
   cipher: aes-256-cfb
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   _index: 0
-- name: 3.44| 香港 1
+- name: 4.34| 基礎香港遊戲03
+  server: 101.32.47.100
+  port: 6666
+  type: ssr
+  cipher: chacha20-ietf
+  password: kuaizai
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 65:ZffdsL
+  obfs-param: 42bf265.microsoft.com
+- name: 4.34| 基礎台湾遊戲01
+  server: 35.185.138.59
+  port: 6666
+  type: ssr
+  cipher: chacha20-ietf
+  password: kuaizai
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 65:ZffdsL
+  obfs-param: 42bf265.microsoft.com
+- name: 3.98| 香港 1
   server: 183.232.170.112
   port: 22779
   type: ssr
@@ -78,17 +52,23 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 5033:hh8o92
   obfs-param: .microsoft.com
-- protocol: origin
-  server: 162.14.11.7
+- name: 3.87|国内中专127
+  server: tz-yd01.jdxx.xyz
+  port: 35008
   type: ssr
-  cipher: rc4-md5
-  obfs-param: ''
-  protocol-param: ''
-  name: 3.12|中国北京北京ssr1621411721761
-  password: Xkfb6t
-  obfs: http_simple
-  port: 21761
-- name: 3.06|AZ转移动0327
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3935:RZVnik
+  obfs-param: 0a03d3935.microsoft.com
+- name: 3.71| RelayHKUS3537
+  server: azhk.alink123.com
+  port: 11045
+  type: trojan
+  password: 765040cb-15f4-43da-9e07-4b92c767d222
+  sni: azhk.alink123.com
+- name: 3.32|AZ转移动0327
   server: sl201.jdxx.xyz
   port: 25987
   type: ssr
@@ -99,62 +79,7 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 2.67| CTCM HKT B
-  server: cncusouth.procncon.xyz
-  port: 560
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-- name: 2.44| RelayHKUS3537
-  server: azhk.alink123.com
-  port: 11045
-  type: trojan
-  password: 765040cb-15f4-43da-9e07-4b92c767d222
-  sni: azhk.alink123.com
-- name: 2.16| CTCM HKBN D
-  server: shcris02stand.proconcn.xyz
-  port: 562
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-  udp: true
-- name: 2.07| SG35
-  server: 81.90.189.85
-  type: trojan
-  country: ' SG'
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.96| 德国
-  server: relaypro.procncon.xyz
-  port: 618
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-- name: 1.82|国内中专127
-  server: tz-yd01.jdxx.xyz
-  port: 35008
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 3935:RZVnik
-  obfs-param: 0a03d3935.microsoft.com
-- name: 1.49|trojan
+- name: 1.52|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -163,17 +88,31 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.31| 台湾 A
-  server: cstwrelay.onlineto.xyz
-  port: 560
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-- name: 1.28|RO7753 4419Mb
+- name: 1.51|RelayININ1514
+  server: infree1.tencentlink.icu
+  type: trojan
+  country: IN
+  port: 11100
+  password: e0ccff28-4c8e-4936-a91e-3898037764e0
+  skip-cert-verify: true
+  udp: true
+- name: 1.51|DE2766 4887Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.43| SG35
+  server: 81.90.189.85
+  type: trojan
+  country: ' SG'
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.38|RO7753 4419Mb
   server: 185.105.191.92
   type: trojan
   country: RO
@@ -181,15 +120,7 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.18|RO98
-  server: 62.216.92.180
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.12|RO7242 4684Mb
+- name: 1.37|RO7242 4684Mb
   server: 185.126.116.235
   type: trojan
   country: RO
@@ -197,21 +128,11 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.09| CTCM HKBN A
-  server: shonlinesandcu02.proconcn.xyz
-  port: 560
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:202111520
-  obfs-param: ''
-- name: 0.90|DE2766 4887Mb
-  server: 5.183.179.138
+- name: 1.28|RelayUSUS3439
+  server: uk2.alink.qchwnd.moe
   type: trojan
-  country: DE
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
+  country: US
+  port: 10184
+  password: e0ccff28-4c8e-4936-a91e-3898037764e0
   skip-cert-verify: true
   udp: true

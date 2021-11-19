@@ -1,5 +1,13 @@
 proxies:
-- name: 5.18|RO7235 1429Mb
+- name: 5.45|RO98
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 4.75|RO7235 1429Mb
   server: hk-server-01.selfupay.com
   type: trojan
   country: RO
@@ -7,33 +15,64 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 3.29| RelayHKJP3534
-  server: tk.shcn2.tkddns.xyz
-  port: 22642
+- name: 4.02|US12821 3234Mb
+  server: 35.72.195.188
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  alterId: 2
+  country: US
+  port: 443
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
   cipher: auto
-  tls: true
   network: ws
-  ws-path: /
-  ws-headers:
-    Host: zxjp-b.tkong.cc
-- name: 2.44| RelayHKUS3537
+  ws-path: /rhwsqaul
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 3.71| RelayHKUS3537
   server: azhk.alink123.com
   port: 11045
   type: trojan
   password: 765040cb-15f4-43da-9e07-4b92c767d222
   sni: azhk.alink123.com
-- name: 2.07| SG35
-  server: 81.90.189.85
-  type: trojan
-  country: ' SG'
+- name: 3.12| RelayCNUS1609 1365Mb
+  server: cmgz1.racernet.link
+  port: 1443
+  type: vmess
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /cmgz1
+  ws-headers:
+    Host: cmgz1.racernet.link
+- name: 2.13|二爷翻墙https1808ga
+  server: bp4.vpnbro.ml
+  port: 8888
+  type: vmess
+  uuid: 2c8548b1-34f4-4cf3-9c66-f55333c3ca9c
+  alterId: 8
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: bp4.vpnbro.ml
+- name: 1.68| 美国YouTube资源分享者
+  server: 213.59.118.169
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.49|trojan
+  type: vmess
+  uuid: f47bb3d4-37dd-44ee-a7ee-1c485a0e2b90
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /9auVq7xCL7
+  ws-headers:
+    Host: dp.5599.buzz
+- name: 1.52|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -42,31 +81,15 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.28|RO7753 4419Mb
-  server: 185.105.191.92
+- name: 1.51|RelayININ1514
+  server: infree1.tencentlink.icu
   type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
+  country: IN
+  port: 11100
+  password: e0ccff28-4c8e-4936-a91e-3898037764e0
   skip-cert-verify: true
   udp: true
-- name: 1.18|RO98
-  server: 62.216.92.180
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.12|RO7242 4684Mb
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 0.90|DE2766 4887Mb
+- name: 1.51|DE2766 4887Mb
   server: 5.183.179.138
   type: trojan
   country: DE
@@ -74,3 +97,77 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
+- name: 1.43| SG35
+  server: 81.90.189.85
+  type: trojan
+  country: ' SG'
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.43| RelayCNDE1600 2076Mb
+  server: ctsh1.racernet.link
+  port: 22080
+  type: vmess
+  uuid: 95b09c58-719f-38c0-8c56-1a3440796b17
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ctsh1de1
+  ws-headers:
+    Host: ctsh1.racernet.link
+- name: 1.38|RO7753 4419Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.37|RO7242 4684Mb
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.28|RelayUSUS3439
+  server: uk2.alink.qchwnd.moe
+  type: trojan
+  country: US
+  port: 10184
+  password: e0ccff28-4c8e-4936-a91e-3898037764e0
+  skip-cert-verify: true
+  udp: true
+- name: 1.15|US12836 3440Mb
+  server: 104.251.233.106
+  type: vmess
+  country: US
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: en.tgchannels.org/channel/vpnpool
+  ws-headers:
+    HOST: en.tgchannels.org/channel/vpnpool
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.91|503
+  server: 170.178.172.74
+  port: 443
+  type: vmess
+  uuid: 206d5f57-cac1-42b1-908b-d74acc41aa3b
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /path/020724193005
+  ws-headers:
+    Host: www.12163699.xyz
