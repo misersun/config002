@@ -1,15 +1,5 @@
 proxies:
-- name: 5.19| 香港 01
-  server: dg-hk-node01.linkthink.app
-  port: 10402
-  type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 230850:b2i61FqJsR
-  obfs-param: ''
-- name: 4.70|RO98
+- name: 5.71|RO98
   server: 62.216.92.180
   type: trojan
   country: RO
@@ -17,52 +7,56 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 4.56|RO7235 1429Mb
-  server: hk-server-01.selfupay.com
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 4.50|ss
+- name: 5.38|ss
   type: ss
   server: fkgfw-prod.i.sxl.cn
   port: 443
   cipher: aes-256-cfb
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   _index: 0
-- name: 3.80| 香港 01 2
-  server: dg-hk-node01.linkthink.app
-  port: 10081
-  type: ssr
-  cipher: rc4-md5
-  password: abK09D1FnV
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 246070:2pfvHzKIct
-  obfs-param: ''
-- name: 3.20| 香港 1
-  server: 183.232.170.112
-  port: 22779
+- name: 3.52|SG242
+  server: 81.90.189.85
+  type: trojan
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 2.58|国内中专127
+  server: tz-yd01.jdxx.xyz
+  port: 35008
   type: ssr
   cipher: chacha20-ietf
-  password: m2KSOD
+  password: MaOKEa
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 2.85| 基礎台湾遊戲01
-  server: 35.185.138.59
-  port: 6666
-  type: ssr
-  cipher: chacha20-ietf
-  password: kuaizai
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 65:ZffdsL
-  obfs-param: 42bf265.microsoft.com
-- name: 2.84|AZ转移动0327
+  protocol-param: 3935:RZVnik
+  obfs-param: 0a03d3935.microsoft.com
+- name: 1.68|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.49|RO7753 4419Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.10|103
+  server: t6.ssrsub.com
+  type: trojan
+  port: 11033
+  password: a0daa9d9-6257-4ae9-9959-ccfb993f122c
+  sni: t6.ssrsub.com
+  udp: true
+- name: 1.10|AZ转移动0327
   server: sl201.jdxx.xyz
   port: 25987
   type: ssr
@@ -73,40 +67,20 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 2.10|国内中专127
-  server: tz-yd01.jdxx.xyz
-  port: 35008
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 3935:RZVnik
-  obfs-param: 0a03d3935.microsoft.com
-- name: 1.63| 香港 2
-  server: 116.163.10.131
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 1.49|RO7753 4419Mb
-  server: 185.105.191.92
+- name: 1.06|102
+  server: t2.ssrsub.com
   type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
+  port: 11033
+  password: a0daa9d9-6257-4ae9-9959-ccfb993f122c
+  sni: t2.ssrsub.com
   udp: true
-- name: 1.23|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
+- name: 1.02|RelayCNTW54
+  server: ssr3.ssrsub.com
+  type: ssr
+  country: CN
+  port: 8333
+  password: passfw2xs4e!
+  cipher: rc4-md5
+  protocol: origin
+  protocol-param: t.me/SSRSUB
+  obfs: plain
