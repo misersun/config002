@@ -1,33 +1,26 @@
 proxies:
-- name: 5.71|RO98
-  server: 62.216.92.180
+- name: 3.76|RO6644 1009Mb
+  server: hk-server-01.selfupay.com
   type: trojan
   country: RO
   port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 5.50| RelaySGSG3352  369Mb
-  server: ycgyg.com
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: ycgyg.com
-- name: 3.52|SG242
-  server: 81.90.189.85
+- name: 3.06| RelayHKUS3537
+  server: azhk.alink123.com
+  port: 11045
   type: trojan
-  country: SG
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
+  password: 765040cb-15f4-43da-9e07-4b92c767d222
+  sni: azhk.alink123.com
+- name: 1.90|97
+  server: t8.ssrsub.com
+  type: trojan
+  port: 11033
+  password: a0daa9d9-6257-4ae9-9959-ccfb993f122c
+  sni: t8.ssrsub.com
   udp: true
-- name: 1.68|trojan
+- name: 1.76|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -36,58 +29,28 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.65| RelayUSUS5064  647Mb
-  server: cc.hciahciphcie.club
+- name: 1.70| 美国YouTube资源分享者
+  server: 213.59.118.169
   port: 443
   type: vmess
-  uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596
-  alterId: 0
+  uuid: f47bb3d4-37dd-44ee-a7ee-1c485a0e2b90
+  alterId: 1
   cipher: auto
   tls: true
+  skip-cert-verify: false
   network: ws
-  ws-path: /84c3f/
+  ws-path: /9auVq7xCL7
   ws-headers:
-    Host: cc.hciahciphcie.club
-- name: 1.49|RO7753 4419Mb
-  server: 185.105.191.92
+    Host: dp.5599.buzz
+- name: 1.37|SG242
+  server: 81.90.189.85
   type: trojan
-  country: RO
+  country: SG
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.40|JP147
-  server: 3.112.189.36
-  type: vmess
-  country: JP
-  port: 443
-  uuid: c36e99c9-cdb8-4ab8-85e7-78a5f9e840f4
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /octopusvpn/
-  servername: jp2.octopusvpn.team
-  ws-headers:
-    HOST: jp2.octopusvpn.team
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.10|103
-  server: t6.ssrsub.com
-  type: trojan
-  port: 11033
-  password: a0daa9d9-6257-4ae9-9959-ccfb993f122c
-  sni: t6.ssrsub.com
-  udp: true
-- name: 1.06|102
-  server: t2.ssrsub.com
-  type: trojan
-  port: 11033
-  password: a0daa9d9-6257-4ae9-9959-ccfb993f122c
-  sni: t2.ssrsub.com
-  udp: true
-- name: 1.02|RelayGBGB2085  736Mb
+- name: 1.32|RelayGBGB2085  736Mb
   server: us1nhg-node.aiqiche123.com
   port: 13723
   type: vmess
@@ -99,7 +62,35 @@ proxies:
   ws-path: ray
   ws-headers:
     Host: us1nhg-node.aiqiche123.com
-- name: 0.94|503
+- name: 1.28|RO7753 4419Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.17|RO98
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.00| RelayAUUS631  441Mb
+  server: 1.0.0.0
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.93|503
   server: 170.178.172.74
   port: 443
   type: vmess
@@ -112,3 +103,10 @@ proxies:
   ws-path: /path/020724193005
   ws-headers:
     Host: www.12163699.xyz
+- name: 0.93|94
+  server: t3.ssrsub.com
+  type: trojan
+  port: 11033
+  password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2
+  sni: t3.ssrsub.com
+  udp: true
