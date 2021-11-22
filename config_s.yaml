@@ -1,13 +1,5 @@
 proxies:
-- name: 5.86|RO98
-  server: 62.216.92.180
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 5.43|RO6644 1009Mb
+- name: 5.01|RO6644 1009Mb
   server: hk-server-01.selfupay.com
   type: trojan
   country: RO
@@ -15,14 +7,22 @@ proxies:
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 3.93|网址 httpswwwmgnbjp
+- name: 4.95|网址 httpswwwmgnbjp
   server: cmhk.sjebo.com.cn
   port: 33333
   type: trojan
   password: 95e52887-f174-4e3b-b1f7-d52c6cc34d41
   sni: cmhk.sjebo.com.cn
   skip-cert-verify: false
-- name: 2.76|SG242
+- name: 4.40|RO98
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.79|SG242
   server: 81.90.189.85
   type: trojan
   country: SG
@@ -30,7 +30,7 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 2.29|trojan
+- name: 1.61|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -39,19 +39,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 2.00| RelayHKUS3537
-  server: azhk.alink123.com
-  port: 11045
-  type: trojan
-  password: 765040cb-15f4-43da-9e07-4b92c767d222
-  sni: azhk.alink123.com
-- name: 1.64| mattkaydiarycom加拿大CACanadaWaterloo
-  server: t7.ssrsub.com
-  port: 11033
-  type: trojan
-  password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2
-  sni: t7.ssrsub.com
-- name: 1.35|DE108
+- name: 1.47|DE108
   server: 5.183.179.138
   type: trojan
   country: DE
@@ -59,24 +47,7 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.27|US12232 1301Mb
-  server: 104.251.233.106
-  type: vmess
-  country: US
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: /ray
-  servername: en.tgchannels.org/channel/vpnpool
-  ws-headers:
-    HOST: en.tgchannels.org/channel/vpnpool
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.25|503
+- name: 0.70|503
   server: 170.178.172.74
   port: 443
   type: vmess
