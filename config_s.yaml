@@ -1,5 +1,5 @@
 proxies:
-- name: 4.42|RO98
+- name: 4.41|RO98
   server: 62.216.92.180
   type: trojan
   country: RO
@@ -7,7 +7,42 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 3.65|RO6644 1009Mb
+- name: 3.98| 日本 NO3软银线路联通优化3x
+  server: us4gia.zhqsm.734.icu
+  port: 20443
+  type: trojan
+  password: f2961c0c-0f76-330a-b8ec-1a3429624389
+  sni: us4gia.zhqsm.734.icu
+  skip-cert-verify: false
+- name: 3.10| Lv1 新加坡B  中转
+  server: v1.369855.xyz
+  port: 11443
+  type: vmess
+  uuid: 576e6f18-0b8f-4bf1-83e4-3d9a6e6cd9ae
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /api/pianist
+  ws-headers:
+    Host: pianist.ddns.tjiasu.xyz
+- name: 3.04|网址 httpswwwmgnbjp
+  server: cmhk.sjebo.com.cn
+  port: 33333
+  type: trojan
+  password: 95e52887-f174-4e3b-b1f7-d52c6cc34d41
+  sni: cmhk.sjebo.com.cn
+  skip-cert-verify: false
+- name: 2.80|RelayHKUS59
+  server: azhk.alink123.com
+  type: trojan
+  country: HK
+  port: 11045
+  password: 765040cb-15f4-43da-9e07-4b92c767d222
+  skip-cert-verify: true
+  udp: true
+- name: 2.50|RO6644 1009Mb
   server: hk-server-01.selfupay.com
   type: trojan
   country: RO
@@ -15,7 +50,24 @@ proxies:
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 2.24|trojan
+- name: 2.34|HK58
+  server: 103.138.75.235
+  type: vmess
+  country: HK
+  port: 443
+  uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /clientarea
+  servername: 103.138.75.235
+  ws-headers:
+    HOST: 103.138.75.235
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.13|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -24,14 +76,50 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 2.11|网址 httpswwwmgnbjp
-  server: cmhk.sjebo.com.cn
-  port: 33333
+- name: 1.49| mattkaydiarycom英国GBUnited KiongdomLondon
+  server: us1nhg-node.aiqiche123.com
+  port: 13723
+  type: vmess
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: ray
+  ws-headers:
+    Host: us1nhg-node.aiqiche123.com
+- name: 1.34| 美国 NO14 CN2 GIA 三网直连2x
+  server: ion3.734.icu
+  port: 10443
   type: trojan
-  password: 95e52887-f174-4e3b-b1f7-d52c6cc34d41
-  sni: cmhk.sjebo.com.cn
+  password: f2961c0c-0f76-330a-b8ec-1a3429624389
+  sni: ion3.734.icu
   skip-cert-verify: false
-- name: 0.86|DE108
+- name: 1.31| 美国 NO15 CN2 GIA NetflixHBOHulu2x
+  server: ion3.734.icu
+  port: 11443
+  type: trojan
+  password: f2961c0c-0f76-330a-b8ec-1a3429624389
+  sni: ion3.734.icu
+  skip-cert-verify: false
+- name: 1.31|RelayUSDE396
+  server: 104.24.88.81
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.30|DE108
   server: 5.183.179.138
   type: trojan
   country: DE
@@ -39,15 +127,75 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 0.79|SG242
-  server: 81.90.189.85
+- name: 1.30|RelayUSDE403
+  server: 104.25.175.69
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.24| 美国 NO13 CN2 GIA 三网直连2x
+  server: gia13.zhqsm.734.icu
+  port: 443
   type: trojan
-  country: SG
+  password: f2961c0c-0f76-330a-b8ec-1a3429624389
+  sni: gia13.zhqsm.734.icu
+  skip-cert-verify: false
+- name: 1.21|3
+  server: 104.24.64.213
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.12|9
+  server: 104.25.255.229
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.11|0
+  server: 104.22.44.50
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 0.99|RO553  877Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 0.78|503
+- name: 0.82|503
   server: 170.178.172.74
   port: 443
   type: vmess
@@ -60,3 +208,75 @@ proxies:
   ws-path: /path/020724193005
   ws-headers:
     Host: www.12163699.xyz
+- name: 0.70|httpsgitiov9999 clash ip3 3
+  server: usaarm2.oracleusa.ml
+  port: 443
+  type: vmess
+  uuid: 13e34585-8988-4808-9819-a9f6ed47e373
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /LXZKNTbTnI
+  ws-headers:
+    Host: usaarm2.oracleusa.ml
+- name: 0.69| US248  999Mb
+  server: 104.16.241.127
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 0.63| githubcomfreefq  美国CloudFlare公司CDN节点 24
+  server: 104.18.64.0
+  port: 443
+  type: vmess
+  uuid: 19379d2f-8c4f-4dff-8cff-cfdc586d49d3
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /liuwei
+  ws-headers:
+    Host: uuuuss11.liuwei01.tk
+- name: 0.60|RelayUSDE399
+  server: 104.16.181.15
+  type: vmess
+  country: US
+  port: 443
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cdnde.irteyz.today
+  ws-headers:
+    HOST: cdnde.irteyz.today
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.59| 日本 NO4llj节点移动优化2x
+  server: rb2.llj.734.icu
+  port: 10443
+  type: trojan
+  password: f2961c0c-0f76-330a-b8ec-1a3429624389
+  sni: rb2.llj.734.icu
+  skip-cert-verify: false
+- name: 0.57| mattkaydiarycom美国USUSANewark
+  server: uuuuss22.liuwei01.tk
+  port: 443
+  type: vmess
+  uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /liuwei
+  ws-headers:
+    Host: uuuuss22.liuwei01.tk
