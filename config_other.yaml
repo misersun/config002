@@ -1,22 +1,12 @@
 proxies:
-- name: 4.29|ss
+- name: 3.45|ss
   type: ss
   server: fkgfw-prod.i.sxl.cn
   port: 443
   cipher: aes-256-cfb
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   _index: 0
-- name: 3.87| 香港 1
-  server: 183.232.170.112
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 1.77|AZ转移动0327
+- name: 2.85|AZ转移动0327
   server: sl201.jdxx.xyz
   port: 25987
   type: ssr
@@ -27,7 +17,17 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 1.14| 香港 2
+- name: 1.38| 香港 1
+  server: 183.232.170.112
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 1.02| 香港 2
   server: 116.163.10.131
   port: 22779
   type: ssr

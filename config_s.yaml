@@ -1,20 +1,5 @@
 proxies:
-- name: 5.01|RO6644 1009Mb
-  server: hk-server-01.selfupay.com
-  type: trojan
-  country: RO
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 4.95|网址 httpswwwmgnbjp
-  server: cmhk.sjebo.com.cn
-  port: 33333
-  type: trojan
-  password: 95e52887-f174-4e3b-b1f7-d52c6cc34d41
-  sni: cmhk.sjebo.com.cn
-  skip-cert-verify: false
-- name: 4.40|RO98
+- name: 4.42|RO98
   server: 62.216.92.180
   type: trojan
   country: RO
@@ -22,15 +7,15 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.79|SG242
-  server: 81.90.189.85
+- name: 3.65|RO6644 1009Mb
+  server: hk-server-01.selfupay.com
   type: trojan
-  country: SG
+  country: RO
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
+  password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 1.61|trojan
+- name: 2.24|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -39,7 +24,14 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.47|DE108
+- name: 2.11|网址 httpswwwmgnbjp
+  server: cmhk.sjebo.com.cn
+  port: 33333
+  type: trojan
+  password: 95e52887-f174-4e3b-b1f7-d52c6cc34d41
+  sni: cmhk.sjebo.com.cn
+  skip-cert-verify: false
+- name: 0.86|DE108
   server: 5.183.179.138
   type: trojan
   country: DE
@@ -47,7 +39,15 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 0.70|503
+- name: 0.79|SG242
+  server: 81.90.189.85
+  type: trojan
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.78|503
   server: 170.178.172.74
   port: 443
   type: vmess
