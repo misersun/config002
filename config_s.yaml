@@ -1,5 +1,13 @@
 proxies:
-- name: 3.76|RO6644 1009Mb
+- name: 5.86|RO98
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 5.43|RO6644 1009Mb
   server: hk-server-01.selfupay.com
   type: trojan
   country: RO
@@ -7,20 +15,22 @@ proxies:
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 3.06| RelayHKUS3537
-  server: azhk.alink123.com
-  port: 11045
+- name: 3.93|网址 httpswwwmgnbjp
+  server: cmhk.sjebo.com.cn
+  port: 33333
   type: trojan
-  password: 765040cb-15f4-43da-9e07-4b92c767d222
-  sni: azhk.alink123.com
-- name: 1.90|97
-  server: t8.ssrsub.com
+  password: 95e52887-f174-4e3b-b1f7-d52c6cc34d41
+  sni: cmhk.sjebo.com.cn
+  skip-cert-verify: false
+- name: 2.76|SG242
+  server: 81.90.189.85
   type: trojan
-  port: 11033
-  password: a0daa9d9-6257-4ae9-9959-ccfb993f122c
-  sni: t8.ssrsub.com
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
   udp: true
-- name: 1.76|trojan
+- name: 2.29|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -29,68 +39,44 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.70| 美国YouTube资源分享者
-  server: 213.59.118.169
-  port: 443
-  type: vmess
-  uuid: f47bb3d4-37dd-44ee-a7ee-1c485a0e2b90
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /9auVq7xCL7
-  ws-headers:
-    Host: dp.5599.buzz
-- name: 1.37|SG242
-  server: 81.90.189.85
+- name: 2.00| RelayHKUS3537
+  server: azhk.alink123.com
+  port: 11045
   type: trojan
-  country: SG
+  password: 765040cb-15f4-43da-9e07-4b92c767d222
+  sni: azhk.alink123.com
+- name: 1.64| mattkaydiarycom加拿大CACanadaWaterloo
+  server: t7.ssrsub.com
+  port: 11033
+  type: trojan
+  password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2
+  sni: t7.ssrsub.com
+- name: 1.35|DE108
+  server: 5.183.179.138
+  type: trojan
+  country: DE
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.32|RelayGBGB2085  736Mb
-  server: us1nhg-node.aiqiche123.com
-  port: 13723
+- name: 1.27|US12232 1301Mb
+  server: 104.251.233.106
   type: vmess
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  country: US
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
   alterId: 10
   cipher: auto
-  tls: true
   network: ws
-  ws-path: ray
+  ws-path: /ray
+  servername: en.tgchannels.org/channel/vpnpool
   ws-headers:
-    Host: us1nhg-node.aiqiche123.com
-- name: 1.28|RO7753 4419Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.17|RO98
-  server: 62.216.92.180
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.00| RelayAUUS631  441Mb
-  server: 1.0.0.0
-  port: 443
-  type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
-  cipher: auto
+    HOST: en.tgchannels.org/channel/vpnpool
+  http-opts: {}
+  h2-opts: {}
   tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 0.93|503
+  skip-cert-verify: true
+- name: 1.25|503
   server: 170.178.172.74
   port: 443
   type: vmess
@@ -103,10 +89,3 @@ proxies:
   ws-path: /path/020724193005
   ws-headers:
     Host: www.12163699.xyz
-- name: 0.93|94
-  server: t3.ssrsub.com
-  type: trojan
-  port: 11033
-  password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2
-  sni: t3.ssrsub.com
-  udp: true

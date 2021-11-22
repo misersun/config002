@@ -1,5 +1,13 @@
 proxies:
-- name: 3.76|RO6644 1009Mb
+- name: 5.86|RO98
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 5.43|RO6644 1009Mb
   server: hk-server-01.selfupay.com
   type: trojan
   country: RO
@@ -7,14 +15,24 @@ proxies:
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 3.33|ss
+- name: 4.78|ss
   type: ss
   server: fkgfw-prod.i.sxl.cn
   port: 443
   cipher: aes-256-cfb
   password: E4DNMf73kHPrd8Qq7aqGPf7f
   _index: 0
-- name: 3.22|AZ转移动0327
+- name: 4.45| 香港 1
+  server: 183.232.170.112
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 4.23|AZ转移动0327
   server: sl201.jdxx.xyz
   port: 25987
   type: ssr
@@ -25,13 +43,7 @@ proxies:
   protocol-param: 1237:Wa2lOa
   obfs-param: b00e31237.microsoft.com
   udp: true
-- name: 3.06| RelayHKUS3537
-  server: azhk.alink123.com
-  port: 11045
-  type: trojan
-  password: 765040cb-15f4-43da-9e07-4b92c767d222
-  sni: azhk.alink123.com
-- name: 2.92|国内中专127
+- name: 4.08|国内中专127
   server: tz-yd01.jdxx.xyz
   port: 35008
   type: ssr
@@ -41,24 +53,22 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 3935:RZVnik
   obfs-param: 0a03d3935.microsoft.com
-- name: 1.93| 香港 1
-  server: 183.232.170.112
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 1.90|97
-  server: t8.ssrsub.com
+- name: 3.93|网址 httpswwwmgnbjp
+  server: cmhk.sjebo.com.cn
+  port: 33333
   type: trojan
-  port: 11033
-  password: a0daa9d9-6257-4ae9-9959-ccfb993f122c
-  sni: t8.ssrsub.com
+  password: 95e52887-f174-4e3b-b1f7-d52c6cc34d41
+  sni: cmhk.sjebo.com.cn
+  skip-cert-verify: false
+- name: 2.76|SG242
+  server: 81.90.189.85
+  type: trojan
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
   udp: true
-- name: 1.76|trojan
+- name: 2.29|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -67,34 +77,33 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.37|SG242
-  server: 81.90.189.85
+- name: 2.00| RelayHKUS3537
+  server: azhk.alink123.com
+  port: 11045
   type: trojan
-  country: SG
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.28|RO7753 4419Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.17|RO98
-  server: 62.216.92.180
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 0.93|94
-  server: t3.ssrsub.com
-  type: trojan
+  password: 765040cb-15f4-43da-9e07-4b92c767d222
+  sni: azhk.alink123.com
+- name: 1.69| 香港 2
+  server: 116.163.10.131
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 1.64| mattkaydiarycom加拿大CACanadaWaterloo
+  server: t7.ssrsub.com
   port: 11033
+  type: trojan
   password: 0d0a53dd-6a0f-47ac-8d0c-6eca674926b2
-  sni: t3.ssrsub.com
+  sni: t7.ssrsub.com
+- name: 1.35|DE108
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
   udp: true
