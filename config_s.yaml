@@ -1,15 +1,10 @@
 proxies:
-- name: 1.30| 美国 圣路易斯  公益  Anycast
-  server: apn-pw.connect-node.xyz
-  port: 8443
-  type: vmess
-  uuid: fb60eebc-9998-3cdf-a81a-a29a0b08d6f5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /web
-  ws-headers:
-    Host: pw-usa.connect-node.xyz
-  udp: true
+- name: 1.92|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
