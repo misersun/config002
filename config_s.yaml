@@ -1,5 +1,5 @@
 proxies:
-- name: 1.92|trojan
+- name: 2.15|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -8,3 +8,10 @@ proxies:
   alpn:
   - h2
   - http/1.1
+- name: 1.45| 德国 4
+  server: 5.183.179.138
+  port: 443
+  type: trojan
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true

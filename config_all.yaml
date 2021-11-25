@@ -1,5 +1,25 @@
 proxies:
-- name: 1.92|trojan
+- name: 2.69| 香港 2
+  server: 116.163.10.131
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 2.23| 香港 1
+  server: 183.232.170.112
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 2.15|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -8,3 +28,50 @@ proxies:
   alpn:
   - h2
   - http/1.1
+- name: 1.90| httpsgitiov9999 圣何塞v2ray 8
+  server: 192.74.254.167
+  port: 500
+  type: vmess
+  uuid: 764e808a-115e-11ec-a88f-00163c9f4934
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.59| httpsgitiov9999 莫斯科v2ray 4
+  server: 2.56.241.192
+  port: 49491
+  type: vmess
+  uuid: 7f0c36ee-4805-11ec-a58e-56503998dcfb
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.45| 德国 4
+  server: 5.183.179.138
+  port: 443
+  type: trojan
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.41| httpsgitiov9999 莫斯科v2ray 7
+  server: 45.137.154.208
+  port: 63113
+  type: vmess
+  uuid: 520227f2-45b3-11ec-b25e-ae8f069b1830
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.27| httpsgitiov9999 莫斯科v2ray 11
+  server: 45.137.154.208
+  port: 7786
+  type: vmess
+  uuid: 45dafa3a-45b3-11ec-b25e-ae8f069b1830
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.08| httpsgitiov9999 莫斯科v2ray 8
+  server: 45.137.154.208
+  port: 7282
+  type: vmess
+  uuid: 4c750e08-45b3-11ec-b25e-ae8f069b1830
+  alterId: 0
+  cipher: auto
+  tls: false
