@@ -1,46 +1,59 @@
 proxies:
-- name: 5.31| 2265Mb
-  server: 62.216.92.180
+- name: 4.61|RO83 2341Mb
+  server: 62.216.92.179
   type: trojan
   country: RO
   port: 443
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 4.26|Relay  703Mb
-  server: gy.b2.nkeo.top
-  type: trojan
-  country: CN
-  port: 45122
-  password: 1079739e-fa18-437f-b818-1f3a04fd9911
-  skip-cert-verify: true
-  udp: true
-- name: 2.24|trojan
-  type: trojan
-  server: 65.49.196.246
+- name: 4.21| Lv1 新加坡A  直连
+  server: v1.369855.xyz
+  port: 11443
+  type: vmess
+  uuid: 576e6f18-0b8f-4bf1-83e4-3d9a6e6cd9ae
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /api/sg
+  ws-headers:
+    Host: sgav2.ddns.tjiasu.xyz
+- name: 2.95|Relay 3795Mb
+  server: jp1.racernet.link
   port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.89| 德国 4
-  server: 5.183.179.138
-  port: 443
+  type: vmess
+  uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /rhwsqaul
+  ws-headers:
+    Host: jp1.racernet.link
+- name: 2.82|SG155
+  server: 81.90.189.85
   type: trojan
+  country: SG
+  port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.86|  995Mb
-  server: 5.183.177.111
-  type: trojan
-  country: JP
+- name: 2.73|Relay  858Mb
+  server: hk2.racernet.link
   port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.85| RelaySGSG730 4418Mb
-  server: eeh7iewe.com
+  type: vmess
+  uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /racernet
+  ws-headers:
+    Host: hk2.racernet.link
+- name: 2.25|Relay 2318Mb
+  server: zecjk.com
   port: 443
   type: vmess
   uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
@@ -50,16 +63,113 @@ proxies:
   network: ws
   ws-path: /ws
   ws-headers:
-    Host: eeh7iewe.com
-- name: 1.65|SG153
-  server: 81.90.189.85
+    Host: zecjk.com
+- name: 2.12| RelayCNUS407  930Mb
+  server: cmgz1.racernet.link
+  port: 1443
+  type: vmess
+  uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /cmgz1
+  ws-headers:
+    Host: cmgz1.racernet.link
+- name: 1.70|US172 2806Mb
+  server: 72.167.45.6
   type: trojan
-  country: SG
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.68|Relay 2248Mb
+  server: t7.ssrsub.com
+  type: trojan
+  country: CA
+  port: 21033
+  password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4
+  skip-cert-verify: true
+  udp: true
+- name: 1.64|Relay 2282Mb
+  server: t6.ssrsub.com
+  type: trojan
+  country: CA
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  skip-cert-verify: true
+  udp: true
+- name: 1.58|NL73  427Mb
+  server: 89.31.127.151
+  type: trojan
+  country: NL
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.52|JP64  502Mb
+  server: 5.183.177.111
+  type: trojan
+  country: JP
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.48|RO653  887Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.35| 2000Mb
+- name: 1.47|NL74 1630Mb
+  server: 185.171.120.144
+  type: trojan
+  country: NL
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.45|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.43|RO86 10364Mb
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.34|Relay 4852Mb
+  server: hk5.racernet.link
+  port: 443
+  type: vmess
+  uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /racernet
+  ws-headers:
+    Host: hk5.racernet.link
+- name: 1.32|Relay 1994Mb
+  server: t9.ssrsub.com
+  type: trojan
+  country: CA
+  port: 21033
+  password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4
+  skip-cert-verify: true
+  udp: true
+- name: 1.29|US170 2166Mb
   server: 72.167.33.106
   type: trojan
   country: US
@@ -67,16 +177,8 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.31|NL63 13546Mb
-  server: 89.31.127.151
-  type: trojan
-  country: NL
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.22| US309
-  server: 104.16.98.249
+- name: 1.21| US382
+  server: 104.24.88.81
   port: 443
   type: vmess
   uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
@@ -87,19 +189,55 @@ proxies:
   ws-path: /
   ws-headers:
     Host: cdnde.irteyz.today
-- name: 1.21| RelayHKKR521  887Mb
-  server: xe3rayu3.com
+- name: 1.19|3
+  server: 104.22.6.49
   port: 443
   type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
   cipher: auto
   tls: true
   network: ws
-  ws-path: /ws
+  ws-path: /
   ws-headers:
-    Host: xe3rayu3.com
-- name: 1.18|wwwimlamcom提供节点 19
+    Host: cdnde.irteyz.today
+- name: 1.16|9
+  server: 104.25.255.229
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.13|3
+  server: 104.24.64.213
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.13|Relay 1058Mb
+  server: us1nhg-node.aiqiche123.com
+  port: 13723
+  type: vmess
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: ray
+  ws-headers:
+    Host: us1nhg-node.aiqiche123.com
+- name: 1.11|wwwimlamcom提供节点 19
   server: 185.252.223.202
   port: 443
   type: vmess
@@ -111,72 +249,8 @@ proxies:
   ws-path: /path/243535322906
   ws-headers:
     Host: www.16675463.xyz
-- name: 1.18| US254 1008Mb
-  server: 104.16.182.15
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 1.18| US304
-  server: 104.16.149.48
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 1.18|wwwimlamcom提供节点 58
-  server: 520yyds.zhqt.xyz
-  port: 50088
-  type: vmess
-  uuid: 93094b0e-e644-4adf-9c96-e3168ac5205a
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: free-5.joker007.top
-- name: 1.14|33
-  server: 104.20.81.240
-  port: 443
-  type: vmess
-  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdnde.irteyz.today
-- name: 1.13|RO76 10134Mb
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.11|Relay 2954Mb
-  server: t7.ssrsub.com
-  type: trojan
-  country: CA
-  port: 11033
-  password: a0daa9d9-6257-4ae9-9959-ccfb993f122c
-  skip-cert-verify: true
-  udp: true
-- name: 1.10| RelayUSUS1073  926Mb
-  server: usa-washington.lvuft.com
+- name: 1.06|Relay 2149Mb
+  server: eeh7iewe.com
   port: 443
   type: vmess
   uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
@@ -186,12 +260,12 @@ proxies:
   network: ws
   ws-path: /ws
   ws-headers:
-    Host: usa-washington.lvuft.com
-- name: 1.03| 1313Mb
-  server: 62.216.92.179
+    Host: eeh7iewe.com
+- name: 1.05|Relay  466Mb
+  server: t5.ssrsub.com
   type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
+  country: RU
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
   skip-cert-verify: true
   udp: true

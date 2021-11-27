@@ -1,22 +1,26 @@
 proxies:
-- name: 1.34| 美国 NO14 CN2 GIA 三网直连2x
-  server: ion3.734.icu
-  port: 10443
+- name: 1.70|US172 2806Mb
+  server: 72.167.45.6
   type: trojan
-  password: f2961c0c-0f76-330a-b8ec-1a3429624389
-  sni: ion3.734.icu
-  skip-cert-verify: false
-- name: 1.31| 美国 NO15 CN2 GIA NetflixHBOHulu2x
-  server: ion3.734.icu
-  port: 11443
-  type: trojan
-  password: f2961c0c-0f76-330a-b8ec-1a3429624389
-  sni: ion3.734.icu
-  skip-cert-verify: false
-- name: 1.24| 美国 NO13 CN2 GIA 三网直连2x
-  server: gia13.zhqsm.734.icu
+  country: US
   port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.45|trojan
   type: trojan
-  password: f2961c0c-0f76-330a-b8ec-1a3429624389
-  sni: gia13.zhqsm.734.icu
-  skip-cert-verify: false
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.29|US170 2166Mb
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
