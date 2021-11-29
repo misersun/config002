@@ -1,5 +1,13 @@
 proxies:
-- name: 2.14|trojan
+- name: 2.05|US170 2166Mb
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.39|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -8,3 +16,19 @@ proxies:
   alpn:
   - h2
   - http/1.1
+- name: 1.13|US557
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 0.31|Relay  468Mb
+  server: t9.ssrsub.com
+  type: trojan
+  country: CA
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  skip-cert-verify: true
+  udp: true

@@ -1,5 +1,13 @@
 proxies:
-- name: 4.35| Lv1 新加坡A  直连
+- name: 5.95|RO241
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 4.43| Lv1 新加坡A  直连
   server: v1.369855.xyz
   port: 11443
   type: vmess
@@ -12,7 +20,15 @@ proxies:
   ws-path: /api/sg
   ws-headers:
     Host: sgav2.ddns.tjiasu.xyz
-- name: 3.35|SG155
+- name: 3.96|RO239
+  server: 62.216.92.179
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 3.25|SG155
   server: 81.90.189.85
   type: trojan
   country: SG
@@ -20,19 +36,51 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 2.81| RelayUSUS1746 3807Mb
-  server: sg2.futi.online
+- name: 2.43|Relay 1631Mb
+  server: eeh7iewe.com
   port: 443
   type: vmess
-  uuid: e60a3ed8-6620-4fce-b926-60af2c693f3f
-  alterId: 1
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
   cipher: auto
   tls: true
   network: ws
-  ws-path: /
+  ws-path: /ws
   ws-headers:
-    Host: sg2.futi.online
-- name: 2.40|Relay 3149Mb
+    Host: eeh7iewe.com
+- name: 2.05|US170 2166Mb
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.83| RelayUSUS1834  779Mb
+  server: 104.18.26.165
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 1.62|Relay  698Mb
+  server: free-russian01-cdn.xiaohouzi.club
+  port: 443
+  type: vmess
+  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /2993fe/
+  ws-headers:
+    Host: free-russian01-cdn.xiaohouzi.club
+- name: 1.60|Relay 3149Mb
   server: zecjk.com
   port: 443
   type: vmess
@@ -44,7 +92,27 @@ proxies:
   ws-path: /ws
   ws-headers:
     Host: zecjk.com
-- name: 2.14|trojan
+- name: 1.40|Relay 1144Mb
+  server: t6.ssrsub.com
+  type: trojan
+  country: CA
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  skip-cert-verify: true
+  udp: true
+- name: 1.40|Relay  733Mb
+  server: ycgyg.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: ycgyg.com
+- name: 1.39|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -53,63 +121,15 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 2.08|Relay 4516Mb
-  server: jp1.racernet.link
-  port: 443
-  type: vmess
-  uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /rhwsqaul
-  ws-headers:
-    Host: jp1.racernet.link
-- name: 1.97|US170 2166Mb
-  server: 72.167.33.106
+- name: 1.38|RO238
+  server: 185.126.116.235
   type: trojan
-  country: US
+  country: RO
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
+  password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 1.94| RelayUSUS1737 1279Mb
-  server: us3.futi.online
-  port: 443
-  type: vmess
-  uuid: e60a3ed8-6620-4fce-b926-60af2c693f3f
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: us3.futi.online
-- name: 1.74| RelayJPJP680 5623Mb
-  server: jp1.futi.online
-  port: 2053
-  type: vmess
-  uuid: e60a3ed8-6620-4fce-b926-60af2c693f3f
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jp1.futi.online
-- name: 1.61|Relay 1660Mb
-  server: cmgz1.racernet.link
-  port: 1443
-  type: vmess
-  uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /cmgz1
-  ws-headers:
-    Host: cmgz1.racernet.link
-- name: 1.60|JP64  502Mb
+- name: 1.38|JP64  502Mb
   server: 5.183.177.111
   type: trojan
   country: JP
@@ -117,23 +137,19 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.57|NL74 1630Mb
-  server: 185.171.120.144
-  type: trojan
-  country: NL
+- name: 1.34| RelayUSUS1830 1415Mb
+  server: api.ssfree.ru
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.50|RO653  887Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.40|Relay  925Mb
+  type: vmess
+  uuid: 3ef280d8-5064-11ec-b734-000017022008
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /getweather
+  ws-headers:
+    Host: api.ssfree.ru
+- name: 1.24|Relay  925Mb
   server: powerservice.com
   port: 443
   type: vmess
@@ -145,43 +161,35 @@ proxies:
   ws-path: /sshocean
   ws-headers:
     Host: uk2.v2rayserv.com
-- name: 1.27|Relay 1212Mb
-  server: www.shanpao.site
-  port: 30650
-  type: vmess
-  uuid: b1b27984-5a26-477a-f35f-5eb7974f1bf4
-  alterId: 65
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /path
-  ws-headers:
-    Host: www.shanpao.site
-- name: 1.21|Relay 1227Mb
-  server: 104.26.9.74
+- name: 1.16| mattkaydiarycom美国USUSASan Jose
+  server: chuch3go.com
   port: 443
   type: vmess
-  uuid: f6c1babe-416e-47d1-8726-049678e25c7a
-  alterId: 64
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
   cipher: auto
   tls: true
   network: ws
-  ws-path: /sshocean
+  ws-path: /ws
   ws-headers:
-    Host: us2.v2rayserv.com
-- name: 1.20|Relay  378Mb
-  server: 104.16.104.126
+    Host: chuch3go.com
+- name: 1.15|Relay  672Mb
+  server: t7.ssrsub.com
+  type: trojan
+  country: CA
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  skip-cert-verify: true
+  udp: true
+- name: 1.13|US557
+  server: 72.167.45.6
+  type: trojan
+  country: US
   port: 443
-  type: vmess
-  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
-  ws-headers:
-    Host: sweet-salad-aa33.tianzhen19880808.workers.dev
-- name: 1.13|wwwimlamcom提供节点 19
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.06|wwwimlamcom提供节点 19
   server: 185.252.223.202
   port: 443
   type: vmess
@@ -193,15 +201,128 @@ proxies:
   ws-path: /path/243535322906
   ws-headers:
     Host: www.16675463.xyz
-- name: 1.05|Relay 3062Mb
-  server: ctsh1.racernet.link
-  port: 22080
+- name: 0.98|Relay  317Mb
+  server: t5.ssrsub.com
+  type: trojan
+  country: RU
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  skip-cert-verify: true
+  udp: true
+- name: 0.92|RO653  887Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.85|NL74 1630Mb
+  server: 185.171.120.144
+  type: trojan
+  country: NL
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.78|Relay 3234Mb
+  server: sg.idvpn.me
+  port: 8443
   type: vmess
-  uuid: 0104c382-a0ec-339e-96a6-7f5cd8530128
+  uuid: c74e2d99-6fbd-4e87-dc25-c05348571ef1
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /ctsh1hk1
+  ws-path: HTTPS://T.ME/NGE_GASSS•HTTPS://T.ME/DUNIAVPN
   ws-headers:
-    Host: ctsh1.racernet.link
+    Host: sg.idvpn.me
+- name: 0.61|GB165
+  server: 109.74.194.189
+  type: trojan
+  country: GB
+  port: 1443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 0.58|1664Mb
+  server: shai7ein.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: shai7ein.com
+- name: 0.50|Relay  908Mb
+  server: italy-milan.mah3Hoet.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: italy-milan.mah3Hoet.com
+- name: 0.49|Relay 24415Mb
+  server: agals01.cloudddns.icu
+  type: trojan
+  country: JP
+  port: 1123
+  password: f45d308f-d9bc-3954-982f-40883392fb8e
+  skip-cert-verify: true
+  udp: true
+- name: 0.45|Relay 1858Mb
+  server: usa-lasvegas.lvuft.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-lasvegas.lvuft.com
+- name: 0.43|Relay  800Mb
+  server: 104.18.27.64
+  type: vmess
+  country: US
+  port: 443
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  servername: vincent-jackson2021.ga
+  ws-headers:
+    HOST: vincent-jackson2021.ga
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.31|Relay  468Mb
+  server: t9.ssrsub.com
+  type: trojan
+  country: CA
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  skip-cert-verify: true
+  udp: true
+- name: 0.31|Relay  568Mb
+  server: usa-washington.lvuft.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-washington.lvuft.com
