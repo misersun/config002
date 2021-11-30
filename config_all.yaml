@@ -1,25 +1,7 @@
 proxies:
-- name: 6.97| As 日本 13 JP 2x 2
+- name: 7.28| As 日本 01 JP 2x 2
   server: shanghai-anycast.vodafone.cyou
-  port: 3028
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 5.95|RO241
-  server: 62.216.92.180
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 5.71| As 日本 17 JP 2x 2
-  server: shanghai-anycast.vodafone.cyou
-  port: 3021
+  port: 2011
   type: ssr
   cipher: aes-256-cfb
   password: cQN8rVZyWAJ
@@ -27,30 +9,140 @@ proxies:
   obfs: http_simple
   protocol-param: 98909:tvapAP
   obfs-param: 1e44b98909.microsoft.com
-- name: 5.36| 香港 A1
-  server: ice1.gdds.xyz
-  port: 50022
+- name: 6.85| As 日本 04 JP 2x 2
+  server: shanghai-anycast.vodafone.cyou
+  port: 2013
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 6.29| As 台湾 02 TW 25x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2305
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 6.25| As 日本 05 JP 2x 2
+  server: shanghai-anycast.vodafone.cyou
+  port: 2014
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 5.95| 沪港 IEPL专线 港区TVBHBONetflix解锁 A01
+  server: hg01.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 5.87| As 香港 04 HK 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2025
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 5.85| As 香港 01 HK 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2022
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 5.54| As 新加坡 03 SG 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2002
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 5.26| As 新加坡 04 SG 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2003
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 5.19| 新加坡 2
+  server: zhuzhu12.com
+  port: 22164
   type: vmess
-  uuid: 35691704-7bc3-3fe2-b88d-c71a4d6d058d
+  uuid: d6a85728-37ef-38bf-8c0d-801f0c5044ee
   alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
-  ws-path: /ice
+  ws-path: /zz
   ws-headers:
-    Host: ice1.gdds.xyz
-- name: 5.09| 香港 1
-  server: 183.232.170.112
-  port: 22779
+    Host: zhuzhu12.com
+- name: 5.17| As 新加坡 09 SG 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2008
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 5.14| As 新加坡 05 SG 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2004
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.92| V322广东香港x15SSR
+  server: gdyd01.ddns-only.xyz
+  port: 40022
   type: ssr
   cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
+  password: jL76UJd
+  protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 4.73| 香港 2
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 4.85| As 台湾 11 TW 25x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2718
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.80| 香港 2
   server: 116.163.10.131
   port: 22779
   type: ssr
@@ -60,34 +152,19 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 5033:hh8o92
   obfs-param: .microsoft.com
-- name: 4.70|二爷翻墙网https1808ga
-  server: guangzhou-lw-03.pucdn.me
-  port: 11115
-  type: vmess
-  uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: l2-hkt-a-08.pucdn.me
-- name: 4.61| 台湾 A1 原生奈飞
-  server: ice1.gdds.xyz
-  port: 50027
-  type: vmess
-  uuid: 35691704-7bc3-3fe2-b88d-c71a4d6d058d
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /ice
-  ws-headers:
-    Host: ice1.gdds.xyz
-- name: 4.59| As 马来西亚 04 MY 3x 4
+- name: 4.77| 中国日本 沪日IEPL传输 EquinixTY8 A10 Netflix
+  server: jp10.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.72| As 新加坡 06 SG 2x 2
   server: guangzhou-anycast.vodafone.cyou
-  port: 3031
+  port: 2005
   type: ssr
   cipher: aes-256-cfb
   password: cQN8rVZyWAJ
@@ -95,30 +172,37 @@ proxies:
   obfs: http_simple
   protocol-param: 98909:tvapAP
   obfs-param: 1e44b98909.microsoft.com
-- name: 4.57| As 马来西亚 03 MY 2x 4
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2323
+- name: 4.71| As 日本 08 JP 2x 2
+  server: shanghai-anycast.vodafone.cyou
+  port: 2017
   type: ssr
   cipher: aes-256-cfb
   password: cQN8rVZyWAJ
   protocol: auth_aes128_sha1
   obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 4.43| Lv1 新加坡A  直连
-  server: v1.369855.xyz
-  port: 11443
-  type: vmess
-  uuid: 576e6f18-0b8f-4bf1-83e4-3d9a6e6cd9ae
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /api/sg
-  ws-headers:
-    Host: sgav2.ddns.tjiasu.xyz
-- name: 4.36| 香港 A2
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.68| As 日本 03 JP 2x 2
+  server: shanghai-anycast.vodafone.cyou
+  port: 2012
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.64| V4193广东台湾NFx20SSR
+  server: gdyd01.ddns-only.xyz
+  port: 40193
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 4.55| 香港 A2
   server: ice1.gdds.xyz
   port: 50023
   type: vmess
@@ -131,71 +215,9 @@ proxies:
   ws-path: /ice
   ws-headers:
     Host: ice1.gdds.xyz
-- name: 4.04| As 马来西亚 02 MY 2x 4
+- name: 4.53| As 澳门 01 MO 2x 2
   server: guangzhou-anycast.vodafone.cyou
-  port: 2322
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 3.99| RelayTWTW1016
-  server: twn04.ip4.ddns.acg.photos
-  port: 80
-  type: vmess
-  uuid: d51b0f1b-cf5a-454c-bc4c-171491ff5e74
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: twn04.ip4.ddns.acg.photos
-- name: 3.96|RO239
-  server: 62.216.92.179
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 3.69| 新加坡绿头外网集团Public
-  server: global-transit-hk-v2.pucdn.me
-  port: 31124
-  type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: l2-do-sg-01.pucdn.me
-- name: 3.25|SG155
-  server: 81.90.189.85
-  type: trojan
-  country: SG
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 3.18| 韩国绿头外网集团Public
-  server: global-transit-02-sg.pucdn.me
-  port: 63002
-  type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: L1-aws-kr-02.pucdn.me
-- name: 3.14| As 印尼 01 ID 2x 4
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2300
+  port: 50221
   type: ssr
   cipher: aes-256-cfb
   password: cQN8rVZyWAJ
@@ -203,27 +225,100 @@ proxies:
   obfs: http_simple
   protocol-param: 98909:tvapAP
   obfs-param: 1e44b98909.microsoft.com
-- name: 2.98| 新加坡绿头外网集团Public
-  server: global-transit-hk-v2.pucdn.me
-  port: 31125
+- name: 4.53| As 澳门 02 MO 3x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 50226
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.44| As 新加坡 02 SG 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2001
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.39| As 香港 05 HK 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2026
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.38| 中国日本 多协议标签交换虚拟专用网 A9 1000Mbps
+  server: hr09.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.36| As 香港 06 HK 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2027
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.31| As 香港 10 HK 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2031
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.29| As 菲律宾 02 PH 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2021
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.25| 新加坡
+  server: zhuzhu12.com
+  port: 12819
   type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
+  uuid: d6a85728-37ef-38bf-8c0d-801f0c5044ee
   alterId: 2
   cipher: auto
   tls: false
+  skip-cert-verify: false
   network: ws
-  ws-path: /vvv
+  ws-path: /zz
   ws-headers:
-    Host: l2-do-sg-02.pucdn.me
-- name: 2.95|2480Mb
-  server: 139.162.51.223
-  port: 51939
-  type: vmess
-  uuid: 4db2a027-17fb-4d27-b8ca-93b548e487a2
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.91| As 马来西亚 01 MY 2x 5
+    Host: zhuzhu12.com
+- name: 4.23| As 台湾 08 TW 25x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2311
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.17| As 马来西亚 01 MY 2x 5
   server: guangzhou-anycast.vodafone.cyou
   port: 2321
   type: ssr
@@ -233,171 +328,658 @@ proxies:
   obfs: http_simple
   protocol-param: 30864:NjdmA5
   obfs-param: fb8e430864.microsoft.com
-- name: 2.90| 韩国绿头外网集团Public
-  server: global-transit-02-sg.pucdn.me
-  port: 63005
+- name: 4.12| As 台湾 12 TW 25x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2719
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.10| As 新加坡 01 SG 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2000
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 4.02| As 日本 07 JP 2x 2
+  server: shanghai-anycast.vodafone.cyou
+  port: 2016
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 3.97| As 台湾 05 TW 25x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2308
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- alterId: 1
+  cipher: auto
+  name: 3.91|1129oslook中国香港中国台湾CNChinaShanghai可能是中转节点5
+  network: tcp
+  port: 10004
+  server: 139.227.161.129
+  tls: false
   type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
-  alterId: 2
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  ws-headers:
+    Host: t.me/vpnpool
+  ws-path: /
+- name: 3.84|Relay 2242Mb
+  server: zj.haojiahuo.club
+  port: 30057
+  type: vmess
+  uuid: 4a6ada0c-e453-3217-8210-8556f9c92494
+  alterId: 1
   cipher: auto
   tls: false
   network: ws
-  ws-path: /vvv
+  ws-path: /videos
   ws-headers:
-    Host: L1-aws-kr-05.pucdn.me
-- name: 2.90| 日本绿头外网集团Public
-  server: global-transit-hk-v2.pucdn.me
-  port: 32302
+    Host: xuexi.cn
+- name: 3.84| V380广东台湾x10SSR
+  server: jzgdyd-tw.ddns-only.xyz
+  port: 40080
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 3.82| 香港 1
+  server: 183.232.170.112
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 3.79| As 日本 21 JP 3x 2
+  server: shanghai-anycast.vodafone.cyou
+  port: 3023
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 3.76| As 台湾 07 TW 25x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2310
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 3.72| V442广东台湾x20SSR
+  server: jzgdyd-tw.ddns-only.xyz
+  port: 40042
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 3.71| V3233广东香港HGCNFx15SSR
+  server: gdyd01.ddns-only.xyz
+  port: 40233
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 3.68| As 香港 11 HK 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2032
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 3.62| As 新加坡 08 SG 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2007
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 30864:NjdmA5
+  obfs-param: fb8e430864.microsoft.com
+- name: 3.55| V4236广东香港HGCNFx20SSR
+  server: gdyd01.ddns-only.xyz
+  port: 40236
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 3.54| 中国日本 沪日IEPL传输 EquinixTY8 A08 Netflix
+  server: jp08.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.54| V3234广东香港HGCNFx15SSR
+  server: gdyd01.ddns-only.xyz
+  port: 40234
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 3.53| As 台湾 06 TW 25x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2309
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 3.52| As 香港 07 HK 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2028
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 3.51| V366广东香港HKBNx15SSR
+  server: gdyd01.ddns-only.xyz
+  port: 40066
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 3.48| As 日本 06 JP 2x 2
+  server: shanghai-anycast.vodafone.cyou
+  port: 2015
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 3.43| As 韩国 01 KR 3x
+  server: shanghai-anycast.vodafone.cyou
+  port: 2317
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 30864:NjdmA5
+  obfs-param: fb8e430864.microsoft.com
+- name: 3.37| As 台湾 10 TW 25x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2709
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 3.35| As 香港 02 HK 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2023
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 3.25| As 台湾 09 TW 25x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2312
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 3.24|3587Mb
+  server: 161.81.195.100
+  port: 443
   type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /clientarea
+  ws-headers:
+    Host: cmhk04.xc188.net
+- name: 3.24| V356广东香港x15SSR
+  server: gdyd01.ddns-only.xyz
+  port: 40056
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 3.20| As 泰国 02 TH 3x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2314
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 3.14| 台湾 A1 原生奈飞
+  server: ice1.gdds.xyz
+  port: 50027
+  type: vmess
+  uuid: 35691704-7bc3-3fe2-b88d-c71a4d6d058d
   alterId: 2
   cipher: auto
   tls: false
+  skip-cert-verify: false
   network: ws
-  ws-path: /vvv
+  ws-path: /ice
   ws-headers:
-    Host: L2-aws-jp-02.pucdn.me
-- name: 2.84| 韩国绿头外网集团Public
-  server: global-transit-02-sg.pucdn.me
+    Host: ice1.gdds.xyz
+- name: 3.08| V4195上海香港x10SSR
+  server: gdyd01.ddns-only.xyz
+  port: 40195
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 3.07| As 日本 22 JP 3x
+  server: shanghai-anycast.vodafone.cyou
+  port: 3030
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 30864:NjdmA5
+  obfs-param: fb8e430864.microsoft.com
+- name: 3.06| As 日本 02 JP 2x 2
+  server: shanghai-anycast.vodafone.cyou
+  port: 2010
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 3.01| As 印度 01 IN 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2302
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.98|As 阿联酋 AE 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 1654
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.90| As 日本 23 JP 3x 2
+  server: shanghai-anycast.vodafone.cyou
+  port: 3020
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.89| As 印尼 01 ID 2x 4
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2300
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.86| V3197上海香港HKTNFx15SSR
+  server: niuniu-shlt-01.ddns-only.xyz
+  port: 40197
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 2.80| 韩国02
+  server: zhuzhu12.com
+  port: 33893
+  type: vmess
+  uuid: d6a85728-37ef-38bf-8c0d-801f0c5044ee
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: zhuzhu12.com
+- name: 2.73| As 菲律宾 01 PH 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2020
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.63| 广州移动SeoulEC2nfvpnpool
+  server: 183.232.226.188
   port: 63008
   type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
+  uuid: 329b6b96-5c75-3670-b3b7-eb2ad8c8667a
   alterId: 2
   cipher: auto
   tls: false
+  skip-cert-verify: false
   network: ws
   ws-path: /vvv
   ws-headers:
-    Host: L1-aws-kr-08.pucdn.me
-- name: 2.80| 韩国绿头外网集团Public
-  server: global-transit-02-sg.pucdn.me
-  port: 63007
+    Host: t.me/vpnhat
+- name: 2.63| HKYoutube技术分享室整理
+  server: 112.33.32.136
+  port: 10005
   type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
-  alterId: 2
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: L1-aws-kr-07.pucdn.me
-- name: 2.80| 韩国绿头外网集团Public
-  server: global-transit-hk-v2.pucdn.me
-  port: 31102
-  type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: l2-kr-02.pucdn.me
-- name: 2.75| 新加坡绿头外网集团Public
-  server: v5.emovpn.xyz
+- name: 2.62|5209Mb
+  server: 172.104.98.216
   port: 80
   type: vmess
-  uuid: 6a3f3374-485c-4a5d-a58c-fdc0bc85b377
-  alterId: 1
+  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
+  alterId: 64
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: pull.free.video.10010.com
-- name: 2.72| 韩国绿头外网集团Public
-  server: global-transit-02-sg.pucdn.me
-  port: 63001
+    Host: www.gov.hk
+- name: 2.58| As 台湾 03 TW 25x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2306
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.56| 中国日本 沪日IEPL传输 EquinixTY8 A06 Netflix
+  server: jp06.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.42| As 日本 09 JP 2x 2
+  server: shanghai-anycast.vodafone.cyou
+  port: 2018
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.40| As 新加坡 10 SG 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2009
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.38| As 香港 09 HK 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2030
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.31|As 柬埔寨 KH 3x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2701
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.30| As 香港 03 HK 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2024
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.28| 中国日本 多协议标签交换虚拟专用网 A4 1000Mbps
+  server: hr04.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.28| As 新加坡 07 SG 2x
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2006
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 30864:NjdmA5
+  obfs-param: fb8e430864.microsoft.com
+- name: 2.27| As 香港 12 HK 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2033
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.17| As 日本 19 JP 3x 2
+  server: shanghai-anycast.vodafone.cyou
+  port: 3018
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.12| 中国日本 沪日IEPL传输 EquinixTY8 A03 Netflix
+  server: jp03.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.05| USAservice1
+  server: 107.173.165.223
+  port: 80
   type: vmess
-  uuid: 19a605a2-6982-387e-bcd4-8b5bffbe039a
-  alterId: 2
+  uuid: 379acc51-024c-4c31-965b-324c8c99167a
+  alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /vvv
+  ws-path: /
   ws-headers:
-    Host: L1-aws-kr-01.pucdn.me
-- name: 2.54| 日本绿头外网集团Public
-  server: global-transit-hk-v2.pucdn.me
-  port: 32301
+    Host: 107.173.165.223
+- name: 2.04| As 印尼 02 ID 2x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2301
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 2.02| RelayCNSG308
+  server: 112.33.32.136
+  port: 10002
   type: vmess
-  uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf
-  alterId: 2
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+- name: 2.01| mattkaydiarycom中国香港中国台湾CNChinaHefei小东的程序未能精准识别可能是中转节点
+  server: 112.33.32.136
+  port: 10003
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+- name: 2.00| 韩国Youtube技术分享室整理 2
+  server: zj.haojiahuo.club
+  port: 30044
+  type: vmess
+  uuid: 4a6ada0c-e453-3217-8210-8556f9c92494
+  alterId: 1
   cipher: auto
   tls: false
   network: ws
-  ws-path: /vvv
+  ws-path: /videos
   ws-headers:
-    Host: L2-aws-jp-01.pucdn.me
-- name: 2.43|Relay 1631Mb
-  server: eeh7iewe.com
-  port: 443
+    Host: xuexi.cn
+- name: 1.95|198220385ws
+  server: 198.2.203.85
+  port: 42559
   type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
+  uuid: 1566aa32-50e1-11ec-93bd-002590d6941c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /37rEoJS1/
+  ws-headers:
+    Host: 198.2.203.85
+- name: 1.94| 韩国Youtube技术分享室整理
+  server: zj.haojiahuo.club
+  port: 30052
+  type: vmess
+  uuid: 4a6ada0c-e453-3217-8210-8556f9c92494
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /videos
+  ws-headers:
+    Host: xuexi.cn
+- name: 1.89| As 泰国 01 TH 3x 2
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2313
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 1.81|Relay 2231Mb
+  server: kr2.futi.online
+  port: 2053
+  type: vmess
+  uuid: fec5fd62-56e7-431a-99b3-c1f76c5cbe8d
+  alterId: 1
   cipher: auto
   tls: true
   network: ws
-  ws-path: /ws
+  ws-path: /
   ws-headers:
-    Host: eeh7iewe.com
-- name: 2.14| 韩国绿头外网集团Public
-  server: global-transit-02-sg.pucdn.me
-  port: 63003
-  type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: L1-aws-kr-03.pucdn.me
-- name: 2.05|US170 2166Mb
-  server: 72.167.33.106
-  type: trojan
-  country: US
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.98|Relay 2072Mb
-  server: ukml.52jjyun.top
-  port: 80
-  type: vmess
-  uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab
-  alterId: 10
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: ukml.52jjyun.top
-- name: 1.96| 韩国绿头外网集团Public
-  server: global-transit-hk-v2.pucdn.me
-  port: 31101
-  type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: l2-kr-01.pucdn.me
-- name: 1.95| 韩国绿头外网集团Public
-  server: global-transit-02-sg.pucdn.me
-  port: 63006
-  type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: L1-aws-kr-06.pucdn.me
-- name: 1.86|CN16 2752Mb
+    Host: kr2.futi.online
+- name: 1.80|CN16 2752Mb
   server: 42.157.8.162
   type: vmess
   country: CN
@@ -410,39 +992,20 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.83| RelayUSUS1834  779Mb
-  server: 104.18.26.165
-  port: 443
+- name: 1.69| Lv1 新加坡A  直连
+  server: v1.369855.xyz
+  port: 11443
   type: vmess
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
-  alterId: 0
+  uuid: 576e6f18-0b8f-4bf1-83e4-3d9a6e6cd9ae
+  alterId: 1
   cipher: auto
   tls: true
+  skip-cert-verify: false
   network: ws
-  ws-path: /The-Great-Awakening_vws
+  ws-path: /api/sg
   ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.72| httpsgitiov9999 圣何塞v2ray 5
-  server: 107.148.200.229
-  port: 10022
-  type: vmess
-  uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.62|Relay  698Mb
-  server: free-russian01-cdn.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /2993fe/
-  ws-headers:
-    Host: free-russian01-cdn.xiaohouzi.club
-- name: 1.60|Relay 3149Mb
+    Host: sgav2.ddns.tjiasu.xyz
+- name: 1.68|Relay 3149Mb
   server: zecjk.com
   port: 443
   type: vmess
@@ -454,77 +1017,16 @@ proxies:
   ws-path: /ws
   ws-headers:
     Host: zecjk.com
-- name: 1.40|Relay 1144Mb
-  server: t6.ssrsub.com
+- name: 1.68|US170 2166Mb
+  server: 72.167.33.106
   type: trojan
-  country: CA
-  port: 21033
-  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.40|Relay  733Mb
-  server: ycgyg.com
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: ycgyg.com
-- name: 1.39|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.38|RO238
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.38|JP64  502Mb
-  server: 5.183.177.111
-  type: trojan
-  country: JP
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.34| RelayUSUS1830 1415Mb
-  server: api.ssfree.ru
-  port: 443
-  type: vmess
-  uuid: 3ef280d8-5064-11ec-b734-000017022008
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /getweather
-  ws-headers:
-    Host: api.ssfree.ru
-- name: 1.34| RelayCNRU453
-  server: global-transit-01-hn.pucdn.me
-  port: 50002
-  type: vmess
-  uuid: 0e4a0f2f-9cc9-3b11-9e6a-4392c4fcfc6c
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: l2-ru-02.pucdn.me
-- name: 1.26|Relay 1403Mb
-  server: usdsl.52jjyun.top
+- name: 1.62|Relay 2072Mb
+  server: ukml.52jjyun.top
   port: 80
   type: vmess
   uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab
@@ -534,60 +1036,20 @@ proxies:
   network: ws
   ws-path: /jjyun
   ws-headers:
-    Host: usdsl.52jjyun.top
-- name: 1.24|Relay  925Mb
-  server: powerservice.com
-  port: 443
+    Host: ukml.52jjyun.top
+- name: 1.56| httpsgitiov9999 圣何塞 ip2 3
+  server: 142.4.123.135
+  port: 26596
   type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: uk2.v2rayserv.com
-- name: 1.16| mattkaydiarycom美国USUSASan Jose
-  server: chuch3go.com
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: chuch3go.com
-- name: 1.15| 日本绿头外网集团Public
-  server: global-transit-hk-v2.pucdn.me
-  port: 10008
-  type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: L2-sakura-jp-04.pucdn.me
-- name: 1.15|Relay  672Mb
-  server: t7.ssrsub.com
-  type: trojan
-  country: CA
-  port: 21033
-  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
-  skip-cert-verify: true
-  udp: true
-- name: 1.14| httpsgitiov9999 莫斯科v2ray 3
-  server: 2.56.241.192
-  port: 3578
-  type: vmess
-  uuid: 78b2bdae-4805-11ec-a58e-56503998dcfb
+  uuid: 9e64c758-50df-11ec-b1f4-00163cdab24a
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.13|US557
+  network: ws
+  ws-path: /nVRgX9sS/
+  ws-headers:
+    Host: 142.4.123.135
+- name: 1.53|US557
   server: 72.167.45.6
   type: trojan
   country: US
@@ -595,204 +1057,52 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.09| httpsgitiov9999 莫斯科v2ray 2
-  server: 2.56.241.192
-  port: 37722
-  type: vmess
-  uuid: 72116bda-4805-11ec-a58e-56503998dcfb
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.06|wwwimlamcom提供节点 19
-  server: 185.252.223.202
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /path/243535322906
-  ws-headers:
-    Host: www.16675463.xyz
-- name: 1.03|US166
-  server: 107.189.12.75
-  type: vmess
-  country: US
-  port: 80
-  uuid: 261aeb5f-b6f7-359c-a321-9794bf344e12
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.98|Relay  317Mb
-  server: t5.ssrsub.com
-  type: trojan
-  country: RU
-  port: 21033
-  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
-  skip-cert-verify: true
-  udp: true
-- name: 0.92|RO653  887Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 0.90|RelayZZUS747
-  server: 198.41.212.234
-  type: vmess
-  country: ZZ
+- name: 1.45| mattkaydiarycom美国USUSASanta Clara
+  server: 137.184.184.78
   port: 2052
-  uuid: 00000000-1111-2222-3333-444444444444
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /Telegram/@Loss_0_Vmess
-  servername: free.jianguoyun.com
-  ws-headers:
-    HOST: free.jianguoyun.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.90| USAservice1
-  server: 107.173.165.223
-  port: 80
   type: vmess
-  uuid: 379acc51-024c-4c31-965b-324c8c99167a
-  alterId: 0
+  uuid: 5580bd79-ba49-3f67-a710-5b917bdac2d8
+  alterId: 2
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 107.173.165.223
-- name: 0.85|NL74 1630Mb
-  server: 185.171.120.144
-  type: trojan
-  country: NL
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 0.85| 印度绿头外网集团Public
-  server: global-transit-01-hn.pucdn.me
-  port: 60001
+    Host: 137.184.184.78
+- name: 1.39| As 马来西亚 02 MY 2x 4
+  server: guangzhou-anycast.vodafone.cyou
+  port: 2322
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 30864:NjdmA5
+  obfs-param: fb8e430864.microsoft.com
+- name: 1.37| V358广东香港x15SSR
+  server: gdyd01.ddns-only.xyz
+  port: 40058
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 1.32| 香港 A1
+  server: ice1.gdds.xyz
+  port: 50022
   type: vmess
-  uuid: 8f19fe80-2493-3c3a-ace9-a6d7c665b3cf
+  uuid: 35691704-7bc3-3fe2-b88d-c71a4d6d058d
   alterId: 2
   cipher: auto
   tls: false
+  skip-cert-verify: false
   network: ws
-  ws-path: /vvv
+  ws-path: /ice
   ws-headers:
-    Host: l2-in-01.pucdn.me
-- name: 0.82| 新加坡绿头外网集团Public
-  server: global-transit-02-sg.pucdn.me
-  port: 61005
-  type: vmess
-  uuid: 6fb2ccd1-26dd-304c-ab8c-8259309cded1
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: l1-aws-sg-06.pucdn.me
-- name: 0.78|Relay 3234Mb
-  server: sg.idvpn.me
-  port: 8443
-  type: vmess
-  uuid: c74e2d99-6fbd-4e87-dc25-c05348571ef1
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: HTTPS://T.ME/NGE_GASSS•HTTPS://T.ME/DUNIAVPN
-  ws-headers:
-    Host: sg.idvpn.me
-- name: 0.77|1085Mb
-  server: 89.163.220.82
-  port: 11016
-  type: vmess
-  uuid: 842fcd78-475d-11ec-aa20-9cb6548b0ccc
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cOhjRn2G/
-  ws-headers:
-    Host: 89.163.220.82
-- name: 0.61|GB165
-  server: 109.74.194.189
-  type: trojan
-  country: GB
-  port: 1443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 0.58|1664Mb
-  server: shai7ein.com
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: shai7ein.com
-- name: 0.58|1241Mb
-  server: 152.70.240.201
-  port: 43645
-  type: vmess
-  uuid: 7a44d386-e7eb-41d4-92ce-ffbfb32b7957
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.51|CA370 2079Mb
-  server: 51.79.236.186
-  port: 6666
-  type: vmess
-  uuid: 8e56e4bb-02e6-48ea-ac2a-5c4355bc6e16
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.50|Relay  908Mb
-  server: italy-milan.mah3Hoet.com
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: italy-milan.mah3Hoet.com
-- name: 0.50| httpsgitiov9999 圣何塞v2ray 7
-  server: 198.200.51.189
-  port: 28811
-  type: vmess
-  uuid: 1f979f74-404d-11ec-9cc3-00163cb56238
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.49|Relay 24415Mb
-  server: agals01.cloudddns.icu
-  type: trojan
-  country: JP
-  port: 1123
-  password: f45d308f-d9bc-3954-982f-40883392fb8e
-  skip-cert-verify: true
-  udp: true
-- name: 0.47|Relay  950Mb
+    Host: ice1.gdds.xyz
+- name: 1.29|Relay  950Mb
   server: ru.52jjyun.top
   port: 80
   type: vmess
@@ -804,46 +1114,105 @@ proxies:
   ws-path: /jjyun
   ws-headers:
     Host: ru.52jjyun.top
-- name: 0.45|Relay 1858Mb
-  server: usa-lasvegas.lvuft.com
+- name: 1.26|Relay  761Mb
+  server: free-russian-cdn.xiaohouzi.club
   port: 443
   type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
+  uuid: e64c6f7c-48eb-4852-9b29-778faef14212
+  alterId: 233
   cipher: auto
   tls: true
   network: ws
-  ws-path: /ws
+  ws-path: /319285eb2d/
   ws-headers:
-    Host: usa-lasvegas.lvuft.com
-- name: 0.43|Relay  800Mb
-  server: 104.18.27.64
-  type: vmess
-  country: US
+    Host: free-russian-cdn.xiaohouzi.club
+- name: 1.26|JP64  502Mb
+  server: 5.183.177.111
+  type: trojan
+  country: JP
   port: 443
-  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.25|1638Mb
+  server: 143.244.185.97
+  port: 4216
+  type: vmess
+  uuid: 7277f857-33f4-3b9a-afcc-3ee864fa833e
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /ia35
+  ws-headers:
+    Host: 143.244.185.97
+- name: 1.21|Relay  637Mb
+  server: ex.oracleusa.ml
+  port: 443
+  type: vmess
+  uuid: 29d8e9c2-c88f-4a86-a615-2a76dcc2458b
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ex.oracleusa.ml
+- name: 1.21|Relay 1144Mb
+  server: t6.ssrsub.com
+  type: trojan
+  country: CA
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  skip-cert-verify: true
+  udp: true
+- name: 1.20| 中国日本 沪日IEPL传输 EquinixTY8 A04 Netflix
+  server: jp04.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.14| httpsgitiov9999 圣何塞 ip2
+  server: 198.200.51.34
+  port: 25119
+  type: vmess
+  uuid: 8362c536-50df-11ec-861e-00163cc87418
   alterId: 0
   cipher: auto
+  tls: false
   network: ws
-  ws-path: /The-Great-Awakening_vws
-  servername: vincent-jackson2021.ga
+  ws-path: /k5LKHPOs/
   ws-headers:
-    HOST: vincent-jackson2021.ga
-  http-opts: {}
-  h2-opts: {}
+    Host: 198.200.51.34
+- name: 1.03| US512 1026Mb
+  server: 104.16.149.48
+  port: 443
+  type: vmess
+  uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2
+  alterId: 64
+  cipher: auto
   tls: true
-  skip-cert-verify: true
-- type: ssr
-  server: 117.28.243.132
-  password: passfw2xs4e!
-  port: 8333
-  obfs: plain
-  protocol-param: ''
-  cipher: rc4-md5
-  name: 0.41|中国福建泉州ssr117282431328333
-  obfs-param: ''
-  protocol: origin
-- name: 0.38|198220386tcp
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cdnde.irteyz.today
+- name: 1.03|wwwimlamcom提供节点 19
+  server: 185.252.223.202
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/243535322906
+  ws-headers:
+    Host: www.16675463.xyz
+- name: 0.99|198220386tcp
   server: 198.2.203.86
   port: 7111
   type: vmess
@@ -851,28 +1220,80 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 0.36|2351Mb
-  server: 139.59.254.17
-  port: 12081
+- name: 0.95| httpsgitiov9999 莫斯科v2ray 5
+  server: 2.56.241.192
+  port: 36600
   type: vmess
-  uuid: 39f1943b-282e-44a4-9f56-5d59107d919e
+  uuid: 6c66e818-4805-11ec-a58e-56503998dcfb
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 139.59.254.17
-- name: 0.31|Relay  468Mb
-  server: t9.ssrsub.com
+- name: 0.92|4566157195tcp
+  server: 45.66.157.195
+  port: 20012
+  type: vmess
+  uuid: 4cbb0ce4-1ec3-11ec-b76f-00163c06ad53
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.86|Relay  672Mb
+  server: t7.ssrsub.com
   type: trojan
   country: CA
   port: 21033
   password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
   skip-cert-verify: true
   udp: true
-- name: 0.31|Relay  568Mb
-  server: usa-washington.lvuft.com
+- name: 0.86| As 日本 20 JP 3x 2
+  server: shanghai-anycast.vodafone.cyou
+  port: 3026
+  type: ssr
+  cipher: aes-256-cfb
+  password: cQN8rVZyWAJ
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 98909:tvapAP
+  obfs-param: 1e44b98909.microsoft.com
+- name: 0.85|NL74 1630Mb
+  server: 185.171.120.144
+  type: trojan
+  country: NL
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.82| httpsgitiov9999 圣何塞v2ray 5
+  server: 107.148.200.229
+  port: 10022
+  type: vmess
+  uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.69| httpsgitiov9999 圣何塞 ip2 2
+  server: 107.148.200.123
+  port: 23370
+  type: vmess
+  uuid: 938eb42e-50df-11ec-8129-00163c1b189e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /SZF3TKj8/
+  ws-headers:
+    Host: 107.148.200.123
+- name: 0.69| V378广东台湾x10SSR
+  server: jzgdyd-tw.ddns-only.xyz
+  port: 40078
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 0.68| mattkaydiarycom美国USUSALos Angeles
+  server: usa-dallas.lvuft.com
   port: 443
   type: vmess
   uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
@@ -882,4 +1303,272 @@ proxies:
   network: ws
   ws-path: /ws
   ws-headers:
-    Host: usa-washington.lvuft.com
+    Host: usa-dallas.lvuft.com
+- name: 0.68| httpsgitiov9999 圣何塞 ip2 7
+  server: 142.4.123.249
+  port: 15678
+  type: vmess
+  uuid: e9810990-50df-11ec-9496-00163cf00cd9
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /rcu13qbt/
+  ws-headers:
+    Host: 142.4.123.249
+- name: 0.66| httpsgitiov9999 莫斯科v2ray 3
+  server: 2.56.241.192
+  port: 3578
+  type: vmess
+  uuid: 78b2bdae-4805-11ec-a58e-56503998dcfb
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.63|Relay 24415Mb
+  server: agals01.cloudddns.icu
+  type: trojan
+  country: JP
+  port: 1123
+  password: f45d308f-d9bc-3954-982f-40883392fb8e
+  skip-cert-verify: true
+  udp: true
+- name: 0.60| httpsgitiov9999 莫斯科v2ray
+  server: 2.56.241.192
+  port: 1964
+  type: vmess
+  uuid: 85921560-4805-11ec-a58e-56503998dcfb
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.55| RelayAUUS191  811Mb
+  server: 1.0.0.0
+  port: 443
+  type: vmess
+  uuid: 4d88f6a2-aaa9-42b6-afc4-227f89974119
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.50| httpsgitiov9999 洛杉矶ws ip3
+  server: 45.66.159.74
+  port: 18412
+  type: vmess
+  uuid: 2d23bc58-5110-11ec-a4b9-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /5znKiuaW/
+  ws-headers:
+    Host: 45.66.159.74
+- name: 0.50| httpsgitiov9999 圣何塞v2ray 7
+  server: 198.200.51.189
+  port: 28811
+  type: vmess
+  uuid: 1f979f74-404d-11ec-9cc3-00163cb56238
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.47|Relay  871Mb
+  server: uk-manchester.eiw2eemo.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: uk-manchester.eiw2eemo.com
+- name: 0.46| V320广东香港x15SSR
+  server: gdyd01.ddns-only.xyz
+  port: 40020
+  type: ssr
+  cipher: chacha20-ietf
+  password: jL76UJd
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 4269:jvfzLL
+  obfs-param: 9f0644269.microsoft.com
+- name: 0.46| 中国日本 沪日IEPL传输 EquinixTY8 A02 Netflix
+  server: jp02.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 0.45| httpsgitiov9999 圣何塞 ip2 9
+  server: 192.74.254.112
+  port: 52244
+  type: vmess
+  uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /E0Y46mSw/
+  ws-headers:
+    Host: 192.74.254.112
+- name: 0.43| httpsgitiov9999 圣何塞 ip2 4
+  server: 137.175.30.251
+  port: 16873
+  type: vmess
+  uuid: c150c3c0-50df-11ec-aaf3-00163c1393a8
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /UWNKisZB/
+  ws-headers:
+    Host: 137.175.30.251
+- name: 0.42| RelayCNRU453
+  server: global-transit-01-hn.pucdn.me
+  port: 50002
+  type: vmess
+  uuid: 0e4a0f2f-9cc9-3b11-9e6a-4392c4fcfc6c
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /vvv
+  ws-headers:
+    Host: l2-ru-02.pucdn.me
+- name: 0.41| httpsgitiov9999 圣何塞v2ray 9
+  server: 192.74.254.112
+  port: 111
+  type: vmess
+  uuid: fe89e0f2-404d-11ec-81f4-00163c57bd9a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.40| 中国日本 多协议标签交换虚拟专用网 A7 1000Mbps
+  server: hr07.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 0.39| httpsgitiov9999 洛杉矶ws ip3 3
+  server: 45.66.159.74
+  port: 45643
+  type: vmess
+  uuid: 365691ba-5110-11ec-a4b9-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /b72MS9Wp/
+  ws-headers:
+    Host: 45.66.159.74
+- name: 0.38|1207Mb
+  server: 192.3.127.109
+  port: 8888
+  type: vmess
+  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 192.3.127.109
+- name: 0.37| 中国日本 多协议标签交换虚拟专用网 A8 1000Mbps
+  server: hr08.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 0.36|RelayUSUS245  939Mb
+  server: t8.ssrsub.com
+  type: trojan
+  country: US
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  skip-cert-verify: true
+  udp: true
+- name: 0.34|Relay  705Mb
+  server: jp-tokyo-node2.ycgyg.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: jp-tokyo-node2.ycgyg.com
+- name: 0.33| 460Mb
+  server: 43.155.75.170
+  port: 80
+  type: vmess
+  uuid: 76329684-c5d2-4cf7-fcf5-06ad79a6aab3
+  alterId: 64
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: www.microsoft.com
+- name: 0.33|Relay 1405Mb
+  server: us1nhg-node.aiqiche123.com
+  port: 13723
+  type: vmess
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: ray
+  ws-headers:
+    Host: us1nhg-node.aiqiche123.com
+- name: 0.32|Relay 3234Mb
+  server: sg.idvpn.me
+  port: 8443
+  type: vmess
+  uuid: c74e2d99-6fbd-4e87-dc25-c05348571ef1
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: HTTPS://T.ME/NGE_GASSS•HTTPS://T.ME/DUNIAVPN
+  ws-headers:
+    Host: sg.idvpn.me
+- name: 0.31| mattkaydiarycom美国USUSAWashington
+  server: dax6ujai.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: dax6ujai.com
+- name: 0.29| httpsgitiov9999 洛杉矶ws ip3 4
+  server: 45.66.159.74
+  port: 21890
+  type: vmess
+  uuid: 3a345af6-5110-11ec-a4b9-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /5KHI4riw/
+  ws-headers:
+    Host: 45.66.159.74
