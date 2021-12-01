@@ -1,235 +1,15 @@
 proxies:
-- name: 7.28| As 日本 01 JP 2x 2
-  server: shanghai-anycast.vodafone.cyou
-  port: 2011
+- name: 6.09|RelayCNCN41
+  server: dg-hk-node01.linkthink.app
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 6.85| As 日本 04 JP 2x 2
-  server: shanghai-anycast.vodafone.cyou
-  port: 2013
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 6.29| As 台湾 02 TW 25x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2305
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 6.25| As 日本 05 JP 2x 2
-  server: shanghai-anycast.vodafone.cyou
-  port: 2014
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 5.95| 沪港 IEPL专线 港区TVBHBONetflix解锁 A01
-  server: hg01.serenazuma.com
-  port: 11764
-  type: ssr
+  country: CN
+  port: 10045
+  password: abK09D1FnV
   cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 5.87| As 香港 04 HK 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2025
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 5.85| As 香港 01 HK 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2022
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 5.54| As 新加坡 03 SG 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2002
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 5.26| As 新加坡 04 SG 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2003
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 5.17| As 新加坡 09 SG 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2008
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 5.14| As 新加坡 05 SG 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2004
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.92| V322广东香港x15SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40022
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 4.85| As 台湾 11 TW 25x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2718
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.80| 香港 2
-  server: 116.163.10.131
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
   protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 4.77| 中国日本 沪日IEPL传输 EquinixTY8 A10 Netflix
-  server: jp10.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 4.72| As 新加坡 06 SG 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2005
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.71| As 日本 08 JP 2x 2
-  server: shanghai-anycast.vodafone.cyou
-  port: 2017
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.68| As 日本 03 JP 2x 2
-  server: shanghai-anycast.vodafone.cyou
-  port: 2012
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.64| V4193广东台湾NFx20SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40193
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 4.53| As 澳门 01 MO 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 50221
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.53| As 澳门 02 MO 3x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 50226
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.44| As 新加坡 02 SG 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2001
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.39| As 香港 05 HK 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2026
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.38| 中国日本 多协议标签交换虚拟专用网 A9 1000Mbps
+  protocol-param: 241699:ux74UgpcnA
+  obfs: http_post
+- name: 4.93| 中国日本 多协议标签交换虚拟专用网 A9 1000Mbps
   server: hr09.serenazuma.com
   port: 11764
   type: ssr
@@ -239,107 +19,37 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 4.36| As 香港 06 HK 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2027
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.31| As 香港 10 HK 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2031
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.29| As 菲律宾 02 PH 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2021
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.23| As 台湾 08 TW 25x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2311
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.17| As 马来西亚 01 MY 2x 5
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2321
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 4.12| As 台湾 12 TW 25x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2719
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.10| As 新加坡 01 SG 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2000
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 4.02| As 日本 07 JP 2x 2
-  server: shanghai-anycast.vodafone.cyou
-  port: 2016
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 3.97| As 台湾 05 TW 25x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2308
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 3.84| V380广东台湾x10SSR
-  server: jzgdyd-tw.ddns-only.xyz
-  port: 40080
+- name: 4.91| 香港 2
+  server: 116.163.10.131
+  port: 22779
   type: ssr
   cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
+  password: m2KSOD
+  protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 3.82| 香港 1
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 4.84| 日本 ソフトバンク A03 500Mbps 1x Netflix
+  server: jp15.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.65| 日本日本大阪 オプテージ A 03
+  server: jpaz03.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 4.04| 香港 1
   server: 183.232.170.112
   port: 22779
   type: ssr
@@ -349,77 +59,133 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 5033:hh8o92
   obfs-param: .microsoft.com
-- name: 3.79| As 日本 21 JP 3x 2
-  server: shanghai-anycast.vodafone.cyou
-  port: 3023
+- name: 4.00| 日本日本大阪 オプテージ A 06
+  server: jpaz06.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 3.76| As 台湾 07 TW 25x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2310
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.68|RO166
+  server: 62.216.92.180
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 3.67| 中国日本 多协议标签交换虚拟专用网 A8 1000Mbps
+  server: hr08.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 3.72| V442广东台湾x20SSR
-  server: jzgdyd-tw.ddns-only.xyz
-  port: 40042
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.61| 中国日本 多协议标签交换虚拟专用网 D7 1000Mbps
+  server: hr07.clashcloud.tech
+  port: 59866
   type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 3.71| V3233广东香港HGCNFx15SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40233
-  type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 3.68| As 香港 11 HK 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2032
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: lenw4ae9js
+  protocol: origin
   obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 3.62| As 新加坡 08 SG 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2007
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.55| 日本 まつやまし auひかり ホーム1ギガ D 07
+  server: jp07.clashcloud.tech
+  port: 59866
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: lenw4ae9js
+  protocol: origin
   obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 3.55| V4236广东香港HGCNFx20SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40236
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.47| 中国日本 沪日IEPL传输 EquinixTY8 A04 Netflix
+  server: jp04.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 3.54| 中国日本 沪日IEPL传输 EquinixTY8 A08 Netflix
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.37| 中国日本 多协议标签交换虚拟专用网 D4 1000Mbps
+  server: hr04.clashcloud.tech
+  port: 59866
+  type: ssr
+  cipher: rc4-md5
+  password: lenw4ae9js
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.31| 中国日本 沪日IEPL传输 EquinixTY8 A10 Netflix
+  server: jp10.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.28| 日本日本大阪 オプテージ A 07
+  server: jpaz07.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.13|SG193
+  server: 81.90.189.85
+  type: trojan
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 3.12| 日本日本大阪 オプテージ A 02
+  server: jpaz02.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.10| 中国日本 多协议标签交换虚拟专用网 A4 1000Mbps
+  server: hr04.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.06| 中国日本 沪日IEPL传输 EquinixTY8 A06 Netflix
+  server: jp06.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.95| 中国日本 沪日IEPL传输 EquinixTY8 A08 Netflix
   server: jp08.serenazuma.com
   port: 11764
   type: ssr
@@ -429,73 +195,176 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 3.54| V3234广东香港HGCNFx15SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40234
+- name: 2.84| 中国日本 多协议标签交换虚拟专用网 A7 1000Mbps
+  server: hr07.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 3.53| As 台湾 06 TW 25x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2309
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 3.52| As 香港 07 HK 2x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2028
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.79| 中国日本 沪日IEPL传输 EquinixTY8 A03 Netflix
+  server: jp03.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 3.51| V366广东香港HKBNx15SSR
-  server: gdyd01.ddns-only.xyz
-  port: 40066
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.52| 中国日本 沪日IEPL传输 EquinixTY8 A02 Netflix
+  server: jp02.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: chacha20-ietf
-  password: jL76UJd
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 4269:jvfzLL
-  obfs-param: 9f0644269.microsoft.com
-- name: 3.48| As 日本 06 JP 2x 2
-  server: shanghai-anycast.vodafone.cyou
-  port: 2015
-  type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
-- name: 3.43| As 韩国 01 KR 3x
-  server: shanghai-anycast.vodafone.cyou
-  port: 2317
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.36| 中国日本 多协议标签交换虚拟专用网 A1 1000Mbps
+  server: hr01.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 30864:NjdmA5
-  obfs-param: fb8e430864.microsoft.com
-- name: 3.37| As 台湾 10 TW 25x 2
-  server: guangzhou-anycast.vodafone.cyou
-  port: 2709
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.99| 日本 まつやまし auひかり ホーム1ギガ A 02
+  server: jpid02.serenazuma.com
+  port: 11764
   type: ssr
-  cipher: aes-256-cfb
-  password: cQN8rVZyWAJ
-  protocol: auth_aes128_sha1
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
   obfs: http_simple
-  protocol-param: 98909:tvapAP
-  obfs-param: 1e44b98909.microsoft.com
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.86|US557
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.74|Relay  269Mb
+  server: t3.ssrsub.com
+  type: trojan
+  country: RU
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  skip-cert-verify: true
+  udp: true
+- name: 1.51|US170 2166Mb
+  server: 72.167.33.106
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.44| 1064Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.39|JP64  502Mb
+  server: 5.183.177.111
+  type: trojan
+  country: JP
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.22|NL74 1630Mb
+  server: 185.171.120.144
+  type: trojan
+  country: NL
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.12|RO170
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.05|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.02| 沪港 IEPL专线 港区TVBHBONetflix解锁 A01
+  server: hg01.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.02|Relay  328Mb
+  server: t9.ssrsub.com
+  type: trojan
+  country: CA
+  port: 21033
+  password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4
+  skip-cert-verify: true
+  udp: true
+- name: 0.68|RO171
+  server: 62.216.92.179
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.68|Relay 1144Mb
+  server: t6.ssrsub.com
+  type: trojan
+  country: CA
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  skip-cert-verify: true
+  udp: true
+- name: 0.48|GB105
+  server: 109.74.194.189
+  type: trojan
+  country: GB
+  port: 1443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 0.47|  770Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.31|RelayUSUS245  939Mb
+  server: t8.ssrsub.com
+  type: trojan
+  country: US
+  port: 21033
+  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
+  skip-cert-verify: true
+  udp: true
