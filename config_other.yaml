@@ -1,265 +1,5 @@
 proxies:
-- name: 5.22| 香港 2
-  server: 116.163.10.131
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 4.82| 中国日本 沪日IEPL传输 EquinixTY8 A10 Netflix
-  server: jp10.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 4.79| 中国日本 沪日IEPL传输 EquinixTY8 A06 Netflix
-  server: jp06.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 4.72| 日本 ソフトバンク A03 500Mbps 1x Netflix
-  server: jp15.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 4.58| 日本日本大阪 オプテージ A 03
-  server: jpaz03.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 4.46| 香港 1
-  server: 183.232.170.112
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 4.42| 日本 まつやまし auひかり ホーム1ギガ A 02
-  server: jpid02.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 4.18| 日本日本大阪 オプテージ A 02
-  server: jpaz02.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.90|Relay  434Mb
-  server: dg-hk-node01.linkthink.app
-  type: ssr
-  country: CN
-  port: 10370
-  password: abK09D1FnV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 232749:DdxQYRIqsA
-  obfs: http_post
-- name: 3.79| 日本日本大阪 オプテージ A 06
-  server: jpaz06.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.71| 中国日本 沪日IEPL传输 EquinixTY8 A03 Netflix
-  server: jp03.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.65| 中国日本 多协议标签交换虚拟专用网 D3 1000Mbps
-  server: hr03.clashcloud.tech
-  port: 59866
-  type: ssr
-  cipher: rc4-md5
-  password: lenw4ae9js
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.41| 中国日本 多协议标签交换虚拟专用网 A1 1000Mbps
-  server: hr01.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.25| 中国日本 沪日IEPL传输 EquinixTY8 A01 Netflix
-  server: jp01.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.24| 中国日本 多协议标签交换虚拟专用网 A9 1000Mbps
-  server: hr09.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.16| 中国日本 多协议标签交换虚拟专用网 D4 1000Mbps
-  server: hr04.clashcloud.tech
-  port: 59866
-  type: ssr
-  cipher: rc4-md5
-  password: lenw4ae9js
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.15| 中国日本 多协议标签交换虚拟专用网 A8 1000Mbps
-  server: hr08.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.13| 日本 まつやまし auひかり ホーム1ギガ A 04
-  server: jpid04.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.06| 日本日本大阪 オプテージ A 04
-  server: jpaz04.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.97| 中国日本 沪日IEPL传输 EquinixTY8 A02 Netflix
-  server: jp02.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.85| 中国日本 多协议标签交换虚拟专用网 A10 1000Mbps
-  server: hr10.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.84| 日本 ソフトバンク A04 500Mbps 1x Netflix
-  server: jp16.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.83| 中国日本 多协议标签交换虚拟专用网 A4 1000Mbps
-  server: hr04.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.78| 日本日本大阪 オプテージ A 07
-  server: jpaz07.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.71| 日本 まつやまし auひかり ホーム1ギガ A 03
-  server: jpid03.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.64| 中国日本 多协议标签交换虚拟专用网 A7 1000Mbps
-  server: hr07.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.53| 沪港 IEPL专线 港区TVBHBONetflix解锁 A01
+- name: 4.36| 沪港 IEPL专线 港区TVBHBONetflix解锁 A01
   server: hg01.serenazuma.com
   port: 11764
   type: ssr
@@ -269,8 +9,8 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 2.46| 中国日本 多协议标签交换虚拟专用网 A3 1000Mbps
-  server: hr03.serenazuma.com
+- name: 3.94| 日本 まつやまし auひかり ホーム1ギガ A 04
+  server: jpid04.serenazuma.com
   port: 11764
   type: ssr
   cipher: rc4-md5
@@ -279,47 +19,7 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 2.45| 中国日本 多协议标签交换虚拟专用网 D7 1000Mbps
-  server: hr07.clashcloud.tech
-  port: 59866
-  type: ssr
-  cipher: rc4-md5
-  password: lenw4ae9js
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.42| 日本日本大阪 オプテージ A 01
-  server: jpaz01.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.36| 日本 まつやまし auひかり ホーム1ギガ D 07
-  server: jp07.clashcloud.tech
-  port: 59866
-  type: ssr
-  cipher: rc4-md5
-  password: lenw4ae9js
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.21| 日本 ソフトバンク A05 500Mbps 1x Netflix
-  server: jp17.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.20| 日本 まつやまし auひかり ホーム1ギガ A 07
+- name: 3.57| 日本 まつやまし auひかり ホーム1ギガ A 07
   server: jpid07.serenazuma.com
   port: 11764
   type: ssr
@@ -329,8 +29,8 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 2.10| 中国日本 沪日IEPL传输 EquinixTY8 A09 Netflix
-  server: jp09.serenazuma.com
+- name: 3.56| 日本日本大阪 オプテージ A 01
+  server: jpaz01.serenazuma.com
   port: 11764
   type: ssr
   cipher: rc4-md5
@@ -339,8 +39,8 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 1.93| 中国日本 多协议标签交换虚拟专用网 A6 1000Mbps
-  server: hr06.serenazuma.com
+- name: 3.47| 日本 ソフトバンク A05 500Mbps 1x Netflix
+  server: jp17.serenazuma.com
   port: 11764
   type: ssr
   cipher: rc4-md5
@@ -349,7 +49,37 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 1.90| 日本日本大阪 オプテージ A 08
+- name: 3.44| 日本日本大阪 オプテージ A 04
+  server: jpaz04.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.43| 中国日本 多协议标签交换虚拟专用网 A10 1000Mbps
+  server: hr10.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.30| 日本 まつやまし auひかり ホーム1ギガ A 03
+  server: jpid03.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 3.27| 日本日本大阪 オプテージ A 08
   server: jpaz08.serenazuma.com
   port: 11764
   type: ssr
@@ -359,27 +89,17 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 1.38| 中国日本 多协议标签交换虚拟专用网 A2 1000Mbps
-  server: hr02.serenazuma.com
-  port: 11764
+- name: 3.25| 香港 2
+  server: 116.163.10.131
+  port: 22779
   type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 1.10| 中国日本 沪日IEPL传输 EquinixTY8 A07 Netflix
-  server: jp07.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 0.87| 中国日本 沪日IEPL传输 EquinixTY8 A08 Netflix
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 3.15| 中国日本 沪日IEPL传输 EquinixTY8 A08 Netflix
   server: jp08.serenazuma.com
   port: 11764
   type: ssr
@@ -389,7 +109,67 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 0.73| 中国日本 沪日IEPL传输 EquinixTY8 A04 Netflix
+- name: 3.07| 中国日本 多协议标签交换虚拟专用网 A7 1000Mbps
+  server: hr07.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.85| 中国日本 多协议标签交换虚拟专用网 A3 1000Mbps
+  server: hr03.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.74| 中国日本 多协议标签交换虚拟专用网 A6 1000Mbps
+  server: hr06.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.70| 中国日本 多协议标签交换虚拟专用网 A2 1000Mbps
+  server: hr02.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.13| 中国日本 沪日IEPL传输 EquinixTY8 A01 Netflix
+  server: jp01.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 2.03| 中国日本 沪日IEPL传输 EquinixTY8 A09 Netflix
+  server: jp09.serenazuma.com
+  port: 11764
+  type: ssr
+  cipher: rc4-md5
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 1.13| 中国日本 沪日IEPL传输 EquinixTY8 A04 Netflix
   server: jp04.serenazuma.com
   port: 11764
   type: ssr
@@ -399,17 +179,17 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: download.windowsupdate.com
-- name: 0.63|Relay 2324Mb
-  server: dg-hk-node01.linkthink.app
+- name: 0.78| 日本 ソフトバンク A04 500Mbps 1x Netflix
+  server: jp16.serenazuma.com
+  port: 11764
   type: ssr
-  country: CN
-  port: 10905
-  password: abK09D1FnV
   cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 244587:iBnx2zKGVQ
-  obfs: http_post
-- name: 0.38| 香港04测试
+  password: MwEWb0
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: download.windowsupdate.com
+- name: 0.69| 香港04测试
   server: 42.157.196.104
   port: 20817
   type: ssr
@@ -419,3 +199,13 @@ proxies:
   obfs: http_post
   protocol-param: 251854:Qaf3vgcBue
   obfs-param: ''
+- type: ssr
+  server: 117.28.243.132
+  password: passfw2xs4e!
+  port: 8333
+  obfs: plain
+  protocol-param: ''
+  cipher: rc4-md5
+  name: 0.50|中国福建泉州ssr117282431328333
+  obfs-param: ''
+  protocol: origin

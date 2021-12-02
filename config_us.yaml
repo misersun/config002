@@ -1,5 +1,5 @@
 proxies:
-- name: 1.62|trojan
+- name: 1.53|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -8,37 +8,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.57| 免费分區07直连美国流媒体
-  server: abnode07.makegamegoal.com
-  port: 8443
-  type: trojan
-  password: 4e234754-49ce-4ed5-b369-2c82e5615497
-  sni: abnode07.makegamegoal.com
-  skip-cert-verify: false
-- name: 1.39|US170 2166Mb
-  server: 72.167.33.106
-  type: trojan
-  country: US
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.04|25 2536Mb
-  server: t2.ssrsub.com
-  type: trojan
-  port: 21033
-  password: 1ed0dd9b-7c66-4738-be47-8e543b2126e4
-  sni: t2.ssrsub.com
-  udp: true
-- name: 0.92|US557
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 0.44|RelayUSUS245  939Mb
+- name: 1.29|RelayUSUS245  939Mb
   server: t8.ssrsub.com
   type: trojan
   country: US
