@@ -1,5 +1,55 @@
 proxies:
-- name: 1.53|trojan
+- name: 2.68| 美国 优化 B 35
+  server: usastandard.proconcn.xyz
+  port: 561
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 2.62| 美国 优化 D 35
+  server: usastandard.proconcn.xyz
+  port: 563
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 2.52| 美国 优化 C 35
+  server: usastandard.proconcn.xyz
+  port: 562
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 2.43| 美国 优化 E 35
+  server: usastandard.proconcn.xyz
+  port: 564
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 2.37| 美国 优化 A 35
+  server: usastandard.proconcn.xyz
+  port: 560
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 1.79|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -8,11 +58,3 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.29|RelayUSUS245  939Mb
-  server: t8.ssrsub.com
-  type: trojan
-  country: US
-  port: 21033
-  password: 2b19f253-5da2-4ca2-a950-8b4e7b3ddadb
-  skip-cert-verify: true
-  udp: true
