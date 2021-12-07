@@ -1,14 +1,17 @@
 proxies:
-- name: 5.43| 每日更新节点mffxz330
-  server: shcn2-06b.iplc188.com
-  port: 10005
+- alterId: 1
+  cipher: auto
+  name: 5.44|1129oslook中国香港中国台湾CNChinaShanghai可能是中转节点5
+  network: tcp
+  port: 10004
+  server: 139.227.161.129
+  tls: false
   type: vmess
   uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 5.20|RelayCNSG30  488Mb
+  ws-headers:
+    Host: t.me/vpnpool
+  ws-path: /
+- name: 5.00|RelayCNSG30  488Mb
   server: 112.33.32.136
   type: vmess
   country: CN
@@ -21,28 +24,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.38|Relay 1022Mb
-  server: shcn2-06b.iplc188.com
-  port: 10001
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-- name: 4.36|RelayCNUS34 2052Mb
-  server: 139.227.161.129
-  type: vmess
-  country: CN
-  port: 10001
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.22|5209Mb
+- name: 4.76|5209Mb
   server: 172.104.98.216
   port: 80
   type: vmess
@@ -54,62 +36,63 @@ proxies:
   ws-path: /
   ws-headers:
     Host: www.gov.hk
-- name: 3.77|RelayZZZZ613 2645Mb
-  server: 715hk.fans8.xyz
+- name: 4.10| CN13 TGpeekfun
+  server: 112.82.144.165
+  port: 28802
   type: vmess
-  country: ZZ
-  port: 80
-  uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a
+  country: ' CN'
+  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
   alterId: 2
   cipher: auto
   network: ws
-  ws-path: /v2ray
   http-opts: {}
-  h2-opts: {}
+  ws-path: /index
+  ws-headers:
+    HOST: cm2.cheapv2.xyz
   skip-cert-verify: true
-- name: 3.65|RelayUSSG689
-  server: v2-xgb-v9.cl123.xyz
+  servername: cm2.cheapv2.xyz
+- name: 3.97| CN14 TGpeekfun
+  server: 116.163.10.136
+  port: 28802
   type: vmess
-  country: US
-  port: 80
-  uuid: 6d3faf56-93b6-33ca-a57d-673bb6ab696f
+  country: ' CN'
+  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
   alterId: 2
   cipher: auto
   network: ws
-  ws-path: /hls/cctv5phd.m3u8
   http-opts: {}
-  h2-opts: {}
+  ws-path: /index
+  ws-headers:
+    HOST: cm2.cheapv2.xyz
   skip-cert-verify: true
-- name: 3.37| 每日更新节点mffxz234
-  server: shcu01.iplc188.com
-  port: 10004
+  servername: cm2.cheapv2.xyz
+- name: 3.84|YouTube由零开始
+  server: zhuzhu12.com
+  port: 13959
   type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
+  uuid: 014b3f52-f9da-3441-8efa-6d7175faa91f
+  alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 3.30| SG775
-  server: 139.162.51.223
-  port: 51939
-  type: vmess
-  uuid: 4db2a027-17fb-4d27-b8ca-93b548e487a2
-  alterId: 0
-  cipher: auto
-  tls: false
-- alterId: 1
-  cipher: auto
-  name: 3.27|1129oslook中国香港中国台湾CNChinaShanghai可能是中转节点5
-  network: tcp
-  port: 10004
-  server: 139.227.161.129
-  tls: false
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  network: ws
+  ws-path: /zz
   ws-headers:
-    Host: t.me/vpnpool
-  ws-path: /
-- name: 3.12| HKYoutube技术分享室整理
+    Host: zhuzhu12.com
+- name: 3.64| 台湾Hinet丨流媒体解锁 4
+  server: 120.232.174.86
+  port: 10099
+  type: vmess
+  uuid: 41ff6a38-f1f0-3ec5-b143-010ddd392162
+  alterId: 16
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 120.232.174.86
+- name: 3.31| HKYoutube技术分享室整理
   server: 112.33.32.136
   port: 10005
   type: vmess
@@ -117,33 +100,49 @@ proxies:
   alterId: 1
   cipher: auto
   tls: false
-- name: 3.03|RelayCNHK256 5846Mb
-  server: 120.240.86.73
+- name: 3.07| TG频道DocoShare韩国01
+  server: zhuzhu12.com
+  port: 13125
+  type: vmess
+  uuid: 87756189-d190-3412-8143-e428b805cd24
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: zhuzhu12.com
+- name: 2.90|RelayCNJP14  268Mb
+  server: cm2.cheapv2.xyz
   type: vmess
   country: CN
-  port: 33565
-  uuid: 374595b4-9f5b-42c2-b5f5-646dfa8943f6
-  alterId: 0
+  port: 28802
+  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
+  alterId: 2
   cipher: auto
   network: ws
+  ws-path: /index
+  servername: cm2.cheapv2.xyz
+  ws-headers:
+    HOST: cm2.cheapv2.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.78|RelayCNUS34 2052Mb
+  server: 139.227.161.129
+  type: vmess
+  country: CN
+  port: 10001
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
   ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.93|RelayCACA12  663Mb
-  server: 1030tw.fans8.xyz
-  type: vmess
-  country: CA
-  port: 80
-  uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.90| bJapanNetflix
+- name: 2.64| bJapanNetflix
   server: hygz.q-air.icu
   port: 18201
   type: vmess
@@ -156,46 +155,20 @@ proxies:
   ws-path: np
   ws-headers:
     Host: dvm-jp1.q-air.icu
-- name: 2.88|RelayZZZZ612 2608Mb
-  server: 1116hk.fans8.xyz
+- name: 2.61| 日本1号 2
+  server: 149.28.16.92
+  port: 1520
   type: vmess
-  country: ZZ
-  port: 80
-  uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a
-  alterId: 2
+  uuid: 41ff6a38-f1f0-3ec5-b143-010ddd392162
+  alterId: 16
   cipher: auto
+  tls: false
+  skip-cert-verify: false
   network: ws
   ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.41|RelayCACA19 2438Mb
-  server: 1116yn.fans8.xyz
-  type: vmess
-  country: CA
-  port: 80
-  uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.33|RelayJPJP166  971Mb
-  server: 1031kr.fans8.xyz
-  type: vmess
-  country: JP
-  port: 80
-  uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.29| 广州移动SeoulEC2nfvpnpool
+  ws-headers:
+    Host: 149.28.16.92
+- name: 2.60| 广州移动SeoulEC2nfvpnpool
   server: 183.232.226.188
   port: 63008
   type: vmess
@@ -208,40 +181,299 @@ proxies:
   ws-path: /vvv
   ws-headers:
     Host: t.me/vpnhat
-- name: 2.26| 澳大利亚欢迎订阅youtube8度科技
-  server: 43.155.75.170
+- name: 2.44| 美国02
+  server: zhuzhu12.com
+  port: 14718
+  type: vmess
+  uuid: aad363b6-e8d7-3fcf-8fcb-ace375844b03
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: zhuzhu12.com
+- name: 2.35| 香港HGC原生IP 01
+  server: 120.232.174.86
+  port: 10092
+  type: vmess
+  uuid: 0e32122f-af80-391e-9bc5-7adc5702d84c
+  alterId: 16
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 120.232.174.86
+- name: 2.31| CN12 TGpeekfun
+  server: 112.82.144.165
+  port: 23308
+  type: vmess
+  country: ' CN'
+  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
+  alterId: 2
+  cipher: auto
+  network: ws
+  http-opts: {}
+  ws-path: /index
+  ws-headers:
+    HOST: cu.cheapv2.xyz
+  skip-cert-verify: true
+  servername: cu.cheapv2.xyz
+- name: 1.98| 德国01 邀请好友可获100返利
+  server: zhuzhu12.com
+  port: 46101
+  type: vmess
+  uuid: aad363b6-e8d7-3fcf-8fcb-ace375844b03
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: zhuzhu12.com
+- name: 1.63|CN16 2752Mb
+  server: 42.157.8.162
+  type: vmess
+  country: CN
+  port: 48106
+  uuid: 3959477e-55c4-453f-bc80-3b13e64891ac
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.62| CN15 TGpeekfun
+  server: 116.163.10.136
+  port: 23308
+  type: vmess
+  country: ' CN'
+  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
+  alterId: 2
+  cipher: auto
+  network: ws
+  http-opts: {}
+  ws-path: /index
+  ws-headers:
+    HOST: cu.cheapv2.xyz
+  skip-cert-verify: true
+  servername: cu.cheapv2.xyz
+- name: 1.56| mattkaydiarycom美国USUSASan Jose
+  server: armsj2.kozow.com
   port: 80
   type: vmess
-  uuid: 76329684-c5d2-4cf7-fcf5-06ad79a6aab3
-  alterId: 64
+  uuid: 44e0d410-535a-11ec-968f-02001700aa14
+  alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 43.155.75.170
-- name: 2.22| RelayCNKR395 3431Mb
-  server: 139.227.161.129
-  port: 10002
+    Host: armsj2.kozow.com
+- name: 1.54| 每日更新节点mffxz623
+  server: shcn2-06b.iplc188.com
+  port: 10006
   type: vmess
   uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
   alterId: 1
   cipher: auto
   tls: false
-- name: 2.00|RelayCACA18 1286Mb
-  server: 930tg.fans8.xyz
+  skip-cert-verify: false
+- name: 1.48|RelayCNUS21  392Mb
+  server: cu.cheapv2.xyz
   type: vmess
-  country: CA
-  port: 80
-  uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a
+  country: CN
+  port: 23308
+  uuid: 44b7192f-7539-3cde-a0a7-2d4d1361cadf
   alterId: 2
   cipher: auto
   network: ws
-  ws-path: /v2ray
+  ws-path: /index
+  servername: cu.cheapv2.xyz
+  ws-headers:
+    HOST: cu.cheapv2.xyz
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.79|RelayUSUS130  862Mb
+- name: 1.43| httpsgitiov9999 圣何塞 ip2 8
+  server: 107.148.200.229
+  port: 35193
+  type: vmess
+  uuid: f4b15c34-50df-11ec-8c60-00163c0ad178
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /9XCFx8oB/
+  ws-headers:
+    Host: 107.148.200.229
+- name: 1.42|198220385ws
+  server: 198.2.203.85
+  port: 23659
+  type: vmess
+  uuid: 6e642eca-542e-11ec-ad66-002590d6941c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /nNj0CmuI/
+  ws-headers:
+    Host: 198.2.203.85
+- name: 1.38| 新加坡原生IP 3
+  server: 120.232.174.86
+  port: 10044
+  type: vmess
+  uuid: 0e32122f-af80-391e-9bc5-7adc5702d84c
+  alterId: 16
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 120.232.174.86
+- name: 1.35| 每日更新节点mffxz330
+  server: shcn2-06b.iplc188.com
+  port: 10005
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.24|Jsnzkmffxz频道节点 禁转载3
+  server: 112.33.32.136
+  port: 10001
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.18|2169Mb
+  server: 45.8.159.221
+  port: 443
+  type: vmess
+  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
+  alterId: 32
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: pull.free.video.10010.com
+- name: 1.18|Relay 1896Mb
+  server: c23s3.jamjams.net
+  port: 61173
+  type: vmess
+  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
+  alterId: 8
+  cipher: auto
+  tls: false
+- name: 1.17| httpsgitiov9999 圣何塞tcp ip5
+  server: 198.200.51.34
+  port: 10911
+  type: vmess
+  uuid: 53e483d4-1ea9-11ec-ad60-00163cc87418
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.00| httpsgitiov9999 圣何塞 ip2 10
+  server: 192.74.254.167
+  port: 14003
+  type: vmess
+  uuid: 0e062afc-50e0-11ec-9c30-00163c9f4934
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /3Xt2YL4H/
+  ws-headers:
+    Host: 192.74.254.167
+- name: 0.97| httpsgitiov9999 圣何塞 ip2 4
+  server: 137.175.30.251
+  port: 16873
+  type: vmess
+  uuid: c150c3c0-50df-11ec-aaf3-00163c1393a8
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /UWNKisZB/
+  ws-headers:
+    Host: 137.175.30.251
+- name: 0.95|4566157195tcp
+  server: 45.66.157.195
+  port: 20012
+  type: vmess
+  uuid: 4cbb0ce4-1ec3-11ec-b76f-00163c06ad53
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.95| 349Mb
+  server: 194.135.32.208
+  port: 32551
+  type: vmess
+  uuid: 9d40aefc-54d9-11ec-af2d-f2c157360b1e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /W9s28k1i/
+  ws-headers:
+    Host: 194.135.32.208
+- name: 0.90| 韩国首尔1号 3
+  server: 120.232.174.86
+  port: 10037
+  type: vmess
+  uuid: 41ff6a38-f1f0-3ec5-b143-010ddd392162
+  alterId: 16
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 120.232.174.86
+- name: 0.87| 每日更新节点mffxz234
+  server: shcu01.iplc188.com
+  port: 10004
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 0.87|Relay 2730Mb
+  server: in.52jjyun.top
+  port: 80
+  type: vmess
+  uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab
+  alterId: 10
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /jjyun
+  ws-headers:
+    Host: in.52jjyun.top
+- name: 0.75| mattkaydiarycom德国DEGermanyFrankfurt am Main
+  server: ru.52jjyun.top
+  port: 80
+  type: vmess
+  uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab
+  alterId: 10
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /jjyun
+  ws-headers:
+    Host: ru.52jjyun.top
+- name: 0.57|RelayUSUS130  862Mb
   server: zhuzhu12.com
   type: vmess
   country: US
@@ -257,190 +489,19 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.77|Relay 2112Mb
-  server: 198.41.212.234
+- name: 0.57| httpsgitiov9999 圣何塞 ip2 6
+  server: 198.200.51.18
+  port: 27962
   type: vmess
-  country: ZZ
-  port: 2082
-  uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /media/
-  servername: download.jianguoyun.com
-  ws-headers:
-    HOST: download.jianguoyun.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.66|2814Mb
-  server: 45.63.56.11
-  port: 47337
-  type: vmess
-  uuid: 9282d7b0-54c5-11ec-9a42-560003b7d816
+  uuid: b660c4a6-50df-11ec-9676-00163caf481c
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /anBAWUi4/
+  ws-path: /jZyaImnU/
   ws-headers:
-    Host: 45.63.56.11
-- name: 1.64|Relay 1544Mb
-  server: shcn2-06b.iplc188.com
-  port: 10004
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-- name: 1.62|CN16 2752Mb
-  server: 42.157.8.162
-  type: vmess
-  country: CN
-  port: 48106
-  uuid: 3959477e-55c4-453f-bc80-3b13e64891ac
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.56| mattkaydiarycom美国USUSASan Jose
-  server: armsj2.kozow.com
-  port: 80
-  type: vmess
-  uuid: 44e0d410-535a-11ec-968f-02001700aa14
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: armsj2.kozow.com
-- name: 1.54| httpsgitiov9999 圣何塞 ip2 2
-  server: 107.148.200.123
-  port: 23370
-  type: vmess
-  uuid: 938eb42e-50df-11ec-8129-00163c1b189e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /SZF3TKj8/
-  ws-headers:
-    Host: 107.148.200.123
-- name: 1.51| 349Mb
-  server: 194.135.32.208
-  port: 32551
-  type: vmess
-  uuid: 9d40aefc-54d9-11ec-af2d-f2c157360b1e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /W9s28k1i/
-  ws-headers:
-    Host: 194.135.32.208
-- name: 1.51|Relay 1916Mb
-  server: usdsl.52jjyun.top
-  port: 80
-  type: vmess
-  uuid: 613eee52-bfd9-47d1-a47d-37bdf1367aab
-  alterId: 10
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: usdsl.52jjyun.top
-- name: 1.45|CYL科技202111309
-  server: 1030us.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-- name: 1.40| httpsgitiov9999 圣何塞 ip2 10
-  server: 192.74.254.167
-  port: 14003
-  type: vmess
-  uuid: 0e062afc-50e0-11ec-9c30-00163c9f4934
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /3Xt2YL4H/
-  ws-headers:
-    Host: 192.74.254.167
-- name: 1.39|198220385ws
-  server: 198.2.203.85
-  port: 23659
-  type: vmess
-  uuid: 6e642eca-542e-11ec-ad66-002590d6941c
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /nNj0CmuI/
-  ws-headers:
-    Host: 198.2.203.85
-- name: 1.34|Relay 1334Mb
-  server: shcn2-06b.iplc188.com
-  port: 10002
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-- name: 1.28|CYL科技202111303
-  server: 1023sg.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: 7ea3f9bb-2082-3d43-b825-6bf7a052314a
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-- name: 1.14| 每日更新节点mffxz623
-  server: shcn2-06b.iplc188.com
-  port: 10006
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.02| US1671
-  server: 20.151.113.120
-  port: 1426
-  type: vmess
-  uuid: e0f591b2-69a2-4e92-a0f3-d39a2f70b768
-  alterId: 66
-  cipher: auto
-  tls: false
-- name: 0.93|4566157195tcp
-  server: 45.66.157.195
-  port: 20012
-  type: vmess
-  uuid: 4cbb0ce4-1ec3-11ec-b76f-00163c06ad53
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.84|Jsnzkmffxz频道节点 禁转载3
-  server: 112.33.32.136
-  port: 10001
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 0.83| mattkaydiarycom中国香港中国台湾CNChinaHefei小东的程序未能精准识别可能是中转节点
+    Host: 198.200.51.18
+- name: 0.56| mattkaydiarycom中国香港中国台湾CNChinaHefei小东的程序未能精准识别可能是中转节点
   server: 112.33.32.136
   port: 10003
   type: vmess
@@ -448,67 +509,19 @@ proxies:
   alterId: 1
   cipher: auto
   tls: false
-- name: 0.74| httpsgitiov9999 圣何塞 ip2
-  server: 198.200.51.34
-  port: 25119
+- name: 0.54| 618Mb
+  server: 52.77.238.80
+  port: 54250
   type: vmess
-  uuid: 8362c536-50df-11ec-861e-00163cc87418
+  uuid: cde1071a-5569-11ec-b2df-93fe41846976
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /k5LKHPOs/
+  ws-path: /gIWQkO7s/
   ws-headers:
-    Host: 198.200.51.34
-- name: 0.53| httpsgitiov9999 圣何塞 ip2 4
-  server: 137.175.30.251
-  port: 16873
-  type: vmess
-  uuid: c150c3c0-50df-11ec-aaf3-00163c1393a8
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /UWNKisZB/
-  ws-headers:
-    Host: 137.175.30.251
-- name: 0.49| httpsgitiov9999 圣何塞 ip2 5
-  server: 198.200.51.189
-  port: 12448
-  type: vmess
-  uuid: cf418744-50df-11ec-ab76-00163cb56238
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /lLFr6UCB/
-  ws-headers:
-    Host: 198.200.51.189
-- name: 0.48|1000Mb
-  server: 8.214.46.152
-  port: 50885
-  type: vmess
-  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 8.214.46.152
-- name: 0.46| httpsgitiov9999 洛杉矶ws ip3 2
-  server: 45.66.159.74
-  port: 34947
-  type: vmess
-  uuid: 32a7921c-5110-11ec-a4b9-00163cbed88a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /V1DBsEzr/
-  ws-headers:
-    Host: 45.66.159.74
-- name: 0.45| httpsgitiov9999 洛杉矶ws ip3
+    Host: 52.77.238.80
+- name: 0.50| httpsgitiov9999 洛杉矶ws ip3
   server: 45.66.159.74
   port: 18412
   type: vmess
@@ -520,7 +533,19 @@ proxies:
   ws-path: /5znKiuaW/
   ws-headers:
     Host: 45.66.159.74
-- name: 0.44| httpsgitiov9999 洛杉矶ws ip3 4
+- name: 0.50| httpsgitiov9999 圣何塞 ip2 9
+  server: 192.74.254.112
+  port: 52244
+  type: vmess
+  uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /E0Y46mSw/
+  ws-headers:
+    Host: 192.74.254.112
+- name: 0.48| httpsgitiov9999 洛杉矶ws ip3 4
   server: 45.66.159.74
   port: 21890
   type: vmess
@@ -532,31 +557,51 @@ proxies:
   ws-path: /5KHI4riw/
   ws-headers:
     Host: 45.66.159.74
-- name: 0.43|IE52 9440Mb
-  server: 52.48.89.93
+- name: 0.46| mattkaydiarycom新加坡SGSingaporeSingapore
+  server: 18.142.46.114
+  port: 34373
   type: vmess
-  country: IE
-  port: 9999
-  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: 52.48.89.93
-  ws-headers:
-    HOST: 52.48.89.93
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.36|Relay 1008Mb
-  server: fus1.uuv2.co.uk
-  port: 2082
-  type: vmess
-  uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f
+  uuid: 4c7b2216-16b3-4048-caa6-f51733d1611e
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /media/
+  ws-path: /
   ws-headers:
-    Host: download.jianguoyun.com
+    Host: 18.142.46.114
+- name: 0.46| httpsgitiov9999 洛杉矶ws ip3 3
+  server: 45.66.159.74
+  port: 45643
+  type: vmess
+  uuid: 365691ba-5110-11ec-a4b9-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /b72MS9Wp/
+  ws-headers:
+    Host: 45.66.159.74
+- name: 0.44|2814Mb
+  server: 45.63.56.11
+  port: 47337
+  type: vmess
+  uuid: 9282d7b0-54c5-11ec-9a42-560003b7d816
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /anBAWUi4/
+  ws-headers:
+    Host: 45.63.56.11
+- name: 0.35|Relay 1397Mb
+  server: 52.184.20.252
+  port: 13146
+  type: vmess
+  uuid: f29f684d-45f8-3412-9758-f9c7c24b4638
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: az1.xdmnb.click
