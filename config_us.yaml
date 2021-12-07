@@ -1,35 +1,5 @@
 proxies:
-- name: 2.76| 美国 优化 B 35
-  server: usastandard.proconcn.xyz
-  port: 561
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.71| 美国 优化 C 35
-  server: usastandard.proconcn.xyz
-  port: 562
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.62| 美国 优化 A 35
-  server: usastandard.proconcn.xyz
-  port: 560
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.56| 美国 优化 E 35
+- name: 2.72| 美国 优化 E 35
   server: usastandard.proconcn.xyz
   port: 564
   type: ssr
@@ -39,7 +9,7 @@ proxies:
   obfs: plain
   protocol-param: 7995:20211201
   obfs-param: ''
-- name: 2.05| 美国 优化 D 35
+- name: 2.70| 美国 优化 D 35
   server: usastandard.proconcn.xyz
   port: 563
   type: ssr
@@ -49,15 +19,51 @@ proxies:
   obfs: plain
   protocol-param: 7995:20211201
   obfs-param: ''
-- name: 2.01|US703
-  server: 72.167.45.6
+- name: 2.67| 美国 优化 A 35
+  server: usastandard.proconcn.xyz
+  port: 560
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 2.64| 美国 优化 B 35
+  server: usastandard.proconcn.xyz
+  port: 561
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 2.57| 美国 优化 C 35
+  server: usastandard.proconcn.xyz
+  port: 562
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 7995:20211201
+  obfs-param: ''
+- name: 1.61|JP64  502Mb
+  server: 5.183.177.111
   type: trojan
-  country: US
+  country: JP
   port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.37|trojan
+- name: 1.00|欢迎订阅youtube8度科技 11
+  server: t2.ssrsub.com
+  port: 8443
+  type: trojan
+  password: 1b89d065-8640-4010-a80e-dc0c46a72aaf
+  sni: t2.ssrsub.com
+- name: 0.98|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -66,3 +72,11 @@ proxies:
   alpn:
   - h2
   - http/1.1
+- name: 0.83|US703
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
