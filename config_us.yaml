@@ -1,32 +1,5 @@
 proxies:
-- name: 2.45| b美西首选
-  server: hygz.q-air.icu
-  port: 18421
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
-  skip-cert-verify: false
-- name: 2.39| 美国 优化 E 35
-  server: usastandard.proconcn.xyz
-  port: 564
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.36| 美国 优化 D 35
-  server: usastandard.proconcn.xyz
-  port: 563
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 2.04|trojan
+- name: 1.76|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -35,17 +8,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 2.01| 美国 优化 C 35
-  server: usastandard.proconcn.xyz
-  port: 562
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
-- name: 1.44|JP64  502Mb
+- name: 1.31|JP64  502Mb
   server: 5.183.177.111
   type: trojan
   country: JP
@@ -53,13 +16,3 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 0.47| 美国 优化 B 35
-  server: usastandard.proconcn.xyz
-  port: 561
-  type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 7995:20211201
-  obfs-param: ''
