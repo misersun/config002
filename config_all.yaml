@@ -1,14 +1,333 @@
 proxies:
-- name: 5.45| 每日更新节点mffxz330
+- name: 6.03|RelayCNHK228 1539Mb
   server: shcn2-06b.iplc188.com
-  port: 10005
+  type: vmess
+  country: CN
+  port: 10001
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.39| 香港01原生IP
+  server: xl.out03.nodeserver.top
+  port: 22064
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out03.nodeserver.top
+- name: 5.06| HKT转江门327
+  server: sl201.jdxx.xyz
+  port: 35003
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 147:RlDn8I
+  obfs-param: d1efa147.microsoft.com
+- name: 5.01|AZ转移动0427
+  server: sl201.jdxx.xyz
+  port: 25988
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 147:RlDn8I
+  obfs-param: d1efa147.microsoft.com
+- name: 4.97| 新加坡04解鎖NF
+  server: xl.out04.nodeserver.top
+  port: 22029
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out04.nodeserver.top
+- name: 4.97| 新加坡02解鎖NF
+  server: xl.out04.nodeserver.top
+  port: 22027
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out04.nodeserver.top
+- name: 4.86|RelayCNUS34 2052Mb
+  server: 139.227.161.129
+  type: vmess
+  country: CN
+  port: 10001
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.80| 新加坡01解鎖NF
+  server: xl.out03.nodeserver.top
+  port: 22026
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out03.nodeserver.top
+- name: 4.73|AZ转移动0227
+  server: sl201.jdxx.xyz
+  port: 25986
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 147:RlDn8I
+  obfs-param: d1efa147.microsoft.com
+- name: 4.73| 中国台湾04原生IP解鎖NF
+  server: xl.out04.nodeserver.top
+  port: 22057
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.59| HKT转江门227
+  server: sl201.jdxx.xyz
+  port: 35002
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 147:RlDn8I
+  obfs-param: d1efa147.microsoft.com
+- name: 4.55| 香港免流05 解锁新加坡区奈飞
+  server: 5.zhuzhu12.com
+  port: 80
+  type: vmess
+  uuid: 6de3185b-8da1-3478-999c-0bb8b060f1fb
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: a.189.cn
+- name: 4.52| 香港05解鎖NF
+  server: xl.out01.nodeserver.top
+  port: 22022
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out01.nodeserver.top
+- name: 4.51|国内中专327
+  server: tz-yd01.jdxx.xyz
+  port: 35006
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 147:RlDn8I
+  obfs-param: d1efa147.microsoft.com
+- name: 4.47| 日本04解鎖NF
+  server: xl.out03.nodeserver.top
+  port: 22017
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out03.nodeserver.top
+- name: 4.42| 日本移动隧道227
+  server: sl201.jdxx.xyz
+  port: 26387
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 147:RlDn8I
+  obfs-param: d1efa147.microsoft.com
+- name: 4.40| 新加坡03解鎖NF
+  server: xl.out03.nodeserver.top
+  port: 22028
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out03.nodeserver.top
+- name: 4.39| 日本02解鎖NF
+  server: xl.out03.nodeserver.top
+  port: 22015
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out03.nodeserver.top
+- name: 4.38| 香港02解鎖NF
+  server: xl.out02.nodeserver.top
+  port: 22019
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out02.nodeserver.top
+- name: 4.22| 马来西亚01动态MY原生IP解鎖
+  server: xl.out03.nodeserver.top
+  port: 22061
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.16| 韩国移动隧道527
+  server: sl201.jdxx.xyz
+  port: 26390
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 147:RlDn8I
+  obfs-param: d1efa147.microsoft.com
+- name: 4.16| 中国台湾05原生IP解鎖NF
+  server: xl.out03.nodeserver.top
+  port: 22058
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.13| HKT转江门427
+  server: sl201.jdxx.xyz
+  port: 35004
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 147:RlDn8I
+  obfs-param: d1efa147.microsoft.com
+- name: 4.10|5209Mb
+  server: 172.104.98.216
+  port: 80
+  type: vmess
+  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
+  alterId: 64
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: www.gov.hk
+- name: 3.96| mattkaydiarycom中国香港中国台湾CNChinaHefei小东的程序未能精准识别可能是中转节点
+  server: 112.33.32.136
+  port: 10003
   type: vmess
   uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
   alterId: 1
   cipher: auto
   tls: false
+- name: 3.95| 日本移动隧道427
+  server: sl201.jdxx.xyz
+  port: 26389
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 147:RlDn8I
+  obfs-param: d1efa147.microsoft.com
+- name: 3.93| httpsgitiov9999 KR韩国 2
+  server: kr2.futi.online
+  port: 2053
+  type: vmess
+  uuid: c0b2f91e-d429-4aff-88e8-f0f90fd91cf3
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: kr2.futi.online
+- name: 3.79| 香港02原生IP
+  server: xl.out04.nodeserver.top
+  port: 22065
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 1
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 5.36| 香港 1
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out04.nodeserver.top
+- name: 3.76| 香港 03 测试
+  server: 42.157.196.103
+  port: 10049
+  type: ssr
+  cipher: rc4-md5
+  password: Yk4UdrOyQg
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 267054:8ELiYjJ7tU
+  obfs-param: ''
+- name: 3.64| 香港 1
   server: 183.232.170.112
   port: 22779
   type: ssr
@@ -18,17 +337,181 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 5033:hh8o92
   obfs-param: .microsoft.com
-- name: 5.12| AA中继SGNTT02  18348
-  server: cdn.node.sg.ntt03.nekocloud.cn
-  port: 19078
+- name: 3.60|二爷翻墙https1808ga 42
+  server: cm-jm.okvpn.xyz
+  port: 20002
+  type: vmess
+  uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cm-jm.okvpn.xyz
+- name: 3.59| 每日更新节点mffxz330
+  server: shcn2-06b.iplc188.com
+  port: 10005
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 3.40|Relay 3668Mb
+  server: sg3.futi.online
+  port: 2053
+  type: vmess
+  uuid: c0b2f91e-d429-4aff-88e8-f0f90fd91cf3
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: sg3.futi.online
+- name: 3.32| 香港04解鎖NF
+  server: xl.out02.nodeserver.top
+  port: 22021
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out02.nodeserver.top
+- name: 3.32| 香港03解鎖NF
+  server: xl.out01.nodeserver.top
+  port: 22020
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out01.nodeserver.top
+- name: 3.28|YouTube由零开始 2
+  server: sxqxj.cn
+  port: 2164
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: sxqxj.cn
+- name: 3.27|AZ转移动0327
+  server: sl201.jdxx.xyz
+  port: 25987
   type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
+  cipher: chacha20-ietf
+  password: MaOKEa
   protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 5.11| 香港 2
+  obfs: tls1.2_ticket_auth
+  protocol-param: 147:RlDn8I
+  obfs-param: d1efa147.microsoft.com
+- name: 3.24| 广州日本 DMIT丨全解锁丨A2 2
+  server: gzydddns.xyz
+  port: 11842
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3429:EerIYb
+  obfs-param: f7cb53429.microsoft.com
+- name: 3.14| 广州新加坡 NeroCloud丨全解锁丨A3 2
+  server: gzydddns.xyz
+  port: 11841
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3429:EerIYb
+  obfs-param: f7cb53429.microsoft.com
+- name: 3.07|AU22
+  server: 43.155.75.170
+  type: vmess
+  country: AU
+  port: 80
+  uuid: 76329684-c5d2-4cf7-fcf5-06ad79a6aab3
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: www.microsoft.com
+  ws-headers:
+    HOST: www.microsoft.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.05| 广州新加坡 NeroCloud丨全解锁丨A1
+  server: gzydddns.xyz
+  port: 11807
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3429:EerIYb
+  obfs-param: f7cb53429.microsoft.com
+- name: 2.88| 日本03解鎖NF
+  server: xl.out04.nodeserver.top
+  port: 22016
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out04.nodeserver.top
+- name: 2.87| 广州新加坡 NeroCloud丨全解锁丨A2 2
+  server: gzydddns.xyz
+  port: 11846
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3429:EerIYb
+  obfs-param: f7cb53429.microsoft.com
+- name: 2.81| 广州日本 DMIT丨全解锁丨A3 2
+  server: gzydddns.xyz
+  port: 11812
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3429:EerIYb
+  obfs-param: f7cb53429.microsoft.com
+- name: 2.75| 广州移动SeoulEC2nfvpnpool
+  server: 183.232.226.188
+  port: 63008
+  type: vmess
+  uuid: 329b6b96-5c75-3670-b3b7-eb2ad8c8667a
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /vvv
+  ws-headers:
+    Host: t.me/vpnhat
+- name: 2.69| 香港 2
   server: 116.163.10.131
   port: 22779
   type: ssr
@@ -38,21 +521,238 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 5033:hh8o92
   obfs-param: .microsoft.com
-- name: 5.10|RelayCNCN225
-  server: dg-hk-node01.linkthink.app
+- name: 2.69|班加罗尔02
+  server: xl.out04.nodeserver.top
+  port: 22031
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out04.nodeserver.top
+- name: 2.68|班加罗尔01
+  server: xl.out03.nodeserver.top
+  port: 22030
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out03.nodeserver.top
+- name: 2.62| 168机场菲律宾
+  server: gz1.52168.xyz
+  port: 1101
   type: ssr
-  country: CN
-  port: 10865
-  password: abK09D1FnV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 266522:lQUALXIc0P
-  obfs: http_post
-- name: 4.81|RelayCNSG30  488Mb
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 2.61| v4主力马来西亚原生
+  server: gzcm3.meimei1314.xyz
+  port: 45110
+  type: vmess
+  uuid: c064c19b-866f-3624-ab9b-35bdfad536b4
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.amazon.com
+- name: 2.58|美國02原生IP
+  server: xl.out04.nodeserver.top
+  port: 22063
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out04.nodeserver.top
+- name: 2.35|SG193
+  server: 81.90.189.85
+  type: trojan
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 2.28| 日本01 2
+  server: zhuzhu12.com
+  port: 14083
+  type: vmess
+  uuid: 6de3185b-8da1-3478-999c-0bb8b060f1fb
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: zhuzhu12.com
+- name: 2.25| 中国台湾02原生IP解鎖NF
+  server: xl.out04.nodeserver.top
+  port: 22055
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.22| 广州香港 HKT丨全解锁丨A2
+  server: gzydddns.xyz
+  port: 11845
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 2489:xnf3AY
+  obfs-param: 699512489.microsoft.com
+- name: 2.13|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 2.10|SSRSUBV42付费推荐suoytssrsub
+  server: 198.41.212.234
+  port: 2052
+  type: vmess
+  uuid: 00000000-1111-2222-3333-444444444444
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /Telegram/@Loss_0_Vmess
+  ws-headers:
+    Host: free.jianguoyun.com
+- name: 2.04| 新加坡01 4
+  server: zhuzhu12.com
+  port: 22164
+  type: vmess
+  uuid: 1337a57f-b24c-3a88-bcf5-62860cadc3c8
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: zhuzhu12.com
+- name: 2.02| mattkaydiarycom加拿大CACanadaToronto
+  server: 198.41.212.234
+  port: 2082
+  type: vmess
+  uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /media/
+  ws-headers:
+    Host: download.jianguoyun.com
+- name: 2.00| 加拿大02
+  server: xl.out04.nodeserver.top
+  port: 22008
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out04.nodeserver.top
+- name: 1.98|Relay 3966Mb
+  server: 139.227.161.129
+  port: 10002
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+- name: 1.93| httpsgitiov9999 圣何塞 ip2 4
+  server: 192.74.254.167
+  port: 14003
+  type: vmess
+  uuid: 0e062afc-50e0-11ec-9c30-00163c9f4934
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /3Xt2YL4H/
+  ws-headers:
+    Host: 192.74.254.167
+- name: 1.92| 每日更新节点mffxz623
+  server: shcn2-06b.iplc188.com
+  port: 10006
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.92| US1817  909Mb
+  server: 108.61.220.149
+  port: 4689
+  type: vmess
+  uuid: ac104d92-5809-11ec-a1a3-560003b9b5c2
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /nW5USgje/
+  ws-headers:
+    Host: 108.61.220.149
+- name: 1.88|美國03解鎖NF
+  server: xl.out03.nodeserver.top
+  port: 22011
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out03.nodeserver.top
+- name: 1.87|198220385ws
+  server: 198.2.203.85
+  port: 23659
+  type: vmess
+  uuid: 6e642eca-542e-11ec-ad66-002590d6941c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /nNj0CmuI/
+  ws-headers:
+    Host: 198.2.203.85
+- name: 1.87|RelayCNUS234
   server: 112.33.32.136
   type: vmess
   country: CN
-  port: 10002
+  port: 10004
   uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
   alterId: 1
   cipher: auto
@@ -61,37 +761,234 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.41| AA中继SGNTT03  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19089
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 4.39| RelayHKJP561  555Mb
-  server: tk.shcn2.tkddns.xyz
-  port: 22642
+- name: 1.87| 加拿大01
+  server: xl.out03.nodeserver.top
+  port: 22007
   type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
   alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out03.nodeserver.top
+- name: 1.86|RelayCNKR40  472Mb
+  server: cm-jm.okvpn.xyz
+  type: vmess
+  country: CN
+  port: 20006
+  uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cm-jm.okvpn.xyz
+  ws-headers:
+    HOST: cm-jm.okvpn.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.81|CN16 2752Mb
+  server: 42.157.8.162
+  type: vmess
+  country: CN
+  port: 48106
+  uuid: 3959477e-55c4-453f-bc80-3b13e64891ac
+  alterId: 64
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.80| httpsgitiov9999 圣何塞 ip2 2
+  server: 107.148.200.229
+  port: 64848
+  type: vmess
+  uuid: 01480e32-59ac-11ec-99af-00163c0ad178
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /T6KhszHL/
+  ws-headers:
+    Host: 107.148.200.229
+- name: 1.80| 德國02
+  server: xl.out04.nodeserver.top
+  port: 22002
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out04.nodeserver.top
+- name: 1.77| 德国01 邀请好友可获100返利
+  server: zhuzhu12.com
+  port: 46101
+  type: vmess
+  uuid: aad363b6-e8d7-3fcf-8fcb-ace375844b03
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: zhuzhu12.com
+- name: 1.75| 韩国02 2
+  server: zhuzhu12.com
+  port: 33893
+  type: vmess
+  uuid: f48e28a2-6187-3ff5-a900-084fa313de08
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: zhuzhu12.com
+- name: 1.75|defaultname 4
+  server: 104.17.170.210
+  port: 443
+  type: vmess
+  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
+  alterId: 1
   cipher: auto
   tls: true
   network: ws
-  ws-path: /
+  ws-path: kycc
   ws-headers:
-    Host: zxjp-b.tkong.cc
-- name: 4.31| aJapanDMM
-  server: hygz.q-air.icu
-  port: 18221
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
+    Host: lsb.stupidfellow.cf
+- name: 1.75|RelayUSUS121 3310Mb
+  server: armsj2.kozow.com
+  type: vmess
+  country: US
+  port: 80
+  uuid: 44e0d410-535a-11ec-968f-02001700aa14
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.74|俄羅斯01原生IP
+  server: xl.out04.nodeserver.top
+  port: 22037
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 1
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 4.31| mattkaydiarycom韩国KRKoreaSeoul
-  server: 1031kr.fans8.xyz
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out04.nodeserver.top
+- name: 1.71|JP64  502Mb
+  server: 5.183.177.111
+  type: trojan
+  country: JP
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 1.69|美國04解鎖NF
+  server: xl.out04.nodeserver.top
+  port: 22012
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out04.nodeserver.top
+- name: 1.63|1424105120ws
+  server: 142.4.105.120
+  port: 3045
+  type: vmess
+  uuid: 409ab406-5973-11ec-9b7a-00259056b53c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /Mh67t3b2/
+  ws-headers:
+    Host: 142.4.105.120
+- name: 1.63| 349Mb
+  server: 194.135.32.208
+  port: 32551
+  type: vmess
+  uuid: 9d40aefc-54d9-11ec-af2d-f2c157360b1e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /W9s28k1i/
+  ws-headers:
+    Host: 194.135.32.208
+- name: 1.62| 美国02
+  server: zhuzhu12.com
+  port: 14718
+  type: vmess
+  uuid: aad363b6-e8d7-3fcf-8fcb-ace375844b03
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /zz
+  ws-headers:
+    Host: zhuzhu12.com
+- name: 1.60| httpsgitiov9999 圣何塞 ip2 8
+  server: 107.148.200.229
+  port: 35193
+  type: vmess
+  uuid: f4b15c34-50df-11ec-8c60-00163c0ad178
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /9XCFx8oB/
+  ws-headers:
+    Host: 107.148.200.229
+- name: 1.58| mattkaydiarycom加拿大CACanadaToronto
+  server: fus1.uuv2.co.uk
+  port: 2082
+  type: vmess
+  uuid: 68188cc4-0e87-4da8-cd67-7c6dbcaccf6f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /media/
+  ws-headers:
+    Host: download.jianguoyun.com
+- name: 1.57|俄羅斯02原生IP
+  server: xl.out03.nodeserver.top
+  port: 22038
+  type: vmess
+  uuid: 9c5d67b0-9f20-3cd1-bbfe-9ca118f14811
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /cjl
+  ws-headers:
+    Host: xl.out03.nodeserver.top
+- name: 1.56| 485Mb
+  server: 103.164.81.114
   port: 80
   type: vmess
   uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
@@ -102,47 +999,87 @@ proxies:
   ws-path: /v2ray
   ws-headers:
     Host: t.me/vpnhat
-- name: 4.27| Lv1SGNTT02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19087
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 4.21| AA中继HK香港寬頻HKBN  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19086
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 4.14| AA中继HKLeaseweb03  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19041
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 4.13| AA中继HKHKT01  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19072
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 4.09|RelayZZZZ2007  556Mb
+- name: 1.55|二爷翻墙https1808ga 4
+  server: cn2.futi.online
+  port: 26011
+  type: vmess
+  uuid: c0b2f91e-d429-4aff-88e8-f0f90fd91cf3
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: sgz3.futi.online
+- name: 1.55| httpsgitiov9999 圣何塞 ip2
+  server: 198.200.51.34
+  port: 38201
+  type: vmess
+  uuid: fc5f075e-59ab-11ec-96bd-00163cc87418
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /TJFEVjvO/
+  ws-headers:
+    Host: 198.200.51.34
+- name: 1.49| httpsgitiov9999 圣何塞 ip2 6
+  server: 198.200.51.18
+  port: 27962
+  type: vmess
+  uuid: b660c4a6-50df-11ec-9676-00163caf481c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /jZyaImnU/
+  ws-headers:
+    Host: 198.200.51.18
+- name: 1.45|Relay 1835Mb
+  server: t2.ssrsub.com
+  type: trojan
+  country: RU
+  port: 8443
+  password: 13b36e17-e869-4b77-bf33-e5a431eac496
+  skip-cert-verify: true
+  udp: true
+- name: 1.44| RelayUSRU1836  570Mb
+  server: free-russian01-cdn.xiaohouzi.club
+  port: 443
+  type: vmess
+  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /2993fe/
+  ws-headers:
+    Host: free-russian01-cdn.xiaohouzi.club
+- name: 1.42| httpsgitiov9999 US美国NL荷兰
+  server: v2ray.ifuckgfw.ga
+  port: 8443
+  type: vmess
+  uuid: bed4edbe-50bd-11ec-8a58-52ac0014346a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /nBaG3RmV/
+  ws-headers:
+    Host: v2ray.ifuckgfw.ga
+- name: 1.42| httpsgitiov9999 莫斯科CDN ip4 7
+  server: 104.20.210.106
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.40|RelayZZZZ2007  556Mb
   server: 1116hk.fans8.xyz
   type: vmess
   country: ZZ
@@ -158,36 +1095,256 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.08|RelayCNHK228 1539Mb
-  server: shcn2-06b.iplc188.com
+- name: 1.39| mattkaydiarycom美国USUSAFremont
+  server: c23s801.jamjams.net
+  port: 61173
   type: vmess
-  country: CN
-  port: 10001
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
+  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
+  alterId: 8
   cipher: auto
-  network: tcp
+  tls: false
+- name: 1.38|Relay  416Mb
+  server: free-russian02-cdn.xiaohouzi.club
+  port: 443
+  type: vmess
+  uuid: f84136de-e03e-4b19-abb0-388d5c8614b9
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /0459ac88c41c8f/
+  ws-headers:
+    Host: free-russian02-cdn.xiaohouzi.club
+- name: 1.38| httpsgitiov9999 莫斯科CDN ip4 10
+  server: cf.521024.xyz
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.36| httpsgitiov9999 莫斯科CDN ip1
+  server: 1.1.1.1
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.35| httpsgitiov9999 莫斯科CDN ip1 12
+  server: cf1.521024.xyz
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.32| mattkaydiarycom德国DEGermanyFrankfurt am Main
+  server: nl.52jjyun.top
+  port: 80
+  type: vmess
+  uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5
+  alterId: 10
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /jjyun
+  ws-headers:
+    Host: nl.52jjyun.top
+- name: 1.28| httpsgitiov9999 RU俄罗斯联邦
+  server: 172.67.176.114
+  port: 443
+  type: vmess
+  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /2993fe/
+  ws-headers:
+    Host: free-russian01-cdn.xiaohouzi.club
+- name: 1.28|US126 3309Mb
+  server: 152.70.127.223
+  type: vmess
+  country: US
+  port: 80
+  uuid: 44e0d410-535a-11ec-968f-02001700aa14
+  alterId: 0
+  cipher: auto
+  network: ws
   ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 3.90|RelayHKHK419  396Mb
-  server: 812hk1.fans8.xyz
+- name: 1.28| httpsgitiov9999 圣何塞 ip2 3
+  server: 137.175.30.251
+  port: 16873
   type: vmess
-  country: HK
+  uuid: c150c3c0-50df-11ec-aaf3-00163c1393a8
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /UWNKisZB/
+  ws-headers:
+    Host: 137.175.30.251
+- name: 1.26|Relay 1656Mb
+  server: in.52jjyun.top
   port: 80
+  type: vmess
+  uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5
+  alterId: 10
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /jjyun
+  ws-headers:
+    Host: in.52jjyun.top
+- name: 1.25| mattkaydiarycom中国台湾TWTaiwanNew Taipei
+  server: ruzz.52jjyun.top
+  port: 51232
+  type: vmess
+  uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5
+  alterId: 10
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /jjyun
+  ws-headers:
+    Host: ruzz.52jjyun.top
+- name: 1.21| httpsgitiov9999 莫斯科CDN ip1 3
+  server: 172.64.88.97
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.20| 767Mb
+  server: 137.175.30.251
+  port: 111
+  type: vmess
+  uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.18|Relay 1896Mb
+  server: c23s3.jamjams.net
+  port: 61173
+  type: vmess
+  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
+  alterId: 8
+  cipher: auto
+  tls: false
+- name: 1.18|GB70 3058Mb
+  server: 45.91.83.111
+  type: vmess
+  country: GB
+  port: 13723
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
+  alterId: 10
+  cipher: auto
+  network: ws
+  ws-path: ray
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.16| httpsgitiov9999 KR韩国
+  server: kr3.futi.online
+  port: 2053
+  type: vmess
+  uuid: c0b2f91e-d429-4aff-88e8-f0f90fd91cf3
+  alterId: 1
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: kr3.futi.online
+- name: 1.14|RelayGBGB535 1047Mb
+  server: ukml.52jjyun.top
+  port: 88
+  type: vmess
+  uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5
+  alterId: 10
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /jjyun
+  ws-headers:
+    Host: ukml.52jjyun.top
+- name: 1.13|httpsgitiov9999 US美国60
+  server: 142.4.127.67
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/310910211916
+  ws-headers:
+    Host: www.47727450.xyz
+- name: 1.10|mattkaydiarycom
+  server: 1116yn.fans8.xyz
+  port: 80
+  type: vmess
   uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
   alterId: 2
   cipher: auto
+  tls: false
   network: ws
   ws-path: /v2ray
-  servername: t.me/vpnhat
   ws-headers:
-    HOST: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
+    Host: t.me/vpnhat
+- name: 1.08|NL206
+  server: 185.171.120.144
+  type: trojan
+  country: NL
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
-- name: 3.89|HK103 2302Mb
+  udp: true
+- name: 1.05| HKT转江门127
+  server: sl201.jdxx.xyz
+  port: 35001
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 147:RlDn8I
+  obfs-param: d1efa147.microsoft.com
+- name: 1.04|wwwimlamcom提供节点 19
+  server: 185.252.223.202
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/243535322906
+  ws-headers:
+    Host: www.16675463.xyz
+- name: 1.02|HK103 2302Mb
   server: 103.138.75.235
   type: vmess
   country: HK
@@ -204,1444 +1361,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 3.88|mattkaydiarycom
-  server: 1116yn.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 3.87|mattkaydiarycom
-  server: 112.33.32.148
-  port: 10003
-  type: vmess
-  uuid: 00231314-0d96-4dfc-bac8-cb52a989fd10
-  alterId: 1
-  cipher: auto
-  tls: false
-- name: 3.80|SG193
-  server: 81.90.189.85
-  type: trojan
-  country: SG
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 3.76| AA中继HKLeaseweb02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19026
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.76| AA中继JPIndigo01  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19081
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.72| 中国日本 多协议标签交换虚拟专用网 A2 1000Mbps
-  server: hr02.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.70| AA中继DELinode  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19082
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.66| AA中继JPSakura04  18348
-  server: cdn-cn.nekocloud.cn
-  port: 10005
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.65| AA中继JPLinode02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19075
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.62|Jsnzkmffxz频道节点 禁转载3
-  server: 112.33.32.136
-  port: 10001
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.62| 中国日本 沪日IEPL传输 EquinixTY8 A09 Netflix
-  server: jp09.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.58| AA中继JPLinode03  18348
-  server: cdn-cn.nekocloud.cn
-  port: 10003
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.56| AA中继HKNTT02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19004
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.53| 日本 ソフトバンク A04 500Mbps 1x Netflix
-  server: jp16.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.49| Lv1JPLinode02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19006
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.41| AA中继JPSakura03  18348
-  server: cdn-cn.nekocloud.cn
-  port: 10004
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.37| AA中继JPNTT02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19052
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.26| AA中继TW中華電信03  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19066
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.25| bJapanNetflix
-  server: hygz.q-air.icu
-  port: 18201
-  type: vmess
-  uuid: d485205a-abc6-3940-8f89-faf533b0b001
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: np
-  ws-headers:
-    Host: dvm-jp1.q-air.icu
-- name: 3.24| AA中继HKHGC011Gbps  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19093
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.24|RelayZZZZ2006 2465Mb
-  server: hkf1.dior.bar
-  type: vmess
-  country: ZZ
-  port: 80
-  uuid: 579934ab-0b50-4e7f-b3c5-3923bbbaf41f
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.18| mattkaydiarycom菲律宾PHPhilippinesManila
-  server: 930tg.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 3.16| 中国日本 多协议标签交换虚拟专用网 A3 1000Mbps
-  server: hr03.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.10| Lv1JPSakura03  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19019
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.06| 日本 まつやまし auひかり ホーム1ギガ A 07
-  server: jpid07.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 3.02| RelayHKHK572 4776Mb
-  server: cmhk04.xc188.net
-  port: 443
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /clientarea
-  ws-headers:
-    Host: cmhk04.xc188.net
-- alterId: 1
-  cipher: auto
-  name: 3.02|1129oslook中国香港中国台湾CNChinaShanghai可能是中转节点5
-  network: tcp
-  port: 10004
-  server: 139.227.161.129
-  tls: false
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  ws-headers:
-    Host: t.me/vpnpool
-  ws-path: /
-- name: 3.00| Lv1JPLinode01  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19005
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 2.93| 中国日本 沪日IEPL传输 EquinixTY8 A01 Netflix
-  server: jp01.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.93| AA中继HK打機神線02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19001
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 2.93|PoolSG772 1061Mb
-  server: 202.61.141.194
-  type: vmess
-  country: SG
-  port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  network: ws
-  ws-path: /ws
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.92| Lv1JPSakura01  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19022
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 2.87|RelayCNUS40  954Mb
-  server: 112.33.32.136
-  type: vmess
-  country: CN
-  port: 10005
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.87| 日本日本大阪 オプテージ A 08
-  server: jpaz08.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.87| 日本 まつやまし auひかり ホーム1ギガ A 04
-  server: jpid04.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.84| mattkaydiarycom中国香港中国台湾CNChinaHefei小东的程序未能精准识别可能是中转节点
-  server: 112.33.32.136
-  port: 10003
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-- name: 2.81| 中国日本 多协议标签交换虚拟专用网 A10 1000Mbps
-  server: hr10.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.80| b美西首选
-  server: hygz.q-air.icu
-  port: 18421
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
-  skip-cert-verify: false
-- name: 2.74|AU22
-  server: 43.155.75.170
-  type: vmess
-  country: AU
-  port: 80
-  uuid: 76329684-c5d2-4cf7-fcf5-06ad79a6aab3
-  alterId: 64
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: www.microsoft.com
-  ws-headers:
-    HOST: www.microsoft.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.72| 中国日本 多协议标签交换虚拟专用网 A6 1000Mbps
-  server: hr06.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.71| Lv1SGDO  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19031
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 2.71| 每日更新节点mffxz234
-  server: shcu01.iplc188.com
-  port: 10004
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 2.65|5209Mb
-  server: 172.104.98.216
-  port: 80
-  type: vmess
-  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
-  alterId: 64
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: www.gov.hk
-- name: 2.59| 中国日本 多协议标签交换虚拟专用网 A7 1000Mbps
-  server: hr07.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.59| 美国02
-  server: zhuzhu12.com
-  port: 14718
-  type: vmess
-  uuid: aad363b6-e8d7-3fcf-8fcb-ace375844b03
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: zhuzhu12.com
-- name: 2.55|Relay 2582Mb
-  server: 120.232.173.88
-  port: 45319
-  type: vmess
-  uuid: 310948de-6c49-36f3-990e-2048adea5ab0
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /inde
-  ws-headers:
-    Host: 120.232.173.88
-- name: 2.52| 中国日本 沪日IEPL传输 EquinixTY8 A04 Netflix
-  server: jp04.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.45|Relay  839Mb
-  server: jp11.holiganfan.com
-  type: trojan
-  country: JP
-  port: 10088
-  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
-  skip-cert-verify: true
-  udp: true
-- name: 2.44|RelayCACA206  968Mb
-  server: 1030tw.fans8.xyz
-  type: vmess
-  country: CA
-  port: 80
-  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: t.me/vpnhat
-  ws-headers:
-    HOST: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.34| 日本 まつやまし auひかり ホーム1ギガ A 03
-  server: jpid03.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.26| 日本日本大阪 オプテージ A 01
-  server: jpaz01.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 2.21| Lv1SGLinode02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19056
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 2.19| AA中继HK打機神線01  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19039
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 2.14|RelayZZZZ2009 2714Mb
-  server: 1023sg.fans8.xyz
-  type: vmess
-  country: ZZ
-  port: 80
-  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: t.me/vpnhat
-  ws-headers:
-    HOST: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.11| Lv1JPSakura02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19017
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 2.06|198220385ws
-  server: 198.2.203.85
-  port: 23659
-  type: vmess
-  uuid: 6e642eca-542e-11ec-ad66-002590d6941c
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /nNj0CmuI/
-  ws-headers:
-    Host: 198.2.203.85
-- name: 2.06| Lv1JPVultr01  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19020
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 2.05|Relay 1656Mb
-  server: in.52jjyun.top
-  port: 80
-  type: vmess
-  uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5
-  alterId: 10
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: in.52jjyun.top
-- name: 2.02|RelayCNUS233  980Mb
-  server: shcn2-06b.iplc188.com
-  type: vmess
-  country: CN
-  port: 10002
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.98| HK568 2409Mb
-  server: 161.81.195.100
-  port: 443
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /clientarea
-  ws-headers:
-    Host: cmhk04.xc188.net
-- name: 1.93| 广州移动SeoulEC2nfvpnpool
-  server: 183.232.226.188
-  port: 63008
-  type: vmess
-  uuid: 329b6b96-5c75-3670-b3b7-eb2ad8c8667a
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /vvv
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 1.87| mattkaydiarycom中国香港特别行政区HKHongkong SAR ChinaHong Kong
-  server: 715hk.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 1.87| Lv1SGAws  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19058
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 1.84|RelayUSUS121 3310Mb
-  server: armsj2.kozow.com
-  type: vmess
-  country: US
-  port: 80
-  uuid: 44e0d410-535a-11ec-968f-02001700aa14
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.84|1006Mb
-  server: 216.24.176.33
-  port: 61173
-  type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-  alterId: 8
-  cipher: auto
-  tls: false
-- name: 1.76|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.70|YouTube由零开始 2
-  server: sxqxj.cn
-  port: 2164
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: sxqxj.cn
-- name: 1.65| US1808  540Mb
-  server: 143.244.185.97
-  port: 4216
-  type: vmess
-  uuid: 7277f857-33f4-3b9a-afcc-3ee864fa833e
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /ia35
-  ws-headers:
-    Host: 143.244.185.97
-- name: 1.64| 日本 ソフトバンク A05 500Mbps 1x Netflix
-  server: jp17.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 1.62|2134Mb
-  server: 23.83.227.114
-  port: 61173
-  type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-  alterId: 8
-  cipher: auto
-  tls: false
-- name: 1.56|RO170
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.56| FREEV2rayUSB 倍率1
-  server: 173.82.68.79
-  port: 443
-  type: vmess
-  uuid: f47bb3d4-37dd-44ee-a7ee-1c485a0e2b90
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /imqiCqUHsp
-  ws-headers:
-    Host: us.rn.1-1.5599.buzz
-- name: 1.55| httpsgitiov9999 莫斯科CDN ip1
-  server: 1.1.1.1
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.54|  770Mb
-  server: 5.183.179.138
-  type: trojan
-  country: DE
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.53|Relay 1896Mb
-  server: c23s3.jamjams.net
-  port: 61173
-  type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-  alterId: 8
-  cipher: auto
-  tls: false
-- name: 1.51|CN16 2752Mb
-  server: 42.157.8.162
-  type: vmess
-  country: CN
-  port: 48106
-  uuid: 3959477e-55c4-453f-bc80-3b13e64891ac
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.50|US126 3309Mb
-  server: 152.70.127.223
-  type: vmess
-  country: US
-  port: 80
-  uuid: 44e0d410-535a-11ec-968f-02001700aa14
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.46| mattkaydiarycom德国DEGermanyFrankfurt am Main
-  server: nl.52jjyun.top
-  port: 80
-  type: vmess
-  uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5
-  alterId: 10
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: nl.52jjyun.top
-- name: 1.46| mattkaydiarycom美国USUSASanta Clara
-  server: usjjs.52jjyun.top
-  port: 80
-  type: vmess
-  uuid: eec50f48-ae15-46fb-8e4f-9b0e10ab1bea
-  alterId: 10
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: usjjs.52jjyun.top
-- name: 1.43|RelayRU762  982Mb
-  server: t3.ssrsub.com
-  type: trojan
-  country: RU
-  port: 8443
-  password: 1b89d065-8640-4010-a80e-dc0c46a72aaf
-  skip-cert-verify: true
-  udp: true
-- name: 1.43| httpsgitiov9999 US美国NL荷兰
-  server: v2ray.ifuckgfw.ga
-  port: 8443
-  type: vmess
-  uuid: bed4edbe-50bd-11ec-8a58-52ac0014346a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /nBaG3RmV/
-  ws-headers:
-    Host: v2ray.ifuckgfw.ga
-- name: 1.40| httpsgitiov9999 莫斯科CDN ip1 3
-  server: 172.64.88.97
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.35| 1064Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.34|US1783 1081Mb
-  server: domeixi.nbczl233.ml
-  type: vmess
-  country: US
-  port: 44036
-  uuid: 586782d0-3568-4b5b-ff5e-9291906ad6a1
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /1145141919
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.33| httpsgitiov9999 莫斯科CDN ip1 12
-  server: cf1.521024.xyz
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.32| httpsgitiov9999 RU俄罗斯联邦22
-  server: free-russian-cdn.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: e64c6f7c-48eb-4852-9b29-778faef14212
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /319285eb2d/
-  ws-headers:
-    Host: free-russian-cdn.xiaohouzi.club
-- name: 1.31|JP64  502Mb
-  server: 5.183.177.111
-  type: trojan
-  country: JP
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.29|RelayGBGB535 1047Mb
-  server: ukml.52jjyun.top
-  port: 88
-  type: vmess
-  uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5
-  alterId: 10
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: ukml.52jjyun.top
-- name: 1.27| mattkaydiarycom德国DEGermanyFrankfurt am Main
-  server: de.52jjyun.top
-  port: 80
-  type: vmess
-  uuid: eec50f48-ae15-46fb-8e4f-9b0e10ab1bea
-  alterId: 10
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: de.52jjyun.top
-- name: 1.23| httpsgitiov9999 圣何塞 ip2 8
-  server: 107.148.200.229
-  port: 35193
-  type: vmess
-  uuid: f4b15c34-50df-11ec-8c60-00163c0ad178
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /9XCFx8oB/
-  ws-headers:
-    Host: 107.148.200.229
-- name: 1.22| 日本日本大阪 オプテージ A 04
-  server: jpaz04.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 1.21|2477Mb
-  server: 147.182.249.191
-  port: 44036
-  type: vmess
-  uuid: 586782d0-3568-4b5b-ff5e-9291906ad6a1
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /1145141919
-  ws-headers:
-    Host: domeixi.nbczl233.ml
-- name: 1.21| RU813  630Mb
-  server: 45.89.228.53
-  port: 443
-  type: vmess
-  uuid: e64c6f7c-48eb-4852-9b29-778faef14212
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /319285eb2d/
-  ws-headers:
-    Host: free-russian-cdn.xiaohouzi.club
-- name: 1.19| 349Mb
-  server: 194.135.32.208
-  port: 32551
-  type: vmess
-  uuid: 9d40aefc-54d9-11ec-af2d-f2c157360b1e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /W9s28k1i/
-  ws-headers:
-    Host: 194.135.32.208
-- name: 1.15| US1817  909Mb
-  server: 108.61.220.149
-  port: 4689
-  type: vmess
-  uuid: ac104d92-5809-11ec-a1a3-560003b9b5c2
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /nW5USgje/
-  ws-headers:
-    Host: 108.61.220.149
-- name: 1.14|NL206
-  server: 185.171.120.144
-  type: trojan
-  country: NL
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.07|wwwimlamcom提供节点 19
-  server: 185.252.223.202
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /path/243535322906
-  ws-headers:
-    Host: www.16675463.xyz
-- name: 1.05| RelayUSRU1799  947Mb
-  server: ru.52jjyun.top
-  port: 80
-  type: vmess
-  uuid: eec50f48-ae15-46fb-8e4f-9b0e10ab1bea
-  alterId: 10
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: ru.52jjyun.top
-- name: 1.04|RelayCNUS236  759Mb
-  server: shcn2-06b.iplc188.com
-  type: vmess
-  country: CN
-  port: 10004
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.00|Relay  531Mb
-  server: dgyh.jjyun.ren
-  port: 80
-  type: vmess
-  uuid: eec50f48-ae15-46fb-8e4f-9b0e10ab1bea
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: dgyh.jjyun.ren
-- name: 1.00|CN282  087Mb
-  server: 117.28.243.132
-  type: ssr
-  country: CN
-  port: 8333
-  password: passfw2xs4e!
-  cipher: rc4-md5
-  protocol: origin
-  obfs: plain
-- name: 1.00|Relay 3995Mb
-  server: azsg.52jjyun.top
-  port: 88
-  type: vmess
-  uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5
-  alterId: 10
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: azsg.52jjyun.top
-- name: 0.97|Relay  416Mb
-  server: free-russian02-cdn.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: f84136de-e03e-4b19-abb0-388d5c8614b9
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /0459ac88c41c8f/
-  ws-headers:
-    Host: free-russian02-cdn.xiaohouzi.club
-- name: 0.96| RelayUSRU1836  570Mb
-  server: free-russian01-cdn.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /2993fe/
-  ws-headers:
-    Host: free-russian01-cdn.xiaohouzi.club
-- name: 0.96| 中国日本 沪日IEPL传输 EquinixTY8 A08 Netflix
-  server: jp08.serenazuma.com
-  port: 11764
-  type: ssr
-  cipher: rc4-md5
-  password: MwEWb0
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: download.windowsupdate.com
-- name: 0.95| httpsgitiov9999 圣何塞 ip2 6
-  server: 198.200.51.18
-  port: 27962
-  type: vmess
-  uuid: b660c4a6-50df-11ec-9676-00163caf481c
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jZyaImnU/
-  ws-headers:
-    Host: 198.200.51.18
-- name: 0.93| mattkaydiarycom美国USUSADallas
-  server: usdsl.52jjyun.top
-  port: 80
-  type: vmess
-  uuid: 33241b39-b5a4-4aa7-af64-b7f7cd4c50c5
-  alterId: 10
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jjyun
-  ws-headers:
-    Host: usdsl.52jjyun.top
-- name: 0.89| 德国01 邀请好友可获100返利
-  server: zhuzhu12.com
-  port: 46101
-  type: vmess
-  uuid: aad363b6-e8d7-3fcf-8fcb-ace375844b03
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: zhuzhu12.com
-- name: 0.88|RelaySGSG777  968Mb
-  server: jp-tokyo-node2.ycgyg.com
-  type: vmess
-  country: SG
-  port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  network: ws
-  ws-path: /ws
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.87| httpsgitiov9999 圣何塞 ip2
-  server: 198.200.51.34
-  port: 25119
-  type: vmess
-  uuid: 8362c536-50df-11ec-861e-00163cc87418
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /k5LKHPOs/
-  ws-headers:
-    Host: 198.200.51.34
-- name: 0.73| httpsgitiov9999 US美国 12
-  server: 192.96.204.250
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: usa-washington.lvuft.com
-- name: 0.73| US1830  593Mb
-  server: 107.148.200.229
-  port: 10022
-  type: vmess
-  uuid: 6e6ce89a-42d5-11ec-ac9d-00163c0ad178
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 0.72| httpsgitiov9999 莫斯科CDN ip1 4
-  server: 172.67.85.124
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 0.66|Relay 1814Mb
-  server: t5.ssrsub.com
-  type: trojan
-  country: CA
-  port: 8443
-  password: 1b89d065-8640-4010-a80e-dc0c46a72aaf
-  skip-cert-verify: true
-  udp: true
-- name: 0.56|RelayRURU628  415Mb
-  server: t7.ssrsub.com
-  type: trojan
-  country: RU
-  port: 8443
-  password: 0e13b5a9-cb62-44cd-b28e-47f137624694
-  skip-cert-verify: true
-  udp: true
-- name: 0.55|httpsgitiov9999 US美国60
-  server: 142.4.127.67
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /path/310910211916
-  ws-headers:
-    Host: www.47727450.xyz
-- name: 0.53|Relay 1296Mb
-  server: ycgyg.com
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: ycgyg.com
-- name: 0.50|RelayCNUS34 2052Mb
-  server: 139.227.161.129
-  type: vmess
-  country: CN
-  port: 10001
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.50| httpsgitiov9999 洛杉矶ws ip3
-  server: 45.66.159.74
-  port: 18412
-  type: vmess
-  uuid: 2d23bc58-5110-11ec-a4b9-00163cbed88a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /5znKiuaW/
-  ws-headers:
-    Host: 45.66.159.74
-- name: 0.49| httpsgitiov9999 洛杉矶ws ip3 3
-  server: 45.66.159.74
-  port: 45643
-  type: vmess
-  uuid: 365691ba-5110-11ec-a4b9-00163cbed88a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /b72MS9Wp/
-  ws-headers:
-    Host: 45.66.159.74
-- name: 0.48| d法国
-  server: hygz.q-air.icu
-  port: 18710
-  type: vmess
-  uuid: d485205a-abc6-3940-8f89-faf533b0b001
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /np
-  ws-headers:
-    Host: vu-fra1-v2.q-air.icu
-- name: 0.48| httpsgitiov9999 圣何塞 ip2 9
-  server: 192.74.254.112
-  port: 52244
-  type: vmess
-  uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /E0Y46mSw/
-  ws-headers:
-    Host: 192.74.254.112
-- name: 0.48|RelayUSUS122 2757Mb
-  server: sg.idvpn.me
-  type: vmess
-  country: US
-  port: 8443
-  uuid: c74e2d99-6fbd-4e87-dc25-c05348571ef1
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: HTTPS://T.ME/NGE_GASSS•HTTPS://T.ME/DUNIAVPN
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.47| 每日更新节点mffxz623
-  server: shcn2-06b.iplc188.com
-  port: 10006
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 0.40|Relay 3668Mb
-  server: sg3.futi.online
-  port: 2053
-  type: vmess
-  uuid: c0b2f91e-d429-4aff-88e8-f0f90fd91cf3
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: sg3.futi.online
-- name: 0.39|SG96 1070Mb
-  server: 8.214.46.152
-  type: vmess
-  country: SG
-  port: 50885
-  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: 8.214.46.152
-  ws-headers:
-    HOST: 8.214.46.152
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 0.39| httpsgitiov9999 US美国 14
-  server: usa-miami.lvuft.com
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: usa-miami.lvuft.com
-- name: 0.39|RelayCARU216
-  server: t6.ssrsub.com
-  type: trojan
-  country: CA
-  port: 8443
-  password: 1b89d065-8640-4010-a80e-dc0c46a72aaf
-  skip-cert-verify: true
-  udp: true
-- name: 0.37|GB70 3058Mb
-  server: 45.91.83.111
-  type: vmess
-  country: GB
-  port: 13723
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8634
-  alterId: 10
-  cipher: auto
-  network: ws
-  ws-path: ray
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.36|PoolSG150  652Mb
-  server: 202.61.141.130
-  type: vmess
-  country: SG
-  port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  network: ws
-  ws-path: /ws
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 0.36|PoolUS132 4131Mb
+- name: 1.01|PoolUS132 4131Mb
   server: 45.35.84.162
   type: vmess
   country: US
@@ -1658,19 +1378,46 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.31| RelayHKKR439
-  server: 156.234.95.72
-  port: 443
+- name: 0.98|RelayZZZZ2006 2465Mb
+  server: hkf1.dior.bar
   type: vmess
+  country: ZZ
+  port: 80
+  uuid: 579934ab-0b50-4e7f-b3c5-3923bbbaf41f
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.97|RelaySGSG777  968Mb
+  server: jp-tokyo-node2.ycgyg.com
+  type: vmess
+  country: SG
+  port: 443
   uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
   alterId: 4
   cipher: auto
-  tls: true
   network: ws
   ws-path: /ws
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.97| mattkaydiarycom韩国KRKoreaSeoul
+  server: 1031kr.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
   ws-headers:
-    Host: xe3rayu3.com
-- name: 0.29| httpsgitiov9999 US美国 3
+    Host: t.me/vpnhat
+- name: 0.96| httpsgitiov9999 US美国 3
   server: us1nhg-node.aiqiche123.com
   port: 13723
   type: vmess
@@ -1682,3 +1429,449 @@ proxies:
   ws-path: ray
   ws-headers:
     Host: us1nhg-node.aiqiche123.com
+- name: 0.95|4566159219ws
+  server: 45.66.159.219
+  port: 31770
+  type: vmess
+  uuid: 210ee1f4-5971-11ec-9c20-00163c7d48d3
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 45.66.159.219
+- name: 0.94| 广州俄罗斯 JUST丨半解锁丨A1
+  server: gzydddns.xyz
+  port: 22848
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3429:EerIYb
+  obfs-param: f7cb53429.microsoft.com
+- name: 0.94| US1845  590Mb
+  server: 107.148.200.123
+  port: 30033
+  type: vmess
+  uuid: e85a81e0-12a0-11ec-bc90-00163c1b189e
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 0.92|httpsgitiov9999 defaultname 2
+  server: 104.21.62.193
+  port: 443
+  type: vmess
+  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /2993fe/
+  ws-headers:
+    Host: free-russian01-cdn.xiaohouzi.club
+- name: 0.92| httpsgitiov9999 莫斯科CDN ip1 4
+  server: 172.67.85.124
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 0.91| httpsgitiov9999 AU澳大利亚
+  server: Ze9baeS5.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: Ze9baeS5.com
+- name: 0.91| httpsgitiov9999 圣何塞 ip2 6
+  server: 107.148.200.123
+  port: 23370
+  type: vmess
+  uuid: 938eb42e-50df-11ec-8129-00163c1b189e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /SZF3TKj8/
+  ws-headers:
+    Host: 107.148.200.123
+- name: 0.90|AZ转移动0127
+  server: sl201.jdxx.xyz
+  port: 25985
+  type: ssr
+  cipher: chacha20-ietf
+  password: MaOKEa
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 147:RlDn8I
+  obfs-param: d1efa147.microsoft.com
+- name: 0.81| 香港04测试
+  server: 42.157.196.104
+  port: 20469
+  type: ssr
+  cipher: aes-256-cfb
+  password: CWSZscLkjf
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 267896:05wVUb7Gm4
+  obfs-param: ''
+- name: 0.79| 广州日本 DMIT丨全解锁丨A4 2
+  server: gzydddns.xyz
+  port: 11803
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3429:EerIYb
+  obfs-param: f7cb53429.microsoft.com
+- name: 0.78| httpsgitiov9999 莫斯科CDN ip4 3
+  server: 104.27.17.236
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 0.78| 广州美国 DMIT丨全解锁丨A1
+  server: gzydddns.xyz
+  port: 11805
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 2489:xnf3AY
+  obfs-param: 699512489.microsoft.com
+- name: 0.77|Relay  793Mb
+  server: v3.ssrsub.com
+  port: 8443
+  type: vmess
+  uuid: e795f820-9391-4a9d-bfaf-b5329386f82f
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v3.ssrsub.com
+- name: 0.75| 1064Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.59| 每日更新节点mffxz234
+  server: shcu01.iplc188.com
+  port: 10004
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 0.55|RelayUSUS122 2757Mb
+  server: sg.idvpn.me
+  type: vmess
+  country: US
+  port: 8443
+  uuid: c74e2d99-6fbd-4e87-dc25-c05348571ef1
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: HTTPS://T.ME/NGE_GASSS•HTTPS://T.ME/DUNIAVPN
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.51| httpsgitiov9999 洛杉矶ws ip6 4
+  server: 45.66.159.5
+  port: 13493
+  type: vmess
+  uuid: 5b566db6-596f-11ec-888d-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /nyk8rsw0/
+  ws-headers:
+    Host: 45.66.159.5
+- name: 0.51| httpsgitiov9999 洛杉矶ws ip6 2
+  server: 45.66.159.5
+  port: 38376
+  type: vmess
+  uuid: 50db7a0c-596f-11ec-953d-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /MrtglvdI/
+  ws-headers:
+    Host: 45.66.159.5
+- name: 0.51| httpsgitiov9999 洛杉矶ws ip6 3
+  server: 45.66.159.5
+  port: 64701
+  type: vmess
+  uuid: 55285f1c-596f-11ec-953d-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /f6mpeuC3/
+  ws-headers:
+    Host: 45.66.159.5
+- name: 0.51| httpsgitiov9999 洛杉矶ws ip3 5
+  server: 45.66.159.74
+  port: 55076
+  type: vmess
+  uuid: 7ba51e64-596f-11ec-8b49-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /k2ZzCU0a/
+  ws-headers:
+    Host: 45.66.159.74
+- name: 0.51| httpsgitiov9999 洛杉矶ws ip3 2
+  server: 45.66.159.74
+  port: 58116
+  type: vmess
+  uuid: 7088df5c-596f-11ec-8b49-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /BTegUxya/
+  ws-headers:
+    Host: 45.66.159.74
+- name: 0.50| httpsgitiov9999 洛杉矶ws ip3
+  server: 45.66.159.74
+  port: 21890
+  type: vmess
+  uuid: 3a345af6-5110-11ec-a4b9-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /5KHI4riw/
+  ws-headers:
+    Host: 45.66.159.74
+- name: 0.49| httpsgitiov9999 洛杉矶ws ip3 4
+  server: 45.66.159.74
+  port: 22453
+  type: vmess
+  uuid: 782859d6-596f-11ec-8b49-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /iX0AZ4mq/
+  ws-headers:
+    Host: 45.66.159.74
+- name: 0.48| httpsgitiov9999 圣何塞 ip2 9
+  server: 192.74.254.112
+  port: 52244
+  type: vmess
+  uuid: 015c0894-50e0-11ec-a3e8-00163c57bd9a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /E0Y46mSw/
+  ws-headers:
+    Host: 192.74.254.112
+- name: 0.47|Relay  839Mb
+  server: jp11.holiganfan.com
+  type: trojan
+  country: JP
+  port: 10088
+  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
+  skip-cert-verify: true
+  udp: true
+- name: 0.44|RelayININ94 3426Mb
+  server: aicoo6du.com
+  type: vmess
+  country: IN
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: aicoo6du.com
+  ws-headers:
+    HOST: aicoo6du.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.43| 356Mb
+  server: 188.119.64.210
+  port: 51618
+  type: vmess
+  uuid: e6a974d0-1991-4a77-b8f6-c2782a7e7ab0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 188.119.64.210
+- name: 0.42|GB408
+  server: 109.74.194.189
+  type: trojan
+  country: GB
+  port: 1443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 0.42| RelayHKJP561  555Mb
+  server: tk.shcn2.tkddns.xyz
+  port: 22642
+  type: vmess
+  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: zxjp-b.tkong.cc
+- name: 0.42| 330Mb
+  server: 194.87.106.166
+  port: 49503
+  type: vmess
+  uuid: 5c83be88-59af-11ec-9072-86f4115e4f9f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /QNDLZ613/
+  ws-headers:
+    Host: 194.87.106.166
+- name: 0.41|Relay 1296Mb
+  server: ycgyg.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: ycgyg.com
+- name: 0.41|Relay 1045Mb
+  server: germany-dusseldorf.mah3Hoet.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: germany-dusseldorf.mah3Hoet.com
+- name: 0.40|CN282  087Mb
+  server: 117.28.243.132
+  type: ssr
+  country: CN
+  port: 8333
+  password: passfw2xs4e!
+  cipher: rc4-md5
+  protocol: origin
+  obfs: plain
+- name: 0.36| httpsgitiov9999 US美国 13
+  server: usa-dallas.lvuft.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-dallas.lvuft.com
+- name: 0.36|PoolSG772 1061Mb
+  server: 202.61.141.194
+  type: vmess
+  country: SG
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 0.34|RelayCNKR39  895Mb
+  server: cu-cs.okvpn.xyz
+  type: vmess
+  country: CN
+  port: 30022
+  uuid: 68ca9017-b58a-4a80-bb1d-47a0f4f682e4
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: cu-cs.okvpn.xyz
+  ws-headers:
+    HOST: cu-cs.okvpn.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.33| httpsgitiov9999 US美国 15
+  server: 192.186.129.66
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-buffalo.lvuft.com
+- name: 0.31|Relay  706Mb
+  server: 146.0.42.87
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: germany-dusseldorf.mah3Hoet.com
+- name: 0.30|Jsnzkmffxz频道节点 禁转载3
+  server: 112.33.32.136
+  port: 10001
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false

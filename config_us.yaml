@@ -1,5 +1,5 @@
 proxies:
-- name: 1.76|trojan
+- name: 2.13|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -8,7 +8,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.31|JP64  502Mb
+- name: 1.71|JP64  502Mb
   server: 5.183.177.111
   type: trojan
   country: JP
@@ -16,3 +16,13 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
+- name: 0.78| 广州美国 DMIT丨全解锁丨A1
+  server: gzydddns.xyz
+  port: 11805
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 2489:xnf3AY
+  obfs-param: 699512489.microsoft.com
