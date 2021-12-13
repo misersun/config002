@@ -1,25 +1,5 @@
 proxies:
-- name: 6.59| 香港 03 测试
-  server: 42.157.196.103
-  port: 10049
-  type: ssr
-  cipher: rc4-md5
-  password: Yk4UdrOyQg
-  protocol: auth_aes128_md5
-  obfs: http_post
-  protocol-param: 267054:8ELiYjJ7tU
-  obfs-param: ''
-- name: 6.09| 上海CN2 香港 HKT丨全解锁丨A1
-  server: sh.shcuddns.xyz
-  port: 11421
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2489:xnf3AY
-  obfs-param: 699512489.microsoft.com
-- name: 6.05|RO647
+- name: 6.13|RO647
   server: 62.216.92.180
   type: trojan
   country: RO
@@ -27,17 +7,9 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 5.94|RO653
-  server: 62.216.92.179
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 5.37| AA中继HK打機神線02  18348
+- name: 6.05| AA中继HKHKT01  18348
   server: cdn-cn.nekocloud.cn
-  port: 19001
+  port: 19072
   type: ssr
   cipher: aes-128-cfb
   password: qwQm0B
@@ -45,306 +17,7 @@ proxies:
   obfs: plain
   protocol-param: 129134:cxCjTt
   obfs-param: f5df6129134.wns.windows.com
-- name: 5.11| AA中继HKNTT02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19004
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 4.81| 日本移动隧道227
-  server: sl201.jdxx.xyz
-  port: 26387
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 147:RlDn8I
-  obfs-param: d1efa147.microsoft.com
-- name: 4.64| Lv1JPLinode02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19006
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 4.54|AZ转移动0127
-  server: sl201.jdxx.xyz
-  port: 25985
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 147:RlDn8I
-  obfs-param: d1efa147.microsoft.com
-- name: 4.49| AA中继HK打機神線01  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19039
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 4.44| HKT转江门127
-  server: sl201.jdxx.xyz
-  port: 35001
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 147:RlDn8I
-  obfs-param: d1efa147.microsoft.com
-- name: 4.21| 广州新加坡 NeroCloud丨全解锁丨A2 2
-  server: gzydddns.xyz
-  port: 11846
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 3429:EerIYb
-  obfs-param: f7cb53429.microsoft.com
-- name: 4.04| 日本移动隧道427
-  server: sl201.jdxx.xyz
-  port: 26389
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 147:RlDn8I
-  obfs-param: d1efa147.microsoft.com
-- name: 4.03|国内中专327
-  server: tz-yd01.jdxx.xyz
-  port: 35006
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 147:RlDn8I
-  obfs-param: d1efa147.microsoft.com
-- name: 3.95| AA中继JPNTT02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19052
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.76| 上海CN2 新加坡 NeroCloud丨全解锁丨A1
-  server: sh.shcuddns.xyz
-  port: 11422
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2489:xnf3AY
-  obfs-param: 699512489.microsoft.com
-- name: 3.70| AA中继JPSakura04  18348
-  server: cdn-cn.nekocloud.cn
-  port: 10005
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.60| HKT转江门327
-  server: sl201.jdxx.xyz
-  port: 35003
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 147:RlDn8I
-  obfs-param: d1efa147.microsoft.com
-- name: 3.33| 广州新加坡 NeroCloud丨全解锁丨A3 2
-  server: gzydddns.xyz
-  port: 11841
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 3429:EerIYb
-  obfs-param: f7cb53429.microsoft.com
-- name: 3.33| 广州日本 DMIT丨全解锁丨A3 2
-  server: gzydddns.xyz
-  port: 11812
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 3429:EerIYb
-  obfs-param: f7cb53429.microsoft.com
-- name: 3.20| 广州日本 DMIT丨全解锁丨A4 2
-  server: gzydddns.xyz
-  port: 11803
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 3429:EerIYb
-  obfs-param: f7cb53429.microsoft.com
-- name: 3.20| AA中继HKLeaseweb03  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19041
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.04| Lv1JPSakura01  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19022
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.03| 上海CN2 台湾 HiNet丨全解锁丨A1
-  server: sh.shcuddns.xyz
-  port: 11428
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2489:xnf3AY
-  obfs-param: 699512489.microsoft.com
-- name: 3.02| AA中继HKHGC021Gbps  18348
-  server: cdn-cn.nekocloud.cn
-  port: 18996
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 3.00| 广州新加坡 NeroCloud丨全解锁丨A1
-  server: gzydddns.xyz
-  port: 11807
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 3429:EerIYb
-  obfs-param: f7cb53429.microsoft.com
-- name: 3.00| 广州日本 DMIT丨全解锁丨A2 2
-  server: gzydddns.xyz
-  port: 11842
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 3429:EerIYb
-  obfs-param: f7cb53429.microsoft.com
-- name: 2.77| AA中继JPIndigo01  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19081
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 2.74| 上海CN2 新加坡 NeroCloud丨全解锁丨A2
-  server: sh.shcuddns.xyz
-  port: 11429
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2489:xnf3AY
-  obfs-param: 699512489.microsoft.com
-- name: 2.60| Lv1SGLinode01  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19032
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 2.56| 上海CN2 美国 DMIT丨全解锁丨A1
-  server: sh.shcuddns.xyz
-  port: 11423
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2489:xnf3AY
-  obfs-param: 699512489.microsoft.com
-- name: 2.46| 上海CN2 美国 readydedis丨全解锁丨A1
-  server: sh.shcuddns.xyz
-  port: 11427
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2489:xnf3AY
-  obfs-param: 699512489.microsoft.com
-- name: 2.24|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 2.09| 香港 2
-  server: 116.163.10.131
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 2.03| Lv1SGLinode02  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19056
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 2.01| AA中继SGNTT02  18348
+- name: 5.72| AA中继SGNTT02  18348
   server: cdn.node.sg.ntt03.nekocloud.cn
   port: 19078
   type: ssr
@@ -354,19 +27,9 @@ proxies:
   obfs: plain
   protocol-param: 129134:cxCjTt
   obfs-param: f5df6129134.wns.windows.com
-- name: 2.00|AZ转移动0227
-  server: sl201.jdxx.xyz
-  port: 25986
-  type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 147:RlDn8I
-  obfs-param: d1efa147.microsoft.com
-- name: 1.95| AA中继DELinode  18348
+- name: 5.49| AA中继HKLeaseweb01  18348
   server: cdn-cn.nekocloud.cn
-  port: 19082
+  port: 19025
   type: ssr
   cipher: aes-128-cfb
   password: qwQm0B
@@ -374,17 +37,221 @@ proxies:
   obfs: plain
   protocol-param: 129134:cxCjTt
   obfs-param: f5df6129134.wns.windows.com
-- name: 1.80| 168机场菲律宾
-  server: gz1.52168.xyz
-  port: 1101
+- name: 5.36|YouTube由零开始143
+  server: h701576.droplet.today
+  port: 13543
+  type: trojan
+  password: b6a7075fd6
+  sni: h701576.droplet.today
+  skip-cert-verify: false
+- name: 5.31| TunnelF香港 VIP 7  HKBN  17000 单端口
+  server: n114.boom.party
+  port: 17000
   type: ssr
   cipher: aes-256-cfb
-  password: epChJS35fV
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 107440:xsWJSz
+  obfs-param: www.baidu.com
+- name: 5.26| 浦东电信TokyoDMITnfvpnpool 3
+  server: 58.32.9.209
+  port: 11424
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
   protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
-  protocol-param: 26901:ggyf3c2qzog
-  obfs-param: 94d9b26901.baidu.com
-- name: 1.75| AA中继JPLinode02  18348
+  protocol-param: 2489:xnf3AY
+  obfs-param: t.me/vpnhat
+- name: 5.22|1212 TG频道Jsnzk 3
+  server: hinet.rdns.link
+  port: 50025
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 18290:9WA1gd
+  obfs-param: e3cf218290.software-download.microsoft.com
+- name: 5.20| 香港 03 测试
+  server: 42.157.196.103
+  port: 10049
+  type: ssr
+  cipher: rc4-md5
+  password: Yk4UdrOyQg
+  protocol: auth_aes128_md5
+  obfs: http_post
+  protocol-param: 267054:8ELiYjJ7tU
+  obfs-param: ''
+- name: 5.19|1212 TG频道Jsnzk 2
+  server: hinet.rdns.link
+  port: 50022
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 18290:9WA1gd
+  obfs-param: e3cf218290.software-download.microsoft.com
+- name: 5.07| Lv1SGLinode01  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19032
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 5.04| AA中继SGNTT03  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19089
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 5.01| Lv1SGNTT01  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19076
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.97|1212 TG频道Jsnzk 6
+  server: hinet.rdns.link
+  port: 50027
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 18290:9WA1gd
+  obfs-param: e3cf218290.software-download.microsoft.com
+- name: 4.83| 浦东电信香港HKTnfvpnpool 2
+  server: 58.32.9.209
+  port: 11421
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 2489:xnf3AY
+  obfs-param: t.me/vpnhat
+- name: 4.78|1212 TG频道Jsnzk 7
+  server: hinet.rdns.link
+  port: 50023
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 18290:9WA1gd
+  obfs-param: e3cf218290.software-download.microsoft.com
+- name: 4.75| AA中继HK打機神線01  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19039
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.74| TunnelF新加坡  VIP 8  Linode  18000 单端口
+  server: n96.boom.party
+  port: 18000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 107440:xsWJSz
+  obfs-param: www.baidu.com
+- name: 4.73| TunnelK新加坡 普通 1  DO  18000 单端口
+  server: nk8.boom.party
+  port: 18000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 107440:xsWJSz
+  obfs-param: www.baidu.com
+- name: 4.71| Lv1SGAws  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19058
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.70| AA中继HKNTT02  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19004
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.68| AA中继HKLeaseweb03  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19041
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.58| aTaiwanIns
+  server: tw.q-air.icu
+  port: 32443
+  type: trojan
+  password: d485205a-abc6-3940-8f89-faf533b0b001
+  sni: tw.q-air.icu
+  skip-cert-verify: false
+- name: 4.56| 上海CN2 日本 DMIT丨全解锁丨A1
+  server: sh.shcuddns.xyz
+  port: 11424
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 2489:xnf3AY
+  obfs-param: 699512489.microsoft.com
+- name: 4.54| TunnelF新加坡  VIP 9  Linode  19000 单端口
+  server: n30.boom.party
+  port: 19000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 107440:xsWJSz
+  obfs-param: www.baidu.com
+- name: 4.51| 浦东电信台北Hinetnfvpnpool 3
+  server: 58.32.9.209
+  port: 11428
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 2487:ivxvKM
+  obfs-param: t.me/vpnhat
+- name: 4.49| AA中继JPLinode02  18348
   server: cdn-cn.nekocloud.cn
   port: 19075
   type: ssr
@@ -394,15 +261,145 @@ proxies:
   obfs: plain
   protocol-param: 129134:cxCjTt
   obfs-param: f5df6129134.wns.windows.com
-- name: 1.69|US1795
-  server: 72.167.45.6
+- name: 4.46| 香港 2
+  server: 116.163.10.131
+  port: 22779
+  type: ssr
+  cipher: chacha20-ietf
+  password: m2KSOD
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 5033:hh8o92
+  obfs-param: .microsoft.com
+- name: 4.42| AA中继DELinode  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19082
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.42|RO653
+  server: 62.216.92.179
   type: trojan
-  country: US
+  country: RO
   port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.63| AA中继JPLinode03  18348
+- name: 4.36| 上海CN2 新加坡 NeroCloud丨全解锁丨A1
+  server: sh.shcuddns.xyz
+  port: 11422
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 2489:xnf3AY
+  obfs-param: 699512489.microsoft.com
+- name: 4.28| Lv1SGNTT02  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19087
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.28|1212 TG频道Jsnzk
+  server: hinet.rdns.link
+  port: 50026
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 18290:9WA1gd
+  obfs-param: e3cf218290.software-download.microsoft.com
+- name: 4.25| AA中继JPIndigo01  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19081
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.24| Lv1JPSakura03  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19019
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.15| Lv1JPSakura02  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19017
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 4.15| 上海CN2 香港 HKT丨全解锁丨A1
+  server: sh.shcuddns.xyz
+  port: 11421
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 2489:xnf3AY
+  obfs-param: 699512489.microsoft.com
+- name: 4.12| 168机场菲律宾
+  server: gz1.52168.xyz
+  port: 1101
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 26901:ggyf3c2qzog
+  obfs-param: 94d9b26901.baidu.com
+- name: 4.02| 广州移动台北Hinetnfvpnpool 2
+  server: 183.232.56.106
+  port: 11814
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1065:5ucWfo
+  obfs-param: t.me/vpnhat
+- name: 3.95| Lv1JPSakura01  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19022
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 3.91| AA中继HK香港寬頻HKBN  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19086
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 3.87| AA中继JPLinode03  18348
   server: cdn-cn.nekocloud.cn
   port: 10003
   type: ssr
@@ -412,9 +409,29 @@ proxies:
   obfs: plain
   protocol-param: 129134:cxCjTt
   obfs-param: f5df6129134.wns.windows.com
-- name: 1.55| AA中继HKLeaseweb02  18348
+- name: 3.77| 上海CN2 台湾 HiNet丨全解锁丨A1
+  server: sh.shcuddns.xyz
+  port: 11428
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 2489:xnf3AY
+  obfs-param: 699512489.microsoft.com
+- name: 3.74|1212 TG频道Jsnzk 5
+  server: hinet.rdns.link
+  port: 50024
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 18290:9WA1gd
+  obfs-param: e3cf218290.software-download.microsoft.com
+- name: 3.73| AA中继JPNTT02  18348
   server: cdn-cn.nekocloud.cn
-  port: 19026
+  port: 19052
   type: ssr
   cipher: aes-128-cfb
   password: qwQm0B
@@ -422,41 +439,7 @@ proxies:
   obfs: plain
   protocol-param: 129134:cxCjTt
   obfs-param: f5df6129134.wns.windows.com
-- name: 1.55|Relay  122Mb
-  server: t7.ssrsub.com
-  type: trojan
-  country: RU
-  port: 8443
-  password: 13b36e17-e869-4b77-bf33-e5a431eac496
-  skip-cert-verify: true
-  udp: true
-- name: 1.54| AA中继DEDigitalOcean  18348
-  server: cdn-cn.nekocloud.cn
-  port: 10008
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 1.49| 1064Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.48|NL206
-  server: 185.171.120.144
-  type: trojan
-  country: NL
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.46|SG193
+- name: 3.62|SG193
   server: 81.90.189.85
   type: trojan
   country: SG
@@ -464,21 +447,43 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.37|NL599
-  server: 89.31.127.151
-  type: trojan
-  country: NL
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.35| 韩国移动隧道527
-  server: sl201.jdxx.xyz
-  port: 26390
+- name: 3.61| AA中继JPSakura03  18348
+  server: cdn-cn.nekocloud.cn
+  port: 10004
   type: ssr
-  cipher: chacha20-ietf
-  password: MaOKEa
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 3.52|1212 TG频道Jsnzk 4
+  server: hinet.rdns.link
+  port: 50028
+  type: ssr
+  cipher: aes-256-cfb
+  password: Getfree.Cloud
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
-  protocol-param: 147:RlDn8I
-  obfs-param: d1efa147.microsoft.com
+  protocol-param: 18290:9WA1gd
+  obfs-param: e3cf218290.software-download.microsoft.com
+- name: 3.52| Lv1JPVultr01  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19020
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
+- name: 3.52| AA中继HKHGC011Gbps  18348
+  server: cdn-cn.nekocloud.cn
+  port: 19093
+  type: ssr
+  cipher: aes-128-cfb
+  password: qwQm0B
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 129134:cxCjTt
+  obfs-param: f5df6129134.wns.windows.com
