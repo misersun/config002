@@ -1,5 +1,5 @@
 proxies:
-- name: 2.01|trojan
+- name: 2.07|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -8,7 +8,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.90|JP64  502Mb
+- name: 1.56|JP64  502Mb
   server: 5.183.177.111
   type: trojan
   country: JP
@@ -16,35 +16,7 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.67| 2132Mb
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.12| AA中继USHE03  18348
-  server: cdn-cn.nekocloud.cn
-  port: 19036
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 0.71| AA中继USHE04  18348
-  server: cdn-cn.nekocloud.cn
-  port: 10001
-  type: ssr
-  cipher: aes-128-cfb
-  password: qwQm0B
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 129134:cxCjTt
-  obfs-param: f5df6129134.wns.windows.com
-- name: 0.63| AA中继USHE01  18348
+- name: 1.49| AA中继USHE01  18348
   server: cdn-cn.nekocloud.cn
   port: 19030
   type: ssr
