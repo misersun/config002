@@ -1,5 +1,25 @@
 proxies:
-- name: 2.07|trojan
+- name: 2.71| 北京腾讯云vpnpool 30
+  server: 162.14.17.218
+  port: 1121
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31799:saitez
+  obfs-param: t.me/vpnhat
+- name: 2.63| 广州移动vpnpool 19
+  server: 120.232.215.251
+  port: 1133
+  type: ssr
+  cipher: chacha20-ietf
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31799:saitez
+  obfs-param: t.me/vpnhat
+- name: 2.21|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -8,17 +28,19 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.56|JP64  502Mb
-  server: 5.183.177.111
-  type: trojan
-  country: JP
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.49| AA中继USHE01  18348
+- name: 2.13| 北京腾讯云vpnpool 31
+  server: 162.14.17.218
+  port: 1132
+  type: ssr
+  cipher: rc4-md5
+  password: di15PV
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 31799:saitez
+  obfs-param: t.me/vpnhat
+- name: 2.02| AA中继USHE04  18348
   server: cdn-cn.nekocloud.cn
-  port: 19030
+  port: 10001
   type: ssr
   cipher: aes-128-cfb
   password: qwQm0B

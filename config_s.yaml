@@ -1,29 +1,5 @@
 proxies:
-- name: 3.87| aJapanDMM
-  server: hygz.q-air.icu
-  port: 18221
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
-  skip-cert-verify: false
-- name: 3.67|HK103 2302Mb
-  server: 103.138.75.235
-  type: vmess
-  country: HK
-  port: 443
-  uuid: 8ccc3052-4941-47e4-b85f-a67ea71e3fe6
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /clientarea
-  servername: 103.138.75.235
-  ws-headers:
-    HOST: 103.138.75.235
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.07|trojan
+- name: 2.21|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -32,7 +8,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.82|httpsgitiov9999 defaultname 4
+- name: 1.83|httpsgitiov9999 defaultname 4
   server: 104.17.170.210
   port: 443
   type: vmess
@@ -44,47 +20,7 @@ proxies:
   ws-path: kycc
   ws-headers:
     Host: lsb.stupidfellow.cf
-- name: 1.75|DE29 12006Mb
-  server: 5.183.179.138
-  type: trojan
-  country: DE
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.59|NL599
-  server: 89.31.127.151
-  type: trojan
-  country: NL
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.56|JP64  502Mb
-  server: 5.183.177.111
-  type: trojan
-  country: JP
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.32| 1064Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.22|NL206
-  server: 185.171.120.144
-  type: trojan
-  country: NL
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 0.93| SSRSUB俄罗斯09付费推荐suoytssrsub
+- name: 1.72| SSRSUB俄罗斯09付费推荐suoytssrsub
   server: v2.ssrsub.com
   port: 443
   type: vmess
@@ -96,3 +32,23 @@ proxies:
   ws-path: /ssrsub
   ws-headers:
     Host: v2.ssrsub.com
+- name: 1.55| 1064Mb
+  server: 185.105.191.92
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.94|匈牙利
+  server: 185.252.223.203
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /path/243535322906
+  ws-headers:
+    Host: www.16675463.xyz
