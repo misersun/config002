@@ -1,54 +1,63 @@
 proxies:
-- name: 2.21|trojan
+- name: 3.22| aJapanDMM
+  server: hygz.q-air.icu
+  port: 18221
   type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.83|httpsgitiov9999 defaultname 4
-  server: 104.17.170.210
+  password: d485205a-abc6-3940-8f89-faf533b0b001
+  sni: hygz.q-air.icu
+  skip-cert-verify: false
+- name: 1.80| RelayUS149 1024Mb
+  server: v8.ssrsub.com
   port: 443
   type: vmess
-  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: kycc
-  ws-headers:
-    Host: lsb.stupidfellow.cf
-- name: 1.72| SSRSUB俄罗斯09付费推荐suoytssrsub
-  server: v2.ssrsub.com
-  port: 443
-  type: vmess
-  uuid: 13b36e17-e869-4b77-bf33-e5a431eac496
+  uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-path: /ssrsub
   ws-headers:
-    Host: v2.ssrsub.com
-- name: 1.55| 1064Mb
-  server: 185.105.191.92
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 0.94|匈牙利
-  server: 185.252.223.203
-  port: 443
+    Host: v8.ssrsub.com
+- name: 1.78| RelayUS145 1138Mb
+  server: v1.ssrsub.com
+  port: 8443
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
+  uuid: c4415de6-7548-4c8b-94c7-28c37179e84a
+  alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /path/243535322906
+  ws-path: /ssrsub
   ws-headers:
-    Host: www.16675463.xyz
+    Host: v1.ssrsub.com
+- name: 1.01| RU881  819Mb
+  server: v4.ssrsub.com
+  port: 8443
+  type: vmess
+  uuid: c4415de6-7548-4c8b-94c7-28c37179e84a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v4.ssrsub.com
+- name: 0.72| b美西首选
+  server: hygz.q-air.icu
+  port: 18421
+  type: trojan
+  password: d485205a-abc6-3940-8f89-faf533b0b001
+  sni: hygz.q-air.icu
+  skip-cert-verify: false
+- name: 0.41| RelayRU148  720Mb
+  server: v6.ssrsub.com
+  port: 8443
+  type: vmess
+  uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v6.ssrsub.com
