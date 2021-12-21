@@ -1,17 +1,450 @@
 proxies:
-- name: 2.86| b美西首选
-  server: hygz.q-air.icu
-  port: 18421
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
+- name: 5.17| 标准香港02解锁流媒体
+  server: zfd.out02.nodeserver.top
+  port: 16112
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: false
-- name: 1.27|trojan
+- name: 5.09| 标准香港04解锁流媒体
+  server: zfd.out01.nodeserver.top
+  port: 16114
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.71| 专线香港04解锁流媒体
+  server: zfd.out01.nodeserver.top
+  port: 16216
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.57|RelayCNTW41 2040Mb
+  server: tw04.cnzffw.com
   type: trojan
-  server: 65.49.196.246
+  country: CN
+  port: 13026
+  password: 20173681-72a9-440f-9cac-d9b773a34f7d
+  skip-cert-verify: true
+  udp: true
+- name: 4.19| 专线日本01解锁流媒体
+  server: zfd.out01.nodeserver.top
+  port: 16207
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.18|RO680
+  server: 62.216.92.180
+  type: trojan
+  country: RO
   port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 4.09| 标准日本01解锁流媒体 7
+  server: zfd.out01.nodeserver.top
+  port: 16119
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 3.74| 基础日本02三网优化 5
+  server: v12.88host.buzz
+  port: 18004
+  type: vmess
+  uuid: b2b0c643-18c3-30e4-b462-d70a1b424383
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /mojing
+  ws-headers:
+    Host: v12.88host.buzz
+- name: 3.49|RelayCNUS42  796Mb
+  server: jp04.cnzffw.com
+  type: trojan
+  country: CN
+  port: 12021
+  password: 20173681-72a9-440f-9cac-d9b773a34f7d
+  skip-cert-verify: true
+  udp: true
+- name: 3.38| 专线中国台湾01原生HINET优化
+  server: zfd.out01.nodeserver.top
+  port: 16239
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 3.25| 专线香港02主力节点
+  server: zfd.out02.nodeserver.top
+  port: 16214
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 3.06| 日本02
+  server: jp.us.kr.relay.cccloud.club
+  port: 11000
+  type: vmess
+  uuid: b871fd9e-c0f6-313c-a176-8b2d1674eac1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: jp-02.coco.hetun.asia
+- name: 3.00|Relay 7246Mb
+  server: 183.232.13.75
+  type: trojan
+  country: CN
+  port: 13034
+  password: 20173681-72a9-440f-9cac-d9b773a34f7d
+  skip-cert-verify: true
+  udp: true
+- name: 2.97| JK1V4湖新LINODE0215x流量解锁
+  server: jike1-gzyd.ddns-only.xyz
+  port: 31568
+  type: ssr
+  cipher: chacha20-ietf
+  password: yT6Am5
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 156931:VxAvMJ
+  obfs-param: 67a6c156931.microsoft.com
+- name: 2.79| 标准美国01解锁流媒体 4
+  server: zfd.out01.nodeserver.top
+  port: 16103
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.49|RelayCACA14  971Mb
+  server: 1211tw.fans8.xyz
+  type: vmess
+  country: CA
+  port: 80
+  uuid: d1f1d432-0300-3b65-b90e-b65beaa68180
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.21|RelaySGSG992 1510Mb
+  server: mf-aws-sg-08.xncloud.xyz
+  type: vmess
+  country: SG
+  port: 18000
+  uuid: 8a23fd8b-30d5-3839-b831-b4eababaa3a0
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /niaoyun
+  servername: t.me/vpnhat
+  ws-headers:
+    HOST: t.me/vpnhat
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.60|SG161 2320Mb
+  server: 81.90.189.85
+  type: trojan
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.43| US1912 15585Mb
+  server: mf-do-ua-08.xncloud.xyz
+  port: 80
+  type: vmess
+  uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /niaoyun
+  ws-headers:
+    Host: mf-do-ua-08.xncloud.xyz
+- name: 1.43|Relay 1957Mb
+  server: 120.197.88.216
+  port: 20004
+  type: vmess
+  uuid: 9130cf82-3615-4582-a2d0-d7e2a74134d3
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: YouTube-aweikeji
+- name: 1.42|JP102 1023Mb
+  server: 172.104.98.216
+  type: vmess
+  country: JP
+  port: 80
+  uuid: e5af0cad-295c-37b2-b601-f35d13f6b1bb
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: www.gov.hk
+  ws-headers:
+    HOST: www.gov.hk
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- alterId: 0
+  cipher: auto
+  name: 1.39|1220oslook加拿大CACanadaToronto75
+  network: ws
+  port: 443
+  server: v3.ssrsub.com
+  tls: true
+  type: vmess
+  uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689
+  ws-path: /ssrsub
+- name: 1.39|RelayCACA13  981Mb
+  server: 1215tw1.fans8.xyz
+  type: vmess
+  country: CA
+  port: 80
+  uuid: d1f1d432-0300-3b65-b90e-b65beaa68180
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.36| US1906
+  server: mf-do-ua-06.xncloud.xyz
+  port: 80
+  type: vmess
+  uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /niaoyun
+  ws-headers:
+    Host: mf-do-ua-06.xncloud.xyz
+- name: 1.34| US1896 1261Mb
+  server: mf-do-ua-04.xncloud.xyz
+  port: 80
+  type: vmess
+  uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /niaoyun
+  ws-headers:
+    Host: mf-do-ua-04.xncloud.xyz
+- name: 0.94| 专线香港06解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16218
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 0.92|CA16 1568Mb
+  server: 165.154.229.22
+  type: vmess
+  country: CA
+  port: 80
+  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: 165.154.229.22
+  ws-headers:
+    HOST: 165.154.229.22
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.90| SSRSUB俄罗斯10付费推荐suoytssrsub
+  server: v2.ssrsub.com
+  port: 8443
+  type: vmess
+  uuid: c4415de6-7548-4c8b-94c7-28c37179e84a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v2.ssrsub.com
+- name: 0.70|8度科技 127
+  server: 1031kr.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: youtube-awekji
+- name: 0.64|RelayCNCA30  649Mb
+  server: 183.232.163.3
+  type: vmess
+  country: CN
+  port: 3434
+  uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: t.me/vpnhat
+  ws-headers:
+    HOST: t.me/vpnhat
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.59| RelayJPJP664
+  server: 1005jp.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 1005jp.fans8.xyz
+- name: 0.58|RelayCNUS34 1063Mb
+  server: 183.232.163.3
+  type: vmess
+  country: CN
+  port: 2020
+  uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: t.me/vpnhat
+  ws-headers:
+    HOST: t.me/vpnhat
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.55| 标准香港03解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16113
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 0.52| 标准香港06解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16116
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 0.50|RelayCNSG20 1177Mb
+  server: 183.232.163.3
+  type: vmess
+  country: CN
+  port: 5353
+  uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: t.me/vpnhat
+  ws-headers:
+    HOST: t.me/vpnhat
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.50|RelayCNCA29  873Mb
+  server: 183.232.163.3
+  type: vmess
+  country: CN
+  port: 3131
+  uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: t.me/vpnhat
+  ws-headers:
+    HOST: t.me/vpnhat
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.48|RelayCNCA31  851Mb
+  server: 183.232.163.3
+  type: vmess
+  country: CN
+  port: 9191
+  uuid: 865601be-0e00-3a7f-8da3-c92ac3ed6ddd
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: t.me/vpnhat
+  ws-headers:
+    HOST: t.me/vpnhat
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 0.39| 专线中国台湾03原生HINET
+  server: zfd.out02.nodeserver.top
+  port: 16224
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 0.37| 专线中国台湾02原生HINET
+  server: zfd.out01.nodeserver.top
+  port: 16223
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 0.35|RO678
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
