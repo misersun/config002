@@ -1,29 +1,5 @@
 proxies:
-- name: 4.57|RelayCNTW41 2040Mb
-  server: tw04.cnzffw.com
-  type: trojan
-  country: CN
-  port: 13026
-  password: 20173681-72a9-440f-9cac-d9b773a34f7d
-  skip-cert-verify: true
-  udp: true
-- name: 4.18|RO680
-  server: 62.216.92.180
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 3.49|RelayCNUS42  796Mb
-  server: jp04.cnzffw.com
-  type: trojan
-  country: CN
-  port: 12021
-  password: 20173681-72a9-440f-9cac-d9b773a34f7d
-  skip-cert-verify: true
-  udp: true
-- name: 3.00|Relay 7246Mb
+- name: 5.02|Relay 7246Mb
   server: 183.232.13.75
   type: trojan
   country: CN
@@ -31,7 +7,70 @@ proxies:
   password: 20173681-72a9-440f-9cac-d9b773a34f7d
   skip-cert-verify: true
   udp: true
-- name: 2.97| JK1V4湖新LINODE0215x流量解锁
+- name: 4.64|RelayCNTW41 2040Mb
+  server: tw04.cnzffw.com
+  type: trojan
+  country: CN
+  port: 13026
+  password: 20173681-72a9-440f-9cac-d9b773a34f7d
+  skip-cert-verify: true
+  udp: true
+- name: 4.12| TunnelF香港 VIP 7  HKBN  17000 单端口
+  server: n114.boom.party
+  port: 17000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 107440:xsWJSz
+  obfs-param: www.baidu.com
+- name: 3.90|RelayCNUS42  796Mb
+  server: jp04.cnzffw.com
+  type: trojan
+  country: CN
+  port: 12021
+  password: 20173681-72a9-440f-9cac-d9b773a34f7d
+  skip-cert-verify: true
+  udp: true
+- name: 3.74|SG161 2320Mb
+  server: 81.90.189.85
+  type: trojan
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.74|US1777
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.48| 英国24
+  server: 185.105.191.92
+  port: 443
+  type: trojan
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+- name: 1.27|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 0.99| httpsgitiov9999 加拿大安大略省基奇纳DataCity数据中心 16
+  server: t3.ssrsub.com
+  port: 156
+  type: trojan
+  password: 3babef69-fb91-47f8-8882-e5a0a1ba3689
+  sni: t3.ssrsub.com
+- name: 0.73| JK1V4湖新LINODE0215x流量解锁
   server: jike1-gzyd.ddns-only.xyz
   port: 31568
   type: ssr
@@ -41,16 +80,24 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 156931:VxAvMJ
   obfs-param: 67a6c156931.microsoft.com
-- name: 1.60|SG161 2320Mb
-  server: 81.90.189.85
+- name: 0.42|GB419
+  server: 109.74.194.189
   type: trojan
-  country: SG
+  country: GB
+  port: 1443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 0.32|DE45 2183Mb
+  server: 5.183.179.138
+  type: trojan
+  country: DE
   port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 0.35|RO678
-  server: 185.126.116.235
+- name: 0.28|RO665
+  server: 62.216.92.179
   type: trojan
   country: RO
   port: 443
