@@ -1,13 +1,12 @@
 proxies:
-- name: 1.74|US1777
-  server: 72.167.45.6
+- name: 3.00| b美西首选
+  server: hygz.q-air.icu
+  port: 18421
   type: trojan
-  country: US
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.27|trojan
+  password: d485205a-abc6-3940-8f89-faf533b0b001
+  sni: hygz.q-air.icu
+  skip-cert-verify: false
+- name: 2.05|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -16,3 +15,11 @@ proxies:
   alpn:
   - h2
   - http/1.1
+- name: 0.45|JP579
+  server: 5.183.177.111
+  type: trojan
+  country: JP
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
