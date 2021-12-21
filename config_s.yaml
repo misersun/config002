@@ -1,92 +1,17 @@
 proxies:
-- name: 3.21| aJapanDMM
-  server: hygz.q-air.icu
-  port: 18221
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
-  skip-cert-verify: false
-- name: 1.55|mattkaydiarycom中国香港特别行政区HKHongkong SAR ChinaTung Chung84
-  server: 103.138.75.226
-  port: 443
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /clientarea
-  ws-headers:
-    Host: hkbgp-100m01.nb1.fr
-- name: 1.54|mattkaydiarycom俄罗斯RURussiaMoscow67
-  server: v5.ssrsub.com
-  port: 8443
-  type: vmess
-  uuid: 3babef69-fb91-47f8-8882-e5a0a1ba3689
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ssrsub
-- name: 1.54|RelayUSUS168 1286Mb
-  server: v1.ssrsub.com
-  type: vmess
-  country: US
-  port: 8443
-  uuid: c4415de6-7548-4c8b-94c7-28c37179e84a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.52|RelayUSLU193  572Mb
-  server: 104.17.170.210
-  type: vmess
-  country: US
-  port: 443
-  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: kycc
-  servername: lsb.stupidfellow.cf
-  ws-headers:
-    HOST: lsb.stupidfellow.cf
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.39|Relay  088Mb
-  server: t7.ssrsub.com
-  type: trojan
-  country: RU
-  port: 8443
-  password: c4415de6-7548-4c8b-94c7-28c37179e84a
-  skip-cert-verify: true
-  udp: true
-- name: 0.74| b美西首选
+- name: 2.86| b美西首选
   server: hygz.q-air.icu
   port: 18421
   type: trojan
   password: d485205a-abc6-3940-8f89-faf533b0b001
   sni: hygz.q-air.icu
   skip-cert-verify: false
-- name: 0.60|Relay  651Mb
-  server: t3.ssrsub.com
+- name: 1.27|trojan
   type: trojan
-  country: CA
-  port: 156
-  password: c4415de6-7548-4c8b-94c7-28c37179e84a
-  skip-cert-verify: true
-  udp: true
-- name: 0.40|NL719
-  server: 185.171.120.144
-  type: trojan
-  country: NL
+  server: 65.49.196.246
   port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1

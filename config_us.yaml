@@ -1,23 +1,10 @@
 proxies:
-- name: 2.50|RelayCNUS23  320Mb
-  server: meb1aibe.nodeinfo.icu
-  type: ssr
-  country: CN
-  port: 1133
-  password: di15PV
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 155402:h6F10T
-  obfs: tls1.2_ticket_auth
-  obfs-param: 078e5155402.www.gov.hk
-- name: 2.46|RelayCNUS24  244Mb
-  server: euchei9j.nodeinfo.icu
-  type: ssr
-  country: CN
-  port: 1121
-  password: di15PV
-  cipher: rc4-md5
-  protocol: auth_aes128_md5
-  protocol-param: 155402:h6F10T
-  obfs: tls1.2_ticket_auth
-  obfs-param: 078e5155402.www.gov.hk
+- name: 1.27|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
