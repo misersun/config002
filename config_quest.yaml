@@ -1,30 +1,5 @@
 proxies:
-- name: 5.81|RO716
-  server: 62.216.92.180
-  type: trojan
-  country: RO
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 5.25| HKYoutube技术分享室整理 5
-  server: hk-hkg-shhk-001-tr.cdn.savoy.click
-  port: 20089
-  type: trojan
-  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
-  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
-  skip-cert-verify: false
-- name: 5.05| TunnelK新加坡 普通 4  DO  21000 单端口
-  server: nkb.boom.party
-  port: 21000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 107440:xsWJSz
-  obfs-param: www.baidu.com
-- name: 4.54| 香港 2
+- name: 5.63| 香港 2
   server: 116.163.10.131
   port: 22779
   type: ssr
@@ -34,37 +9,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 5033:hh8o92
   obfs-param: .microsoft.com
-- name: 4.25|RelayTWTW1156 6120Mb
-  server: hinet.rdns.link
-  type: ssr
-  country: TW
-  port: 50028
-  password: Getfree.Cloud
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 18290:9WA1gd
-  obfs: tls1.2_ticket_auth
-  obfs-param: e3cf218290.software-download.microsoft.com
-- name: 3.78|SG161 2320Mb
-  server: 81.90.189.85
-  type: trojan
-  country: SG
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 3.65|RelayTWTW1158 3881Mb
-  server: hinet.rdns.link
-  type: ssr
-  country: TW
-  port: 50022
-  password: Getfree.Cloud
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 18290:9WA1gd
-  obfs: tls1.2_ticket_auth
-  obfs-param: e3cf218290.software-download.microsoft.com
-- name: 3.63| TunnelF香港 VIP 7  HKBN  17000 单端口
+- name: 5.03| TunnelF香港 VIP 7  HKBN  17000 单端口
   server: n114.boom.party
   port: 17000
   type: ssr
@@ -74,77 +19,41 @@ proxies:
   obfs: http_simple
   protocol-param: 107440:xsWJSz
   obfs-param: www.baidu.com
-- name: 3.53|RelayTWTW1162 3251Mb
-  server: hinet.rdns.link
+- name: 4.73|RelayCNHK232
+  server: hkchiansax2.msservicevip.pw
   type: ssr
-  country: TW
-  port: 50026
-  password: Getfree.Cloud
+  country: CN
+  port: 9359
+  password: '73117962'
   cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 18290:9WA1gd
-  obfs: tls1.2_ticket_auth
-  obfs-param: e3cf218290.software-download.microsoft.com
-- name: 3.53|RelayTWTW1157 1612Mb
-  server: hinet.rdns.link
-  type: ssr
-  country: TW
-  port: 50025
-  password: Getfree.Cloud
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 18290:9WA1gd
-  obfs: tls1.2_ticket_auth
-  obfs-param: e3cf218290.software-download.microsoft.com
-- name: 3.39|RelayTWTW1154 5901Mb
-  server: hinet.rdns.link
-  type: ssr
-  country: TW
-  port: 50024
-  password: Getfree.Cloud
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 18290:9WA1gd
-  obfs: tls1.2_ticket_auth
-  obfs-param: e3cf218290.software-download.microsoft.com
-- name: 2.96|RelayTWTW1161 5573Mb
-  server: hinet.rdns.link
-  type: ssr
-  country: TW
-  port: 50027
-  password: Getfree.Cloud
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 18290:9WA1gd
-  obfs: tls1.2_ticket_auth
-  obfs-param: e3cf218290.software-download.microsoft.com
-- name: 2.47|RelayTWTW1159 5115Mb
-  server: hinet.rdns.link
-  type: ssr
-  country: TW
-  port: 50023
-  password: Getfree.Cloud
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 18290:9WA1gd
-  obfs: tls1.2_ticket_auth
-  obfs-param: e3cf218290.software-download.microsoft.com
-- name: 1.85| b美西首选
-  server: hygz.q-air.icu
-  port: 18421
+  protocol: origin
+  obfs: plain
+- name: 3.68|SG161 2320Mb
+  server: 81.90.189.85
   type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
-  skip-cert-verify: false
-- name: 1.62|Relay  291Mb
-  server: t4.ssrsub.com
-  type: trojan
-  country: CA
-  port: 156
-  password: c4415de6-7548-4c8b-94c7-28c37179e84a
+  country: SG
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 1.18|trojan
+- name: 3.04| HKYoutube技术分享室整理 5
+  server: hk-hkg-shhk-001-tr.cdn.savoy.click
+  port: 20089
+  type: trojan
+  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
+  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
+  skip-cert-verify: false
+- name: 2.21| TunnelK新加坡 普通 4  DO  21000 单端口
+  server: nkb.boom.party
+  port: 21000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 107440:xsWJSz
+  obfs-param: www.baidu.com
+- name: 2.01|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -153,35 +62,21 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 0.92|RO720
-  server: 62.216.92.179
+- name: 1.44|Relay  291Mb
+  server: t4.ssrsub.com
   type: trojan
-  country: RO
+  country: CA
+  port: 156
+  password: c4415de6-7548-4c8b-94c7-28c37179e84a
+  skip-cert-verify: true
+  udp: true
+- name: 1.42| 英国24
+  server: 185.105.191.92
   port: 443
+  type: trojan
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
-  udp: true
-- name: 0.91| httpsgitiov9999 加拿大安大略省基奇纳DataCity数据中心 16
-  server: t3.ssrsub.com
-  port: 156
-  type: trojan
-  password: 3babef69-fb91-47f8-8882-e5a0a1ba3689
-  sni: t3.ssrsub.com
-- name: 0.81|NL644
-  server: 89.31.127.151
-  type: trojan
-  country: NL
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 0.76|1222178
-  server: vincent-jackson2021.ga
-  port: 443
-  type: trojan
-  password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  sni: vincent-jackson2021.ga
-- name: 0.75| JK1V4湖新LINODE0215x流量解锁
+- name: 1.35| JK1V4湖新LINODE0215x流量解锁
   server: jike1-gzyd.ddns-only.xyz
   port: 31568
   type: ssr
@@ -191,32 +86,31 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 156931:VxAvMJ
   obfs-param: 67a6c156931.microsoft.com
-- name: 0.72|GB425
-  server: 109.74.194.189
+- name: 0.89|US1857
+  server: 72.167.45.6
   type: trojan
-  country: GB
-  port: 1443
-  password: 7x42LetRa0
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 0.63| 英国24
-  server: 185.105.191.92
-  port: 443
+- name: 0.85|NL644
+  server: 89.31.127.151
   type: trojan
+  country: NL
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 0.69|RO737
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
-- name: 0.62|PoolTW895
-  server: 59.125.11.158
-  type: ssr
-  country: TW
-  port: 8158
-  password: passinfo123
-  cipher: rc4-md5
-  protocol: origin
-  protocol-param: WWW.YOUNEED.WIN
-  obfs: plain
-  obfs-param: WWW.YOUNEED.WIN
-- name: 0.42|DE350
+  udp: true
+- name: 0.67|DE350
   server: 5.183.179.138
   type: trojan
   country: DE
@@ -224,3 +118,9 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
+- name: 0.32| httpsgitiov9999 加拿大安大略省基奇纳DataCity数据中心 16
+  server: t3.ssrsub.com
+  port: 156
+  type: trojan
+  password: 3babef69-fb91-47f8-8882-e5a0a1ba3689
+  sni: t3.ssrsub.com

@@ -1,20 +1,13 @@
 proxies:
-- name: 5.81|RO716
-  server: 62.216.92.180
+- name: 3.68|SG161 2320Mb
+  server: 81.90.189.85
   type: trojan
-  country: RO
+  country: SG
   port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: 5.25| HKYoutube技术分享室整理 5
-  server: hk-hkg-shhk-001-tr.cdn.savoy.click
-  port: 20089
-  type: trojan
-  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
-  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
-  skip-cert-verify: false
-- name: 4.13| HKYoutube技术分享室整理
+- name: 3.14| HKYoutube技术分享室整理
   server: sxqxj.cn
   port: 2164
   type: vmess
@@ -27,16 +20,24 @@ proxies:
   ws-path: /ws
   ws-headers:
     Host: sxqxj.cn
-- name: 3.78|SG161 2320Mb
-  server: 81.90.189.85
+- name: 3.04| HKYoutube技术分享室整理 5
+  server: hk-hkg-shhk-001-tr.cdn.savoy.click
+  port: 20089
   type: trojan
-  country: SG
+  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
+  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
+  skip-cert-verify: false
+- name: 2.01|trojan
+  type: trojan
+  server: 65.49.196.246
   port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 2.06| httpsgitiov9999 US美国 14
-  server: 172.67.197.254
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 2.00|httpsgitiov9999 defaultname 3
+  server: www.ltzs.buzz
   port: 443
   type: vmess
   uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
@@ -47,7 +48,7 @@ proxies:
   ws-path: /bb2b34a1
   ws-headers:
     Host: www.ltzs.buzz
-- name: 1.85|RelayUSLU216  631Mb
+- name: 1.89|RelayUSLU216  631Mb
   server: 104.17.170.210
   type: vmess
   country: US
@@ -64,58 +65,20 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.85| b美西首选
-  server: hygz.q-air.icu
-  port: 18421
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
+- name: 1.75| Lv1 新加坡A  直连
+  server: v1.369855.xyz
+  port: 11443
+  type: vmess
+  uuid: 736fe53d-3e41-48f9-9e56-27d5836aee36
+  alterId: 1
+  cipher: auto
+  tls: true
   skip-cert-verify: false
-- name: 1.84|httpsgitiov9999 defaultname 3
-  server: www.ltzs.buzz
-  port: 443
-  type: vmess
-  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
-  alterId: 0
-  cipher: auto
-  tls: true
   network: ws
-  ws-path: /bb2b34a1
+  ws-path: /api/sg
   ws-headers:
-    Host: www.ltzs.buzz
-- name: 1.62|Relay  291Mb
-  server: t4.ssrsub.com
-  type: trojan
-  country: CA
-  port: 156
-  password: c4415de6-7548-4c8b-94c7-28c37179e84a
-  skip-cert-verify: true
-  udp: true
-- name: 1.59| httpsgitiov9999 莫斯科CDN ip4 4
-  server: 104.18.87.142
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.58| httpsgitiov9999 莫斯科CDN ip4 7
-  server: 104.20.210.106
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.58|Relay  891Mb
+    Host: sgav2.ddns.tjiasu.xyz
+- name: 1.54|Relay  891Mb
   server: 172.67.138.170
   port: 443
   type: vmess
@@ -127,7 +90,7 @@ proxies:
   ws-path: /319285eb2d/
   ws-headers:
     Host: free-russian-cdn.xiaohouzi.club
-- name: 1.54| httpsgitiov9999 莫斯科CDN ip4 9
+- name: 1.51| httpsgitiov9999 莫斯科CDN ip4 9
   server: 172.64.88.97
   port: 443
   type: vmess
@@ -139,7 +102,401 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: clash1.v2rayfree1.xyz
-- name: 1.53|RelayUSUS214  226Mb
+- name: 1.51| httpsgitiov9999 莫斯科CDN ip4 4
+  server: 104.18.87.142
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.51| httpsgitiov9999 美国CDN ip1 13
+  server: 104.20.169.236
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.46| httpsgitiov9999 美国CDN ip1 3
+  server: 104.17.97.246
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.46| httpsgitiov9999 莫斯科CDN ip4 7
+  server: 104.20.210.106
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.44|Relay  291Mb
+  server: t4.ssrsub.com
+  type: trojan
+  country: CA
+  port: 156
+  password: c4415de6-7548-4c8b-94c7-28c37179e84a
+  skip-cert-verify: true
+  udp: true
+- name: 1.44| httpsgitiov9999 美国CDN ip1 4
+  server: 104.19.42.37
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.43| httpsgitiov9999 US美国 14
+  server: 172.67.197.254
+  port: 443
+  type: vmess
+  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /bb2b34a1
+  ws-headers:
+    Host: www.ltzs.buzz
+- name: 1.43| httpsgitiov9999 美国CDN ip1 7
+  server: 104.16.195.23
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.42| 英国24
+  server: 185.105.191.92
+  port: 443
+  type: trojan
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+- name: 1.40| httpsgitiov9999 美国CDN ip1 6
+  server: 104.19.103.228
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.40| httpsgitiov9999 美国CDN ip1 15
+  server: icook.tw
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.38| httpsgitiov9999 美国CDN ip1 14
+  server: 104.16.190.180
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.37| httpsgitiov9999 美国CDN ip1 9
+  server: cf1.521024.xyz
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.36| httpsgitiov9999 美国CDN ip1 12
+  server: 1.1.1.1
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.36| httpsgitiov9999 莫斯科CDN ip4 13
+  server: 104.22.32.71
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.33| httpsgitiov9999 美国CDN ip1 11
+  server: 104.21.209.112
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.30|httpsgitiov9999 defaultname 2
+  server: 1.0.0.1
+  port: 443
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ffffffff-ffff-ffff-ffff-ffffffffffff-vmess
+  ws-headers:
+    Host: us-aws1.payday501.workers.dev
+- name: 1.29| httpsgitiov9999 美国CDN ip1
+  server: www.digitalocean.com
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.24| httpsgitiov9999 美国CDN ip1 5
+  server: 104.16.206.241
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.24| httpsgitiov9999 美国CDN ip1 2
+  server: cf.521024.xyz
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.21| SSRSUB俄罗斯10付费推荐suoytssrsub
+  server: v2.ssrsub.com
+  port: 8443
+  type: vmess
+  uuid: c4415de6-7548-4c8b-94c7-28c37179e84a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v2.ssrsub.com
+- name: 1.21| httpsgitiov9999 美国CDN ip1 8
+  server: cdn.xia.me
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.20| httpsgitiov9999 美国CDN ip1 10
+  server: 104.19.183.198
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash3.v2rayfree1.xyz
+- name: 1.19| httpsgitiov9999 US美国RU俄罗斯联邦 3
+  server: 172.67.176.114
+  port: 443
+  type: vmess
+  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /2993fe/
+  ws-headers:
+    Host: free-russian01-cdn.xiaohouzi.club
+- name: 1.04| httpsgitiov9999 莫斯科CDN ip4 6
+  server: 104.27.116.170
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.01| httpsgitiov9999 莫斯科CDN ip4 11
+  server: 172.67.85.124
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 0.94|httpsgitiov9999 defaultname 4
+  server: 104.21.62.193
+  port: 443
+  type: vmess
+  uuid: e64c6f7c-48eb-4852-9b29-778faef14212
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /319285eb2d/
+  ws-headers:
+    Host: free-russian-cdn.xiaohouzi.club
+- name: 0.91|httpsgitiov9999 defaultname
+  server: 104.16.160.114
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /The-Great-Awakening_vws
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 0.89|US1857
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 0.88| httpsgitiov9999 莫斯科CDN ip4 3
+  server: 104.27.17.236
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 0.85|NL644
+  server: 89.31.127.151
+  type: trojan
+  country: NL
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 0.85|httpsgitiov9999 defaultname
+  server: free-russian01-cdn.xiaohouzi.club
+  port: 443
+  type: vmess
+  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
+  alterId: 233
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /2993fe/
+  ws-headers:
+    Host: free-russian01-cdn.xiaohouzi.club
+- name: 0.69|RO737
+  server: 185.126.116.235
+  type: trojan
+  country: RO
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.67| httpsgitiov9999 US美国 13
+  server: 45.35.84.162
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-dallas.lvuft.com
+- name: 0.67|DE350
+  server: 5.183.179.138
+  type: trojan
+  country: DE
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 0.66|RelayUSUS214  226Mb
   server: v1.ssrsub.com
   type: vmess
   country: US
@@ -153,352 +510,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.51|RelayUSUS204  944Mb
-  server: v8.ssrsub.com
-  type: vmess
-  country: US
-  port: 443
-  uuid: c4415de6-7548-4c8b-94c7-28c37179e84a
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.49| httpsgitiov9999 美国CDN ip1 15
-  server: icook.tw
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.46| httpsgitiov9999 美国CDN ip1 10
-  server: 104.19.183.198
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.45| httpsgitiov9999 莫斯科CDN ip4 13
-  server: 104.22.32.71
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.44| httpsgitiov9999 美国CDN ip1 4
-  server: 104.19.42.37
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.43| httpsgitiov9999 美国CDN ip1 7
-  server: 104.16.195.23
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.41| httpsgitiov9999 美国CDN ip1 12
-  server: 1.1.1.1
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.40| httpsgitiov9999 美国CDN ip1 11
-  server: 104.21.209.112
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.39| httpsgitiov9999 美国CDN ip1 13
-  server: 104.20.169.236
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.35| httpsgitiov9999 美国CDN ip1 5
-  server: 104.16.206.241
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.34| httpsgitiov9999 美国CDN ip1 2
-  server: cf.521024.xyz
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.33| httpsgitiov9999 美国CDN ip1 8
-  server: cdn.xia.me
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.32| httpsgitiov9999 US美国RU俄罗斯联邦 3
-  server: 172.67.176.114
-  port: 443
-  type: vmess
-  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /2993fe/
-  ws-headers:
-    Host: free-russian01-cdn.xiaohouzi.club
-- name: 1.31| httpsgitiov9999 美国CDN ip1 3
-  server: 104.17.97.246
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.28| httpsgitiov9999 美国CDN ip1 14
-  server: 104.16.190.180
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.28| httpsgitiov9999 莫斯科CDN ip4 2
-  server: 104.19.181.49
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.28| httpsgitiov9999 美国CDN ip1 9
-  server: cf1.521024.xyz
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.20|httpsgitiov9999 defaultname
-  server: 104.16.160.114
-  port: 443
-  type: vmess
-  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.18| httpsgitiov9999 美国CDN ip1 6
-  server: 104.19.103.228
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash3.v2rayfree1.xyz
-- name: 1.18|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.02| SSRSUB俄罗斯10付费推荐suoytssrsub
-  server: v2.ssrsub.com
-  port: 8443
-  type: vmess
-  uuid: c4415de6-7548-4c8b-94c7-28c37179e84a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v2.ssrsub.com
-- name: 0.97| httpsgitiov9999 莫斯科CDN ip4 6
-  server: 104.27.116.170
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 0.92|RO720
-  server: 62.216.92.179
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 0.91| httpsgitiov9999 加拿大安大略省基奇纳DataCity数据中心 16
-  server: t3.ssrsub.com
-  port: 156
-  type: trojan
-  password: 3babef69-fb91-47f8-8882-e5a0a1ba3689
-  sni: t3.ssrsub.com
-- name: 0.89| httpsgitiov9999 莫斯科CDN ip4 11
-  server: 172.67.85.124
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 0.86|httpsgitiov9999 defaultname 2
-  server: free-russian-cdn.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: e64c6f7c-48eb-4852-9b29-778faef14212
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /319285eb2d/
-  ws-headers:
-    Host: free-russian-cdn.xiaohouzi.club
-- name: 0.84| httpsgitiov9999 US美国 8
-  server: 209.58.139.41
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: usa-sanfrancisco.lvuft.com
-- name: 0.82| httpsgitiov9999 US美国 4
-  server: 208.98.48.2
-  port: 443
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: iesei1ei.com
-- name: 0.81|NL644
-  server: 89.31.127.151
-  type: trojan
-  country: NL
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 0.80|httpsgitiov9999 defaultname
-  server: free-russian01-cdn.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: 6a7f559d-5401-44c0-b737-bb9f8820681f
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /2993fe/
-  ws-headers:
-    Host: free-russian01-cdn.xiaohouzi.club
-- name: 0.77|RelayUSRU230 1229Mb
+- name: 0.61|RelayUSRU230 1229Mb
   server: free-russian02-cdn.xiaohouzi.club
   type: vmess
   country: US
@@ -515,51 +527,34 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.76| RelayUSRU1918  578Mb
-  server: 172.67.144.181
-  port: 443
+- name: 0.61|RelayUSUS204  944Mb
+  server: v8.ssrsub.com
   type: vmess
-  uuid: f84136de-e03e-4b19-abb0-388d5c8614b9
-  alterId: 233
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /0459ac88c41c8f/
-  ws-headers:
-    Host: free-russian02-cdn.xiaohouzi.club
-- name: 0.76|1222178
-  server: vincent-jackson2021.ga
+  country: US
   port: 443
-  type: trojan
-  password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  sni: vincent-jackson2021.ga
-- name: 0.72|GB425
-  server: 109.74.194.189
-  type: trojan
-  country: GB
-  port: 1443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 0.70|RelayININ75 2711Mb
-  server: aicoo6du.com
-  type: vmess
-  country: IN
-  port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
+  uuid: c4415de6-7548-4c8b-94c7-28c37179e84a
+  alterId: 0
   cipher: auto
   network: ws
-  ws-path: /ws
-  servername: aicoo6du.com
-  ws-headers:
-    HOST: aicoo6du.com
+  ws-path: /ssrsub
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 0.66| httpsgitiov9999 US美国 3
-  server: 192.186.129.66
+- name: 0.60| httpsgitiov9999 US美国
+  server: usa-miami.lvuft.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-miami.lvuft.com
+- name: 0.56| httpsgitiov9999 US美国 10
+  server: usa-buffalo.lvuft.com
   port: 443
   type: vmess
   uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
@@ -570,3 +565,15 @@ proxies:
   ws-path: /ws
   ws-headers:
     Host: usa-buffalo.lvuft.com
+- name: 0.53| httpsgitiov9999 US美国 4
+  server: 208.98.48.2
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: iesei1ei.com
