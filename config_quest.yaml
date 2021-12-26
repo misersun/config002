@@ -1,24 +1,12 @@
 proxies:
-- name: 4.90| TunnelK新加坡 普通 4  DO  21000 单端口
-  server: nkb.boom.party
-  port: 21000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 107440:xsWJSz
-  obfs-param: www.baidu.com
-- name: 3.99|CN359 1386Mb
-  server: 117.28.242.137
-  type: ssr
-  country: CN
-  port: 9359
-  password: '73117962'
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 3.46| TunnelF香港 VIP 7  HKBN  17000 单端口
+- name: 5.63| HKYoutube技术分享室整理 5
+  server: hk-hkg-shhk-001-tr.cdn.savoy.click
+  port: 20089
+  type: trojan
+  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
+  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
+  skip-cert-verify: false
+- name: 1.87| TunnelF香港 VIP 7  HKBN  17000 单端口
   server: n114.boom.party
   port: 17000
   type: ssr
@@ -28,16 +16,17 @@ proxies:
   obfs: http_simple
   protocol-param: 107440:xsWJSz
   obfs-param: www.baidu.com
-- name: 3.20|RelayCNHK232
-  server: hkchiansax2.msservicevip.pw
+- name: 1.57| TunnelK新加坡 普通 4  DO  21000 单端口
+  server: nkb.boom.party
+  port: 21000
   type: ssr
-  country: CN
-  port: 9359
-  password: '73117962'
   cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.75|trojan
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 107440:xsWJSz
+  obfs-param: www.baidu.com
+- name: 1.33|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -46,21 +35,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.63|RelayUSUS1789
-  server: usa-server-02.selfupay.com
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.58|1222178
-  server: vincent-jackson2021.ga
-  port: 443
-  type: trojan
-  password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  sni: vincent-jackson2021.ga
-- name: 1.14|Relay 1184Mb
+- name: 1.22|Relay 1184Mb
   server: t1.ssrsub.com
   type: trojan
   country: CA
@@ -68,7 +43,15 @@ proxies:
   password: 8cf83f44-79ff-4e50-be1a-585c82338912
   skip-cert-verify: true
   udp: true
-- name: 0.75| JK1V4湖新LINODE0215x流量解锁
+- name: 1.14|Relay  311Mb
+  server: t4.ssrsub.com
+  type: trojan
+  country: CA
+  port: 156
+  password: 8cf83f44-79ff-4e50-be1a-585c82338912
+  skip-cert-verify: true
+  udp: true
+- name: 0.83| JK1V4湖新LINODE0215x流量解锁
   server: jike1-gzyd.ddns-only.xyz
   port: 31568
   type: ssr
@@ -78,18 +61,17 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 156931:VxAvMJ
   obfs-param: 67a6c156931.microsoft.com
-- name: 0.73|US1857
-  server: 72.167.45.6
+- name: 0.77|GB489
+  server: 109.74.194.189
   type: trojan
-  country: US
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
+  country: GB
+  port: 1443
+  password: 7x42LetRa0
   skip-cert-verify: true
   udp: true
-- name: 0.57| HKYoutube技术分享室整理 5
-  server: hk-hkg-shhk-001-tr.cdn.savoy.click
-  port: 20089
+- name: 0.36|1222178
+  server: vincent-jackson2021.ga
+  port: 443
   type: trojan
-  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
-  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
-  skip-cert-verify: false
+  password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  sni: vincent-jackson2021.ga
