@@ -1,49 +1,5 @@
 proxies:
-- name: 5.63| 香港 2
-  server: 116.163.10.131
-  port: 22779
-  type: ssr
-  cipher: chacha20-ietf
-  password: m2KSOD
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 5033:hh8o92
-  obfs-param: .microsoft.com
-- name: 5.03| TunnelF香港 VIP 7  HKBN  17000 单端口
-  server: n114.boom.party
-  port: 17000
-  type: ssr
-  cipher: aes-256-cfb
-  password: Uk92CS
-  protocol: auth_aes128_sha1
-  obfs: http_simple
-  protocol-param: 107440:xsWJSz
-  obfs-param: www.baidu.com
-- name: 4.73|RelayCNHK232
-  server: hkchiansax2.msservicevip.pw
-  type: ssr
-  country: CN
-  port: 9359
-  password: '73117962'
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 3.68|SG161 2320Mb
-  server: 81.90.189.85
-  type: trojan
-  country: SG
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 3.04| HKYoutube技术分享室整理 5
-  server: hk-hkg-shhk-001-tr.cdn.savoy.click
-  port: 20089
-  type: trojan
-  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
-  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
-  skip-cert-verify: false
-- name: 2.21| TunnelK新加坡 普通 4  DO  21000 单端口
+- name: 4.90| TunnelK新加坡 普通 4  DO  21000 单端口
   server: nkb.boom.party
   port: 21000
   type: ssr
@@ -53,7 +9,35 @@ proxies:
   obfs: http_simple
   protocol-param: 107440:xsWJSz
   obfs-param: www.baidu.com
-- name: 2.01|trojan
+- name: 3.99|CN359 1386Mb
+  server: 117.28.242.137
+  type: ssr
+  country: CN
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 3.46| TunnelF香港 VIP 7  HKBN  17000 单端口
+  server: n114.boom.party
+  port: 17000
+  type: ssr
+  cipher: aes-256-cfb
+  password: Uk92CS
+  protocol: auth_aes128_sha1
+  obfs: http_simple
+  protocol-param: 107440:xsWJSz
+  obfs-param: www.baidu.com
+- name: 3.20|RelayCNHK232
+  server: hkchiansax2.msservicevip.pw
+  type: ssr
+  country: CN
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.75|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -62,21 +46,29 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.44|Relay  291Mb
-  server: t4.ssrsub.com
+- name: 1.63|RelayUSUS1789
+  server: usa-server-02.selfupay.com
   type: trojan
-  country: CA
-  port: 156
-  password: c4415de6-7548-4c8b-94c7-28c37179e84a
+  country: US
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: 1.42| 英国24
-  server: 185.105.191.92
+- name: 1.58|1222178
+  server: vincent-jackson2021.ga
   port: 443
   type: trojan
-  password: 28d98f761aca9d636f44db62544628eb
+  password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  sni: vincent-jackson2021.ga
+- name: 1.14|Relay 1184Mb
+  server: t1.ssrsub.com
+  type: trojan
+  country: CA
+  port: 8443
+  password: 8cf83f44-79ff-4e50-be1a-585c82338912
   skip-cert-verify: true
-- name: 1.35| JK1V4湖新LINODE0215x流量解锁
+  udp: true
+- name: 0.75| JK1V4湖新LINODE0215x流量解锁
   server: jike1-gzyd.ddns-only.xyz
   port: 31568
   type: ssr
@@ -86,7 +78,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 156931:VxAvMJ
   obfs-param: 67a6c156931.microsoft.com
-- name: 0.89|US1857
+- name: 0.73|US1857
   server: 72.167.45.6
   type: trojan
   country: US
@@ -94,33 +86,10 @@ proxies:
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 0.85|NL644
-  server: 89.31.127.151
+- name: 0.57| HKYoutube技术分享室整理 5
+  server: hk-hkg-shhk-001-tr.cdn.savoy.click
+  port: 20089
   type: trojan
-  country: NL
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 0.69|RO737
-  server: 185.126.116.235
-  type: trojan
-  country: RO
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 0.67|DE350
-  server: 5.183.179.138
-  type: trojan
-  country: DE
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 0.32| httpsgitiov9999 加拿大安大略省基奇纳DataCity数据中心 16
-  server: t3.ssrsub.com
-  port: 156
-  type: trojan
-  password: 3babef69-fb91-47f8-8882-e5a0a1ba3689
-  sni: t3.ssrsub.com
+  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
+  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
+  skip-cert-verify: false
