@@ -1,70 +1,147 @@
 proxies:
-- name: 6.01|Relay 3020Mb
-  server: cn.zzv01.infonode.xyz
-  port: 17011
+- name: 5.82| 标准香港04解锁流媒体
+  server: zfd.out01.nodeserver.top
+  port: 16114
   type: vmess
-  uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: cn.zzv01.infonode.xyz
-- name: 5.72|Relay 3483Mb
-  server: cn.zzv11.infonode.xyz
-  port: 17011
+  skip-cert-verify: false
+- name: 5.48| 香港 沪港9929  Netflix  B1
+  server: aws-beijing-1.dnspro.icu
+  port: 20026
   type: vmess
-  uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
+  uuid: 050db15c-82d0-3f33-9476-fa07023d39f0
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: false
   network: ws
-  ws-path: /v2ray
+  ws-path: /iso
   ws-headers:
-    Host: cn.zzv11.infonode.xyz
-- alterId: 1
-  cipher: auto
-  name: 5.69|1226oslook中国香港中国台湾CNChinaShanghai可能是中转节点81
-  network: tcp
-  port: 10001
-  server: shcn2-06b.iplc188.com
-  tls: false
+    Host: aws-beijing-1.dnspro.icu
+- name: 5.48| RelayUSHK1885 4153Mb
+  server: mf-aws-hk-02.xncloud.xyz
+  port: 18000
   type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /niaoyun
   ws-headers:
-    Host: shcn2-06b.iplc188.com
-- name: 5.68| 专线香港08原生HGCBBS
+    Host: mf-aws-hk-02.xncloud.xyz
+- name: 5.41| PRO香港HKBNDF广州移动②原生HK06V2
+  server: 120.232.192.191
+  port: 10011
+  type: vmess
+  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 5.41| vip①v2ray香港2EC2
+  server: 31.v2-ray.cyou
+  port: 15031
+  type: vmess
+  uuid: ad2c76fd-df22-39c7-a108-924bb0938aeb
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 31.v2-ray.cyou
+- name: 5.30|US1991 1110Mb
+  server: mf-aws-hk-11.xncloud.xyz
+  type: vmess
+  country: US
+  port: 18000
+  uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /niaoyun
+  servername: mf-aws-hk-11.xncloud.xyz
+  ws-headers:
+    HOST: mf-aws-hk-11.xncloud.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.28| 专线香港06解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16218
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 5.24| 标准香港03解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16113
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 5.21| 专线香港02主力节点
   server: zfd.out02.nodeserver.top
-  port: 16237
+  port: 16214
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 5.55| 专线中国台湾05原生HINET
-  server: zfd.out04.nodeserver.top
-  port: 16226
+- name: 5.08| RelayHKHK613 7091Mb
+  server: mf-aws-hk-12.xncloud.xyz
+  port: 18000
   type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 5.23|Relay 2273Mb
-  server: cn.zzv12.infonode.xyz
-  port: 17011
-  type: vmess
-  uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-  alterId: 0
+  uuid: 12c00b6c-bdec-3162-aac2-2ae87e174156
+  alterId: 1
   cipher: auto
   tls: false
   network: ws
-  ws-path: /v2ray
+  ws-path: /niaoyun
   ws-headers:
-    Host: cn.zzv12.infonode.xyz
-- name: 5.10| 标准香港06解锁流媒体
+    Host: mf-aws-hk-12.xncloud.xyz
+- name: 4.99| 专线香港04解锁流媒体
+  server: zfd.out01.nodeserver.top
+  port: 16216
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.97| vip①v2ray新加坡3移动中继100M
+  server: 5.v2-ray.cyou
+  port: 32405
+  type: vmess
+  uuid: ad2c76fd-df22-39c7-a108-924bb0938aeb
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: 5.v2-ray.cyou
+- name: 4.91| 标准香港02解锁流媒体
+  server: zfd.out02.nodeserver.top
+  port: 16112
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.83| 标准香港06解锁流媒体
   server: zfd.out03.nodeserver.top
   port: 16116
   type: vmess
@@ -73,7 +150,55 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 5.01|JP102 1023Mb
+- name: 4.71| vip①v2ray韩国2AWS
+  server: 24.v2-ray.cyou
+  port: 15024
+  type: vmess
+  uuid: ad2c76fd-df22-39c7-a108-924bb0938aeb
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: 24.v2-ray.cyou
+- name: 4.63| VIP3香港CN2丨电信用户使用
+  server: hkcn2.jjxcloud.xyz
+  port: 1000
+  type: vmess
+  uuid: 45834822-3b61-3390-9210-d0910e597293
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: hkcn2.jjxcloud.xyz
+- name: 4.42| vip①v2ray美国2AWS
+  server: 74.v2-ray.cyou
+  port: 36174
+  type: vmess
+  uuid: ad2c76fd-df22-39c7-a108-924bb0938aeb
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 74.v2-ray.cyou
+- name: 4.40| PROHKT打机神线①上海CN2②原生HK08V2
+  server: cn12.wjbnb.nodes.backwaves.net
+  port: 10000
+  type: vmess
+  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.28|JP102 1023Mb
   server: 172.104.98.216
   type: vmess
   country: JP
@@ -89,129 +214,327 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 5.00|RelayCNSG320
-  server: 112.33.32.136
-  type: vmess
-  country: CN
-  port: 10002
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
+- alterId: 1
   cipher: auto
+  name: 4.24|1226oslook中国香港中国台湾CNChinaShanghai可能是中转节点81
   network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.99|RelayCNHK238
-  server: 120.197.88.216
+  port: 10001
+  server: shcn2-06b.iplc188.com
+  tls: false
   type: vmess
-  country: CN
-  port: 20001
-  uuid: 649f95f3-ab9c-429c-9185-ff5e44b7805d
-  alterId: 1
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  ws-headers:
+    Host: shcn2-06b.iplc188.com
+- name: 4.15| PRO香港HKBNDF广州移动③原生HK06V2
+  server: 120.232.173.37
+  port: 20002
+  type: vmess
+  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  alterId: 0
   cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.04| vip1 v2ray日本最新域名mgnetvip
+  server: 45.v2-ray.cyou
+  port: 11445
+  type: vmess
+  uuid: ad2c76fd-df22-39c7-a108-924bb0938aeb
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: 45.v2-ray.cyou
+- name: 3.89| PRO香港HKBNDF江门移动原生HK06V2
+  server: cn05.ehqx2.nodes.backwaves.net
+  port: 10012
+  type: vmess
+  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 3.87| 日本02
+  server: jp.us.kr.relay.cccloud.club
+  port: 11000
+  type: vmess
+  uuid: b871fd9e-c0f6-313c-a176-8b2d1674eac1
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
   network: ws
   ws-path: /
-  servername: cm-jm.okvpn.xyz
   ws-headers:
-    HOST: cm-jm.okvpn.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.99| 专线香港02主力节点
+    Host: jp-02.coco.hetun.asia
+- name: 3.77| 专线中国台湾01原生HINET优化
+  server: zfd.out01.nodeserver.top
+  port: 16239
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 3.74| PRO香港HKBNDF佛山移动原生HK06V2
+  server: cn01.awmmv.nodes.backwaves.net
+  port: 10012
+  type: vmess
+  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 3.63| PROHKT打机神线①上海CN2①原生HK08V2
+  server: cn11.wtmjb.nodes.backwaves.net
+  port: 10000
+  type: vmess
+  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 3.46| 新加坡 沪新9929  Netflix  B1
+  server: aws-beijing-1.dnspro.icu
+  port: 20029
+  type: vmess
+  uuid: 050db15c-82d0-3f33-9476-fa07023d39f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: aws-beijing-1.dnspro.icu
+- name: 3.39| 台湾 粤港台  Netflix动画疯  B1
+  server: tw-gx-2.dnspro.icu
+  port: 2433
+  type: vmess
+  uuid: 050db15c-82d0-3f33-9476-fa07023d39f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: tw-gx-2.dnspro.icu
+- name: 3.26| 专线香港08原生HGCBBS
   server: zfd.out02.nodeserver.top
-  port: 16214
+  port: 16237
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 4.93|RelayCNDE79  544Mb
-  server: 116.163.10.145
+- name: 3.21|12225
+  server: 1116yn.fans8.xyz
+  port: 80
   type: vmess
-  country: CN
-  port: 65016
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
   alterId: 2
   cipher: auto
+  tls: false
   network: ws
-  ws-path: /rocket
-  servername: 00.cn2.rocketdns.xyz
+  ws-path: /v2ray
   ws-headers:
-    HOST: 00.cn2.rocketdns.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.93| 专线中国台湾02原生HINET
-  server: zfd.out01.nodeserver.top
-  port: 16223
+    Host: youtube-aweikeji
+- name: 3.14| vip①v2ray日本2AWS
+  server: 38.v2-ray.cyou
+  port: 15038
   type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
+  uuid: ad2c76fd-df22-39c7-a108-924bb0938aeb
+  alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 4.84|Relay 2277Mb
-  server: 00.cn3.rocketdns.xyz
-  port: 65016
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 38.v2-ray.cyou
+- name: 3.11| vip①v2ray韩国1AWS
+  server: 28.v2-ray.cyou
+  port: 18180
   type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
+  uuid: ad2c76fd-df22-39c7-a108-924bb0938aeb
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: 28.v2-ray.cyou
+- name: 3.09|12222
+  server: 165.154.229.22
+  port: 80
+  type: vmess
+  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
   alterId: 2
   cipher: auto
   tls: false
   network: ws
-  ws-path: /rocket
+  ws-path: /v2ray
   ws-headers:
-    Host: 00.cn3.rocketdns.xyz
-- name: 4.82|Relay 3337Mb
-  server: 00.cn4.rocketdns.xyz
-  port: 65003
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /rocket
-  ws-headers:
-    Host: 00.cn4.rocketdns.xyz
-- name: 4.70|Relay 1249Mb
-  server: 00.cn1.rocketdns.xyz
-  type: vmess
-  country: CN
-  port: 65018
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /rocket
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.64| 标准中国台湾04解锁流媒体
+    Host: 165.154.229.22
+- name: 2.90| 专线中国台湾05原生HINET
   server: zfd.out04.nodeserver.top
-  port: 16128
+  port: 16226
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 4.63| 专线香港04解锁流媒体
+- name: 2.90| PRO台湾Hinet广州移动②原生TW01V2
+  server: cn04.UIMXx.nodes.backwaves.net
+  port: 10001
+  type: vmess
+  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: www.three.com.hk
+- name: 2.89| PRO马来西亚TMNET佛山移动原生MY01V2
+  server: 183.240.60.90
+  port: 10013
+  type: vmess
+  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: www.baidu.com
+- name: 2.83| 标准中国台湾01解锁流媒体
   server: zfd.out01.nodeserver.top
-  port: 16216
+  port: 16125
   type: vmess
   uuid: f8a35790-1599-38a5-bed9-224befd26d38
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 4.58|RelayHKHK597 6905Mb
-  server: hkaz5.biteb.club
+- name: 2.73| PRO台湾Hinet广州移动③原生TW01V2
+  server: 120.232.173.37
+  port: 20001
+  type: vmess
+  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.71| 标准美国01解锁流媒体 4
+  server: zfd.out01.nodeserver.top
+  port: 16103
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.66| 标准中国台湾02解锁流媒体
+  server: zfd.out02.nodeserver.top
+  port: 16126
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.65| 标准中国台湾03解锁流媒体
+  server: zfd.out03.nodeserver.top
+  port: 16127
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.61| 专线西雅图02原生NTT
+  server: zfd.out02.nodeserver.top
+  port: 16234
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.60| vip①v2ray日本1AWS
+  server: 86.v2-ray.cyou
+  port: 15086
+  type: vmess
+  uuid: ad2c76fd-df22-39c7-a108-924bb0938aeb
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 86.v2-ray.cyou
+- name: 2.56| VIP2香港HKT商宽丨直连
+  server: hk.jjxcloud.xyz
+  port: 1000
+  type: vmess
+  uuid: 45834822-3b61-3390-9210-d0910e597293
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: hk.jjxcloud.xyz
+- name: 2.55| 美国 V2ray  全媒体  B1
+  server: gz-us-1.dnspro.icu
+  port: 7000
+  type: vmess
+  uuid: 050db15c-82d0-3f33-9476-fa07023d39f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /iso
+  ws-headers:
+    Host: gz-us-1.dnspro.icu
+- name: 2.54| 香港 HK x10 D2 本土
+  server: hkhkt1.biteb-ssx.xyz
+  port: 10871
+  type: vmess
+  uuid: 773b08b5-4c34-31c4-be74-d2cfaf335a25
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: index
+  ws-headers:
+    Host: hkhkt1.biteb-ssx.xyz
+- name: 2.54| 专线中国台湾04原生HINET
+  server: zfd.out03.nodeserver.top
+  port: 16225
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.49|RelayHKHK517
+  server: hkhkt1.biteb.club
   type: vmess
   country: HK
-  port: 11390
+  port: 10871
   uuid: 275ee57d-67cd-3199-b0b1-2ef5fe996376
   alterId: 2
   cipher: auto
@@ -223,366 +546,15 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.55| RelayCNDE405 3309Mb
-  server: 00.cn2.rocketdns.xyz
-  port: 65015
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /rocket
-  ws-headers:
-    Host: 00.cn2.rocketdns.xyz
-- name: 4.52| 香港免流03
-  server: 3.zhuzhu12.com
+- name: 2.49|二爷翻墙网 https1808ga 25
+  server: ff5.uuv2.co.uk
   port: 80
   type: vmess
-  uuid: 8d4733ca-6d06-3f3b-8b42-a1103e74e2df
+  uuid: fbf53107-1b42-3da5-a77d-6ad22544c0e9
   alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: a.189.cn
-- name: 4.52|Relay 1133Mb
-  server: 00.cn1.rocketdns.xyz
-  type: vmess
-  country: CN
-  port: 65000
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /rocket
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.48|RelayCNJP52  408Mb
-  server: 00.cn4.rocketdns.xyz
-  type: vmess
-  country: CN
-  port: 65006
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /rocket
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.45| 专线中国台湾04原生HINET
-  server: zfd.out03.nodeserver.top
-  port: 16225
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 4.40| 标准中国台湾01解锁流媒体
-  server: zfd.out01.nodeserver.top
-  port: 16125
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 4.38|Relay 1116Mb
-  server: 00.cn1.rocketdns.xyz
-  type: vmess
-  country: CN
-  port: 65003
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /rocket
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.33|RelayCNHK33  526Mb
-  server: 00.cn3.rocketdns.xyz
-  type: vmess
-  country: CN
-  port: 65002
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /rocket
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.29|Relay 1599Mb
-  server: 00.cn2.rocketdns.xyz
-  port: 65018
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /rocket
-  ws-headers:
-    Host: 00.cn2.rocketdns.xyz
-- name: 4.27|Relay 3375Mb
-  server: cn.zzv06.infonode.xyz
-  port: 17011
-  type: vmess
-  uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-  alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /v2ray
   ws-headers:
-    Host: cn.zzv06.infonode.xyz
-- name: 4.24|RelayCNJP53 1957Mb
-  server: 00.cn2.rocketdns.xyz
-  type: vmess
-  country: CN
-  port: 65005
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /rocket
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.21|RelayCNUS19  316Mb
-  server: 112.33.32.136
-  type: vmess
-  country: CN
-  port: 10005
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.16|Relay  272Mb
-  server: 00.cn1.rocketdns.xyz
-  type: vmess
-  country: CN
-  port: 65017
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /rocket
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.08| 专线中国台湾01原生HINET优化
-  server: zfd.out01.nodeserver.top
-  port: 16239
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 4.07| RelayCNJP413 3349Mb
-  server: 00.cn1.rocketdns.xyz
-  port: 65004
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /rocket
-  ws-headers:
-    Host: 00.cn1.rocketdns.xyz
-- name: 4.06| 标准中国台湾02解锁流媒体
-  server: zfd.out02.nodeserver.top
-  port: 16126
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.96|Relay 2948Mb
-  server: cn.zzv07.infonode.xyz
-  port: 17011
-  type: vmess
-  uuid: ecb2dfcc-d5ec-3bb5-bb03-c22faac98448
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: cn.zzv07.infonode.xyz
-- name: 3.86|Relay 2243Mb
-  server: 00.cn2.rocketdns.xyz
-  port: 65016
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /rocket
-  ws-headers:
-    Host: 00.cn2.rocketdns.xyz
-- name: 3.76| 标准香港02解锁流媒体
-  server: zfd.out02.nodeserver.top
-  port: 16112
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.76|Relay 1518Mb
-  server: 116.163.14.146
-  port: 65003
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /rocket
-  ws-headers:
-    Host: 116.163.14.146
-- name: 3.73|Relay 2436Mb
-  server: 00.cn2.rocketdns.xyz
-  port: 65013
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /rocket
-  ws-headers:
-    Host: 00.cn2.rocketdns.xyz
-- name: 3.68| 香港免流05 解锁新加坡区奈飞 2
-  server: 5.zhuzhu12.com
-  port: 80
-  type: vmess
-  uuid: 8d4733ca-6d06-3f3b-8b42-a1103e74e2df
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /zz
-  ws-headers:
-    Host: a.189.cn
-- name: 3.67|RelayCNUS19  297Mb
-  server: 00.cn2.rocketdns.xyz
-  type: vmess
-  country: CN
-  port: 65004
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /rocket
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.65| 标准香港04解锁流媒体
-  server: zfd.out01.nodeserver.top
-  port: 16114
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.60|RelayCNHK15  452Mb
-  server: 116.163.10.145
-  type: vmess
-  country: CN
-  port: 65001
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /rocket
-  servername: 00.cn2.rocketdns.xyz
-  ws-headers:
-    HOST: 00.cn2.rocketdns.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.56|Relay 1534Mb
-  server: 116.163.14.146
-  port: 65018
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /rocket
-  ws-headers:
-    Host: 116.163.14.146
-- name: 3.46| PROHKT打机神线①上海CN2①原生HK08V2
-  server: cn11.wtmjb.nodes.backwaves.net
-  port: 10000
-  type: vmess
-  uuid: 6f80e0be-80f2-3bc5-8f3e-b002125dbf31
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.40|Relay 1261Mb
-  server: 116.163.14.146
-  port: 65017
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /rocket
-  ws-headers:
-    Host: 116.163.14.146
-- name: 3.40|Relay 2335Mb
-  server: 00.cn4.rocketdns.xyz
-  port: 65013
-  type: vmess
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /rocket
-  ws-headers:
-    Host: 00.cn4.rocketdns.xyz
-- name: 3.33| 专线香港06解锁流媒体
-  server: zfd.out03.nodeserver.top
-  port: 16218
-  type: vmess
-  uuid: f8a35790-1599-38a5-bed9-224befd26d38
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.33|RelayCNDE38  531Mb
-  server: 00.cn3.rocketdns.xyz
-  type: vmess
-  country: CN
-  port: 65015
-  uuid: 1ff21cb2-3b5a-380c-a087-2588077bf214
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /rocket
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
+    Host: t.me/vpnhat
