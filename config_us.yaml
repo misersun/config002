@@ -1,5 +1,5 @@
 proxies:
-- name: 2.36| 美国netflix
+- name: 1.86| 美国netflix
   server: 107.167.23.50
   port: 8084
   type: ssr
@@ -9,15 +9,16 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: releases.ubuntu.com
-- name: 1.98|US1772
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.89|trojan
+- name: 1.84|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 1.35|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -26,3 +27,11 @@ proxies:
   alpn:
   - h2
   - http/1.1
+- name: 0.76|US1772
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true

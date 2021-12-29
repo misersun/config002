@@ -1,12 +1,18 @@
 proxies:
-- name: 5.19| HKYoutube技术分享室整理 5
-  server: hk-hkg-shhk-001-tr.cdn.savoy.click
-  port: 20089
+- name: 6.32|CYL科技祝大家圣诞快乐 41
+  server: hk-hkg-sh-hk-02-tr.cdn.savoy.click
+  port: 21089
   type: trojan
   password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
-  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
-  skip-cert-verify: false
-- name: 4.98| TunnelF香港 VIP 7  HKBN  17000 单端口
+  sni: hk-hkg-sh-hk-02-tr.cdn.savoy.click
+  skip-cert-verify: true
+- name: 5.48| 香港HGC
+  server: azhk.relay.qchwnd.moe
+  port: 44601
+  type: trojan
+  password: 26423179-3f44-4515-a234-97d8f28dbeeb
+  sni: hk.node.qchwnd.moe
+- name: 5.31| TunnelF香港 VIP 7  HKBN  17000 单端口
   server: n114.boom.party
   port: 17000
   type: ssr
@@ -16,159 +22,129 @@ proxies:
   obfs: http_simple
   protocol-param: 107440:xsWJSz
   obfs-param: www.baidu.com
-- name: 3.74| aJapanDMM
-  server: hygz.q-air.icu
-  port: 18221
-  type: trojan
-  password: d485205a-abc6-3940-8f89-faf533b0b001
-  sni: hygz.q-air.icu
-  skip-cert-verify: false
-- name: 2.48| 日本1
-  server: jp-am46.eqnode.net
-  port: 8081
-  type: ssr
-  cipher: aes-256-cfb
-  password: 3oaJ5K2Wn
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: releases.ubuntu.com
-- name: 2.36| 美国netflix
-  server: 107.167.23.50
-  port: 8084
-  type: ssr
-  cipher: aes-256-cfb
-  password: RhKqtYoG8
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: releases.ubuntu.com
-- name: 2.12| 新加坡1
-  server: sg-am15.eqsunshine.com
-  port: 8181
-  type: ssr
-  cipher: aes-256-cfb
-  password: q4UW0QdUl
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: releases.ubuntu.com
-- name: 2.06| 新加坡3
-  server: sg-am11.eqnode.net
-  port: 8181
-  type: ssr
-  cipher: aes-256-cfb
-  password: kKdNNt2HZ
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: releases.ubuntu.com
-- name: 1.98|US1772
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.89|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.70| 韩国
-  server: kr-am6.eqnode.net
-  port: 443
-  type: ssr
-  cipher: aes-256-cfb
-  password: abHpSuLdQ
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: releases.ubuntu.com
-- name: 1.69| JK1V4广英01
-  server: shlt.ddns-only.xyz
-  port: 31300
+- name: 5.15|Jsnzkpg天下第一
+  server: 183.232.56.182
+  port: 577
   type: ssr
   cipher: chacha20-ietf
-  password: yT6Am5
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 156931:VxAvMJ
-  obfs-param: 67a6c156931.microsoft.com
-- name: 1.64| 印度
-  server: in-am2.eqnode.net
-  port: 8080
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 4.91|Jsnzkpg天下第一
+  server: 183.232.56.110
+  port: 574
   type: ssr
-  cipher: aes-256-cfb
-  password: fD0KP8PWA
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.62|Relay  311Mb
-  server: t4.ssrsub.com
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 4.69|Jsnzkpg天下第一
+  server: 183.232.56.182
+  port: 575
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 4.47|Jsnzkpg天下第一
+  server: 183.232.56.110
+  port: 1251
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 4.30|Jsnzkpg天下第一
+  server: 183.232.56.182
+  port: 1252
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 4.26|Jsnzkpg天下第一
+  server: 183.232.56.182
+  port: 1502
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 4.17| 新加坡
+  server: azhk.relay.qchwnd.moe
+  port: 44605
   type: trojan
-  country: CA
-  port: 156
-  password: 8cf83f44-79ff-4e50-be1a-585c82338912
-  skip-cert-verify: true
-  udp: true
-- name: 1.57| 英国
-  server: uk-am3-5.eqsunshine.com
-  port: 8181
+  password: 26423179-3f44-4515-a234-97d8f28dbeeb
+  sni: sg1.welink.qchwnd.moe
+- name: 4.06|Jsnzkpg天下第一
+  server: 183.232.56.110
+  port: 1503
   type: ssr
-  cipher: aes-256-cfb
-  password: PNRbp3j9B
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.53| 澳大利亚
-  server: sy-am2.eqsunshine.com
-  port: 443
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 3.85|Jsnzkpg天下第一
+  server: 183.232.56.110
+  port: 1203
   type: ssr
-  cipher: aes-256-cfb
-  password: Jz8r4gLNP
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.51| 美国2
-  server: us-am11.eqnode.net
-  port: 8080
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 3.84|Jsnzkpg天下第一
+  server: 183.232.56.110
+  port: 1501
   type: ssr
-  cipher: aes-256-cfb
-  password: vGndzdmPB
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: releases.ubuntu.com
-- name: 1.40| 德国
-  server: de-am2.eqnode.net
-  port: 8080
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 3.84|Jsnzkpg天下第一
+  server: 183.232.56.110
+  port: 1201
   type: ssr
-  cipher: aes-256-cfb
-  password: 82BMko4lE
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.35| 美国1
-  server: us-am32-5.eqnode.net
-  port: 8081
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 3.44|Jsnzkpg天下第一
+  server: 183.232.56.110
+  port: 1253
   type: ssr
-  cipher: aes-256-cfb
-  password: YFVrXZgRo
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.29| 新加坡2
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 3.40| 新加坡 隧道
+  server: newgy.jidan666.com
+  port: 23034
+  type: trojan
+  password: 26423179-3f44-4515-a234-97d8f28dbeeb
+  sni: sg1.welink.qchwnd.moe
+- name: 2.14| 新加坡2
   server: sg-am21.eqsunshine.com
   port: 8080
   type: ssr
@@ -178,15 +154,124 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: releases.ubuntu.com
-- name: 1.15|Relay  058Mb
-  server: t1.ssrsub.com
-  type: trojan
-  country: CA
+- name: 1.89| 新加坡3
+  server: sg-am11.eqnode.net
+  port: 8181
+  type: ssr
+  cipher: aes-256-cfb
+  password: kKdNNt2HZ
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: releases.ubuntu.com
+- name: 1.87| 美国2
+  server: us-am11.eqnode.net
+  port: 8080
+  type: ssr
+  cipher: aes-256-cfb
+  password: vGndzdmPB
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: releases.ubuntu.com
+- name: 1.86| 美国netflix
+  server: 107.167.23.50
+  port: 8084
+  type: ssr
+  cipher: aes-256-cfb
+  password: RhKqtYoG8
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: releases.ubuntu.com
+- name: 1.84|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
   port: 8443
-  password: 1de99090-4bd5-4670-9cec-05f55b4c6917
-  skip-cert-verify: true
-  udp: true
-- name: 1.10|  053Mb
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 1.78| JK1V4广英01
+  server: shlt.ddns-only.xyz
+  port: 31300
+  type: ssr
+  cipher: chacha20-ietf
+  password: yT6Am5
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 156931:VxAvMJ
+  obfs-param: 67a6c156931.microsoft.com
+- name: 1.75| 美国1
+  server: us-am32-5.eqnode.net
+  port: 8081
+  type: ssr
+  cipher: aes-256-cfb
+  password: YFVrXZgRo
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.68|美国1
+  type: snell
+  server: sha.bi.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 1.56| 英国
+  server: uk-am3-5.eqsunshine.com
+  port: 8181
+  type: ssr
+  cipher: aes-256-cfb
+  password: PNRbp3j9B
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.48| 澳大利亚
+  server: sy-am2.eqsunshine.com
+  port: 443
+  type: ssr
+  cipher: aes-256-cfb
+  password: Jz8r4gLNP
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.42| 德国
+  server: de-am2.eqnode.net
+  port: 8080
+  type: ssr
+  cipher: aes-256-cfb
+  password: 82BMko4lE
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.35|trojan
+  type: trojan
+  server: 65.49.196.246
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.26| 印度
+  server: in-am2.eqnode.net
+  port: 8080
+  type: ssr
+  cipher: aes-256-cfb
+  password: fD0KP8PWA
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.25|  053Mb
   server: t7.ssrsub.com
   type: trojan
   country: RU
@@ -194,7 +279,82 @@ proxies:
   password: 1de99090-4bd5-4670-9cec-05f55b4c6917
   skip-cert-verify: true
   udp: true
-- name: 0.84|GB489
+- name: 1.22|CYL科技20211228 363
+  server: www.yzqn.xyz
+  port: 443
+  type: trojan
+  password: hahaha666
+  sni: www.yzqn.xyz
+  skip-cert-verify: true
+- name: 1.19| HKYoutube技术分享室整理 5
+  server: hk-hkg-shhk-001-tr.cdn.savoy.click
+  port: 20089
+  type: trojan
+  password: nodnqJmXykIChRXUqqodCfhcWhtFglJX
+  sni: hk-hkg-shhk-001-tr.cdn.savoy.click
+  skip-cert-verify: false
+- name: 1.17|Relay  058Mb
+  server: t1.ssrsub.com
+  type: trojan
+  country: CA
+  port: 8443
+  password: 1de99090-4bd5-4670-9cec-05f55b4c6917
+  skip-cert-verify: true
+  udp: true
+- name: 1.01|Relay  311Mb
+  server: t4.ssrsub.com
+  type: trojan
+  country: CA
+  port: 156
+  password: 8cf83f44-79ff-4e50-be1a-585c82338912
+  skip-cert-verify: true
+  udp: true
+- name: 0.76|US1772
+  server: 72.167.45.6
+  type: trojan
+  country: US
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 0.60|JP674  107Mb
+  server: jp-am48-9.eqnode.net
+  type: ssr
+  country: JP
+  port: 8081
+  password: 3H2aN5Gnm
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 0.56|Jsnzkpg天下第一
+  server: 183.232.56.110
+  port: 575
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 0.53|Jsnzkpg天下第一
+  server: 183.232.56.182
+  port: 574
+  type: ssr
+  cipher: chacha20-ietf
+  password: mtbv8n
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 0.46|RelayRURU858  472Mb
+  server: vincent-jackson2021.ga
+  type: trojan
+  country: RU
+  port: 443
+  password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  skip-cert-verify: true
+  udp: true
+- name: 0.38|GB489
   server: 109.74.194.189
   type: trojan
   country: GB
@@ -202,11 +362,11 @@ proxies:
   password: 7x42LetRa0
   skip-cert-verify: true
   udp: true
-- name: 0.49|RelayRURU858  472Mb
-  server: vincent-jackson2021.ga
+- name: 0.31|RO806  334Mb
+  server: 62.216.92.179
   type: trojan
-  country: RU
+  country: RO
   port: 443
-  password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
