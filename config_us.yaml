@@ -1,25 +1,5 @@
 proxies:
-- name: 2.64|CN中国72
-  server: 183.232.56.182
-  port: 1302
-  type: ssr
-  password: mtbv8n
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 2.40|CN中国83
-  server: 183.232.56.110
-  port: 1301
-  type: ssr
-  password: mtbv8n
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 2.40|CN中国82
+- name: 2.50|CN中国82
   server: 183.232.56.110
   port: 1303
   type: ssr
@@ -29,7 +9,17 @@ proxies:
   obfs: plain
   protocol-param: 114882:LwdYLj
   obfs-param: t.me/vpnhat
-- name: 2.11|trojan
+- name: 2.35|CN中国72
+  server: 183.232.56.182
+  port: 1302
+  type: ssr
+  password: mtbv8n
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
+- name: 2.09|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -38,7 +28,7 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 2.07| 美国netflix
+- name: 2.04| 美国netflix
   server: 107.167.23.50
   port: 8084
   type: ssr
@@ -48,7 +38,13 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: releases.ubuntu.com
-- name: 1.98|美国2
+- name: 2.04|US216127167103341
+  server: www.xinyi369.tk
+  port: 443
+  type: trojan
+  password: 3528818a-1fe2-4c2a-b4f7-17e4d1eca52a
+  skip-cert-verify: false
+- name: 1.94|美国2
   type: snell
   server: sha.diao.jimosaofu.xyz
   port: 8443
@@ -57,11 +53,13 @@ proxies:
   obfs-opts:
     mode: tls
     host: mirrorn.centos.org
-- name: 1.95|US1772
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
+- name: 1.11|CN中国83
+  server: 183.232.56.110
+  port: 1301
+  type: ssr
+  password: mtbv8n
+  cipher: chacha20-ietf
+  protocol: auth_aes128_md5
+  obfs: plain
+  protocol-param: 114882:LwdYLj
+  obfs-param: t.me/vpnhat
