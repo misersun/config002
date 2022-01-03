@@ -1,35 +1,21 @@
 proxies:
-- name: 2.57|CN中国82
-  server: 183.232.56.110
-  port: 1303
+- name: 2.14| 美国332MBsYoutube不良林
+  server: 72.167.45.6
+  port: 443
+  type: trojan
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+- name: 1.92|US美国94
+  server: 107.167.23.50
+  port: 8084
   type: ssr
-  password: mtbv8n
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
+  password: RhKqtYoG8
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: t.me/vpnhat
   obfs-param: t.me/vpnhat
-- name: 2.28|CN中国83
-  server: 183.232.56.110
-  port: 1301
-  type: ssr
-  password: mtbv8n
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 2.19|CN中国72
-  server: 183.232.56.182
-  port: 1302
-  type: ssr
-  password: mtbv8n
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  obfs: plain
-  protocol-param: 114882:LwdYLj
-  obfs-param: t.me/vpnhat
-- name: 2.12|trojan
+- name: 1.83|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -38,17 +24,15 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.95| 美国netflix
-  server: 107.167.23.50
-  port: 8084
-  type: ssr
-  cipher: aes-256-cfb
-  password: RhKqtYoG8
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: releases.ubuntu.com
-- name: 1.44|美国2
+- name: 1.51|CN374  750Mb
+  server: s3.upyun.online
+  type: trojan
+  country: CN
+  port: 12340
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
+  skip-cert-verify: true
+  udp: true
+- name: 1.30|美国2
   type: snell
   server: sha.diao.jimosaofu.xyz
   port: 8443
@@ -57,30 +41,3 @@ proxies:
   obfs-opts:
     mode: tls
     host: mirrorn.centos.org
-- name: 1.13| US991  166Mb
-  server: 173.82.192.61
-  type: trojan
-  country: ' US'
-  port: 443
-  password: 7NzqVeVxSEsrdvgsdvsdsafcsdgvdfbgSDGFVDGVDSG
-  skip-cert-verify: true
-  udp: true
-- name: 1.03|CNwmt1112
-  server: gz1.52168.xyz
-  port: 1109
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 31028:PGgTsb
-  obfs-param: 87a8531028.baidu.com
-  udp: true
-- name: 0.48|US2024 7051Mb
-  server: 72.167.45.6
-  type: trojan
-  country: US
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
