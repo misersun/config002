@@ -1,5 +1,164 @@
 proxies:
-- name: 2.26|trojan
+- name: 6.62| VIP1香港HGC  原生IP  2号
+  server: cf2.xxcv.cc
+  port: 2083
+  type: vmess
+  uuid: 16d71e09-b2ae-3d8c-8bbb-5eeabed31975
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /hkhgc2
+  ws-headers:
+    Host: hkhgc2.xxcv.cc
+- name: 6.37| 香港1号 httpstmefreev2ml
+  server: freehk1.godlight.xyz
+  port: 443
+  type: vmess
+  uuid: e9cb9488-b4b5-44af-8dac-01f21eb1ccfd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /Download.apk
+  ws-headers:
+    Host: freehk1.godlight.xyz
+- name: 6.34| RO788
+  server: 62.216.92.179
+  type: trojan
+  country: ' RO'
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 5.92| RO790
+  server: 62.216.92.180
+  type: trojan
+  country: ' RO'
+  port: 443
+  password: a3fa58b581353bb375d2ddad0f327938
+  skip-cert-verify: true
+  udp: true
+- name: 5.14|RELAY104199754955
+  server: cf2.xxcv.cc
+  port: 8443
+  type: vmess
+  uuid: 16d71e09-b2ae-3d8c-8bbb-5eeabed31975
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /sg
+  tls: true
+  ws-headers:
+    Host: sg.xxcv.cc
+- name: 4.32|httpsgitiov9999  defaultname
+  server: 198.41.212.234
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: 2022-world-1.a-yu.xyz
+- name: 3.52|Relay 2715Mb
+  server: hk-hkg-sh-hk-02-tr.cdn.savoy.click
+  type: trojan
+  country: CN
+  port: 21089
+  password: SfobRIcergHchqBFzzua
+  skip-cert-verify: true
+  udp: true
+- name: 2.88|RelayCNTW327 1104Mb
+  server: tw-tpe-h-tr.cdn.savoy.click
+  type: trojan
+  country: CN
+  port: 989
+  password: SfobRIcergHchqBFzzua
+  skip-cert-verify: true
+  udp: true
+- name: 2.82|日本阿伟科技油管
+  server: jp11.holiganfan.com
+  port: 10088
+  type: trojan
+  password: 37ec6e2d-bbc9-479b-88ed-f3f1d95ecc1b
+  sni: jp11.holiganfan.com
+  skip-cert-verify: true
+  udp: true
+- name: 2.70| httpsgitiov9999  CN中国TW台湾
+  server: hk-hkg-it2-svm-v2.node.inforun.work
+  port: 13888
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 2.42| httpsgitiov9999  CN中国HK香港 2
+  server: hk-hkg-shhk-001-v2.cdn.savoy.click
+  port: 20088
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 2.41|RelayCNRU332 1082Mb
+  server: s2.upyun.online
+  type: trojan
+  country: CN
+  port: 12340
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
+  skip-cert-verify: true
+  udp: true
+- name: 2.39| httpsgitiov9999  CN中国HK香港 5
+  server: sh-hk-hgc-1g-v2.node.inforun.work
+  port: 20288
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 2.27| httpsgitiov9999  CN中国HK香港 3
+  server: hk-hkg-sh-hk-02-v2.cdn.savoy.click
+  port: 21088
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 2.22| httpsgitiov9999  CN中国US美国
+  server: us-sea-sh-us-02-v2.node.inforun.work
+  port: 22088
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 2.20|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -8,8 +167,127 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.48| httpsgitiov9999 莫斯科CDN ip4 9
-  server: 172.64.88.97
+- name: 2.16|RelayCNHK276
+  server: hk-hkg-gz-hk-hkt-v2.node.inforun.work
+  type: vmess
+  country: CN
+  port: 60088
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  servername: cdn.savoy.click
+  ws-headers:
+    HOST: cdn.savoy.click
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 2.09| httpsgitiov9999  CN中国JP日本
+  server: jp-nrt-04-v2.cdn.savoy.click
+  port: 888
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 2.03|CYL科技20210102 101
+  server: pr1.mooncloud.bike
+  port: 8443
+  type: vmess
+  uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: pr1.mooncloud.bike
+  udp: true
+- name: 2.01| httpsgitiov9999  TW台湾
+  server: tw-tpe-hq-v2.node.inforun.work
+  port: 888
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 1.78|CYL科技20210102 51
+  server: 104.16.181.197
+  port: 443
+  type: vmess
+  uuid: 7be43971-52f1-48af-9036-454a94b4723a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ws/?ed=2048
+  ws-headers:
+    Host: download.china666.ml
+  udp: true
+- name: 1.76|109
+  server: t7.ssrsub.com
+  type: trojan
+  port: 8443
+  password: da8ad13d-19e6-4a28-82a6-da15bbc0a968
+  sni: t7.ssrsub.com
+- name: 1.73| httpsgitiov9999 US美国 52
+  server: www.ltzs.buzz
+  port: 443
+  type: vmess
+  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /bb2b34a1
+  ws-headers:
+    Host: www.ltzs.buzz
+- name: 1.69| httpsgitiov9999 US美国 47
+  server: ff8.uuv2.co.uk
+  port: 443
+  type: vmess
+  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /bb2b34a1
+  ws-headers:
+    Host: www.ltzs.buzz
+- name: 1.62|113
+  server: t4.ssrsub.com
+  type: trojan
+  port: 156
+  password: da8ad13d-19e6-4a28-82a6-da15bbc0a968
+  sni: t4.ssrsub.com
+- name: 1.54|96
+  server: v6.ssrsub.com
+  type: vmess
+  port: 8443
+  uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v6.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: 1.53| httpsgitiov9999 莫斯科CDN ip4 2
+  server: 104.19.181.49
   port: 443
   type: vmess
   uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
@@ -20,19 +298,7 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: clash1.v2rayfree1.xyz
-- name: 1.46| httpsgitiov9999 莫斯科CDN ip4 4
-  server: 104.18.87.142
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.34| httpsgitiov9999 莫斯科CDN ip4 7
+- name: 1.52| httpsgitiov9999 莫斯科CDN ip4 7
   server: 104.20.210.106
   port: 443
   type: vmess
@@ -44,7 +310,19 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: clash1.v2rayfree1.xyz
-- name: 1.29| httpsgitiov9999 莫斯科CDN ip4 13
+- name: 1.49| httpsgitiov9999  CN中国TW台湾 2
+  server: tw-tpe-h-v2.cdn.savoy.click
+  port: 988
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 1.47| httpsgitiov9999 莫斯科CDN ip4 13
   server: 104.22.32.71
   port: 443
   type: vmess
@@ -56,3 +334,257 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: clash1.v2rayfree1.xyz
+- name: 1.45| httpsgitiov9999  CN中国US美国 3
+  server: us-sjc-na-v2.cdn.savoy.click
+  port: 688
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 1.44| US1828
+  server: 72.167.45.6
+  type: trojan
+  country: ' US'
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.42| CN365
+  server: 120.232.173.154
+  type: vmess
+  country: ' CN'
+  port: 30004
+  uuid: bed2f95a-8c4b-494e-94db-060f8cdc7d99
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: free-3.joker007.top
+  ws-headers:
+    HOST: free-3.joker007.top
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.36|CYL科技20210102 92
+  server: shz1.mooncloud.bike
+  port: 8443
+  type: vmess
+  uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: shz.mooncloud.bike
+  udp: true
+- name: 1.35| httpsgitiov9999 莫斯科CDN ip4 4
+  server: 104.18.87.142
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.28|CYL科技20210102 96
+  server: 104.16.104.135
+  port: 443
+  type: vmess
+  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
+  ws-headers:
+    Host: tight-math-32ee.tianzhen4567.workers.dev
+  udp: true
+- name: 1.28|RELAY10416104126699
+  server: 104.16.104.126
+  port: 443
+  type: vmess
+  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
+  tls: true
+  ws-headers:
+    Host: sweet-salad-aa33.tianzhen19880808.workers.dev
+- name: 1.27|CYL科技20210102 110
+  server: shz.mooncloud.bike
+  port: 8443
+  type: vmess
+  uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: shz.mooncloud.bike
+  udp: true
+- name: 1.25| httpsgitiov9999 莫斯科CDN ip4 9
+  server: 172.64.88.97
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.24|95
+  server: v5.ssrsub.com
+  type: vmess
+  port: 8443
+  uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v5.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: 1.22| httpsgitiov9999  US美国
+  server: 172.67.197.254
+  port: 443
+  type: vmess
+  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /bb2b34a1
+  ws-headers:
+    Host: www.ltzs.buzz
+- name: 1.18|101
+  server: v8.ssrsub.com
+  type: vmess
+  port: 443
+  uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v8.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: 1.14| httpsgitiov9999  CN中国US美国 2
+  server: us-sjc-ap-v2.node.inforun.work
+  port: 788
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 1.14| httpsgitiov9999 US美国 21
+  server: 192.96.204.250
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-washington.lvuft.com
+- name: 1.08|CYL科技20210102 65
+  server: inapus.mooncloud.bike
+  port: 443
+  type: vmess
+  uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: inapus.mooncloud.bike
+  udp: true
+- name: 1.05| httpsgitiov9999  CN中国RU俄罗斯联邦
+  server: ru-led-sh-ru-v2.node.inforun.work
+  port: 24088
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 1.05| httpsgitiov9999  DE德国
+  server: de-nue-v2.cdn.savoy.click
+  port: 888
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 1.04| httpsgitiov9999  CN中国HK香港 4
+  server: sh-hk-hgc-100m-v2.cdn.savoy.click
+  port: 20188
+  type: vmess
+  uuid: d42019f2-f144-4189-9caf-419ee54f7cab
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /je5x3pBN1vez3NQudNkB
+  ws-headers:
+    Host: cdn.savoy.click
+- name: 1.02| httpsgitiov9999 莫斯科CDN ip4 11
+  server: 172.67.85.124
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.02| httpsgitiov9999 US 2
+  server: usa-buffalo.lvuft.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-buffalo.lvuft.com
