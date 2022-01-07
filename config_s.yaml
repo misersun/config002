@@ -1,21 +1,41 @@
 proxies:
-- name: 5.99| RO790
-  server: 62.216.92.180
+- name: 6.04| HK HKG SHHK HGC 1G TRtrojan
+  server: sh-hk-hgc-1g-tr.node.inforun.work
+  port: 20289
   type: trojan
-  country: ' RO'
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
+  password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp
+  sni: cdn.savoy.click
+- name: 5.71| HK HKG GZHK HKT TR Atrojan
+  server: hk-hkg-gz-hk-hkt-v2.node.inforun.work
+  port: 60089
+  type: trojan
+  password: tswmqssAcdphWMRdDSPZbeVSzhRVbGdp
+  sni: cdn.savoy.click
+- name: 3.36|印度广港隧道15x
+  server: newgy.jidan666.com
+  port: 23033
+  type: trojan
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: newgy.jidan666.com
   skip-cert-verify: true
   udp: true
-- name: 5.96| RO788
-  server: 62.216.92.179
+- name: 3.22|印度BGP中转
+  server: azhk.relay.qchwnd.moe
+  port: 44604
   type: trojan
-  country: ' RO'
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
+  password: b89d279d-707e-4892-8963-9479ffd53b23
+  sni: azhk.relay.qchwnd.moe
   skip-cert-verify: true
   udp: true
-- name: 5.92| 香港1号 httpstmefreev2ml
+- name: 2.71|日本阿伟科技油管
+  server: jp11.holiganfan.com
+  port: 10088
+  type: trojan
+  password: 6a826c64-5b0a-4960-8de0-a4de86e71034
+  sni: jp11.holiganfan.com
+  skip-cert-verify: true
+  udp: true
+- name: 2.36| 香港1号 httpstmefreev2ml
   server: freehk1.godlight.xyz
   port: 443
   type: vmess
@@ -28,75 +48,7 @@ proxies:
   ws-path: /Download.apk
   ws-headers:
     Host: freehk1.godlight.xyz
-- name: 5.28|httpsgitiov9999  defaultname
-  server: 198.41.212.234
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: 2022-world-1.a-yu.xyz
-- name: 3.99|日本2BGP中转Netflix
-  server: azhk.relay.qchwnd.moe
-  port: 44603
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 3.68|香港BGPNetflix12x
-  server: azhk.node.qchwnd.moe
-  port: 44609
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.node.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 3.67|中華民國BGP中转Netflix12x
-  server: azhk.relay.qchwnd.moe
-  port: 44608
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 3.65|日本2广港隧道15x
-  server: newgy.jidan666.com
-  port: 23032
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: newgy.jidan666.com
-  skip-cert-verify: true
-  udp: true
-- name: 3.58|印度BGP中转
-  server: azhk.relay.qchwnd.moe
-  port: 44604
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 3.24|印度广港隧道15x
-  server: newgy.jidan666.com
-  port: 23033
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: newgy.jidan666.com
-  skip-cert-verify: true
-  udp: true
-- name: 2.53|RelayCN 1082Mb
-  server: s2.upyun.online
-  type: trojan
-  country: CN
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
-- name: 2.20|trojan
+- name: 2.29|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -105,96 +57,11 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 2.17|httpsgitiov9999 US美国
-  server: www.ltzs.buzz
+- name: 2.13|Ytb鹏哥分享US美国13
+  server: inapus.mooncloud.bike
   port: 443
   type: vmess
-  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /bb2b34a1
-  ws-headers:
-    Host: www.ltzs.buzz
-  udp: true
-- name: 2.13| US1828
-  server: 72.167.45.6
-  type: trojan
-  country: ' US'
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 2.09|RelayCN  897Mb
-  server: s1.upyun.online
-  type: trojan
-  country: CN
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
-- name: 1.98|httpsgitiov9999 US美国 5
-  server: 172.67.197.254
-  port: 443
-  type: vmess
-  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /bb2b34a1
-  ws-headers:
-    Host: www.ltzs.buzz
-  udp: true
-- name: 1.94|俄罗斯BGP中转
-  server: azhk.relay.qchwnd.moe
-  port: 44606
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 1.84|101
-  server: t7.ssrsub.com
-  type: trojan
-  port: 8443
-  password: da8ad13d-19e6-4a28-82a6-da15bbc0a968
-  sni: t7.ssrsub.com
-- name: 1.75|RELAY10421322330948
-  server: v2.ssrsub.com
-  port: 8443
-  type: vmess
-  uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /ssrsub
-  tls: true
-  ws-headers:
-    Host: v2.ssrsub.com
-- name: 1.70|97
-  server: v1.ssrsub.com
-  type: vmess
-  port: 8443
-  uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  ws-headers:
-    Host: v1.ssrsub.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-- name: 1.65|TGnodesharing
-  server: pr1.mooncloud.bike
-  port: 8443
-  type: vmess
-  uuid: 79fedd93-e758-4655-83ed-574f4afe2a04
+  uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec
   alterId: 0
   cipher: auto
   tls: true
@@ -202,117 +69,9 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: pr1.mooncloud.bike
+    Host: inapus.mooncloud.bike
   udp: true
-- name: 1.65|RELAY10421561160253
-  server: ruvds.testx.eu.org
-  port: 443
-  type: vmess
-  uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /vmess-share/?ed=2048
-  tls: true
-  ws-headers:
-    Host: ruvds.testx.eu.org
-- name: 1.63|Relay 1421Mb
-  server: s3.upyun.online
-  type: trojan
-  country: CN
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
-- name: 1.61|RELAY10420812400817
-  server: 104.20.81.240
-  port: 443
-  type: vmess
-  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.59| httpsgitiov9999 莫斯科CDN ip4 4
-  server: 104.18.87.142
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.58| httpsgitiov9999 莫斯科CDN ip4 7
-  server: 104.20.210.106
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.56|RELAY10417188910279
-  server: 104.17.188.91
-  port: 443
-  type: vmess
-  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.52| httpsgitiov9999 莫斯科CDN ip4 13
-  server: 104.22.32.71
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.52|RELAY10416162550277
-  server: 104.16.16.255
-  port: 443
-  type: vmess
-  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.51| httpsgitiov9999 莫斯科CDN ip4 2
-  server: 104.19.181.49
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.45|95
+- name: 1.78|95
   server: v8.ssrsub.com
   type: vmess
   port: 443
@@ -326,14 +85,54 @@ proxies:
   http-opts: {}
   h2-opts: {}
   tls: true
-- name: 1.28|103
+- name: 1.73|httpsgitiov9999 US美国
+  server: www.ltzs.buzz
+  port: 443
+  type: vmess
+  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /bb2b34a1
+  ws-headers:
+    Host: www.ltzs.buzz
+  udp: true
+- name: 1.69|httpsgitiov9999  defaultname
+  server: 198.41.212.234
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: 2022-world-1.a-yu.xyz
+- name: 1.55|103
   server: t1.ssrsub.com
   type: trojan
   port: 8443
   password: 7644049b-79e1-4c3b-b621-0a464ab47db4
   sni: t1.ssrsub.com
-- name: 1.24|RELAY1042241800699
-  server: 104.22.4.180
+- name: 1.52|97
+  server: v1.ssrsub.com
+  type: vmess
+  port: 8443
+  uuid: 7644049b-79e1-4c3b-b621-0a464ab47db4
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v1.ssrsub.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+- name: 1.50|RELAY10420812400817
+  server: 104.20.81.240
   port: 443
   type: vmess
   uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
@@ -345,25 +144,111 @@ proxies:
   tls: true
   ws-headers:
     Host: vincent-jackson2021.ga
-- name: 1.05|印度尼西亚BGP中转Netflix12x
-  server: azhk.relay.qchwnd.moe
-  port: 44607
+- name: 1.44| LT706
+  server: vincent-jackson2021.ga
   type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
+  country: ' LT'
+  port: 443
+  password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
   skip-cert-verify: true
   udp: true
-- name: 1.02|httpsgitiov9999 US美国 27
-  server: 192.186.129.66
+- name: 1.30| NL739
+  server: 89.31.127.151
+  type: trojan
+  country: ' NL'
   port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.29| IN631
+  server: aicoo6du.com
   type: vmess
+  country: ' IN'
+  port: 443
   uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
   alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: aicoo6du.com
+  ws-headers:
+    HOST: aicoo6du.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.27|101
+  server: t7.ssrsub.com
+  type: trojan
+  port: 8443
+  password: da8ad13d-19e6-4a28-82a6-da15bbc0a968
+  sni: t7.ssrsub.com
+- name: 1.20|Ytb鹏哥分享US美国45
+  server: oz1.mooncloud.bike
+  port: 2053
+  type: vmess
+  uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec
+  alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /ws
+  ws-path: /
   ws-headers:
-    Host: usa-buffalo.lvuft.com
+    Host: oz.mooncloud.bike
   udp: true
+- name: 1.15|Ytb鹏哥分享FI芬兰66
+  server: oz.mooncloud.bike
+  port: 2053
+  type: vmess
+  uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: oz.mooncloud.bike
+  udp: true
+- name: 1.11|Ytb鹏哥分享HU匈牙利35
+  server: 185.252.223.204
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /path/243535322906
+  ws-headers:
+    Host: www.16675463.xyz
+  udp: true
+- name: 1.08|  269Mb
+  server: api.ssfree.ru
+  type: vmess
+  country: US
+  port: 443
+  uuid: b4a08ba4-6f09-11ec-9afa-000017022008
+  alterId: 64
+  cipher: auto
+  network: ws
+  ws-path: /getweather
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.05|RELAY10421322330948
+  server: v2.ssrsub.com
+  port: 8443
+  type: vmess
+  uuid: da8ad13d-19e6-4a28-82a6-da15bbc0a968
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /ssrsub
+  tls: true
+  ws-headers:
+    Host: v2.ssrsub.com
