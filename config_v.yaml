@@ -1,57 +1,5 @@
 proxies:
-- name: 6.27|RelayHKHK505
-  server: hkaz5.biteb.club
-  type: vmess
-  country: HK
-  port: 11390
-  uuid: 275ee57d-67cd-3199-b0b1-2ef5fe996376
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: index
-  servername: t.me/vpnhat
-  ws-headers:
-    HOST: t.me/vpnhat
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.96| 5664Mb
-  server: cm-jm.okvpn.xyz
-  type: vmess
-  country: CN
-  port: 20000
-  uuid: 67ff6e5e-37f7-44cd-992d-2c74f8538963
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.87| 1184Mb
-  server: cm-jm.okvpn.xyz
-  type: vmess
-  country: CN
-  port: 20001
-  uuid: 67ff6e5e-37f7-44cd-992d-2c74f8538963
-  alterId: 1
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.69|HKYoutube技术分享室整理
-  server: shcn2-06b.iplc188.com
-  port: 10005
-  type: vmess
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 4.43| RelayJPJP644 4127Mb
+- name: 4.95| RelayJPJP644 4127Mb
   server: mf-aws-jp-05.xncloud.xyz
   port: 18000
   type: vmess
@@ -64,7 +12,32 @@ proxies:
   ws-path: /niaoyun
   ws-headers:
     Host: mf-aws-jp-05.xncloud.xyz
-- name: 3.42|CYL科技20220101 166
+- name: 4.81| 直连CN2 GIA 香港10 阿里云 HK
+  server: 47.243.67.117
+  port: 21888
+  type: vmess
+  uuid: aeaaff19-bb0b-434d-b206-0f2a3f4d90e9
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 47.243.67.117
+- name: 4.26| CN360
+  server: shcn2-06b.iplc188.com
+  type: vmess
+  country: ' CN'
+  port: 10001
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.87|CYL科技20220101 166
   server: vipdedi.boom.ovh
   port: 65521
   type: vmess
@@ -78,33 +51,57 @@ proxies:
   ws-headers:
     Host: vipdedi.boom.ovh
   udp: true
-- name: 3.37| CN360
-  server: shcn2-06b.iplc188.com
+- name: 3.12|专线香港08原生HGCBBS
+  server: zfd.out02.nodeserver.top
+  port: 16237
   type: vmess
-  country: ' CN'
-  port: 10001
-  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
-  alterId: 1
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
   cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
+  tls: false
   skip-cert-verify: true
-- name: 2.76| 3541Mb
-  server: cm-jm.okvpn.xyz
+  udp: true
+- name: 3.06|专线西雅图01原生NTT
+  server: zfd.out01.nodeserver.top
+  port: 16233
   type: vmess
-  country: CN
-  port: 20049
-  uuid: 67ff6e5e-37f7-44cd-992d-2c74f8538963
-  alterId: 1
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
+  tls: false
   skip-cert-verify: true
-- name: 2.42|共享
+  udp: true
+- name: 3.03|标准中国台湾04解锁流媒体
+  server: zfd.out04.nodeserver.top
+  port: 16128
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.92|专线西雅图02原生NTT
+  server: zfd.out02.nodeserver.top
+  port: 16234
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.69|专线中国台湾03原生HINET
+  server: zfd.out02.nodeserver.top
+  port: 16224
+  type: vmess
+  uuid: f8a35790-1599-38a5-bed9-224befd26d38
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.62|共享
   server: 27.122.57.72
   port: 35326
   type: vmess
@@ -113,41 +110,56 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 2.30|  851Mb
-  server: cm-jm.okvpn.xyz
+- name: 2.29|86
+  server: c23s3.jamjams.net
   type: vmess
-  country: CN
-  port: 20015
-  uuid: 67ff6e5e-37f7-44cd-992d-2c74f8538963
+  port: 61173
+  udp: true
+  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
+  alterId: 8
+  cipher: auto
+  http-opts: {}
+  h2-opts: {}
+- name: 2.17| CN445
+  server: shcn2-06b.iplc188.com
+  type: vmess
+  country: ' CN'
+  port: 10002
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
   alterId: 1
   cipher: auto
-  network: ws
+  network: tcp
   ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 2.15|NONFMYC20211128184
-  server: us07.vip-v2ray.cf
-  port: 58740
+- name: 1.93|US172672012281014
+  server: 7nw.top
+  port: 80
   type: vmess
-  uuid: 4ca67d33-f626-47ba-e077-0ff6742fc31c
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 2.14| US  738Mb
-  server: 149.28.68.148
-  port: 51557
-  type: vmess
-  uuid: dc3282c6-6dc4-11ec-ab06-560003c68329
+  uuid: 416f2658-f1f0-491e-9b59-42f6ad02797f
   alterId: 0
   cipher: auto
-  tls: false
+  skip-cert-vertify: false
   network: ws
-  ws-path: /pDdK57QY/
+  ws-path: /
+  tls: false
   ws-headers:
-    Host: 149.28.68.148
-- name: 1.94|USYoutube技术分享室整理 5
+    Host: 7nw.top
+- name: 1.61| CN440
+  server: 112.33.32.136
+  type: vmess
+  country: ' CN'
+  port: 10003
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.47|USYoutube技术分享室整理 5
   server: 104.24.160.31
   port: 80
   type: vmess
@@ -161,21 +173,18 @@ proxies:
   ws-headers:
     Host: download.china666.ml
   udp: true
-- name: 1.52|RelayCNUS294
-  server: gzyd01.speedbosnode.xyz
-  type: vmess
-  country: CN
-  port: 33117
-  uuid: dd519488-3552-362d-a881-57523865295e
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.52| CN392
+- name: 1.26|HKYoutube技术分享室整理
   server: shcn2-06b.iplc188.com
+  port: 10005
+  type: vmess
+  uuid: 65cac56d-4155-43c8-bae0-f368cb21f771
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.22| CN444
+  server: 112.64.69.187
   type: vmess
   country: ' CN'
   port: 10004
@@ -187,17 +196,24 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.05|Ytb鹏哥分享ZA南非88
-  server: 169.239.129.33
-  port: 12501
+- name: 1.09| SE198
+  server: 138.3.210.217
+  port: 60935
   type: vmess
-  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
-  alterId: 1
+  uuid: 1b693eb3-3241-362a-9001-5b503789cfbe
+  alterId: 2
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /v2ray
   ws-headers:
-    Host: 169.239.129.33
-  udp: true
+    Host: microsoft.com
+- name: 1.09|NONFMYC20211128184
+  server: us07.vip-v2ray.cf
+  port: 58740
+  type: vmess
+  uuid: 4ca67d33-f626-47ba-e077-0ff6742fc31c
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: false

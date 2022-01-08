@@ -1,5 +1,14 @@
 proxies:
-- name: 4.06|CN中国55
+- name: 6.94| CN68 TGpeekfun
+  server: 117.28.242.137
+  port: 9359
+  type: ssr
+  country: ' CN'
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 4.70|CN中国55
   server: 183.232.13.63
   port: 2109
   type: ssr
@@ -9,7 +18,25 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 28416:xul3hsefzm
   obfs-param: t.me/vpnhat
-- name: 1.99|CN中国51
+- name: 2.26|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 1.99| US1879
+  server: 107.167.23.50
+  type: ssr
+  country: ' US'
+  port: 8084
+  password: RhKqtYoG8
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 1.89|CN中国51
   server: 183.232.13.63
   port: 2102
   type: ssr
@@ -19,17 +46,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 28416:xul3hsefzm
   obfs-param: t.me/vpnhat
-- name: 1.68|CN中国49
-  server: 183.232.13.63
-  port: 2103
-  type: ssr
-  password: epChJS35fV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 28416:xul3hsefzm
-  obfs-param: t.me/vpnhat
-- name: 1.60|CN中国65
+- name: 1.63|CN中国65
   server: 183.232.13.63
   port: 2104
   type: ssr
@@ -39,30 +56,12 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 28416:xul3hsefzm
   obfs-param: t.me/vpnhat
-- name: 1.45| 2526Mb
-  server: 136.243.191.88
-  type: ssr
-  country: DE
-  port: 443
-  password: sEscPBiAD9K$&@79
-  cipher: aes-128-ctr
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-- name: 1.07| 1657Mb
-  server: 136.243.191.85
-  type: ssr
-  country: DE
-  port: 443
-  password: sEscPBiAD9K$&@79
-  cipher: aes-128-ctr
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-- name: 1.02|  336Mb
-  server: 35.183.124.2
-  type: ssr
-  country: CA
-  port: 8080
-  password: 4axflHccX
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
+- name: 1.38|美国1
+  type: snell
+  server: sha.bi.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
