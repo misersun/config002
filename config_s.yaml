@@ -1,74 +1,21 @@
 proxies:
-- name: 5.32|httpsgitiov9999  defaultname
-  server: 198.41.212.234
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: 2022-world-1.a-yu.xyz
-- name: 3.70| RO855
-  server: 62.216.92.179
-  type: trojan
-  country: ' RO'
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 3.36|印度广港隧道15x
-  server: newgy.jidan666.com
-  port: 23033
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: newgy.jidan666.com
-  skip-cert-verify: true
-  udp: true
-- name: 2.65|印度BGP中转
-  server: azhk.relay.qchwnd.moe
-  port: 44604
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 2.58| CN449
-  server: s1.upyun.online
+- name: 2.62| CN473
+  server: s3.upyun.online
   type: trojan
   country: ' CN'
   port: 12340
   password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
   skip-cert-verify: true
   udp: true
-- name: 2.20|NOWHERELAND00000507
-  server: tk.shcn2.tkddns.xyz
-  port: 22642
-  type: vmess
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  alterId: 2
-  cipher: aes-128-gcm
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /
-  tls: true
-  ws-headers:
-    Host: zxjp-b.tkong.cc
-- name: 2.00| RelayUSUS1953 1217Mb
-  server: 172.67.197.254
+- name: 2.61|RelaySGSG957 37766Mb
+  server: fuck.biubiubiu.cloud
+  type: trojan
+  country: SG
   port: 443
-  type: vmess
-  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /bb2b34a1
-  ws-headers:
-    Host: www.ltzs.buzz
-- name: 1.99|trojan
+  password: B4iK9pXaRnHfr9Rp
+  skip-cert-verify: true
+  udp: true
+- name: 2.26|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -77,72 +24,8 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.82|Ytb鹏哥分享US美国13
-  server: inapus.mooncloud.bike
-  port: 443
-  type: vmess
-  uuid: c6aa6b6f-66b2-4755-a12e-48c8836fa0ec
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: inapus.mooncloud.bike
-  udp: true
-- name: 1.62| 香港1号 httpstmefreev2ml
-  server: freehk1.godlight.xyz
-  port: 443
-  type: vmess
-  uuid: e9cb9488-b4b5-44af-8dac-01f21eb1ccfd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-path: /Download.apk
-  ws-headers:
-    Host: freehk1.godlight.xyz
-- name: 1.60| httpsgitiov9999 莫斯科CDN ip4 7
-  server: 104.20.210.106
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.59|RELAY10421111640238
-  server: ruvds.testx.eu.org
-  port: 443
-  type: vmess
-  uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /vmess-share/?ed=2048
-  tls: true
-  ws-headers:
-    Host: ruvds.testx.eu.org
-- name: 1.52| httpsgitiov9999 莫斯科CDN ip4 4
-  server: 104.18.87.142
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.51|RELAY10420130430797
-  server: 104.20.130.43
+- name: 1.59|RELAY104162071960718
+  server: 104.16.207.196
   port: 443
   type: vmess
   uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
@@ -154,19 +37,48 @@ proxies:
   tls: true
   ws-headers:
     Host: vincent-jackson2021.ga
-- name: 1.51| SSRSUB韩国V20付费推荐suoytssrsub
-  server: v10.ssrsub.com
-  port: 166
+- name: 1.55|RELAY10420812400805
+  server: 104.20.81.240
+  port: 443
   type: vmess
-  uuid: e6c36d58-6070-4b55-a437-146e6b53ec57
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws?ed=2048
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 1.52|USYoutube技术分享室整理
+  server: 104.16.181.150
+  port: 443
+  type: vmess
+  uuid: 7be43971-52f1-48af-9036-454a94b4723a
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /ssrsub
+  ws-path: /ws/?ed=2048
   ws-headers:
-    Host: v10.ssrsub.com
-- name: 1.50| RelayUSLT1925  133Mb
+    Host: download.china666.ml
+  udp: true
+- name: 1.52|USYoutube技术分享室整理 6
+  server: 104.16.181.197
+  port: 443
+  type: vmess
+  uuid: 7be43971-52f1-48af-9036-454a94b4723a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ws/?ed=2048
+  ws-headers:
+    Host: download.china666.ml
+  udp: true
+- name: 1.49| RelayUSLT1925  133Mb
   server: 104.16.160.114
   port: 443
   type: vmess
@@ -178,51 +90,100 @@ proxies:
   ws-path: /The-Great-Awakening_vws
   ws-headers:
     Host: vincent-jackson2021.ga
-- name: 1.49|httpsgitiov9999 US美国
-  server: www.ltzs.buzz
+- name: 1.47| httpsgitiov9999 莫斯科CDN ip4 9
+  server: 172.64.88.97
   port: 443
   type: vmess
-  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.45|USYoutube技术分享室整理 2
+  server: 104.16.181.103
+  port: 443
+  type: vmess
+  uuid: 7be43971-52f1-48af-9036-454a94b4723a
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /bb2b34a1
+  ws-path: /ws/?ed=2048
   ws-headers:
-    Host: www.ltzs.buzz
+    Host: download.china666.ml
   udp: true
-- name: 1.39|92
+- name: 1.42| US1989
+  server: 72.167.45.6
+  type: trojan
+  country: ' US'
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.37| httpsgitiov9999 莫斯科CDN ip4 2
+  server: 104.19.181.49
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.35| LT816
+  server: vincent-jackson2021.ga
+  type: trojan
+  country: ' LT'
+  port: 443
+  password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  skip-cert-verify: true
+  udp: true
+- name: 1.34|RELAY104212391470619
+  server: 104.21.239.147
+  port: 443
+  type: vmess
+  uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws?ed=2048
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.cf
+- name: 1.33|92
   server: t3.ssrsub.com
   type: trojan
   port: 156
   password: 1c356475-9d2e-4b35-b05a-95517756e7a5
   sni: t3.ssrsub.com
-- name: 1.34|94
-  server: t4.ssrsub.com
-  type: trojan
-  port: 156
-  password: e6c36d58-6070-4b55-a437-146e6b53ec57
-  sni: t4.ssrsub.com
-- name: 1.31| US1894
-  server: amu1ahfi.com
-  type: vmess
-  country: ' US'
+- name: 1.32|US17267209580324
+  server: 172.67.209.58
   port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
+  type: vmess
+  uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1
+  alterId: 0
   cipher: auto
+  skip-cert-vertify: false
   network: ws
-  ws-path: /ws
-  servername: amu1ahfi.com
-  ws-headers:
-    HOST: amu1ahfi.com
-  http-opts: {}
-  h2-opts: {}
+  ws-path: /The-Great-Awakening_vws?ed=2048
   tls: true
-  skip-cert-verify: true
-- name: 1.30|RELAY104162071960718
-  server: 104.16.207.196
+  ws-headers:
+    Host: vincent-jackson2021.cf
+- name: 1.29|101
+  server: t1.ssrsub.com
+  type: trojan
+  port: 8443
+  password: e6c36d58-6070-4b55-a437-146e6b53ec57
+  sni: t1.ssrsub.com
+- name: 1.26|RELAY10416162550261
+  server: 104.16.16.255
   port: 443
   type: vmess
   uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
@@ -247,32 +208,6 @@ proxies:
   tls: true
   ws-headers:
     Host: sweet-salad-aa33.tianzhen19880808.workers.dev
-- name: 1.20| httpsgitiov9999 莫斯科CDN ip4 9
-  server: 172.64.88.97
-  port: 443
-  type: vmess
-  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: clash1.v2rayfree1.xyz
-- name: 1.18|USYoutube技术分享室整理 6
-  server: 104.16.181.197
-  port: 443
-  type: vmess
-  uuid: 7be43971-52f1-48af-9036-454a94b4723a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /ws/?ed=2048
-  ws-headers:
-    Host: download.china666.ml
-  udp: true
 - name: 1.18|RELAY1042244500273
   server: 104.22.44.50
   port: 443
@@ -286,8 +221,48 @@ proxies:
   tls: true
   ws-headers:
     Host: vincent-jackson2021.ga
-- name: 1.16| httpsgitiov9999 莫斯科CDN ip4 3
-  server: 104.27.17.236
+- name: 1.18|Ytb鹏哥分享HU匈牙利35
+  server: 185.252.223.204
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /path/243535322906
+  ws-headers:
+    Host: www.16675463.xyz
+  udp: true
+- name: 1.15|RELAY1042241800685
+  server: 104.22.4.180
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws?ed=2048
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 1.15|RELAY10420130430797
+  server: 104.20.130.43
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws?ed=2048
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 1.08| httpsgitiov9999 莫斯科CDN ip4 7
+  server: 104.20.210.106
   port: 443
   type: vmess
   uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
@@ -298,7 +273,7 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: clash1.v2rayfree1.xyz
-- name: 1.14|  979Mb
+- name: 1.06|  979Mb
   server: 172.67.68.58
   type: vmess
   country: US
@@ -315,21 +290,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.14|Ytb鹏哥分享HU匈牙利35
-  server: 185.252.223.204
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /path/243535322906
-  ws-headers:
-    Host: www.16675463.xyz
-  udp: true
-- name: 1.10| httpsgitiov9999 莫斯科CDN ip4 13
+- name: 1.05| httpsgitiov9999 莫斯科CDN ip4 13
   server: 104.22.32.71
   port: 443
   type: vmess
@@ -341,28 +302,7 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: clash1.v2rayfree1.xyz
-- name: 1.07| CN460
-  server: s2.upyun.online
-  type: trojan
-  country: ' CN'
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
-- name: 1.06|RELAY1042241800685
-  server: 104.22.4.180
-  port: 443
-  type: vmess
-  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.05| httpsgitiov9999 莫斯科CDN ip4 6
+- name: 1.03| httpsgitiov9999 莫斯科CDN ip4 6
   server: 104.27.116.170
   port: 443
   type: vmess
@@ -374,20 +314,40 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: clash1.v2rayfree1.xyz
-- name: 1.00|RelayUSUS1825
-  server: dax6ujai.com
-  type: vmess
-  country: US
+- name: 1.03| httpsgitiov9999 莫斯科CDN ip4 4
+  server: 104.18.87.142
   port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /ws
-  servername: dax6ujai.com
-  ws-headers:
-    HOST: dax6ujai.com
-  http-opts: {}
-  h2-opts: {}
   tls: true
-  skip-cert-verify: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz
+- name: 1.02|RELAY10417188910263
+  server: 104.17.188.91
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws?ed=2048
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 1.02| httpsgitiov9999 莫斯科CDN ip4 3
+  server: 104.27.17.236
+  port: 443
+  type: vmess
+  uuid: 4f3cce18-3c2b-4740-b078-ed2713101e2c
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: clash1.v2rayfree1.xyz

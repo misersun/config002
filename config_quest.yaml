@@ -1,5 +1,5 @@
 proxies:
-- name: 6.94| CN68 TGpeekfun
+- name: 3.64| CN68 TGpeekfun
   server: 117.28.242.137
   port: 9359
   type: ssr
@@ -8,7 +8,17 @@ proxies:
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 4.70|CN中国55
+- name: 3.61| 广州日本 DMIT丨全解锁丨A31
+  server: gzydddns.xyz
+  port: 11812
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 1:8GmpAV
+  obfs-param: 385231065.microsoft.com
+- name: 3.20|CN中国55
   server: 183.232.13.63
   port: 2109
   type: ssr
@@ -18,39 +28,23 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 28416:xul3hsefzm
   obfs-param: t.me/vpnhat
-- name: 3.70| RO855
-  server: 62.216.92.179
-  type: trojan
-  country: ' RO'
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 3.36|印度广港隧道15x
-  server: newgy.jidan666.com
-  port: 23033
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: newgy.jidan666.com
-  skip-cert-verify: true
-  udp: true
-- name: 2.65|印度BGP中转
-  server: azhk.relay.qchwnd.moe
-  port: 44604
-  type: trojan
-  password: b89d279d-707e-4892-8963-9479ffd53b23
-  sni: azhk.relay.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 2.58| CN449
-  server: s1.upyun.online
+- name: 2.62| CN473
+  server: s3.upyun.online
   type: trojan
   country: ' CN'
   port: 12340
   password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
   skip-cert-verify: true
   udp: true
-- name: 2.26|美国2
+- name: 2.61|RelaySGSG957 37766Mb
+  server: fuck.biubiubiu.cloud
+  type: trojan
+  country: SG
+  port: 443
+  password: B4iK9pXaRnHfr9Rp
+  skip-cert-verify: true
+  udp: true
+- name: 2.36|美国2
   type: snell
   server: sha.diao.jimosaofu.xyz
   port: 8443
@@ -59,7 +53,7 @@ proxies:
   obfs-opts:
     mode: tls
     host: mirrorn.centos.org
-- name: 1.99|trojan
+- name: 2.26|trojan
   type: trojan
   server: 65.49.196.246
   port: 443
@@ -68,16 +62,26 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.99| US1879
-  server: 107.167.23.50
+- name: 2.11|美国1
+  type: snell
+  server: sha.bi.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 2.00| JP127 TGpeekfun
+  server: 54.199.57.125
+  port: 8081
   type: ssr
-  country: ' US'
-  port: 8084
-  password: RhKqtYoG8
+  country: ' JP'
+  password: 3oaJ5K2Wn
   cipher: aes-256-cfb
   protocol: origin
   obfs: tls1.2_ticket_auth
-- name: 1.89|CN中国51
+  obfs_param: releases.ubuntu.com
+- name: 1.84|CN中国51
   server: 183.232.13.63
   port: 2102
   type: ssr
@@ -87,7 +91,35 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 28416:xul3hsefzm
   obfs-param: t.me/vpnhat
-- name: 1.63|CN中国65
+- name: 1.42| US1989
+  server: 72.167.45.6
+  type: trojan
+  country: ' US'
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.35| LT816
+  server: vincent-jackson2021.ga
+  type: trojan
+  country: ' LT'
+  port: 443
+  password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  skip-cert-verify: true
+  udp: true
+- name: 1.33|92
+  server: t3.ssrsub.com
+  type: trojan
+  port: 156
+  password: 1c356475-9d2e-4b35-b05a-95517756e7a5
+  sni: t3.ssrsub.com
+- name: 1.29|101
+  server: t1.ssrsub.com
+  type: trojan
+  port: 8443
+  password: e6c36d58-6070-4b55-a437-146e6b53ec57
+  sni: t1.ssrsub.com
+- name: 1.16|CN中国65
   server: 183.232.13.63
   port: 2104
   type: ssr
@@ -97,32 +129,3 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 28416:xul3hsefzm
   obfs-param: t.me/vpnhat
-- name: 1.39|92
-  server: t3.ssrsub.com
-  type: trojan
-  port: 156
-  password: 1c356475-9d2e-4b35-b05a-95517756e7a5
-  sni: t3.ssrsub.com
-- name: 1.38|美国1
-  type: snell
-  server: sha.bi.jimosaofu.xyz
-  port: 8443
-  psk: WoHaoKuaiLeA
-  version: 1
-  obfs-opts:
-    mode: tls
-    host: mirrorn.centos.org
-- name: 1.34|94
-  server: t4.ssrsub.com
-  type: trojan
-  port: 156
-  password: e6c36d58-6070-4b55-a437-146e6b53ec57
-  sni: t4.ssrsub.com
-- name: 1.07| CN460
-  server: s2.upyun.online
-  type: trojan
-  country: ' CN'
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
