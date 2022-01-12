@@ -1,5 +1,75 @@
 proxies:
-- name: 3.93|CN中国55
+- name: 5.80|Jsnzkpg
+  server: hz-02.yuyu.cool
+  port: 20017
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 5.80|Jsnzkpg
+  server: sh-03.yuyu.cool
+  port: 20179
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 5.70|Jsnzkpg
+  server: sh-05.yuyu.cool
+  port: 20006
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 4.92|Jsnzkpg
+  server: sh-02.yuyu.cool
+  port: 20026
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 4.89|Jsnzkpg
+  server: shanghai-01.yuyu.cool
+  port: 10035
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 4.85|Jsnzkpg
+  server: ls-02.yuyu.cool
+  port: 20279
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 4.49|Jsnzkpg
+  server: shanghai-02.yuyu.cool
+  port: 10036
+  type: ssr
+  cipher: chacha20-ietf
+  password: 7mtHSG
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 3863:sUJNw3
+  obfs-param: d8fdf2.microsoft.com
+- name: 4.49|CN中国55
   server: 183.232.13.63
   port: 2109
   type: ssr
@@ -9,24 +79,15 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 28416:xul3hsefzm
   obfs-param: t.me/vpnhat
-- name: 2.53|RelaySGSG957 37766Mb
-  server: fuck.biubiubiu.cloud
+- name: 4.14|CYL科技20220111 94
+  server: azhk.relay.qchwnd.moe
+  port: 44607
   type: trojan
-  country: SG
-  port: 443
-  password: B4iK9pXaRnHfr9Rp
+  password: 52face98-c4cb-4299-aa38-9546085b0619
+  sni: azhk.relay.qchwnd.moe
   skip-cert-verify: true
   udp: true
-- name: 2.29|美国2
-  type: snell
-  server: sha.diao.jimosaofu.xyz
-  port: 8443
-  psk: WoHaoKuaiLeA
-  version: 1
-  obfs-opts:
-    mode: tls
-    host: mirrorn.centos.org
-- name: 2.22| CN68 TGpeekfun
+- name: 2.88| CN68 TGpeekfun
   server: 117.28.242.137
   port: 9359
   type: ssr
@@ -35,7 +96,24 @@ proxies:
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 2.18|美国1
+- name: 2.61|CYL科技20220111 25
+  server: azhk.relay.qchwnd.moe
+  port: 44604
+  type: trojan
+  password: 52face98-c4cb-4299-aa38-9546085b0619
+  sni: azhk.relay.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 2.37|RelayCNHK294
+  server: hkchiansax2.msservicevip.pw
+  type: ssr
+  country: CN
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 2.14|美国1
   type: snell
   server: sha.bi.jimosaofu.xyz
   port: 8443
@@ -44,46 +122,15 @@ proxies:
   obfs-opts:
     mode: tls
     host: mirrorn.centos.org
-- name: 1.91| FR503
-  server: s4.upyun.online
+- name: 1.97|CYL科技20220111 129
+  server: azhk.relay.qchwnd.moe
+  port: 44606
   type: trojan
-  country: ' FR'
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
+  password: 52face98-c4cb-4299-aa38-9546085b0619
+  sni: azhk.relay.qchwnd.moe
   skip-cert-verify: true
   udp: true
-- name: 1.88| US1989
-  server: 72.167.45.6
-  type: trojan
-  country: ' US'
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.53| CN387
-  server: s2.upyun.online
-  type: trojan
-  country: ' CN'
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
-- name: 1.36|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.32|92
-  server: t3.ssrsub.com
-  type: trojan
-  port: 156
-  password: 1c356475-9d2e-4b35-b05a-95517756e7a5
-  sni: t3.ssrsub.com
-- name: 1.16|CN中国51
+- name: 1.93|CN中国51
   server: 183.232.13.63
   port: 2102
   type: ssr
@@ -93,9 +140,58 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 28416:xul3hsefzm
   obfs-param: t.me/vpnhat
-- name: 1.10|101
-  server: t1.ssrsub.com
+- name: 1.84| US1989
+  server: 72.167.45.6
   type: trojan
+  country: ' US'
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.75| FR503
+  server: s4.upyun.online
+  type: trojan
+  country: ' FR'
+  port: 12340
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
+  skip-cert-verify: true
+  udp: true
+- name: 1.67| US1846
+  server: 107.167.23.50
+  type: ssr
+  country: ' US'
+  port: 8084
+  password: RhKqtYoG8
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 1.43|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
   port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 1.32|Relay  382Mb
+  server: fr-am1-4.eqsunshine.com
+  type: ssr
+  country: FR
+  port: 8181
+  password: X3LKnwp5C
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 1.25|93
+  server: t4.ssrsub.com
+  type: trojan
+  port: 156
   password: e6c36d58-6070-4b55-a437-146e6b53ec57
-  sni: t1.ssrsub.com
+  sni: t4.ssrsub.com
+- name: 1.19|92
+  server: t3.ssrsub.com
+  type: trojan
+  port: 156
+  password: 1c356475-9d2e-4b35-b05a-95517756e7a5
+  sni: t3.ssrsub.com
