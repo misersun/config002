@@ -1,23 +1,75 @@
 proxies:
-- name: 5.15| CN68 TGpeekfun
-  server: 117.28.242.137
-  port: 9359
+- name: 6.24| 香港 HK 09
+  server: 01-hgvhjh.globalrelay.link
+  port: 15009
   type: ssr
-  country: ' CN'
-  password: '73117962'
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 4.52|RelayCNHK283
-  server: hkchiansax2.msservicevip.pw
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:Vsa0I6p5sGV2inTI
+  obfs-param: 05bb56622.microsoft.com
+- name: 5.57| 香港 HK 02
+  server: 01-hgvhjh.globalrelay.link
+  port: 15002
   type: ssr
-  country: CN
-  port: 9359
-  password: '73117962'
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 4.50|Relay 2048Mb
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:Vsa0I6p5sGV2inTI
+  obfs-param: 05bb56622.microsoft.com
+- name: 5.50| 新加坡 SG 08
+  server: 01-hgvhjh.globalrelay.link
+  port: 15408
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:Vsa0I6p5sGV2inTI
+  obfs-param: 05bb56622.microsoft.com
+- name: 5.22| 新加坡 SG 02
+  server: 01-hgvhjh.globalrelay.link
+  port: 15402
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:Vsa0I6p5sGV2inTI
+  obfs-param: 05bb56622.microsoft.com
+- name: 5.18| 香港 HK 01
+  server: 01-hgvhjh.globalrelay.link
+  port: 15001
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:Vsa0I6p5sGV2inTI
+  obfs-param: 05bb56622.microsoft.com
+- name: 4.84| 香港 HK 08
+  server: 01-hgvhjh.globalrelay.link
+  port: 15008
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:Vsa0I6p5sGV2inTI
+  obfs-param: 05bb56622.microsoft.com
+- name: 4.59| 新加坡 SG 01
+  server: 01-hgvhjh.globalrelay.link
+  port: 15401
+  type: ssr
+  cipher: chacha20-ietf
+  password: NaikoCloud
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 6622:Vsa0I6p5sGV2inTI
+  obfs-param: 05bb56622.microsoft.com
+- name: 4.43|Relay 2048Mb
   server: sl201.jdxx.xyz
   type: ssr
   country: CN
@@ -28,16 +80,16 @@ proxies:
   protocol-param: 672:GvYh7Z
   obfs: tls1.2_ticket_auth
   obfs-param: t.me/proxypoolqwerty426
-- name: 2.00| US1846
-  server: 107.167.23.50
+- name: 2.78|RelayCNHK283
+  server: hkchiansax2.msservicevip.pw
   type: ssr
-  country: ' US'
-  port: 8084
-  password: RhKqtYoG8
+  country: CN
+  port: 9359
+  password: '73117962'
   cipher: aes-256-cfb
   protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: 1.89|美国1
+  obfs: plain
+- name: 2.03|美国1
   type: snell
   server: sha.bi.jimosaofu.xyz
   port: 8443
@@ -46,12 +98,21 @@ proxies:
   obfs-opts:
     mode: tls
     host: mirrorn.centos.org
-- name: 1.31|  487Mb
-  server: fr-am1-4.eqsunshine.com
+- name: 1.37| 1021Mb
+  server: 136.243.191.88
   type: ssr
-  country: FR
-  port: 8181
-  password: X3LKnwp5C
+  country: DE
+  port: 443
+  password: sEscPBiAD9K$&@79
+  cipher: aes-128-ctr
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+- name: 1.32| CN68 TGpeekfun
+  server: 117.28.242.137
+  port: 9359
+  type: ssr
+  country: ' CN'
+  password: '73117962'
   cipher: aes-256-cfb
   protocol: origin
-  obfs: tls1.2_ticket_auth
+  obfs: plain
