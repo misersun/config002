@@ -1,5 +1,34 @@
 proxies:
-- name: 2.03|美国1
+- name: 3.98|RelayCNHK308 1213Mb
+  server: 117.28.242.137
+  type: ssr
+  country: CN
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 2.61| vpnpoolSGContabo
+  server: 183.240.181.27
+  port: 2106
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: t.me/vpnhat
+- name: 2.23|vpnpoolMakatiEasternfree
+  server: 183.240.181.27
+  port: 1101
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: t.me/vpnhat
+- name: 2.02|美国1
   type: snell
   server: sha.bi.jimosaofu.xyz
   port: 8443
@@ -8,7 +37,25 @@ proxies:
   obfs-opts:
     mode: tls
     host: mirrorn.centos.org
-- name: 1.86|Relay  187Mb
+- name: 1.82|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 1.79| CN371
+  server: hkchiansax2.msservicevip.pw
+  type: ssr
+  country: ' CN'
+  port: 9359
+  password: '73117962'
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.63|Relay  187Mb
   server: fr-am1-4.eqsunshine.com
   type: ssr
   country: FR
