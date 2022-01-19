@@ -1,5 +1,5 @@
 proxies:
-- name: 6.47| RO838
+- name: 5.91| RO838
   server: 62.216.92.180
   type: trojan
   country: ' RO'
@@ -7,15 +7,63 @@ proxies:
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: 5.91|网址 httpswwwmgnbjp
-  server: cmhk.sjebo.com.cn
-  port: 33333
+- name: 5.70|RelayDEJP352
+  server: ty1-4.sstr-api.xyz
   type: trojan
-  password: a4b74b1f-36cf-4156-b28d-bdddba123ceb
-  sni: cmhk.sjebo.com.cn
+  country: DE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
   udp: true
-- name: 4.54| SG963
+- name: 4.65|RelayDEJP350
+  server: ty1-2.sstr-api.xyz
+  type: trojan
+  country: DE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 4.57|RelayDEJP351
+  server: ty1-3.sstr-api.xyz
+  type: trojan
+  country: DE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 4.36|RelayEEJP358
+  server: os1-8.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 4.29|RelayEEJP357
+  server: os1-2.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 4.07|RelayEEJP371
+  server: os1-7.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 4.06|RelayEEJP355
+  server: os1-5.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 3.80| SG963
   server: ycgyg.com
   type: vmess
   country: ' SG'
@@ -29,61 +77,51 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 3.98|RELAY1041616985856
-  server: 104.16.169.85
+- name: 3.60| githubcomfreefq  美国Microsoft数据中心 2
+  server: 20.205.106.28
   port: 443
   type: vmess
-  uuid: e883c876-da13-49c5-9280-08d8add8add7
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
   alterId: 0
   cipher: auto
-  skip-cert-vertify: false
+  tls: true
   network: ws
-  ws-path: /
-  tls: true
+  ws-path: /sakura/
   ws-headers:
-    Host: cdn-dc01.testred.xyz
-- name: 3.85|新加坡01 中继A  原生 15x
-  server: in01.2333dns.com
-  port: 61066
-  type: vmess
-  uuid: 2eb3fd45-025b-30a4-856e-ca98edbb1b06
-  alterId: 0
-  cipher: auto
-  tls: true
+    Host: zero1.a-yu.xyz
+- name: 3.51|RelayEEJP372
+  server: os1-6.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
-  network: ws
-  ws-path: /jkl
-  ws-headers:
-    Host: jkl-sg01.airport-v2.com
   udp: true
-- name: 3.68| SG965
-  server: 202.61.141.130
-  type: vmess
-  country: ' SG'
+- name: 3.50|RelayEEJP370
+  server: os1-4.sstr-api.xyz
+  type: trojan
+  country: EE
   port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  network: ws
-  ws-path: /ws
-  http-opts: {}
-  h2-opts: {}
-  tls: true
+  password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
-- name: 2.82|RELAY10424172156852
-  server: 104.24.172.156
+  udp: true
+- name: 3.44|RelayDEJP353
+  server: ty1-1.sstr-api.xyz
+  type: trojan
+  country: DE
   port: 443
-  type: vmess
-  uuid: e883c876-da13-49c5-9280-08d8add8add7
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /
-  tls: true
-  ws-headers:
-    Host: cdn-dc01.testred.xyz
-- name: 2.78| US1999
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 3.41|RelayEEJP362
+  server: os1-1.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 2.97| US1999
   server: rb1.moonfree.top
   type: vmess
   country: ' US'
@@ -100,44 +138,69 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 2.14|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 2.12|CYL科技20220111 42
-  server: 104.16.181.103
-  port: 443
+- name: 2.86| SG965
+  server: 202.61.141.130
   type: vmess
-  uuid: 7be43971-52f1-48af-9036-454a94b4723a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /ws/?ed=2048
-  ws-headers:
-    Host: download.china666.ml
-  udp: true
-- name: 1.97|Relay  328Mb
-  server: api.ssfree.ru
-  type: vmess
-  country: US
+  country: ' SG'
   port: 443
-  uuid: 878c251c-77ae-11ec-8369-000017022008
-  alterId: 64
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
   cipher: auto
   network: ws
-  ws-path: /getweather
+  ws-path: /ws
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.84|Relay 2270Mb
+- name: 2.33|美国Trojan 容灾3
+  server: us3.tr.mg-nb.com
+  port: 12953
+  type: trojan
+  password: a4b74b1f-36cf-4156-b28d-bdddba123ceb
+  sni: us3.tr.mg-nb.com
+  skip-cert-verify: true
+  udp: true
+- name: 2.17|RelayEEJP369
+  server: ty2-6.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 2.15|RelayEEJP359
+  server: ty2-3.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 2.10|RelayEEJP368
+  server: ty2-1.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 2.09|RelayEEJP363
+  server: ty2-8.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 2.03|RelayNLZZ673
+  server: uk1-4.sstr-api.xyz
+  type: trojan
+  country: NL
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.97|Relay 2270Mb
   server: v1.ssrsub.com
   type: vmess
   country: US
@@ -151,50 +214,100 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.82| US1951
-  server: 72.167.45.6
-  type: trojan
-  country: ' US'
-  port: 443
-  password: a3fa58b581353bb375d2ddad0f327938
-  skip-cert-verify: true
-  udp: true
-- name: 1.78|Relay  718Mb
-  server: v8.ssrsub.com
-  type: vmess
-  country: US
-  port: 443
-  uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.68| NL787
-  server: 89.31.127.151
-  type: trojan
-  country: ' NL'
-  port: 443
-  password: 28d98f761aca9d636f44db62544628eb
-  skip-cert-verify: true
-  udp: true
-- name: 1.66| RelayUSUS2239  597Mb
-  server: www.ltzs.buzz
+- name: 1.96|CYL科技20220111 42
+  server: 104.16.181.103
   port: 443
   type: vmess
-  uuid: d0ce51d5-b4de-4f99-ac7c-c5c1a123bd94
+  uuid: 7be43971-52f1-48af-9036-454a94b4723a
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /bb2b34a1
+  ws-path: /ws/?ed=2048
   ws-headers:
-    Host: www.ltzs.buzz
-- name: 1.59|RELAY19841212120096
-  server: 198.41.212.12
+    Host: download.china666.ml
+  udp: true
+- name: 1.92|RelayNLZZ670
+  server: uk1-2.sstr-api.xyz
+  type: trojan
+  country: NL
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.82|RelayRUGB764
+  server: nl1-5.sstr-api.xyz
+  type: trojan
+  country: RU
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.79|RelayRUGB762
+  server: nl1-1.sstr-api.xyz
+  type: trojan
+  country: RU
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.79|RelayRUGB766
+  server: nl1-8.sstr-api.xyz
+  type: trojan
+  country: RU
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.78|RelayNLZZ671
+  server: uk1-3.sstr-api.xyz
+  type: trojan
+  country: NL
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.76|RelayEEJP356
+  server: os1-3.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.73|RelayNLZZ674
+  server: uk1-1.sstr-api.xyz
+  type: trojan
+  country: NL
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.69|RelayRUGB763
+  server: nl1-7.sstr-api.xyz
+  type: trojan
+  country: RU
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.68|RelayRUGB765
+  server: nl1-2.sstr-api.xyz
+  type: trojan
+  country: RU
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.54|110
+  server: t4.ssrsub.com
+  type: trojan
+  port: 8443
+  password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28
+  sni: t4.ssrsub.com
+- name: 1.54|RELAY19841212140066
+  server: 198.41.212.14
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
@@ -206,12 +319,6 @@ proxies:
   tls: true
   ws-headers:
     Host: zero1.a-yu.xyz
-- name: 1.56|110
-  server: t4.ssrsub.com
-  type: trojan
-  port: 8443
-  password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28
-  sni: t4.ssrsub.com
 - name: 1.53|RELAY19841212130089
   server: 198.41.212.13
   port: 443
@@ -225,45 +332,7 @@ proxies:
   tls: true
   ws-headers:
     Host: zero1.a-yu.xyz
-- name: 1.52|RELAY19841212160973
-  server: 198.41.212.16
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /sakura/
-  tls: true
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.52|RELAY1984121210108
-  server: 198.41.212.1
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /sakura/
-  tls: true
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.52|RelayZZZZ2693  672Mb
-  server: 198.41.221.169
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.51|RELAY19841212190101
+- name: 1.53|RELAY19841212190101
   server: 198.41.212.19
   port: 443
   type: vmess
@@ -276,8 +345,16 @@ proxies:
   tls: true
   ws-headers:
     Host: zero1.a-yu.xyz
-- name: 1.49|RELAY1984121260116
-  server: 198.41.212.6
+- name: 1.46| NL787
+  server: 89.31.127.151
+  type: trojan
+  country: ' NL'
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.46|RELAY1984121210108
+  server: 198.41.212.1
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
@@ -289,72 +366,7 @@ proxies:
   tls: true
   ws-headers:
     Host: zero1.a-yu.xyz
-- name: 1.49|RELAY10420130430651
-  server: 104.20.130.43
-  port: 443
-  type: vmess
-  uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.cf
-- name: 1.48|RELAY19841212170100
-  server: 198.41.212.17
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /sakura/
-  tls: true
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.47|RELAY19841212110122
-  server: 198.41.212.11
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /sakura/
-  tls: true
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.46|RELAY1984121240974
-  server: 198.41.212.4
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /sakura/
-  tls: true
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.46|RELAY104201301750607
-  server: 104.20.130.175
-  port: 443
-  type: vmess
-  uuid: 8e8b5097-1d75-47c4-ff28-eef6609916c1
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.cf
-- name: 1.44| US2014
+- name: 1.46| US2014
   server: 172.67.68.58
   type: vmess
   country: ' US'
@@ -371,8 +383,8 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.44|RELAY19841212100119
-  server: 198.41.212.10
+- name: 1.43|RELAY198412122340373
+  server: 198.41.212.234
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
@@ -383,193 +395,62 @@ proxies:
   ws-path: /sakura/
   tls: true
   ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.42| githubcomfreefq  美国Microsoft数据中心 2
-  server: 20.205.106.28
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.42|RELAY19841212200080
-  server: 198.41.212.20
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /sakura/
-  tls: true
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.39|RELAY19841212140066
-  server: 198.41.212.14
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /sakura/
-  tls: true
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.36|RELAY10417188910671
-  server: 104.17.188.91
-  port: 443
-  type: vmess
-  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.32|Relay  931Mb
-  server: v5.ssrsub.com
+    Host: zh-ru2.a-yu.xyz
+- name: 1.43|RelayUS  988Mb
+  server: 138.197.236.77
   type: vmess
   country: US
-  port: 8443
-  uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c
+  port: 443
+  uuid: 3579436c-b37e-11eb-8529-0242ac130003
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /ssrsub
+  ws-path: /ray
+  servername: 138.197.236.77
+  ws-headers:
+    HOST: 138.197.236.77
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.31|RELAY104161041260851
-  server: 104.16.104.126
-  port: 443
-  type: vmess
-  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
-  tls: true
-  ws-headers:
-    Host: sweet-salad-aa33.tianzhen19880808.workers.dev
-- name: 1.31|RELAY1042241800620
-  server: 104.22.4.180
-  port: 443
-  type: vmess
-  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.30|RELAY104251042400758
-  server: 104.25.104.240
-  port: 443
-  type: vmess
-  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.30|101
-  server: t3.ssrsub.com
+- name: 1.42|RelayEEEE360
+  server: ee1-4.sstr-api.xyz
   type: trojan
-  port: 8443
-  password: b3f4826a-01e1-438a-8cb4-becb9e8b140c
-  sni: t3.ssrsub.com
-- name: 1.25|RELAY10420812400555
-  server: 104.20.81.240
+  country: EE
   port: 443
-  type: vmess
-  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.23| RelayUSLT2173  685Mb
-  server: 104.16.160.114
-  port: 443
-  type: vmess
-  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.23|RELAY104161041350572
-  server: 104.16.104.135
-  port: 443
-  type: vmess
-  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
-  tls: true
-  ws-headers:
-    Host: tight-math-32ee.tianzhen4567.workers.dev
-- name: 1.22|98
-  server: t1.ssrsub.com
-  type: trojan
-  port: 8443
-  password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28
-  sni: t1.ssrsub.com
-- name: 1.15|RELAY10417361780689
-  server: 104.17.36.178
-  port: 443
-  type: vmess
-  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws?ed=2048
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 1.09|Relay 1796Mb
-  server: v9.ssrsub.com
-  type: vmess
-  country: US
-  port: 8443
-  uuid: b3f4826a-01e1-438a-8cb4-becb9e8b140c
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ssrsub
-  http-opts: {}
-  h2-opts: {}
-  tls: true
+  password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
-- name: 1.08|Relay  720Mb
-  server: v2.ssrsub.com
+  udp: true
+- name: 1.40|RELAY19841212110122
+  server: 198.41.212.11
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /sakura/
+  tls: true
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 1.40| RelayUSRU2254  657Mb
+  server: oz1.mooncloud.bike
+  port: 8443
+  type: vmess
+  uuid: 2c42a34e-5f88-492b-8a59-3531090578f8
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: oz.mooncloud.bike
+- name: 1.36|RelayUS  505Mb
+  server: v3.ssrsub.com
   type: vmess
   country: US
-  port: 8443
+  port: 443
   uuid: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28
   alterId: 0
   cipher: auto
@@ -579,45 +460,55 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.07| CN394
-  server: s2.upyun.online
-  type: trojan
-  country: ' CN'
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
-  skip-cert-verify: true
-  udp: true
-- name: 1.05| IN677
-  server: 129.227.201.234
-  type: vmess
-  country: ' IN'
+- name: 1.36|RELAY1984121260116
+  server: 198.41.212.6
   port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  network: ws
-  ws-path: /ws
-  servername: aicoo6du.com
-  ws-headers:
-    HOST: aicoo6du.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.05| US2030
-  server: amu1ahfi.com
   type: vmess
-  country: ' US'
-  port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
   cipher: auto
+  skip-cert-vertify: false
   network: ws
-  ws-path: /ws
-  servername: amu1ahfi.com
-  ws-headers:
-    HOST: amu1ahfi.com
-  http-opts: {}
-  h2-opts: {}
+  ws-path: /sakura/
   tls: true
-  skip-cert-verify: true
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 1.35|RELAY1041827640663
+  server: 104.18.27.64
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws?ed=2048
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 1.34|RELAY10425175690314
+  server: 104.25.175.69
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws?ed=2048
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
+- name: 1.31|RELAY10416162550728
+  server: 104.16.16.255
+  port: 443
+  type: vmess
+  uuid: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /The-Great-Awakening_vws?ed=2048
+  tls: true
+  ws-headers:
+    Host: vincent-jackson2021.ga
