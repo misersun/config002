@@ -1,35 +1,36 @@
 proxies:
-- name: 4.63|CN3
-  server: z00001.security-cloudfront-cdn.com
+- name: 5.10| 国内中转SG广州移动新加坡0003
+  server: z0003.security-cloudfront-cdn.com
   port: 44160
   type: ssr
-  password: wQ16gJrbBvvME3my
   cipher: aes-256-cfb
+  password: wQ16gJrbBvvME3my
   protocol: origin
   obfs: http_simple
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
-  likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
-- name: 2.82|vpnpoolMakatiEasternfree
-  server: 183.240.181.27
-  port: 1101
+  protocol-param: ''
+  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
+- name: 3.01|香港 免费节点EC2负载均衡119
+  server: gz2.52168.xyz
+  port: 2109
   type: ssr
   cipher: aes-256-cfb
   password: epChJS35fV
   protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
   protocol-param: 623:l78d6doy74s
-  obfs-param: t.me/vpnhat
-- name: 2.45|vpnpoolMakatiEastern
-  server: 183.240.181.27
-  port: 1102
+  obfs-param: 2f712623.baidu.com
+  udp: true
+- name: 2.53| HiHK 1121 tmemoon365free
+  server: 101.89.118.3
+  port: 44160
   type: ssr
   cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: t.me/vpnhat
-- name: 2.12|vpnpoolHo Chi MinhCloudcorefree
+  password: wQ16gJrbBvvME3my
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
+- name: 2.17|vpnpoolHo Chi MinhCloudcorefree
   server: 183.240.181.27
   port: 1107
   type: ssr
@@ -39,16 +40,26 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 623:l78d6doy74s
   obfs-param: t.me/vpnhat
-- name: 1.87|美国2
+- name: 2.08|CN3
+  server: z00001.security-cloudfront-cdn.com
+  port: 44160
+  type: ssr
+  password: wQ16gJrbBvvME3my
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: http_simple
+  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
+  likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
+- name: 2.01|美国1
   type: snell
-  server: sha.diao.jimosaofu.xyz
+  server: sha.bi.jimosaofu.xyz
   port: 8443
   psk: WoHaoKuaiLeA
   version: 1
   obfs-opts:
     mode: tls
     host: mirrorn.centos.org
-- name: 1.82|vpnpoolAmsterdamM247free
+- name: 1.86|vpnpoolAmsterdamM247free
   server: 183.240.181.27
   port: 1117
   type: ssr
@@ -59,27 +70,16 @@ proxies:
   protocol-param: 623:l78d6doy74s
   obfs-param: t.me/vpnhat
   udp: true
-- name: 1.78|vpnpoolHo Chi MinhCloudcore
-  server: 183.240.181.27
-  port: 1108
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: t.me/vpnhat
-- name: 1.68|vpnpoolKuala LumpurGigabitfree
-  server: 183.240.181.27
-  port: 1105
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: t.me/vpnhat
-- name: 1.68|CN1
+- name: 1.85|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 1.72|CN1
   server: z0114.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -89,7 +89,7 @@ proxies:
   obfs: http_simple
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
   likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
-- name: 1.64|CN22
+- name: 1.67|CN22
   server: z0113.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -99,3 +99,12 @@ proxies:
   obfs: http_simple
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
   likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
+- name: 1.57| FR163
+  server: fr-am1-4.eqsunshine.com
+  type: ssr
+  country: ' FR'
+  port: 8181
+  password: X3LKnwp5C
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth

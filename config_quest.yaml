@@ -1,139 +1,174 @@
 proxies:
-- name: 4.63|CN3
-  server: z00001.security-cloudfront-cdn.com
+- name: 6.30| 高速解锁负载均衡香港
+  server: azhk.node.qchwnd.moe
+  port: 10213
+  type: trojan
+  password: 476ddab3-29a2-4a32-8f0d-33cf6add3722
+  sni: cdn.qchwnd.moe
+  skip-cert-verify: true
+- name: 6.00|RelayHKUS579 9367Mb
+  server: azhk.relay.qchwnd.moe
+  type: trojan
+  country: HK
+  port: 44605
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 5.88|RelayUSUS2224 13236Mb
+  server: azhk.node.qchwnd.moe
+  type: trojan
+  country: US
+  port: 44609
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 5.44|RelayHKHK582 5801Mb
+  server: azhk.relay.qchwnd.moe
+  type: trojan
+  country: HK
+  port: 44601
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 5.10| 国内中转SG广州移动新加坡0003
+  server: z0003.security-cloudfront-cdn.com
   port: 44160
   type: ssr
-  password: wQ16gJrbBvvME3my
   cipher: aes-256-cfb
+  password: wQ16gJrbBvvME3my
   protocol: origin
   obfs: http_simple
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
-  likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
-- name: 4.62|RelayDEJP352
-  server: ty1-4.sstr-api.xyz
+  protocol-param: ''
+  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
+- name: 4.85|RelayHKJP584 5043Mb
+  server: azhk.relay.qchwnd.moe
   type: trojan
-  country: DE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
+  country: HK
+  port: 44602
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 4.37|RelayEEJP370
-  server: os1-4.sstr-api.xyz
+- name: 4.79|RelayCNHK308 1295Mb
+  server: newgy.jidan666.com
   type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
+  country: CN
+  port: 23031
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 4.05|RelayEEJP371
-  server: os1-7.sstr-api.xyz
+- name: 4.37|RelayHKJP585 1267Mb
+  server: azhk.relay.qchwnd.moe
   type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
+  country: HK
+  port: 44603
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 3.96|sggsmmxyzTrojan
-  server: sg.gsmm.xyz
-  port: 443
+- name: 4.33|Relay 1986Mb
+  server: newgy.jidan666.com
   type: trojan
-  password: 02429a7f-c1c9-44f8-aca5-e703a4172ee6
-  sni: sg.gsmm.xyz
+  country: CN
+  port: 23035
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 3.72|RelayDEJP353
-  server: ty1-1.sstr-api.xyz
+- name: 4.02|RelayCNJP317 1233Mb
+  server: newgy.jidan666.com
   type: trojan
-  country: DE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
+  country: CN
+  port: 23032
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 3.62|RelayEEJP355
-  server: os1-5.sstr-api.xyz
+- name: 3.93| v1丨马来西亚丨原生丨直连
+  server: yooo.xiaobaigou.cc
+  port: 1001
   type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
+  password: ee378a62-03b0-3f55-89d9-36bea6b4917a
+  sni: my.kuli888.xyz
+- name: 3.92|RelayHKTW583 4894Mb
+  server: azhk.relay.qchwnd.moe
+  type: trojan
+  country: HK
+  port: 44608
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 3.47|RelayEEJP358
-  server: os1-8.sstr-api.xyz
+- name: 3.55|RelayHKDE577 5582Mb
+  server: azhk.relay.qchwnd.moe
   type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
+  country: HK
+  port: 44604
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 3.10|RelayEEJP362
-  server: os1-1.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 2.82|vpnpoolMakatiEasternfree
-  server: 183.240.181.27
-  port: 1101
+- name: 3.01|香港 免费节点EC2负载均衡119
+  server: gz2.52168.xyz
+  port: 2109
   type: ssr
   cipher: aes-256-cfb
   password: epChJS35fV
   protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
   protocol-param: 623:l78d6doy74s
-  obfs-param: t.me/vpnhat
-- name: 2.58|RelayEEJP357
-  server: os1-2.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
+  obfs-param: 2f712623.baidu.com
   udp: true
-- name: 2.49|网址 httpswwwmgnbjp
-  server: cmhk.sjebo.com.cn
-  port: 33333
-  type: trojan
-  password: a4b74b1f-36cf-4156-b28d-bdddba123ceb
-  sni: cmhk.sjebo.com.cn
-  skip-cert-verify: true
-  udp: true
-- name: 2.45|vpnpoolMakatiEastern
-  server: 183.240.181.27
-  port: 1102
+- name: 2.53| HiHK 1121 tmemoon365free
+  server: 101.89.118.3
+  port: 44160
   type: ssr
   cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: t.me/vpnhat
-- name: 2.43| CN379
-  server: s1.upyun.online
+  password: wQ16gJrbBvvME3my
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
+- name: 2.44|Relay 1794Mb
+  server: newgy.jidan666.com
   type: trojan
-  country: ' CN'
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
+  country: CN
+  port: 23033
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 2.41|RelayEEJP368
-  server: ty2-1.sstr-api.xyz
+- name: 2.38| v1丨新加坡丨直连丨已全面换 Torjan
+  server: yooo.xiaobaigou.cc
+  port: 12345
   type: trojan
-  country: EE
+  password: ee378a62-03b0-3f55-89d9-36bea6b4917a
+  sni: susu1.xiaobaigou.cc
+- name: 2.33|Relay 2128Mb
+  server: newgy.jidan666.com
+  type: trojan
+  country: CN
+  port: 23034
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 2.24| SG931
+  server: sg27.holiganfan.com
+  type: trojan
+  country: ' SG'
+  port: 10088
+  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
+  skip-cert-verify: true
+  udp: true
+- name: 2.23| v1丨新加坡丨微软   1Gbps
+  server: xgwr65.xiaobaigou.cc
+  port: 10722
+  type: trojan
+  password: ee378a62-03b0-3f55-89d9-36bea6b4917a
+  sni: xgwr65.xiaobaigou.cc
+- name: 2.23|trojan
+  type: trojan
+  server: 65.49.196.246
   port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 2.26|RelayEEJP356
-  server: os1-3.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 2.12|vpnpoolHo Chi MinhCloudcorefree
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 2.17|vpnpoolHo Chi MinhCloudcorefree
   server: 183.240.181.27
   port: 1107
   type: ssr
@@ -143,56 +178,32 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 623:l78d6doy74s
   obfs-param: t.me/vpnhat
-- name: 2.09|美国自建
-  server: usghh.sghh.vip
-  port: 50243
+- name: 2.08|CN3
+  server: z00001.security-cloudfront-cdn.com
+  port: 44160
+  type: ssr
+  password: wQ16gJrbBvvME3my
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: http_simple
+  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
+  likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
+- name: 2.04| v1丨新加坡丨微软丨高速丨1Gbps
+  server: xpwr2.xiaobaigou.cc
+  port: 10723
   type: trojan
-  password: 7zJ7tjgV1t
-  sni: usghh.sghh.vip
-  skip-cert-verify: true
-  udp: true
-- name: 1.94|RelayEEJP359
-  server: ty2-3.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.92|RelayEEJP361
-  server: ty2-2.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.89|RelayEEJP360
-  server: ty2-4.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.87|美国2
+  password: ee378a62-03b0-3f55-89d9-36bea6b4917a
+  sni: xpwr2.xiaobaigou.cc
+- name: 2.01|美国1
   type: snell
-  server: sha.diao.jimosaofu.xyz
+  server: sha.bi.jimosaofu.xyz
   port: 8443
   psk: WoHaoKuaiLeA
   version: 1
   obfs-opts:
     mode: tls
     host: mirrorn.centos.org
-- name: 1.83|RelayNLZZ674
-  server: uk1-1.sstr-api.xyz
-  type: trojan
-  country: NL
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.82|vpnpoolAmsterdamM247free
+- name: 1.86|vpnpoolAmsterdamM247free
   server: 183.240.181.27
   port: 1117
   type: ssr
@@ -203,59 +214,43 @@ proxies:
   protocol-param: 623:l78d6doy74s
   obfs-param: t.me/vpnhat
   udp: true
-- name: 1.78|vpnpoolHo Chi MinhCloudcore
-  server: 183.240.181.27
-  port: 1108
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: t.me/vpnhat
-- name: 1.78|RelayEEJP369
-  server: ty2-6.sstr-api.xyz
+- name: 1.85|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 1.84|JP541992542181073
+  server: jp19.holiganfan.com
+  port: 10088
   type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
+  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
+  skip-cert-verify: false
+- name: 1.84| 高速俄罗斯
+  server: azhk.relay.qchwnd.moe
+  port: 10208
+  type: trojan
+  password: 476ddab3-29a2-4a32-8f0d-33cf6add3722
+  sni: ru.node.qchwnd.moe
+  skip-cert-verify: true
+- name: 1.84|Relay 2265Mb
+  server: azhk.relay.qchwnd.moe
+  type: trojan
+  country: HK
+  port: 44606
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 1.74|RelayNLZZ671
-  server: uk1-3.sstr-api.xyz
+- name: 1.80| v1丨泰国丨隧道中转丨1丨V2ray
+  server: yooo1.xiaobaigou.cc
+  port: 1003
   type: trojan
-  country: NL
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.71|RelayEEJP363
-  server: ty2-8.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.70|RelayNLZZ670
-  server: uk1-2.sstr-api.xyz
-  type: trojan
-  country: NL
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.68|vpnpoolKuala LumpurGigabitfree
-  server: 183.240.181.27
-  port: 1105
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: t.me/vpnhat
-- name: 1.68|CN1
+  password: ee378a62-03b0-3f55-89d9-36bea6b4917a
+  sni: suyun25.xiaobaigou.cc
+- name: 1.72|CN1
   server: z0114.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -265,15 +260,7 @@ proxies:
   obfs: http_simple
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
   likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
-- name: 1.67|RelayEEEE360
-  server: ee1-4.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.64|CN22
+- name: 1.67|CN22
   server: z0113.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -283,116 +270,38 @@ proxies:
   obfs: http_simple
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
   likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
-- name: 1.63|RelayEEJP364
-  server: ty2-7.sstr-api.xyz
+- name: 1.57| FR163
+  server: fr-am1-4.eqsunshine.com
+  type: ssr
+  country: ' FR'
+  port: 8181
+  password: X3LKnwp5C
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 1.47|RelayHKID576 9152Mb
+  server: azhk.relay.qchwnd.moe
   type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
+  country: HK
+  port: 44607
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 1.62|RelayUSUS2249  726Mb
-  server: trojan.wefuckgfw.gq
+- name: 1.22|102
+  server: t1.ssrsub.com
   type: trojan
-  country: US
-  port: 443
-  password: RKfyQBry
-  skip-cert-verify: true
-  udp: true
-- name: 1.61|RelayRUGB765
-  server: nl1-2.sstr-api.xyz
+  port: 8443
+  password: b3f4826a-01e1-438a-8cb4-becb9e8b140c
+  sni: t1.ssrsub.com
+- name: 1.17|106
+  server: t4.ssrsub.com
   type: trojan
-  country: RU
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.59|trojan
+  port: 8443
+  password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28
+  sni: t4.ssrsub.com
+- name: 1.11|104
+  server: t3.ssrsub.com
   type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.58|RelayRUGB763
-  server: nl1-7.sstr-api.xyz
-  type: trojan
-  country: RU
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.57|RelayRUGB766
-  server: nl1-8.sstr-api.xyz
-  type: trojan
-  country: RU
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.51|RelayRUGB762
-  server: nl1-1.sstr-api.xyz
-  type: trojan
-  country: RU
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.48|RelayNLZZ673
-  server: uk1-4.sstr-api.xyz
-  type: trojan
-  country: NL
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.48|RelayEEJP365
-  server: ty2-5.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.47|RelayEEEE354
-  server: ee1-2.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.36|RelayEEJP372
-  server: os1-6.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.24|RelayRUGB764
-  server: nl1-5.sstr-api.xyz
-  type: trojan
-  country: RU
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.19|RelayEEEE361
-  server: ee1-3.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.02|RelayEEEE373
-  server: ee1-1.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
+  port: 8443
+  password: 64c3ab43-dc1b-401c-9437-9adf7bcf4a28
+  sni: t3.ssrsub.com

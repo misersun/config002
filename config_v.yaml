@@ -1,24 +1,23 @@
 proxies:
-- name: 6.22| HK565
-  server: 136.wgong.xyz
+- name: 6.46|CN11264691871203
+  server: shcu01a.iplc188.com
+  port: 10001
   type: vmess
-  country: ' HK'
-  port: 52436
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
+  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
+  alterId: 1
   cipher: auto
-  network: none
+  skip-cert-vertify: false
+  network: tcp
   ws-path: /
-  servername: 136.wgong.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 6.10|HK40831151471093
-  server: 40.83.115.147
-  port: 52330
+  tls: false
+  ws-headers:
+    Host: shcu01a.iplc188.com
+- name: 6.43|JP2041241812381207
+  server: 204.124.181.238
+  port: 56173
   type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
+  uuid: bc9f7296-0788-4f4f-8705-77d1dda92c94
+  alterId: 0
   cipher: auto
   skip-cert-vertify: false
   network: tcp
@@ -26,7 +25,136 @@ proxies:
   tls: false
   ws-headers:
     Host: t.me/vpnhat
-- name: 6.08| HK558
+- name: 6.35| HK581
+  server: 129.wgong.xyz
+  type: vmess
+  country: ' HK'
+  port: 52329
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 129.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 6.35| US1978
+  server: 132.wgong.xyz
+  type: vmess
+  country: ' US'
+  port: 52332
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 132.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 6.23| US1979
+  server: 131.wgong.xyz
+  type: vmess
+  country: ' US'
+  port: 52331
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 131.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 6.22|CN10189109301171
+  server: 101.89.109.30
+  port: 10015
+  type: vmess
+  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
+  alterId: 1
+  cipher: auto
+  skip-cert-vertify: false
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 101.89.109.30
+- name: 6.15| HK579
+  server: 135.wgong.xyz
+  type: vmess
+  country: ' HK'
+  port: 52335
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 135.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 6.08| HK562
+  server: 122.wgong.xyz
+  type: vmess
+  country: ' HK'
+  port: 52222
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 122.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 6.05| US2064 7844Mb
+  server: 20.205.58.228
+  port: 11223
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 5.97| HK564
+  server: 82.wgong.xyz
+  type: vmess
+  country: ' HK'
+  port: 52282
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 82.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.93| HK584
+  server: 137.wgong.xyz
+  type: vmess
+  country: ' HK'
+  port: 52437
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 137.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.84|CYL科技20220115 36
+  server: 120.wgong.xyz
+  port: 52220
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 5.80| HK558
   server: 96.wgong.xyz
   type: vmess
   country: ' HK'
@@ -40,92 +168,31 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 6.05|HK104208741051105
-  server: 104.208.74.105
-  port: 52222
+- name: 5.78| HK559
+  server: 110.wgong.xyz
   type: vmess
+  country: ' HK'
+  port: 52210
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  skip-cert-vertify: false
-  network: tcp
-  ws-path: t.me/vpnpool
-  tls: false
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 6.00|vpnpoolSGDigitalOcean
-  server: 168.63.153.160
-  port: 52203
+  network: none
+  ws-path: /
+  servername: 110.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.73|专线香港07原生HKBN 5
+  server: v31.88host.buzz
+  port: 18082
   type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
+  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
+  alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 5.98| US2064 7844Mb
-  server: 20.205.58.228
-  port: 11223
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 5.95| HK555
-  server: 103.wgong.xyz
-  type: vmess
-  country: ' HK'
-  port: 52203
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: /
-  servername: 103.wgong.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.93|CN11264691871203
-  server: shcu01a.iplc188.com
-  port: 10001
-  type: vmess
-  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
-  alterId: 1
-  cipher: auto
-  skip-cert-vertify: false
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: shcu01a.iplc188.com
-- name: 5.90|HK18162481141187
-  server: hkawst3.biteb-ssx.xyz
-  port: 14259
-  type: vmess
-  uuid: 027dfdb0-8939-3176-bb4a-1ec79582f034
-  alterId: 2
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: index
-  tls: false
-  ws-headers:
-    Host: hkawst3.biteb-ssx.xyz
-- name: 5.80| HK559
-  server: 128.wgong.xyz
-  type: vmess
-  country: ' HK'
-  port: 52228
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: /
-  servername: 128.wgong.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.66| HK605
+- name: 5.70| HK605
   server: 99.wgong.xyz
   type: vmess
   country: ' HK'
@@ -139,57 +206,48 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 5.62|JP3573180631200
-  server: jppt2.zzjs.site
-  port: 21845
+- name: 5.65|CN1126412771168
+  server: 112.64.12.77
+  port: 35301
   type: vmess
-  uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b
-  alterId: 2
+  uuid: 557dd031-338a-3bfc-a913-7d6ff271ae66
+  alterId: 1
   cipher: auto
   skip-cert-vertify: false
   network: ws
-  ws-path: /hls/cctv5phd.m3u8
+  ws-path: /api
   tls: false
   ws-headers:
     Host: t.me/vpnhat
-- name: 5.61| HK562
-  server: 125.wgong.xyz
+- name: 5.51| US1980
+  server: 100.wgong.xyz
   type: vmess
-  country: ' HK'
-  port: 52225
+  country: ' US'
+  port: 11220
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
   network: none
   ws-path: /
-  servername: 125.wgong.xyz
+  servername: 100.wgong.xyz
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 5.49|HK2020534311107
-  server: 20.205.34.31
-  port: 11221
+- name: 5.36| HK559
+  server: 128.wgong.xyz
   type: vmess
+  country: ' HK'
+  port: 52228
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  skip-cert-vertify: false
-  network: tcp
-  ws-path: t.me/vpnpool
-  tls: false
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 5.39|CYL科技20220115 36
-  server: 120.wgong.xyz
-  port: 52220
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
+  network: none
+  ws-path: /
+  servername: 128.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  udp: true
-- name: 5.30|HK168631521831094
+- name: 5.28|HK168631521831094
   server: 168.63.152.183
   port: 52329
   type: vmess
@@ -202,348 +260,51 @@ proxies:
   tls: false
   ws-headers:
     Host: t.me/vpnhat
-- name: 5.13|HK52175301221139
-  server: 52.175.30.122
-  port: 52298
+- name: 5.23|专线香港05原生HGCBBS 6
+  server: v35.88host.buzz
+  port: 18068
   type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  skip-cert-vertify: false
-  network: tcp
-  ws-path: t.me/vpnpool
-  tls: false
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 5.06| HK556
-  server: 86.wgong.xyz
-  type: vmess
-  country: ' HK'
-  port: 52286
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: /
-  servername: 86.wgong.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.06|vpnpoolSGDigitalOcean 2
-  server: 168.63.153.160
-  port: 11222
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 5.02| HK557
-  server: 133.wgong.xyz
-  type: vmess
-  country: ' HK'
-  port: 52333
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: /
-  servername: 133.wgong.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.98|HK137001201104
-  server: 13.70.0.120
-  port: 52216
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  skip-cert-vertify: false
-  network: tcp
-  ws-path: t.me/vpnpool
-  tls: false
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 4.98|vpnpoolTokyoLinode 4
-  server: 20.189.84.181
-  port: 52209
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 4.97|vpnpoolTokyoEC2 2
-  server: 52.175.10.2
-  port: 52219
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 4.96| RelayJPJP763 1017Mb
-  server: mf-aws-jp-03.xncloud.xyz
-  port: 18000
-  type: vmess
-  uuid: 36444988-5420-30e6-8d48-87088c824a49
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /niaoyun
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 4.86| HK604
-  server: 83.wgong.xyz
-  type: vmess
-  country: ' HK'
-  port: 52283
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: /
-  servername: 83.wgong.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.81|HK2018971121136
-  server: 20.189.71.12
-  port: 52333
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  skip-cert-vertify: false
-  network: tcp
-  ws-path: t.me/vpnpool
-  tls: false
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 4.80|HK52229130731092
-  server: 52.229.130.73
-  port: 52218
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  skip-cert-vertify: false
-  network: tcp
-  ws-path: t.me/vpnpool
-  tls: false
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 4.76|HK5217556641111
-  server: 52.175.56.64
-  port: 52284
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  skip-cert-vertify: false
-  network: tcp
-  ws-path: t.me/vpnpool
-  tls: false
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 4.74|vpnpoolSGDigitalOcean 5
-  server: 52.175.56.64
-  port: 52207
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 4.73|HK20189841811137
-  server: 20.189.84.181
-  port: 52205
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  skip-cert-vertify: false
-  network: tcp
-  ws-path: t.me/vpnpool
-  tls: false
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 4.69| HK560
-  server: 98.wgong.xyz
-  type: vmess
-  country: ' HK'
-  port: 52298
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: /
-  servername: 98.wgong.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.64|HK52184151051110
-  server: 52.184.15.105
-  port: 52220
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  skip-cert-vertify: false
-  network: tcp
-  ws-path: t.me/vpnpool
-  tls: false
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 4.48|vpnpoolTokyoLinode 8
-  server: 20.205.58.228
-  port: 52226
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 4.42|JP1391621161150834
-  server: mf-aws-jp-07.xncloud.xyz
-  port: 18000
-  type: vmess
-  uuid: 80bc6df4-2905-35f9-a671-35bc803d93cd
-  alterId: 1
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /niaoyun
-  tls: false
-  ws-headers:
-    Host: mf-aws-jp-07.xncloud.xyz
-- name: 4.38|vpnpoolTokyoLinode 11
-  server: 40.83.115.147
-  port: 52281
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 4.28|CN18324069511234
-  server: qy1.dwjsyz.top
-  port: 16666
-  type: vmess
-  uuid: 0075f65b-7ec6-3b18-a0b6-0c0dc54f9e6b
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /video
-  tls: false
-  ws-headers:
-    Host: qy1.dwjsyz.top
-- name: 4.18|中国TGnodesharing130
-  server: shcu01a.iplc188.com
-  port: 10002
-  type: vmess
-  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 4.16|CYL科技20220111 39
-  server: vipdedi.boom.ovh
-  port: 65521
-  type: vmess
-  uuid: a8d9724a-d61c-3d85-8cad-07e4d45a9441
+  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-path: /mydisk
-  ws-headers:
-    Host: vipdedi.boom.ovh
   udp: true
-- name: 4.10|CN10189109301171
-  server: 101.89.109.30
-  port: 10015
+- name: 5.16| HK565
+  server: 136.wgong.xyz
   type: vmess
-  uuid: b82814c6-2b6a-4c15-ae33-a0cc681ee5fb
-  alterId: 1
+  country: ' HK'
+  port: 52436
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
   cipher: auto
-  skip-cert-vertify: false
-  network: tcp
+  network: none
   ws-path: /
-  tls: false
-  ws-headers:
-    Host: 101.89.109.30
-- name: 4.04|JP45661341481199
-  server: jp2.zzjs.site
-  port: 31621
-  type: vmess
-  uuid: f27f36fb-3967-3efe-beeb-1d8827ce1b5b
-  alterId: 2
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  tls: false
-  ws-headers:
-    Host: t.me/vpnhat
-- name: 4.01|CN18324069511202
-  server: qy1.dwjsyz.top
-  port: 18001
-  type: vmess
-  uuid: 0075f65b-7ec6-3b18-a0b6-0c0dc54f9e6b
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /video
-  tls: false
-  ws-headers:
-    Host: qy1.dwjsyz.top
-- name: 3.99|vpnpoolTokyoLinode 2
-  server: 168.63.152.183
-  port: 52201
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.88|vpnpoolSGDigitalOcean 8
-  server: 168.63.152.183
-  port: 52225
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 3.86| CA325
-  server: 1222hk3.fans8.xyz
-  type: vmess
-  country: ' CA'
-  port: 80
-  uuid: 6c23fcf0-18e7-3cd0-a123-821fa514fb42
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
+  servername: 136.wgong.xyz
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 3.55| JP717
+- name: 5.15|基础香港03负载均衡 7
+  server: v13.88host.buzz
+  port: 18007
+  type: vmess
+  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 5.12|基础香港02负载均衡 7
+  server: v12.88host.buzz
+  port: 18006
+  type: vmess
+  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 5.09| JP717
   server: 1031kr.fans8.xyz
   type: vmess
   country: ' JP'
@@ -559,64 +320,294 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 3.51| RelayJPJP764 1261Mb
-  server: ff6.uuv2.co.uk
-  port: 80
+- name: 5.08| CN360
+  server: 117.wgong.xyz
   type: vmess
-  uuid: 6c23fcf0-18e7-3cd0-a123-821fa514fb42
+  country: ' CN'
+  port: 52217
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: ff6.uuv2.co.uk
-- name: 3.46|CA263  865Mb
-  server: 165.154.224.93
-  port: 80
-  type: vmess
-  uuid: 6c23fcf0-18e7-3cd0-a123-821fa514fb42
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 165.154.224.93
-- name: 3.38|新鸟免费日本JPAWS 09 10x
-  server: tunnel-jp-a-01.xncloud.xyz
-  port: 209
-  type: vmess
-  uuid: 5d095145-1556-3d6a-aef2-6ae6413f3f47
-  alterId: 1
-  cipher: auto
-  tls: false
+  network: none
+  ws-path: /
+  servername: 117.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
-  network: ws
-  ws-path: /niaoyun
-  ws-headers:
-    Host: mf-aws-jp-09.xncloud.xyz
-  udp: true
-- name: 3.24|新鸟免费日本JPAWS 10 10x
-  server: tunnel-jp-a-01.xncloud.xyz
-  port: 210
+- name: 5.08|专线香港01原生HGCBBS 6
+  server: v31.88host.buzz
+  port: 18064
   type: vmess
-  uuid: 5d095145-1556-3d6a-aef2-6ae6413f3f47
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /niaoyun
-  ws-headers:
-    Host: mf-aws-jp-10.xncloud.xyz
-  udp: true
-- name: 3.15|共享
-  server: 27.122.57.72
-  port: 35326
-  type: vmess
-  uuid: 217362fd-3e43-4436-be62-92f6dd57303b
+  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
+  skip-cert-verify: true
+  udp: true
+- name: 5.02|专线香港02原生HGCBBS 6
+  server: v32.88host.buzz
+  port: 18065
+  type: vmess
+  uuid: dd9deb92-2394-31b0-be49-edcbc4665a00
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.99|标准新加坡02解锁流媒体 5
+  server: v22.88host.buzz
+  port: 18034
+  type: vmess
+  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.99| HK557
+  server: 133.wgong.xyz
+  type: vmess
+  country: ' HK'
+  port: 52333
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 133.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.97|HK52229130731147
+  server: 118.wgong.xyz
+  port: 52218
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  skip-cert-vertify: false
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 118.wgong.xyz
+- name: 4.95|专线香港03原生CMI 4
+  server: v33.88host.buzz
+  port: 18066
+  type: vmess
+  uuid: f84f0b8a-ebb0-36d6-8640-11f7e3864392
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.92|专线香港06原生CMI 4
+  server: v36.88host.buzz
+  port: 18069
+  type: vmess
+  uuid: 8275f9c0-2633-3a94-94b4-295a5a813efa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.89| HK576
+  server: 127.wgong.xyz
+  type: vmess
+  country: ' HK'
+  port: 52227
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 127.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.82|基础香港05负载均衡 6
+  server: v12.88host.buzz
+  port: 18009
+  type: vmess
+  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.80| HK555
+  server: 103.wgong.xyz
+  type: vmess
+  country: ' HK'
+  port: 52203
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 103.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.78| HK574
+  server: 116.wgong.xyz
+  type: vmess
+  country: ' HK'
+  port: 52216
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 116.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.77|基础香港01负载均衡 7
+  server: v11.88host.buzz
+  port: 18005
+  type: vmess
+  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.73|HK52175301221139
+  server: 52.175.30.122
+  port: 52298
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  skip-cert-vertify: false
+  network: tcp
+  ws-path: t.me/vpnpool
+  tls: false
+  ws-headers:
+    Host: t.me/vpnhat
+- name: 4.73|HK20189841811137
+  server: 20.189.84.181
+  port: 52205
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  skip-cert-vertify: false
+  network: tcp
+  ws-path: t.me/vpnpool
+  tls: false
+  ws-headers:
+    Host: t.me/vpnhat
+- name: 4.68| HK604
+  server: 83.wgong.xyz
+  type: vmess
+  country: ' HK'
+  port: 52283
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 83.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.61|httpsgitiov9999 CN12
+  server: 20.205.32.135
+  port: 11224
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: tcp
+- name: 4.55|标准日本02解锁流媒体 3
+  server: v22.88host.buzz
+  port: 18022
+  type: vmess
+  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.54| US1974
+  server: 126.wgong.xyz
+  type: vmess
+  country: ' US'
+  port: 52226
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 126.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.52| HK567
+  server: 101.wgong.xyz
+  type: vmess
+  country: ' HK'
+  port: 52201
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 101.wgong.xyz
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.51|基础香港06负载均衡 4
+  server: v13.88host.buzz
+  port: 18010
+  type: vmess
+  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.49|标准新加坡04解锁流媒体 3
+  server: v24.88host.buzz
+  port: 18036
+  type: vmess
+  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.42|标准新加坡03解锁流媒体 4
+  server: v23.88host.buzz
+  port: 18035
+  type: vmess
+  uuid: 5fd9f88b-c25f-3f28-9344-8e2b2a649fe4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.39| 高速优化日本3
+  server: azhk.relay.qchwnd.moe
+  port: 10204
+  type: vmess
+  uuid: 476ddab3-29a2-4a32-8f0d-33cf6add3722
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 4.38|CN18324069511202
+  server: qy1.dwjsyz.top
+  port: 18001
+  type: vmess
+  uuid: 0075f65b-7ec6-3b18-a0b6-0c0dc54f9e6b
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /video
+  tls: false
+  ws-headers:
+    Host: qy1.dwjsyz.top
