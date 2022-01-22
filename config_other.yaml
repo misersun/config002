@@ -1,5 +1,5 @@
 proxies:
-- name: 5.10| 国内中转SG广州移动新加坡0003
+- name: 5.66| 国内中转SG广州移动新加坡0003
   server: z0003.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -9,19 +9,8 @@ proxies:
   obfs: http_simple
   protocol-param: ''
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
-- name: 3.01|香港 免费节点EC2负载均衡119
-  server: gz2.52168.xyz
-  port: 2109
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: 2f712623.baidu.com
-  udp: true
-- name: 2.53| HiHK 1121 tmemoon365free
-  server: 101.89.118.3
+- name: 5.35|0122TG频道Jsnzk
+  server: 112.33.36.109
   port: 44160
   type: ssr
   cipher: aes-256-cfb
@@ -29,18 +18,19 @@ proxies:
   protocol: origin
   obfs: http_simple
   protocol-param: ''
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
-- name: 2.17|vpnpoolHo Chi MinhCloudcorefree
-  server: 183.240.181.27
-  port: 1107
+  obfs-param: ''
+- name: 4.19|日本1SSR中转优化  20024 单端口
+  server: jp1.5dyun.cc
+  port: 20024
   type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: t.me/vpnhat
-- name: 2.08|CN3
+  cipher: rc4-md5
+  password: mfyun001
+  protocol: auth_aes128_md5
+  obfs: http_simple
+  protocol-param: 1:123456789
+  obfs-param: 753361.bing.com
+  udp: true
+- name: 3.46|CN3
   server: z00001.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -50,16 +40,16 @@ proxies:
   obfs: http_simple
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
   likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
-- name: 2.01|美国1
+- name: 2.18|美国2
   type: snell
-  server: sha.bi.jimosaofu.xyz
+  server: sha.diao.jimosaofu.xyz
   port: 8443
   psk: WoHaoKuaiLeA
   version: 1
   obfs-opts:
     mode: tls
     host: mirrorn.centos.org
-- name: 1.86|vpnpoolAmsterdamM247free
+- name: 1.85|vpnpoolAmsterdamM247free
   server: 183.240.181.27
   port: 1117
   type: ssr
@@ -70,16 +60,16 @@ proxies:
   protocol-param: 623:l78d6doy74s
   obfs-param: t.me/vpnhat
   udp: true
-- name: 1.85|美国2
+- name: 1.79|美国1
   type: snell
-  server: sha.diao.jimosaofu.xyz
+  server: sha.bi.jimosaofu.xyz
   port: 8443
   psk: WoHaoKuaiLeA
   version: 1
   obfs-opts:
     mode: tls
     host: mirrorn.centos.org
-- name: 1.72|CN1
+- name: 1.76|CN1
   server: z0114.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -89,7 +79,17 @@ proxies:
   obfs: http_simple
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
   likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
-- name: 1.67|CN22
+- name: 1.68|vpnpoolHo Chi MinhCloudcorefree
+  server: 183.240.181.27
+  port: 1107
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: t.me/vpnhat
+- name: 1.61|CN22
   server: z0113.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -99,12 +99,14 @@ proxies:
   obfs: http_simple
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
   likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
-- name: 1.57| FR163
-  server: fr-am1-4.eqsunshine.com
+- name: 1.03|香港 免费节点EC2负载均衡119
+  server: gz2.52168.xyz
+  port: 2109
   type: ssr
-  country: ' FR'
-  port: 8181
-  password: X3LKnwp5C
   cipher: aes-256-cfb
-  protocol: origin
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+  udp: true
