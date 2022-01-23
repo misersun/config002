@@ -1,32 +1,5 @@
 proxies:
-- name: 5.66| 国内中转SG广州移动新加坡0003
-  server: z0003.security-cloudfront-cdn.com
-  port: 44160
-  type: ssr
-  cipher: aes-256-cfb
-  password: wQ16gJrbBvvME3my
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
-- name: 5.35|0122TG频道Jsnzk
-  server: 112.33.36.109
-  port: 44160
-  type: ssr
-  cipher: aes-256-cfb
-  password: wQ16gJrbBvvME3my
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: ''
-- name: 5.31| 高速解锁负载均衡香港
-  server: azhk.node.qchwnd.moe
-  port: 10213
-  type: trojan
-  password: 476ddab3-29a2-4a32-8f0d-33cf6add3722
-  sni: cdn.qchwnd.moe
-  skip-cert-verify: true
-- name: 5.26|RelayUSUS2224 13236Mb
+- name: 5.95|RelayUSUS2224 13236Mb
   server: azhk.node.qchwnd.moe
   type: trojan
   country: US
@@ -34,7 +7,7 @@ proxies:
   password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 4.94|RelayHKUS579 9367Mb
+- name: 5.90|RelayHKUS579 9367Mb
   server: azhk.relay.qchwnd.moe
   type: trojan
   country: HK
@@ -42,23 +15,7 @@ proxies:
   password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 4.83|RelayHKJP584 5043Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44602
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 4.83|Relay 1986Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23035
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 4.70|RelayHKHK582 5801Mb
+- name: 5.81|RelayHKHK582 5801Mb
   server: azhk.relay.qchwnd.moe
   type: trojan
   country: HK
@@ -66,7 +23,14 @@ proxies:
   password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 4.63|RelayHKJP585 1267Mb
+- name: 5.73| 高速解锁负载均衡香港
+  server: azhk.node.qchwnd.moe
+  port: 10213
+  type: trojan
+  password: 476ddab3-29a2-4a32-8f0d-33cf6add3722
+  sni: cdn.qchwnd.moe
+  skip-cert-verify: true
+- name: 4.73|RelayHKJP585 1267Mb
   server: azhk.relay.qchwnd.moe
   type: trojan
   country: HK
@@ -74,24 +38,56 @@ proxies:
   password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 4.40|0122TG频道Jsnzk
-  server: awsjp.pluscloud.top
+- name: 4.67|Relay 1986Mb
+  server: newgy.jidan666.com
+  type: trojan
+  country: CN
+  port: 23035
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 4.59|JP541992542181073
+  server: jp19.holiganfan.com
+  port: 10088
+  type: trojan
+  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
+  skip-cert-verify: false
+- name: 4.53|RelayCNHK308 1295Mb
+  server: newgy.jidan666.com
+  type: trojan
+  country: CN
+  port: 23031
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 4.44|RelayHKJP584 5043Mb
+  server: azhk.relay.qchwnd.moe
+  type: trojan
+  country: HK
+  port: 44602
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 4.31|0122TG频道Jsnzk
+  server: awsjp10.pluscloud.top
   port: 443
   type: trojan
   password: 78990d57-2af6-4092-bf6b-f11575db222f
-  sni: awsjp.pluscloud.top
-- name: 4.19|日本1SSR中转优化  20024 单端口
-  server: jp1.5dyun.cc
-  port: 20024
-  type: ssr
-  cipher: rc4-md5
-  password: mfyun001
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 1:123456789
-  obfs-param: 753361.bing.com
-  udp: true
-- name: 4.09|RelayCNJP317 1233Mb
+  sni: awsjp10.pluscloud.top
+- name: 4.11|0122TG频道Jsnzk
+  server: azhk.pluscloud.top
+  port: 443
+  type: trojan
+  password: 78990d57-2af6-4092-bf6b-f11575db222f
+  sni: azhk.pluscloud.top
+- name: 3.94|0122TG频道Jsnzk
+  server: baip.huhu.icu
+  port: 19999
+  type: trojan
+  password: b520a49d-ea4c-49cf-a08b-7c54793cbeab
+  sni: sp8888.top
+  skip-cert-verify: true
+- name: 3.68|RelayCNJP317 1233Mb
   server: newgy.jidan666.com
   type: trojan
   country: CN
@@ -99,35 +95,6 @@ proxies:
   password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 3.97|JP541992542181073
-  server: jp19.holiganfan.com
-  port: 10088
-  type: trojan
-  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
-  skip-cert-verify: false
-- name: 3.97|Relay 1794Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23033
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 3.84|RelayHKTW583 4894Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44608
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 3.80|0122TG频道Jsnzk
-  server: baip.huhu.icu
-  port: 19999
-  type: trojan
-  password: b520a49d-ea4c-49cf-a08b-7c54793cbeab
-  sni: sp8888.top
-  skip-cert-verify: true
 - name: 3.66| SG931
   server: sg27.holiganfan.com
   type: trojan
@@ -136,17 +103,15 @@ proxies:
   password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
   skip-cert-verify: true
   udp: true
-- name: 3.46|CN3
-  server: z00001.security-cloudfront-cdn.com
-  port: 44160
-  type: ssr
-  password: wQ16gJrbBvvME3my
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: http_simple
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
-  likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
-- name: 3.23|RelayHKDE577 5582Mb
+- name: 3.65|Relay 1794Mb
+  server: newgy.jidan666.com
+  type: trojan
+  country: CN
+  port: 23033
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 3.56|RelayHKDE577 5582Mb
   server: azhk.relay.qchwnd.moe
   type: trojan
   country: HK
@@ -154,15 +119,7 @@ proxies:
   password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 3.20|RelayCNHK308 1295Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23031
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 2.87|Relay 2128Mb
+- name: 3.41|Relay 2128Mb
   server: newgy.jidan666.com
   type: trojan
   country: CN
@@ -170,156 +127,29 @@ proxies:
   password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 2.85|RelayHKID576 9152Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44607
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 2.73| 日本阿伟科技油管 16
-  server: sb.ballm.eu.org
-  port: 443
-  type: trojan
-  password: ebc3bf91-a087-41dc-966c-ac5bf14286b2
-  sni: sb.ballm.eu.org
-  skip-cert-verify: false
 - name: 2.59|0122TG频道Jsnzk
-  server: msk.mtoly.xyz
-  port: 34464
-  type: trojan
-  password: aefe3659-4737-433a-b879-e172ce7fd212
-  sni: msk.mtoly.xyz
-- name: 2.39|0122TG频道Jsnzk
-  server: awsjp10.pluscloud.top
-  port: 443
-  type: trojan
-  password: 78990d57-2af6-4092-bf6b-f11575db222f
-  sni: awsjp10.pluscloud.top
-- name: 2.23|trojan
-  type: trojan
-  server: 65.49.196.246
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 2.18|美国2
-  type: snell
-  server: sha.diao.jimosaofu.xyz
-  port: 8443
-  psk: WoHaoKuaiLeA
-  version: 1
-  obfs-opts:
-    mode: tls
-    host: mirrorn.centos.org
-- name: 2.16|0122TG频道Jsnzk
-  server: 3.vpnbro.ml
-  port: 9999
-  type: trojan
-  password: dcba4731-0d6c-41f7-9d33-026fa5bff514
-  sni: 3.vpnbro.ml
-- name: 1.94|0122TG频道Jsnzk
-  server: 1.vpnbro.ml
-  port: 9999
-  type: trojan
-  password: fb64c541-d412-4a01-ab8f-16bbdea884ac
-  sni: 1.vpnbro.ml
-  skip-cert-verify: true
-- name: 1.85|vpnpoolAmsterdamM247free
-  server: 183.240.181.27
-  port: 1117
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 1.84| US2042
-  server: 72.167.45.6
-  type: trojan
-  country: ' US'
-  port: 443
-  password: 36ebef7d1b1d6205fd0c55f28800e674
-  skip-cert-verify: true
-  udp: true
-- name: 1.79|美国1
-  type: snell
-  server: sha.bi.jimosaofu.xyz
-  port: 8443
-  psk: WoHaoKuaiLeA
-  version: 1
-  obfs-opts:
-    mode: tls
-    host: mirrorn.centos.org
-- name: 1.76|CN1
-  server: z0114.security-cloudfront-cdn.com
-  port: 44160
-  type: ssr
-  password: wQ16gJrbBvvME3my
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: http_simple
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
-  likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
-- name: 1.75| 高速俄罗斯
-  server: azhk.relay.qchwnd.moe
-  port: 10208
-  type: trojan
-  password: 476ddab3-29a2-4a32-8f0d-33cf6add3722
-  sni: ru.node.qchwnd.moe
-  skip-cert-verify: true
-- name: 1.72|0122TG频道Jsnzk
-  server: azhk.pluscloud.top
-  port: 443
-  type: trojan
-  password: 78990d57-2af6-4092-bf6b-f11575db222f
-  sni: azhk.pluscloud.top
-- name: 1.68|vpnpoolHo Chi MinhCloudcorefree
-  server: 183.240.181.27
-  port: 1107
-  type: ssr
-  cipher: aes-256-cfb
-  password: epChJS35fV
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 623:l78d6doy74s
-  obfs-param: t.me/vpnhat
-- name: 1.64|Relay 2265Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44606
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 1.61|CN22
-  server: z0113.security-cloudfront-cdn.com
-  port: 44160
-  type: ssr
-  password: wQ16gJrbBvvME3my
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: http_simple
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
-  likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
-- name: 1.59|0122TG频道Jsnzk
   server: 5.vpnbro.ml
   port: 9999
   type: trojan
   password: dcba4731-0d6c-41f7-9d33-026fa5bff514
   sni: 5.vpnbro.ml
-- name: 1.42|0122TG频道Jsnzk
-  server: 4.vpnbro.ml
-  port: 9999
+- name: 2.41| CN370
+  server: s2.upyun.online
   type: trojan
-  password: dcba4731-0d6c-41f7-9d33-026fa5bff514
-  sni: 4.vpnbro.ml
-- name: 1.03|香港 免费节点EC2负载均衡119
+  country: ' CN'
+  port: 12340
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
+  skip-cert-verify: true
+  udp: true
+- name: 2.31|RelayHKTW583 4894Mb
+  server: azhk.relay.qchwnd.moe
+  type: trojan
+  country: HK
+  port: 44608
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 2.31|香港 免费节点EC2负载均衡119
   server: gz2.52168.xyz
   port: 2109
   type: ssr
@@ -330,3 +160,80 @@ proxies:
   protocol-param: 623:l78d6doy74s
   obfs-param: 2f712623.baidu.com
   udp: true
+- name: 2.25|0122TG频道Jsnzk
+  server: 1.vpnbro.ml
+  port: 9999
+  type: trojan
+  password: fb64c541-d412-4a01-ab8f-16bbdea884ac
+  sni: 1.vpnbro.ml
+  skip-cert-verify: true
+- name: 2.19|0122TG频道Jsnzk
+  server: 3.vpnbro.ml
+  port: 9999
+  type: trojan
+  password: dcba4731-0d6c-41f7-9d33-026fa5bff514
+  sni: 3.vpnbro.ml
+- name: 2.03| US2042
+  server: 72.167.45.6
+  type: trojan
+  country: ' US'
+  port: 443
+  password: 36ebef7d1b1d6205fd0c55f28800e674
+  skip-cert-verify: true
+  udp: true
+- name: 1.96|0122TG频道Jsnzk
+  server: msk.mtoly.xyz
+  port: 34464
+  type: trojan
+  password: aefe3659-4737-433a-b879-e172ce7fd212
+  sni: msk.mtoly.xyz
+- name: 1.86| 高速俄罗斯
+  server: azhk.relay.qchwnd.moe
+  port: 10208
+  type: trojan
+  password: 476ddab3-29a2-4a32-8f0d-33cf6add3722
+  sni: ru.node.qchwnd.moe
+  skip-cert-verify: true
+- name: 1.85|Relay 2265Mb
+  server: azhk.relay.qchwnd.moe
+  type: trojan
+  country: HK
+  port: 44606
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 1.76|美国1
+  type: snell
+  server: sha.bi.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 1.63|CN22
+  server: z0113.security-cloudfront-cdn.com
+  port: 44160
+  type: ssr
+  password: wQ16gJrbBvvME3my
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: http_simple
+  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
+  likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
+- name: 1.48| 国内中转SG广州移动新加坡0003
+  server: z0003.security-cloudfront-cdn.com
+  port: 44160
+  type: ssr
+  cipher: aes-256-cfb
+  password: wQ16gJrbBvvME3my
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
+- name: 1.28|0122TG频道Jsnzk
+  server: 4.vpnbro.ml
+  port: 9999
+  type: trojan
+  password: dcba4731-0d6c-41f7-9d33-026fa5bff514
+  sni: 4.vpnbro.ml
