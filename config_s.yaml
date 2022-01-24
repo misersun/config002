@@ -1,5 +1,40 @@
 proxies:
-- name: 5.95|RelayUSUS2224 13236Mb
+- name: 6.59|Relay 1148Mb
+  server: xg1.vpnbro.ml
+  type: trojan
+  country: US
+  port: 443
+  password: dcba4731-0d6c-41f7-9d33-026fa5bff514
+  skip-cert-verify: true
+  udp: true
+- name: 5.78|香港Azure 2
+  server: 104.208.66.112
+  port: 27561
+  type: trojan
+  password: 99a68273-b51d-3818-a174-764e907c6d7b
+  skip-cert-verify: true
+  udp: true
+- name: 5.65|HK20205452311226
+  server: 1.zhuzhu12.com
+  port: 443
+  type: vmess
+  uuid: 60457094-32fe-3daf-8ecb-ecb49d443243
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /zz
+  tls: true
+  ws-headers:
+    Host: 1.zhuzhu12.com
+- name: 5.55|香港AzureSGDigitalOcean 2
+  server: 104.208.66.112
+  port: 25998
+  type: trojan
+  password: 99a68273-b51d-3818-a174-764e907c6d7b
+  skip-cert-verify: true
+  udp: true
+- name: 5.44|RelayUSUS2224 13236Mb
   server: azhk.node.qchwnd.moe
   type: trojan
   country: US
@@ -7,229 +42,20 @@ proxies:
   password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 5.90|RelayHKUS579 9367Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44605
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 5.81|RelayHKHK582 5801Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44601
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 5.73| 高速解锁负载均衡香港
-  server: azhk.node.qchwnd.moe
-  port: 10213
-  type: trojan
-  password: 476ddab3-29a2-4a32-8f0d-33cf6add3722
-  sni: cdn.qchwnd.moe
-  skip-cert-verify: true
-- name: 5.10|HK431551142171023
-  server: 233.ezydfdd.com
+- name: 5.16|HK20205471861261
+  server: 3.zhuzhu12.com
   port: 443
   type: vmess
-  uuid: 71e71266-c8b2-4dc7-8a19-f3390a7b1507
+  uuid: e8708a87-7f87-31f3-98b3-e9b07e70417e
   alterId: 0
   cipher: auto
   skip-cert-vertify: false
   network: ws
-  ws-path: /qwe
+  ws-path: /zz
   tls: true
   ws-headers:
-    Host: 233.ezydfdd.com
-- name: 4.73|RelayHKJP585 1267Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44603
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 4.67|Relay 1986Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23035
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 4.59|JP541992542181073
-  server: jp19.holiganfan.com
-  port: 10088
-  type: trojan
-  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
-  skip-cert-verify: false
-- name: 4.53|RelayCNHK308 1295Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23031
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 4.44|RelayHKJP584 5043Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: HK
-  port: 44602
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 4.31|0122TG频道Jsnzk
-  server: awsjp10.pluscloud.top
-  port: 443
-  type: trojan
-  password: 78990d57-2af6-4092-bf6b-f11575db222f
-  sni: awsjp10.pluscloud.top
-- name: 4.11|0122TG频道Jsnzk
-  server: azhk.pluscloud.top
-  port: 443
-  type: trojan
-  password: 78990d57-2af6-4092-bf6b-f11575db222f
-  sni: azhk.pluscloud.top
-- name: 4.00|httpsgitiov9999 193
-  server: 198.41.212.12
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 3.94|0122TG频道Jsnzk
-  server: baip.huhu.icu
-  port: 19999
-  type: trojan
-  password: b520a49d-ea4c-49cf-a08b-7c54793cbeab
-  sni: sp8888.top
-  skip-cert-verify: true
-- name: 3.93|httpsgitiov9999 88
-  server: 198.41.212.5
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 3.85|httpsgitiov9999 131
-  server: 198.41.221.169
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 3.76|httpsgitiov9999 110
-  server: 198.41.212.15
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 3.70|httpsgitiov9999 406
-  server: 198.41.212.18
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-  udp: true
-- name: 3.68|RELAY19841212110122
-  server: 198.41.212.11
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /sakura/
-  tls: true
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 3.68|RelayCNJP317 1233Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23032
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 3.66| SG931
-  server: sg27.holiganfan.com
-  type: trojan
-  country: ' SG'
-  port: 10088
-  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
-  skip-cert-verify: true
-  udp: true
-- name: 3.65|Relay 1794Mb
-  server: newgy.jidan666.com
-  type: trojan
-  country: CN
-  port: 23033
-  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
-  skip-cert-verify: true
-  udp: true
-- name: 3.65|httpsgitiov9999 335
-  server: 198.41.212.14
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 3.64|httpsgitiov9999 174
-  server: 198.41.212.3
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 3.57|httpsgitiov9999 202
+    Host: 3.zhuzhu12.com
+- name: 5.11|httpsgitiov9999 202
   server: 198.41.212.17
   port: 443
   type: vmess
@@ -242,29 +68,16 @@ proxies:
     path: /sakura/
     headers:
       Host: zero1.a-yu.xyz
-- name: 3.56|httpsgitiov9999 160
-  server: 198.41.212.20
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 3.56|RelayHKDE577 5582Mb
+- name: 5.09|RelayHKUS579 9367Mb
   server: azhk.relay.qchwnd.moe
   type: trojan
   country: HK
-  port: 44604
+  port: 44605
   password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 3.54|httpsgitiov9999 157
-  server: 198.41.212.7
+- name: 5.04|httpsgitiov9999 110
+  server: 198.41.212.15
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
@@ -276,20 +89,7 @@ proxies:
     path: /sakura/
     headers:
       Host: zero1.a-yu.xyz
-- name: 3.53|httpsgitiov9999 121
-  server: 198.41.212.19
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 3.47|httpsgitiov9999 165
+- name: 5.03|httpsgitiov9999 165
   server: 198.41.212.16
   port: 443
   type: vmess
@@ -302,8 +102,16 @@ proxies:
     path: /sakura/
     headers:
       Host: zero1.a-yu.xyz
-- name: 3.43|httpsgitiov9999 3
-  server: 198.41.212.13
+- name: 5.01|RelayHKHK582 5801Mb
+  server: azhk.relay.qchwnd.moe
+  type: trojan
+  country: HK
+  port: 44601
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 4.95|httpsgitiov9999 335
+  server: 198.41.212.14
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
@@ -315,15 +123,127 @@ proxies:
     path: /sakura/
     headers:
       Host: zero1.a-yu.xyz
-- name: 3.41|Relay 2128Mb
-  server: newgy.jidan666.com
+- name: 4.94|HK43154871181277
+  server: wndjw.ezydfdd.com
+  port: 443
+  type: vmess
+  uuid: 03ab2300-a054-4e6f-bfeb-16864375c44e
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /qwe
+  tls: true
+  ws-headers:
+    Host: wndjw.ezydfdd.com
+- name: 4.90|httpsgitiov9999 157
+  server: 198.41.212.7
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero1.a-yu.xyz
+- name: 4.87|RELAY19841212110122
+  server: 198.41.212.11
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /sakura/
+  tls: true
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 4.84|httpsgitiov9999 189
+  server: 198.41.212.6
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero1.a-yu.xyz
+- name: 4.82|HK431551142171023
+  server: 233.ezydfdd.com
+  port: 443
+  type: vmess
+  uuid: 71e71266-c8b2-4dc7-8a19-f3390a7b1507
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /qwe
+  tls: true
+  ws-headers:
+    Host: 233.ezydfdd.com
+- name: 4.74|RelayHKJP585 1267Mb
+  server: azhk.relay.qchwnd.moe
   type: trojan
-  country: CN
-  port: 23034
+  country: HK
+  port: 44603
   password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 3.40|httpsgitiov9999 195
+- name: 4.73|RelayHKJP584 5043Mb
+  server: azhk.relay.qchwnd.moe
+  type: trojan
+  country: HK
+  port: 44602
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 4.70|httpsgitiov9999 131
+  server: 198.41.221.169
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero1.a-yu.xyz
+- name: 4.68|httpsgitiov9999 193
+  server: 198.41.212.12
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero1.a-yu.xyz
+- name: 4.59|httpsgitiov9999 121
+  server: 198.41.212.19
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero1.a-yu.xyz
+- name: 4.59|httpsgitiov9999 195
   server: 198.41.212.10
   port: 443
   type: vmess
@@ -336,8 +256,21 @@ proxies:
     path: /sakura/
     headers:
       Host: zero1.a-yu.xyz
-- name: 3.36|httpsgitiov9999 40
-  server: 198.41.212.4
+- name: 4.55|HK20187741541263
+  server: 5.zhuzhu12.com
+  port: 443
+  type: vmess
+  uuid: eb995ed5-d9a4-3ab4-b62d-95d8e9f24417
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /zz
+  tls: true
+  ws-headers:
+    Host: 5.zhuzhu12.com
+- name: 4.55|httpsgitiov9999 174
+  server: 198.41.212.9
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
@@ -349,7 +282,7 @@ proxies:
     path: /sakura/
     headers:
       Host: zero1.a-yu.xyz
-- name: 3.31|httpsgitiov9999 414
+- name: 4.55|httpsgitiov9999 414
   server: 198.41.212.8
   port: 443
   type: vmess
@@ -363,20 +296,19 @@ proxies:
   ws-headers:
     Host: zero1.a-yu.xyz
   udp: true
-- name: 3.25| RelayUSJP2128  218Mb
-  server: rb1.moonfree.top
-  port: 8443
+- name: 4.49| RelayUSRU2219  444Mb
+  server: 104.19.28.35
+  port: 443
   type: vmess
-  uuid: f1533fd1-4562-4935-a1e6-832685d4a919
+  uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: rb.moonfree.top
-- name: 3.19| SG965
+    Host: cdn-dc02.testred.xyz
+- name: 4.45| SG965
   server: 202.61.141.130
   type: vmess
   country: ' SG'
@@ -390,7 +322,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 3.19|RELAY1984121210108
+- name: 4.45|RELAY1984121210108
   server: 198.41.212.1
   port: 443
   type: vmess
@@ -403,110 +335,35 @@ proxies:
   tls: true
   ws-headers:
     Host: zero1.a-yu.xyz
-- name: 3.14| RelayUSRU2219  444Mb
-  server: 104.19.28.35
-  port: 443
-  type: vmess
-  uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdn-dc02.testred.xyz
-- name: 3.11|httpsgitiov9999 154
-  server: 198.41.212.2
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 3.09|httpsgitiov9999 174
-  server: 198.41.212.9
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 3.06|httpsgitiov9999 189
-  server: 198.41.212.6
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 2.90| SG963
-  server: ycgyg.com
-  type: vmess
-  country: ' SG'
-  port: 443
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  network: ws
-  ws-path: /ws
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 2.87| RelayUSRU2228  736Mb
-  server: 104.19.23.215
-  port: 443
-  type: vmess
-  uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdn-dc02.testred.xyz
-- name: 2.59|0122TG频道Jsnzk
-  server: 5.vpnbro.ml
-  port: 9999
+- name: 4.27|香港AzureBengaluruDigitalOcean
+  server: 104.208.66.112
+  port: 24312
   type: trojan
-  password: dcba4731-0d6c-41f7-9d33-026fa5bff514
-  sni: 5.vpnbro.ml
-- name: 2.47| RelayUSRU2214 2232Mb
-  server: 104.16.169.85
-  port: 443
-  type: vmess
-  uuid: c213d58f-9e41-4d9e-ab99-efa6090dee02
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdn-dc02.testred.xyz
-- name: 2.41| CN370
-  server: s2.upyun.online
-  type: trojan
-  country: ' CN'
-  port: 12340
-  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
+  password: 99a68273-b51d-3818-a174-764e907c6d7b
   skip-cert-verify: true
   udp: true
-- name: 2.31|RelayHKTW583 4894Mb
+- name: 4.27|httpsgitiov9999 406
+  server: 198.41.212.18
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+  udp: true
+- name: 4.24|CYL科技20220122 94
+  server: 106.180.225.69
+  port: 1443
+  type: trojan
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 4.23|RelayHKTW583 4894Mb
   server: azhk.relay.qchwnd.moe
   type: trojan
   country: HK
@@ -514,16 +371,170 @@ proxies:
   password: ddcfe6cb-d001-430e-9781-427496e3ed1d
   skip-cert-verify: true
   udp: true
-- name: 2.25|0122TG频道Jsnzk
+- name: 4.20|Relay 1986Mb
+  server: newgy.jidan666.com
+  type: trojan
+  country: CN
+  port: 23035
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 4.17|香港AzureBangkokScloudnf 2
+  server: 104.208.66.112
+  port: 27346
+  type: trojan
+  password: 99a68273-b51d-3818-a174-764e907c6d7b
+  skip-cert-verify: true
+  udp: true
+- name: 4.04|0122TG频道Jsnzk
+  server: 3.vpnbro.ml
+  port: 9999
+  type: trojan
+  password: dcba4731-0d6c-41f7-9d33-026fa5bff514
+  sni: 3.vpnbro.ml
+- name: 4.00|0122TG频道Jsnzk
   server: 1.vpnbro.ml
   port: 9999
   type: trojan
   password: fb64c541-d412-4a01-ab8f-16bbdea884ac
   sni: 1.vpnbro.ml
   skip-cert-verify: true
-- name: 2.19|0122TG频道Jsnzk
-  server: 3.vpnbro.ml
+- name: 3.99| US2121
+  server: azhk.relay.qchwnd.moe
+  type: trojan
+  country: ' US'
+  port: 44607
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 3.92|Relay 1794Mb
+  server: newgy.jidan666.com
+  type: trojan
+  country: CN
+  port: 23033
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 3.86|httpsgitiov9999 88
+  server: 198.41.212.5
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero1.a-yu.xyz
+- name: 3.74|HK2024721011413
+  server: 4.zhuzhu12.com
+  port: 8080
+  type: vmess
+  uuid: 60457094-32fe-3daf-8ecb-ecb49d443243
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: false
+  network: ws
+  ws-path: /zz
+  tls: true
+  ws-headers:
+    Host: 4.zhuzhu12.com
+- name: 3.73| TW1029
+  server: tw.4kxray.xyz
+  type: vmess
+  country: ' TW'
+  port: 20026
+  uuid: efef2a3a-ce10-328b-b65c-eeae36eb9345
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: tw.4kxray.xyz
+  ws-headers:
+    HOST: tw.4kxray.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 3.69|httpsgitiov9999 3
+  server: 198.41.212.13
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero1.a-yu.xyz
+- name: 3.60| 新加坡2 200Mbps
+  server: 2.vpnbro.ml
   port: 9999
   type: trojan
   password: dcba4731-0d6c-41f7-9d33-026fa5bff514
-  sni: 3.vpnbro.ml
+  sni: 2.vpnbro.ml
+- name: 3.58|httpsgitiov9999 160
+  server: 198.41.212.20
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero1.a-yu.xyz
+- name: 3.57| RelayUSZZ2254 1094Mb
+  server: 20.205.106.28
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 3.57|SGAzure
+  server: 20.24.43.66
+  port: 27561
+  type: trojan
+  password: 99a68273-b51d-3818-a174-764e907c6d7b
+  skip-cert-verify: true
+  udp: true
+- name: 3.45|RelayCNJP317 1233Mb
+  server: newgy.jidan666.com
+  type: trojan
+  country: CN
+  port: 23032
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 3.42|RelayHKDE577 5582Mb
+  server: azhk.relay.qchwnd.moe
+  type: trojan
+  country: HK
+  port: 44604
+  password: ddcfe6cb-d001-430e-9781-427496e3ed1d
+  skip-cert-verify: true
+  udp: true
+- name: 3.31|httpsgitiov9999 40
+  server: 198.41.212.4
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero1.a-yu.xyz
