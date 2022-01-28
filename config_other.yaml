@@ -1,5 +1,5 @@
 proxies:
-- name: 5.96|httpsgitiov9999 SSR 5
+- name: 6.24|httpsgitiov9999 SSR 5
   server: z00012.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -10,7 +10,7 @@ proxies:
   protocol-param: ''
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
   udp: true
-- name: 3.26|日本2SSR中转优化  30001 单端口
+- name: 2.72|日本2SSR中转优化  30001 单端口
   server: 120.232.41.113
   port: 30001
   type: ssr
@@ -21,18 +21,16 @@ proxies:
   protocol-param: 1:123456789
   obfs-param: 753361.bing.com
   udp: true
-- name: 1.83|httpsgitiov9999 SSR 3
-  server: z0112.security-cloudfront-cdn.com
-  port: 44160
-  type: ssr
-  cipher: aes-256-cfb
-  password: wQ16gJrbBvvME3my
-  protocol: origin
-  obfs: http_simple
-  protocol-param: ''
-  obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML,likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive
-  udp: true
-- name: 1.78|CN22
+- name: 1.88|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 1.71|CN22
   server: z0113.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -42,3 +40,12 @@ proxies:
   obfs: http_simple
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
   likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
+- name: 1.30|DE375 1844Mb
+  server: 136.243.191.85
+  type: ssr
+  country: DE
+  port: 443
+  password: sEscPBiAD9K$&@79
+  cipher: aes-128-ctr
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
