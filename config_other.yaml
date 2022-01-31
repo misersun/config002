@@ -1,14 +1,5 @@
 proxies:
-- name: 1.77|美国2
-  type: snell
-  server: sha.diao.jimosaofu.xyz
-  port: 8443
-  psk: WoHaoKuaiLeA
-  version: 1
-  obfs-opts:
-    mode: tls
-    host: mirrorn.centos.org
-- name: 1.46|CN22
+- name: 1.69|CN22
   server: z0113.security-cloudfront-cdn.com
   port: 44160
   type: ssr
@@ -18,40 +9,3 @@ proxies:
   obfs: http_simple
   obfs-param: www.microsoft.com#User-Agent:Mozilla/5.0(iPhone;CPUiPhoneOS11_4_1likeMacOSX)AppleWebKit/602.4.6(KHTML
   likeGecko)Version/10.0Mobile/14D27MicroMessenger/6.5.13Accept:/Connection:keep-alive: null
-- name: 1.40|DE375 1844Mb
-  server: 136.243.191.85
-  type: ssr
-  country: DE
-  port: 443
-  password: sEscPBiAD9K$&@79
-  cipher: aes-128-ctr
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-- name: 1.33|Relay 193Mb
-  server: ca-am3.eqnode.net
-  type: ssr
-  country: CA
-  port: 8080
-  password: 4axflHccX
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: 1.07|1097Mb
-  server: 18.133.245.231
-  type: ssr
-  country: GB
-  port: 8181
-  password: PNRbp3j9B
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  obfs-param: t.me/mengge88888888
-- name: 1.01|Relay1061Mb
-  server: uk-am3-5.eqsunshine.com
-  type: ssr
-  country: GB
-  port: 8181
-  password: PNRbp3j9B
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
