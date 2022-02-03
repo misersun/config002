@@ -1,12 +1,5 @@
 proxies:
-- name: 6.41| 香港绿头外网集团Public 4
-  server: ssl.tcpbbr.net
-  port: 443
-  type: trojan
-  password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b
-  sni: ssl.tcpbbr.net
-  skip-cert-verify: true
-- name: 5.77|香港绿头外网集团Public
+- name: 5.85|香港绿头外网集团Public
   server: sxctr.hk2.qiguangyicai.xyz
   port: 44143
   type: trojan
@@ -14,21 +7,7 @@ proxies:
   sni: sxctr.hk2.qiguangyicai.xyz
   skip-cert-verify: true
   udp: true
-- name: 4.89|请尽快更换至新订阅Azure香港东莞移动
-  server: gg.piyun.bid
-  port: 10651
-  type: trojan
-  password: 2803debb-27c4-455f-9bff-46ba0bebb710
-  sni: gg.piyun.bid
-  skip-cert-verify: true
-  udp: true
-- name: 3.76| 香港  香港
-  server: hk17.holiganfan.com
-  port: 10088
-  type: trojan
-  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
-  sni: hk17.holiganfan.com
-- name: 3.59| HK633
+- name: 5.80| HK633
   server: 128v.gq
   type: trojan
   country: ' HK'
@@ -36,22 +15,35 @@ proxies:
   password: 32vshopyyds
   skip-cert-verify: true
   udp: true
-- name: 3.56|CYL科技20220131 2
+- name: 5.22|CYL科技20220131 2
   server: 185.212.59.105
   port: 15228
   type: trojan
   password: WQXZyuplhL
   skip-cert-verify: true
   udp: true
-- name: 2.76|美国TGnodesharing29
-  server: azsg.pluscloud.top
+- name: 5.07| 香港绿头外网集团Public 7
+  server: api.tcpbbr.net
   port: 443
   type: trojan
-  password: c1698db4-42e2-4901-adad-064bf5a8b558
-  sni: azsg.pluscloud.top
+  password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b
+  sni: api.tcpbbr.net
+  skip-cert-verify: true
+- name: 4.96| 香港  香港
+  server: hk17.holiganfan.com
+  port: 10088
+  type: trojan
+  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
+  sni: hk17.holiganfan.com
+- name: 4.12| HK657
+  server: keli.scsevers.cf
+  type: trojan
+  country: ' HK'
+  port: 443
+  password: sharecentre
   skip-cert-verify: true
   udp: true
-- name: 2.73| HK657
+- name: 4.01| HK657
   server: hk.hkt.lilyco.cc
   type: trojan
   country: ' HK'
@@ -59,27 +51,110 @@ proxies:
   password: sharecentre
   skip-cert-verify: true
   udp: true
-- name: 1.96|官方群 httpstmeAppleCloudgroup
-  server: 49.moons.team
-  port: 8088
+- name: 3.24| 香港HGC
+  server: hgc1.tcpbbr.net
+  port: 443
   type: trojan
-  password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
-  sni: 49.moons.team
-- name: 1.74|CYL科技20220131 86
+  password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b
+  sni: hgc1.tcpbbr.net
+- name: 2.43|CYL科技20220131 30
+  server: 106.180.225.69
+  port: 1443
+  type: trojan
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 2.19|CYL科技20220131 86
   server: 89.208.252.110
   port: 19698
   type: trojan
   password: 1w5vcK1KiD
   skip-cert-verify: true
   udp: true
-- name: 1.73|CYL科技20220131
+- name: 2.17|官方群 httpstmeAppleCloudgroup
+  server: 49.moons.team
+  port: 8088
+  type: trojan
+  password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
+  sni: 49.moons.team
+- name: 2.14| AppleCloud  印尼 04
+  server: 52.moons.team
+  port: 8088
+  type: trojan
+  password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
+  sni: 49.moons.team
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: fD0KP8PWA
+  port: 8080
+  protocol: origin
+  server: 3.6.86.77
+  type: ssr
+  name: 2.07|2232
+- name: 2.03|trojan
+  type: trojan
+  server: 65.49.196.130
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 2.01| US2196
+  server: xioix.gq
+  type: trojan
+  country: ' US'
+  port: 443
+  password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363
+  skip-cert-verify: true
+  udp: true
+- name: 1.86| US2200
+  server: 72.167.45.6
+  type: trojan
+  country: ' US'
+  port: 443
+  password: 28d98f761aca9d636f44db62544628eb
+  skip-cert-verify: true
+  udp: true
+- name: 1.81|CYL科技20220131
   server: 185.212.62.19
   port: 443
   type: trojan
   password: sxkKUbBydK
   skip-cert-verify: true
   udp: true
-- name: 1.64|101
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: fD0KP8PWA
+  port: 8080
+  protocol: origin
+  server: in-am2.eqnode.net
+  type: ssr
+  name: 1.64|2292
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: 4axflHccX
+  port: 8080
+  protocol: origin
+  server: 35.182.60.100
+  type: ssr
+  name: 1.59|2227
+- name: 1.52| 美國费利蒙
+  server: us2.tcpbbr.net
+  port: 443
+  type: trojan
+  password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b
+  sni: hgc1.tcpbbr.net
+- name: 1.43| DE461
+  server: de-am2.eqnode.net
+  type: ssr
+  country: ' DE'
+  port: 8080
+  password: 82BMko4lE
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 1.43|101
   server: t4.ssrsub.com
   type: trojan
   port: 8443
@@ -87,9 +162,62 @@ proxies:
   sni: t4.ssrsub.com
   skip-cert-verify: true
   udp: true
-- name: 1.20|地书直连01
-  server: tt1.tjvpn.top
-  port: 2022
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: gVWc0WaJn
+  port: 8181
+  protocol: origin
+  server: 13.38.75.17
+  type: ssr
+  name: 1.42|2243
+- name: 1.22|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: vGndzdmPB
+  port: 8080
+  protocol: origin
+  server: us-am11.eqnode.net
+  type: ssr
+  name: 1.22|2395
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: 82BMko4lE
+  port: 8080
+  protocol: origin
+  server: 18.184.249.101
+  type: ssr
+  name: 1.22|2281
+- name: 1.21| FR533
+  server: fr-am1-1.eqsunshine.com
+  type: ssr
+  country: ' FR'
+  port: 8181
+  password: gVWc0WaJn
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 1.19| LT805
+  server: vincent-jackson2021.ga
   type: trojan
-  password: 0cb2cd1f-870b-485c-914a-60aba39eed39
-  sni: tt1.tjvpn.top
+  country: ' LT'
+  port: 443
+  password: 5f4b2e42-ff2b-4342-86fc-b7ba1b5361e8
+  skip-cert-verify: true
+  udp: true
+- name: 1.14| GB588
+  server: uk-am3-5.eqsunshine.com
+  type: ssr
+  country: ' GB'
+  port: 8181
+  password: PNRbp3j9B
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
