@@ -1,5 +1,13 @@
 proxies:
-- name: 1.72|美国2
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: vGndzdmPB
+  port: 8080
+  protocol: origin
+  server: us-am11.eqnode.net
+  type: ssr
+  name: 1.85|2556
+- name: 1.78|美国2
   type: snell
   server: sha.diao.jimosaofu.xyz
   port: 8443
@@ -8,3 +16,20 @@ proxies:
   obfs-opts:
     mode: tls
     host: mirrorn.centos.org
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: 4axflHccX
+  port: 8080
+  protocol: origin
+  server: 35.182.60.100
+  type: ssr
+  name: 1.35|2382
+- name: 1.16| GB515
+  server: uk-am3-5.eqsunshine.com
+  type: ssr
+  country: ' GB'
+  port: 8181
+  password: PNRbp3j9B
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
