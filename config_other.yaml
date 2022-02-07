@@ -1,21 +1,37 @@
 proxies:
+- name: 4.16| JP740
+  server: jp-am48-9.eqnode.net
+  type: ssr
+  country: ' JP'
+  port: 8081
+  password: 3H2aN5Gnm
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
 - cipher: aes-256-cfb
   obfs: tls1.2_ticket_auth
-  password: vGndzdmPB
-  port: 8080
+  password: 3H2aN5Gnm
+  port: 8081
   protocol: origin
-  server: us-am11.eqnode.net
+  server: 54.168.200.100
   type: ssr
-  name: 1.85|2556
-- name: 1.78|美国2
-  type: snell
-  server: sha.diao.jimosaofu.xyz
-  port: 8443
-  psk: WoHaoKuaiLeA
-  version: 1
-  obfs-opts:
-    mode: tls
-    host: mirrorn.centos.org
+  name: 1.68|2399
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: PNRbp3j9B
+  port: 8181
+  protocol: origin
+  server: 35.177.96.190
+  type: ssr
+  name: 1.60|2487
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: Jz8r4gLNP
+  port: 443
+  protocol: origin
+  server: sy-am2.eqsunshine.com
+  type: ssr
+  name: 1.55|2454
 - cipher: aes-256-cfb
   obfs: tls1.2_ticket_auth
   password: 4axflHccX
@@ -23,8 +39,16 @@ proxies:
   protocol: origin
   server: 35.182.60.100
   type: ssr
-  name: 1.35|2382
-- name: 1.16| GB515
+  name: 1.51|2387
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: vGndzdmPB
+  port: 8080
+  protocol: origin
+  server: us-am11.eqnode.net
+  type: ssr
+  name: 1.35|2558
+- name: 1.16| GB542
   server: uk-am3-5.eqsunshine.com
   type: ssr
   country: ' GB'
