@@ -1,5 +1,5 @@
 proxies:
-- name: 5.63| HK576
+- name: 5.88| HK576
   server: 218.190.242.130
   type: trojan
   country: ' HK'
@@ -7,67 +7,66 @@ proxies:
   password: daozhu-TGID-Uallen_Qbit-zhuanshudailidaoyongsiquanjia
   skip-cert-verify: true
   udp: true
-- name: 5.15|CYL科技20220131 2
-  server: 185.212.59.105
-  port: 15228
+- name: '4.48| HKG香港  1AZND '
+  server: 104.208.112.174
+  port: 443
   type: trojan
-  password: WQXZyuplhL
-  skip-cert-verify: true
-  udp: true
-- name: 4.95| 日本绿头外网集团Public 5
-  server: news.homeos.ml
-  port: 8080
+  password: 6ffc5c47-d2f0-45fb-aa2f-715c6f1374e4
+  sni: hk1.infininode.tk
+- name: '4.30| HKG香港  2AZND '
+  server: 20.205.45.200
+  port: 443
   type: trojan
-  password: HomeOS
-  sni: news.homeos.ml
-  skip-cert-verify: true
-- name: 4.16| JP740
-  server: jp-am48-9.eqnode.net
-  type: ssr
-  country: ' JP'
-  port: 8081
-  password: 3H2aN5Gnm
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: 3.93| nfeng6 JP1354
+  password: 6ffc5c47-d2f0-45fb-aa2f-715c6f1374e4
+  sni: hk2.infininode.tk
+- name: 3.02| nfeng6 JP1354
   server: 106.180.225.69
   port: 1443
   type: trojan
   password: 7x42LetRa0
   skip-cert-verify: true
-- name: 2.34| AppleCloud  印尼 03
-  server: 51.moons.team
-  port: 8088
-  type: trojan
-  password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
-  sni: 49.moons.team
-- name: 2.20|CYL科技20220131 86
-  server: 89.208.252.110
-  port: 19698
-  type: trojan
-  password: 1w5vcK1KiD
-  skip-cert-verify: true
-  udp: true
-- name: 2.19|官方群 httpstmeAppleCloudgroup
+- name: 2.41|官方群 httpstmeAppleCloudgroup
   server: 49.moons.team
   port: 8088
   type: trojan
   password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
   sni: 49.moons.team
-- name: 2.06| AppleCloud  印尼 04
-  server: 52.moons.team
+- name: 2.28| AppleCloud  印尼 03
+  server: 51.moons.team
   port: 8088
   type: trojan
   password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
   sni: 49.moons.team
-- name: 2.05| AppleCloud  印尼 02
+- name: 2.21| 日本
+  server: jp.tcpbbr.net
+  port: 443
+  type: trojan
+  password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b
+  sni: hgc1.tcpbbr.net
+- name: 1.99| AppleCloud  印尼 02
   server: 50.moons.team
   port: 8088
   type: trojan
   password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
   sni: 49.moons.team
-- name: 1.86|美国阿伟科技新年快乐 18
+- name: 1.66| GB542
+  server: uk-am3-5.eqsunshine.com
+  type: ssr
+  country: ' GB'
+  port: 8181
+  password: PNRbp3j9B
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: PNRbp3j9B
+  port: 8181
+  protocol: origin
+  server: 35.177.96.190
+  type: ssr
+  name: 1.63|2487
+- name: 1.56|美国阿伟科技新年快乐 18
   server: sqj.lyzghim.com
   port: 443
   type: trojan
@@ -77,53 +76,39 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   obfs: tls1.2_ticket_auth
-  password: 3H2aN5Gnm
-  port: 8081
-  protocol: origin
-  server: 54.168.200.100
-  type: ssr
-  name: 1.68|2399
-- cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: PNRbp3j9B
-  port: 8181
-  protocol: origin
-  server: 35.177.96.190
-  type: ssr
-  name: 1.60|2487
-- cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: Jz8r4gLNP
-  port: 443
-  protocol: origin
-  server: sy-am2.eqsunshine.com
-  type: ssr
-  name: 1.55|2454
-- cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: 4axflHccX
+  password: vGndzdmPB
   port: 8080
   protocol: origin
-  server: 35.182.60.100
+  server: us-am11.eqnode.net
   type: ssr
-  name: 1.51|2387
-- name: 1.50| CA325
-  server: t4.ssrsub.com
+  name: 1.50|2558
+- name: 1.33|trojan
   type: trojan
-  country: ' CA'
+  server: 65.49.196.130
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.27|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
   port: 8443
-  password: 535c9eef-40a3-4767-9253-706b0b128ed5
-  skip-cert-verify: true
-  udp: true
-- name: 1.38| US2105
-  server: 46.moons.team
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 1.21|新加坡阿伟科技TG油管
+  server: 4.vpnbro.ml
+  port: 9999
   type: trojan
-  country: ' US'
-  port: 8088
-  password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
+  password: 8eda21d2-93a1-4740-b967-06d134c439ea
+  sni: 4.vpnbro.ml
   skip-cert-verify: true
   udp: true
-- name: 1.37| CA341
+- name: 1.12| CA341
   server: t1.ssrsub.com
   type: trojan
   country: ' CA'
@@ -131,20 +116,3 @@ proxies:
   password: 916251fa-6aa5-459d-b7a1-968b49a01e4e
   skip-cert-verify: true
   udp: true
-- cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: vGndzdmPB
-  port: 8080
-  protocol: origin
-  server: us-am11.eqnode.net
-  type: ssr
-  name: 1.35|2558
-- name: 1.16| GB542
-  server: uk-am3-5.eqsunshine.com
-  type: ssr
-  country: ' GB'
-  port: 8181
-  password: PNRbp3j9B
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
