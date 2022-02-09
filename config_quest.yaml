@@ -1,5 +1,21 @@
 proxies:
-- name: 5.88| HK576
+- name: 6.25|RelayHKHK496
+  server: hk.hkt.lilyco.cc
+  type: trojan
+  country: HK
+  port: 443
+  password: sharecentre
+  skip-cert-verify: true
+  udp: true
+- name: 4.45|RelayEEJP327
+  server: os2-8.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 4.34| HK576
   server: 218.190.242.130
   type: trojan
   country: ' HK'
@@ -7,82 +23,87 @@ proxies:
   password: daozhu-TGID-Uallen_Qbit-zhuanshudailidaoyongsiquanjia
   skip-cert-verify: true
   udp: true
-- name: '4.48| HKG香港  1AZND '
-  server: 104.208.112.174
+- name: 4.33|RelayEEJP329
+  server: os2-2.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 4.18|RelayEEJP325
+  server: os2-6.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 4.11|RelayEEJP326
+  server: os2-5.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 4.10|RelayEEJP331
+  server: os2-3.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 3.84|RelayEEJP328
+  server: os2-7.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: '3.76| TYO东京  1AZND '
+  server: 52.253.105.171
   port: 443
   type: trojan
-  password: 6ffc5c47-d2f0-45fb-aa2f-715c6f1374e4
-  sni: hk1.infininode.tk
-- name: '4.30| HKG香港  2AZND '
-  server: 20.205.45.200
-  port: 443
+  password: 3bcac755-6fb1-44fc-95c3-2c503ff9632e
+  sni: jp1.infininode.tk
+- name: 3.70|RelayEEJP330
+  server: os2-4.sstr-api.xyz
   type: trojan
-  password: 6ffc5c47-d2f0-45fb-aa2f-715c6f1374e4
-  sni: hk2.infininode.tk
-- name: 3.02| nfeng6 JP1354
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 3.39| nfeng6 JP1354
   server: 106.180.225.69
   port: 1443
   type: trojan
   password: 7x42LetRa0
   skip-cert-verify: true
-- name: 2.41|官方群 httpstmeAppleCloudgroup
-  server: 49.moons.team
-  port: 8088
+- name: '2.60| TYO东京  2AZND '
+  server: 40.115.209.26
+  port: 443
   type: trojan
-  password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
-  sni: 49.moons.team
-- name: 2.28| AppleCloud  印尼 03
+  password: 3bcac755-6fb1-44fc-95c3-2c503ff9632e
+  sni: jp2.infininode.tk
+- name: 2.46|RelayEEJP332
+  server: os2-1.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 2.35| AppleCloud  印尼 03
   server: 51.moons.team
   port: 8088
   type: trojan
   password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
   sni: 49.moons.team
-- name: 2.21| 日本
-  server: jp.tcpbbr.net
-  port: 443
-  type: trojan
-  password: 5c7b33c6-6d83-11eb-b77b-f23c913c8d2b
-  sni: hgc1.tcpbbr.net
-- name: 1.99| AppleCloud  印尼 02
-  server: 50.moons.team
-  port: 8088
-  type: trojan
-  password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
-  sni: 49.moons.team
-- name: 1.66| GB542
-  server: uk-am3-5.eqsunshine.com
-  type: ssr
-  country: ' GB'
-  port: 8181
-  password: PNRbp3j9B
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: PNRbp3j9B
-  port: 8181
-  protocol: origin
-  server: 35.177.96.190
-  type: ssr
-  name: 1.63|2487
-- name: 1.56|美国阿伟科技新年快乐 18
-  server: sqj.lyzghim.com
-  port: 443
-  type: trojan
-  password: yfkZlYd69wMTulQp
-  sni: sqj.lyzghim.com
-  skip-cert-verify: true
-  udp: true
-- cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: vGndzdmPB
-  port: 8080
-  protocol: origin
-  server: us-am11.eqnode.net
-  type: ssr
-  name: 1.50|2558
-- name: 1.33|trojan
+- name: 2.21|trojan
   type: trojan
   server: 65.49.196.130
   port: 443
@@ -91,7 +112,81 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 1.27|美国2
+- name: 2.17| AppleCloud  印尼 04
+  server: 52.moons.team
+  port: 8088
+  type: trojan
+  password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
+  sni: 49.moons.team
+- name: 2.02| AppleCloud  印尼 02
+  server: 50.moons.team
+  port: 8088
+  type: trojan
+  password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
+  sni: 49.moons.team
+- name: 1.99|官方群 httpstmeAppleCloudgroup
+  server: 49.moons.team
+  port: 8088
+  type: trojan
+  password: 956d6c3f-1b38-4691-8b17-bbe0eec86f93
+  sni: 49.moons.team
+- name: 1.84| RU850
+  server: t7.ssrsub.com
+  type: trojan
+  country: ' RU'
+  port: 8443
+  password: 535c9eef-40a3-4767-9253-706b0b128ed5
+  skip-cert-verify: true
+  udp: true
+- name: 1.76| US2140
+  server: xiaxiang.top
+  type: trojan
+  country: ' US'
+  port: 443
+  password: bba95bf7-3877-4966-beea-39fa2c0fed06
+  skip-cert-verify: true
+  udp: true
+- name: 1.63|美国阿伟科技新年快乐 18
+  server: sqj.lyzghim.com
+  port: 443
+  type: trojan
+  password: yfkZlYd69wMTulQp
+  sni: sqj.lyzghim.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.54|新加坡阿伟科技TG油管
+  server: 4.vpnbro.ml
+  port: 9999
+  type: trojan
+  password: 8eda21d2-93a1-4740-b967-06d134c439ea
+  sni: 4.vpnbro.ml
+  skip-cert-verify: true
+  udp: true
+- name: 1.51| CA334
+  server: t4.ssrsub.com
+  type: trojan
+  country: ' CA'
+  port: 8443
+  password: 916251fa-6aa5-459d-b7a1-968b49a01e4e
+  skip-cert-verify: true
+  udp: true
+- name: 1.51|RelayJPGB641 2052Mb
+  server: tt6.tjvpn.top
+  type: trojan
+  country: JP
+  port: 443
+  password: 0cb2cd1f-870b-485c-914a-60aba39eed39
+  skip-cert-verify: true
+  udp: true
+- name: 1.43| CN365
+  server: s3.upyun.online
+  type: trojan
+  country: ' CN'
+  port: 12340
+  password: 4809af3e-b8f2-4f07-9cfb-79d0a7bb1219
+  skip-cert-verify: true
+  udp: true
+- name: 1.21|美国2
   type: snell
   server: sha.diao.jimosaofu.xyz
   port: 8443
@@ -100,15 +195,7 @@ proxies:
   obfs-opts:
     mode: tls
     host: mirrorn.centos.org
-- name: 1.21|新加坡阿伟科技TG油管
-  server: 4.vpnbro.ml
-  port: 9999
-  type: trojan
-  password: 8eda21d2-93a1-4740-b967-06d134c439ea
-  sni: 4.vpnbro.ml
-  skip-cert-verify: true
-  udp: true
-- name: 1.12| CA341
+- name: 1.21| CA341
   server: t1.ssrsub.com
   type: trojan
   country: ' CA'
@@ -116,3 +203,20 @@ proxies:
   password: 916251fa-6aa5-459d-b7a1-968b49a01e4e
   skip-cert-verify: true
   udp: true
+- name: 1.20| RU849
+  server: t6.ssrsub.com
+  type: trojan
+  country: ' RU'
+  port: 8443
+  password: 535c9eef-40a3-4767-9253-706b0b128ed5
+  skip-cert-verify: true
+  udp: true
+- name: 1.13| JP733
+  server: jp-am48-9.eqnode.net
+  type: ssr
+  country: ' JP'
+  port: 8081
+  password: 3H2aN5Gnm
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
