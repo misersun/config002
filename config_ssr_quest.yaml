@@ -1,11 +1,21 @@
 proxies:
-- name: 1.56| 美国华盛顿州西雅图市亚马逊Amazon公司数据中心 33
-  server: 35.177.96.190
+- name: 1.67|Relay 1068Mb
+  server: uk-am3-5.eqsunshine.com
+  type: ssr
+  country: GB
   port: 8181
+  password: PNRbp3j9B
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 1.62| 美国 25
+  server: us-am11.eqnode.net
+  port: 8080
   type: ssr
   cipher: aes-256-cfb
-  password: PNRbp3j9B
+  password: vGndzdmPB
   protocol: origin
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
+  udp: true
