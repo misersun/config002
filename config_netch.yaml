@@ -1,460 +1,399 @@
 proxies:
-- name: 7.29|上海CN2
+- name: 6.67|上海  韩国01SS
+  server: kr.v2bees.net
+  port: 38001
   type: ss
-  server: cn2.gzhpxb.com
-  port: 20166
-  cipher: aes-128-gcm
-  password: yangchaoyue
+  cipher: chacha20-ietf-poly1305
+  password: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
   udp: true
-  skip-cert-verify: true
-- name: 6.87|CYL科技20220213 16
-  server: 117.28.243.220
-  port: 8254
-  type: ss
-  cipher: rc4-md5
-  password: passinfo123
-  udp: true
-- name: 6.52|Relay  786Mb
-  server: sxqxj.cn
+- name: 5.98| 香港 8080
+  server: c.azzhuangaping.tw
+  port: 8080
   type: vmess
-  country: CN
-  port: 2164
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
+  uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7
+  alterId: 0
   cipher: auto
+  tls: false
   network: ws
-  ws-path: /ws
-  http-opts: {}
-  h2-opts: {}
-  tls: true
+  ws-path: /adobe
+  ws-headers:
+    Host: c.azzhuangaping.tw
+- name: 5.91|上海  韩国02vmess
+  server: kr.v2bees.net
+  port: 39001
+  type: vmess
+  uuid: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
-- name: 6.43|ss
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+  udp: true
+- name: 5.91|江门  香港05SS
+  server: gyhk.v2bees.net
+  port: 45010
   type: ss
-  server: fkgfw-prod.i.sxl.cn
-  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
+  udp: true
+- name: 5.72|江门  香港04SS
+  server: gyhk.v2bees.net
+  port: 45340
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
+  udp: true
+- name: 5.66|安徽  日本03vmess
+  server: jp.v2bees.net
+  port: 29001
+  type: vmess
+  uuid: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+  udp: true
+- name: 5.55|江门  香港01SS
+  server: gyhk.v2bees.net
+  port: 45233
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
+  udp: true
+- name: 5.49|江门  香港02SS
+  server: gyhk.v2bees.net
+  port: 45304
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
+  udp: true
+- name: 5.36|江门  香港01  隧道2Gbpsvmess
+  server: gy.v2bees.net
+  port: 50002
+  type: vmess
+  uuid: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+  udp: true
+- name: 5.16|江门  香港03SS
+  server: gyhk.v2bees.net
+  port: 45323
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
+  udp: true
+- name: 5.13|新加坡优化
+  server: cu.mj-cn.cyou
+  port: 16618
+  type: vmess
+  uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cu.mj-cn.cyou
+  udp: true
+- name: 5.06|V2ray⑮vip2中转BGB日本3x200M
+  server: 83.wowogg.cyou
+  port: 52283
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.91|Relay中国台湾338
+  server: 183.232.56.161
+  port: 3099
+  type: vmess
+  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 183.232.56.161
+  udp: true
+- name: 4.86|安徽  日本01SS
+  server: jp.v2bees.net
+  port: 28001
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
+  udp: true
+- name: 4.86|香港YouTubeVV科技42
+  server: 128.wgong.xyz
+  port: 52228
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.81|Relay香港日本7366975Mb
+  server: 106.wgong.xyz
+  port: 11223
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.71|广州  新加坡04vmess
+  server: gy.v2bees.net
+  port: 60001
+  type: vmess
+  uuid: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+  udp: true
+- name: 4.69|日本千兆12号 2
+  server: 127.wgong.xyz
+  port: 52227
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.65| RelayCNTW374
+  server: 183.232.56.161
+  port: 1301
+  type: vmess
+  uuid: 5381c7b6-9d4e-388f-b095-268733ef2fcc
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 183.232.56.161
+- name: 4.62|安徽  日本02SS
+  server: jp.v2bees.net
+  port: 28002
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
+  udp: true
+- name: 4.53| 韩国优化
+  server: cu.mj-cn.cyou
+  port: 16619
+  type: vmess
+  uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cu.mj-cn.cyou
+- name: 4.52|TW台湾164
+  server: tw-sd-v1-02.xyx-xylo.com
+  port: 11180
+  type: vmess
+  uuid: 3c655ed5-3971-3c7a-84e1-bd7ff97ac936
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tw-sd-v1-02.xyx-xylo.com
+  udp: true
+- name: 4.48| 韩国优化3
+  server: ct.mj-cn.cyou
+  port: 16619
+  type: vmess
+  uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ct.mj-cn.cyou
+- name: 4.47|wmt222116
+  server: jp.azzhuangaping.tw
+  port: 80
+  type: vmess
+  uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /adobe
+  ws-headers:
+    Host: jp.azzhuangaping.tw
+  udp: true
+- name: 4.44| 日本优化
+  server: cu.mj-cn.cyou
+  port: 16617
+  type: vmess
+  uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: cu.mj-cn.cyou
+- name: 4.40|V2ray⑨vip2中转广移日本3x200M
+  server: 106.wowogg.cyou
+  port: 11223
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 4.38|RelayCNUS293
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1115
+  password: epChJS35fV
   cipher: aes-256-cfb
-  password: E4DNMf73kHPrd8Qq7aqGPf7f
-  _index: 0
-- name: 6.25| 11448Mb
-  server: 18.162.222.253
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 4.33|杭州  新加坡03SS
+  server: sg.v2bees.net
+  port: 45422
   type: ss
-  country: HK
-  port: 38273
-  password: 3b07447e-94cf-4d72-96c6-d0a539098049
-  cipher: aes-256-gcm
-- name: 6.00|Relay 1179Mb
-  server: shonlinecu.proconcn.xyz
-  type: ssr
-  country: CN
-  port: 561
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 50374:ff112233
-  obfs: plain
-- name: 5.86|Relay 5098Mb
-  server: shonlinesandcu03.proconcn.xyz
-  type: ssr
-  country: CN
-  port: 561
-  password: mblank1port
-  cipher: chacha20-ietf
-  protocol: auth_aes128_md5
-  protocol-param: 50374:ff112233
-  obfs: plain
-- name: 5.80|Relay 4807Mb
-  server: 99.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52299
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 99.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.38| US170 TGpeekfun
-  server: 20.24.103.39
-  port: 52437
-  type: vmess
-  country: ' US'
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: 137.wgong.xyz
-  skip-cert-verify: true
-  servername: 137.wgong.xyz
-- name: 5.29|Relay 7948Mb
-  server: hkt.jslist.tk
-  type: vmess
-  country: US
-  port: 8880
-  uuid: efe08abe-e627-4f72-f02f-af00692a0bf4
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /api/images
-  servername: hkt.jslist.tk
-  ws-headers:
-    HOST: hkt.jslist.tk
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.25|Relay 2241Mb
-  server: 135.wgong.xyz
-  type: vmess
-  country: HK
-  port: 52335
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  servername: 135.wgong.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.24| httpsgitiov9999ip3香港19
-  server: 95.wowogg.cyou
-  port: 52295
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 5.20| HK85 TGpeekfun
-  server: 20.187.117.67
-  port: 52332
-  type: vmess
-  country: ' HK'
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: 132.wgong.xyz
-  skip-cert-verify: true
-  servername: 132.wgong.xyz
-- name: 5.20|Relay 1093Mb
-  server: v115.wgong.xyz
-  type: vmess
-  country: HK
-  port: 52215
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.14|RELAY1984121220340
-  server: 198.41.212.2
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /sakura/
-  tls: true
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.12|Relay 2231Mb
-  server: 115.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52215
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.11|Relay 2390Mb
-  server: 130.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52330
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 130.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.11|小汐搬运1513W用户覆盖节点名称广告转化tmebyxiaoxi
-  server: 198.41.212.5
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.05|Relay  199Mb
-  server: 91.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52291
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 91.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.03|RELAY19841212181065
-  server: 198.41.212.18
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /sakura/
-  tls: true
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.00|小汐搬运1413W用户覆盖节点名称广告转化tmebyxiaoxi
-  server: 198.41.221.169
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.99|Relay 7275Mb
-  server: 107.wowogg.cyou
-  type: vmess
-  country: US
-  port: 52207
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: /
-  servername: 107.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.99|Relay  632Mb
-  server: ppycn1.ddnsnode.com
-  type: vmess
-  country: CN
-  port: 26010
-  uuid: 4b8010fb-60b7-341a-b1b6-135ed84ced4a
-  alterId: 0
-  cipher: auto
-  network: none
-  ws-path: /
-  servername: ppycn1.ddnsnode.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.96| HK86 TGpeekfun
-  server: 104.208.79.110
-  port: 52210
-  type: vmess
-  country: ' HK'
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
-- name: 4.93|韩国阿伟科技TG油管
-  server: dali-hz.8n4t.cn
-  port: 37211
-  type: vmess
-  uuid: 061a5ca3-09f7-413e-8d4d-35775bb5c0eb
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /theuploadapi
-  ws-headers:
-    Host: oracle.kr.tgproxy.wtf
+  cipher: chacha20-ietf-poly1305
+  password: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
   udp: true
-- name: 4.87| httpsgitiov9999ip3香港23
-  server: 110.wowogg.cyou
-  port: 52210
+- name: 4.32|Relay新加坡39
+  server: 135.wgong.xyz
+  port: 52335
   type: vmess
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
   tls: false
-- name: 4.86|httpsgitiov9999ip312
-  server: 198.41.212.13
-  port: 443
+  skip-cert-verify: true
+  udp: true
+- name: 4.28|江门  香港02  隧道2Gbpsvmess
+  server: gy.v2bees.net
+  port: 50004
   type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  uuid: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
   alterId: 0
   cipher: auto
-  tls: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+  udp: true
+- name: 4.27| httpsgitiov9999ip3香港10
+  server: 107.wowogg.cyou
+  port: 52207
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 4.15| 韩国 5
+  server: 1031kr.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /sakura/
+    path: /v2ray
     headers:
-      Host: zero1.a-yu.xyz
-- name: 4.86|Relay 3033Mb
-  server: 20.187.115.172
+      Host: 1031kr.fans8.xyz
+  udp: true
+- name: 4.01|江门  香港03  隧道3Gbpsvmess
+  server: jm.v2bees.net
+  port: 40002
   type: vmess
-  country: HK
-  port: 52228
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 20.187.115.172
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.86|Relay 5725Mb
-  server: 87.wowogg.cyou
-  type: vmess
-  country: US
-  port: 52287
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.78|Relay 5524Mb
-  server: 134.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52334
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 134.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.74|Relay 2504Mb
-  server: 128.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52228
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 128.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.71|Relay 3591Mb
-  server: gz2.52168.xyz
-  type: ssr
-  country: CN
-  port: 2106
-  password: epChJS35fV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 149:y711wfz6uln
-  obfs: tls1.2_ticket_auth
-  obfs-param: 30a2a149.baidu.com
-- name: 4.64|RelayCNJP286
-  server: gz2.52168.xyz
-  type: ssr
-  country: CN
-  port: 2107
-  password: epChJS35fV
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 149:y711wfz6uln
-  obfs: tls1.2_ticket_auth
-  obfs-param: 30a2a149.baidu.com
-- name: 4.62|Relay 1043Mb
-  server: 137.wgong.xyz
-  type: vmess
-  country: HK
-  port: 52437
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.55|Relay 4616Mb
-  server: 132.wgong.xyz
-  type: vmess
-  country: HK
-  port: 52332
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  servername: 132.wgong.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.49|Relay 8831Mb
-  server: 85.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52285
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 85.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.48|RELAY1984121280728
-  server: 198.41.212.8
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  uuid: 66f69796-3e19-4417-aff3-ee28a1ffe7ca
   alterId: 0
   cipher: auto
-  skip-cert-vertify: false
+  tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /sakura/
-  tls: true
+  ws-path: /images
   ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.43|Relay  725Mb
+    Host: v.qq.com
+  udp: true
+- name: 3.98|日本阿伟科技TG油管 3
+  server: 81.wgong.xyz
+  port: 52281
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.96|TW台湾163
+  server: tw-sd-v1-01.xyx-xylo.com
+  port: 11180
+  type: vmess
+  uuid: 3c655ed5-3971-3c7a-84e1-bd7ff97ac936
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tw-sd-v1-01.xyx-xylo.com
+  udp: true
+- name: 3.86| 日本优化3
+  server: ct.mj-cn.cyou
+  port: 16617
+  type: vmess
+  uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ct.mj-cn.cyou
+- name: 3.78|RelayCNHK291
   server: gz1.52168.xyz
   type: ssr
   country: CN
@@ -465,168 +404,151 @@ proxies:
   protocol-param: 149:y711wfz6uln
   obfs: tls1.2_ticket_auth
   obfs-param: 30a2a149.baidu.com
-- name: 4.41|Relay 5539Mb
-  server: 136.wowogg.cyou
+- name: 3.76|CN中国116
+  server: 120.233.10.182
+  port: 5702
+  type: ssr
+  cipher: chacha20-ietf
+  password: jFa4F1
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 62611:fx2iOd
+  obfs-param: e167062611.microsoft.com
+  udp: true
+- name: 3.69|vip1V2ray⑪日本 1000M1x限速100M
+  server: 121.wowogg.cyou
+  port: 52221
   type: vmess
-  country: HK
-  port: 52436
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 136.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.38|RelayCNKR339 2228Mb
-  server: 183.232.56.161
-  type: vmess
-  country: CN
-  port: 1602
-  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: microsoft.com
-  ws-headers:
-    HOST: microsoft.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.32|RelayJPJP930
-  server: lrb1.moonfree.top
-  port: 2053
-  type: vmess
-  uuid: 5638fc1a-c3c0-41fd-acb6-2e302e7be794
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /
-    host: lrb1.moonfree.top
-- name: 4.27| 小汐搬运000213更新广告投放tmebyxiaoxi
-  server: 198.41.212.9
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.18|RELAY104161102380705
-  server: 104.16.110.238
-  port: 443
-  type: vmess
-  uuid: a2c47c59-a4c8-4d66-9456-966ba37dedcc
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 4.16|RELAY1726760780699
-  server: 172.67.60.78
-  port: 443
-  type: vmess
-  uuid: 188741f2-1f14-43cb-be7a-1200a9f4332e
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws
-  tls: true
-  ws-headers:
-    Host: vincent-jackson2022.ml
-- name: 4.15|CN11214221040519
-  server: 112.14.22.104
-  port: 19057
-  type: vmess
-  uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /catnet
-  tls: false
-  ws-headers:
-    Host: cdn-cn.nekocloud.cn
-- name: 4.15|CYL科技20220213 53
-  server: 1211hk1.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 1211hk1.fans8.xyz
   udp: true
-- name: 4.04|Relay  862Mb
-  server: 128hk8.fans8.xyz
+- name: 3.65| V1香港 多台负载均衡 中继B  2x
+  server: in02.dns2333.xyz
+  port: 64078
   type: vmess
-  country: CA
-  port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: 128hk8.fans8.xyz
-  ws-headers:
-    HOST: 128hk8.fans8.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.03|RelayCNUS331 2976Mb
-  server: 183.232.56.161
-  type: vmess
-  country: CN
-  port: 1202
-  uuid: 7ff41058-b662-3352-9e7f-643ef2d78344
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: microsoft.com
-  ws-headers:
-    HOST: microsoft.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.03|RELAY104251042400711
-  server: 104.25.104.240
-  port: 443
-  type: vmess
-  uuid: a2c47c59-a4c8-4d66-9456-966ba37dedcc
+  uuid: 606d5625-57af-3f68-8949-4ac4c372b4a0
   alterId: 0
   cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /The-Great-Awakening_vws
   tls: true
+  network: ws
+  ws-path: /
   ws-headers:
-    Host: vincent-jackson2021.ga
-- name: 3.93|RELAY104226680679
-  server: 104.22.66.8
-  port: 443
+    Host: hk-balancer.airport-v2.com
+- name: 3.62|中国YouTube8度科技
+  server: sxqxj.cn
+  port: 2164
   type: vmess
-  uuid: a2c47c59-a4c8-4d66-9456-966ba37dedcc
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: sxqxj.cn
+  udp: true
+- name: 3.59| 韩国优化2
+  server: cm.mj-cn.cyou
+  port: 16619
+  type: vmess
+  uuid: 60fb4b6c-7c87-4693-b5c4-b393037ecb1f
   alterId: 0
   cipher: auto
-  skip-cert-vertify: false
+  tls: false
   network: ws
-  ws-path: /The-Great-Awakening_vws
-  tls: true
+  ws-path: /
   ws-headers:
-    Host: vincent-jackson2021.ga
+    Host: cm.mj-cn.cyou
+- name: 3.56| RelayCNHK348
+  server: 183.240.181.20
+  port: 1112
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:y711wfz6uln
+  obfs-param: t.me/vpnhat
+- name: 3.51|越南  解锁  SS
+  server: gzyd.wozcjd.xyz
+  port: 11320
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: c753e8a8-e180-4e76-a486-c917273d718b
+  udp: true
+- name: 3.45|CN中国119
+  server: 120.233.10.182
+  port: 5705
+  type: ssr
+  cipher: chacha20-ietf
+  password: jFa4F1
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 62611:fx2iOd
+  obfs-param: e167062611.microsoft.com
+  udp: true
+- name: 3.39|CN中国162
+  server: ml-l1.sd-yun.cc
+  port: 20002
+  type: vmess
+  uuid: 3cbaf328-388c-341d-857c-884ed8cdab5f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: ml-l1.sd-yun.cc
+  udp: true
+- name: 3.29|新加坡AZ中转
+  server: azhk2.az66.ml
+  port: 63430
+  type: vmess
+  uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: vod3.nty.tv189.cn
+  udp: true
+- name: 3.29|CN中国115
+  server: 120.233.10.182
+  port: 5701
+  type: ssr
+  cipher: chacha20-ietf
+  password: jFa4F1
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 62611:fx2iOd
+  obfs-param: e167062611.microsoft.com
+  udp: true
+- name: 3.23|CN中国114
+  server: 120.233.10.182
+  port: 5700
+  type: ssr
+  cipher: chacha20-ietf
+  password: jFa4F1
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 62611:fx2iOd
+  obfs-param: e167062611.microsoft.com
+  udp: true
+- name: 3.19|CN中国118
+  server: 120.233.10.182
+  port: 5704
+  type: ssr
+  cipher: chacha20-ietf
+  password: jFa4F1
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 62611:fx2iOd
+  obfs-param: e167062611.microsoft.com
+  udp: true
