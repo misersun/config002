@@ -1,229 +1,58 @@
 proxies:
-- name: 5.41| vip1V2ray⑪日本 1000M1x限速100M
-  server: 121.wowogg.cyou
-  port: 52221
+- name: 5.24|日本阿伟科技TG油管
+  server: 3.112.20.77
+  port: 8080
   type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
+  uuid: 0f4cc193-ea7c-497c-859b-4e1bf4617fed
+  alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
-- name: 5.24| 6082Mb
-  server: 99.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52299
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 99.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
   skip-cert-verify: true
-- name: 5.24|  201Mb
-  server: 85.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52285
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 85.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.24|  357Mb
-  server: 106.wgong.xyz
-  type: vmess
-  country: HK
-  port: 11223
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
+  network: ws
   ws-path: /
-  servername: 106.wgong.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.22|
+  ws-headers:
+    Host: 3.112.20.77
+  udp: true
+- name: 4.37|20机场魔戒net
   server: jp-group-a-direct.node001.xyz
+  port: 8880
   type: vmess
-  country: JP
-  port: 80
-  uuid: f7618d80-3436-3c4c-9c34-816e643067e8
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: new.vip.weibo.cn
-  ws-headers:
-    HOST: new.vip.weibo.cn
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.16|Relay  358Mb
-  server: 133.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52333
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 133.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.13| vip1V2ray④日本 1000M1x限速100M
-  server: 114.wowogg.cyou
-  port: 52214
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 5.03| 5921Mb
-  server: 134.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52334
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 134.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.95| 1887Mb
-  server: 136.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52436
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 136.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.93| 1994Mb
-  server: 102.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 11221
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: /
-  servername: 102.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.86| TW台湾151
-  server: tw-sd-v1-03.xyx-xylo.com
-  port: 11180
-  type: vmess
-  uuid: 3cbaf328-388c-341d-857c-884ed8cdab5f
+  uuid: 80f77618-3124-34f9-87e0-e9028d11f061
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tw-sd-v1-03.xyx-xylo.com
-- name: 4.76| 1676Mb
-  server: 91.wowogg.cyou
+  ws-path: /
+  ws-headers:
+    Host: jp-group-a-direct.node001.xyz
+- name: 4.14|  608Mb
+  server: hax.hostmeetingnow.tk
   type: vmess
-  country: HK
-  port: 52291
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 91.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.20|  361Mb
-  server: 0107hk.fans8.xyz
-  type: vmess
-  country: ZZ
+  country: US
   port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
+  uuid: 86606733-f014-46d5-e5e4-8dc4d9fb77d2
+  alterId: 0
   cipher: auto
   network: ws
-  ws-path: /v2ray
+  ws-path: /api/v2/null
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 3.73|  370Mb
-  server: 112.wowogg.cyou
+- name: 3.59|韩国阿伟科技TG油管
+  server: 3.35.206.85
+  port: 8080
   type: vmess
-  country: HK
-  port: 52212
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 112.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.53|2.86|
-  server: 128tw02.fans8.xyz
-  type: vmess
-  country: CA
-  port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.01| V2ray⑨vip2中转广移日本3x200M
-  server: 106.wowogg.cyou
-  port: 11223
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
+  uuid: 0f4cc193-ea7c-497c-859b-4e1bf4617fed
+  alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
-- name: 3.00| CA05 TGpeekfun
-  server: 165.154.233.7
-  port: 80
-  type: vmess
-  country: ' CA'
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /v2ray
-  ws-headers:
-    HOST: 1222mnl.fans8.xyz
   skip-cert-verify: true
-  servername: 1222mnl.fans8.xyz
-- name: 2.83|新加坡AZ中转
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 3.35.206.85
+  udp: true
+- name: 3.21|新加坡AZ中转
   server: azhk2.az66.ml
   port: 63430
   type: vmess
@@ -237,7 +66,28 @@ proxies:
   ws-headers:
     Host: vod3.nty.tv189.cn
   udp: true
-- name: 1.79|新加坡阿伟科技TG油管
+- name: 2.03| 1878Mb
+  server: chuna1.515223.xyz
+  type: vmess
+  country: US
+  port: 24793
+  uuid: 58975106-dc46-4942-b79e-336da67f1bbd
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.84| 美国绿头外网集团Public 11
+  server: chun2.515223.xyz
+  port: 43992
+  type: vmess
+  uuid: 99e191b5-6515-47b8-f0c0-f6053afeb75a
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.82|新加坡阿伟科技TG油管
   server: 3.0.89.143
   port: 16789
   type: vmess
@@ -251,33 +101,7 @@ proxies:
   ws-headers:
     Host: 3.0.89.143
   udp: true
-- name: 1.44|httpsgitiov9999ip5 2
-  server: 162.159.138.217
-  port: 80
-  type: vmess
-  uuid: 22c477fc-4552-4f6d-8474-12311bc16acb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /wwwnet
-    headers:
-      Host: eua.ziyun.ga
-- name: 1.44| 1146Mb
-  server: 111.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52211
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.41|httpsgitiov9999ip5
+- name: 1.61|httpsgitiov9999ip5
   server: 104.18.172.18
   port: 80
   type: vmess
@@ -290,8 +114,8 @@ proxies:
     path: /wwwnet
     headers:
       Host: eua.ziyun.ga
-- name: 1.38|httpsgitiov9999ip5 3
-  server: 104.24.3.20
+- name: 1.47|httpsgitiov9999ip5 2
+  server: 162.159.138.217
   port: 80
   type: vmess
   uuid: 22c477fc-4552-4f6d-8474-12311bc16acb
@@ -303,22 +127,21 @@ proxies:
     path: /wwwnet
     headers:
       Host: eua.ziyun.ga
-- name: 1.34| ZZ245 TGpeekfun
-  server: 103.164.81.235
-  port: 80
+- name: 1.45| 1953Mb
+  server: arm.50k.one
   type: vmess
-  country: ' ZZ'
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
+  country: JP
+  port: 39966
+  uuid: 608408f6-fd79-49a3-96ef-003266a773a0
+  alterId: 0
   cipher: auto
-  network: ws
+  network: tcp
+  ws-path: /
+  servername: arm.50k.one
   http-opts: {}
-  ws-path: /v2ray
-  ws-headers:
-    HOST: 0107hk.fans8.xyz
+  h2-opts: {}
   skip-cert-verify: true
-  servername: 0107hk.fans8.xyz
-- name: 1.29|httpsgitiov9999ip5 4
+- name: 1.44|httpsgitiov9999ip5 4
   server: 104.18.199.249
   port: 80
   type: vmess
@@ -331,24 +154,17 @@ proxies:
     path: /wwwnet
     headers:
       Host: eua.ziyun.ga
-- name: 1.23| 2394Mb
-  server: 126.wgong.xyz
+- name: 1.33|香港阿伟科技TG油管
+  server: c4jrauwu5v.eastasia.cloudapp.azure.com
+  port: 54975
   type: vmess
-  country: HK
-  port: 52226
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.09| 美国绿头外网集团Public 11
-  server: chun2.515223.xyz
-  port: 43992
-  type: vmess
-  uuid: 99e191b5-6515-47b8-f0c0-f6053afeb75a
+  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: c4jrauwu5v.eastasia.cloudapp.azure.com
+  udp: true
