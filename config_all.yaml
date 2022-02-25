@@ -1,26 +1,98 @@
 proxies:
-- name: 5.88|Relay  935Mb
-  server: 99.wowogg.cyou
+- name: 6.21| 香港  021
+  server: 104.208.114.60
+  port: 80
   type: vmess
-  country: HK
-  port: 52299
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  uuid: 8e7e6800-7c0b-3d3c-8dc7-751f6a7d88fd
   alterId: 2
   cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 99.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 5.67| 甲骨文东京AMD2trojan
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /adobe
+    headers:
+      Host: 104.208.114.60
+- name: 6.10| 香港  007
+  server: 104.208.114.122
+  port: 80
+  type: vmess
+  uuid: 8e7e6800-7c0b-3d3c-8dc7-751f6a7d88fd
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /adobe
+    headers:
+      Host: 104.208.114.122
+- name: 6.05| 甲骨文东京AMD2trojan
   server: jgwdj2.gaox.ml
   port: 443
   type: trojan
   password: 86231db5-96d0-4271-9977-cae3a0cba614
   sni: jgwdj2.gaox.ml
-- name: 5.64|httpsgitiov9999ip3 2
-  server: cloudflare.a-yu.xyz
+- name: 6.02|RelayUSUS2465 3252Mb
+  server: 98.wowogg.cyou
+  type: vmess
+  country: US
+  port: 52298
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.93|RelayUSUS2090
+  server: 101.wowogg.cyou
+  type: vmess
+  country: US
+  port: 52201
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.87|韩国阿伟科技TG油管 2
+  server: 152.70.237.92
+  port: 80
+  type: vmess
+  uuid: 9cac569c-fb38-4a71-cae7-2ac1739ecdf0
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - aweikeji-YouTube-TG
+  udp: true
+- name: 5.65| httpsgitiov9999ip3香港9
+  server: 113.wowogg.cyou
+  port: 52213
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 5.60| 甲骨文首尔ARM2trojan
+  server: jgw4.gaox.ml
+  port: 443
+  type: trojan
+  password: b7e0e71f-070c-437a-9826-6e23caeb0307
+  sni: jgw4.gaox.ml
+- name: 5.60|ZZ3022 2595Mb
+  server: 198.41.212.11
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
@@ -28,73 +100,206 @@ proxies:
   cipher: auto
   tls: true
   network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero2.a-yu.xyz
-- name: 5.33|Relay 4601Mb
-  server: 128.wowogg.cyou
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 5.59|ZZ3018 4014Mb
+  server: 198.41.212.9
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 5.38| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 5.25| 甲骨文东京ARM2trojan
+  server: jgwdj4.gaox.ml
+  port: 443
+  type: trojan
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+- name: 5.25|ZZ3020 1395Mb
+  server: 198.41.212.14
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 5.24|RelayHKJP623 6955Mb
+  server: 116.wowogg.cyou
   type: vmess
   country: HK
-  port: 52228
+  port: 52216
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 128.wowogg.cyou
+  network: tcp
+  ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 5.32| TW台湾151
-  server: tw-sd-v1-03.xyx-xylo.com
-  port: 11180
+- name: 5.20| httpsgitiov9999ip3香港20
+  server: 111.wowogg.cyou
+  port: 52211
   type: vmess
-  uuid: 3cbaf328-388c-341d-857c-884ed8cdab5f
-  alterId: 0
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 5.10| httpsgitiov9999ip3美国8
+  server: 102.wowogg.cyou
+  port: 11221
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 5.00| V2ray⑱vip2中转BGB日本3x200M
+  server: 86.wowogg.cyou
+  port: 52286
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
   cipher: auto
   tls: false
   skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tw-sd-v1-03.xyx-xylo.com
-- name: 5.11|Relay 7250Mb
-  server: 136.wowogg.cyou
+- name: 5.00|Relay 2841Mb
+  server: 131.wowogg.cyou
   type: vmess
   country: HK
-  port: 52436
+  port: 52331
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.91| V2ray⑨vip2中转广移日本3x200M
+  server: 106.wowogg.cyou
+  port: 11223
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.89| httpsgitiov9999ip3美国3
+  server: 100.wowogg.cyou
+  port: 11220
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 4.86|RelayUSJP2505 4572Mb
+  server: 126.wowogg.cyou
+  type: vmess
+  country: US
+  port: 52226
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.85|Relay 2855Mb
+  server: 104.wowogg.cyou
+  type: vmess
+  country: US
+  port: 11222
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.83|ZZ3021 1405Mb
+  server: 198.41.212.10
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 4.80|RelayHKJP595 6243Mb
+  server: 82.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52282
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.74|RelayHKJP610 6492Mb
+  server: 133.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52333
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
   network: none
   ws-path: t.me/vpnpool
-  servername: 136.wowogg.cyou
+  servername: 133.wowogg.cyou
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 5.07|日本阿伟科技TG油管
-  server: 3.112.20.77
-  port: 8080
+- name: 4.72|RelayHKJP612 6438Mb
+  server: 93.wowogg.cyou
   type: vmess
-  uuid: 0f4cc193-ea7c-497c-859b-4e1bf4617fed
-  alterId: 0
+  country: HK
+  port: 52293
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
   cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
+  network: none
   ws-path: /
-  ws-headers:
-    Host: 3.112.20.77
-  udp: true
-- name: 5.06| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- name: 5.06|Relay 7028Mb
+  servername: 93.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.70|RelayHKJP602 3111Mb
+  server: 90.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52290
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.69|Relay 7028Mb
   server: 85.wowogg.cyou
   type: vmess
   country: HK
@@ -108,51 +313,47 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 5.03| V2ray⑨vip2中转广移日本3x200M
-  server: 106.wowogg.cyou
-  port: 11223
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 5.03| vip1V2ray⑪日本 1000M1x限速100M
-  server: 121.wowogg.cyou
-  port: 52221
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 5.03| httpsgitiov9999ip3香港20
-  server: 111.wowogg.cyou
-  port: 52211
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 4.91|Relay 4381Mb
-  server: 91.wowogg.cyou
+- name: 4.68|RelayEEJP400 1701Mb
+  server: os2-3.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 4.68|Relay 7250Mb
+  server: 136.wowogg.cyou
   type: vmess
   country: HK
-  port: 52291
+  port: 52436
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
   network: none
   ws-path: t.me/vpnpool
-  servername: 91.wowogg.cyou
+  servername: 136.wowogg.cyou
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.88|
-  server: 95.wowogg.cyou
+- name: 4.67| AZHK1
+  server: az-hk.kxswzkl.ml
+  port: 996
   type: vmess
-  country: HK
-  port: 52295
+  uuid: bcea6ea8-3495-4c5f-e87c-1824c764f56f
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: az-hk.kxswzkl.ml
+- name: 4.65|RelayUSJP2503 1169Mb
+  server: 84.wowogg.cyou
+  type: vmess
+  country: US
+  port: 52284
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
@@ -161,26 +362,20 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.88|甲骨文春川AMD1trojan
-  server: jgwcc1.gaox.ml
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  sni: jgwcc1.gaox.ml
-- name: 4.86|defaultname130
-  server: 198.41.212.18
-  port: 443
+- name: 4.60|RelayHKJP624  211Mb
+  server: 109.wowogg.cyou
   type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
+  country: HK
+  port: 52209
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
   cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      host: zero1.a-yu.xyz
-- name: 4.83| V2ray⑮vip2中转BGB日本3x200M
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.59| V2ray⑮vip2中转BGB日本3x200M
   server: 83.wowogg.cyou
   port: 52283
   type: vmess
@@ -189,268 +384,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 4.80| 甲骨文东京ARM2trojan
-  server: jgwdj4.gaox.ml
-  port: 443
-  type: trojan
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  sni: jgwdj4.gaox.ml
-- name: 4.74|ZZ
-  server: 198.41.221.169
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.74| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
-  port: 443
-  type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- name: 4.71|Relay 7508Mb
-  server: 134.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52334
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 134.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.67|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
-  port: 443
-  type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
-- name: 4.66| US美国AFTZ20220223195
-  server: 114.wowogg.cyou
-  port: 52214
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 4.64| httpsgitiov9999ip3台湾22
-  server: tw.tcpbbr.net
-  port: 443
-  type: trojan
-  password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9
-  sni: tw.tcpbbr.net
-- name: 4.64| httpsgitiov9999ip3美国9
-  server: 118.wowogg.cyou
-  port: 52218
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 4.61| V2ray⑱vip2中转BGB日本3x200M
-  server: 86.wowogg.cyou
-  port: 52286
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 4.57|ZZ2571
-  server: 198.41.212.6
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.57|ZZ2595
-  server: 198.41.212.3
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.54|defaultname33
-  server: 198.41.212.12
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      host: zero1.a-yu.xyz
-- name: 4.49|ZZ3017  730Mb
-  server: 198.41.212.8
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.47| 1953Mb
-  server: arm.50k.one
-  type: vmess
-  country: JP
-  port: 39966
-  uuid: 608408f6-fd79-49a3-96ef-003266a773a0
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  servername: arm.50k.one
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.43|ZZ2572
-  server: 198.41.212.20
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.41|ZZ3020 1395Mb
-  server: 198.41.212.14
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.40|ZZ3015 2199Mb
-  server: 198.41.212.2
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.37|ZZ3018 4014Mb
-  server: 198.41.212.9
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.34|ZZ3021 1405Mb
-  server: 198.41.212.10
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.32|ZZ3027
-  server: 198.41.212.234
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: 2022-world-1.a-yu.xyz
-- name: 4.27|Relay  234Mb
-  server: 0107hk.fans8.xyz
-  type: vmess
-  country: ZZ
-  port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.26|6机场魔戒net
-  server: jpoo.77710086.xyz
-  port: 888
-  type: trojan
-  password: 887b9ece-45e8-45a1-844c-6991e2b086a8
-  sni: jpoo.77710086.xyz
-  skip-cert-verify: true
-- name: 4.17|defaultname96
-  server: 198.41.212.17
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      host: zero1.a-yu.xyz
-- name: 4.11| ZZ237 TGpeekfun
-  server: 103.164.81.235
-  port: 80
-  type: vmess
-  country: ' ZZ'
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /v2ray
-  ws-headers:
-    HOST: 0107hk.fans8.xyz
-  skip-cert-verify: true
-  servername: 0107hk.fans8.xyz
-- name: 4.09|RelayEEJP399 2142Mb
+- name: 4.59|RelayEEJP399 2142Mb
   server: os2-6.sstr-api.xyz
   type: trojan
   country: EE
@@ -458,131 +392,39 @@ proxies:
   password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
   udp: true
-- name: 4.08|ZZ3022 2595Mb
-  server: 198.41.212.11
-  port: 443
+- name: 4.50|RelayHKJP622 6961Mb
+  server: 117.wowogg.cyou
   type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.06|defaultname53
-  server: 198.41.212.19
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      host: zero1.a-yu.xyz
-- name: 4.04|韩国阿伟科技TG油管 2
-  server: fq.0112391.xyz
-  port: 12226
-  type: trojan
-  password: 1qaz2wsx
-  sni: fq.0112391.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 3.97|RelayEEJP400 1701Mb
-  server: os2-3.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 3.95|Relay  167Mb
-  server: 1211hk1.fans8.xyz
-  type: vmess
-  country: CA
-  port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  country: HK
+  port: 52217
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  network: ws
-  ws-path: /v2ray
+  network: tcp
+  ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 3.93| 甲骨文首尔ARM2trojan
-  server: jgw4.gaox.ml
+- name: 4.48|甲骨文春川AMD1trojan
+  server: jgwcc1.gaox.ml
   port: 443
   type: trojan
-  password: b7e0e71f-070c-437a-9826-6e23caeb0307
-  sni: jgw4.gaox.ml
-- name: 3.91| httpsgitiov9999ip5中国1
-  server: 1.ezydfdd.com
-  port: 443
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+- name: 4.47|RelayHKJP608  237Mb
+  server: 115.wowogg.cyou
   type: vmess
-  uuid: 97ab5d71-96b7-4ab1-b77b-093685658d7f
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /qwe
-    headers:
-      Host: 1.ezydfdd.com
-- name: 3.87| CA04 TGpeekfun
-  server: 165.154.225.147
-  port: 80
-  type: vmess
-  country: ' CA'
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  country: HK
+  port: 52215
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /v2ray
-  ws-headers:
-    HOST: 128hk8.fans8.xyz
-  skip-cert-verify: true
-  servername: 128hk8.fans8.xyz
-- name: 3.77|8机场魔戒net
-  server: tghg.77710086.xyz
-  port: 888
-  type: trojan
-  password: 887b9ece-45e8-45a1-844c-6991e2b086a8
-  sni: tghg.77710086.xyz
-- name: 3.76|RelayEEJP397 1744Mb
-  server: os2-5.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 3.68|JP784  576Mb
-  server: 106.180.225.69
-  type: trojan
-  country: JP
-  port: 1443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 3.63|韩国阿伟科技TG油管
-  server: 3.35.206.85
-  port: 8080
-  type: vmess
-  uuid: 0f4cc193-ea7c-497c-859b-4e1bf4617fed
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
+  network: tcp
   ws-path: /
-  ws-headers:
-    Host: 3.35.206.85
-  udp: true
-- name: 3.57| 韩国 1
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.44| 韩国 1
   server: vn.mumi.bid
   port: 10125
   type: vmess
@@ -597,7 +439,178 @@ proxies:
     headers:
       Host: vn.mumi.bid
   udp: true
-- name: 3.47| CA02 TGpeekfun
+- name: 4.44| V2ray⑬vip2中转BGB日本3x200M
+  server: 81.wowogg.cyou
+  port: 52281
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.39|Relay 7508Mb
+  server: 134.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52334
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 134.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.38|JP784  576Mb
+  server: 106.180.225.69
+  type: trojan
+  country: JP
+  port: 1443
+  password: 7x42LetRa0
+  skip-cert-verify: true
+  udp: true
+- name: 4.30| httpsgitiov9999ip3台湾22
+  server: tw.tcpbbr.net
+  port: 443
+  type: trojan
+  password: b155c2a4-ee79-11eb-a8bf-f23c91cfbbc9
+  sni: tw.tcpbbr.net
+- name: 4.24| 甲骨文东京ARM1trojan
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  sni: jgwdj3.gaox.ml
+- name: 4.01|1.83|
+  server: os2-4.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 4.01|韩国阿伟科技TG油管 2
+  server: fq.0112391.xyz
+  port: 12226
+  type: trojan
+  password: 1qaz2wsx
+  sni: fq.0112391.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 3.97| 7176Mb
+  server: az1.xrenblog.com
+  type: vmess
+  country: US
+  port: 53067
+  uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 3.95| httpsgitiov9999ip3美国9
+  server: 118.wowogg.cyou
+  port: 52218
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 3.84|RelayEEJP401 2587Mb
+  server: os2-7.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 3.70|RelayJPJP715
+  server: jp19.holiganfan.com
+  type: trojan
+  country: JP
+  port: 10088
+  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
+  skip-cert-verify: true
+  udp: true
+- name: 3.68|  828Mb
+  server: v.mumi.bid
+  type: vmess
+  country: JP
+  port: 10121
+  uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 3.65|Relay  027Mb
+  server: 128tw02.fans8.xyz
+  type: vmess
+  country: CA
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.52|RelayHKJP619 6105Mb
+  server: 132.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52332
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.50|甲骨文春川AMD2trojan
+  server: jgwcc2.gaox.ml
+  port: 443
+  type: trojan
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  sni: jgwcc2.gaox.ml
+- name: 3.49| JP103 TGpeekfun
+  server: 146.56.177.34
+  port: 80
+  type: vmess
+  country: ' JP'
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  http-opts: {}
+  ws-path: /v2ray
+  ws-headers:
+    HOST: 1031kr.fans8.xyz
+  skip-cert-verify: true
+  servername: 1031kr.fans8.xyz
+- name: 3.47|RelayHKJP601 6303Mb
+  server: 94.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52294
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.42| CA02 TGpeekfun
   server: 165.154.233.7
   port: 80
   type: vmess
@@ -612,75 +625,29 @@ proxies:
     HOST: 1222mnl.fans8.xyz
   skip-cert-verify: true
   servername: 1222mnl.fans8.xyz
-- name: 3.45|4.33|1.05|
-  server: 198.41.212.5
+- name: 3.11| 1953Mb
+  server: arm.50k.one
   type: vmess
-  country: ZZ
-  port: 443
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  country: JP
+  port: 39966
+  uuid: 608408f6-fd79-49a3-96ef-003266a773a0
   alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /sakura/
-  servername: zero1.a-yu.xyz
-  ws-headers:
-    HOST: zero1.a-yu.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 3.36|Relay  027Mb
-  server: 128tw02.fans8.xyz
-  type: vmess
-  country: CA
-  port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
+  network: tcp
+  ws-path: /
+  servername: arm.50k.one
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 3.27| V2ray⑬vip2中转BGB日本3x200M
-  server: 81.wowogg.cyou
-  port: 52281
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 3.21|RelayEEJP401 2587Mb
-  server: os2-7.sstr-api.xyz
+- name: 3.09|RelayEEJP398 4274Mb
+  server: os2-2.sstr-api.xyz
   type: trojan
   country: EE
   port: 443
   password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
   udp: true
-- name: 3.11|Relay 1821Mb
-  server: 1222mnl.fans8.xyz
-  type: vmess
-  country: CA
-  port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 3.07|RelayEEJP396 1523Mb
-  server: os2-8.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 3.07|新加坡AZ中转
+- name: 2.92|新加坡AZ中转
   server: azhk2.az66.ml
   port: 63430
   type: vmess
@@ -694,7 +661,20 @@ proxies:
   ws-headers:
     Host: vod3.nty.tv189.cn
   udp: true
-- name: 2.77| httpsgitiov9999ip3俄罗斯联邦16
+- name: 2.84|RelayUSJP2502 4516Mb
+  server: 92.wowogg.cyou
+  type: vmess
+  country: US
+  port: 52292
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.81| httpsgitiov9999ip3俄罗斯联邦16
   server: 92.223.72.42
   port: 443
   type: vmess
@@ -707,61 +687,7 @@ proxies:
     path: /ray
     headers:
       Host: govacaxixo.watchdoctor.xyz
-- name: 2.71|RelayHKHK626 4570Mb
-  server: keli.scsevers.cf
-  type: trojan
-  country: HK
-  port: 443
-  password: sharecentre
-  skip-cert-verify: true
-  udp: true
-- name: 2.69|Relay 1566Mb
-  server: 112.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52212
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 112.wowogg.cyou
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.42|甲骨文海得拉巴AMD1trojan
-  server: jgwhdlb1.gaox.ml
-  port: 443
-  type: trojan
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  sni: jgwhdlb1.gaox.ml
-- name: 2.37| 2030Mb
-  server: 61.222.202.213
-  type: vmess
-  country: TW
-  port: 12880
-  uuid: d4b64497-2773-4281-96f1-fc2914ea3c28
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.33| 1878Mb
-  server: chuna1.515223.xyz
-  type: vmess
-  country: US
-  port: 24793
-  uuid: 58975106-dc46-4942-b79e-336da67f1bbd
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.30|
+- name: 2.70|2.30|
   server: os2-1.sstr-api.xyz
   type: trojan
   country: EE
@@ -769,514 +695,40 @@ proxies:
   password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
   udp: true
-- name: 2.16|httpsgitiov9999ip39
-  server: 104.16.181.103
-  port: 443
-  type: vmess
-  uuid: 7be43971-52f1-48af-9036-454a94b4723a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ws/?ed=2048
-    headers:
-      Host: download.china666.ml
-- name: 2.11|RelayEEJP398 4274Mb
-  server: os2-2.sstr-api.xyz
+- name: 2.57|RelayJPJP793 4031Mb
+  server: jp10.holiganfan.com
   type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 2.07| 甲骨文大阪AMD1trojan
-  server: jgwdb1.gaox.ml
-  port: 443
-  type: trojan
-  password: a580d839-ee41-4df1-bf03-6789dca32e30
-  sni: jgwdb1.gaox.ml
-- name: 1.96| 7176Mb
-  server: az1.xrenblog.com
-  type: vmess
-  country: US
-  port: 53067
-  uuid: 3c5e4538-d8aa-4d5e-ab37-81d20950c0b3
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.94| 53647Mb
-  server: 14.earths.team
-  type: trojan
-  country: SG
-  port: 443
-  password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae
-  skip-cert-verify: true
-  udp: true
-- name: 1.93| LT118 TGpeekfun
-  server: 213.183.45.80
-  port: 80
-  type: vmess
-  country: ' LT'
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /v2ray
-  ws-headers:
-    HOST: 1222ru.fans8.xyz
-  skip-cert-verify: true
-  servername: 1222ru.fans8.xyz
-- name: 1.91| LT119 TGpeekfun
-  server: 213.183.41.13
-  port: 80
-  type: vmess
-  country: ' LT'
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /v2ray
-  ws-headers:
-    HOST: 0118ru.fans8.xyz
-  skip-cert-verify: true
-  servername: 0118ru.fans8.xyz
-- name: 1.90| US美国159
-  server: us-l1-n1.xyx-xy-01.com
-  port: 8080
-  type: vmess
-  uuid: 3cbaf328-388c-341d-857c-884ed8cdab5f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: us-l1-n1.xyx-xy-01.com
-- name: 1.87|83机场魔戒net
-  server: k11.pbaplink.xyz
-  port: 48500
-  type: trojan
-  password: a6525e92-f057-4c25-a446-e6fdbec87177
-  sni: k11.pbaplink.xyz
-- name: 1.84| httpsgitiov9999ip3美国24
-  server: 20.earths.team
-  port: 443
-  type: trojan
-  password: b3d27d09-77fe-431d-9829-6eba7dce20b0
-  sni: 20.earths.team
-- name: 1.83|
-  server: os2-4.sstr-api.xyz
-  type: trojan
-  country: EE
-  port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 1.80| 甲骨文悉尼AMD1trojan
-  server: jgwxn1.gaox.ml
-  port: 443
-  type: trojan
-  password: 0f715619-0037-4358-a7c6-958106bc6b49
-  sni: jgwxn1.gaox.ml
-- name: 1.79|南非伟科技TG油管
-  server: 2.ezydfdd.com
-  port: 443
-  type: vmess
-  uuid: 8ce46aae-dae5-4d50-ebcd-f9514e4c048a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /qwe
-  ws-headers:
-    Host: 2.ezydfdd.com
-  udp: true
-- name: 1.79| 甲骨文大阪ARM1trojan
-  server: jgwdb3.gaox.ml
-  port: 443
-  type: trojan
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  sni: jgwdb3.gaox.ml
-- name: 1.68|  828Mb
-  server: v.mumi.bid
-  type: vmess
   country: JP
-  port: 10121
-  uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.61|Relay 1049Mb
-  server: 0122us.fans8.xyz
-  type: vmess
-  country: RU
-  port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.60| RU120 TGpeekfun
-  server: 194.135.104.85
-  port: 80
-  type: vmess
-  country: ' RU'
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /v2ray
-  ws-headers:
-    HOST: 0122us.fans8.xyz
-  skip-cert-verify: true
-  servername: 0122us.fans8.xyz
-- name: 1.59| 甲骨文伦敦ARM1trojan
-  server: jgwld3.gaox.ml
-  port: 443
-  type: trojan
-  password: 71b55a84-3fac-4458-abff-eaad79219c91
-  sni: jgwld3.gaox.ml
-- name: 1.58|  960Mb
-  server: azhk.relay.qchwnd.moe
-  type: trojan
-  country: SG
-  port: 10217
-  password: b5b0aa8d-595c-4739-8fa0-659cff1c49bb
+  port: 10088
+  password: 8ce38f17-b2be-453a-8d25-deec1a0aabba
   skip-cert-verify: true
   udp: true
-- name: 1.57|Relay  224Mb
-  server: uk-am3-5.eqsunshine.com
-  type: ssr
-  country: GB
-  port: 8181
-  password: PNRbp3j9B
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: 1.55|Relay  234Mb
-  server: 172.67.68.58
-  type: vmess
-  country: US
-  port: 443
-  uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /shuier
-  servername: xc1.v2rie.pp.ua
-  ws-headers:
-    HOST: xc1.v2rie.pp.ua
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.54|httpsgitiov9999ip5
-  server: 104.24.3.20
-  port: 80
-  type: vmess
-  uuid: 22c477fc-4552-4f6d-8474-12311bc16acb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /wwwnet
-    headers:
-      Host: eua.ziyun.ga
-- name: 1.54| httpsgitiov9999ip3俄罗斯联邦15
-  server: 92.223.65.119
-  port: 443
-  type: vmess
-  uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: govacaxixo.watchdoctor.xyz
-- name: 1.52| 甲骨文大阪AMD2trojan
-  server: jgwdb2.gaox.ml
-  port: 443
-  type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  sni: jgwdb2.gaox.ml
-- name: 1.52|trojan
-  type: trojan
-  server: 65.49.196.130
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.52| US177 TGpeekfun
-  server: 20.24.103.160
-  port: 52330
-  type: vmess
-  country: ' US'
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: 130.wowogg.cyou
-  skip-cert-verify: true
-  servername: 130.wowogg.cyou
-- name: 1.49|Relay 9427Mb
-  server: 128hk8.fans8.xyz
-  type: vmess
-  country: CA
-  port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  servername: 128hk8.fans8.xyz
-  ws-headers:
-    HOST: 128hk8.fans8.xyz
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.48| httpsgitiov9999 美国CDN ip6 4
-  server: 104.20.156.110
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.47| httpsgitiov9999ip3德国1
-  server: 37.61.213.94
-  port: 443
-  type: vmess
-  uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: govacaxixo.watchdoctor.xyz
-- name: 1.45| 甲骨文伦敦AMD2trojan
-  server: jgwld2.gaox.ml
-  port: 443
-  type: trojan
-  password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
-  sni: jgwld2.gaox.ml
-- name: 1.45| CA03 TGpeekfun
-  server: 165.154.224.93
-  port: 80
-  type: vmess
-  country: ' CA'
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /v2ray
-  ws-headers:
-    HOST: 1211hk1.fans8.xyz
-  skip-cert-verify: true
-  servername: 1211hk1.fans8.xyz
-- name: 1.44|甲骨文海得拉巴AMD2trojan
+- name: 2.50|甲骨文海得拉巴AMD2trojan
   server: jgwhdlb2.gaox.ml
   port: 443
   type: trojan
   password: 54080134-2cba-4535-8599-95650bd9aa54
   sni: jgwhdlb2.gaox.ml
-- name: 1.43| httpsgitiov9999 美国CDN ip6 13
-  server: www.digitalocean.com
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.42|httpsgitiov9999ip5 4
-  server: 104.18.199.249
-  port: 80
-  type: vmess
-  uuid: 22c477fc-4552-4f6d-8474-12311bc16acb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /wwwnet
-    headers:
-      Host: eua.ziyun.ga
-- name: 1.42| httpsgitiov9999 美国CDN ip6 6
-  server: 162.159.134.92
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.41| 日本阿伟科技TG油管 3
-  server: 2.earths.team
+- name: 2.46|甲骨文海得拉巴AMD1trojan
+  server: jgwhdlb1.gaox.ml
   port: 443
   type: trojan
-  password: b3d27d09-77fe-431d-9829-6eba7dce20b0
-  sni: 2.earths.team
-- name: 1.40| httpsgitiov9999 美国CDN ip6 9
-  server: 104.16.193.185
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.39|RelayUSUS2469 1755Mb
-  server: 7.earths.team
-  type: trojan
-  country: US
-  port: 443
-  password: b3d27d09-77fe-431d-9829-6eba7dce20b0
-  skip-cert-verify: true
-  udp: true
-- name: 1.39|US美国NL荷兰
-  server: v2ray.ifuckgfw.ga
-  port: 8443
-  type: vmess
-  uuid: a1effd82-8a11-11ec-9aeb-52ac0014346a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /nBaG3RmV/
-  ws-headers:
-    Host: v2ray.ifuckgfw.ga
-  udp: true
-- name: 1.38| httpsgitiov9999 美国CDN ip6
-  server: 104.16.114.245
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.38| httpsgitiov9999 美国CDN ip6 11
-  server: 104.19.48.16
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.34| httpsgitiov9999 美国CDN ip6 2
-  server: 104.25.167.166
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.31|新加坡阿伟科技TG油管 3
-  server: 5.earths.team
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  sni: jgwhdlb1.gaox.ml
+- name: 2.33|甲骨文海得拉巴ARM1trojan
+  server: jgwhdlb3.gaox.ml
   port: 443
   type: trojan
-  password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f
-  sni: 5.earths.team
-  skip-cert-verify: true
-  udp: true
-- name: 1.31| httpsgitiov9999ip3香港9
-  server: 113.wowogg.cyou
-  port: 52213
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 1.29|Relay 1289Mb
-  server: 0118ru.fans8.xyz
-  type: vmess
-  country: LT
-  port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.27| httpsgitiov9999 美国CDN ip6 3
-  server: 104.25.212.16
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.27|新加坡阿伟科技TG油管
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  sni: jgwhdlb3.gaox.ml
+- name: 2.24| 印度阿伟科技TG油管
+  server: in02.holiganfan.com
+  port: 10088
+  type: trojan
+  password: 36c84db1-7eaa-4763-bccc-e313801c0c78
+  sni: in02.holiganfan.com
+  skip-cert-verify: false
+- name: 2.11|新加坡阿伟科技TG油管
   server: 3.0.89.143
   port: 16789
   type: vmess
@@ -1290,85 +742,167 @@ proxies:
   ws-headers:
     Host: 3.0.89.143
   udp: true
-- name: 1.26| 2550Mb
-  server: 209.141.47.137
-  type: trojan
-  country: US
-  port: 443
-  password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f
-  skip-cert-verify: true
-  udp: true
-- name: 1.26| 美国 25
-  server: us-am11.eqnode.net
-  port: 8080
-  type: ssr
-  cipher: aes-256-cfb
-  password: vGndzdmPB
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 1.26| httpsgitiov9999ip3香港3
-  server: 43.129.193.41
-  port: 59535
-  type: vmess
-  uuid: 2fb9a8e8-8ee0-47e4-cfe1-cac3ea4e4245
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.26| 甲骨文伦敦AMD1trojan
-  server: jgwld1.gaox.ml
+- name: 2.04| 甲骨文大阪AMD1trojan
+  server: jgwdb1.gaox.ml
   port: 443
   type: trojan
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  sni: jgwld1.gaox.ml
-- name: 1.23|Pool  895Mb
-  server: 198.148.92.246
+  password: a580d839-ee41-4df1-bf03-6789dca32e30
+  sni: jgwdb1.gaox.ml
+- name: '2.03| 美国  體驗套餐  A  1  100x  官網  ninihaocc  体验节点不等于付费节点效果 '
+  server: qinton001.bmbai.buzz
+  port: 643
   type: vmess
-  country: US
-  port: 443
-  uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53
+  uuid: cff4b44f-38e3-3446-9d50-8a4f0fd074c6
   alterId: 0
   cipher: auto
-  network: ws
-  ws-path: /ray
-  servername: govacaxixo.watchdoctor.xyz
-  ws-headers:
-    HOST: govacaxixo.watchdoctor.xyz
-  http-opts: {}
-  h2-opts: {}
   tls: true
-  skip-cert-verify: true
-- name: 1.23|Relay 1474Mb
-  server: 130.wgong.xyz
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: 1.baiyun.pw
+- name: 1.92|Relay 2483Mb
+  server: 123.wowogg.cyou
   type: vmess
   country: HK
-  port: 52330
+  port: 52223
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  network: none
+  network: tcp
   ws-path: /
-  servername: 130.wgong.xyz
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.22| httpsgitiov9999ip3美国10 2
-  server: 130.wowogg.cyou
-  port: 52330
+- name: 1.89|Relay  234Mb
+  server: 0107hk.fans8.xyz
   type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  country: ZZ
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
   alterId: 2
   cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.84|RelayHKHK626 4570Mb
+  server: keli.scsevers.cf
+  type: trojan
+  country: HK
+  port: 443
+  password: sharecentre
+  skip-cert-verify: true
+  udp: true
+- name: 1.80| 新鸟免费俄罗斯RUJusthost 04 免流 10x
+  server: mf-justhost-ru-04.xncloud.xyz
+  port: 80
+  type: vmess
+  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
+  alterId: 1
+  cipher: auto
   tls: false
-- name: 1.20| 甲骨文悉尼ARM2trojan
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /niaoyun
+    headers:
+      Host: mf-justhost-ru-04.xncloud.xyz
+- name: 1.78|Relay  167Mb
+  server: 1211hk1.fans8.xyz
+  type: vmess
+  country: CA
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.76| 甲骨文悉尼ARM2trojan
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   sni: jgwxn4.gaox.ml
-- name: 1.15|RelayJPJP781  722Mb
+- name: 1.75| 2030Mb
+  server: 61.222.202.213
+  type: vmess
+  country: TW
+  port: 12880
+  uuid: d4b64497-2773-4281-96f1-fc2914ea3c28
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.75|黑洞226
+  server: 23.225.125.194
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /path/120306182525
+    headers:
+      Host: www.95314708.xyz
+- name: 1.73| 甲骨文悉尼AMD1trojan
+  server: jgwxn1.gaox.ml
+  port: 443
+  type: trojan
+  password: 0f715619-0037-4358-a7c6-958106bc6b49
+  sni: jgwxn1.gaox.ml
+- name: 1.72| 新鸟免费美国UA DO 07 免流 10x
+  server: mf-do-ua-07.xncloud.xyz
+  port: 80
+  type: vmess
+  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /niaoyun
+    headers:
+      Host: mf-do-ua-07.xncloud.xyz
+- name: 1.70| httpsgitiov9999ip3美国26
+  server: us2.tcpbbr.net
+  port: 443
+  type: trojan
+  password: 7b4066ae-accc-11eb-a8bf-f23c91cfbbc9
+  sni: us2.tcpbbr.net
+- name: 1.69| 甲骨文凤凰城ARM1trojan
+  server: fhcarm1.gaox.ml
+  port: 443
+  type: trojan
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  sni: fhcarm1.gaox.ml
+- name: 1.67| 新鸟免费美国UA DO 09 免流 10x
+  server: mf-do-ua-09.xncloud.xyz
+  port: 18000
+  type: vmess
+  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /niaoyun
+    headers:
+      Host: mf-do-ua-09.xncloud.xyz
+- name: 1.64|RelayJPJP781  722Mb
   server: japanfastnetwork.club
   type: vmess
   country: JP
@@ -1385,27 +919,196 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.13| 甲骨文凤凰城AMD2trojan
-  server: fhcamd2.gaox.ml
-  port: 443
-  type: trojan
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  sni: fhcamd2.gaox.ml
-- name: 1.10| httpsgitiov9999ip3美国47
-  server: fancy-wildflower-2641.2112898766397.workers.dev
+- name: 1.58| 新鸟免费美国UA DO 01 免流 10x
+  server: mf-do-ua-01.xncloud.xyz
+  port: 80
+  type: vmess
+  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /niaoyun
+    headers:
+      Host: mf-do-ua-01.xncloud.xyz
+- name: 1.57|US362
+  server: cloudflare.xrenblog.com
   port: 443
   type: vmess
-  uuid: ed049663-25a3-4300-93e3-8d7966b2bb19
+  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /xrenblog/
+  ws-headers:
+    HOST: ipv6.xrenblog.com
+  skip-cert-verify: true
+  servername: ipv6.xrenblog.com
+- name: 1.56|RelayLTLT798 1340Mb
+  server: 1222ru.fans8.xyz
+  type: vmess
+  country: LT
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.56|Relay 1289Mb
+  server: 0118ru.fans8.xyz
+  type: vmess
+  country: LT
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.56| httpsgitiov9999ip3美国41
+  server: uscu2.lixiaolong.buzz
+  port: 1998
+  type: vmess
+  uuid: 04a7b5aa-a31a-3daa-a72d-a392cb8389ba
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-opts:
-    path: /ed049663-25a3-4300-93e3-8d7966b2bb19-vmess
+    path: /v2ray
     headers:
-      Host: fancy-wildflower-2641.2112898766397.workers.dev
-- name: 1.09| httpsgitiov9999 美国CDN ip6 10
-  server: cf.521024.xyz
+      Host: uscu2.lixiaolong.buzz
+- name: 1.54|trojan
+  type: trojan
+  server: 65.49.196.130
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.53|httpsgitiov9999ip3 2
+  server: cloudflare.a-yu.xyz
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero2.a-yu.xyz
+- name: 1.49| httpsgitiov9999ip3美国24
+  server: 20.earths.team
+  port: 443
+  type: trojan
+  password: b3d27d09-77fe-431d-9829-6eba7dce20b0
+  sni: 20.earths.team
+- name: 1.47|httpsgitiov9999ip5
+  server: 162.159.138.217
+  port: 80
+  type: vmess
+  uuid: 22c477fc-4552-4f6d-8474-12311bc16acb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /wwwnet
+    headers:
+      Host: eua.ziyun.ga
+- name: 1.46| 新鸟免费美国UA DO 06 免流 10x
+  server: mf-do-ua-06.xncloud.xyz
+  port: 80
+  type: vmess
+  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /niaoyun
+    headers:
+      Host: mf-do-ua-06.xncloud.xyz
+- name: 1.44| httpsgitiov9999ip3俄罗斯联邦15
+  server: 92.223.65.119
+  port: 443
+  type: vmess
+  uuid: 3fd6713f-e036-4ba9-938a-da7843a17a15
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: govacaxixo.watchdoctor.xyz
+- name: 1.43|美国阿伟科技TG油管 5
+  server: 35.153.162.49
+  port: 27080
+  type: vmess
+  uuid: 6334db00-f39b-49d7-d12a-2e3c037c5d97
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - aweikeji-YouTube-TG
+  udp: true
+- name: 1.43| 甲骨文伦敦ARM1trojan
+  server: jgwld3.gaox.ml
+  port: 443
+  type: trojan
+  password: 71b55a84-3fac-4458-abff-eaad79219c91
+  sni: jgwld3.gaox.ml
+- name: 1.41|RelayHKUS621  199Mb
+  server: 124.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52224
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.37| CA03 TGpeekfun
+  server: 165.154.224.93
+  port: 80
+  type: vmess
+  country: ' CA'
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  http-opts: {}
+  ws-path: /v2ray
+  ws-headers:
+    HOST: 1211hk1.fans8.xyz
+  skip-cert-verify: true
+  servername: 1211hk1.fans8.xyz
+- name: 1.37| httpsgitiov9999 美国CDN ip6 3
+  server: 104.25.212.16
   port: 443
   type: vmess
   uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
@@ -1417,7 +1120,21 @@ proxies:
     path: /ray
     headers:
       Host: clash3.v2rayfree1.xyz
-- name: 1.09| httpsgitiov9999 美国CDN ip6 8
+- name: 1.35|US美国NL荷兰
+  server: v2ray.ifuckgfw.ga
+  port: 8443
+  type: vmess
+  uuid: a1effd82-8a11-11ec-9aeb-52ac0014346a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /nBaG3RmV/
+  ws-headers:
+    Host: v2ray.ifuckgfw.ga
+  udp: true
+- name: 1.34| httpsgitiov9999 美国CDN ip6 8
   server: 104.21.59.236
   port: 443
   type: vmess
@@ -1430,44 +1147,74 @@ proxies:
     path: /ray
     headers:
       Host: clash3.v2rayfree1.xyz
-- name: 1.08| US175 TGpeekfun
-  server: 104.166.135.10
+- name: 1.32| httpsgitiov9999ip3德国1
+  server: 37.61.213.94
   port: 443
   type: vmess
-  country: ' US'
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  alterId: 4
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /ws
-  ws-headers:
-    HOST: ahdaeph8.com
-  skip-cert-verify: true
-  servername: ahdaeph8.com
-- name: 1.08|RelayUSUS2465 2287Mb
-  server: 198.52.125.218
-  type: trojan
-  country: US
-  port: 55432
-  password: bab4574d-dd84-4003-8926-f45512c39aa3
-  skip-cert-verify: true
-  udp: true
-- name: 1.06|httpsgitiov9999ip37
-  server: 104.16.181.197
-  port: 443
-  type: vmess
-  uuid: 7be43971-52f1-48af-9036-454a94b4723a
+  uuid: 97ff78ea-8807-4c33-93e5-d8481ac0539e
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-opts:
-    path: /ws/?ed=2048
+    path: /ray
     headers:
-      Host: download.china666.ml
-- name: 1.02| httpsgitiov9999 美国CDN ip6 5
+      Host: govacaxixo.watchdoctor.xyz
+- name: 1.32|美国阿伟科技TG油管 8
+  server: 104.16.160.114
+  port: 443
+  type: vmess
+  uuid: 4daecd66-d4e2-4577-bf79-47c90daa716d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /jackson2025_vws
+  ws-headers:
+    Host: jackson2025.cf
+  udp: true
+- name: 1.32| 新鸟免费美国UA DO 02 免流 10x
+  server: mf-do-ua-02.xncloud.xyz
+  port: 80
+  type: vmess
+  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /niaoyun
+    headers:
+      Host: mf-do-ua-02.xncloud.xyz
+- name: 1.31| httpsgitiov9999ip3俄罗斯联邦6 2
+  server: 146.185.218.171
+  port: 443
+  type: vmess
+  uuid: 947af181-c509-4245-80de-9baf64f1aa51
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: govacaxixo.watchdoctor.xyz
+- name: 1.31| httpsgitiov9999 美国CDN ip6 9
+  server: 104.16.193.185
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.28| httpsgitiov9999 美国CDN ip6 5
   server: cdn.xia.me
   port: 443
   type: vmess
@@ -1480,8 +1227,221 @@ proxies:
     path: /ray
     headers:
       Host: clash3.v2rayfree1.xyz
-- name: 1.01| httpsgitiov9999 美国CDN ip6 7
+- name: 1.28| httpsgitiov9999ip3美国47
+  server: fancy-wildflower-2641.2112898766397.workers.dev
+  port: 443
+  type: vmess
+  uuid: ed049663-25a3-4300-93e3-8d7966b2bb19
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ed049663-25a3-4300-93e3-8d7966b2bb19-vmess
+    headers:
+      Host: fancy-wildflower-2641.2112898766397.workers.dev
+- name: 1.24| 53647Mb
+  server: 14.earths.team
+  type: trojan
+  country: SG
+  port: 443
+  password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae
+  skip-cert-verify: true
+  udp: true
+- name: 1.24|httpsgitiov9999ip5 3
+  server: 104.18.172.18
+  port: 80
+  type: vmess
+  uuid: 22c477fc-4552-4f6d-8474-12311bc16acb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /wwwnet
+    headers:
+      Host: eua.ziyun.ga
+- name: 1.23| LT118 TGpeekfun
+  server: 213.183.45.80
+  port: 80
+  type: vmess
+  country: ' LT'
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  http-opts: {}
+  ws-path: /v2ray
+  ws-headers:
+    HOST: 1222ru.fans8.xyz
+  skip-cert-verify: true
+  servername: 1222ru.fans8.xyz
+- name: 1.19|RelayUSUS2469 1755Mb
+  server: 7.earths.team
+  type: trojan
+  country: US
+  port: 443
+  password: b3d27d09-77fe-431d-9829-6eba7dce20b0
+  skip-cert-verify: true
+  udp: true
+- name: 1.17| httpsgitiov9999 美国CDN ip6 10
+  server: cf.521024.xyz
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.16|Pool  895Mb
+  server: 198.148.92.246
+  type: vmess
+  country: US
+  port: 443
+  uuid: 4f4c3fc0-888d-414e-9965-a41c627fab53
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: govacaxixo.watchdoctor.xyz
+  ws-headers:
+    HOST: govacaxixo.watchdoctor.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.16| httpsgitiov9999ip3香港1
+  server: 107.wowogg.cyou
+  port: 52207
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 1.15| httpsgitiov9999 美国CDN ip6 7
   server: icook.tw
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.12| 新鸟免费美国UA DO 05 免流 10x
+  server: mf-do-ua-05.xncloud.xyz
+  port: 80
+  type: vmess
+  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /niaoyun
+    headers:
+      Host: mf-do-ua-05.xncloud.xyz
+- name: 1.12|RelayININ708  750Mb
+  server: 129.227.201.234
+  type: vmess
+  country: IN
+  port: 443
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  network: ws
+  ws-path: /ws
+  servername: aicoo6du.com
+  ws-headers:
+    HOST: aicoo6du.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.11| 新鸟免费俄罗斯RUJusthost 03 免流 10x
+  server: mf-justhost-ru-03.xncloud.xyz
+  port: 80
+  type: vmess
+  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /niaoyun
+    headers:
+      Host: mf-justhost-ru-03.xncloud.xyz
+- name: 1.10| 甲骨文伦敦AMD1trojan
+  server: jgwld1.gaox.ml
+  port: 443
+  type: trojan
+  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  sni: jgwld1.gaox.ml
+- name: 1.09|RelayUSUS2513 2209Mb
+  server: vincent-jackson2022.ml
+  type: trojan
+  country: US
+  port: 443
+  password: 188741f2-1f14-43cb-be7a-1200a9f4332e
+  skip-cert-verify: true
+  udp: true
+- name: 1.04| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
+  port: 443
+  type: trojan
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: 1.04|httpsgitiov9999ip5 4
+  server: 104.18.199.249
+  port: 80
+  type: vmess
+  uuid: 22c477fc-4552-4f6d-8474-12311bc16acb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /wwwnet
+    headers:
+      Host: eua.ziyun.ga
+- name: 1.03|RelayUSUS2091
+  server: test.0dc.cn
+  type: vmess
+  country: US
+  port: 443
+  uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 1.02| httpsgitiov9999ip3美国10
+  server: dax6ujai.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: dax6ujai.com
+- name: 1.01| httpsgitiov9999 美国CDN ip6
+  server: 104.16.114.245
   port: 443
   type: vmess
   uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
