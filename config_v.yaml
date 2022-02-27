@@ -1,33 +1,26 @@
 proxies:
-- name: 6.21| 香港  021
-  server: 104.208.114.60
-  port: 80
+- name: 5.67|RelayUSUS2045
+  server: 112.wowogg.cyou
   type: vmess
-  uuid: 8e7e6800-7c0b-3d3c-8dc7-751f6a7d88fd
+  country: US
+  port: 52212
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 5.66| httpsgitiov9999ip3美国4
+  server: 99.wowogg.cyou
+  port: 52299
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
   tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /adobe
-    headers:
-      Host: 104.208.114.60
-- name: 6.10| 香港  007
-  server: 104.208.114.122
-  port: 80
-  type: vmess
-  uuid: 8e7e6800-7c0b-3d3c-8dc7-751f6a7d88fd
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /adobe
-    headers:
-      Host: 104.208.114.122
-- name: 6.02|RelayUSUS2465 3252Mb
+- name: 5.50|RelayUSUS2465 3252Mb
   server: 98.wowogg.cyou
   type: vmess
   country: US
@@ -40,38 +33,21 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 5.93|RelayUSUS2090
-  server: 101.wowogg.cyou
+- name: 5.34| 3443Mb
+  server: 128.wowogg.cyou
   type: vmess
-  country: US
-  port: 52201
+  country: HK
+  port: 52228
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  network: tcp
-  ws-path: /
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 128.wowogg.cyou
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 5.87|韩国阿伟科技TG油管 2
-  server: 152.70.237.92
-  port: 80
-  type: vmess
-  uuid: 9cac569c-fb38-4a71-cae7-2ac1739ecdf0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - aweikeji-YouTube-TG
-  udp: true
-- name: 5.65| httpsgitiov9999ip3香港9
+- name: 5.30| httpsgitiov9999ip3香港9
   server: 113.wowogg.cyou
   port: 52213
   type: vmess
@@ -79,11 +55,11 @@ proxies:
   alterId: 2
   cipher: auto
   tls: false
-- name: 5.24|RelayHKJP623 6955Mb
-  server: 116.wowogg.cyou
+- name: 5.12|RelayHKJP608  237Mb
+  server: 115.wowogg.cyou
   type: vmess
   country: HK
-  port: 52216
+  port: 52215
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
@@ -92,23 +68,33 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 5.20| httpsgitiov9999ip3香港20
-  server: 111.wowogg.cyou
-  port: 52211
+- name: 5.03|  159Mb
+  server: 105.wowogg.cyou
   type: vmess
+  country: US
+  port: 52205
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  tls: false
-- name: 5.10| httpsgitiov9999ip3美国8
-  server: 102.wowogg.cyou
-  port: 11221
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.99| 4958Mb
+  server: 128.wgong.xyz
   type: vmess
+  country: HK
+  port: 52228
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  tls: false
-- name: 5.00| V2ray⑱vip2中转BGB日本3x200M
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.96| V2ray⑱vip2中转BGB日本3x200M
   server: 86.wowogg.cyou
   port: 52286
   type: vmess
@@ -117,37 +103,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 5.00|Relay 2841Mb
-  server: 131.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52331
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.91| V2ray⑨vip2中转广移日本3x200M
-  server: 106.wowogg.cyou
-  port: 11223
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 4.89| httpsgitiov9999ip3美国3
-  server: 100.wowogg.cyou
-  port: 11220
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 4.86|RelayUSJP2505 4572Mb
+- name: 4.93|RelayUSJP2505 4572Mb
   server: 126.wowogg.cyou
   type: vmess
   country: US
@@ -160,11 +116,11 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.85|Relay 2855Mb
-  server: 104.wowogg.cyou
+- name: 4.93|RelayUSJP2502 4516Mb
+  server: 92.wowogg.cyou
   type: vmess
   country: US
-  port: 11222
+  port: 52292
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
@@ -173,48 +129,47 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.80|RelayHKJP595 6243Mb
-  server: 82.wowogg.cyou
+- name: 4.89| 2030Mb
+  server: 61.222.202.213
   type: vmess
-  country: HK
-  port: 52282
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
+  country: TW
+  port: 12880
+  uuid: d4b64497-2773-4281-96f1-fc2914ea3c28
+  alterId: 0
   cipher: auto
-  network: tcp
+  network: ws
   ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.74|RelayHKJP610 6492Mb
-  server: 133.wowogg.cyou
+- name: 4.84| 3424Mb
+  server: 20.187.115.172
   type: vmess
   country: HK
-  port: 52333
+  port: 52228
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
   network: none
   ws-path: t.me/vpnpool
-  servername: 133.wowogg.cyou
+  servername: 20.187.115.172
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.72|RelayHKJP612 6438Mb
-  server: 93.wowogg.cyou
+- name: 4.81| 2946Mb
+  server: 122.wowogg.cyou
   type: vmess
   country: HK
-  port: 52293
+  port: 52222
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  network: none
+  network: tcp
   ws-path: /
-  servername: 93.wowogg.cyou
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.70|RelayHKJP602 3111Mb
+- name: 4.81|RelayHKJP602 3111Mb
   server: 90.wowogg.cyou
   type: vmess
   country: HK
@@ -227,21 +182,77 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.69|Relay 7028Mb
-  server: 85.wowogg.cyou
+- name: 4.79| V2ray⑮vip2中转BGB日本3x200M
+  server: 83.wowogg.cyou
+  port: 52283
   type: vmess
-  country: HK
-  port: 52285
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  network: none
-  ws-path: t.me/vpnpool
-  servername: 85.wowogg.cyou
+  tls: false
+  skip-cert-verify: false
+- name: 4.77| V2ray⑬vip2中转BGB日本3x200M
+  server: 81.wowogg.cyou
+  port: 52281
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.75| HK99 TGpeekfun
+  server: 207.46.158.119
+  port: 52215
+  type: vmess
+  country: ' HK'
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
   http-opts: {}
-  h2-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: 115.wowogg.cyou
   skip-cert-verify: true
-- name: 4.68|Relay 7250Mb
+  servername: 115.wowogg.cyou
+- name: 4.74| httpsgitiov9999ip3香港20
+  server: 111.wowogg.cyou
+  port: 52211
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 4.69|JP油管 TG 8度科技
+  server: 172.105.222.98
+  port: 80
+  type: vmess
+  uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 172.105.222.98
+  udp: true
+- name: 4.66| US176 TGpeekfun
+  server: 20.24.103.160
+  port: 52295
+  type: vmess
+  country: ' US'
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  http-opts: {}
+  ws-path: /
+  ws-headers:
+    HOST: 95.wowogg.cyou
+  skip-cert-verify: true
+  servername: 95.wowogg.cyou
+- name: 4.65|Relay 7250Mb
   server: 136.wowogg.cyou
   type: vmess
   country: HK
@@ -255,116 +266,56 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 4.65|RelayUSJP2503 1169Mb
-  server: 84.wowogg.cyou
+- name: 4.64| httpsgitiov9999ip3香港12
+  server: 88.wowogg.cyou
+  port: 52288
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 4.61| V2ray⑨vip2中转广移日本3x200M
+  server: 106.wowogg.cyou
+  port: 11223
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 4.60| 6493Mb
+  server: 95.wowogg.cyou
   type: vmess
   country: US
-  port: 52284
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.60|RelayHKJP624  211Mb
-  server: 109.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52209
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.59| V2ray⑮vip2中转BGB日本3x200M
-  server: 83.wowogg.cyou
-  port: 52283
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 4.50|RelayHKJP622 6961Mb
-  server: 117.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52217
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.47|RelayHKJP608  237Mb
-  server: 115.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52215
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 4.44| V2ray⑬vip2中转BGB日本3x200M
-  server: 81.wowogg.cyou
-  port: 52281
-  type: vmess
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 4.39|Relay 7508Mb
-  server: 134.wowogg.cyou
-  type: vmess
-  country: HK
-  port: 52334
+  port: 52295
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
   network: none
   ws-path: t.me/vpnpool
-  servername: 134.wowogg.cyou
+  servername: 95.wowogg.cyou
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 3.95| httpsgitiov9999ip3美国9
-  server: 118.wowogg.cyou
-  port: 52218
+- name: 4.59|Relay 7028Mb
+  server: 85.wowogg.cyou
   type: vmess
+  country: HK
+  port: 52285
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
-  tls: false
-- name: 3.65|Relay  027Mb
-  server: 128tw02.fans8.xyz
-  type: vmess
-  country: CA
-  port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 85.wowogg.cyou
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 3.52|RelayHKJP619 6105Mb
-  server: 132.wowogg.cyou
+- name: 4.59|RelayHKJP595 6243Mb
+  server: 82.wowogg.cyou
   type: vmess
   country: HK
-  port: 52332
+  port: 52282
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
@@ -373,7 +324,20 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 3.49| JP103 TGpeekfun
+- name: 4.55|Relay 2855Mb
+  server: 104.wowogg.cyou
+  type: vmess
+  country: US
+  port: 11222
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.45| JP103 TGpeekfun
   server: 146.56.177.34
   port: 80
   type: vmess
@@ -388,11 +352,11 @@ proxies:
     HOST: 1031kr.fans8.xyz
   skip-cert-verify: true
   servername: 1031kr.fans8.xyz
-- name: 3.47|RelayHKJP601 6303Mb
-  server: 94.wowogg.cyou
+- name: 4.45|Relay 2841Mb
+  server: 131.wowogg.cyou
   type: vmess
   country: HK
-  port: 52294
+  port: 52331
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
@@ -401,7 +365,144 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 3.42| CA02 TGpeekfun
+- name: 4.42| 2936Mb
+  server: 96.wowogg.cyou
+  type: vmess
+  country: US
+  port: 52296
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.39| RelayHKJP867
+  server: 23.100.91.112
+  port: 52225
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 4.30|RelayHKJP610 6492Mb
+  server: 133.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52333
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 133.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 4.18| 8576Mb
+  server: 91.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52291
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: t.me/vpnpool
+  servername: 91.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.94| 8466Mb
+  server: 129.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52329
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.90| 香港  007
+  server: 104.208.114.122
+  port: 80
+  type: vmess
+  uuid: 8e7e6800-7c0b-3d3c-8dc7-751f6a7d88fd
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /adobe
+    headers:
+      Host: 104.208.114.122
+- name: 3.87| httpsgitiov9999ip3美国8
+  server: 102.wowogg.cyou
+  port: 11221
+  type: vmess
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 3.37|RelayHKJP619 6105Mb
+  server: 132.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52332
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.37| 7751Mb
+  server: 1222mnl.fans8.xyz
+  type: vmess
+  country: CA
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.23| 2561Mb
+  server: 0218tw02.fans8.xyz
+  type: vmess
+  country: CA
+  port: 80
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 3.16|新加坡AZ中转
+  server: azhk2.az66.ml
+  port: 63430
+  type: vmess
+  uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: vod3.nty.tv189.cn
+  udp: true
+- name: 2.92| CA02 TGpeekfun
   server: 165.154.233.7
   port: 80
   type: vmess
@@ -416,66 +517,25 @@ proxies:
     HOST: 1222mnl.fans8.xyz
   skip-cert-verify: true
   servername: 1222mnl.fans8.xyz
-- name: 3.11| 1953Mb
-  server: arm.50k.one
-  type: vmess
-  country: JP
-  port: 39966
-  uuid: 608408f6-fd79-49a3-96ef-003266a773a0
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  servername: arm.50k.one
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.92|新加坡AZ中转
-  server: azhk2.az66.ml
-  port: 63430
-  type: vmess
-  uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: vod3.nty.tv189.cn
-  udp: true
-- name: 2.84|RelayUSJP2502 4516Mb
-  server: 92.wowogg.cyou
-  type: vmess
-  country: US
-  port: 52292
-  uuid: 08103798-414e-32b6-8748-2507732d2c51
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 2.11|新加坡阿伟科技TG油管
-  server: 3.0.89.143
-  port: 16789
-  type: vmess
-  uuid: 7a8d4031-4331-3f40-adcc-6306336c4b92
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /Gson131
-  ws-headers:
-    Host: 3.0.89.143
-  udp: true
-- name: 1.92|Relay 2483Mb
-  server: 123.wowogg.cyou
+- name: 2.88|RelayHKJP612 6438Mb
+  server: 93.wowogg.cyou
   type: vmess
   country: HK
-  port: 52223
+  port: 52293
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  network: none
+  ws-path: /
+  servername: 93.wowogg.cyou
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 2.81|RelayHKJP623 6955Mb
+  server: 116.wowogg.cyou
+  type: vmess
+  country: HK
+  port: 52216
   uuid: 08103798-414e-32b6-8748-2507732d2c51
   alterId: 2
   cipher: auto
@@ -484,34 +544,21 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.89|Relay  234Mb
-  server: 0107hk.fans8.xyz
-  type: vmess
-  country: ZZ
+- name: 2.79| 香港  021
+  server: 104.208.114.60
   port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  type: vmess
+  uuid: 8e7e6800-7c0b-3d3c-8dc7-751f6a7d88fd
   alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.80| 新鸟免费俄罗斯RUJusthost 04 免流 10x
-  server: mf-justhost-ru-04.xncloud.xyz
-  port: 80
-  type: vmess
-  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
-  alterId: 1
   cipher: auto
   tls: false
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /niaoyun
+    path: /adobe
     headers:
-      Host: mf-justhost-ru-04.xncloud.xyz
-- name: 1.78|Relay  167Mb
+      Host: 104.208.114.60
+- name: 2.66|Relay  167Mb
   server: 1211hk1.fans8.xyz
   type: vmess
   country: CA
@@ -524,65 +571,31 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.75| 2030Mb
-  server: 61.222.202.213
+- name: 2.19| httpsgitiov9999ip3美国3
+  server: 100.wowogg.cyou
+  port: 11220
   type: vmess
-  country: TW
-  port: 12880
-  uuid: d4b64497-2773-4281-96f1-fc2914ea3c28
+  uuid: 08103798-414e-32b6-8748-2507732d2c51
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 2.17|RelayUSUS2039
+  server: chuna1.515223.xyz
+  type: vmess
+  country: US
+  port: 24793
+  uuid: 58975106-dc46-4942-b79e-336da67f1bbd
   alterId: 0
   cipher: auto
-  network: ws
+  network: tcp
   ws-path: /
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.72| 新鸟免费美国UA DO 07 免流 10x
-  server: mf-do-ua-07.xncloud.xyz
-  port: 80
+- name: 2.13|Relay  027Mb
+  server: 128tw02.fans8.xyz
   type: vmess
-  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /niaoyun
-    headers:
-      Host: mf-do-ua-07.xncloud.xyz
-- name: 1.67| 新鸟免费美国UA DO 09 免流 10x
-  server: mf-do-ua-09.xncloud.xyz
-  port: 18000
-  type: vmess
-  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /niaoyun
-    headers:
-      Host: mf-do-ua-09.xncloud.xyz
-- name: 1.58| 新鸟免费美国UA DO 01 免流 10x
-  server: mf-do-ua-01.xncloud.xyz
-  port: 80
-  type: vmess
-  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /niaoyun
-    headers:
-      Host: mf-do-ua-01.xncloud.xyz
-- name: 1.56|RelayLTLT798 1340Mb
-  server: 1222ru.fans8.xyz
-  type: vmess
-  country: LT
+  country: CA
   port: 80
   uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
   alterId: 2
@@ -592,43 +605,16 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: 1.56|Relay 1289Mb
-  server: 0118ru.fans8.xyz
+- name: 2.01|  168Mb
+  server: 146.56.109.197
   type: vmess
-  country: LT
-  port: 80
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /v2ray
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.47|httpsgitiov9999ip5
-  server: 162.159.138.217
-  port: 80
-  type: vmess
-  uuid: 22c477fc-4552-4f6d-8474-12311bc16acb
+  country: JP
+  port: 39966
+  uuid: 608408f6-fd79-49a3-96ef-003266a773a0
   alterId: 0
   cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /wwwnet
-    headers:
-      Host: eua.ziyun.ga
-- name: 1.46| 新鸟免费美国UA DO 06 免流 10x
-  server: mf-do-ua-06.xncloud.xyz
-  port: 80
-  type: vmess
-  uuid: d2d9389c-82c7-3074-949d-a56c4994e75e
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /niaoyun
-    headers:
-      Host: mf-do-ua-06.xncloud.xyz
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
