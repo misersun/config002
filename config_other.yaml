@@ -1,5 +1,14 @@
 proxies:
-- name: 1.57|Relay  224Mb
+- name: 1.35|美国2
+  type: snell
+  server: sha.diao.jimosaofu.xyz
+  port: 8443
+  psk: WoHaoKuaiLeA
+  version: 1
+  obfs-opts:
+    mode: tls
+    host: mirrorn.centos.org
+- name: 1.28|  173Mb
   server: uk-am3-5.eqsunshine.com
   type: ssr
   country: GB
@@ -8,14 +17,3 @@ proxies:
   cipher: aes-256-cfb
   protocol: origin
   obfs: tls1.2_ticket_auth
-- name: 1.26| 美国 25
-  server: us-am11.eqnode.net
-  port: 8080
-  type: ssr
-  cipher: aes-256-cfb
-  password: vGndzdmPB
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
