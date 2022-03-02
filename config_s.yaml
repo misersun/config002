@@ -1,360 +1,17 @@
 proxies:
-- name: 6.31| Relay USUS1352
-  server: onedrive.chacha20.xyz
-  port: 443
-  type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /onedrive
-  ws-headers:
-    Host: onedrive.chacha20.xyz
-- name: 5.39|httpsgitiov9999ip3
-  server: 198.41.221.169
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero1.a-yu.xyz
-- name: 5.26|RelayZZUS2601
-  server: 198.41.212.13
-  type: vmess
-  country: ZZ
-  port: 443
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /sakura/
-  servername: zero1.a-yu.xyz
-  ws-headers:
-    HOST: zero1.a-yu.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 5.12| 魔戒net HKGCN  3 AZDIRECTSTREAM
-  server: 65.52.178.149
-  port: 12049
-  type: trojan
-  password: 99dcbc89-57ef-49de-b0af-8a1127a797d9
-  sni: hk3.infininode.tk
-- name: 4.94|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
+- name: 5.71| 甲骨文东京AMD2trojan
+  server: jgwdj2.gaox.ml
   port: 443
   type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
-- name: 4.84|RelayZZUS2660
-  server: 198.41.212.18
-  type: vmess
-  country: ZZ
-  port: 443
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /sakura/
-  servername: zero1.a-yu.xyz
-  ws-headers:
-    HOST: zero1.a-yu.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 4.83| 魔戒net HKGCN  2 AZDIRECT
-  server: 52.175.62.234
-  port: 10853
-  type: trojan
-  password: 99dcbc89-57ef-49de-b0af-8a1127a797d9
-  sni: hk2.infininode.tk
-- name: 4.82|HK13722142434121
-  server: az-hk.kxswzkl.ml
-  port: 666
-  type: vmess
-  uuid: 7bad2059-6a90-4458-d43e-bf6faaba50d2
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: false
-  network: ws
-  ws-path: /
-  tls: true
-  ws-headers:
-    Host: az-hk.kxswzkl.ml
-- name: 4.80|httpsgitiov9999ip3 2
-  server: cloudflare.a-yu.xyz
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: zero2.a-yu.xyz
-- name: 4.79| 魔戒net HKGCN  1 AZDIRECTSTREAM
-  server: 20.205.120.35
-  port: 11536
-  type: trojan
-  password: 99dcbc89-57ef-49de-b0af-8a1127a797d9
-  sni: hk1.infininode.tk
-- name: 4.70|RelayZZUS2598
-  server: 198.41.212.3
-  type: vmess
-  country: ZZ
-  port: 443
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /sakura/
-  servername: zero1.a-yu.xyz
-  ws-headers:
-    HOST: zero1.a-yu.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 4.70|  988Mb
-  server: 198.41.212.6
-  type: vmess
-  country: ZZ
-  port: 443
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /sakura/
-  servername: zero1.a-yu.xyz
-  ws-headers:
-    HOST: zero1.a-yu.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 4.64| 1437Mb
-  server: 198.41.212.20
-  type: vmess
-  country: ZZ
-  port: 443
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /sakura/
-  servername: zero1.a-yu.xyz
-  ws-headers:
-    HOST: zero1.a-yu.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 4.54| 2509Mb
-  server: 198.41.212.8
-  type: vmess
-  country: ZZ
-  port: 443
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /sakura/
-  servername: zero1.a-yu.xyz
-  ws-headers:
-    HOST: zero1.a-yu.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 4.50|ZZ3021 1405Mb
-  server: 198.41.212.10
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.47|defaultname166
-  server: 198.41.212.12
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      host: zero1.a-yu.xyz
-- name: 4.47|defaultname124
-  server: 198.41.212.17
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      host: zero1.a-yu.xyz
-- name: 4.40| RelayZZUS3608
-  server: 198.41.212.1
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.38|ZZ3022 2595Mb
-  server: 198.41.212.11
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.35| RelayZZHK3115 3386Mb
-  server: 198.41.212.234
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      Host: 2022-world-1.a-yu.xyz
-- name: 4.34|  852Mb
-  server: 198.41.212.5
-  type: vmess
-  country: ZZ
-  port: 443
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /sakura/
-  servername: zero1.a-yu.xyz
-  ws-headers:
-    HOST: zero1.a-yu.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 4.34| 4240Mb
-  server: v.mumi.bid
-  type: vmess
-  country: JP
-  port: 10121
-  uuid: 403acd13-9d60-44f1-ac2d-0359cd5e2d7e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 4.30| 1029Mb
-  server: 198.41.212.9
-  type: vmess
-  country: ZZ
-  port: 443
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /sakura/
-  servername: zero1.a-yu.xyz
-  ws-headers:
-    HOST: zero1.a-yu.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 4.26| 1354Mb
-  server: 198.41.212.2
-  type: vmess
-  country: ZZ
-  port: 443
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /sakura/
-  servername: zero1.a-yu.xyz
-  ws-headers:
-    HOST: zero1.a-yu.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 4.24|defaultname46
-  server: 198.41.212.7
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      host: zero1.a-yu.xyz
-- name: 4.24| RelayZZUS3615
-  server: 198.41.212.15
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.12| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- name: 4.09| 甲骨文首尔AMD2trojan
+  password: 86231db5-96d0-4271-9977-cae3a0cba614
+  sni: jgwdj2.gaox.ml
+- name: 5.65| 甲骨文首尔AMD2trojan
   server: jgw2.gaox.ml
   port: 443
   type: trojan
   password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   sni: jgw2.gaox.ml
-- name: 4.03| 1996Mb
+- name: 5.29| 1996Mb
   server: 198.41.212.14
   type: vmess
   country: ZZ
@@ -371,8 +28,103 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 3.98| RelayZZUS3622
-  server: 198.41.212.19
+- name: 5.22| 魔戒net HKGCN  2 AZDIRECT
+  server: 52.175.62.234
+  port: 10853
+  type: trojan
+  password: 99dcbc89-57ef-49de-b0af-8a1127a797d9
+  sni: hk2.infininode.tk
+- name: 5.14| 魔戒net HKGCN  1 AZDIRECTSTREAM
+  server: 20.205.120.35
+  port: 11536
+  type: trojan
+  password: 99dcbc89-57ef-49de-b0af-8a1127a797d9
+  sni: hk1.infininode.tk
+- name: 5.00| 2509Mb
+  server: 198.41.212.8
+  type: vmess
+  country: ZZ
+  port: 443
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /sakura/
+  servername: zero1.a-yu.xyz
+  ws-headers:
+    HOST: zero1.a-yu.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 5.00| 甲骨文首尔ARM2trojan
+  server: jgw4.gaox.ml
+  port: 443
+  type: trojan
+  password: b7e0e71f-070c-437a-9826-6e23caeb0307
+  sni: jgw4.gaox.ml
+- name: 4.78| 甲骨文东京ARM1trojan
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  sni: jgwdj3.gaox.ml
+- name: 4.77|甲骨文春川AMD2trojan
+  server: jgwcc2.gaox.ml
+  port: 443
+  type: trojan
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  sni: jgwcc2.gaox.ml
+- name: 4.77|  988Mb
+  server: 198.41.212.6
+  type: vmess
+  country: ZZ
+  port: 443
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /sakura/
+  servername: zero1.a-yu.xyz
+  ws-headers:
+    HOST: zero1.a-yu.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 4.73| 1437Mb
+  server: 198.41.212.20
+  type: vmess
+  country: ZZ
+  port: 443
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /sakura/
+  servername: zero1.a-yu.xyz
+  ws-headers:
+    HOST: zero1.a-yu.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 4.63|甲骨文春川AMD1trojan
+  server: jgwcc1.gaox.ml
+  port: 443
+  type: trojan
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+- name: 4.55|RelayUSUS2173
+  server: k11.pbaplink.xyz
+  type: trojan
+  country: US
+  port: 48500
+  password: a6525e92-f057-4c25-a446-e6fdbec87177
+  skip-cert-verify: true
+  udp: true
+- name: 4.48|ZZ3022 2595Mb
+  server: 198.41.212.11
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
@@ -383,41 +135,131 @@ proxies:
   ws-path: /sakura/
   ws-headers:
     Host: zero1.a-yu.xyz
-- name: 3.82|CYL科技20220224 13
-  server: 104.18.85.215
-  port: 2053
+- name: 4.46| RelayZZHK3115 3386Mb
+  server: 198.41.212.234
+  port: 443
   type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /eisasqa
-  ws-headers:
-    Host: foxsg.fovi.tk
-  udp: true
-- name: 3.34|甲骨文春川AMD1trojan
-  server: jgwcc1.gaox.ml
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  sni: jgwcc1.gaox.ml
-- name: 3.06|  531Mb
-  server: 106.180.225.69
-  type: trojan
-  country: JP
-  port: 1443
-  password: 7x42LetRa0
-  skip-cert-verify: true
-  udp: true
-- name: 2.95|HK20746158234698
-  server: 42.earths.team
-  port: 443
-  type: trojan
-  password: b3d27d09-77fe-431d-9829-6eba7dce20b0
   skip-cert-verify: false
-- name: 2.84|CYL科技20220224 11
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: 2022-world-1.a-yu.xyz
+- name: 4.22|httpsgitiov9999ip3 2
+  server: cloudflare.a-yu.xyz
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero2.a-yu.xyz
+- name: 4.21|defaultname166
+  server: 198.41.212.12
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      host: zero1.a-yu.xyz
+- name: 4.06| 2507Mb
+  server: v1.369855.xyz
+  type: vmess
+  country: HK
+  port: 11443
+  uuid: d5c70a71-1b3c-41f2-a8e0-17323bc23821
+  alterId: 1
+  cipher: auto
+  network: ws
+  ws-path: /api/sg
+  servername: sgav2.ddns.tjiasu.xyz
+  ws-headers:
+    HOST: sgav2.ddns.tjiasu.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 3.89| 1354Mb
+  server: 198.41.212.2
+  type: vmess
+  country: ZZ
+  port: 443
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /sakura/
+  servername: zero1.a-yu.xyz
+  ws-headers:
+    HOST: zero1.a-yu.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 3.81|defaultname124
+  server: 198.41.212.17
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      host: zero1.a-yu.xyz
+- name: 3.64|ZZ3021 1405Mb
+  server: 198.41.212.10
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 3.52|RelayZZUS2660
+  server: 198.41.212.18
+  type: vmess
+  country: ZZ
+  port: 443
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /sakura/
+  servername: zero1.a-yu.xyz
+  ws-headers:
+    HOST: zero1.a-yu.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 3.44|  666Mb
+  server: 40.earths.team
+  type: trojan
+  country: HK
+  port: 443
+  password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f
+  skip-cert-verify: true
+  udp: true
+- name: 3.24|CYL科技20220224 11
   server: ce.xjp.tgproxy.wtf
   port: 21888
   type: vmess
@@ -431,37 +273,21 @@ proxies:
   ws-headers:
     Host: ce.xjp.tgproxy.wtf
   udp: true
-- name: 2.80| Relay USUS1353
-  server: update.office.chacha20.xyz
-  port: 443
-  type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /version
-  ws-headers:
-    Host: update.office.chacha20.xyz
-- name: 2.55| RelayHKHK899
-  server: az1.nodrop.bike
-  port: 10131
-  type: vmess
-  uuid: 70eda8a0-723e-4d7f-82ae-b1621ae8abe3
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /onefall
-  ws-headers:
-    Host: az1.nodrop.bike
-- name: 2.36| httpsgitiov9999ip5新加坡12
-  server: s5.kaxff.com
-  port: 20585
+- name: 2.93| 3478Mb
+  server: vincent-jackson2022.ml
   type: trojan
-  password: JWOLs1gJ0X
-  sni: s5.kaxff.com
-- name: 2.20| AZHK1
+  country: US
+  port: 443
+  password: 188741f2-1f14-43cb-be7a-1200a9f4332e
+  skip-cert-verify: true
+  udp: true
+- name: 2.84|HK103253431774241
+  server: 22.earths.team
+  port: 443
+  type: trojan
+  password: b3d27d09-77fe-431d-9829-6eba7dce20b0
+  skip-cert-verify: true
+- name: 2.67| AZHK1
   server: az-hk.kxswzkl.ml
   port: 996
   type: vmess
@@ -475,7 +301,19 @@ proxies:
     path: /
     headers:
       Host: az-hk.kxswzkl.ml
-- name: 2.06|httpsgitiov9999ip39
+- name: 2.42|甲骨文海得拉巴AMD2trojan
+  server: jgwhdlb2.gaox.ml
+  port: 443
+  type: trojan
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  sni: jgwhdlb2.gaox.ml
+- name: 2.34|甲骨文海得拉巴ARM1trojan
+  server: jgwhdlb3.gaox.ml
+  port: 443
+  type: trojan
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  sni: jgwhdlb3.gaox.ml
+- name: 2.31|httpsgitiov9999ip39
   server: 104.16.181.103
   port: 443
   type: vmess
@@ -488,38 +326,13 @@ proxies:
     path: /ws/?ed=2048
     headers:
       Host: download.china666.ml
-- name: 2.05|  759Mb
-  server: os2-8.sstr-api.xyz
-  type: trojan
-  country: EE
+- name: 2.29| 甲骨文首尔ARM1trojan
+  server: jgw3.gaox.ml
   port: 443
-  password: MhPG7g9x2Etb4Hspsb
-  skip-cert-verify: true
-  udp: true
-- name: 2.01|  666Mb
-  server: 40.earths.team
   type: trojan
-  country: HK
-  port: 443
-  password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f
-  skip-cert-verify: true
-  udp: true
-- name: 2.00|CYL科技20220224 6
-  server: 185.148.14.58
-  port: 53514
-  type: trojan
-  password: 3r90JDGBYA
-  skip-cert-verify: true
-  udp: true
-- name: 1.98| 53647Mb
-  server: 14.earths.team
-  type: trojan
-  country: SG
-  port: 443
-  password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae
-  skip-cert-verify: true
-  udp: true
-- name: 1.95| 4748Mb
+  password: a1718180-d616-4b71-9bb6-3e96ba20f921
+  sni: jgw3.gaox.ml
+- name: 2.07| 4748Mb
   server: os2-3.sstr-api.xyz
   type: trojan
   country: EE
@@ -527,43 +340,166 @@ proxies:
   password: MhPG7g9x2Etb4Hspsb
   skip-cert-verify: true
   udp: true
-- name: 1.88| httpsgitiov9999ip5美国16
+- name: 2.03|RelayEEJP427
+  server: os2-1.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 2.02|HK20746158234698
+  server: 42.earths.team
+  port: 443
+  type: trojan
+  password: b3d27d09-77fe-431d-9829-6eba7dce20b0
+  skip-cert-verify: false
+- name: 2.02|vpnpoolOsakaxTom
+  server: 45.142.165.25
+  port: 443
+  type: trojan
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.98| 4903Mb
+  server: os2-7.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.98|小汐搬运1913W用户覆盖节点名称广告转化tmebyxiaoxi
+  server: 104.18.96.85
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /eisasqa
+  ws-headers:
+    Host: foxus.fovi.tk
+- name: 1.93|  759Mb
+  server: os2-8.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.92| 3055Mb
+  server: os2-6.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.90| 甲骨文大阪ARM1trojan
+  server: jgwdb3.gaox.ml
+  port: 443
+  type: trojan
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  sni: jgwdb3.gaox.ml
+- name: 1.90|HK423281133442
+  server: hkt.node.qchwnd.moe
+  port: 11432
+  type: trojan
+  password: 99dcbc89-57ef-49de-b0af-8a1127a797d9
+  skip-cert-verify: true
+- name: '1.88| 美国  體驗套餐  A  1  100x  官網  ninihaocc  体验节点不等于付费节点效果 '
+  server: qinton001.bmbai.buzz
+  port: 643
+  type: vmess
+  uuid: cff4b44f-38e3-3446-9d50-8a4f0fd074c6
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: 1.baiyun.pw
+- name: 1.86| 4797Mb
+  server: os2-2.sstr-api.xyz
+  type: trojan
+  country: EE
+  port: 443
+  password: MhPG7g9x2Etb4Hspsb
+  skip-cert-verify: true
+  udp: true
+- name: 1.85| httpsgitiov9999ip5美国16
   server: s1.kaxff.com
   port: 15654
   type: trojan
   password: 6Uu5c0cJUV
   sni: s1.kaxff.com
-- name: 1.87| httpsgitiov9999ip3美国2 2
-  server: 20.earths.team
-  port: 443
-  type: trojan
-  password: 03f9d1c7-40f9-475c-bf46-e3883ee7da5f
-  sni: 20.earths.team
-- name: 1.84| 1109Mb
-  server: app.ssfree.ru
+- name: 1.83| 2368Mb
+  server: targoo1.mirror.cn.com
   type: vmess
   country: US
   port: 443
-  uuid: 7cc1c5ca-98af-11ec-b4eb-000017022008
-  alterId: 64
+  uuid: 351b9b77-a6f0-4772-a845-04bed6814563
+  alterId: 0
   cipher: auto
   network: ws
-  ws-path: /getweather
+  ws-path: /
+  servername: targoo1.mirror.cn.com
+  ws-headers:
+    HOST: targoo1.mirror.cn.com
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: 1.84| 1874Mb
-  server: 30.earths.team
+- name: 1.75|trojan
   type: trojan
-  country: JP
+  server: 65.49.196.130
   port: 443
-  password: b3d27d09-77fe-431d-9829-6eba7dce20b0
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- name: 1.72|甲骨文海得拉巴AMD1trojan
+  server: jgwhdlb1.gaox.ml
+  port: 443
+  type: trojan
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  sni: jgwhdlb1.gaox.ml
+- name: 1.68|httpsgitiov9999ip3
+  server: 198.41.221.169
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      Host: zero1.a-yu.xyz
+- name: 1.68|新加坡阿伟科技TG油管
+  server: s2.kaxff.com
+  port: 32432
+  type: trojan
+  password: OcABzr5wEG
   skip-cert-verify: true
   udp: true
-- name: 1.83| 甲骨文东京AMD2trojan
-  server: jgwdj2.gaox.ml
+- name: 1.67|  975Mb
+  server: test.0dc.cn
+  type: vmess
+  country: US
   port: 443
-  type: trojan
-  password: 86231db5-96d0-4271-9977-cae3a0cba614
-  sni: jgwdj2.gaox.ml
+  uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
