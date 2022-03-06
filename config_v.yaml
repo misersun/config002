@@ -1,35 +1,9 @@
 proxies:
-- name: 3.97|HK165154224264492
-  server: 165.154.224.26
+- name: 4.44|JP172105222984523
+  server: 172.105.222.98
   port: 80
   type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  ws-path: /v2ray
-  tls: false
-  ws-headers:
-    Host: 165.154.224.26
-- name: 1.48|US165154235734491
-  server: 165.154.235.73
-  port: 80
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  ws-path: /v2ray
-  tls: false
-  ws-headers:
-    Host: 165.154.235.73
-- name: 1.43|DE1941952401324539
-  server: 194.195.240.132
-  port: 33210
-  type: vmess
-  uuid: f46d05d6-8d41-4e0a-993e-e2658ac29f85
+  uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
@@ -37,10 +11,61 @@ proxies:
   ws-path: /
   tls: false
   ws-headers:
-    Host: 194.195.240.132
-- name: 1.05|HK5217548354617
-  server: azure.bp2022.top
-  port: 31548
+    Host: 172.105.222.98
+- name: 1.56| 魔戒net  美国Trail 1G 80 ws 隧道
+  server: tunnel-trail-1.sserver.top
+  port: 80
+  type: vmess
+  uuid: 22a4d521-57d0-39dc-bb50-7b63064aabb7
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: pull.free.video.10010.com
+- name: 1.45|AE19312383364338
+  server: 193.123.83.36
+  port: 53920
+  type: vmess
+  uuid: d962ab66-3f72-4e99-888c-34bffa421c55
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 193.123.83.36
+- name: 1.25|SG16771197504579
+  server: 167.71.197.50
+  port: 44194
+  type: vmess
+  uuid: 5cc6c2cf-af81-4341-f8f7-af8a83804d46
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 167.71.197.50
+- name: 1.14|KR1291545004339
+  server: 129.154.50.0
+  port: 29363
+  type: vmess
+  uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: tcp
+  ws-path: /neuromancer
+  tls: false
+  ws-headers:
+    Host: 129.154.50.0
+- name: 1.14|HK18163731253968
+  server: 18.163.73.125
+  port: 10123
   type: vmess
   uuid: 9c0d7058-45b7-49ad-802e-55b69a8dfb01
   alterId: 0
@@ -50,4 +75,4 @@ proxies:
   ws-path: /
   tls: false
   ws-headers:
-    Host: azure.bp2022.top
+    Host: 18.163.73.125
