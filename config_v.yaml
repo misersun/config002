@@ -1,5 +1,18 @@
 proxies:
-- name: 4.44|JP172105222984523
+- name: 5.42|HK490231234624
+  server: 49.0.231.23
+  port: 32612
+  type: vmess
+  uuid: 6dfa7afc-14b7-43bf-e762-a171c06f9572
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: none
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: 49.0.231.23
+- name: 4.53|JP172105222984523
   server: 172.105.222.98
   port: 80
   type: vmess
@@ -12,23 +25,24 @@ proxies:
   tls: false
   ws-headers:
     Host: 172.105.222.98
-- name: 1.56| 魔戒net  美国Trail 1G 80 ws 隧道
-  server: tunnel-trail-1.sserver.top
+- name: 3.76|HK1651542251494412
+  server: 0306hk05.fans8.xyz
   port: 80
   type: vmess
-  uuid: 22a4d521-57d0-39dc-bb50-7b63064aabb7
-  alterId: 0
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
   cipher: auto
-  tls: false
+  skip-cert-vertify: true
   network: ws
-  ws-path: /ws
+  ws-path: /v2ray
+  tls: false
   ws-headers:
-    Host: pull.free.video.10010.com
-- name: 1.45|AE19312383364338
-  server: 193.123.83.36
-  port: 53920
+    Host: 0306hk05.fans8.xyz
+- name: 3.67|JP20892391094973
+  server: 20.89.239.109
+  port: 4256
   type: vmess
-  uuid: d962ab66-3f72-4e99-888c-34bffa421c55
+  uuid: 01616c99-c35e-436b-b33a-3cbe4891b667
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
@@ -36,21 +50,8 @@ proxies:
   ws-path: /
   tls: false
   ws-headers:
-    Host: 193.123.83.36
-- name: 1.25|SG16771197504579
-  server: 167.71.197.50
-  port: 44194
-  type: vmess
-  uuid: 5cc6c2cf-af81-4341-f8f7-af8a83804d46
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  ws-path: /
-  tls: false
-  ws-headers:
-    Host: 167.71.197.50
-- name: 1.14|KR1291545004339
+    Host: 20.89.239.109
+- name: 3.24|KR1291545004339
   server: 129.154.50.0
   port: 29363
   type: vmess
@@ -63,11 +64,11 @@ proxies:
   tls: false
   ws-headers:
     Host: 129.154.50.0
-- name: 1.14|HK18163731253968
-  server: 18.163.73.125
-  port: 10123
+- name: 2.45|US1541701174930
+  server: 154.17.0.117
+  port: 54080
   type: vmess
-  uuid: 9c0d7058-45b7-49ad-802e-55b69a8dfb01
+  uuid: 2ba66a53-87a5-47eb-bb27-b2d2c4833a32
   alterId: 0
   cipher: auto
   skip-cert-vertify: true
@@ -75,4 +76,83 @@ proxies:
   ws-path: /
   tls: false
   ws-headers:
-    Host: 18.163.73.125
+    Host: 154.17.0.117
+- name: 1.98|HK1370462304563
+  server: azure-f4s-hk-1.forwardserver.xyz
+  port: 32434
+  type: vmess
+  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: azure-f4s-hk-1.forwardserver.xyz
+- name: 1.97|HK1370462304553
+  server: azure-f4s-hk-1.forwardserver.xyz
+  port: 41955
+  type: vmess
+  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: azure-f4s-hk-1.forwardserver.xyz
+- name: 1.96|HK1370462304038
+  server: azure-f4s-hk-1.forwardserver.xyz
+  port: 30585
+  type: vmess
+  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  alterId: 0
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  ws-path: /
+  tls: false
+  ws-headers:
+    Host: azure-f4s-hk-1.forwardserver.xyz
+- name: 1.79|香港阿伟科技TG油管 15
+  server: azure-f4s-hk-1.forwardserver.xyz
+  port: 49242
+  type: vmess
+  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: azure-f4s-hk-1.forwardserver.xyz
+  udp: true
+- name: 1.57|US165154235574413
+  server: 0306us09.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  skip-cert-vertify: true
+  network: ws
+  ws-path: /v2ray
+  tls: false
+  ws-headers:
+    Host: 0306us09.fans8.xyz
+- name: 1.47| 魔戒net  美国Trail 1G 80 ws 隧道
+  server: tunnel-trail-1.sserver.top
+  port: 80
+  type: vmess
+  uuid: 22a4d521-57d0-39dc-bb50-7b63064aabb7
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: pull.free.video.10010.com
