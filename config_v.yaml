@@ -1,122 +1,155 @@
 proxies:
-- name: 5.42|HK490231234624
-  server: 49.0.231.23
-  port: 32612
+- name: 5.73|AzureHongKong2Vpnpool专属 2
+  server: vpnpool.hongkong.2.xiaocai.ga
+  port: 80
   type: vmess
-  uuid: 6dfa7afc-14b7-43bf-e762-a171c06f9572
+  uuid: f6fffc7f-ab53-4ab7-af70-50923a525798
   alterId: 0
   cipher: auto
-  skip-cert-vertify: true
-  network: none
-  ws-path: /
   tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
   ws-headers:
-    Host: 49.0.231.23
-- name: 4.53|JP172105222984523
+    Host: vpnpool.hongkong.2.xiaocai.ga
+  udp: true
+- name: 5.43| httpsgitiov9999ip5日本6
   server: 172.105.222.98
   port: 80
   type: vmess
   uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda
   alterId: 0
   cipher: auto
-  skip-cert-vertify: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 172.105.222.98
+- name: 4.89|HK油管 TG 8度科技 2
+  server: azure-f4s-hk-1.forwardserver.xyz
+  port: 44986
+  type: vmess
+  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-path: /
-  tls: false
   ws-headers:
-    Host: 172.105.222.98
-- name: 3.76|HK1651542251494412
+    Host: azure-f4s-hk-1.forwardserver.xyz
+  udp: true
+- name: 4.85|JapanA2AZHK3x
+  server: azure-f4s-hk-1.forwardserver.xyz
+  port: 49318
+  type: vmess
+  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: azure-f4s-hk-1.forwardserver.xyz
+  udp: true
+- name: 4.19|JapanA1AZHK3x
+  server: azure-f4s-hk-1.forwardserver.xyz
+  port: 35187
+  type: vmess
+  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: azure-f4s-hk-1.forwardserver.xyz
+  udp: true
+- name: 4.09|Relay CACA357
   server: 0306hk05.fans8.xyz
   port: 80
   type: vmess
   uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
   alterId: 2
   cipher: auto
-  skip-cert-vertify: true
+  tls: false
   network: ws
   ws-path: /v2ray
-  tls: false
   ws-headers:
     Host: 0306hk05.fans8.xyz
-- name: 3.67|JP20892391094973
-  server: 20.89.239.109
-  port: 4256
+- name: 3.42|新加坡6100161004端口可用
+  server: sg.az66.ml
+  port: 61001
   type: vmess
-  uuid: 01616c99-c35e-436b-b33a-3cbe4891b667
+  uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f
   alterId: 0
   cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  ws-path: /
   tls: false
-  ws-headers:
-    Host: 20.89.239.109
-- name: 3.24|KR1291545004339
-  server: 129.154.50.0
-  port: 29363
-  type: vmess
-  uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
-  network: tcp
-  ws-path: /neuromancer
-  tls: false
-  ws-headers:
-    Host: 129.154.50.0
-- name: 2.45|US1541701174930
-  server: 154.17.0.117
-  port: 54080
-  type: vmess
-  uuid: 2ba66a53-87a5-47eb-bb27-b2d2c4833a32
-  alterId: 0
-  cipher: auto
-  skip-cert-vertify: true
+  skip-cert-verify: true
   network: ws
   ws-path: /
-  tls: false
   ws-headers:
-    Host: 154.17.0.117
-- name: 1.98|HK1370462304563
+    Host: vod3.nty.tv189.cn
+  udp: true
+- name: 3.20|JapanA4AZHK3x
   server: azure-f4s-hk-1.forwardserver.xyz
-  port: 32434
+  port: 49631
   type: vmess
   uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
   alterId: 0
   cipher: auto
-  skip-cert-vertify: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-path: /
-  tls: false
   ws-headers:
     Host: azure-f4s-hk-1.forwardserver.xyz
-- name: 1.97|HK1370462304553
-  server: azure-f4s-hk-1.forwardserver.xyz
-  port: 41955
+  udp: true
+- name: 3.17|httpsgitiov9999ip331
+  server: 153.127.13.203
+  port: 18899
   type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  uuid: 3cc23eed-b3f9-4366-c085-76117f92268b
   alterId: 0
   cipher: auto
-  skip-cert-vertify: true
-  network: ws
-  ws-path: /
   tls: false
-  ws-headers:
-    Host: azure-f4s-hk-1.forwardserver.xyz
-- name: 1.96|HK1370462304038
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 153.127.13.203
+- name: 1.99|HK油管 TG 8度科技 8
   server: azure-f4s-hk-1.forwardserver.xyz
   port: 30585
   type: vmess
   uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
   alterId: 0
   cipher: auto
-  skip-cert-vertify: true
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-path: /
-  tls: false
   ws-headers:
     Host: azure-f4s-hk-1.forwardserver.xyz
-- name: 1.79|香港阿伟科技TG油管 15
+  udp: true
+- name: 1.98|HK油管 TG 8度科技 7
+  server: azure-f4s-hk-1.forwardserver.xyz
+  port: 32434
+  type: vmess
+  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: azure-f4s-hk-1.forwardserver.xyz
+  udp: true
+- name: 1.93|HK油管 TG 8度科技 5
   server: azure-f4s-hk-1.forwardserver.xyz
   port: 49242
   type: vmess
@@ -126,33 +159,45 @@ proxies:
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: azure-f4s-hk-1.forwardserver.xyz
+  ws-path: /
+  ws-headers:
+    Host: azure-f4s-hk-1.forwardserver.xyz
   udp: true
-- name: 1.57|US165154235574413
-  server: 0306us09.fans8.xyz
+- name: 1.89|JapanA3AZHK3x
+  server: azure-f4s-hk-1.forwardserver.xyz
+  port: 36425
+  type: vmess
+  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: azure-f4s-hk-1.forwardserver.xyz
+  udp: true
+- name: 1.42|Relay ZZZZ3353
+  server: 0306hk01.fans8.xyz
   port: 80
   type: vmess
   uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
   alterId: 2
   cipher: auto
-  skip-cert-vertify: true
+  tls: false
   network: ws
   ws-path: /v2ray
-  tls: false
   ws-headers:
-    Host: 0306us09.fans8.xyz
-- name: 1.47| 魔戒net  美国Trail 1G 80 ws 隧道
-  server: tunnel-trail-1.sserver.top
+    Host: 0306hk01.fans8.xyz
+- name: 1.08|Relay CACA355
+  server: 0306hk03.fans8.xyz
   port: 80
   type: vmess
-  uuid: 22a4d521-57d0-39dc-bb50-7b63064aabb7
-  alterId: 0
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
   cipher: auto
   tls: false
   network: ws
-  ws-path: /ws
+  ws-path: /v2ray
   ws-headers:
-    Host: pull.free.video.10010.com
+    Host: 0306hk03.fans8.xyz
