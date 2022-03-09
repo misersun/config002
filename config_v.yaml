@@ -1,5 +1,5 @@
 proxies:
-- name: 5.73|AzureHongKong2Vpnpool专属 2
+- name: 4.59|AzureHongKong2Vpnpool专属 2
   server: vpnpool.hongkong.2.xiaocai.ga
   port: 80
   type: vmess
@@ -13,7 +13,7 @@ proxies:
   ws-headers:
     Host: vpnpool.hongkong.2.xiaocai.ga
   udp: true
-- name: 5.43| httpsgitiov9999ip5日本6
+- name: 4.07| httpsgitiov9999ip5日本6
   server: 172.105.222.98
   port: 80
   type: vmess
@@ -26,178 +26,43 @@ proxies:
     path: /
     headers:
       Host: 172.105.222.98
-- name: 4.89|HK油管 TG 8度科技 2
-  server: azure-f4s-hk-1.forwardserver.xyz
-  port: 44986
+- name: 1.92| Relay USUS1633
+  server: awsmx.xiaomai.my03.com
+  port: 11051
   type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  uuid: 88708134-0fc1-444f-ae1d-1c11433dadf3
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
+  network: ws
+  ws-path: /freebaipiao
+  ws-headers:
+    Host: awsmx.xiaomai.my03.com
+- name: 1.62| Relay USUS1620
+  server: usaarm1.oracleusa.ml
+  port: 980
+  type: vmess
+  uuid: 36b01b78-29b2-46c8-a79b-4498dee25396
+  alterId: 0
+  cipher: auto
+  tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: azure-f4s-hk-1.forwardserver.xyz
-  udp: true
-- name: 4.85|JapanA2AZHK3x
-  server: azure-f4s-hk-1.forwardserver.xyz
-  port: 49318
+    Host: usaarm1.oracleusa.ml
+- name: 1.33| US3269
+  server: 45.32.94.166
+  port: 31676
   type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
+  uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: azure-f4s-hk-1.forwardserver.xyz
-  udp: true
-- name: 4.19|JapanA1AZHK3x
-  server: azure-f4s-hk-1.forwardserver.xyz
-  port: 35187
-  type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: azure-f4s-hk-1.forwardserver.xyz
-  udp: true
-- name: 4.09|Relay CACA357
-  server: 0306hk05.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 0306hk05.fans8.xyz
-- name: 3.42|新加坡6100161004端口可用
-  server: sg.az66.ml
-  port: 61001
-  type: vmess
-  uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: vod3.nty.tv189.cn
-  udp: true
-- name: 3.20|JapanA4AZHK3x
-  server: azure-f4s-hk-1.forwardserver.xyz
-  port: 49631
-  type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: azure-f4s-hk-1.forwardserver.xyz
-  udp: true
-- name: 3.17|httpsgitiov9999ip331
-  server: 153.127.13.203
-  port: 18899
-  type: vmess
-  uuid: 3cc23eed-b3f9-4366-c085-76117f92268b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
     headers:
-      Host: 153.127.13.203
-- name: 1.99|HK油管 TG 8度科技 8
-  server: azure-f4s-hk-1.forwardserver.xyz
-  port: 30585
-  type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: azure-f4s-hk-1.forwardserver.xyz
-  udp: true
-- name: 1.98|HK油管 TG 8度科技 7
-  server: azure-f4s-hk-1.forwardserver.xyz
-  port: 32434
-  type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: azure-f4s-hk-1.forwardserver.xyz
-  udp: true
-- name: 1.93|HK油管 TG 8度科技 5
-  server: azure-f4s-hk-1.forwardserver.xyz
-  port: 49242
-  type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: azure-f4s-hk-1.forwardserver.xyz
-  udp: true
-- name: 1.89|JapanA3AZHK3x
-  server: azure-f4s-hk-1.forwardserver.xyz
-  port: 36425
-  type: vmess
-  uuid: 3b07447e-94cf-4d72-96c6-d0a539098049
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: azure-f4s-hk-1.forwardserver.xyz
-  udp: true
-- name: 1.42|Relay ZZZZ3353
-  server: 0306hk01.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 0306hk01.fans8.xyz
-- name: 1.08|Relay CACA355
-  server: 0306hk03.fans8.xyz
-  port: 80
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 0306hk03.fans8.xyz
+      Host:
+      - 45.32.94.166
