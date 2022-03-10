@@ -1,19 +1,30 @@
 proxies:
-- name: 1.54|DE454 5401Mb
-  server: 136.243.191.85
+- name: 3.82|RelayUSSG2546 1359Mb
+  server: sg-am11.eqnode.net
   type: ssr
-  country: DE
-  port: 443
-  password: sEscPBiAD9K$&@79
-  cipher: aes-128-ctr
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-- name: 1.24|RelayFRFR567  933Mb
-  server: fr-am1-1.eqsunshine.com
-  type: ssr
-  country: FR
+  country: US
   port: 8181
-  password: gVWc0WaJn
+  password: kKdNNt2HZ
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  obfs-param: releases.ubuntu.com
+- name: 1.32|Relay 1778Mb
+  server: us-am11.eqnode.net
+  type: ssr
+  country: US
+  port: 8080
+  password: vGndzdmPB
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  obfs-param: releases.ubuntu.com
+- name: 1.15|Relay 3616Mb
+  server: sy-am2.eqsunshine.com
+  type: ssr
+  country: AU
+  port: 443
+  password: Jz8r4gLNP
   cipher: aes-256-cfb
   protocol: origin
   obfs: tls1.2_ticket_auth

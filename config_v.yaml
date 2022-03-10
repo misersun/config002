@@ -1,5 +1,18 @@
 proxies:
-- name: 4.59|AzureHongKong2Vpnpool专属 2
+- name: 5.94| httpsgitiov9999ip3香港7
+  server: hk8.342401.xyz
+  port: 443
+  type: vmess
+  uuid: 5ef82146-77d2-4e88-a1ed-459f7bba8601
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hk8.342401.xyz
+- name: 4.80|AzureHongKong2Vpnpool专属 2
   server: vpnpool.hongkong.2.xiaocai.ga
   port: 80
   type: vmess
@@ -13,7 +26,19 @@ proxies:
   ws-headers:
     Host: vpnpool.hongkong.2.xiaocai.ga
   udp: true
-- name: 4.07| httpsgitiov9999ip5日本6
+- name: 4.36|ZZ3461
+  server: 103.164.81.28
+  port: 80
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 103.164.81.28
+- name: 4.01| httpsgitiov9999ip5日本6
   server: 172.105.222.98
   port: 80
   type: vmess
@@ -26,43 +51,125 @@ proxies:
     path: /
     headers:
       Host: 172.105.222.98
-- name: 1.92| Relay USUS1633
-  server: awsmx.xiaomai.my03.com
-  port: 11051
+- name: 3.94|狮城  Azure InfiniPort
+  server: 20.212.150.16
+  port: 11610
   type: vmess
-  uuid: 88708134-0fc1-444f-ae1d-1c11433dadf3
+  uuid: dd57bb2b-a9d4-4c6b-9a83-1c4289e70a65
   alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.26|RelayCACA579
+  server: 128tw02.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
   cipher: auto
   tls: false
   network: ws
-  ws-path: /freebaipiao
+  ws-path: /v2ray
   ws-headers:
-    Host: awsmx.xiaomai.my03.com
-- name: 1.62| Relay USUS1620
-  server: usaarm1.oracleusa.ml
-  port: 980
+    Host: 128tw02.fans8.xyz
+- name: 2.53|CA386
+  server: 165.154.231.188
+  port: 80
   type: vmess
-  uuid: 36b01b78-29b2-46c8-a79b-4498dee25396
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 165.154.231.188
+- name: 2.36|香港5  付费节点  可刷流量
+  server: hk5.342401.xyz
+  port: 80
+  type: vmess
+  uuid: 5ef82146-77d2-4e88-a1ed-459f7bba8601
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: usaarm1.oracleusa.ml
-- name: 1.33| US3269
-  server: 45.32.94.166
-  port: 31676
+    Host: tms.dingtalk.com
+  udp: true
+- name: 2.22|CA383
+  server: 165.154.230.2
+  port: 80
   type: vmess
-  uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 165.154.230.2
+- name: 1.78| AU250
+  server: 129.154.50.0
+  port: 29363
+  type: vmess
+  uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c
   alterId: 0
   cipher: auto
   tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 45.32.94.166
+- name: 1.28|新加坡6100161004端口可用
+  server: sg.az66.ml
+  port: 61001
+  type: vmess
+  uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: vod3.nty.tv189.cn
+  udp: true
+- name: 1.26|us131vpncom 4
+  server: us1.31vpn.com
+  port: 80
+  type: vmess
+  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /fastssh/554545gff4/6228296642cdd/
+  ws-headers:
+    Host: us1.31vpn.com
+  udp: true
+- name: 1.21|sg131vpncom 16
+  server: sg1.31vpn.com
+  port: 80
+  type: vmess
+  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /fastssh/try3432/6228288414c47/
+  ws-headers:
+    Host: sg1.31vpn.com
+  udp: true
+- name: 1.13|CA384
+  server: 165.154.224.8
+  port: 80
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: 165.154.224.8
