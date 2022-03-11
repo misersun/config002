@@ -1,18 +1,19 @@
 proxies:
-- name: 5.94| httpsgitiov9999ip3香港7
-  server: hk8.342401.xyz
-  port: 443
+- name: 4.77|hk1
+  server: 23.102.234.10
+  port: 44288
   type: vmess
-  uuid: 5ef82146-77d2-4e88-a1ed-459f7bba8601
+  uuid: 3e14963a-d117-46a2-b76e-05533bff306c
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk8.342401.xyz
-- name: 4.80|AzureHongKong2Vpnpool专属 2
+  ws-path: /
+  ws-headers:
+    Host: 23.102.234.10
+  udp: true
+- name: 4.61|AzureHongKong2Vpnpool专属 2
   server: vpnpool.hongkong.2.xiaocai.ga
   port: 80
   type: vmess
@@ -26,8 +27,8 @@ proxies:
   ws-headers:
     Host: vpnpool.hongkong.2.xiaocai.ga
   udp: true
-- name: 4.36|ZZ3461
-  server: 103.164.81.28
+- name: 4.20|ZZ3462
+  server: 103.164.81.13
   port: 80
   type: vmess
   uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
@@ -37,8 +38,8 @@ proxies:
   network: ws
   ws-path: /v2ray
   ws-headers:
-    Host: 103.164.81.28
-- name: 4.01| httpsgitiov9999ip5日本6
+    Host: 103.164.81.13
+- name: 4.02| httpsgitiov9999ip5日本6
   server: 172.105.222.98
   port: 80
   type: vmess
@@ -51,7 +52,7 @@ proxies:
     path: /
     headers:
       Host: 172.105.222.98
-- name: 3.94|狮城  Azure InfiniPort
+- name: 3.95|狮城  Azure InfiniPort
   server: 20.212.150.16
   port: 11610
   type: vmess
@@ -61,57 +62,17 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 3.26|RelayCACA579
-  server: 128tw02.fans8.xyz
-  port: 80
+- name: 2.73|俄罗斯
+  server: 45.131.68.163
+  port: 41299
   type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 128tw02.fans8.xyz
-- name: 2.53|CA386
-  server: 165.154.231.188
-  port: 80
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 165.154.231.188
-- name: 2.36|香港5  付费节点  可刷流量
-  server: hk5.342401.xyz
-  port: 80
-  type: vmess
-  uuid: 5ef82146-77d2-4e88-a1ed-459f7bba8601
+  uuid: 1f0e1886-7f53-496a-92d6-b55d2aafe12b
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: tms.dingtalk.com
   udp: true
-- name: 2.22|CA383
-  server: 165.154.230.2
-  port: 80
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 165.154.230.2
-- name: 1.78| AU250
+- name: 2.15| AU250
   server: 129.154.50.0
   port: 29363
   type: vmess
@@ -119,57 +80,31 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.28|新加坡6100161004端口可用
-  server: sg.az66.ml
-  port: 61001
+- name: 1.95| RelayUSUS3332
+  server: c23s3.jamjams.net
+  port: 61173
   type: vmess
-  uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f
+  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
+  alterId: 8
+  cipher: auto
+  tls: false
+- name: 1.77| RelayUSUS3339
+  server: usaarm1.oracleusa.ml
+  port: 980
+  type: vmess
+  uuid: 810a7deb-4fcf-4e21-93bd-3d7685bb8cb4
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: vod3.nty.tv189.cn
-  udp: true
-- name: 1.26|us131vpncom 4
-  server: us1.31vpn.com
-  port: 80
+    Host: usaarm1.oracleusa.ml
+- name: 1.13| SG1361
+  server: 81.90.188.59
+  port: 41657
   type: vmess
-  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
-  alterId: 0
+  uuid: 930a425e-2fc8-4930-8735-141f6b237755
+  alterId: 64
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /fastssh/554545gff4/6228296642cdd/
-  ws-headers:
-    Host: us1.31vpn.com
-  udp: true
-- name: 1.21|sg131vpncom 16
-  server: sg1.31vpn.com
-  port: 80
-  type: vmess
-  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /fastssh/try3432/6228288414c47/
-  ws-headers:
-    Host: sg1.31vpn.com
-  udp: true
-- name: 1.13|CA384
-  server: 165.154.224.8
-  port: 80
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 165.154.224.8

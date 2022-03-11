@@ -1,30 +1,39 @@
 proxies:
-- name: 3.82|RelayUSSG2546 1359Mb
-  server: sg-am11.eqnode.net
+- name: 5.78| JP83 TGpeekfun
+  server: 54.249.86.118
+  port: 8081
   type: ssr
-  country: US
+  country: ' JP'
+  password: 3H2aN5Gnm
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 5.29| 1743Mb
+  server: jp-am48-9.eqnode.net
+  type: ssr
+  country: JP
+  port: 8081
+  password: 3H2aN5Gnm
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 1.50|  923Mb
+  server: fr-am1-1.eqsunshine.com
+  type: ssr
+  country: FR
   port: 8181
-  password: kKdNNt2HZ
+  password: gVWc0WaJn
   cipher: aes-256-cfb
   protocol: origin
   obfs: tls1.2_ticket_auth
-  obfs-param: releases.ubuntu.com
-- name: 1.32|Relay 1778Mb
-  server: us-am11.eqnode.net
-  type: ssr
-  country: US
-  port: 8080
-  password: vGndzdmPB
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  obfs-param: releases.ubuntu.com
-- name: 1.15|Relay 3616Mb
-  server: sy-am2.eqsunshine.com
-  type: ssr
-  country: AU
+- name: 1.38|13624319185443
+  server: 136.243.191.85
   port: 443
-  password: Jz8r4gLNP
-  cipher: aes-256-cfb
-  protocol: origin
+  type: ssr
+  cipher: aes-128-ctr
+  password: sEscPBiAD9K$&@79
+  protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
