@@ -1,79 +1,66 @@
 proxies:
-- name: 6.05|AzureHongKong2Vpnpool专属
-  server: vpnpool.hongkong.2.xiaocai.ga
-  port: 443
-  type: trojan
-  password: 5IGrvisqug
-  sni: vpnpool.hongkong.2.xiaocai.ga
-  skip-cert-verify: true
-  udp: true
-- name: 5.33| 甲骨文东京AMD2trojan
-  server: jgwdj2.gaox.ml
-  port: 443
-  type: trojan
-  password: 86231db5-96d0-4271-9977-cae3a0cba614
-  sni: jgwdj2.gaox.ml
-- name: 5.01| 魔戒net香港HK 1835himoonpw
+- name: 6.12| 魔戒net香港HK 1835himoonpw
   server: hkaz1.scsevers.cf
   port: 443
   type: trojan
   password: sharecentre
   sni: hkaz1.scsevers.cf
-- name: 4.74|甲骨文春川ARM1trojan
-  server: jgwcc3.gaox.ml
+- name: 5.45| 甲骨文东京AMD2trojan
+  server: jgwdj2.gaox.ml
   port: 443
   type: trojan
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  sni: jgwcc3.gaox.ml
-- name: 4.58|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
-  port: 443
-  type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
-- name: 4.49| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- name: 4.38|甲骨文春川AMD1trojan
+  password: 86231db5-96d0-4271-9977-cae3a0cba614
+  sni: jgwdj2.gaox.ml
+- name: 4.81|甲骨文春川AMD1trojan
   server: jgwcc1.gaox.ml
   port: 443
   type: trojan
   password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
   sni: jgwcc1.gaox.ml
-- name: 3.81| 甲骨文首尔AMD2trojan
+- name: 4.68| 甲骨文东京ARM1trojan
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  sni: jgwdj3.gaox.ml
+- name: 4.66|甲骨文春川ARM1trojan
+  server: jgwcc3.gaox.ml
+  port: 443
+  type: trojan
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  sni: jgwcc3.gaox.ml
+- name: 4.35|甲骨文春川AMD2trojan
+  server: jgwcc2.gaox.ml
+  port: 443
+  type: trojan
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  sni: jgwcc2.gaox.ml
+- name: 3.97| 甲骨文首尔AMD2trojan
   server: jgw2.gaox.ml
   port: 443
   type: trojan
   password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   sni: jgw2.gaox.ml
-- name: 2.43|甲骨文海得拉巴ARM1trojan
-  server: jgwhdlb3.gaox.ml
+- name: 3.37| 甲骨文首尔ARM1trojan
+  server: jgw3.gaox.ml
   port: 443
   type: trojan
-  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
-  sni: jgwhdlb3.gaox.ml
-- name: 2.38|澳大利亚YouTube由零開始
-  server: www.sanjose2021.ga
-  port: 443
+  password: a1718180-d616-4b71-9bb6-3e96ba20f921
+  sni: jgw3.gaox.ml
+- name: 2.50|Youtube技术分享室澳大利亚
+  server: 185.148.14.58
+  port: 53514
   type: trojan
-  password: 6cfa5ab4-c2a5-4ad1-8b75-ff12bc59b770
-  sni: www.sanjose2021.ga
+  password: 3r90JDGBYA
   skip-cert-verify: true
   udp: true
-- name: 2.16| 新加坡SG 2399himoonpw
-  server: sg-am11.eqnode.net
-  port: 8181
-  type: ssr
-  cipher: aes-256-cfb
-  password: kKdNNt2HZ
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.15|trojan
+- name: 2.37|甲骨文海得拉巴AMD1trojan
+  server: jgwhdlb1.gaox.ml
+  port: 443
+  type: trojan
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  sni: jgwhdlb1.gaox.ml
+- name: 2.33|trojan
   type: trojan
   server: 65.49.196.130
   port: 443
@@ -82,77 +69,60 @@ proxies:
   alpn:
   - h2
   - http/1.1
-- name: 2.04| 甲骨文大阪ARM2trojan
+- name: 2.29|甲骨文海得拉巴ARM1trojan
+  server: jgwhdlb3.gaox.ml
+  port: 443
+  type: trojan
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  sni: jgwhdlb3.gaox.ml
+- name: 2.09|AzureHongKong2Vpnpool专属
+  server: vpnpool.hongkong.2.xiaocai.ga
+  port: 443
+  type: trojan
+  password: 5IGrvisqug
+  sni: vpnpool.hongkong.2.xiaocai.ga
+  skip-cert-verify: true
+  udp: true
+- name: 2.08| 甲骨文大阪ARM2trojan
   server: jgwdb4.gaox.ml
   port: 443
   type: trojan
   password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   sni: jgwdb4.gaox.ml
-- name: 2.00| 甲骨文大阪AMD1trojan
+- name: 2.04| 甲骨文大阪AMD1trojan
   server: jgwdb1.gaox.ml
   port: 443
   type: trojan
   password: a580d839-ee41-4df1-bf03-6789dca32e30
   sni: jgwdb1.gaox.ml
-- name: 1.91| 甲骨文悉尼AMD2trojan
+- name: 1.77| 甲骨文悉尼AMD2trojan
   server: jgwxn2.gaox.ml
   port: 443
   type: trojan
   password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
   sni: jgwxn2.gaox.ml
-- name: 1.62|甲骨文海得拉巴AMD2trojan
-  server: jgwhdlb2.gaox.ml
-  port: 443
-  type: trojan
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  sni: jgwhdlb2.gaox.ml
-- name: 1.62| 甲骨文伦敦ARM2trojan
-  server: jgwld4.gaox.ml
-  port: 443
-  type: trojan
-  password: 58d32c66-43b1-4561-9951-d87c9123774e
-  sni: jgwld4.gaox.ml
-- name: 1.55| 甲骨文凤凰城ARM1trojan
+- name: 1.62| 甲骨文凤凰城ARM1trojan
   server: fhcarm1.gaox.ml
   port: 443
   type: trojan
   password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
   sni: fhcarm1.gaox.ml
-- name: 1.54|甲骨文海得拉巴AMD1trojan
-  server: jgwhdlb1.gaox.ml
+- name: 1.48| 甲骨文伦敦ARM2trojan
+  server: jgwld4.gaox.ml
   port: 443
   type: trojan
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  sni: jgwhdlb1.gaox.ml
-- name: 1.49|喵哥甲骨文美国Trojan
-  server: xiaocaitou.eu.org
+  password: 58d32c66-43b1-4561-9951-d87c9123774e
+  sni: jgwld4.gaox.ml
+- name: 1.18| 甲骨文凤凰城ARM2trojan
+  server: fhcarm2.gaox.ml
   port: 443
   type: trojan
-  password: miaoge110
-  sni: xiaocaitou.eu.org
-  skip-cert-verify: true
-  udp: true
-- name: 1.25|SGbaipiao02
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  sni: fhcarm2.gaox.ml
+- name: 1.04|SGbaipiao02
   server: 139.162.29.186
   port: 54869
   type: trojan
   password: HqNAQ9UBJN
   skip-cert-verify: true
   udp: true
-- name: 1.24|13624319185443
-  server: 136.243.191.85
-  port: 443
-  type: ssr
-  cipher: aes-128-ctr
-  password: sEscPBiAD9K$&@79
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 1.13| 甲骨文凤凰城ARM2trojan
-  server: fhcarm2.gaox.ml
-  port: 443
-  type: trojan
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  sni: fhcarm2.gaox.ml

@@ -1,5 +1,5 @@
 proxies:
-- name: 6.89|香港Azure  直连  1x
+- name: 5.77|香港Azure  直连  1x
   server: hk.195382.xyz
   port: 1001
   type: vmess
@@ -13,91 +13,7 @@ proxies:
   ws-headers:
     Host: hk.195382.xyz
   udp: true
-- name: 6.69|8 魔戒net
-  server: 13.75.105.89
-  port: 51306
-  type: vmess
-  uuid: 06fbac56-cbcb-4fc6-aac7-d36f938b38ba
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: '%7B%22Host%22:%2213.75.105.89%22%7D'
-- name: 6.37|6 魔戒net
-  server: 13.75.105.89
-  port: 12258
-  type: vmess
-  uuid: c2aa2592-aa31-4ae7-84bd-14f0ca3b3e83
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: '%7B%22Host%22:%2213.75.105.89%22%7D'
-- name: 5.82|5 魔戒net
-  server: 13.75.105.89
-  port: 35353
-  type: vmess
-  uuid: fcc0fc7d-0d47-4968-842d-b525299af111
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: '%7B%22Host%22:%2213.75.105.89%22%7D'
-- name: 5.53|3 魔戒net
-  server: 23.102.234.10
-  port: 37154
-  type: vmess
-  uuid: 99da417a-3716-4b2d-e73f-4f07663513e3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: '%7B%22Host%22:%2223.102.234.10%22%7D'
-- name: 5.39|1 魔戒net
-  server: 23.102.234.10
-  port: 11190
-  type: vmess
-  uuid: e9878bd5-2257-4c4c-b1a3-329b8808743d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: '%7B%22Host%22:%2223.102.234.10%22%7D'
-- name: 5.37|4 魔戒net
-  server: 23.102.234.10
-  port: 35504
-  type: vmess
-  uuid: 13d195a3-1b9d-4fd5-96ed-ce6c703f7106
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: '%7B%22Host%22:%2223.102.234.10%22%7D'
-- name: 5.33|7 魔戒net
-  server: 13.75.105.89
-  port: 20528
-  type: vmess
-  uuid: e6f3a8af-3507-4c5a-dc72-f5264fdf4374
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: '%7B%22Host%22:%2213.75.105.89%22%7D'
-- name: 5.25|新加坡linode  中转  1x
+- name: 5.63|新加坡linode  中转  1x
   server: zz.195382.xyz
   port: 10008
   type: vmess
@@ -111,7 +27,20 @@ proxies:
   ws-headers:
     Host: zz.195382.xyz
   udp: true
-- name: 5.19|韩国Azure  中转  1x
+- name: 5.37| httpsgitiov9999ip5日本6
+  server: 172.105.222.98
+  port: 80
+  type: vmess
+  uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 172.105.222.98
+- name: 4.92|韩国Azure  中转  1x
   server: zz.195382.xyz
   port: 10001
   type: vmess
@@ -125,46 +54,7 @@ proxies:
   ws-headers:
     Host: zz.195382.xyz
   udp: true
-- name: 5.19|2 魔戒net
-  server: 23.102.234.10
-  port: 23684
-  type: vmess
-  uuid: f73f82ab-d439-444b-887f-860ba0aa6618
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: '%7B%22Host%22:%2223.102.234.10%22%7D'
-- name: 5.08| httpsgitiov9999ip5日本6
-  server: 172.105.222.98
-  port: 80
-  type: vmess
-  uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 172.105.222.98
-- name: 4.72|AzureHongKong2Vpnpool专属 2
-  server: vpnpool.hongkong.2.xiaocai.ga
-  port: 80
-  type: vmess
-  uuid: f6fffc7f-ab53-4ab7-af70-50923a525798
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: vpnpool.hongkong.2.xiaocai.ga
-  udp: true
-- name: 4.29|日本linode  中转  1x
+- name: 4.64|日本linode  中转  1x
   server: zz.195382.xyz
   port: 10005
   type: vmess
@@ -178,45 +68,19 @@ proxies:
   ws-headers:
     Host: zz.195382.xyz
   udp: true
-- name: 4.08| 魔戒net不限时 00002400 白嫖线路  新加坡  1  限速 30M
-  server: sg-a.663106.xyz
-  port: 19896
+- name: 4.48| HK929
+  server: 168.63.201.205
+  port: 80
   type: vmess
-  uuid: 1acfabf9-303b-3b18-8cdb-813be3f197e0
+  uuid: f6fffc7f-ab53-4ab7-af70-50923a525798
   alterId: 0
-  cipher: chacha20-poly1305
+  cipher: auto
   tls: false
   network: ws
-  ws-path: /zh-cn
+  ws-path: /
   ws-headers:
-    Host: microsoft.com
-- name: 3.27| httpsgitiov9999ip3美国2 2
-  server: hk11.nb818.xyz
-  port: 22111
-  type: vmess
-  uuid: b6937af2-769f-44a5-bf2f-2976878e94ef
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk11.nb818.xyz
-- name: 3.18| httpsgitiov9999ip3韩国8
-  server: hk16.nb818.xyz
-  port: 21132
-  type: vmess
-  uuid: b6937af2-769f-44a5-bf2f-2976878e94ef
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk16.nb818.xyz
-- name: 3.02|孟买linode  中转  1x
+    Host: vpnpool.hongkong.2.xiaocai.ga
+- name: 3.90|孟买linode  中转  1x
   server: zz.195382.xyz
   port: 10007
   type: vmess
@@ -230,85 +94,101 @@ proxies:
   ws-headers:
     Host: zz.195382.xyz
   udp: true
-- name: 2.82| 魔戒net S直连香港 Azure
-  server: 104.208.110.196
-  port: 80
+- name: 3.69|6 魔戒net
+  server: 13.75.105.89
+  port: 12258
   type: vmess
-  uuid: c92d1217-aa09-43fd-b860-9d6664edb4dc
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /index.html
-  ws-headers:
-    Host: baidu.com
-- name: 2.73|台湾阿伟科技TG油管
-  server: 130.211.252.122
-  port: 38500
-  type: vmess
-  uuid: 056b6a43-6bd3-4ee7-ed41-a1f46d051601
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.62| 魔戒net SG 5 Pro
-  server: sgp05v2.datapn.net
-  port: 80
-  type: vmess
-  uuid: 8f6930ce-1ee1-4420-a7c7-6e780fd10647
+  uuid: c2aa2592-aa31-4ae7-84bd-14f0ca3b3e83
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: livestream2.tv360.vn
-- name: 2.32|新加坡阿伟科技TG油管 3
-  server: 34.87.58.136
-  port: 56435
+    Host: '%7B%22Host%22:%2213.75.105.89%22%7D'
+- name: 3.25|5 魔戒net
+  server: 13.75.105.89
+  port: 35353
   type: vmess
-  uuid: 4e1a3c53-ddb1-48b4-ceb9-b3db0f134ec6
+  uuid: fcc0fc7d-0d47-4968-842d-b525299af111
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: '%7B%22Host%22:%2213.75.105.89%22%7D'
+- name: 2.78|1 魔戒net
+  server: 23.102.234.10
+  port: 11190
+  type: vmess
+  uuid: e9878bd5-2257-4c4c-b1a3-329b8808743d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: '%7B%22Host%22:%2223.102.234.10%22%7D'
+- name: 2.63| TW249
+  server: 34.80.185.234
+  port: 40762
+  type: vmess
+  uuid: 63dfb0a0-c0b2-4c46-e821-30e18741e783
+  alterId: 64
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 34.80.185.234
+- name: 2.34|233v2com52141421
+  server: 52.141.4.21
+  port: 22488
+  type: vmess
+  uuid: f80d0334-2eba-477f-9f6e-94f1da21c431
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 2.21| httpsgitiov9999ip3美国3
-  server: hk12.nb818.xyz
-  port: 22135
+- name: 2.17|2 魔戒net
+  server: 23.102.234.10
+  port: 23684
   type: vmess
-  uuid: b6937af2-769f-44a5-bf2f-2976878e94ef
+  uuid: f73f82ab-d439-444b-887f-860ba0aa6618
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk12.nb818.xyz
-- name: 2.20| httpsgitiov9999ip3澳大利亚9
-  server: hk17.nb818.xyz
-  port: 22189
+  ws-path: /
+  ws-headers:
+    Host: '%7B%22Host%22:%2223.102.234.10%22%7D'
+- name: 2.15|伦敦linode  中转  1x
+  server: zz.195382.xyz
+  port: 10006
   type: vmess
-  uuid: b6937af2-769f-44a5-bf2f-2976878e94ef
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk17.nb818.xyz
-- name: 2.07| AU250
-  server: 129.154.50.0
-  port: 29363
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
+  udp: true
+- name: 1.94|美国阿伟科技TG油管 18
+  server: 34.125.56.108
+  port: 22314
   type: vmess
-  uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c
+  uuid: 4e93f6b7-bc51-4f4a-f49c-66c1ccae3278
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.06|美国Azure  中转  1x
+  skip-cert-verify: true
+  udp: true
+- name: 1.93|美国Azure  中转  1x
   server: zz.195382.xyz
   port: 20002
   type: vmess
@@ -322,123 +202,31 @@ proxies:
   ws-headers:
     Host: zz.195382.xyz
   udp: true
-- name: 2.03| httpsgitiov9999ip3美国5 2
-  server: hk14.nb818.xyz
-  port: 22167
+- name: 1.86|4 魔戒net
+  server: 23.102.234.10
+  port: 35504
   type: vmess
-  uuid: b6937af2-769f-44a5-bf2f-2976878e94ef
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk14.nb818.xyz
-- name: 2.00| httpsgitiov9999ip3美国6 2
-  server: hk15.nb818.xyz
-  port: 22121
-  type: vmess
-  uuid: b6937af2-769f-44a5-bf2f-2976878e94ef
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk15.nb818.xyz
-- name: 1.92| httpsgitiov9999ip3韩国7
-  server: hk13.nb818.xyz
-  port: 25535
-  type: vmess
-  uuid: b6937af2-769f-44a5-bf2f-2976878e94ef
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk13.nb818.xyz
-- name: 1.66| httpsgitiov9999ip3美国7
-  server: hk18.nb818.xyz
-  port: 22135
-  type: vmess
-  uuid: b6937af2-769f-44a5-bf2f-2976878e94ef
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: hk18.nb818.xyz
-- name: 1.59|233v2com52141421
-  server: 52.141.4.21
-  port: 22488
-  type: vmess
-  uuid: f80d0334-2eba-477f-9f6e-94f1da21c431
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.50|SSRSUBV12付费推荐suoytssrsub
-  server: 82.115.30.106
-  port: 58142
-  type: vmess
-  uuid: d2bc5d36-9709-4f9a-85cd-488afa61442c
+  uuid: 13d195a3-1b9d-4fd5-96ed-ce6c703f7106
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 82.115.30.106
-- name: 1.47|美国阿伟科技TG油管 18
-  server: 34.125.56.108
-  port: 22314
+    Host: '%7B%22Host%22:%2223.102.234.10%22%7D'
+- name: 1.50| 魔戒net S直连香港 Azure
+  server: 104.208.110.196
+  port: 80
   type: vmess
-  uuid: 4e93f6b7-bc51-4f4a-f49c-66c1ccae3278
+  uuid: c92d1217-aa09-43fd-b860-9d6664edb4dc
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.35|南非Azure  中转  1x
-  server: zz.195382.xyz
-  port: 10004
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /index.html
   ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 1.31|US4532941661884
-  server: 45.32.94.166
-  port: 31676
-  type: vmess
-  uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 45.32.94.166
-  udp: true
-- name: 1.31|巴西Azure  中转  1x
+    Host: baidu.com
+- name: 1.32|巴西Azure  中转  1x
   server: zz.195382.xyz
   port: 10003
   type: vmess
@@ -452,28 +240,29 @@ proxies:
   ws-headers:
     Host: zz.195382.xyz
   udp: true
-- name: 1.30|香港阿伟科技TG油管 17
-  server: sg.az66.ml
-  port: 61001
+- name: 1.27|南非Azure  中转  1x
+  server: zz.195382.xyz
+  port: 10004
   type: vmess
-  uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f
+  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: aweikeji-YouTube-TG
+  ws-path: /
+  ws-headers:
+    Host: zz.195382.xyz
   udp: true
-- name: 1.03|香港阿伟科技TG油管 12
-  server: 43.132.201.60
-  port: 53407
+- name: 1.22|8 魔戒net
+  server: 13.75.105.89
+  port: 51306
   type: vmess
-  uuid: 4ac48580-a2a0-4cf4-ec3d-b230ea5092fc
+  uuid: 06fbac56-cbcb-4fc6-aac7-d36f938b38ba
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: '%7B%22Host%22:%2213.75.105.89%22%7D'
