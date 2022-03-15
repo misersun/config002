@@ -1,25 +1,47 @@
 proxies:
-- name: 6.39|香港Azure  直连  1x
-  server: hk.195382.xyz
-  port: 1001
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: hk.195382.xyz
-  udp: true
-- name: 6.33| 魔戒net香港HK 1835himoonpw
+- name: 6.63| 魔戒net香港HK 1835himoonpw
   server: hkaz1.scsevers.cf
   port: 443
   type: trojan
   password: sharecentre
   sni: hkaz1.scsevers.cf
-- name: 6.06|香港阿伟科技TG油管
+- name: 6.05| RelayZZHK4160
+  server: 198.41.212.3
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 5.93| RelayZZUS4144
+  server: 198.41.212.9
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 5.86| RelayZZUS4149
+  server: 198.41.212.10
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 5.84|香港阿伟科技TG油管
   server: 103.135.249.25
   port: 153
   type: vmess
@@ -34,208 +56,7 @@ proxies:
     headers:
       Host: 74527113825.laowanxiang.com
   udp: true
-- name: 6.05| RelayZZUS4141
-  server: 198.41.212.17
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.99| RelayZZUS4143
-  server: 198.41.212.13
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.97|香港阿伟科技TG油管 11
-  server: hgc.jiashumao.net
-  port: 10175
-  type: trojan
-  password: 174f1b95-c79e-35a0-9449-d3c359c6d853
-  sni: hgc.jiashumao.net
-  skip-cert-verify: true
-  udp: true
-- name: 5.94| RelayZZUS4149
-  server: 198.41.212.10
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.90| RelayZZUS4146
-  server: 198.41.212.20
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.90|RelayJPJP700
-  server: jp-am48-9.eqnode.net
-  type: ssr
-  country: JP
-  port: 8081
-  password: 3H2aN5Gnm
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: 5.88|新加坡linode  中转  1x
-  server: zz.195382.xyz
-  port: 10008
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 5.80| RelayZZUS4144
-  server: 198.41.212.9
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.70| RelayZZUS4142
-  server: 198.41.212.234
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: 2022-world-1.a-yu.xyz
-- name: 5.61| RelayZZUS4147
-  server: 198.41.212.8
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.61| RelayZZUS4154
-  server: 198.41.212.14
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.49|香港阿里云vpnhat 2
-  server: 47.243.227.181
-  port: 80
-  type: vmess
-  uuid: 4df7092c-aeea-3256-a156-f8ca3d094f2b
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: 47.243.227.181
-  udp: true
-- name: 5.38| RelayZZUS4151
-  server: 198.41.212.11
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.29| RelayZZUS4150
-  server: 198.41.212.2
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.28| Relay ZZHK3399
-  server: 198.41.212.19
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.23| Relay ZZUS3394
-  server: 198.41.221.169
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.10| RelayZZUS4145
-  server: 198.41.212.5
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.07| RelayZZUS4148
+- name: 5.78| RelayZZUS4148
   server: 198.41.212.18
   port: 443
   type: vmess
@@ -247,8 +68,46 @@ proxies:
   ws-path: /sakura/
   ws-headers:
     Host: zero1.a-yu.xyz
-- name: 5.05| RelayZZHK4170
-  server: 198.41.212.6
+- name: 5.75| 魔戒net香港  04
+  server: hk04.startmy.cc
+  port: 80
+  type: vmess
+  uuid: 2d092429-79f6-38fd-aae3-f8abb3ae5a1b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: a.189.cn
+- name: 5.72|魔戒net x此条误选x
+  server: hk18.balala2016.xyz
+  port: 10080
+  type: vmess
+  uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /hk18
+  ws-headers:
+    Host: hk18.balala2016.xyz
+- name: 5.62|SG A 006
+  server: hkaz6.xmrth-node.xyz
+  port: 10153
+  type: vmess
+  uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+  udp: true
+- name: 5.56| Relay ZZHK3399
+  server: 198.41.212.19
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
@@ -259,13 +118,19 @@ proxies:
   ws-path: /sakura/
   ws-headers:
     Host: zero1.a-yu.xyz
-- name: 5.02| 魔戒net HKAzure香港
-  server: az.jiashumao.net
-  port: 36666
-  type: trojan
-  password: e89255d7-7f45-39ed-8f57-64362885afc0
-  sni: az.jiashumao.net
-- name: 4.94| RelayZZHK4161
+- name: 5.46| Relay ZZUS3394
+  server: 198.41.221.169
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 5.41| RelayZZHK4161
   server: 198.41.212.7
   port: 443
   type: vmess
@@ -277,22 +142,8 @@ proxies:
   ws-path: /sakura/
   ws-headers:
     Host: zero1.a-yu.xyz
-- name: 4.91|韩国Azure  中转  1x
-  server: zz.195382.xyz
-  port: 10001
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 4.82| RelayZZHK4160
-  server: 198.41.212.3
+- name: 5.39| RelayZZHK4170
+  server: 198.41.212.6
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
@@ -303,19 +154,152 @@ proxies:
   ws-path: /sakura/
   ws-headers:
     Host: zero1.a-yu.xyz
-- name: 4.82|甲骨文东京27
-  server: www.seetheworldjp.ga
+- name: 5.31| Relay ZZHK3396
+  server: cloudflare.a-yu.xyz
   port: 443
-  type: trojan
-  password: f42e1a2e-e650-44f4-8d17-bcb68663da18
-  sni: www.seetheworldjp.ga
-  skip-cert-verify: true
-  udp: true
-- name: 4.79| httpsgitiov9999ip5日本6
-  server: 172.105.222.98
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero2.a-yu.xyz
+- name: 5.26|香港  05
+  server: hk05.startmy.cc
   port: 80
   type: vmess
-  uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda
+  uuid: c5c2f840-468d-3cc0-8a8d-8b9f5855c682
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: a.189.cn
+  udp: true
+- name: 5.24| 魔戒net香港  01
+  server: hk01.startmy.cc
+  port: 80
+  type: vmess
+  uuid: 2d092429-79f6-38fd-aae3-f8abb3ae5a1b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: a.189.cn
+- name: 5.21| RelayZZUS4154
+  server: 198.41.212.14
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 5.18| 甲骨文东京ARM1trojan
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  sni: jgwdj3.gaox.ml
+- name: 5.18| 魔戒net ❷香港 15 BGP
+  server: hk15.balala2016.xyz
+  port: 80
+  type: vmess
+  uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /balala
+  ws-headers:
+    Host: hk15.balala2016.xyz
+- name: 5.18| RelayZZUS4151
+  server: 198.41.212.11
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 5.04| RelayZZUS4142
+  server: 198.41.212.234
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: 2022-world-1.a-yu.xyz
+- name: 4.88|甲骨文春川AMD2trojan
+  server: jgwcc2.gaox.ml
+  port: 443
+  type: trojan
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  sni: jgwcc2.gaox.ml
+- name: 4.88| RelayZZUS4145
+  server: 198.41.212.5
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 4.85|甲骨文春川ARM1trojan
+  server: jgwcc3.gaox.ml
+  port: 443
+  type: trojan
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  sni: jgwcc3.gaox.ml
+- name: 4.85| RelayZZUS4147
+  server: 198.41.212.8
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 4.80| httpsgitiov9999ip1美国1
+  server: 172.67.140.165
+  port: 443
+  type: vmess
+  uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /google.com
+    headers:
+      Host: 30.72vpn.xyz
+- name: 4.69| httpsgitiov9999ip3香港1
+  server: 13.75.105.89
+  port: 30554
+  type: vmess
+  uuid: 10087c2b-3d3e-40e1-a75b-e4f34bc1cf08
   alterId: 0
   cipher: auto
   tls: false
@@ -323,8 +307,98 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 172.105.222.98
-- name: 4.74| RelayZZUS4140
+      Host: 13.75.105.89
+- name: 4.64|香港阿伟科技TG油管 11
+  server: hgc.jiashumao.net
+  port: 10175
+  type: trojan
+  password: 174f1b95-c79e-35a0-9449-d3c359c6d853
+  sni: hgc.jiashumao.net
+  skip-cert-verify: true
+  udp: true
+- name: 4.62|甲骨文春川AMD1trojan
+  server: jgwcc1.gaox.ml
+  port: 443
+  type: trojan
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+- name: 4.58| RelayZZUS4150
+  server: 198.41.212.2
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 4.58| RelayZZUS4146
+  server: 198.41.212.20
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 4.41| RelayZZUS4143
+  server: 198.41.212.13
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 4.41| RelayZZUS4138
+  server: 198.41.212.1
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 4.23|6
+  server: 23.102.234.10
+  port: 41197
+  type: vmess
+  uuid: 28a567de-65d9-40fb-eb45-8d8664553303
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 23.102.234.10
+  udp: true
+- name: 4.04|美国FMYC220311304
+  server: sg.az66.ml
+  port: 61001
+  type: vmess
+  uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: sg.az66.ml
+  udp: true
+- name: 3.92| RelayZZUS4140
   server: 198.41.212.15
   port: 443
   type: vmess
@@ -336,65 +410,25 @@ proxies:
   ws-path: /sakura/
   ws-headers:
     Host: zero1.a-yu.xyz
-- name: 4.73| 甲骨文东京AMD2trojan
+- name: 3.89| 甲骨文东京AMD2trojan
   server: jgwdj2.gaox.ml
   port: 443
   type: trojan
   password: 86231db5-96d0-4271-9977-cae3a0cba614
   sni: jgwdj2.gaox.ml
-- name: 4.53| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- name: 4.52| 魔戒net JP1061802256940
-  server: 106.180.225.69
-  port: 1443
-  type: trojan
-  password: 7x42LetRa0
-  skip-cert-verify: true
-- name: 4.52|甲骨文春川ARM1trojan
-  server: jgwcc3.gaox.ml
-  port: 443
-  type: trojan
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  sni: jgwcc3.gaox.ml
-- name: 4.41|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
-  port: 443
-  type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
-- name: 4.40|日本linode  中转  1x
-  server: zz.195382.xyz
-  port: 10005
+- name: 3.89| 魔戒net ❶香港 A4 H
+  server: transit01.balala2016.xyz
+  port: 10080
   type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /hk18
   ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 4.11|香港AzureTokyoFDCservers
-  server: 52.184.12.166
-  port: 50007
-  type: vmess
-  uuid: c031e096-2d02-39da-8d81-c651e09ed0d1
-  alterId: 2
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: v2iijjp2.doubledou.win
-  udp: true
-- name: 3.91|香港阿里云vpnhat 4
+    Host: transit01.balala2016.xyz
+- name: 3.87|香港阿里云vpnhat 4
   server: 47.243.198.57
   port: 80
   type: vmess
@@ -408,20 +442,33 @@ proxies:
   ws-headers:
     Host: 47.243.198.57
   udp: true
-- name: 3.84|孟买linode  中转  1x
-  server: zz.195382.xyz
-  port: 10007
+- name: 3.83|新加坡阿伟科技TG油管 6
+  server: 52.184.99.90
+  port: 8009
   type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  uuid: 531b522c-30af-451a-af37-b72cc45ea1e3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 52.184.99.90
+  udp: true
+- name: 3.79| 魔戒net ❷香港 14 BGP
+  server: hk14.balala2016.xyz
+  port: 80
+  type: vmess
+  uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /balala
   ws-headers:
-    Host: zz.195382.xyz
-  udp: true
+    Host: hk14.balala2016.xyz
 - name: 3.75|美国阿伟科技TG油管 17
   server: 20.212.220.101
   port: 8009
@@ -437,53 +484,11 @@ proxies:
     headers:
       Host: 20.212.220.101
   udp: true
-- name: 3.57|IncheonV231
-  server: V2-NODE-2.GFWAIRPORT.NET
-  port: 50001
+- name: 3.74|KR A 006
+  server: hkaz6.xmrth-node.xyz
+  port: 10154
   type: vmess
-  uuid: 65170c32-4896-41c2-8b89-0b802688ce5b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: V2-NODE-2.GFWAIRPORT.NET
-  udp: true
-- name: 3.49|印度阿伟科技TG油管
-  server: azmf.cydonia.club
-  port: 43110
-  type: trojan
-  password: 5ace7d3b-78ff-3c70-b28b-208d758c63c2
-  sni: linode-in-2.scandia.club
-  skip-cert-verify: true
-  udp: true
-- name: 3.47|香港阿里云vpnhat 6
-  server: 47.243.92.214
-  port: 80
-  type: vmess
-  uuid: 4dd6cbf5-7ff5-3aeb-b5ac-8cff4b21d0e5
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: 47.243.92.214
-  udp: true
-- name: 3.37|甲骨文春川AMD1trojan
-  server: jgwcc1.gaox.ml
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  sni: jgwcc1.gaox.ml
-- name: 3.27|香港TGnodesharing12
-  server: hkaz3.xmrth-node.xyz
-  port: 10035
-  type: vmess
-  uuid: 588a9e90-2989-31b5-b812-4536be0a8bae
+  uuid: a685d5ce-ba3a-3548-ae94-84933f6080b6
   alterId: 2
   cipher: auto
   tls: false
@@ -493,7 +498,84 @@ proxies:
   ws-headers:
     Host: www.baidu.com
   udp: true
-- name: 2.80|美国阿伟科技TG油管 12
+- name: 3.61| 魔戒net ❷香港 17 tBGP
+  server: hk17.balala2016.xyz
+  port: 10080
+  type: vmess
+  uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /balala
+  ws-headers:
+    Host: hk17.balala2016.xyz
+- name: 3.57| RelayZZUS4141
+  server: 198.41.212.17
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero1.a-yu.xyz
+- name: 3.55|香港阿伟科技TG油管 2
+  server: 207.46.131.81
+  port: 53780
+  type: vmess
+  uuid: f955d089-add5-40e2-fb53-948154cba564
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: aweikeji-YouTube-TG
+  udp: true
+- name: 3.55|httpsgitiov9999ip1 6
+  server: 104.21.65.46
+  port: 443
+  type: vmess
+  uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /google.com
+    headers:
+      Host: 30.72vpn.xyz
+- name: 3.09|5
+  server: 23.102.234.10
+  port: 42374
+  type: vmess
+  uuid: eaf865c1-2c3a-4c1a-bc94-9df418736ff2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 23.102.234.10
+  udp: true
+- name: 2.99| 魔戒net ❷香港 16 BGP
+  server: hk16.balala2016.xyz
+  port: 80
+  type: vmess
+  uuid: 3717f4a0-954d-11ec-bc0c-d34635231d98
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /balala
+  ws-headers:
+    Host: hk16.balala2016.xyz
+- name: 2.77|美国阿伟科技TG油管 12
   server: rbzf.moonfree.top
   port: 10083
   type: vmess
@@ -508,63 +590,59 @@ proxies:
     headers:
       Host: linodemx0303.moonfree.top
   udp: true
-- name: 2.79|新加坡阿伟科技TG油管 6
-  server: 52.184.99.90
-  port: 8009
-  type: vmess
-  uuid: 531b522c-30af-451a-af37-b72cc45ea1e3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 52.184.99.90
-  udp: true
-- name: 2.73| RelayJPJP06
+- name: 2.30|甲骨文海得拉巴ARM1trojan
+  server: jgwhdlb3.gaox.ml
+  port: 443
+  type: trojan
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  sni: jgwhdlb3.gaox.ml
+- name: 2.26| RelayJPJP06
   server: lijp.scsevers.cf
   port: 443
   type: trojan
   password: sharecentre
   sni: lijp.scsevers.cf
-- name: 2.43|甲骨文海得拉巴AMD1trojan
-  server: jgwhdlb1.gaox.ml
+- name: 2.09| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
   port: 443
   type: trojan
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  sni: jgwhdlb1.gaox.ml
-- name: 2.37|LAXDMIT
-  server: loslite.doubledou.win
-  port: 6529
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 2.00| 甲骨文首尔ARM1trojan
+  server: jgw3.gaox.ml
+  port: 443
   type: trojan
-  password: c031e096-2d02-39da-8d81-c651e09ed0d1
-  sni: loslite.doubledou.win
+  password: a1718180-d616-4b71-9bb6-3e96ba20f921
+  sni: jgw3.gaox.ml
+- name: 1.95| 甲骨文大阪AMD1trojan
+  server: jgwdb1.gaox.ml
+  port: 443
+  type: trojan
+  password: a580d839-ee41-4df1-bf03-6789dca32e30
+  sni: jgwdb1.gaox.ml
+- name: 1.94|新加坡阿伟科技TG油管 2
+  server: sg.oracleusa.ml
+  port: 2053
+  type: vmess
+  uuid: d416d0e9-4753-4fa5-b80d-2be742b4478d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: sg.oracleusa.ml
+  udp: true
+- name: 1.78|Youtube技术分享室澳大利亚
+  server: 185.148.14.58
+  port: 53514
+  type: trojan
+  password: 3r90JDGBYA
   skip-cert-verify: true
   udp: true
-- name: 2.36|LAXDMIT 2
-  server: loslite2.doubledou.win
-  port: 6519
-  type: trojan
-  password: c031e096-2d02-39da-8d81-c651e09ed0d1
-  sni: loslite2.doubledou.win
-  skip-cert-verify: true
-  udp: true
-- name: 2.36|甲骨文海得拉巴AMD2trojan
-  server: jgwhdlb2.gaox.ml
-  port: 443
-  type: trojan
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  sni: jgwhdlb2.gaox.ml
-- name: 2.22| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
-  port: 443
-  type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- name: 2.17|魔戒net333
-  server: 10.72vpn.xyz
+- name: 1.74|魔戒net444
+  server: 73.72vpn.xyz
   port: 443
   type: vmess
   uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
@@ -574,71 +652,14 @@ proxies:
   network: ws
   ws-path: /google.com
   ws-headers:
-    Host: 10.72vpn.xyz
-- name: 2.07|伦敦linode  中转  1x
-  server: zz.195382.xyz
-  port: 10006
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 1.95|美国阿伟科技TG油管 2
-  server: 34.102.124.157
-  port: 45447
-  type: vmess
-  uuid: 0a3c6cfd-cf7e-4ca7-ad5e-9d78e667c111
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.89| 甲骨文悉尼ARM2trojan
+    Host: 73.72vpn.xyz
+- name: 1.72| 甲骨文悉尼ARM2trojan
   server: jgwxn4.gaox.ml
   port: 443
   type: trojan
   password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   sni: jgwxn4.gaox.ml
-- name: 1.88|trojan
-  type: trojan
-  server: 65.49.196.130
-  port: 443
-  password: 123abc,./
-  sni: ztinoz.com
-  alpn:
-  - h2
-  - http/1.1
-- name: 1.81| VN3240
-  server: 103.81.85.191
-  port: 4588
-  type: vmess
-  uuid: c031e096-2d02-39da-8d81-c651e09ed0d1
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /doufen
-  ws-headers:
-    Host: vn.doubledou.win
-- name: 1.78| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
-  port: 443
-  type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 1.77| 甲骨文悉尼AMD2trojan
-  server: jgwxn2.gaox.ml
-  port: 443
-  type: trojan
-  password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  sni: jgwxn2.gaox.ml
-- name: 1.76|魔戒net222
+- name: 1.69|魔戒net222
   server: 71.72vpn.xyz
   port: 443
   type: vmess
@@ -650,183 +671,47 @@ proxies:
   ws-path: /google.com
   ws-headers:
     Host: 71.72vpn.xyz
-- name: 1.75|美国Azure  中转  1x
-  server: zz.195382.xyz
-  port: 20002
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 1.75| 甲骨文大阪AMD1trojan
-  server: jgwdb1.gaox.ml
-  port: 443
-  type: trojan
-  password: a580d839-ee41-4df1-bf03-6789dca32e30
-  sni: jgwdb1.gaox.ml
-- name: 1.74| RelayUSUS3228
-  server: mb22.ml
-  port: 53143
-  type: vmess
-  uuid: 04f2a2c2-d6a2-4e82-9862-a1aa008dc6d0
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.74|imkcp白嫖
-  server: 104.24.34.233
-  port: 443
-  type: vmess
-  uuid: 1c8f1d5c-c9b1-46be-d034-c649b006b15d
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: kcpblog.tk
-- name: 1.72|台湾阿伟科技TG油管 3
-  server: tw1.nodrop.bike
-  port: 80
-  type: vmess
-  uuid: 668a0e8a-42e1-42f0-89a6-549d7904540d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: tw1.nodrop.bike
-  udp: true
-- name: 1.72|233v2com52141421
-  server: 52.141.4.21
-  port: 22488
-  type: vmess
-  uuid: f80d0334-2eba-477f-9f6e-94f1da21c431
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.70| Relay ZZHK3396
-  server: cloudflare.a-yu.xyz
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero2.a-yu.xyz
-- name: 1.70| 甲骨文凤凰城ARM1trojan
+- name: 1.68| 甲骨文凤凰城ARM1trojan
   server: fhcarm1.gaox.ml
   port: 443
   type: trojan
   password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
   sni: fhcarm1.gaox.ml
-- name: 1.64|FrankfurtM247
-  server: gerv2.doubledou.win
-  port: 8080
-  type: trojan
-  password: c031e096-2d02-39da-8d81-c651e09ed0d1
-  sni: gerv2.doubledou.win
-  skip-cert-verify: true
-  udp: true
-- name: 1.63|MontrealRicaWeb
-  server: ca1.doubledou.win
-  port: 4586
-  type: trojan
-  password: c031e096-2d02-39da-8d81-c651e09ed0d1
-  sni: ca1.doubledou.win
-  skip-cert-verify: true
-  udp: true
-- name: 1.55|法国阿伟科技TG油管
-  server: rbzf.moonfree.top
-  port: 10080
-  type: vmess
-  uuid: d0ff23a4-37fb-4b37-810f-f16aa829a6f7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v6fr.moonfree.top
-  udp: true
-- name: 1.52|AmsterdamLiteserver
-  server: helan.doubledou.win
-  port: 4586
-  type: trojan
-  password: c031e096-2d02-39da-8d81-c651e09ed0d1
-  sni: helan.doubledou.win
-  skip-cert-verify: true
-  udp: true
-- name: 1.51| Relay USUS1559
-  server: 172.67.68.58
+- name: 1.65|魔戒net111
+  server: 74.72vpn.xyz
   port: 443
   type: vmess
-  uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
+  uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /shuier
+  ws-path: /google.com
   ws-headers:
-    Host: xc1.v2rie.pp.ua
-- name: 1.51|越南阿伟科技TG油管
-  server: vn.doubledou.win
-  port: 4588
+    Host: 74.72vpn.xyz
+- name: 1.59|美国阿伟科技TG油管 21
+  server: hk-v.apqiang.com
+  port: 12001
+  type: trojan
+  password: b3f57c51-206e-3c41-8dba-56921740f9ca
+  sni: hk-v.apqiang.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.56|US欢迎使用软件库APP
+  server: 129.153.198.41
+  port: 443
   type: vmess
-  uuid: c031e096-2d02-39da-8d81-c651e09ed0d1
+  uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /doufen
-    headers:
-      Host: vn.doubledou.win
+  ws-path: /google.com
+  ws-headers:
+    Host: t.me/vpnhat
   udp: true
-- name: 1.49|IstanbulSiberDCdip
-  server: tu.doubledou.win
-  port: 470
-  type: trojan
-  password: c031e096-2d02-39da-8d81-c651e09ed0d1
-  sni: tu.doubledou.win
-  skip-cert-verify: true
-  udp: true
-- name: 1.47| 甲骨文凤凰城ARM2trojan
-  server: fhcarm2.gaox.ml
-  port: 443
-  type: trojan
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  sni: fhcarm2.gaox.ml
-- name: 1.46| httpsgitiov9999 美国CDN ip6 13
-  server: www.digitalocean.com
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.45|bybpjzx2群友专享
+- name: 1.55|bybpjzx2群友专享
   server: bpjzx2.cainiao.tk
   port: 443
   type: vmess
@@ -840,170 +725,21 @@ proxies:
   ws-headers:
     Host: orange-mode-ac6a.xjp0mx2cp.workers.dev
   udp: true
-- name: 1.44|魔戒net444
-  server: 73.72vpn.xyz
+- name: 1.54|US欢迎使用软件库APP 4
+  server: 129.146.103.173
   port: 443
   type: vmess
   uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
   ws-path: /google.com
   ws-headers:
-    Host: 73.72vpn.xyz
-- name: 1.43| httpsgitiov9999 美国CDN ip6 4
-  server: 104.20.156.110
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.42| RelayUSUS3219
-  server: test.0dc.cn
-  port: 443
-  type: vmess
-  uuid: ebe5703b-c18e-4664-c3a7-9fcf52453898
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: test.0dc.cn
-- name: 1.42| httpsgitiov9999 美国CDN ip6
-  server: 104.16.114.245
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.41| httpsgitiov9999 美国CDN ip6 10
-  server: cf.521024.xyz
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.41|美国阿伟科技TG油管 21
-  server: hk-v.apqiang.com
-  port: 12001
-  type: trojan
-  password: b3f57c51-206e-3c41-8dba-56921740f9ca
-  sni: hk-v.apqiang.com
-  skip-cert-verify: true
+    Host: t.me/vpnhat
   udp: true
-- name: 1.40| httpsgitiov9999 美国CDN ip6 9
-  server: 104.16.193.185
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.40| httpsgitiov9999 美国CDN ip6 11
-  server: 104.19.48.16
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.37| 美国 迈阿密
-  server: misaka1433.tk
-  port: 443
-  type: trojan
-  password: aPn2GJNuCQqBXSbV
-  sni: misaka1433.tk
-- name: 1.37| httpsgitiov9999 美国CDN ip6 3
-  server: 104.25.212.16
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.37|魔戒net111
-  server: 74.72vpn.xyz
-  port: 443
-  type: vmess
-  uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /google.com
-  ws-headers:
-    Host: 74.72vpn.xyz
-- name: 1.36|加拿大阿伟科技TG油管
-  server: ca02.holiganfan.com
-  port: 10088
-  type: trojan
-  password: 17882ef6-b07d-401c-8cee-636e512c77ba
-  sni: ca02.holiganfan.com
-  skip-cert-verify: true
-  udp: true
-- name: 1.36|巴西Azure  中转  1x
-  server: zz.195382.xyz
-  port: 10003
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 1.35| httpsgitiov9999 美国CDN ip6 2
-  server: 104.25.167.166
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.34|13624319185443
+- name: 1.54|13624319185443
   server: 136.243.191.85
   port: 443
   type: ssr
@@ -1014,63 +750,7 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 1.33|南非Azure  中转  1x
-  server: zz.195382.xyz
-  port: 10004
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-  udp: true
-- name: 1.33| httpsgitiov9999 美国CDN ip6 7
-  server: icook.tw
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.30|vpnpoolTokyoFDCservers
-  server: 50.7.159.155
-  port: 443
-  type: vmess
-  uuid: c031e096-2d02-39da-8d81-c651e09ed0d1
-  alterId: 2
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: v2iijjp2.doubledou.win
-  udp: true
-- name: 1.30|法国阿伟科技TG油管 2
-  server: fr.oracleusa.ml
-  port: 2053
-  type: vmess
-  uuid: 531b522c-30af-451a-af37-b72cc45ea1e3
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: fr.oracleusa.ml
-  udp: true
-- name: 1.24|瑞士阿伟科技TG油管
+- name: 1.52|瑞士阿伟科技TG油管
   server: 20.212.220.101
   port: 8012
   type: vmess
@@ -1085,8 +765,36 @@ proxies:
     headers:
       Host: 20.212.220.101
   udp: true
-- name: 1.23| httpsgitiov9999 美国CDN ip6 8
-  server: 104.21.59.236
+- name: 1.46|US欢迎使用软件库APP 3
+  server: 158.101.19.245
+  port: 443
+  type: vmess
+  uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /google.com
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 1.43|US欢迎使用软件库APP 5
+  server: 155.248.224.189
+  port: 443
+  type: vmess
+  uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /google.com
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 1.43| httpsgitiov9999 美国CDN ip6 9
+  server: 104.16.193.185
   port: 443
   type: vmess
   uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
@@ -1098,9 +806,21 @@ proxies:
     path: /ray
     headers:
       Host: clash3.v2rayfree1.xyz
-- name: 1.23|俄罗斯阿伟科技TG油管
-  server: ru2.gfwglass.tk
-  port: 443
+- name: 1.42| FR846
+  server: 51.158.147.170
+  port: 22357
+  type: vmess
+  uuid: d76a7e70-530d-4e53-8c50-496f01d4c0a8
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 001.nl.eu.pop.smallairport.net
+- name: 1.41|法国阿伟科技TG油管 2
+  server: fr.oracleusa.ml
+  port: 2053
   type: vmess
   uuid: 531b522c-30af-451a-af37-b72cc45ea1e3
   alterId: 0
@@ -1111,36 +831,10 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: ru2.gfwglass.tk
+      Host: fr.oracleusa.ml
   udp: true
-- name: 1.22| Relay USUS1636
-  server: my.aoyyds.ga
-  port: 8443
-  type: vmess
-  uuid: e230dabd-7152-3c22-c9e5-79c84fb76236
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /xsqfvws
-  ws-headers:
-    Host: my.aoyyds.ga
-- name: 1.22|美国阿伟科技TG油管 2
-  server: cat.heimei.cloud
-  port: 443
-  type: vmess
-  uuid: fc695027-72c0-4bd0-9fb1-f25203154297
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /c60b0fb16cf/
-  ws-headers:
-    Host: cat.heimei.cloud
-  udp: true
-- name: 1.21| httpsgitiov9999 美国CDN ip6 6
-  server: 162.159.134.92
+- name: 1.41| httpsgitiov9999 美国CDN ip6
+  server: 104.16.114.245
   port: 443
   type: vmess
   uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
@@ -1152,96 +846,20 @@ proxies:
     path: /ray
     headers:
       Host: clash3.v2rayfree1.xyz
-- name: 1.18| httpsgitiov9999 美国CDN ip6 5
-  server: cdn.xia.me
+- name: 1.39| httpsgitiov9999ip1荷兰6
+  server: 154.84.1.195
   port: 443
   type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
+  uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79
+  alterId: 64
   cipher: auto
   tls: true
   network: ws
   ws-opts:
-    path: /ray
+    path: /path/120306182525
     headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.17|美国阿伟科技TG油管 22
-  server: linodeusfree2.galaxycloud.buzz
-  port: 443
-  type: vmess
-  uuid: e10e319a-4d30-4b36-b0cd-951d58d3d644
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /BEWePj62
-    headers:
-      Host: linodeusfree1.galaxycloud.buzz
-  udp: true
-- name: 1.16|Youtube技术分享室澳大利亚
-  server: 185.148.14.58
-  port: 53514
-  type: trojan
-  password: 3r90JDGBYA
-  skip-cert-verify: true
-  udp: true
-- name: 1.16| 甲骨文伦敦ARM2trojan
-  server: jgwld4.gaox.ml
-  port: 443
-  type: trojan
-  password: 58d32c66-43b1-4561-9951-d87c9123774e
-  sni: jgwld4.gaox.ml
-- name: 1.14|美国阿伟科技TG油管 4 2
-  server: 104.16.162.16
-  port: 2053
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /eisasqa
-  ws-headers:
-    Host: foxus.fovi.tk
-  udp: true
-- name: 1.13|英国阿伟科技TG油管
-  server: ocld.vproxy.us
-  port: 34567
-  type: trojan
-  password: d3db7e32-3466-49e1-96bb-421222e0b36f
-  sni: ocld.vproxy.us
-  skip-cert-verify: true
-  udp: true
-- name: 1.12| RelayZZUS4138
-  server: 198.41.212.1
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.08|313更新29
-  server: ipv6-2.nsxz.ml
-  port: 443
-  type: vmess
-  uuid: f176fc84-01ca-44fd-9e86-9ef456673858
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: ipv6-2.nsxz.ml
-  udp: true
-- name: 1.08|313更新21
+      Host: www.57556953.xyz
+- name: 1.37|313更新21
   server: fqtest.nsxz.ml
   port: 443
   type: vmess
@@ -1255,25 +873,141 @@ proxies:
   ws-headers:
     Host: fqtest.nsxz.ml
   udp: true
-- name: 1.07|珠珠节点2
-  server: 35.153.162.49
-  port: 27080
+- name: 1.37| httpsgitiov9999 美国CDN ip6 5
+  server: cdn.xia.me
+  port: 443
   type: vmess
-  uuid: 6334db00-f39b-49d7-d12a-2e3c037c5d97
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
     headers:
-      Host:
-      - 35.153.162.49
+      Host: clash3.v2rayfree1.xyz
+- name: 1.36| httpsgitiov9999 美国CDN ip6 4
+  server: 104.20.156.110
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.36| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 1.35| 美国 迈阿密
+  server: misaka1433.tk
+  port: 443
+  type: trojan
+  password: aPn2GJNuCQqBXSbV
+  sni: misaka1433.tk
+- name: 1.34| httpsgitiov9999 美国CDN ip6 3
+  server: 104.25.212.16
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.28|印度阿伟科技TG油管
+  server: azmf.cydonia.club
+  port: 43110
+  type: trojan
+  password: 5ace7d3b-78ff-3c70-b28b-208d758c63c2
+  sni: linode-in-2.scandia.club
+  skip-cert-verify: true
   udp: true
-- name: 1.02| httpsgitiov9999 美国CDN ip6 12
+- name: 1.23|魔戒net333
+  server: 10.72vpn.xyz
+  port: 443
+  type: vmess
+  uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /google.com
+  ws-headers:
+    Host: 10.72vpn.xyz
+- name: 1.23| PoolUS3218
+  server: 154.31.41.10
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: chuch3go.com
+- name: 1.21|SSRSUBV09付费推荐suoytssrsub
+  server: usa-dallas.lvuft.com
+  port: 443
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  alterId: 4
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ws
+  ws-headers:
+    Host: usa-dallas.lvuft.com
+- name: 1.20| httpsgitiov9999 美国CDN ip6 10
+  server: cf.521024.xyz
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.19| httpsgitiov9999 美国CDN ip6 2
+  server: 104.25.167.166
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.19| httpsgitiov9999 美国CDN ip6 8
+  server: 104.21.59.236
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.18| httpsgitiov9999 美国CDN ip6 12
   server: cf1.521024.xyz
   port: 443
   type: vmess
@@ -1286,11 +1020,23 @@ proxies:
     path: /ray
     headers:
       Host: clash3.v2rayfree1.xyz
-- name: 1.01|荷兰阿伟科技TG油管
-  server: nl.oracleusa.ml
-  port: 2053
+- name: 1.17| Relay USUS1559
+  server: 172.67.68.58
+  port: 443
   type: vmess
-  uuid: 8c2f4976-48b3-4a57-bca2-1496bf9c7648
+  uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /shuier
+  ws-headers:
+    Host: xc1.v2rie.pp.ua
+- name: 1.16|美国阿伟科技TG油管 23
+  server: 52.184.99.90
+  port: 8004
+  type: vmess
+  uuid: 531b522c-30af-451a-af37-b72cc45ea1e3
   alterId: 0
   cipher: auto
   tls: true
@@ -1299,5 +1045,51 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: nl.oracleusa.ml
+      Host: 52.184.99.90
   udp: true
+- name: 1.15|HyderabadOracle
+  server: 144.24.141.74
+  port: 443
+  type: vmess
+  uuid: 0797aba7-f60a-4bc3-acd9-946a85a1e864
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /google.com
+  ws-headers:
+    Host: t.me/vpnhat
+  udp: true
+- name: 1.14| 甲骨文悉尼AMD2trojan
+  server: jgwxn2.gaox.ml
+  port: 443
+  type: trojan
+  password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
+  sni: jgwxn2.gaox.ml
+- name: 1.11|美国阿伟科技TG油管 3
+  server: gcusfree.galaxycloud.buzz
+  port: 443
+  type: vmess
+  uuid: 5b595b3a-b97a-46db-a3e2-5b94423355fb
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /0DGCTPQ
+  ws-headers:
+    Host: gcusfree.galaxycloud.buzz
+  udp: true
+- name: 1.07| 甲骨文凤凰城ARM2trojan
+  server: fhcarm2.gaox.ml
+  port: 443
+  type: trojan
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  sni: fhcarm2.gaox.ml
+- name: 1.01| 甲骨文伦敦ARM2trojan
+  server: jgwld4.gaox.ml
+  port: 443
+  type: trojan
+  password: 58d32c66-43b1-4561-9951-d87c9123774e
+  sni: jgwld4.gaox.ml
