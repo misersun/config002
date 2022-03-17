@@ -1,157 +1,13 @@
 proxies:
-- name: 5.97|   流量站香港31000M端口80
-  server: hk3.mlsao.dynv6.net
-  port: 80
-  type: vmess
-  uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /TS/recharge/tzUrl.html
-  ws-headers:
-    Host: www.189.cn
-  udp: true
-- name: 5.71|   流量站香港21000M端口80
-  server: hk2.mlsao.dynv6.net
-  port: 80
-  type: vmess
-  uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /TS/recharge/tzUrl.html
-  ws-headers:
-    Host: www.189.cn
-  udp: true
-- name: 5.64|   流量站香港51000M端口80
-  server: hk5.mlsao.dynv6.net
-  port: 80
-  type: vmess
-  uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /TS/recharge/tzUrl.html
-  ws-headers:
-    Host: www.189.cn
-  udp: true
-- name: 5.43| JP1042
-  server: 172.105.222.98
-  port: 80
-  type: vmess
-  uuid: 4e1d0b12-25f0-363f-8659-9c6a3ca1fcda
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 172.105.222.98
-- name: 5.40| Relay AUAU246
-  server: tunnel-trail.sserver.top
-  port: 80
-  type: vmess
-  uuid: 22a4d521-57d0-39dc-bb50-7b63064aabb7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: tunnel-trail.sserver.top
-- name: 5.07| Relay ZZHK3396
-  server: cloudflare.a-yu.xyz
+- name: 5.31|TOKYO 01
+  server: cctv7.youxi.gay
   port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero2.a-yu.xyz
-- name: 5.04|香港阿伟科技TG油管
-  server: 34.92.107.101
-  port: 26066
-  type: vmess
-  uuid: 49dd4da0-f306-4ef6-8a8c-17fb6a77340b
-  alterId: 0
-  cipher: auto
-  tls: false
+  type: trojan
+  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
+  sni: cctv7.youxi.gay
   skip-cert-verify: true
   udp: true
-- name: 5.01| RelayZZHK4161
-  server: 198.41.212.7
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.97| RelayZZHK4160
-  server: 198.41.212.3
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.86|   流量站香港11000M端口80
-  server: hk1.mlsao.dynv6.net
-  port: 80
-  type: vmess
-  uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /TS/recharge/tzUrl.html
-  ws-headers:
-    Host: www.189.cn
-  udp: true
-- name: 4.85|JP日本tg频道bpjzx23
-  server: jdjp1.cloudoo.xyz
-  port: 443
-  type: vmess
-  uuid: 355851ab-fd12-4f46-a38c-09de72c229d2
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /upload
-  ws-headers:
-    Host: jdjp1.cloudoo.xyz
-  udp: true
-- name: 4.76| Relay ZZHK3399
-  server: 198.41.212.19
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.65| Relay ZZUS3394
+- name: 5.29| Relay ZZUS3394
   server: 198.41.221.169
   port: 443
   type: vmess
@@ -163,101 +19,29 @@ proxies:
   ws-path: /sakura/
   ws-headers:
     Host: zero1.a-yu.xyz
-- name: 4.53|   流量站香港61000M端口80
-  server: hk6.mlsao.dynv6.net
-  port: 80
-  type: vmess
-  uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /TS/recharge/tzUrl.html
-  ws-headers:
-    Host: www.189.cn
-  udp: true
-- name: 4.45|香港阿伟科技TG油管 11
-  server: hgc.jiashumao.net
-  port: 10175
-  type: trojan
-  password: 174f1b95-c79e-35a0-9449-d3c359c6d853
-  sni: hgc.jiashumao.net
-  skip-cert-verify: true
-  udp: true
-- name: 4.39|   流量站香港61000M端口443
-  server: hk6.mlsao.dynv6.net
+- name: 4.34|TOKYO 05
+  server: cdn012.youxi.gay
   port: 443
   type: vmess
-  uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /TS/recharge/tzUrl.html
-  ws-headers:
-    Host: www.189.cn
-  udp: true
-- name: 4.35|SG新加坡tg频道bpjzx26
-  server: jdhk1.cloudoo.xyz
-  port: 443
-  type: vmess
-  uuid: 355851ab-fd12-4f46-a38c-09de72c229d2
-  alterId: 0
+  uuid: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
+  alterId: 1
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /upload
+  ws-path: /iptv/cctv07.m3u8
   ws-headers:
-    Host: jdhk1.cloudoo.xyz
+    Host: cdn012.youxi.gay
   udp: true
-- name: 4.28| httpsgitiov9999ip3日本12
-  server: jp.relay.qchwnd.moe
-  port: 44616
-  type: trojan
-  password: 679631dd-a671-465d-a054-3d07a2381334
-  sni: jp.relay.qchwnd.moe
-- name: 4.20| RelayZZHK4170
-  server: 198.41.212.6
+- name: 4.08|SINGAPORE 01
+  server: iptv002.youxi.gay
   port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.01| US1566
-  server: 94.103.5.6
-  port: 15575
-  type: vmess
-  uuid: 8c226d2a-e526-48ed-d28a-be2190d92e55
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: '%7B%22Host%22:%2294.103.5.6%22%7D'
-- name: 3.73| httpsgitiov9999ip3台湾9
-  server: tw.node.qchwnd.moe
-  port: 44608
   type: trojan
-  password: 679631dd-a671-465d-a054-3d07a2381334
-  sni: tw.node.qchwnd.moe
-- name: 3.60| httpsgitiov9999ip3美国32
-  server: chuna1.515223.xyz
-  port: 27201
-  type: vmess
-  uuid: b4f2999f-956b-4c6b-93cf-6a20bf3befa3
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.98|印度阿伟科技TG油管
+  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
+  sni: iptv002.youxi.gay
+  skip-cert-verify: true
+  udp: true
+- name: 3.43|印度阿伟科技TG油管
   server: azmf.cydonia.club
   port: 43110
   type: trojan
@@ -265,115 +49,68 @@ proxies:
   sni: linode-in-2.scandia.club
   skip-cert-verify: true
   udp: true
-- name: 2.82|Relay ZZZZ3345
-  server: hantesi.xyz
-  port: 50129
-  type: vmess
-  uuid: dd64d4c0-71fa-455a-ed52-ed6d947aa0d8
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /hello
-  ws-headers:
-    Host: hantesi.xyz
-- name: 2.64|
-  server: jp-am48-9.eqnode.net
-  type: ssr
-  country: JP
-  port: 8081
-  password: 3H2aN5Gnm
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: 2.37|台湾HM11V2ray412370013
-  server: tw01.bzy31.vip
-  port: 37001
-  type: vmess
-  uuid: a306ab5f-79af-3407-ba62-0bdf8c98b61a
-  alterId: 2
-  cipher: auto
-  tls: false
+- name: 3.35|SINGAPORE 03
+  server: iptv001.youxi.gay
+  port: 443
+  type: trojan
+  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
+  sni: iptv001.youxi.gay
   skip-cert-verify: true
-  network: ws
-  ws-path: /redcat
-  ws-headers:
-    Host: tw01.bzy31.vip
   udp: true
-- name: 2.32| httpsgitiov9999ip3美国27
-  server: smoracle.515223.xyz
-  port: 51690
+- name: 3.09| SG1224
+  server: 167.71.197.50
+  port: 44194
   type: vmess
-  uuid: 30ecebb3-1240-44e1-8551-a100ad13e330
+  uuid: 5cc6c2cf-af81-4341-f8f7-af8a83804d46
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.32| HK929
-  server: 207.46.131.81
-  port: 12455
+- name: 3.04|Youtube技术分享室澳大利亚
+  server: 185.148.14.58
+  port: 53514
+  type: trojan
+  password: 3r90JDGBYA
+  skip-cert-verify: true
+  udp: true
+- name: 2.56| 魔戒net  韩国宝马ＧＴ1
+  server: seoalhigh.515223.xyz
+  port: 41371
   type: vmess
-  uuid: e1e7c8da-c24b-4a2f-d4e8-c492f26f0b99
+  uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: aweikeji-YouTube-TG
-- name: 2.10|美国高速节点购买v1mkvip浏览器打开88
-  server: usaadm.oracleusa.ml
-  port: 2053
+- name: 2.49| 韩国KR 2227 himoonpw
+  server: 152.70.88.168
+  port: 49081
   type: vmess
-  uuid: e7426d8f-5644-4856-a1db-af1b8198bd19
+  uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803
   alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.48|TOKYO 03丨CLOUDFLARE
+  server: cdn008.youxi.gay
+  port: 443
+  type: vmess
+  uuid: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
+  alterId: 1
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /cdn
   ws-headers:
-    Host: usaadm.oracleusa.ml
+    Host: cdn008.youxi.gay
   udp: true
-- name: 1.97|美国阿伟科技TG油管 5
-  server: 173.82.120.9
-  port: 59687
-  type: vmess
-  uuid: a8035c81-f99e-466f-a515-3b6bb2fe81d7
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.96|美国阿伟科技TG油管 21
-  server: hk-v.apqiang.com
-  port: 12001
+- name: 2.20|SANJOSE 01
+  server: cdn013.youxi.gay
+  port: 443
   type: trojan
-  password: b3f57c51-206e-3c41-8dba-56921740f9ca
-  sni: hk-v.apqiang.com
+  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
+  sni: cdn013.youxi.gay
   skip-cert-verify: true
   udp: true
-- name: 1.95|   流量站美国11000M端口80
-  server: mg1.mlsao.dynv6.net
-  port: 80
-  type: vmess
-  uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /TS/recharge/tzUrl.html
-  ws-headers:
-    Host: www.189.cn
-  udp: true
-- name: 1.92|法国阿伟科技TG油管 2
-  server: fr.node.qchwnd.moe
-  port: 44612
-  type: trojan
-  password: 679631dd-a671-465d-a054-3d07a2381334
-  skip-cert-verify: true
-  udp: true
-- name: 1.87| httpsgitiov9999ip3美国31
+- name: 2.11| httpsgitiov9999ip3美国31
   server: smoracle2.515223.xyz
   port: 25859
   type: vmess
@@ -381,86 +118,31 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.80|送人的
-  server: 20.230.141.135
-  port: 16892
-  type: vmess
-  uuid: aef88813-4df8-48ff-f85f-4722187b1768
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.73| httpsgitiov9999ip3美国29
-  server: 107.175.62.31
-  port: 18205
-  type: vmess
-  uuid: 51ffe900-f9a4-4517-b123-9d512d0f5069
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.51| SG1263
-  server: 8.210.62.222
-  port: 45140
-  type: vmess
-  uuid: 197a0629-07a3-4a3f-b641-6fa9ea88a752
-  alterId: 64
-  cipher: auto
-  tls: false
-- name: 1.49| httpsgitiov9999ip3印度3
-  server: in1.pbaplink.xyz
+- name: 1.91|SANJOSE 03丨NETFLIX丨DISNEY
+  server: cdn018.youxi.gay
   port: 443
   type: trojan
-  password: 679631dd-a671-465d-a054-3d07a2381334
-  sni: in1.pbaplink.xyz
-- name: 1.45|香港  05
-  server: hk05.startmy.cc
-  port: 80
-  type: vmess
-  uuid: c5c2f840-468d-3cc0-8a8d-8b9f5855c682
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: a.189.cn
-  udp: true
-- name: 1.44|Youtube技术分享室澳大利亚
-  server: 185.148.14.58
-  port: 53514
-  type: trojan
-  password: 3r90JDGBYA
+  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
+  sni: cdn018.youxi.gay
   skip-cert-verify: true
   udp: true
-- name: 1.40|   流量站欧洲爱尔兰1000M流媒体
-  server: hk4.mlsao.dynv6.net
-  port: 80
-  type: vmess
-  uuid: 80f911dc-699e-4b32-a024-f8e66993a9a0
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /TS/recharge/tzUrl.html
-  ws-headers:
-    Host: www.189.cn
-  udp: true
-- name: 1.36|SSRSUBV02付费推荐suoytssrsub
-  server: cloudflare.xrenblog.com
+- name: 1.90|FREMONT 02
+  server: iptv004.youxi.gay
   port: 443
-  type: vmess
-  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /xrenblog/
-  ws-headers:
-    Host: ipv6.xrenblog.com
-- name: 1.18| RelayUSUS3229
+  type: trojan
+  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
+  sni: iptv004.youxi.gay
+  skip-cert-verify: true
+  udp: true
+- name: 1.89|SANJOSE 02丨NETFLIX丨DISNEY
+  server: cdn017.youxi.gay
+  port: 443
+  type: trojan
+  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
+  sni: cdn017.youxi.gay
+  skip-cert-verify: true
+  udp: true
+- name: 1.84| RelayUSUS3229
   server: test.0dc.cn
   port: 443
   type: vmess
@@ -472,15 +154,51 @@ proxies:
   ws-path: /
   ws-headers:
     Host: test.0dc.cn
-- name: 1.09| AU245
-  server: 43.128.12.51
-  port: 18951
+- name: 1.79|Relay ZZZZ3345
+  server: hantesi.xyz
+  port: 50129
   type: vmess
-  uuid: ecac12eb-6c18-4fab-fca1-5fec47b5bb15
+  uuid: dd64d4c0-71fa-455a-ed52-ed6d947aa0d8
   alterId: 64
   cipher: auto
-  tls: false
-- name: 1.02|珠珠节点2
+  tls: true
+  network: ws
+  ws-path: /hello
+  ws-headers:
+    Host: hantesi.xyz
+- name: 1.68|FREMONT 01
+  server: iptv003.youxi.gay
+  port: 443
+  type: trojan
+  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
+  sni: iptv003.youxi.gay
+  skip-cert-verify: true
+  udp: true
+- name: 1.49| Relay ZZHK3396
+  server: cloudflare.a-yu.xyz
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sakura/
+  ws-headers:
+    Host: zero2.a-yu.xyz
+- name: 1.46| US1532
+  server: 173.255.215.146
+  port: 11443
+  type: vmess
+  uuid: c04e69b1-3498-4187-9193-b657fd40cb65
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /api/common
+  ws-headers:
+    Host: usav2.ddns.tjiasu.xyz
+- name: 1.38|珠珠节点2
   server: 35.153.162.49
   port: 27080
   type: vmess
@@ -498,17 +216,69 @@ proxies:
       Host:
       - 35.153.162.49
   udp: true
-- name: 1.01|US美国tg频道bpjzx22
-  server: s162.s2022.xyz
-  port: 23802
-  type: trojan
-  password: 770c9e92-f51b-3e52-b932-eba13fb56801
-  sni: s162.s2022.xyz
+- name: 1.36| HK929
+  server: 207.46.131.81
+  port: 12455
+  type: vmess
+  uuid: e1e7c8da-c24b-4a2f-d4e8-c492f26f0b99
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: aweikeji-YouTube-TG
+- name: 1.30|SSRSUBV02付费推荐suoytssrsub
+  server: cloudflare.xrenblog.com
+  port: 443
+  type: vmess
+  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /xrenblog/
+  ws-headers:
+    Host: ipv6.xrenblog.com
+- name: 1.29| US3183
+  server: 45.32.94.166
+  port: 31676
+  type: vmess
+  uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 45.32.94.166
+- name: 1.29|TOKYO 04丨CLOUDFLARE
+  server: cdn011.youxi.gay
+  port: 443
+  type: vmess
+  uuid: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
+  alterId: 1
+  cipher: auto
+  tls: true
   skip-cert-verify: true
+  network: ws
+  ws-path: /iptv/cctv06.m3u8
+  ws-headers:
+    Host: cdn011.youxi.gay
   udp: true
-- name: 1.01| httpsgitiov9999ip3香港7
-  server: hk.node.qchwnd.moe
-  port: 44601
-  type: trojan
-  password: 679631dd-a671-465d-a054-3d07a2381334
-  sni: hk.node.qchwnd.moe
+- name: 1.10| Relay USUS1531
+  server: 172.67.68.58
+  port: 443
+  type: vmess
+  uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /shuier
+  ws-headers:
+    Host: xc1.v2rie.pp.ua
