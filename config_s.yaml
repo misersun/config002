@@ -1,47 +1,17 @@
 proxies:
-- name: 5.31|TOKYO 01
-  server: cctv7.youxi.gay
+- name: 3.82| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
   port: 443
   type: trojan
-  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
-  sni: cctv7.youxi.gay
-  skip-cert-verify: true
-  udp: true
-- name: 5.29| Relay ZZUS3394
-  server: 198.41.221.169
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.34|TOKYO 05
-  server: cdn012.youxi.gay
-  port: 443
-  type: vmess
-  uuid: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
-  alterId: 1
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /iptv/cctv07.m3u8
-  ws-headers:
-    Host: cdn012.youxi.gay
-  udp: true
-- name: 4.08|SINGAPORE 01
-  server: iptv002.youxi.gay
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 3.62| 甲骨文首尔ARM1trojan
+  server: jgw3.gaox.ml
   port: 443
   type: trojan
-  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
-  sni: iptv002.youxi.gay
-  skip-cert-verify: true
-  udp: true
-- name: 3.43|印度阿伟科技TG油管
+  password: a1718180-d616-4b71-9bb6-3e96ba20f921
+  sni: jgw3.gaox.ml
+- name: 3.58|印度阿伟科技TG油管
   server: azmf.cydonia.club
   port: 43110
   type: trojan
@@ -49,68 +19,83 @@ proxies:
   sni: linode-in-2.scandia.club
   skip-cert-verify: true
   udp: true
-- name: 3.35|SINGAPORE 03
-  server: iptv001.youxi.gay
-  port: 443
+- name: 3.55|台湾阿伟科技TG油管原生
+  server: tw.node.qchwnd.moe
+  port: 11435
   type: trojan
-  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
-  sni: iptv001.youxi.gay
+  password: dd57bb2b-a9d4-4c6b-9a83-1c4289e70a65
+  sni: tw.node.qchwnd.moe
   skip-cert-verify: true
   udp: true
-- name: 3.04|Youtube技术分享室澳大利亚
-  server: 185.148.14.58
-  port: 53514
-  type: trojan
-  password: 3r90JDGBYA
-  skip-cert-verify: true
-  udp: true
-- name: 2.48|TOKYO 03丨CLOUDFLARE
-  server: cdn008.youxi.gay
-  port: 443
+- name: 3.27|HOPTW2v2ray
+  server: h7520tw.droplet.today
+  port: 28443
   type: vmess
-  uuid: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
-  alterId: 1
+  uuid: 3a7fa0b9-443d-4dac-af1c-8aec2a0cfd5e
+  alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
-  ws-path: /cdn
+  ws-path: lzu4t6t5j7qp72ebep0c
   ws-headers:
-    Host: cdn008.youxi.gay
+    Host: h7520tw.droplet.today
   udp: true
-- name: 2.20|SANJOSE 01
-  server: cdn013.youxi.gay
+- name: 3.20| 魔戒net  印度BGP中转
+  server: azhk.relay.qchwnd.moe
+  port: 44604
+  type: trojan
+  password: 6c0bd309-56fa-4ba8-9ac2-74d74eb6f0e1
+  sni: in1.alink.qchwnd.moe
+  skip-cert-verify: true
+- name: 2.56| 甲骨文东京ARM1trojan
+  server: jgwdj3.gaox.ml
   port: 443
   type: trojan
-  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
-  sni: cdn013.youxi.gay
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  sni: jgwdj3.gaox.ml
+- name: 2.48|日本阿伟科技TG油管 2
+  server: jp1.azure.infininode.xyz
+  port: 34635
+  type: vmess
+  uuid: dd57bb2b-a9d4-4c6b-9a83-1c4289e70a65
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
   udp: true
-- name: 1.91|SANJOSE 03丨NETFLIX丨DISNEY
-  server: cdn018.youxi.gay
+- name: 2.07|日本阿伟科技TG油管 4
+  server: jgwdb4.gaox.ml
   port: 443
   type: trojan
-  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
-  sni: cdn018.youxi.gay
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: 1.90|FREMONT 02
-  server: iptv004.youxi.gay
+- name: 1.97|美国阿伟科技TG油管
+  server: 104.16.162.16
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxus.fovi.tk
+  udp: true
+- name: 1.91|韩国阿伟科技TG油管
+  server: jgwcc3.gaox.ml
   port: 443
   type: trojan
-  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
-  sni: iptv004.youxi.gay
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  sni: jgwcc3.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: 1.89|SANJOSE 02丨NETFLIX丨DISNEY
-  server: cdn017.youxi.gay
-  port: 443
-  type: trojan
-  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
-  sni: cdn017.youxi.gay
-  skip-cert-verify: true
-  udp: true
-- name: 1.84| RelayUSUS3229
+- name: 1.83| RelayUSUS3229
   server: test.0dc.cn
   port: 443
   type: vmess
@@ -122,28 +107,16 @@ proxies:
   ws-path: /
   ws-headers:
     Host: test.0dc.cn
-- name: 1.79|Relay ZZZZ3345
-  server: hantesi.xyz
-  port: 50129
-  type: vmess
-  uuid: dd64d4c0-71fa-455a-ed52-ed6d947aa0d8
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /hello
-  ws-headers:
-    Host: hantesi.xyz
-- name: 1.68|FREMONT 01
-  server: iptv003.youxi.gay
+- name: 1.82|日本阿伟科技TG油管 3
+  server: jgwdb1.gaox.ml
   port: 443
   type: trojan
-  password: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
-  sni: iptv003.youxi.gay
+  password: a580d839-ee41-4df1-bf03-6789dca32e30
+  sni: jgwdb1.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: 1.49| Relay ZZHK3396
-  server: cloudflare.a-yu.xyz
+- name: 1.80|defaultname64
+  server: 198.41.212.12
   port: 443
   type: vmess
   uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
@@ -151,48 +124,28 @@ proxies:
   cipher: auto
   tls: true
   network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero2.a-yu.xyz
-- name: 1.46| US1532
-  server: 173.255.215.146
-  port: 11443
+  ws-opts:
+    path: /sakura/
+    headers:
+      host: zero1.a-yu.xyz
+- name: 1.71|美国阿伟科技TG油管 23
+  server: us1.azure.infininode.xyz
+  port: 34634
   type: vmess
-  uuid: c04e69b1-3498-4187-9193-b657fd40cb65
+  uuid: dd57bb2b-a9d4-4c6b-9a83-1c4289e70a65
   alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /api/common
-  ws-headers:
-    Host: usav2.ddns.tjiasu.xyz
-- name: 1.30|SSRSUBV02付费推荐suoytssrsub
-  server: cloudflare.xrenblog.com
-  port: 443
-  type: vmess
-  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /xrenblog/
-  ws-headers:
-    Host: ipv6.xrenblog.com
-- name: 1.29|TOKYO 04丨CLOUDFLARE
-  server: cdn011.youxi.gay
-  port: 443
-  type: vmess
-  uuid: f9405c66-97a3-4ec4-8666-ec5f301d4d7c
-  alterId: 1
   cipher: auto
   tls: true
   skip-cert-verify: true
-  network: ws
-  ws-path: /iptv/cctv06.m3u8
-  ws-headers:
-    Host: cdn011.youxi.gay
   udp: true
-- name: 1.10| Relay USUS1531
+- name: 1.64|Youtube技术分享室澳大利亚
+  server: 185.148.14.58
+  port: 53514
+  type: trojan
+  password: 3r90JDGBYA
+  skip-cert-verify: true
+  udp: true
+- name: 1.59| Relay USUS1531
   server: 172.67.68.58
   port: 443
   type: vmess
@@ -204,3 +157,210 @@ proxies:
   ws-path: /shuier
   ws-headers:
     Host: xc1.v2rie.pp.ua
+- name: 1.53| 美国 迈阿密
+  server: misaka1433.tk
+  port: 443
+  type: trojan
+  password: aPn2GJNuCQqBXSbV
+  sni: misaka1433.tk
+- name: 1.52|甲骨文海得拉巴ARM1trojan
+  server: jgwhdlb3.gaox.ml
+  port: 443
+  type: trojan
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  sni: jgwhdlb3.gaox.ml
+- name: 1.47|defaultname21
+  server: 198.41.212.7
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      host: zero1.a-yu.xyz
+- name: 1.45|英国阿伟科技TG油管
+  server: jgwld3.gaox.ml
+  port: 443
+  type: trojan
+  password: 71b55a84-3fac-4458-abff-eaad79219c91
+  sni: jgwld3.gaox.ml
+  skip-cert-verify: true
+  udp: true
+- name: 1.44| httpsgitiov9999 美国CDN ip6 5
+  server: cdn.xia.me
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.43| httpsgitiov9999 美国CDN ip6 7
+  server: icook.tw
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.39| httpsgitiov9999 美国CDN ip6 11
+  server: 104.19.48.16
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.38| httpsgitiov9999 美国CDN ip6 9
+  server: 104.16.193.185
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.37| httpsgitiov9999 美国CDN ip6 6
+  server: 162.159.134.92
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.37| httpsgitiov9999 美国CDN ip6 13
+  server: www.digitalocean.com
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.37| httpsgitiov9999 美国CDN ip6 10
+  server: cf.521024.xyz
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.35| httpsgitiov9999 美国CDN ip6 3
+  server: 104.25.212.16
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.30| httpsgitiov9999 美国CDN ip6 2
+  server: 104.25.167.166
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.27| httpsgitiov9999 美国CDN ip6
+  server: 104.16.114.245
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.19|defaultname2
+  server: 198.41.212.15
+  port: 443
+  type: vmess
+  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sakura/
+    headers:
+      host: zero1.a-yu.xyz
+- name: 1.12| httpsgitiov9999 美国CDN ip6 12
+  server: cf1.521024.xyz
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.08|甲骨文海得拉巴AMD1trojan
+  server: jgwhdlb1.gaox.ml
+  port: 443
+  type: trojan
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  sni: jgwhdlb1.gaox.ml
+- name: 1.04|SSRSUBV02付费推荐suoytssrsub
+  server: cloudflare.xrenblog.com
+  port: 443
+  type: vmess
+  uuid: 6c175d1a-a57f-4881-a471-173eb139694b
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /xrenblog/
+  ws-headers:
+    Host: ipv6.xrenblog.com

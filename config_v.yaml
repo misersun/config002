@@ -1,21 +1,5 @@
 proxies:
-- name: 3.09| SG1224
-  server: 167.71.197.50
-  port: 44194
-  type: vmess
-  uuid: 5cc6c2cf-af81-4341-f8f7-af8a83804d46
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.56| 魔戒net  韩国宝马ＧＴ1
-  server: seoalhigh.515223.xyz
-  port: 41371
-  type: vmess
-  uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.49| 韩国KR 2227 himoonpw
+- name: 6.29| 韩国KR 2227 himoonpw
   server: 152.70.88.168
   port: 49081
   type: vmess
@@ -23,57 +7,243 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.11| httpsgitiov9999ip3美国31
-  server: smoracle2.515223.xyz
-  port: 25859
+- name: 5.07| RelayHKTW940
+  server: hkaz1.xmrth-node.xyz
+  port: 10062
   type: vmess
-  uuid: 620e3569-7653-4456-9f71-c6f19f3839fe
-  alterId: 0
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  alterId: 2
   cipher: auto
   tls: false
-- name: 1.38|珠珠节点2
-  server: 35.153.162.49
-  port: 27080
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 5.05| RelayHKTW944
+  server: hkaz1.xmrth-node.xyz
+  port: 10026
   type: vmess
-  uuid: 6334db00-f39b-49d7-d12a-2e3c037c5d97
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 4.50|日本极速三网优化
+  server: 4.v2-ray.cyou
+  port: 36104
+  type: vmess
+  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: 4.v2-ray.cyou
+  udp: true
+- name: 3.92| RelayUSJP3213
+  server: jpaz3.xmrth-node.xyz
+  port: 10051
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 3.37| RelayUSTW3203
+  server: jpaz2.xmrth-node.xyz
+  port: 10067
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 3.09| RelayHKDE942
+  server: hkaz1.xmrth-node.xyz
+  port: 10033
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 2.84| RelayUSUS3199
+  server: jpaz2.xmrth-node.xyz
+  port: 10141
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 2.73|韩国
+  server: kr.rnmtq.gq
+  port: 63470
+  type: vmess
+  uuid: cb8ab285-fafc-45f6-87bc-97a7a2f27f9f
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 35.153.162.49
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: vod3.nty.tv189.cn
   udp: true
-- name: 1.36| HK929
-  server: 207.46.131.81
-  port: 12455
+- name: 2.71| RelayHKDE941
+  server: hkaz3.xmrth-node.xyz
+  port: 10035
   type: vmess
-  uuid: e1e7c8da-c24b-4a2f-d4e8-c492f26f0b99
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 2.57| RelayUSUS3200
+  server: jpaz3.xmrth-node.xyz
+  port: 10140
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 2.53| RelayUSDE3215
+  server: jpaz2.xmrth-node.xyz
+  port: 10138
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 2.32| US3210
+  server: 155.248.195.56
+  port: 17247
+  type: vmess
+  uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: aweikeji-YouTube-TG
-- name: 1.29| US3183
-  server: 45.32.94.166
-  port: 31676
+    Host: san.515223.xyz
+- name: 2.31| RelayUSDE3208
+  server: jpaz3.xmrth-node.xyz
+  port: 10135
   type: vmess
-  uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 2.28|美国2AWS
+  server: 74.v2-ray.cyou
+  port: 36174
+  type: vmess
+  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: 74.v2-ray.cyou
+  udp: true
+- name: 2.09|美国阿伟科技TG油管原生 2
+  server: 152.70.114.63
+  port: 25859
+  type: vmess
+  uuid: 620e3569-7653-4456-9f71-c6f19f3839fe
   alterId: 0
   cipher: auto
   tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 45.32.94.166
+  skip-cert-verify: true
+  udp: true
+- name: 1.93|韩国2AWS
+  server: 24.v2-ray.cyou
+  port: 15024
+  type: vmess
+  uuid: 047184b7-6da2-3d3f-ac27-6a1a8701daf8
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /hls/cctv5phd.m3u8
+  ws-headers:
+    Host: 24.v2-ray.cyou
+  udp: true
+- name: 1.86| RelayHKHK943
+  server: hkaz3.xmrth-node.xyz
+  port: 10009
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 1.81|美国阿伟科技TG油管
+  server: smoracle.515223.xyz
+  port: 51690
+  type: vmess
+  uuid: 30ecebb3-1240-44e1-8551-a100ad13e330
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.60| 魔戒net  韩国宝马ＧＴ1
+  server: seoalhigh.515223.xyz
+  port: 41371
+  type: vmess
+  uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.14| RelayHKSG938
+  server: hkaz3.xmrth-node.xyz
+  port: 10028
+  type: vmess
+  uuid: fff8caab-7472-32c1-9a70-3953002ebb35
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
