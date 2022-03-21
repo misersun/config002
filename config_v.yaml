@@ -1,5 +1,17 @@
 proxies:
-- name: 5.64|Linode日本
+- name: 5.34| 魔戒net公益AZ香港不代表收费节点品质
+  server: 23.102.235.104
+  port: 25201
+  type: vmess
+  uuid: 45e1747e-dd66-303c-8ecc-f94334dd47a9
+  alterId: 0
+  cipher: chacha20-poly1305
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 23.102.235.104
+- name: 5.04|Linode日本
   server: lin1.free80ml.tk
   port: 80
   type: vmess
@@ -13,51 +25,162 @@ proxies:
   ws-headers:
     Host: lin1.free80ml.tk
   udp: true
-- name: 4.73|GB826
-  server: 144.24.88.6
-  port: 45177
+- name: 4.35|小日本A
+  server: 40.74.119.112
+  port: 4256
   type: vmess
-  uuid: c2f1ae57-7ada-4bac-f510-a8336c8708dd
+  uuid: 89c4c365-f144-4d8a-a68c-beccc4bcb1df
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.68| 魔戒net  韩国宝马ＧＴ1
-  server: seoalhigh.515223.xyz
-  port: 41371
+  skip-cert-verify: true
+  udp: true
+- name: 4.30| JP1055
+  server: 139.162.113.148
+  port: 8080
   type: vmess
-  uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34
+  uuid: c6191a10-baf5-3391-aa2e-983826d50d0c
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.64|xq31912
-  server: 104.16.9.221
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 139.162.113.148
+- name: 4.23| HK941
+  server: 20.187.65.101
   port: 80
   type: vmess
-  uuid: e46835e3-b770-4d5b-8ba0-5507f8385c44
+  uuid: c6191a10-baf5-3391-aa2e-983826d50d0c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 20.187.65.101
+- name: 4.15|新加坡C
+  server: azpf.rapids.tools
+  port: 30132
+  type: vmess
+  uuid: 89c4c365-f144-4d8a-a68c-beccc4bcb1df
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.78|香港阿伟科技TG油管 7
+  server: 52.175.56.208
+  port: 80
+  type: vmess
+  uuid: fc26e984-ad69-383b-8f3e-393a82926098
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /wwwnet
-  ws-headers:
-    Host: caa.ziyun.ga
+  ws-opts:
+    path: /v2ray
+    headers:
+      Host: 52.175.56.208
   udp: true
-- name: 1.60|xq31914
-  server: 198.41.211.131
+- name: 3.52| SG1244
+  server: 139.162.33.133
   port: 80
   type: vmess
-  uuid: e46835e3-b770-4d5b-8ba0-5507f8385c44
+  uuid: c6191a10-baf5-3391-aa2e-983826d50d0c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: baiducdncmn2.inter.iqiyi.com
+- name: 3.45| US583
+  server: 150.230.252.195
+  port: 29363
+  type: vmess
+  uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 3.13|小日本C
+  server: azpf.rapids.tools
+  port: 30131
+  type: vmess
+  uuid: 89c4c365-f144-4d8a-a68c-beccc4bcb1df
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-path: /wwwnet
-  ws-headers:
-    Host: caa.ziyun.ga
   udp: true
-- name: 1.45|xq31943
+- name: 2.55|美国C
+  server: azpf.rapids.tools
+  port: 30134
+  type: vmess
+  uuid: 89c4c365-f144-4d8a-a68c-beccc4bcb1df
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.94|甲骨文大阪011
+  server: 168.138.36.193
+  port: 32329
+  type: vmess
+  uuid: ddf03d93-d6e5-46f8-8176-80536e52e50e
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.85| US1577
+  server: 45.33.31.11
+  port: 80
+  type: vmess
+  uuid: c6191a10-baf5-3391-aa2e-983826d50d0c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: baiducdncmn2.inter.iqiyi.com
+- name: 1.76|英国C
+  server: azpf.rapids.tools
+  port: 30133
+  type: vmess
+  uuid: 89c4c365-f144-4d8a-a68c-beccc4bcb1df
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.71| US1571
+  server: 164.92.71.238
+  port: 80
+  type: vmess
+  uuid: c6191a10-baf5-3391-aa2e-983826d50d0c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: baiducdncmn2.inter.iqiyi.com
+- name: 1.66| US3207
+  server: 155.248.195.56
+  port: 17247
+  type: vmess
+  uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: san.515223.xyz
+- name: 1.66|xq31943
   server: 104.17.103.125
   port: 80
   type: vmess
@@ -71,37 +194,89 @@ proxies:
   ws-headers:
     Host: caa.ziyun.ga
   udp: true
-- name: 1.36| US1508
-  server: 34.96.173.216
-  port: 53004
+- name: 1.65| US1578
+  server: 147.182.249.23
+  port: 80
   type: vmess
-  uuid: 4a272475-4783-41e3-eb6b-31b97d31c0f6
+  uuid: c6191a10-baf5-3391-aa2e-983826d50d0c
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.36|甲骨文大阪011
-  server: 168.138.36.193
-  port: 32329
+  network: ws
+  ws-path: /TS/recharge/tzUrl.html
+  ws-headers:
+    Host: gd.189.cn
+- name: 1.62|英国D
+  server: az.chn1.top
+  port: 2002
   type: vmess
-  uuid: ddf03d93-d6e5-46f8-8176-80536e52e50e
+  uuid: 89c4c365-f144-4d8a-a68c-beccc4bcb1df
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 1.31| US3151
-  server: 45.32.94.166
-  port: 31676
+- name: 1.58| JP1127
+  server: 146.56.99.245
+  port: 25135
   type: vmess
-  uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753
+  uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa
   alterId: 0
   cipher: auto
   tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 45.32.94.166
+- name: 1.39| SG382
+  server: 167.71.197.50
+  port: 44194
+  type: vmess
+  uuid: 5cc6c2cf-af81-4341-f8f7-af8a83804d46
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.32| Relay USUS1593
+  server: 155.248.202.203
+  port: 14564
+  type: vmess
+  uuid: 4a0da379-a7cc-4389-88d7-45514b896883
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.25| RU1226
+  server: 193.53.126.136
+  port: 80
+  type: vmess
+  uuid: c6191a10-baf5-3391-aa2e-983826d50d0c
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: baiducdncmn2.inter.iqiyi.com
+- name: 1.23|xq31914
+  server: 198.41.211.131
+  port: 80
+  type: vmess
+  uuid: e46835e3-b770-4d5b-8ba0-5507f8385c44
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /wwwnet
+  ws-headers:
+    Host: caa.ziyun.ga
+  udp: true
+- name: 1.11|xq31912
+  server: 104.16.9.221
+  port: 80
+  type: vmess
+  uuid: e46835e3-b770-4d5b-8ba0-5507f8385c44
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /wwwnet
+  ws-headers:
+    Host: caa.ziyun.ga
+  udp: true
