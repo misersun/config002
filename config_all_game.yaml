@@ -1,25 +1,93 @@
 proxies:
-- name: 5.47|CN中国tg频道bpjzx21
-  server: cn01.efan.men
-  port: 8720
+- name: 5.70|油管 TG 8度科技 8
+  server: cn05.mynode.me
+  port: 8123
   type: ssr
   cipher: rc4-md5
-  password: efanccyun
+  password: passwd
   protocol: origin
-  obfs: http_post
+  obfs: http_simple
   protocol-param: ''
-  obfs-param: 52035-R92k7sru9Q.download.microsoft.com
+  obfs-param: 24451-EtQwZz5m.download.microsoft.com
   udp: true
-- name: 5.30|CN386  718Mb
-  server: 117.28.243.173
+- name: 5.70|油管 TG 8度科技 2
+  server: cn02.mynode.me
+  port: 8107
   type: ssr
-  country: CN
-  port: 2173
-  password: passinfo123
   cipher: rc4-md5
+  password: passwd
   protocol: origin
-  obfs: plain
-- name: 4.64|CN396  306Mb
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 24451-EtQwZz5m.download.microsoft.com
+  udp: true
+- name: 5.62|MO 1141 himoonpw
+  server: cn05.mynode.me
+  port: 8121
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 24451-EtQwZz5m.download.microsoft.com
+  udp: true
+- name: 5.46|油管 TG 8度科技 4
+  server: cn03.mynode.me
+  port: 8114
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 24451-EtQwZz5m.download.microsoft.com
+  udp: true
+- name: 5.36|油管 TG 8度科技 3
+  server: cn02.mynode.me
+  port: 8110
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 24451-EtQwZz5m.download.microsoft.com
+  udp: true
+- name: 5.24|油管 TG 8度科技 7
+  server: cn05.mynode.me
+  port: 8124
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 24451-EtQwZz5m.download.microsoft.com
+  udp: true
+- name: 5.14|油管 TG 8度科技 6
+  server: cn02.mynode.me
+  port: 8108
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 24451-EtQwZz5m.download.microsoft.com
+  udp: true
+- name: 4.98|魔戒net9
+  server: cn03.mynode.me
+  port: 8112
+  type: ssr
+  cipher: rc4-md5
+  password: passwd
+  protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 24451-EtQwZz5m.download.microsoft.com
+  udp: true
+- name: 4.96|CN396  306Mb
   server: 117.28.243.165
   type: ssr
   country: CN
@@ -28,28 +96,82 @@ proxies:
   cipher: rc4-md5
   protocol: origin
   obfs: plain
-- name: 4.00|RelayUSUS2046
-  server: sg-am11.eqnode.net
+- name: 4.94|油管 TG 8度科技 5
+  server: cn05.mynode.me
+  port: 8125
   type: ssr
-  country: US
-  port: 8181
-  password: kKdNNt2HZ
-  cipher: aes-256-cfb
+  cipher: rc4-md5
+  password: passwd
   protocol: origin
+  obfs: http_simple
+  protocol-param: ''
+  obfs-param: 24451-EtQwZz5m.download.microsoft.com
+  udp: true
+- name: 2.69| SSR20220303CN中国04
+  server: gz1.52168.xyz
+  port: 1104
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
-  obfs-param: releases.ubuntu.com
-- name: 1.53|RelayCNUS355
-  server: iepl-gz.yyuuii.cyou
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
+- name: 1.95|RelayCNUS376
+  server: gz1.52168.xyz
   type: ssr
   country: CN
-  port: 49853
+  port: 1110
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 623:l78d6doy74s
+  obfs: tls1.2_ticket_auth
+  obfs-param: t.me/vpnhat
+- name: 1.57| SSR20220319CN中国16
+  server: gz1.52168.xyz
+  port: 1116
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:y711wfz6uln
+  obfs-param: 30a2a149.baidu.com
+- name: 1.52|RelayCNDE374
+  server: gz2.52168.xyz
+  type: ssr
+  country: CN
+  port: 2101
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 1.17|RelayCNNL373
+  server: gz1.52168.xyz
+  type: ssr
+  country: CN
+  port: 1117
+  password: epChJS35fV
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 149:y711wfz6uln
+  obfs: tls1.2_ticket_auth
+  obfs-param: 30a2a149.baidu.com
+- name: 1.14|RelayCNHK378
+  server: jx-002.yyuuii.cyou
+  type: ssr
+  country: CN
+  port: 12021
   password: hGkQ6915tD
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 32381:C2pHyiQfgm
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
-- name: 1.52|13624319185443
+- name: 1.13|13624319185443
   server: 136.243.191.85
   port: 443
   type: ssr
@@ -60,53 +182,9 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 1.42|IPLC SG
-  server: iepl02.123ccc.xyz
-  port: 9041
-  type: ssr
-  cipher: chacha20-ietf
-  password: ygUo3W
-  protocol: auth_aes128_md5
-  obfs: http_simple
-  protocol-param: 11418:mhr2001
-  obfs-param: 89c2711418.apple.com
-  udp: true
-- name: 1.34|RelayCNUS356
-  server: gzyd-01.yyuuii.cyou
-  type: ssr
-  country: CN
-  port: 23033
-  password: hGkQ6915tD
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 32381:C2pHyiQfgm
-  obfs: tls1.2_ticket_auth
-  obfs-param: ajax.microsoft.com
-- name: 0.92|RelayCNHK339
-  server: iepl-gz.yyuuii.cyou
-  type: ssr
-  country: CN
-  port: 10804
-  password: hGkQ6915tD
-  cipher: aes-256-cfb
-  protocol: auth_aes128_md5
-  protocol-param: 32381:C2pHyiQfgm
-  obfs: tls1.2_ticket_auth
-  obfs-param: ajax.microsoft.com
-- name: 0.67|CN中国tg频道bpjzx23
-  server: cn01.efan.men
-  port: 8714
-  type: ssr
-  cipher: rc4-md5
-  password: efanccyun
-  protocol: origin
-  obfs: http_post
-  protocol-param: ''
-  obfs-param: 52035-R92k7sru9Q.download.microsoft.com
-  udp: true
-- name: 0.58| SSR20220319CN中国02
-  server: gz2.52168.xyz
-  port: 2107
+- name: 1.07| Relay中国德国286 927Mb
+  server: gz1.52168.xyz
+  port: 1102
   type: ssr
   cipher: aes-256-cfb
   password: epChJS35fV
@@ -114,20 +192,9 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 149:y711wfz6uln
   obfs-param: 30a2a149.baidu.com
-- name: 0.55|CN中国tg频道bpjzx24
-  server: cn01.efan.men
-  port: 8755
-  type: ssr
-  cipher: rc4-md5
-  password: efanccyun
-  protocol: origin
-  obfs: http_post
-  protocol-param: ''
-  obfs-param: 52035-R92k7sru9Q.download.microsoft.com
-  udp: true
-- name: 0.52| SSR20220309CN中国01
-  server: gz1.52168.xyz
-  port: 1113
+- name: 1.00| SSR20220321CN中国23
+  server: gz2.52168.xyz
+  port: 2108
   type: ssr
   cipher: aes-256-cfb
   password: epChJS35fV
@@ -135,7 +202,18 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 623:l78d6doy74s
   obfs-param: 2f712623.baidu.com
-- name: 0.41|Relay 711Mb
+- name: 0.78|RelayCNHK372
+  server: 117.185.229.112
+  type: ssr
+  country: CN
+  port: 45089
+  password: hGkQ6915tD
+  cipher: aes-256-cfb
+  protocol: auth_aes128_md5
+  protocol-param: 32381:C2pHyiQfgm
+  obfs: tls1.2_ticket_auth
+  obfs-param: ajax.microsoft.com
+- name: 0.78|Relay 711Mb
   server: gzyd-01.yyuuii.cyou
   type: ssr
   country: CN
@@ -146,25 +224,33 @@ proxies:
   protocol-param: 32381:C2pHyiQfgm
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
-- name: 0.33|0.46|1.25|2.99|2.18|0.86|0.53|1.31|0.40|
-  server: ieplszhk-sz.qqgg.work
+- name: 0.58|CN386  718Mb
+  server: 117.28.243.173
   type: ssr
   country: CN
-  port: 50804
+  port: 2173
+  password: passinfo123
+  cipher: rc4-md5
+  protocol: origin
+  obfs: plain
+- name: 0.43|RelayCNHK339
+  server: iepl-gz.yyuuii.cyou
+  type: ssr
+  country: CN
+  port: 10804
   password: hGkQ6915tD
   cipher: aes-256-cfb
   protocol: auth_aes128_md5
   protocol-param: 32381:C2pHyiQfgm
   obfs: tls1.2_ticket_auth
   obfs-param: ajax.microsoft.com
-- name: 0.31|RelayCNNL331
-  server: gz2.52168.xyz
+- name: 0.40| SSR20220309CN中国01
+  server: gz1.52168.xyz
+  port: 1113
   type: ssr
-  country: CN
-  port: 2109
-  password: epChJS35fV
   cipher: aes-256-cfb
+  password: epChJS35fV
   protocol: auth_aes128_sha1
-  protocol-param: 149:y711wfz6uln
   obfs: tls1.2_ticket_auth
-  obfs-param: 30a2a149.baidu.com
+  protocol-param: 623:l78d6doy74s
+  obfs-param: 2f712623.baidu.com
