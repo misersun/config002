@@ -1,211 +1,162 @@
 proxies:
-- name: 5.82|香港阿伟科技TG油管
-  server: hk3.qingyun123.xyz
-  port: 10050
+- name: 6.05|hkp2psharing 17
+  server: 20.239.49.225
+  port: 10002
+  type: vmess
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 5.93|hkp2psharing 18
+  server: 20.239.49.225
+  port: 10009
+  type: vmess
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 5.86|hkp2psharing 16
+  server: 20.205.109.227
+  port: 10001
+  type: vmess
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 5.77|azp2psharing
+  server: 13.75.95.54
+  port: 10010
+  type: vmess
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 5.37|日本阿伟科技TG油管原生
+  server: jgwdj1.gaox.ml
+  port: 443
   type: trojan
-  password: 6f5896ec-605f-47a9-bfa9-ccb3f2b17e8c
-  sni: hk3.qingyun123.xyz
+  password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4
+  sni: jgwdj1.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: 5.58|defaultname2
-  server: 198.41.212.15
-  port: 443
+- name: 5.02|hkp2psharing 19
+  server: 20.205.109.227
+  port: 10037
   type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
   alterId: 0
   cipher: auto
   tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      host: zero1.a-yu.xyz
-- name: 5.44| RelayZZSG4109
-  server: 198.41.212.10
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.31|defaultname64
-  server: 198.41.212.12
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      host: zero1.a-yu.xyz
-- name: 5.23| Relay ZZUS3250
-  server: cloudflare.a-yu.xyz
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero2.a-yu.xyz
-- name: 5.13| RelayZZSG4108
-  server: 198.41.212.9
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.07| RelayZZSG4110
-  server: 198.41.212.14
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 5.02| RelayZZSG4068
-  server: 198.41.212.18
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.64| RelayZZSG4065
-  server: 198.41.212.11
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.59|defaultname21
-  server: 198.41.212.7
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /sakura/
-    headers:
-      host: zero1.a-yu.xyz
-- name: 4.50| RelayZZSG4067
-  server: 198.41.212.13
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.43| RelayZZSG4107
-  server: 198.41.212.20
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 4.42|官方网站mimoncc
-  server: 20.24.68.5
-  port: 56654
-  type: trojan
-  password: 580e3719-5bc3-4333-b156-848acb82c32d
-  sni: tfmus2.shanjun.me
   skip-cert-verify: true
-- name: 4.27|ZZ476
-  server: 198.41.212.234
-  port: 443
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 4.98|VIP日本2BGPNetflix
+  server: azhk.relay.qchwnd.moe
+  port: 44603
+  type: trojan
+  password: 9816c0a0-95c3-44bc-b96a-65be94017518
+  sni: azhk.relay.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 4.88|sgpp2psharing 3
+  server: 13.75.95.54
+  port: 10014
   type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /sakura/
+  ws-path: /v2ray
   ws-headers:
-    Host: 2022-world-1.a-yu.xyz
-- name: 4.16| 甲骨文春川ARM1trojan
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 4.74|twp2psharing 8
+  server: 13.75.95.54
+  port: 10035
+  type: vmess
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 4.69|VIP韩国4
+  server: 144.24.76.223
+  port: 44600
+  type: trojan
+  password: 9816c0a0-95c3-44bc-b96a-65be94017518
+  skip-cert-verify: true
+  udp: true
+- name: 4.47| 甲骨文春川ARM1trojan
   server: jgwcc3.gaox.ml
   port: 443
   type: trojan
   password: b291d129-ee55-4801-a9b8-b5316e5c37b7
   sni: jgwcc3.gaox.ml
-- name: 4.16|甲骨文春川AMD1trojan
-  server: jgwcc1.gaox.ml
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  sni: jgwcc1.gaox.ml
-- name: 4.00|Relay ZZZZ3294
-  server: popopo.store
-  port: 443
+- name: 4.28|jpp2psharing 8
+  server: 20.239.49.225
+  port: 10015
   type: vmess
-  uuid: 8795da46-2362-4e1a-befa-8d3c37de4ca2
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /10fecac475b8/
+  ws-path: /v2ray
   ws-headers:
-    Host: popopo.store
-- name: 3.73| RelayUSUS3145
-  server: 172.67.190.72
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 4.20|日本阿伟科技TG油管NF 6
+  server: jgwdj2.gaox.ml
   port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero2.a-yu.xyz
-- name: 3.57|印度BGP中转
-  server: azhk.relay.qchwnd.moe
-  port: 44604
   type: trojan
-  password: b7a8698e-09f0-4e6e-a197-d27337a22171
-  sni: azhk.relay.qchwnd.moe
+  password: 86231db5-96d0-4271-9977-cae3a0cba614
+  sni: jgwdj2.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: 3.51|HK油管 TG 8度科技
+- name: 4.09|香港阿伟科技TG油管 2
+  server: hk4.qingyun123.xyz
+  port: 10050
+  type: trojan
+  password: 7ba98947-ea44-4682-ae1a-79b0ba1ec98a
+  sni: hk4.qingyun123.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 4.02|HK油管 TG 8度科技
   server: 0320hk567.fans8.xyz
   port: 443
   type: vmess
@@ -219,27 +170,79 @@ proxies:
   ws-headers:
     Host: 0320hk567.fans8.xyz
   udp: true
-- name: 3.46|日本阿伟科技TG油管原生
-  server: jgwdj1.gaox.ml
-  port: 443
+- name: 3.96|VIP香港2Netflix
+  server: hkt.node.qchwnd.moe
+  port: 44609
   type: trojan
-  password: e8553fc5-f3a0-409c-ac06-1cd93b026cf4
-  sni: jgwdj1.gaox.ml
+  password: 9816c0a0-95c3-44bc-b96a-65be94017518
+  sni: hkt.node.qchwnd.moe
   skip-cert-verify: true
   udp: true
-- name: 3.45|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
-  port: 443
+- name: 3.94|VIP印度尼西亚BGPNetflix
+  server: azhk.relay.qchwnd.moe
+  port: 44607
   type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
-- name: 3.43| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
+  password: 9816c0a0-95c3-44bc-b96a-65be94017518
+  sni: azhk.relay.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 3.74|jpp2psharing 9
+  server: 20.239.49.225
+  port: 10033
+  type: vmess
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 3.60|twp2psharing 7
+  server: 20.205.109.227
+  port: 10006
+  type: vmess
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 3.55|Relay CACA438
+  server: 0314tw02.fans8.xyz
   port: 443
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 3
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 0314tw02.fans8.xyz
+- name: 3.30|新加坡1Netflix15x
+  server: sg1.alinkrelay.com
+  port: 44605
   type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- name: 3.33|台湾TGnodesharing173
+  password: 9816c0a0-95c3-44bc-b96a-65be94017518
+  sni: sg1.alinkrelay.com
+  skip-cert-verify: true
+  udp: true
+- name: 3.15|VIP台湾BGP中转Netflix
+  server: azhk.relay.qchwnd.moe
+  port: 44608
+  type: trojan
+  password: 9816c0a0-95c3-44bc-b96a-65be94017518
+  sni: azhk.relay.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 3.01|台湾TGnodesharing173
   server: 0319tw123.fans8.xyz
   port: 443
   type: vmess
@@ -253,70 +256,7 @@ proxies:
   ws-headers:
     Host: 0319tw123.fans8.xyz
   udp: true
-- name: 3.16|Relay CACA437
-  server: 0320tw1731.fans8.xyz
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /nl
-  ws-headers:
-    Host: 0320tw1731.fans8.xyz
-- name: 3.09| httpsgitiov9999ip5香港4
-  server: hk8.peakerselling.com
-  port: 443
-  type: vmess
-  uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /helloman
-    headers:
-      Host: hk8.peakerselling.com
-- name: 3.08|SGwmt32115
-  server: sp1.peakerselling.com
-  port: 443
-  type: vmess
-  uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /helloman
-  ws-headers:
-    Host: sp1.peakerselling.com
-  udp: true
-- name: 3.05|Relay CACA438
-  server: 0314tw02.fans8.xyz
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 3
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: 0314tw02.fans8.xyz
-- name: 2.74|1352Mb
-  server: 0320jp.fans8.xyz
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: 0320jp.fans8.xyz
-- name: 2.67|韩国阿伟科技TG油管
+- name: 2.54|韩国阿伟科技TG油管
   server: kr3.qingyun123.xyz
   port: 10050
   type: trojan
@@ -324,210 +264,7 @@ proxies:
   sni: kr3.qingyun123.xyz
   skip-cert-verify: true
   udp: true
-- name: 2.51|印度阿伟科技TG油管NF
-  server: in02.holiganfan.com
-  port: 10088
-  type: trojan
-  password: b5643c19-65bb-4af8-a4cb-784f3ec12b21
-  sni: in02.holiganfan.com
-  skip-cert-verify: true
-  udp: true
-- name: 2.27|justhostru2 新西伯利亚 2
-  server: ru2.peakerselling.com
-  port: 443
-  type: vmess
-  uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /helloman
-  ws-headers:
-    Host: https://t.me/p2psharing
-  udp: true
-- name: 2.27|美国阿伟科技TG油管NF 2
-  server: linodemx0303.moonfree.top
-  port: 443
-  type: vmess
-  uuid: 1ab594a2-cee0-4876-89b9-1b9b4053a6c4
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: linodemx0303.moonfree.top
-  udp: true
-- name: 2.17|AUwmt3194
-  server: 185.148.14.58
-  port: 53514
-  type: trojan
-  password: 3r90JDGBYA
-  skip-cert-verify: true
-  udp: true
-- name: 2.12|KR油管 TG 8度科技
-  server: 0320kr99.fans8.xyz
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /nmsl
-  ws-headers:
-    Host: 0320kr99.fans8.xyz
-  udp: true
-- name: 2.12|日本阿伟科技TG油管NF 6
-  server: jgwdj2.gaox.ml
-  port: 443
-  type: trojan
-  password: 86231db5-96d0-4271-9977-cae3a0cba614
-  sni: jgwdj2.gaox.ml
-  skip-cert-verify: true
-  udp: true
-- name: 1.87|ZZ614
-  server: 198.41.221.169
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.85|Relay CACA436
-  server: 0319hzm01.fans8.xyz
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /nmsl
-  ws-headers:
-    Host: 0319hzm01.fans8.xyz
-- name: 1.77|美国TGnodesharing112
-  server: us2.tcpbbr.net
-  port: 443
-  type: trojan
-  password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d
-  sni: us2.tcpbbr.net
-  skip-cert-verify: true
-  udp: true
-- name: 1.75|日本阿伟科技TG油管
-  server: jgwdb1.gaox.ml
-  port: 443
-  type: trojan
-  password: a580d839-ee41-4df1-bf03-6789dca32e30
-  sni: jgwdb1.gaox.ml
-  skip-cert-verify: true
-  udp: true
-- name: 1.73| httpsgitiov9999ip5美国14
-  server: 107.167.24.214
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /path/210004121515
-    headers:
-      Host: www.92824634.xyz
-- name: 1.68| WARP 加密動態匿名IP  流媒體Netflix Disney  海外資源下載上傳提速  ChromeCast AppleTV 電視盒子大屏觀看墻外  美国節點
-    wwwfanqiangvpncom 翻墙VPNcom 中國最快超級節點
-  server: usa.fanqiangvpn.com
-  port: 443
-  type: trojan
-  password: afc34a50-76f7-4fb1-9393-c5da1c1a54db
-  sni: usa.fanqiangvpn.com
-  skip-cert-verify: true
-- name: 1.65| httpsgitiov9999ip1美国5 2
-  server: 67.21.85.26
-  port: 443
-  type: vmess
-  uuid: b9a305a9-1ff2-4ec1-b338-933555833baa
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /path/210004121515
-    headers:
-      Host: www.00849095.xyz
-- name: 1.61| httpsgitiov9999ip5美国20
-  server: 107.167.7.105
-  port: 443
-  type: vmess
-  uuid: 17fa3c74-f3c2-4b37-bf53-c6640d6982eb
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /path/210004121515
-    headers:
-      Host: www.58658779.xyz
-- name: 1.57|GB油管 TG 8度科技
-  server: jgwld3.gaox.ml
-  port: 443
-  type: trojan
-  password: 71b55a84-3fac-4458-abff-eaad79219c91
-  sni: jgwld3.gaox.ml
-  skip-cert-verify: true
-  udp: true
-- name: 1.52| Relay USUS1525
-  server: 172.67.68.58
-  port: 443
-  type: vmess
-  uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /shuier
-  ws-headers:
-    Host: xc1.v2rie.pp.ua
-- name: 1.49|机场魔戒net  Azure Cloudflare
-  server: cdn6.xiaokuqwq.xyz
-  port: 8443
-  type: vmess
-  uuid: e7255c58-b2ba-4a1b-a203-3f52dffd99a6
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cdn6.xiaokuqwq.xyz
-- name: 1.45| 美国 迈阿密
-  server: misaka1433.tk
-  port: 443
-  type: trojan
-  password: JAtFrEpLX8mryvu8
-  sni: misaka1433.tk
-- name: 1.45| httpsgitiov9999 美国CDN ip6 13
-  server: 104.19.92.3
-  port: 443
-  type: vmess
-  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: clash3.v2rayfree1.xyz
-- name: 1.42|新加坡 S
+- name: 2.49|新加坡 S
   server: 47.243.246.46
   port: 443
   type: vmess
@@ -541,3 +278,274 @@ proxies:
   ws-headers:
     Host: magsko.eu.org
   udp: true
+- name: 2.38|马来西亚p2psharing
+  server: 103.75.116.179
+  port: 443
+  type: vmess
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 2.22| httpsgitiov9999ip5香港4
+  server: hk8.peakerselling.com
+  port: 443
+  type: vmess
+  uuid: d3435521-3d1f-37f7-ab48-f5302bc6a4fb
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /helloman
+    headers:
+      Host: hk8.peakerselling.com
+- name: 2.17|美国阿伟科技TG油管NF 2
+  server: linodemx0303.moonfree.top
+  port: 443
+  type: vmess
+  uuid: 1ab594a2-cee0-4876-89b9-1b9b4053a6c4
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: linodemx0303.moonfree.top
+  udp: true
+- name: 2.06|VIP韩国1
+  server: 138.2.127.240
+  port: 44600
+  type: trojan
+  password: 9816c0a0-95c3-44bc-b96a-65be94017518
+  skip-cert-verify: true
+  udp: true
+- name: 2.05| JP342
+  server: vs.mumi.bid
+  port: 10124
+  type: vmess
+  uuid: 0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: vs.mumi.bid
+- name: 2.03|usp2psharing 8
+  server: 13.75.95.54
+  port: 10018
+  type: vmess
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 1.90|VIP香港负载均衡
+  server: azhk.node.qchwnd.moe
+  port: 44600
+  type: trojan
+  password: 9816c0a0-95c3-44bc-b96a-65be94017518
+  sni: azhk.node.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 1.86|VIP韩国2
+  server: 129.154.53.120
+  port: 44600
+  type: trojan
+  password: 9816c0a0-95c3-44bc-b96a-65be94017518
+  skip-cert-verify: true
+  udp: true
+- name: 1.84|KR油管 TG 8度科技
+  server: 0320kr99.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /nmsl
+  ws-headers:
+    Host: 0320kr99.fans8.xyz
+  udp: true
+- name: 1.77| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
+  port: 443
+  type: trojan
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: 1.76|VIP韩国3
+  server: 152.67.218.30
+  port: 44600
+  type: trojan
+  password: 9816c0a0-95c3-44bc-b96a-65be94017518
+  skip-cert-verify: true
+  udp: true
+- name: 1.75|美国阿伟科技TG油管 3
+  server: awsxjp.moonfree.top
+  port: 443
+  type: vmess
+  uuid: 1ab594a2-cee0-4876-89b9-1b9b4053a6c4
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: awsxjp.moonfree.top
+  udp: true
+- name: 1.64|美p2psharing 2
+  server: 45.11.0.29
+  port: 3307
+  type: vmess
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 1.64| Relay USUS1525
+  server: 172.67.68.58
+  port: 443
+  type: vmess
+  uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /shuier
+  ws-headers:
+    Host: xc1.v2rie.pp.ua
+- name: 1.63|甲骨文春川AMD2trojan
+  server: jgwcc2.gaox.ml
+  port: 443
+  type: trojan
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  sni: jgwcc2.gaox.ml
+- name: 1.62|usp2psharing 9
+  server: 20.239.49.225
+  port: 10027
+  type: vmess
+  uuid: 0c09f2ef-8a9b-3d3d-85a6-d0b9fb28a6e9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: telegram.channel.p2psharing
+  udp: true
+- name: 1.54| WARP 加密動態匿名IP  流媒體Netflix Disney  海外資源下載上傳提速  ChromeCast AppleTV 電視盒子大屏觀看墻外  美国節點
+    wwwfanqiangvpncom 翻墙VPNcom 中國最快超級節點
+  server: usa.fanqiangvpn.com
+  port: 443
+  type: trojan
+  password: afc34a50-76f7-4fb1-9393-c5da1c1a54db
+  sni: usa.fanqiangvpn.com
+  skip-cert-verify: true
+- name: 1.53| httpsgitiov9999ip3香港43
+  server: 47.52.59.79
+  port: 443
+  type: vmess
+  uuid: 6d11b475-dab4-4411-bc58-031f8402e70d
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /sztjvws
+    headers:
+      Host: me.nimen.ml
+- name: 1.44| httpsgitiov9999 美国CDN ip6 11
+  server: 104.17.141.79
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.43| httpsgitiov9999 美国CDN ip6 12
+  server: www.digitalocean.com
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.43|US油管 TG 8度科技
+  server: bpjzx2.cainiao.tk
+  port: 443
+  type: vmess
+  uuid: 24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vmess
+  ws-headers:
+    Host: orange-mode-ac6a.xjp0mx2cp.workers.dev
+  udp: true
+- name: 1.41|美国TGnodesharing112
+  server: us2.tcpbbr.net
+  port: 443
+  type: trojan
+  password: 2e5f2a78-14d8-11eb-ad8c-f23c9164ca5d
+  sni: us2.tcpbbr.net
+  skip-cert-verify: true
+  udp: true
+- name: 1.40| 美国 迈阿密
+  server: misaka1433.tk
+  port: 443
+  type: trojan
+  password: JAtFrEpLX8mryvu8
+  sni: misaka1433.tk
+- name: 1.39| httpsgitiov9999 美国CDN ip6 6
+  server: cdn.xia.me
+  port: 443
+  type: vmess
+  uuid: 62ada22a-f0be-4824-9a53-43c41926b4e2
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: clash3.v2rayfree1.xyz
+- name: 1.37| 甲骨文大阪ARM1trojan
+  server: jgwdb3.gaox.ml
+  port: 443
+  type: trojan
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  sni: jgwdb3.gaox.ml
