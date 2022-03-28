@@ -1,5 +1,5 @@
 proxies:
-- name: 6.10|Linode日本
+- name: 5.56|Linode日本
   server: lin1.free80ml.tk
   port: 80
   type: vmess
@@ -13,15 +13,7 @@ proxies:
   ws-headers:
     Host: lin1.free80ml.tk
   udp: true
-- name: 5.47| HK885
-  server: 104.208.72.87
-  port: 18247
-  type: vmess
-  uuid: c76115e6-2ad7-4b4b-f544-1e3e337e71e9
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 4.25|Relay 3455Mb
+- name: 5.35|Relay 3455Mb
   server: hk01.vpnjc.cc
   port: 8485
   type: vmess
@@ -33,35 +25,27 @@ proxies:
   ws-path: /hk
   ws-headers:
     Host: apple.com
-- name: 4.16|6965Mb
-  server: 34.92.135.18
-  port: 49838
+- name: 4.68| RelayHKJP1229
+  server: f2s.jddg.me
+  port: 29422
   type: vmess
-  uuid: 4b0ba381-9191-4dd0-a564-2658b07a2902
+  uuid: d716e745-62f8-498e-af97-3a1e096d8c84
   alterId: 0
-  cipher: auto
-  tls: false
-- name: 3.98| RelayUSUS972 2580Mb
-  server: hk06.vpnjc.cc
-  port: 8485
-  type: vmess
-  uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
-  alterId: 1
   cipher: auto
   tls: false
   network: ws
-  ws-path: /hk
+  ws-path: /TS/recharge/tzUrl.html
   ws-headers:
-    Host: apple.com
-- name: 3.79|SSRSUBV17付费推荐suoytssrsub
-  server: 139.162.122.205
-  port: 3845
+    Host: gd.189.cn
+- name: 4.24|SSRSUBV20付费推荐suoytssrsub
+  server: 193.123.239.153
+  port: 55199
   type: vmess
-  uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
+  uuid: bd729199-efe9-4c6b-a7b8-beb0927b4061
   alterId: 0
   cipher: auto
   tls: false
-- name: 3.76|1764Mb
+- name: 3.83|1764Mb
   server: 47.243.252.67
   port: 80
   type: vmess
@@ -73,100 +57,21 @@ proxies:
   ws-path: /hls/cctv5phd.m3u8
   ws-headers:
     Host: t.me/vpnhat
-- name: 3.19|韩国TG油管阿伟科技 5
-  server: 132.226.170.182
-  port: 11911
-  type: vmess
-  uuid: f7ea8e91-3d20-49b8-81ef-e16bcfce3a95
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.39|Relay SKSK1282
-  server: jp28.yuejiasu.com
+- name: 2.10|日本高速备用节点⑨
+  server: jp29.yuejiasu.com
   port: 8886
   type: vmess
   uuid: 24b5c7d2-2d22-37c7-82c2-e2e86affecc8
   alterId: 1
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /hk
-  ws-headers:
-    Host: apple.com
-- name: 2.14|Relay 9800Mb
-  server: jp16.vpnjc.cc
-  port: 8886
-  type: vmess
-  uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hk
-  ws-headers:
-    Host: apple.com
-- name: 1.92|2986Mb
-  server: 64.27.30.217
-  port: 21418
-  type: vmess
-  uuid: e396b9ad-d1d3-4f58-885e-df6638db37eb
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.88|Relay 2242Mb
-  server: us01.xiaocloud.icu
-  port: 20149
-  type: vmess
-  uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 1.87|美国TG油管阿伟科技 21
-  server: san.515223.xyz
-  port: 17247
-  type: vmess
-  uuid: 8e7ad1a3-ed57-406e-fd6c-0f2399993fec
-  alterId: 0
-  cipher: auto
-  tls: false
   skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: san.515223.xyz
-  udp: true
-- name: 1.71|Relay 2259Mb
-  server: us03.xiaocloud.icu
-  port: 20351
-  type: vmess
-  uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 1.67|Relay 2262Mb
-  server: us02.xiaocloud.icu
-  port: 20250
-  type: vmess
-  uuid: 2889291a-ebd6-355a-ba6f-983acf09d68a
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 1.62|SSRSUBV10付费推荐suoytssrsub
-  server: keliaz1.scsevers.cf
-  port: 28384
-  type: vmess
-  uuid: 99edaf0e-a24c-432c-edb4-ed0f2bd01af1
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
+  ws-path: /hk
   ws-headers:
-    Host: keliaz1.scsevers.cf
-- name: 1.50|荷兰欢迎订阅YouTube晓柒科技
+    Host: apple.com
+  udp: true
+- name: 1.46|荷兰欢迎订阅YouTube晓柒科技
   server: hl04.xqkj.cloud
   port: 1914
   type: vmess
@@ -180,15 +85,3 @@ proxies:
   ws-headers:
     Host: hl04.xqkj.cloud
   udp: true
-- name: 1.07|606  444Mb
-  server: 185.217.108.182
-  port: 2086
-  type: vmess
-  uuid: bfd2cb06-5cd7-3203-b414-17a809396898
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: 185.217.108.182
