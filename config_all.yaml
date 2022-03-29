@@ -1,19 +1,140 @@
 proxies:
-- name: 6.53|香港TG油管阿伟科技 2
-  server: tj-hk04.yiyodns.xyz
-  port: 443
-  type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  skip-cert-verify: true
+- name: 6.63| 香港  三网优化专线  x1
+  server: hk3wyhzx.v2yun.vip
+  port: 80
+  type: vmess
+  uuid: 7ecc2c47-f07f-3347-8f5e-2b8ccd23509b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hk3wyhzx.v2yun.vip
   udp: true
-- name: 6.53|香港TG油管阿伟科技 19
-  server: tj-hk07.yiyodns.xyz
-  port: 443
-  type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  skip-cert-verify: true
+- name: 6.25| 香港31
+  server: 31.ppzhu.cc
+  port: 1314
+  type: vmess
+  uuid: 5f4b46d9-44bd-4ad6-bcd6-d30b1305125d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 31.ppzhu.cc
   udp: true
-- name: 5.56|Linode日本
+- name: 6.12| 香港HK 1799 himoonpw
+  server: hk.guiqinghome.tk
+  port: 39513
+  type: vmess
+  uuid: 23ea77aa-21c0-41b6-ccc8-5b81c3cd2f86
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: '%7B%22Host%22:%22hk.guiqinghome.tk%22%7D'
+- name: 6.07| 香港1  独享  x1
+  server: hk1dx.v2yun.vip
+  port: 80
+  type: vmess
+  uuid: 7ecc2c47-f07f-3347-8f5e-2b8ccd23509b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /TS/recharge/tzUrl.html
+  ws-headers:
+    Host: gd.189.cn
+  udp: true
+- name: 6.06| 日本1G80ws171556 7709Mb
+  server: jp.sserver.top
+  port: 80
+  type: vmess
+  uuid: 75d214c3-38c4-37ec-90b9-00648a596dcb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: jp.sserver.top
+- name: 5.83| 香港  5GB带宽优质线路  x1
+  server: hk5gb.v2yun.vip
+  port: 80
+  type: vmess
+  uuid: 7ecc2c47-f07f-3347-8f5e-2b8ccd23509b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hk5gb.v2yun.vip
+  udp: true
+- name: 5.78| 香港01  高速  x1
+  server: hk01gs.v2yun.vip
+  port: 80
+  type: vmess
+  uuid: 7ecc2c47-f07f-3347-8f5e-2b8ccd23509b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /TS/recharge/tzUrl.html
+  ws-headers:
+    Host: gd.189.cn
+  udp: true
+- name: 5.64|香港阿伟科技TG油管 5
+  server: hk-b.sserver.top
+  port: 80
+  type: vmess
+  uuid: cc567bd2-faf5-3ce2-9fae-b5f34f18b240
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: aweikeji-YouTube-TG
+  udp: true
+- name: 5.38| V2RAY香港AZURE落地097
+  server: azhk097.xiaohouzi.club
+  port: 443
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: azhk097.xiaohouzi.club
+  udp: true
+- name: 5.09| 新加坡1G80ws141631 5072Mb
+  server: sg.sserver.top
+  port: 80
+  type: vmess
+  uuid: 75d214c3-38c4-37ec-90b9-00648a596dcb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: sg.sserver.top
+- name: 5.03|Linode日本
   server: lin1.free80ml.tk
   port: 80
   type: vmess
@@ -27,99 +148,358 @@ proxies:
   ws-headers:
     Host: lin1.free80ml.tk
   udp: true
-- name: 5.35|Relay 3455Mb
-  server: hk01.vpnjc.cc
-  port: 8485
+- name: 4.64| 东京ARM
+  server: dj.arm.spidercat.cf
+  port: 28085
   type: vmess
-  uuid: 55d1ccc5-6a66-3db1-8103-d7b3f9150147
+  uuid: e5a14922-84bf-4b2d-a540-3ea13d4f64d6
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 4.56| 香港阿伟科技TG油管
+  server: hk2.qingyun123.xyz
+  port: 10050
+  type: trojan
+  password: 61fbe6de-8669-43b7-8c75-36e725e39a40
+  sni: hk2.qingyun123.xyz
+  skip-cert-verify: false
+  udp: true
+- name: 4.54|韩国阿伟科技TG油管原生
+  server: ccnxray.aimdd.com
+  port: 443
+  type: trojan
+  password: cc..1234
+  skip-cert-verify: true
+  udp: true
+- name: 4.43|SSRSUBV17付费推荐suoytssrsub
+  server: 139.162.122.205
+  port: 3845
+  type: vmess
+  uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 4.24| Relay KRKR1106
+  server: krgs.v2yun.vip
+  port: 80
+  type: vmess
+  uuid: 7ecc2c47-f07f-3347-8f5e-2b8ccd23509b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: krgs.v2yun.vip
+- name: 4.13| 中国TG油管阿伟科技 2
+  server: port.jpdnsfree.dnsfree.top
+  port: 12349
+  type: vmess
+  uuid: 003dda74-b441-4e70-a215-bf1137b5c243
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tiebapic.baidu.com
+  udp: true
+- name: 4.08| 日本  高速  x1
+  server: jpgs.v2yun.vip
+  port: 80
+  type: vmess
+  uuid: 7ecc2c47-f07f-3347-8f5e-2b8ccd23509b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: jpgs.v2yun.vip
+  udp: true
+- name: 3.92| 香港dmit线路  原生ip解锁Netflix等流媒体  x1
+  server: 3.v2yun.vip
+  port: 80
+  type: vmess
+  uuid: 7ecc2c47-f07f-3347-8f5e-2b8ccd23509b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 3.v2yun.vip
+  udp: true
+- name: 3.75| V2RAY香港AWS02
+  server: aws-hk02.xiaohouzi.club
+  port: 10081
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
   alterId: 1
   cipher: auto
   tls: false
+  skip-cert-verify: false
   network: ws
-  ws-path: /hk
+  ws-path: /v2ray
   ws-headers:
-    Host: apple.com
-- name: 5.27|香港TG油管阿伟科技 18
-  server: tj-hk05.yiyodns.xyz
-  port: 443
-  type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  skip-cert-verify: true
+    Host: www.ibm.com
   udp: true
-- name: 4.68| RelayHKJP1229
-  server: f2s.jddg.me
-  port: 29422
+- name: 3.63| V2RAY香港AWS05
+  server: aws-hk05.xiaohouzi.club
+  port: 10050
   type: vmess
-  uuid: d716e745-62f8-498e-af97-3a1e096d8c84
-  alterId: 0
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
   cipher: auto
   tls: false
+  skip-cert-verify: false
   network: ws
-  ws-path: /TS/recharge/tzUrl.html
+  ws-path: /v2ray
   ws-headers:
-    Host: gd.189.cn
-- name: 4.24|SSRSUBV20付费推荐suoytssrsub
-  server: 193.123.239.153
-  port: 55199
+    Host: www.ibm.com
+  udp: true
+- name: 3.59| V2RAY香港AZURE落地09
+  server: azhk03.xiaohouzi.club
+  port: 10050
   type: vmess
-  uuid: bd729199-efe9-4c6b-a7b8-beb0927b4061
-  alterId: 0
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
   cipher: auto
   tls: false
-- name: 3.95|HK油管 TG 8度科技
-  server: 0320hk567.fans8.xyz
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   network: ws
-  ws-path: /ray
+  ws-path: /v2ray
   ws-headers:
-    Host: 0320hk567.fans8.xyz
+    Host: www.ibm.com
   udp: true
-- name: 3.85|香港TG油管阿伟科技
-  server: tj-hk01.yiyodns.xyz
-  port: 443
-  type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  skip-cert-verify: true
-  udp: true
-- name: 3.83|1764Mb
-  server: 47.243.252.67
+- name: 3.43| US1554
+  server: 20.222.251.211
   port: 80
   type: vmess
-  uuid: 4dd6cbf5-7ff5-3aeb-b5ac-8cff4b21d0e5
-  alterId: 2
+  uuid: 3ddcaaad-1973-4bff-9a66-13afdcb043a5
+  alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /hls/cctv5phd.m3u8
+  ws-path: /
   ws-headers:
-    Host: t.me/vpnhat
-- name: 3.66|Relay CACA438
-  server: 0314tw02.fans8.xyz
+    Host: 20.222.251.211
+- name: 3.33| V2RAY香港超级节点01
+  server: shk01.xiaohouzi.club
+  port: 10050
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.ibm.com
+  udp: true
+- name: 3.31| V2RAY香港AZURE落地096
+  server: azhk096.xiaohouzi.club
+  port: 10082
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.ibm.com
+  udp: true
+- name: 3.29| 日本大阪WS万兆1x
+  server: 6.jitayun.pw
+  port: 80
+  type: vmess
+  uuid: 3ddcaaad-1973-4bff-9a66-13afdcb043a5
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: shoutingtoutiao3.10010.com
+  udp: true
+- name: 3.16| 韩国绿头外网集团Public 14
+  server: cc4.amd.spidercat.cf
+  port: 37054
+  type: vmess
+  uuid: 4322c4c2-1ead-4499-ee64-afc202a7465d
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 3.06| V2RAY香港AWV094
+  server: awv094.xiaohouzi.club
+  port: 10082
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.ibm.com
+  udp: true
+- name: 3.01| RelayUSUS3176
+  server: tls06.tongls.tk
   port: 443
   type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 3
+  uuid: f25c0b2c-2611-4d71-a75e-6012a2fa7965
+  alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /ray
+  ws-path: /233blog
   ws-headers:
-    Host: 0314tw02.fans8.xyz
-- name: 2.36|韩国TG油管阿伟科技 2
-  server: kr1.qingyun123.xyz
+    Host: tls06.tongls.tk
+- name: 2.98| V2RAY香港AZURE落地
+  server: azure-hk-t.xiaohouzi.club
+  port: 10088
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.ibm.com
+  udp: true
+- name: 2.96| 韩国阿伟科技TG油管
+  server: kr2.qingyun123.xyz
   port: 10050
   type: trojan
-  password: fbcf2615-dbc0-4198-8f36-81b4a0d3868d
-  sni: kr1.qingyun123.xyz
-  skip-cert-verify: true
+  password: 61fbe6de-8669-43b7-8c75-36e725e39a40
+  sni: kr2.qingyun123.xyz
+  skip-cert-verify: false
   udp: true
-- name: 2.16|联通 电信 晚高峰高速 Cloudflare节点
+- name: 2.93| V2RAY香港AWS03
+  server: aws-hk03.xiaohouzi.club
+  port: 10050
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.ibm.com
+  udp: true
+- name: 2.89| HongKong 1
+  server: hk1.quoctai.xyz
+  port: 80
+  type: vmess
+  uuid: caf12d12-e017-44fe-b741-f8727e2fecd9
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /quoctai
+  ws-headers:
+    Host: Livestream2.tv360.vn
+- name: 2.86|Relay  068Mb
+  server: 0319tw123.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /nmsl
+  ws-headers:
+    Host: 0319tw123.fans8.xyz
+- name: 2.57| V2RAY香港AZURE落地095
+  server: azhk095.xiaohouzi.club
+  port: 10051
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.ibm.com
+  udp: true
+- name: 2.41| V2RAY香港AWS06
+  server: aws-hk06.xiaohouzi.club
+  port: 443
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: aws-hk06.xiaohouzi.club
+  udp: true
+- name: 2.36| 美国洛杉矶  原生ip解锁Netflix等流媒体  x1
+  server: 3.v2yun.vip
+  port: 8080
+  type: vmess
+  uuid: 7ecc2c47-f07f-3347-8f5e-2b8ccd23509b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 3.v2yun.vip
+  udp: true
+- name: 2.35| V2RAY俄罗斯西伯利亚02
+  server: v2-r02.xiaohouzi.club
+  port: 10082
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.ibm.com
+  udp: true
+- name: 2.32| Relay JPJP1037
+  server: 21.ppzhu.cc
+  port: 10086
+  type: vmess
+  uuid: 5f4b46d9-44bd-4ad6-bcd6-d30b1305125d
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sometimesnaive
+  ws-headers:
+    Host: 21.ppzhu.cc
+- name: 2.18| 东京AMD2主账号
+  server: dj2.amd.spidercat.cf
+  port: 52383
+  type: vmess
+  uuid: db0f3437-39a6-49c1-d62e-7ce340c249c6
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.15|联通 电信 晚高峰高速 Cloudflare节点
   server: 104.19.3.23
   port: 443
   type: vmess
@@ -133,105 +513,68 @@ proxies:
   ws-headers:
     Host: v2fly.samrt.website
   udp: true
-- name: 2.10|日本高速备用节点⑨
-  server: jp29.yuejiasu.com
-  port: 8886
+- name: 2.03| Relay NLNL1123
+  server: v1-13.ppzhu.cc
+  port: 3421
   type: vmess
-  uuid: 24b5c7d2-2d22-37c7-82c2-e2e86affecc8
+  uuid: 5f4b46d9-44bd-4ad6-bcd6-d30b1305125d
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /sometimesnaive
+  ws-headers:
+    Host: v1-13.ppzhu.cc
+- name: 2.03|defaultname86
+  server: v2fly.sab.quest
+  port: 443
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
   alterId: 1
   cipher: auto
-  tls: false
+  country: defaultname86
   skip-cert-verify: true
-  network: ws
-  ws-path: /hk
-  ws-headers:
-    Host: apple.com
-  udp: true
-- name: 1.99|美国TG油管阿伟科技
-  server: in02.holiganfan.com
-  port: 10088
-  type: trojan
-  password: 63d7122b-306b-4950-a957-f0d1ccac858e
-  sni: in02.holiganfan.com
-  skip-cert-verify: true
-  udp: true
-- name: 1.94|AUwmt3251
-  server: 185.148.14.58
-  port: 53514
-  type: trojan
-  password: 3r90JDGBYA
-  skip-cert-verify: true
-  udp: true
-- name: 1.91| RelayUSUS3478
-  server: cn2.v2jx.site
-  port: 443
-  type: vmess
-  uuid: d716e745-62f8-498e-af97-3a1e096d8c84
-  alterId: 0
-  cipher: auto
   tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: cn2.v2jx.site
-- name: 1.73|RelayGBGB1212
-  server: kr.jddg.me
-  port: 443
-  type: vmess
-  uuid: d716e745-62f8-498e-af97-3a1e096d8c84
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: kr.jddg.me
-- name: 1.47|Relay 4720Mb
-  server: 8.wwwkkk.xyz
-  port: 443
-  type: vmess
-  uuid: cee6bef2-e7d9-43b4-96db-50b891ba30a1
-  alterId: 0
-  cipher: auto
-  tls: true
-- name: 1.46|荷兰欢迎订阅YouTube晓柒科技
-  server: hl04.xqkj.cloud
-  port: 1914
-  type: vmess
-  uuid: cdd27b91-bc33-4691-9ba3-6015374c9867
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: hl04.xqkj.cloud
-  udp: true
-- name: 1.39|澳大利亚TG油管阿伟科技
-  server: uk4.lolvps.xyz
-  port: 60012
-  type: vmess
-  uuid: e8b32273-4c2f-4cb6-a768-7f2378346062
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /F1HHEKOX
+    path: /chaug
     headers:
-      Host: uk4.lolvps.xyz
-  udp: true
-- name: 1.30|Relay 5404Mb
-  server: 1.wwwkkk.xyz
-  port: 48915
+      host: v2fly.samrt.website
+- name: 1.95|甲骨文春川2
+  server: cc2.amd.spidercat.cf
+  port: 35956
   type: vmess
-  uuid: 1cf92bff-6413-47b2-c292-6c6effc8ec72
+  uuid: a9e03702-da6d-4a7b-b268-cf3f798076db
   alterId: 0
   cipher: auto
-  tls: true
-- name: 1.30| Relay ZZUS3598
+  tls: false
+- name: 1.90| 日本绿头外网集团Public 4
+  server: dj1.amd.spidercat.cf
+  port: 54321
+  type: vmess
+  uuid: 56107d57-7a28-4eb0-9a14-655d339b114e
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.82| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 1.71| US3175
+  server: 149.28.92.209
+  port: 3222
+  type: vmess
+  uuid: c39208f2-ae3f-11ec-a583-560003ec8341
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /UTVwOb8B/
+  ws-headers:
+    Host: 149.28.92.209
+- name: 1.62| Relay ZZUS3598
   server: cloudflare.xrenblog.com
   port: 443
   type: vmess
@@ -243,7 +586,78 @@ proxies:
   ws-path: /xrenblog/
   ws-headers:
     Host: ipv6.xrenblog.com
-- name: 1.29|日本阿伟科技TG油管原生
+- name: 1.60|韩国阿伟科技TG油管
+  server: 193.122.107.63
+  port: 31760
+  type: vmess
+  uuid: cb0aec3a-f398-4e3e-aa3d-4375b6d783d3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.59|HK油管 TG 8度科技
+  server: 0320hk567.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 0320hk567.fans8.xyz
+  udp: true
+- name: 1.59|甲骨文海得拉巴AMD1trojan
+  server: jgwhdlb1.gaox.ml
+  port: 443
+  type: trojan
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  sni: jgwhdlb1.gaox.ml
+- name: 1.54| Relay USUS1552
+  server: my.aoyyds.ga
+  port: 2087
+  type: vmess
+  uuid: d9bd1887-54dc-4380-b9df-42977a24b453
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /xsqfvws
+  ws-headers:
+    Host: my.aoyyds.ga
+- name: 1.53| V2RAY香港AWV092
+  server: azhk003.xiaohouzi.club
+  port: 10051
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.ibm.com
+  udp: true
+- name: 1.52|香港阿伟科技TG油管 2
+  server: vn.mumi.bid
+  port: 10125
+  type: vmess
+  uuid: 83ae9f04-47f0-4e34-9a1c-9c2e5161f586
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vn.mumi.bid
+  udp: true
+- name: 1.50|日本阿伟科技TG油管原生
   server: jgwdj1.gaox.ml
   port: 443
   type: trojan
@@ -251,52 +665,28 @@ proxies:
   sni: jgwdj1.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: 1.27|SSRSUBV23付费推荐suoytssrsub
-  server: 198.41.221.169
+- name: 1.47|CA641
+  server: 165.154.225.176
   port: 443
   type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 0326hk01.fans8.xyz
+- name: 1.44| 迪拜 AMD1主账号
+  server: dib1.amd.spidercat.cf
+  port: 19891
+  type: vmess
+  uuid: ea769d3e-2e3e-44e7-89b3-62658fc31a91
   alterId: 0
   cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero1.a-yu.xyz
-- name: 1.13| Relay ZZUS3597
-  server: cloudflare.a-yu.xyz
-  port: 443
-  type: vmess
-  uuid: a8910831-f56b-4ac4-c68f-e4dd83f71e60
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sakura/
-  ws-headers:
-    Host: zero2.a-yu.xyz
-- name: 1.11| RelayUSUS3472
-  server: app.ssfree.ru
-  port: 443
-  type: vmess
-  uuid: f655cb88-ade6-11ec-83ff-000017022008
-  alterId: 64
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /getweather
-  ws-headers:
-    Host: app.ssfree.ru
-- name: 1.07|美国TG油管阿伟科技 14
-  server: nfjp1.qingyun123.xyz
-  port: 10000
-  type: trojan
-  password: fbcf2615-dbc0-4198-8f36-81b4a0d3868d
-  sni: nfjp1.qingyun123.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 1.06| Relay USUS1855
-  server: in-do.licom.ga
+  tls: false
+- name: 1.40| Relay USUS1578
+  server: us-do.licom.ga
   port: 80
   type: vmess
   uuid: f81e990e-1283-48f9-9eff-acacad6fb661
@@ -306,4 +696,97 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: in-do.licom.ga
+    Host: us-do.licom.ga
+- name: 1.34|美国阿伟科技TG油管 9
+  server: awsxjp.moonfree.top
+  port: 443
+  type: vmess
+  uuid: 1b052c5f-ee85-4137-9cd3-0c06cdd53224
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: awsxjp.moonfree.top
+  udp: true
+- name: 1.32|SG油管 TG 8度科技
+  server: sg-7.tjjjt.top
+  port: 443
+  type: trojan
+  password: iyinglong
+  sni: sg-7.tjjjt.top
+  skip-cert-verify: true
+  udp: true
+- name: 1.31| 美国 迈阿密
+  server: misaka1433.tk
+  port: 443
+  type: trojan
+  password: JAtFrEpLX8mryvu8
+  sni: misaka1433.tk
+- name: 1.29| 美国11
+  server: v1-11.ppzhu.cc
+  port: 10086
+  type: vmess
+  uuid: 5f4b46d9-44bd-4ad6-bcd6-d30b1305125d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: v1-11.ppzhu.cc
+  udp: true
+- name: 1.27| V2RAY香港超级节点02
+  server: shk02.xiaohouzi.club
+  port: 10053
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.ibm.com
+  udp: true
+- name: 1.21| V2RAY香港AWV08
+  server: hk-azure02.xiaohouzi.club
+  port: 10051
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.ibm.com
+  udp: true
+- name: 1.18|甲骨文春川ARM1trojan
+  server: jgwcc3.gaox.ml
+  port: 443
+  type: trojan
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  sni: jgwcc3.gaox.ml
+- name: 1.15|甲骨文春川3
+  server: cc3.amd.spidercat.cf
+  port: 39454
+  type: vmess
+  uuid: e8c82540-f810-498d-fd8d-89bd526be04c
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.06| 圣何塞ARM1主账号
+  server: shs1.arm.spidercat.cf
+  port: 10267
+  type: vmess
+  uuid: cf6058df-8e90-4587-a39b-523f53e976b8
+  alterId: 0
+  cipher: auto
+  tls: false
