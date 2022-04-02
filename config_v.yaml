@@ -1,301 +1,131 @@
 proxies:
-- name: 6.74| RelayHKHK929
-  server: hk-ms1.checkmails.xyz
-  port: 31111
+- name: 5.03|SSRSUBV03付费推荐suoytssrsub
+  server: 139.162.122.205
+  port: 3845
   type: vmess
-  uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf
+  uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
   alterId: 0
   cipher: auto
   tls: false
-- name: 6.41| RelayHKHK940
-  server: hk-az2.checkmails.xyz
-  port: 12222
-  type: vmess
-  uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 6.30| RelayHKSG927
-  server: hk-zone.checkmails.xyz
-  port: 19222
-  type: vmess
-  uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 5.98| RelayJPCZ1109
-  server: jp06-vm0.entry.ikuuu.casa
-  port: 444
-  type: vmess
-  uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp06-vm0.entry.ikuuu.casa
-- name: 5.93| Relay JPCZ1040
-  server: jp06-vm0.entry.ikuuu.casa
-  port: 447
-  type: vmess
-  uuid: 31a43857-f64f-3919-bfd8-32858b804749
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp06-vm0.entry.ikuuu.casa
-- name: 5.52| RelayJPCZ1115
-  server: jp06-vm0.ikuuu.casa
-  port: 444
-  type: vmess
-  uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp06-vm0.ikuuu.casa
-- name: 4.96| RelayHKJP930
-  server: hk-az2.checkmails.xyz
-  port: 12999
-  type: vmess
-  uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 4.86| RelayHKTW925
-  server: hk-az2.checkmails.xyz
-  port: 25122
-  type: vmess
-  uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 4.84| RelayHKUS926
-  server: hk-zone.checkmails.xyz
-  port: 26522
-  type: vmess
-  uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 4.74| V2RAY香港AZURE落地08
-  server: azhk02.xiaohouzi.club
-  port: 443
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 2
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: azhk02.xiaohouzi.club
-  udp: true
-- name: 4.64| V2RAY香港AZURE落地
-  server: azure-hk-t.xiaohouzi.club
-  port: 10088
+- name: 4.35| Relay AUAU312
+  server: azhk099.xiaohouzi.club
+  port: 10089
   type: vmess
   uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
   alterId: 1
   cipher: auto
   tls: false
-  skip-cert-verify: false
   network: ws
   ws-path: /v2ray
   ws-headers:
-    Host: www.ibm.com
-  udp: true
-- name: 4.53| V2RAY香港AZURE落地09
-  server: azhk03.xiaohouzi.club
-  port: 10050
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: www.ibm.com
-  udp: true
-- name: 4.31| Relay JPCZ1039
-  server: jp04-vm0.entry.ikuuu.casa
-  port: 447
-  type: vmess
-  uuid: 31a43857-f64f-3919-bfd8-32858b804749
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp04-vm0.entry.ikuuu.casa
-- name: 4.23| RelayJPCZ1112
-  server: jp04-vm0.entry.ikuuu.casa
-  port: 444
-  type: vmess
-  uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp04-vm0.entry.ikuuu.casa
-- name: 4.01| RelayHKHK939
-  server: hk-zone.checkmails.xyz
-  port: 25129
-  type: vmess
-  uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 3.98| Relay HKIN909
-  server: zz.195382.xyz
-  port: 10007
-  type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-- name: 3.50| RelayJPCZ1110
-  server: jp-1.azure.v2ray.ikuuu.pro
-  port: 448
-  type: vmess
-  uuid: 3c7919b0-87bd-3399-abd2-a79cd334c0c2
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp-1.azure.v2ray.ikuuu.pro
-- name: 3.44| V2RAY香港AWV08
-  server: hk-azure02.xiaohouzi.club
+    Host: azhk099.xiaohouzi.club
+- name: 3.39|SSRSUBV17付费推荐suoytssrsub
+  server: azhk003.xiaohouzi.club
   port: 10051
   type: vmess
   uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 1
+  alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
   network: ws
   ws-path: /v2ray
   ws-headers:
     Host: www.ibm.com
-  udp: true
-- name: 3.23| RelayHKHK934
-  server: hk-ms4.checkmails.xyz
-  port: 6619
+- name: 3.36| HK1042
+  server: 23.102.232.162
+  port: 57469
   type: vmess
-  uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf
+  uuid: a13aec04-8a51-4638-9aee-1a18d38556c7
   alterId: 0
   cipher: auto
   tls: false
-- name: 3.18| Relay HKJP907
-  server: zz.195382.xyz
-  port: 10005
+- name: 2.59| US3347
+  server: 20.205.115.192
+  port: 49503
   type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  uuid: f9727d11-78e9-4b46-bf39-8f6929c8870f
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: zz.195382.xyz
-- name: 2.79| Relay HKHK905
-  server: hk.195382.xyz
-  port: 1001
+- name: 2.55| V2RAY香港AWV091
+  server: hk-azure04.xiaohouzi.club
+  port: 10081
   type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /
+  ws-path: /v2ray
   ws-headers:
-    Host: hk.195382.xyz
-- name: 2.79| Relay HKUS906
-  server: zz.195382.xyz
-  port: 10008
+    Host: hk-azure04.xiaohouzi.club
+- name: 2.50| githubcomfreefq  香港特别行政区 36
+  server: 104.208.101.112
+  port: 34554
   type: vmess
-  uuid: 30d602fe-d0c1-4dbc-beb6-3a8c65462789
+  uuid: ec57dccf-467d-4785-99d5-7b57a65b2bac
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.48| V2RAY香港AWS05
+  server: aws-hk05.xiaohouzi.club
+  port: 10050
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /
+  ws-path: /v2ray
   ws-headers:
-    Host: zz.195382.xyz
-- name: 2.75| RelayHKUS933
-  server: hk-zone.checkmails.xyz
-  port: 25666
+    Host: aws-hk05.xiaohouzi.club
+- name: 2.22| githubcomfreefq  美国Microsoft数据中心 14
+  server: 20.239.93.20
+  port: 44325
   type: vmess
-  uuid: 76763f2a-7c79-498d-b0d3-986ad0f294cf
+  uuid: 11b06661-917f-40e1-8b87-461455993abb
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.31|日本阿伟科技TG油管 5
-  server: c11s4.jamjams.net
-  port: 17938
+- name: 2.09| Relay RURU1319
+  server: vv01.xiaohouzi.club
+  port: 10083
   type: vmess
-  uuid: e8d5a966-8093-4d4e-8977-0baca9c8ab55
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: vv01.xiaohouzi.club
+- name: 1.94|Relay LTLT1219
+  server: us04.xiaohouzi.club
+  port: 10083
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: us04.xiaohouzi.club
+- name: 1.92|US油管 TG 8度科技 2
+  server: 144.202.116.116
+  port: 14045
+  type: vmess
+  uuid: 38c57734-b148-11ec-962d-560003edcbd7
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-path: /hgDmY39b/
+  ws-headers:
+    Host: 144.202.116.116
   udp: true
-- name: 2.15| V2RAY香港AWS03
-  server: aws-hk03.xiaohouzi.club
-  port: 10050
-  type: vmess
-  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
-  alterId: 1
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: www.ibm.com
-  udp: true
-- name: 1.99| RelayJPJP1114
-  server: 54.199.233.160
-  port: 153
-  type: vmess
-  uuid: f92834d1-64c0-3e72-bb02-d8e5f5694e4d
-  alterId: 64
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: 8505782627.laowanxiang.com
-- name: 1.97| Relay JPCZ1044
-  server: jp03-vm0.entry.ikuuu.casa
-  port: 447
-  type: vmess
-  uuid: 31a43857-f64f-3919-bfd8-32858b804749
-  alterId: 1
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jp03-vm0.entry.ikuuu.casa
-- name: 1.86| V2RAY俄罗斯西伯利亚02
+- name: 1.83| V2RAY俄罗斯西伯利亚02
   server: v2-r02.xiaohouzi.club
   port: 10082
   type: vmess
@@ -309,31 +139,73 @@ proxies:
   ws-headers:
     Host: www.ibm.com
   udp: true
-- name: 1.77| Relay JPCZ1042
-  server: jp02-vm0.entry.ikuuu.casa
-  port: 447
+- name: 1.77|Relay LTLT1220
+  server: us06.xiaohouzi.club
+  port: 10082
   type: vmess
-  uuid: 31a43857-f64f-3919-bfd8-32858b804749
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
   alterId: 1
   cipher: auto
   tls: false
   network: ws
-  ws-path: /hls/cctv5phd.m3u8
+  ws-path: /v2ray
   ws-headers:
-    Host: jp02-vm0.entry.ikuuu.casa
-- name: 1.10| RelayJPCZ1111
-  server: jp02-vm0.entry.ikuuu.casa
-  port: 444
+    Host: us06.xiaohouzi.club
+- name: 1.69| Relay AUAU305
+  server: nazhk03.xiaohouzi.club
+  port: 10030
   type: vmess
-  uuid: 8477764d-c618-3398-9d15-ee2b3becf2d0
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
   alterId: 1
   cipher: auto
   tls: false
   network: ws
-  ws-path: /hls/cctv5phd.m3u8
+  ws-path: /v2ray
   ws-headers:
-    Host: jp02-vm0.entry.ikuuu.casa
-- name: 1.04| US3240
+    Host: nazhk03.xiaohouzi.club
+- name: 1.55| githubcomfreefq  香港Microsoft公司 10
+  server: 13.75.44.200
+  port: 40903
+  type: vmess
+  uuid: 6d1f4a41-f79e-45f5-8268-460e4f9f5d63
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.24| Relay RURU1320
+  server: v2-r03.xiaohouzi.club
+  port: 10083
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: v2-r03.xiaohouzi.club
+- name: 1.08| V2RAY香港AWS03
+  server: aws-hk03.xiaohouzi.club
+  port: 10050
+  type: vmess
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.ibm.com
+  udp: true
+- name: 1.05| HK1045
+  server: 104.208.84.177
+  port: 33578
+  type: vmess
+  uuid: 5919b468-a268-4012-9cf1-08f96260d0c8
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.01| US3240
   server: 45.32.94.166
   port: 31676
   type: vmess
@@ -349,11 +221,17 @@ proxies:
     headers:
       Host:
       - 45.32.94.166
-- name: 1.02| 香港HK
-  server: 34.92.60.168
-  port: 38888
+- name: 1.01| V2RAY香港AZURE落地09
+  server: azhk03.xiaohouzi.club
+  port: 10050
   type: vmess
-  uuid: bd8c9c88-d5d0-416a-b4a2-be6e0b4dd5ff
-  alterId: 0
+  uuid: dbf20899-f0d8-33bd-bed0-ddc16105dfe3
+  alterId: 1
   cipher: auto
   tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-path: /v2ray
+  ws-headers:
+    Host: www.ibm.com
+  udp: true
