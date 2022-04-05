@@ -1,33 +1,57 @@
 proxies:
-- name: 5.22|SSRSUBV03付费推荐suoytssrsub
-  server: 139.162.122.205
-  port: 3845
+- name: 3.32| HK913
+  server: 13.75.44.200
+  port: 40903
   type: vmess
-  uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
+  uuid: 6d1f4a41-f79e-45f5-8268-460e4f9f5d63
   alterId: 0
   cipher: auto
   tls: false
-- name: 4.06|3994Mb
-  server: 47.243.42.106
-  port: 80
+- name: 1.41|9740Mb
+  server: 52.175.12.141
+  port: 24396
   type: vmess
-  uuid: 4df7092c-aeea-3256-a156-f8ca3d094f2b
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: t.me/vppool
-- name: 1.71| RelayUSGB3248
-  server: 104.17.103.125
-  port: 80
-  type: vmess
-  uuid: e46835e3-b770-4d5b-8ba0-5507f8385c44
+  uuid: c4b30765-3dbc-422e-93c4-3591b1debb6a
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /wwwnet
-  ws-headers:
-    Host: caa.ziyun.ga
+- name: 1.34| US3193
+  server: 150.230.43.65
+  port: 14564
+  type: vmess
+  uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.25| US3201
+  server: 45.32.94.166
+  port: 31676
+  type: vmess
+  uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 45.32.94.166
+- name: 1.05| US3205
+  server: 207.246.94.28
+  port: 42383
+  type: vmess
+  uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.01|456615974tcp
+  server: 45.66.159.74
+  port: 4868
+  type: vmess
+  uuid: c38df326-b0e1-11ec-bc59-00163cbed88a
+  alterId: 0
+  cipher: auto
+  tls: false
