@@ -1,5 +1,25 @@
 proxies:
-- name: 4.41|SSRSUBV01付费推荐suoytssrsub
+- name: 5.68| RelayHKHK1057
+  server: hkgs.v2yun.vip
+  port: 80
+  type: vmess
+  uuid: 0d68f9c8-ba79-3d39-9f4f-7a597d8f6f37
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hkgs.v2yun.vip
+- name: 5.53| Relay CNSG683
+  server: sg08.xiaocloud.icu
+  port: 20871
+  type: vmess
+  uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 4.73|SSRSUBV01付费推荐suoytssrsub
   server: 139.162.122.205
   port: 3845
   type: vmess
@@ -7,43 +27,79 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 4.40|美国TG阿伟科技油管 6
-  server: 150.230.249.169
-  port: 8888
+- name: 4.71| US1877
+  server: 152.69.228.27
+  port: 29363
   type: vmess
-  uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef
+  uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.07| RelayUSUS3625
-  server: c23s3.jamjams.net
-  port: 61173
+- name: 3.92| US3550
+  server: 152.70.88.168
+  port: 49081
   type: vmess
-  uuid: 9d1043a6-e87e-4bb7-8858-c1185e9c0c3b
-  alterId: 8
-  cipher: auto
-  tls: false
-- name: 1.74|澳洲TG阿伟科技油管 2
-  server: 20.213.134.39
-  port: 566
-  type: vmess
-  uuid: 789feb8c-f755-46b7-96ab-97b455a1491f
+  uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.59| AU417
-  server: 43.133.207.68
-  port: 12424
+- name: 3.17| Relay CNSG684
+  server: sg02.xiaocloud.icu
+  port: 20265
   type: vmess
-  uuid: a331a7a7-11db-403a-c8d3-8e4c790c4e8a
+  uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 3.14| Relay CNSG682
+  server: sg05.xiaocloud.icu
+  port: 20568
+  type: vmess
+  uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 2.20| Relay CNSG685
+  server: sg01.xiaocloud.icu
+  port: 20164
+  type: vmess
+  uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 1.87| US3551
+  server: 152.70.94.8
+  port: 41371
+  type: vmess
+  uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.18| RelayUSUS3640
+- name: 1.40| US3569
+  server: 150.230.43.65
+  port: 14564
+  type: vmess
+  uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.33| US3553
+  server: 45.32.94.166
+  port: 31676
+  type: vmess
+  uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 45.32.94.166
+- name: 1.20| RelayUSUS3640
   server: us1.31vpn.com
   port: 80
   type: vmess
@@ -55,11 +111,3 @@ proxies:
   ws-path: /fastssh/remaoqi/624ca41d72e6d/
   ws-headers:
     Host: us1.31vpn.com
-- name: 1.11| US3645
-  server: 207.246.94.28
-  port: 42383
-  type: vmess
-  uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
-  alterId: 0
-  cipher: auto
-  tls: false
