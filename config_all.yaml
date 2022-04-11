@@ -1,49 +1,73 @@
 proxies:
-- name: 5.68| RelayHKHK1057
-  server: hkgs.v2yun.vip
+- name: 6.86| RelayHKHK1188
+  server: hk05gs.v2yun.vip
   port: 80
   type: vmess
-  uuid: 0d68f9c8-ba79-3d39-9f4f-7a597d8f6f37
+  uuid: 279e27da-634f-3639-882c-8f909ab1ec32
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: hkgs.v2yun.vip
-- name: 5.53| Relay CNSG683
-  server: sg08.xiaocloud.icu
-  port: 20871
+    Host: hk05gs.v2yun.vip
+- name: 5.70|HK 5
+  server: hkmf2.speedcncnforward3.tk
+  port: 80
+  type: trojan
+  password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c
+  sni: hkmf2.speedcncnforward3.tk
+  skip-cert-verify: true
+  udp: true
+- name: 4.79|HK
+  server: hkcmi.745937508.xyz
+  port: 51693
   type: vmess
-  uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1
+  uuid: 5d5f96d0-5d45-4860-915d-c1fbb16f4384
+  alterId: 20
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /andre
+  ws-headers:
+    Host: hkcmi.745937508.xyz
+  udp: true
+- name: 4.43|KR 10
+  server: hgmf.speedcncnforward2.tk
+  port: 80
+  type: trojan
+  password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c
+  sni: hgmf.speedcncnforward2.tk
+  skip-cert-verify: true
+  udp: true
+- name: 3.92| RelayUSUS3814
+  server: jpgs.v2yun.vip
+  port: 80
+  type: vmess
+  uuid: 279e27da-634f-3639-882c-8f909ab1ec32
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: jpgs.v2yun.vip
+- name: 3.85|HK 3
+  server: 0326hk01.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
   alterId: 2
   cipher: auto
-  tls: false
-- name: 4.73|SSRSUBV01付费推荐suoytssrsub
-  server: 139.162.122.205
-  port: 3845
-  type: vmess
-  uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 4.71| US1877
-  server: 152.69.228.27
-  port: 29363
-  type: vmess
-  uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 3.92| US3550
-  server: 152.70.88.168
-  port: 49081
-  type: vmess
-  uuid: e19ea4e5-d918-4d1c-a384-c232ebe7b803
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 3.79|新加坡TG阿伟科技油管 8
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 0326hk01.fans8.xyz
+  udp: true
+- name: 3.82|新加坡TG阿伟科技油管 8
   server: sg1.31vpn.com
   port: 443
   type: vmess
@@ -58,7 +82,7 @@ proxies:
     headers:
       Host: sg1.31vpn.com
   udp: true
-- name: 3.76|SSRSUBV09付费推荐suoytssrsub
+- name: 3.74|SSRSUBV09付费推荐suoytssrsub
   server: 165.154.225.231
   port: 443
   type: vmess
@@ -70,119 +94,315 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: 330hk02.fans8.xyz
-- name: 3.56| RelayTWTW1653
-  server: twzh6v.zhs.company
-  port: 2053
-  type: vmess
-  uuid: f4c677da-ef1c-30e2-a4d0-5b07f9375b2b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /zhs
-  ws-headers:
-    Host: twzh6v.zhs.company
-- name: 3.17| Relay CNSG684
-  server: sg02.xiaocloud.icu
-  port: 20265
-  type: vmess
-  uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 3.14| Relay CNSG682
-  server: sg05.xiaocloud.icu
-  port: 20568
-  type: vmess
-  uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 2.27| RelaySGSG1639
-  server: sglyc6.zhs.company
-  port: 2087
-  type: vmess
-  uuid: f4c677da-ef1c-30e2-a4d0-5b07f9375b2b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /zhs
-  ws-headers:
-    Host: sglyc6.zhs.company
-- name: 2.20| Relay CNSG685
-  server: sg01.xiaocloud.icu
-  port: 20164
-  type: vmess
-  uuid: 6c053237-b3c8-36cc-a3ef-520e21603cf1
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 1.95| RelayUSUS3549
-  server: usmg3r.zhs.company
-  port: 443
-  type: vmess
-  uuid: f4c677da-ef1c-30e2-a4d0-5b07f9375b2b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /zhs
-  ws-headers:
-    Host: usmg3r.zhs.company
-- name: 1.87| US3551
-  server: 152.70.94.8
-  port: 41371
-  type: vmess
-  uuid: 84f76f53-0461-4d71-fc4d-7332aa92ae34
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.80| 甲骨文悉尼AMD1trojan
-  server: jgwxn1.gaox.ml
-  port: 443
+- name: 3.48|HK 8
+  server: hkmf1.speedcncnforward2.tk
+  port: 80
   type: trojan
-  password: 0f715619-0037-4358-a7c6-958106bc6b49
-  sni: jgwxn1.gaox.ml
-- name: 1.76| 甲骨文悉尼ARM1trojan
-  server: jgwxn3.gaox.ml
-  port: 443
-  type: trojan
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  sni: jgwxn3.gaox.ml
-- name: 1.74| 美国2
-  server: node.zxcairport.xyz
-  port: 443
+  password: eb40a3f4-3b04-4a1c-993d-d71b44fee92c
+  sni: hkmf1.speedcncnforward2.tk
+  skip-cert-verify: true
+  udp: true
+- name: 3.27|KR 33
+  server: kor3.lolvps.xyz
+  port: 40034
   type: vmess
-  uuid: 7b198651-f526-44b5-a156-6badfe346dbf
+  uuid: ad470e66-6851-45bb-bc8d-c2f5f7b0e361
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /AQFLW40C
+  ws-headers:
+    Host: kor3.lolvps.xyz
+  udp: true
+- name: 3.25| RelaySGCA1905
+  server: sg1.31vpn.com
+  port: 80
+  type: vmess
+  uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /fastssh/bddasdf/624e71635ed8e/
+  ws-headers:
+    Host: sg1.31vpn.com
+- name: 3.17| US3817
+  server: 150.230.249.169
+  port: 8888
+  type: vmess
+  uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 3.11| RelayUSUS3824
+  server: hkdx.v2yun.vip
+  port: 80
+  type: vmess
+  uuid: 279e27da-634f-3639-882c-8f909ab1ec32
+  alterId: 0
+  cipher: auto
+  tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: us2.zxcairport.xyz
-- name: 1.70| RelayHKHK1058
-  server: hgcdf6.zhs.company
-  port: 2087
+    Host: hkdx.v2yun.vip
+- name: 2.99|RelayCACA650
+  server: 331tw.fans8.xyz
+  port: 443
   type: vmess
-  uuid: f4c677da-ef1c-30e2-a4d0-5b07f9375b2b
-  alterId: 0
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
   cipher: auto
   tls: true
   network: ws
-  ws-path: /zhs
+  ws-path: /ray
   ws-headers:
-    Host: hgcdf6.zhs.company
-- name: 1.68|美国
-  type: snell
-  server: 54.185.94.141
-  port: 15328
-  psk: y1lvuLvIjBpNvPSgM7bPaPw54nMJkRx
-  obfs-opts:
-    mode: http
-    host: snowail.me
-- name: 1.67| RelayUSUS3547
+    Host: 331tw.fans8.xyz
+- name: 2.96|TW 2
+  server: 330tw.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 330tw.fans8.xyz
+  udp: true
+- name: 2.67|KR 8
+  server: kor1.lolvps.xyz
+  port: 40030
+  type: vmess
+  uuid: 77005b76-6917-4e2a-815c-d06b2bfa0bed
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /DYUSC0AP
+  ws-headers:
+    Host: kor1.lolvps.xyz
+  udp: true
+- name: 2.35| githubcomfreefq  日本  32
+  server: 146.56.105.192
+  port: 52660
+  type: vmess
+  uuid: b4e44960-44ed-4c5e-9577-e945b93e41fc
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.34|SSRSUBV08付费推荐suoytssrsub
+  server: 165.154.225.176
+  port: 443
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 0326hk01.fans8.xyz
+- name: 2.28| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 2.17| RelayHKHK1189
+  server: hk5gb.v2yun.vip
+  port: 80
+  type: vmess
+  uuid: 279e27da-634f-3639-882c-8f909ab1ec32
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hk5gb.v2yun.vip
+- name: 2.16|defaultname
+  server: v2ray.788644.xyz
+  port: 443
+  type: vmess
+  uuid: 000fe881-b655-4212-b804-b00f9970d5aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /happy
+  ws-headers:
+    Host: v2ray.788644.xyz
+  udp: true
+- cipher: aes-256-cfb
+  obfs: plain
+  password: c3NtHJ5ujV2tGDfj
+  port: 9084
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 2.10|468
+- name: 2.09| US1877
+  server: 152.69.228.27
+  port: 29363
+  type: vmess
+  uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c
+  alterId: 0
+  cipher: auto
+  tls: false
+- cipher: aes-256-cfb
+  obfs: plain
+  password: rpgbNnU9rDDU4aWZ
+  port: 9094
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 2.09|593
+- name: 2.07| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
+  port: 443
+  type: trojan
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: 2.05|ZZ3223  165Mb
+  server: 103.172.116.9
+  type: ssr
+  country: ZZ
+  port: 9070
+  password: bf7v334KKDV3YDhH
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 2.02|KR 3
+  server: jgw3.gaox.ml
+  port: 443
+  type: trojan
+  password: a1718180-d616-4b71-9bb6-3e96ba20f921
+  sni: jgw3.gaox.ml
+  skip-cert-verify: true
+  udp: true
+- name: 2.01| LT829  360Mb
+  server: 213.183.53.177
+  type: ssr
+  country: ' LT'
+  port: 9014
+  password: KnJGad3FqTvjqbaX
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- cipher: aes-256-cfb
+  obfs: plain
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 2.01|464
+- cipher: aes-256-cfb
+  obfs: plain
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  protocol: origin
+  server: 213.183.53.200
+  type: ssr
+  name: 2.00|561
+- cipher: aes-256-cfb
+  obfs: plain
+  password: Lp27rqyJq72bZsqX
+  port: 9045
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 2.00|251
+- cipher: aes-256-cfb
+  obfs: plain
+  password: f8npKgNzdkss2ytn
+  port: 9088
+  protocol: origin
+  server: 213.183.53.200
+  type: ssr
+  name: 1.99|580
+- name: 1.97| LT835  384Mb
+  server: 213.183.53.177
+  type: ssr
+  country: ' LT'
+  port: 9032
+  password: UWZQeLRWnkqgkseq
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.95| LT833 4496Mb
+  server: 213.183.53.177
+  type: ssr
+  country: ' LT'
+  port: 9059
+  password: 9XwYyZsK8SNzQDtY
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.95| LT831  398Mb
+  server: 213.183.53.177
+  type: ssr
+  country: ' LT'
+  port: 9041
+  password: U6qnYRhfyDmn8sgn
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- cipher: aes-256-cfb
+  obfs: plain
+  password: rNBfNuuANFCAk7KB
+  port: 9056
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 1.92|632
+- name: 1.90|US美国 28
+  server: sjc.xrenblog.com
+  port: 18888
+  type: vmess
+  uuid: 0febc8e5-8463-440f-961a-6ea09d429d1c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /xrenblog
+  ws-headers:
+    Host: sjc.xrenblog.com
+  udp: true
+- name: 1.88| LT830  374Mb
+  server: 213.183.53.177
+  type: ssr
+  country: ' LT'
+  port: 9006
+  password: FAdUvMJUq5vDgKEq
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- cipher: aes-256-cfb
+  obfs: plain
+  password: p9z5BVADH2YFs3MN
+  port: 9040
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 1.88|232
+- cipher: aes-256-cfb
+  obfs: plain
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 1.86|230
+- name: 1.85| RelayUSUS3547
   server: 48us.fans8.xyz
   port: 443
   type: vmess
@@ -194,19 +414,282 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: 48us.fans8.xyz
-- name: 1.63| RelayUSUS3648
-  server: www.zhangss.xyz
-  port: 59627
+- name: 1.85| US3806
+  server: 149.28.93.71
+  port: 37770
   type: vmess
-  uuid: 7cb9b8c1-ddc8-4bdc-b365-d8b73aafa0ec
+  uuid: 2d333e34-b8db-11ec-b783-560003f11a6e
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /t5BcCZPn/
+  ws-headers:
+    Host: 149.28.93.71
+- name: 1.83|GB 2
+  server: rknc.xrenblog.com
+  port: 18888
+  type: vmess
+  uuid: 0febc8e5-8463-440f-961a-6ea09d429d1c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /xrenblog
+  ws-headers:
+    Host: rknc.xrenblog.com
+  udp: true
+- name: 1.81| LT822  394Mb
+  server: 213.183.53.177
+  type: ssr
+  country: ' LT'
+  port: 9043
+  password: HSZuyJQcWe8dxNdF
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- cipher: aes-256-cfb
+  obfs: plain
+  password: SBM7R883jBmnqe6C
+  port: 9053
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 1.78|577
+- name: 1.76|JP 4
+  server: jp3.lolvps.xyz
+  port: 30032
+  type: vmess
+  uuid: a4ca5bcd-b869-40d1-a22b-ffedde600ac3
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /HQMVPI9Y
+  ws-headers:
+    Host: jp3.lolvps.xyz
+  udp: true
+- cipher: aes-256-cfb
+  obfs: plain
+  password: JdmRK9gMEqFgs8nP
+  port: 9003
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 1.74|234
+- name: 1.73| 甲骨文悉尼AMD1trojan
+  server: jgwxn1.gaox.ml
+  port: 443
+  type: trojan
+  password: 0f715619-0037-4358-a7c6-958106bc6b49
+  sni: jgwxn1.gaox.ml
+- cipher: aes-256-cfb
+  obfs: plain
+  password: aLpQtfEZe445QyHk
+  port: 9098
+  protocol: origin
+  server: 152.89.210.105
+  type: ssr
+  name: 1.73|112
+- name: 1.72|HK 7
+  server: 330hk02.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
+  alterId: 2
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 330hk02.fans8.xyz
+  udp: true
+- name: 1.69|US 43
+  server: v2ray.ifuckgfw.ga
+  port: 8443
+  type: vmess
+  uuid: ecb634c2-b3c3-11ec-876b-5254001b7b42
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /yUxLk70F/
+  ws-headers:
+    Host: v2ray.ifuckgfw.ga
+  udp: true
+- name: 1.66| 甲骨文悉尼ARM1trojan
+  server: jgwxn3.gaox.ml
+  port: 443
+  type: trojan
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  sni: jgwxn3.gaox.ml
+- name: 1.63| JP1357
+  server: 52.140.219.170
+  port: 34999
+  type: vmess
+  uuid: 8809e56a-f245-4da2-f5bc-ad222c40fa59
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 52.140.219.170
+- cipher: aes-256-cfb
+  obfs: plain
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 1.62|224
+- name: 1.61|GB571 1173Mb
+  server: 152.89.210.105
+  type: ssr
+  country: GB
+  port: 9046
+  password: NvS8N4Vf8qAGPSCL
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.61| 甲骨文凤凰城AMD2trojan
+  server: fhcamd2.gaox.ml
+  port: 443
+  type: trojan
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  sni: fhcamd2.gaox.ml
+- name: 1.60| 甲骨文伦敦AMD2trojan
+  server: jgwld2.gaox.ml
+  port: 443
+  type: trojan
+  password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
+  sni: jgwld2.gaox.ml
+- name: 1.49| GB631 2282Mb
+  server: 152.89.210.105
+  type: ssr
+  country: ' GB'
+  port: 9038
+  password: gYCYXfkUQEs2TaJQ
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.49| 美国2
+  server: node.zxcairport.xyz
+  port: 443
+  type: vmess
+  uuid: 7b198651-f526-44b5-a156-6badfe346dbf
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: www.zhangss.xyz
-- name: 1.50|THE WORLD
+    Host: us2.zxcairport.xyz
+- name: 1.48|美国
+  type: snell
+  server: 54.185.94.141
+  port: 15328
+  psk: y1lvuLvIjBpNvPSgM7bPaPw54nMJkRx
+  obfs-opts:
+    mode: http
+    host: snowail.me
+- name: 1.48| 美国 迈阿密
+  server: misaka1433.tk
+  port: 443
+  type: trojan
+  password: YcQgIbGZNNd1PwsF
+  sni: misaka1433.tk
+- cipher: aes-256-cfb
+  obfs: plain
+  password: a3GFYt36Sm82Vys9
+  port: 9000
+  protocol: origin
+  server: 213.183.53.200
+  type: ssr
+  name: 1.47|595
+- name: 1.45| Relay SGUS1785
+  server: eu.licom.ga
+  port: 62013
+  type: vmess
+  uuid: f81e990e-1283-48f9-9eff-acacad6fb661
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: eu.licom.ga
+- cipher: aes-256-cfb
+  obfs: plain
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 1.44|564
+- name: 1.42|GB651  819Mb
+  server: 152.89.210.105
+  type: ssr
+  country: GB
+  port: 9045
+  password: Lp27rqyJq72bZsqX
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- cipher: aes-256-cfb
+  obfs: plain
+  password: TPqX8edgbAURcAMb
+  port: 9079
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 1.42|562
+- name: 1.41|GB656  656Mb
+  server: 152.89.210.105
+  type: ssr
+  country: GB
+  port: 9042
+  password: S7KwUu7yBy58S3Ga
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- cipher: aes-256-cfb
+  obfs: plain
+  password: kSPmvwdFzGMMW5pY
+  port: 9007
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 1.41|586
+- cipher: aes-256-cfb
+  obfs: plain
+  password: cp8pRSUAyLhTfVWH
+  port: 9064
+  protocol: origin
+  server: 152.89.210.105
+  type: ssr
+  name: 1.40|200
+- cipher: aes-256-cfb
+  obfs: plain
+  password: aLpQtfEZe445QyHk
+  port: 9098
+  protocol: origin
+  server: 213.183.53.200
+  type: ssr
+  name: 1.40|637
+- cipher: aes-256-cfb
+  obfs: plain
+  password: ueLXVkvh4hckhErQ
+  port: 9060
+  protocol: origin
+  server: 152.89.210.105
+  type: ssr
+  name: 1.40|553
+- name: 1.39|THE WORLD
   server: cloudflare.xrenblog.com
   port: 443
   type: vmess
@@ -220,121 +703,38 @@ proxies:
   ws-headers:
     Host: v4.xrenblog.com
   udp: true
-- name: 1.47| 美国 迈阿密
-  server: misaka1433.tk
-  port: 443
-  type: trojan
-  password: YcQgIbGZNNd1PwsF
-  sni: misaka1433.tk
-- name: 1.46|GB571 1173Mb
-  server: 152.89.210.105
+- name: 1.39|LT894  436Mb
+  server: 213.183.53.177
   type: ssr
-  country: GB
-  port: 9046
-  password: NvS8N4Vf8qAGPSCL
+  country: LT
+  port: 9000
+  password: a3GFYt36Sm82Vys9
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 1.46| 甲骨文凤凰城AMD1trojan
-  server: fhcamd1.gaox.ml
+- cipher: aes-256-cfb
+  obfs: plain
+  password: M3t2ZEQcMGRWBjRa
+  port: 9011
+  protocol: origin
+  server: 213.183.53.177
+  type: ssr
+  name: 1.37|229
+- cipher: aes-256-cfb
+  obfs: plain
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
+  protocol: origin
+  server: 152.89.210.105
+  type: ssr
+  name: 1.37|550
+- name: 1.37| 甲骨文大阪ARM1trojan
+  server: jgwdb3.gaox.ml
   port: 443
   type: trojan
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  sni: fhcamd1.gaox.ml
-- cipher: aes-256-cfb
-  obfs: plain
-  password: TN2YqghxeFDKZfLU
-  port: 9037
-  protocol: origin
-  server: 152.89.210.105
-  type: ssr
-  name: 1.45|114
-- name: 1.44| RelayUSUS3558
-  server: fri.ncugo.cf
-  port: 443
-  type: vmess
-  uuid: de0eb598-2cea-43a0-c5fe-77335fb07a35
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: fri.ncugo.cf
-- cipher: aes-256-cfb
-  obfs: plain
-  password: daFYagqDdBdA6VTX
-  port: 9073
-  protocol: origin
-  server: 152.89.210.105
-  type: ssr
-  name: 1.43|108
-- name: 1.41| 甲骨文伦敦AMD2trojan
-  server: jgwld2.gaox.ml
-  port: 443
-  type: trojan
-  password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
-  sni: jgwld2.gaox.ml
-- name: 1.40| US3569
-  server: 150.230.43.65
-  port: 14564
-  type: vmess
-  uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e
-  alterId: 0
-  cipher: auto
-  tls: false
-- cipher: aes-256-cfb
-  obfs: plain
-  password: aLpQtfEZe445QyHk
-  port: 9098
-  protocol: origin
-  server: 152.89.210.105
-  type: ssr
-  name: 1.40|112
-- cipher: aes-256-cfb
-  obfs: plain
-  password: FG5ddLsMPbV5CutE
-  port: 9050
-  protocol: origin
-  server: 152.89.210.105
-  type: ssr
-  name: 1.39|2841
-- name: 1.38|GB498 1068Mb
-  server: 152.89.210.105
-  type: ssr
-  country: GB
-  port: 9084
-  password: c3NtHJ5ujV2tGDfj
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.35| Relay USUS1880
-  server: 172.67.68.58
-  port: 443
-  type: vmess
-  uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /shuier
-  ws-headers:
-    Host: xc1.v2rie.pp.ua
-- cipher: aes-256-cfb
-  obfs: plain
-  password: UWZQeLRWnkqgkseq
-  port: 9032
-  protocol: origin
-  server: 152.89.210.105
-  type: ssr
-  name: 1.34|2836
-- name: 1.34| 甲骨文凤凰城AMD2trojan
-  server: fhcamd2.gaox.ml
-  port: 443
-  type: trojan
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  sni: fhcamd2.gaox.ml
-- name: 1.34| RelayUSIE3637
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  sni: jgwdb3.gaox.ml
+- name: 1.37| RelayUSIE3637
   server: 104.18.90.4
   port: 443
   type: vmess
@@ -346,64 +746,45 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: green-shadow-598a.nguyenhuuvuong11122002.workers.dev
-- name: 1.33| US3553
-  server: 45.32.94.166
-  port: 31676
-  type: vmess
-  uuid: 6f3ec45c-5283-40e8-aea9-7749f4c75753
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 45.32.94.166
-- name: 1.29|SSRSUBV08付费推荐suoytssrsub
-  server: 165.154.225.176
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: 0326hk01.fans8.xyz
-- name: 1.29|LT744  402Mb
+- name: 1.36|LT746  408Mb
   server: 213.183.53.177
   type: ssr
   country: LT
-  port: 9026
-  password: QWDDvVE9npNurQfA
+  port: 9020
+  password: BNmAXXxAHYpTRdzu
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 1.27|RelayZZZZ4487
-  server: usly2m.zhs.company
-  port: 443
+- name: 1.35|LT887  370Mb
+  server: 213.183.53.177
+  type: ssr
+  country: LT
+  port: 9088
+  password: f8npKgNzdkss2ytn
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- cipher: aes-256-cfb
+  obfs: plain
+  password: BwcAUZk8hUFAkDGN
+  port: 9031
+  protocol: origin
+  server: 213.183.53.200
+  type: ssr
+  name: 1.34|571
+- name: 1.33| RelayUSUS3648
+  server: www.zhangss.xyz
+  port: 59627
   type: vmess
-  uuid: f4c677da-ef1c-30e2-a4d0-5b07f9375b2b
+  uuid: 7cb9b8c1-ddc8-4bdc-b365-d8b73aafa0ec
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /zhs
+  ws-path: /
   ws-headers:
-    Host: usly2m.zhs.company
-- cipher: aes-256-cfb
-  obfs: plain
-  password: f63gg8EruDnUrmz4
-  port: 9010
-  protocol: origin
-  server: 213.183.53.177
-  type: ssr
-  name: 1.20|173
-- name: 1.20| RelayUSUS3640
+    Host: www.zhangss.xyz
+- name: 1.32| RelayUSUS3640
   server: us1.31vpn.com
   port: 80
   type: vmess
@@ -415,14 +796,123 @@ proxies:
   ws-path: /fastssh/remaoqi/624ca41d72e6d/
   ws-headers:
     Host: us1.31vpn.com
+- name: 1.31| GB630 1263Mb
+  server: 152.89.210.105
+  type: ssr
+  country: ' GB'
+  port: 9056
+  password: rNBfNuuANFCAk7KB
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
 - cipher: aes-256-cfb
   obfs: plain
-  password: EXN3S3eQpjE7EJu8
-  port: 9027
+  password: UWZQeLRWnkqgkseq
+  port: 9032
   protocol: origin
+  server: 152.89.210.105
+  type: ssr
+  name: 1.31|2836
+- name: 1.30| US3569
+  server: 150.230.43.65
+  port: 14564
+  type: vmess
+  uuid: 1556e040-31d3-4c47-b0d2-ddf888010b4e
+  alterId: 0
+  cipher: auto
+  tls: false
+- cipher: aes-256-cfb
+  obfs: plain
+  password: rNBfNuuANFCAk7KB
+  port: 9056
+  protocol: origin
+  server: 213.183.53.200
+  type: ssr
+  name: 1.28|635
+- cipher: aes-256-cfb
+  obfs: plain
+  password: wfLC2y7rzZyCmuyt
+  port: 9093
+  protocol: origin
+  server: 152.89.210.105
+  type: ssr
+  name: 1.27|557
+- cipher: aes-256-cfb
+  obfs: plain
+  password: NvS8N4Vf8qAGPSCL
+  port: 9046
+  protocol: origin
+  server: 213.183.53.200
+  type: ssr
+  name: 1.26|563
+- cipher: aes-256-cfb
+  obfs: plain
+  password: TN2YqghxeFDKZfLU
+  port: 9037
+  protocol: origin
+  server: 152.89.210.105
+  type: ssr
+  name: 1.24|114
+- name: 1.23|LT886  408Mb
   server: 213.183.53.177
   type: ssr
-  name: 1.18|162
+  country: LT
+  port: 9033
+  password: UTJA57ypk2XKQpnm
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.21| RelayUSUS3822
+  server: 4.ezydfdd.com
+  port: 443
+  type: vmess
+  uuid: c0cb6989-5967-447d-ea34-b4b0aa70b9f7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /qwe
+  ws-headers:
+    Host: 4.ezydfdd.com
+- name: 1.21|SSRSUBV01付费推荐suoytssrsub
+  server: 139.162.122.205
+  port: 3845
+  type: vmess
+  uuid: 76d5c6e3-c74c-3406-b9e8-9859d0a71c56
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.18| 甲骨文凤凰城AMD1trojan
+  server: fhcamd1.gaox.ml
+  port: 443
+  type: trojan
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  sni: fhcamd1.gaox.ml
+- cipher: aes-256-cfb
+  obfs: plain
+  password: FAdUvMJUq5vDgKEq
+  port: 9006
+  protocol: origin
+  server: 213.183.53.200
+  type: ssr
+  name: 1.15|583
+- cipher: aes-256-cfb
+  obfs: plain
+  password: daFYagqDdBdA6VTX
+  port: 9073
+  protocol: origin
+  server: 152.89.210.105
+  type: ssr
+  name: 1.15|108
+- name: 1.15| LT834  394Mb
+  server: 213.183.53.177
+  type: ssr
+  country: ' LT'
+  port: 9042
+  password: S7KwUu7yBy58S3Ga
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
 - cipher: aes-256-cfb
   obfs: plain
   password: ueLXVkvh4hckhErQ
@@ -430,31 +920,76 @@ proxies:
   protocol: origin
   server: 213.183.53.177
   type: ssr
-  name: 1.11|175
-- name: 1.06| githubcomfreefq  新加坡Linode数据中心 28
-  server: eu.licom.ga
-  port: 60000
-  type: trojan
-  password: f81e990e-1283-48f9-9eff-acacad6fb661
-  sni: eu.licom.ga
-- name: 1.03|LT746  408Mb
-  server: 213.183.53.177
+  name: 1.14|175
+- cipher: aes-256-cfb
+  obfs: plain
+  password: bf7v334KKDV3YDhH
+  port: 9070
+  protocol: origin
+  server: 213.183.53.200
   type: ssr
-  country: LT
-  port: 9020
-  password: BNmAXXxAHYpTRdzu
+  name: 1.13|628
+- cipher: aes-256-cfb
+  obfs: plain
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
+  protocol: origin
+  server: 213.183.53.200
+  type: ssr
+  name: 1.13|636
+- name: 1.06|甲骨文海得拉巴ARM2trojan
+  server: jgwhdlb4.gaox.ml
+  port: 443
+  type: trojan
+  password: 081a4198-d664-4bc5-a7c6-e35982da964b
+  sni: jgwhdlb4.gaox.ml
+- name: 1.04|GB652  681Mb
+  server: 152.89.210.105
+  type: ssr
+  country: GB
+  port: 9088
+  password: f8npKgNzdkss2ytn
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 1.02| Relay SGUS1523
+- name: 1.04|LT864  286Mb
+  server: 213.183.53.177
+  type: ssr
+  country: LT
+  port: 9046
+  password: NvS8N4Vf8qAGPSCL
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.03|SG 3
   server: eu.licom.ga
-  port: 62012
-  type: vmess
-  uuid: f81e990e-1283-48f9-9eff-acacad6fb661
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: eu.licom.ga
+  port: 60001
+  type: trojan
+  password: f81e990e-1283-48f9-9eff-acacad6fb661
+  sni: eu.licom.ga
+  skip-cert-verify: true
+  udp: true
+- cipher: aes-256-cfb
+  obfs: plain
+  password: Sn5B7jTqr76aCJT8
+  port: 9097
+  protocol: origin
+  server: 213.183.53.200
+  type: ssr
+  name: 1.03|568
+- name: 1.03|US 74
+  server: jgwcc1.gaox.ml
+  port: 443
+  type: trojan
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+  skip-cert-verify: true
+  udp: true
+- cipher: aes-256-cfb
+  obfs: plain
+  password: ZpNDDKRu9MagNvaf
+  port: 9015
+  protocol: origin
+  server: 213.183.53.200
+  type: ssr
+  name: 1.00|638
