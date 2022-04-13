@@ -1,75 +1,101 @@
 proxies:
-- name: 5.02| RelayHKHK23 10465Mb
-  server: hk02.bosaidong.buzz
-  port: 8080
+- name: 5.69|❷香港 12
+  server: hk12.balala2016.xyz
+  port: 10080
   type: vmess
-  uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7
+  uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
   alterId: 0
   cipher: auto
   tls: false
-- name: 3.25|TW 3
-  server: 34.80.198.210
-  port: 46137
+  skip-cert-verify: true
+  network: ws
+  ws-path: /balala
+  ws-headers:
+    Host: hk12.balala2016.xyz
+  udp: true
+- name: 5.63|❶香港 18
+  server: hk18.balala2016.xyz
+  port: 10080
   type: vmess
-  uuid: 77ff090a-e711-4af8-8538-67fa2ab3f3d1
+  uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /hk18
+  ws-headers:
+    Host: hk18.balala2016.xyz
+  udp: true
+- name: 5.05|香港TG阿伟科技油管 9
+  server: 146.56.116.190
+  port: 45177
+  type: vmess
+  uuid: c2f1ae57-7ada-4bac-f510-a8336c8708dd
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 2.54| RelayKRKR26 26953Mb
-  server: ddns-kr02.ayanami.best
-  port: 8080
+- name: 4.77|❶新加坡 03 H
+  server: transit01.balala2016.xyz
+  port: 10080
   type: vmess
-  uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7
+  uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.30| RelayKRKR27 25626Mb
-  server: ddns-kr01.ayanami.best
-  port: 8080
-  type: vmess
-  uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.23| RelayUSUS53 7261Mb
-  server: ddns-jp01.ayanami.best
-  port: 8080
-  type: vmess
-  uuid: ff0c4cbd-bcfb-40af-9538-f31e91feb2d7
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.66| githubcomfreefq  北美地区  11
-  server: 107.173.111.93
-  port: 59886
-  type: vmess
-  uuid: 69ed190e-195b-4035-caaf-f56d4e002cc2
-  alterId: 0
-  cipher: auto
-  tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /macOS
+  ws-path: /sg02
   ws-headers:
-    Host: 107.173.111.93
-- name: 1.19| RelayGBKR22 2491Mb
-  server: 600201393260855809.zga.zengslb.com
-  port: 44170
-  type: vmess
-  uuid: 58fc393c-c6f0-482d-8293-51d5d3f21391
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.17| RelaySGCA1905
-  server: sg1.31vpn.com
+    Host: transit01.balala2016.xyz
+  udp: true
+- name: 4.45|❶日本 03 转
+  server: transit01.balala2016.xyz
   port: 80
   type: vmess
-  uuid: dce4c472-6f3f-4c45-80e5-cbfe5ecad7ee
+  uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /jp01
+  ws-headers:
+    Host: transit01.balala2016.xyz
+  udp: true
+- name: 3.17|❷香港 51
+  server: hk51.balala2016.xyz
+  port: 10080
+  type: vmess
+  uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /hk51
+  ws-headers:
+    Host: hk51.balala2016.xyz
+  udp: true
+- name: 2.92| hkmlfenglingcloudcom80
+  server: hkml.fenglingcloud.com
+  port: 80
+  type: vmess
+  uuid: f2102f6b-431d-4760-8b1c-c43a1a7ed77a
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /fastssh/bddasdf/624e71635ed8e/
+  ws-path: /
   ws-headers:
-    Host: sg1.31vpn.com
+    Host: '%7B%22Host%22:%22hkml.fenglingcloud.com%22%7D'
+- name: 2.26| githubcomfreefq  日本  32
+  server: 146.56.105.192
+  port: 52660
+  type: vmess
+  uuid: b4e44960-44ed-4c5e-9577-e945b93e41fc
+  alterId: 0
+  cipher: auto
+  tls: false
