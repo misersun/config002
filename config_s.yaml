@@ -1,66 +1,17 @@
 proxies:
-- name: 6.08| TR HK04
-  server: azhk.fenglingcloud.com
-  port: 28003
-  type: trojan
-  password: f2102f6b-431d-4760-8b1c-c43a1a7ed77a
-  sni: azhk04dl.webapi.cyou
-- name: 5.35| TR HK03
-  server: azhk.fenglingcloud.com
-  port: 28002
-  type: trojan
-  password: f2102f6b-431d-4760-8b1c-c43a1a7ed77a
-  sni: azhk03.webapi.cyou
-- name: 4.82| 甲骨文东京ARM2trojan
+- name: 6.00| 甲骨文东京ARM2trojan
   server: jgwdj4.gaox.ml
   port: 443
   type: trojan
   password: c09eb137-bf68-4658-84e0-102d94b74168
   sni: jgwdj4.gaox.ml
-- name: 4.24| TR KR01
-  server: azhk.fenglingcloud.com
-  port: 28004
+- name: 4.75| TelelinkJapan
+  server: 20.222.84.185
+  port: 443
   type: trojan
-  password: f2102f6b-431d-4760-8b1c-c43a1a7ed77a
-  sni: azkr.webapi.cyou
-- name: 3.93|SSRSUBV09付费推荐suoytssrsub
-  server: 165.154.225.231
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: 330hk02.fans8.xyz
-- name: 3.10|HK香港62
-  server: vs.mumi.bid
-  port: 10124
-  type: vmess
-  uuid: 0748a567-ca97-4fc8-9d9c-9ca18f2b9ff4
-  alterId: 0
-  cipher: auto
-  country: HK香港62
-  skip-cert-verify: true
-  tls: true
-  network: ws
-- name: 3.00|TW 2
-  server: 330tw.fans8.xyz
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: 330tw.fans8.xyz
-  udp: true
-- name: 2.83|RelayCACA650
+  password: b345dea8-d232-4aa5-8bec-517f78f986e3
+  sni: certificate.telelink.cc
+- name: 3.51|RelayCACA650
   server: 331tw.fans8.xyz
   port: 443
   type: vmess
@@ -72,93 +23,13 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: 331tw.fans8.xyz
-- name: 2.36| TR US01
-  server: azhk.fenglingcloud.com
-  port: 28007
-  type: trojan
-  password: f2102f6b-431d-4760-8b1c-c43a1a7ed77a
-  sni: ocrus.webapi.cyou
-- name: 2.20|SSRSUBV07付费推荐suoytssrsub
-  server: 0319hzm01.fans8.xyz
-  port: 443
-  type: vmess
-  uuid: 5c70da5d-e641-3bf8-b7dc-5babd843ff3c
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /nmsl
-  ws-headers:
-    Host: 0319hzm01.fans8.xyz
-- name: 2.02| TR NO01
-  server: azhk.fenglingcloud.com
-  port: 28006
-  type: trojan
-  password: f2102f6b-431d-4760-8b1c-c43a1a7ed77a
-  sni: aznw01.webapi.cyou
-- name: 1.61| 甲骨文凤凰城AMD1trojan
-  server: fhcamd1.gaox.ml
+- name: 2.70| TelelinkHong Kong
+  server: 40.83.89.223
   port: 443
   type: trojan
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  sni: fhcamd1.gaox.ml
-- name: 1.55| US556
-  server: 172.67.68.58
-  port: 443
-  type: vmess
-  uuid: f2f578e4-692d-40b5-af99-9f1dd712eb32
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /shuier
-  ws-headers:
-    Host: xc1.v2rie.pp.ua
-- name: 1.54| 美国 迈阿密
-  server: misaka1433.tk
-  port: 443
-  type: trojan
-  password: YcQgIbGZNNd1PwsF
-  sni: misaka1433.tk
-- name: 1.46| RelayUSUS3648
-  server: www.zhangss.xyz
-  port: 59627
-  type: vmess
-  uuid: 7cb9b8c1-ddc8-4bdc-b365-d8b73aafa0ec
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: www.zhangss.xyz
-- name: 1.35|US 43
-  server: v2ray.ifuckgfw.ga
-  port: 8443
-  type: vmess
-  uuid: ecb634c2-b3c3-11ec-876b-5254001b7b42
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /yUxLk70F/
-  ws-headers:
-    Host: v2ray.ifuckgfw.ga
-  udp: true
-- name: 1.31| githubcomfreefq  美国CloudFlare节点 26
-  server: ce.rutracker-cn.com
-  port: 443
-  type: vmess
-  uuid: ed5b1c2a-0f6d-4607-9725-a70a20727ab7
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /IqTUMDzwOI
-  ws-headers:
-    Host: ce.rutracker-cn.com
-- name: 1.09| RelayUSUS3822
+  password: b345dea8-d232-4aa5-8bec-517f78f986e3
+  sni: certificate.telelink.cc
+- name: 1.58| RelayUSUS3822
   server: 4.ezydfdd.com
   port: 443
   type: vmess
@@ -170,18 +41,36 @@ proxies:
   ws-path: /qwe
   ws-headers:
     Host: 4.ezydfdd.com
-- name: 1.01|德国TG阿伟科技油管
-  server: v6d1.moonfree.top
+- name: 1.52| TelelinkSingapore
+  server: 20.212.197.126
   port: 443
+  type: trojan
+  password: b345dea8-d232-4aa5-8bec-517f78f986e3
+  sni: certificate.telelink.cc
+- name: 1.39|US美国6
+  server: sjc.xrenblog.com
+  port: 18888
   type: vmess
-  uuid: 8fb115e3-4870-4396-b276-7fee9964298e
+  uuid: 0febc8e5-8463-440f-961a-6ea09d429d1c
+  alterId: 0
+  cipher: auto
+  country: US美国6
+  skip-cert-verify: true
+  tls: true
+  network: ws
+  ws-opts:
+    path: /xrenblog
+    headers:
+      host: sjc.xrenblog.com
+- name: 1.27| RelayUSUS3648
+  server: www.zhangss.xyz
+  port: 59627
+  type: vmess
+  uuid: 7cb9b8c1-ddc8-4bdc-b365-d8b73aafa0ec
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: v6d1.moonfree.top
-  udp: true
+  ws-path: /
+  ws-headers:
+    Host: www.zhangss.xyz
