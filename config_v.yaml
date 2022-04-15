@@ -1,101 +1,41 @@
 proxies:
-- name: 5.69|❷香港 12
-  server: hk12.balala2016.xyz
-  port: 10080
-  type: vmess
-  uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /balala
-  ws-headers:
-    Host: hk12.balala2016.xyz
-  udp: true
-- name: 5.63|❶香港 18
-  server: hk18.balala2016.xyz
-  port: 10080
-  type: vmess
-  uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /hk18
-  ws-headers:
-    Host: hk18.balala2016.xyz
-  udp: true
-- name: 5.05|香港TG阿伟科技油管 9
-  server: 146.56.116.190
-  port: 45177
-  type: vmess
-  uuid: c2f1ae57-7ada-4bac-f510-a8336c8708dd
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 4.77|❶新加坡 03 H
-  server: transit01.balala2016.xyz
-  port: 10080
-  type: vmess
-  uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /sg02
-  ws-headers:
-    Host: transit01.balala2016.xyz
-  udp: true
-- name: 4.45|❶日本 03 转
-  server: transit01.balala2016.xyz
+- name: 2.45| KR1182
+  server: 20.194.18.187
   port: 80
   type: vmess
-  uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /jp01
-  ws-headers:
-    Host: transit01.balala2016.xyz
-  udp: true
-- name: 3.17|❷香港 51
-  server: hk51.balala2016.xyz
-  port: 10080
-  type: vmess
-  uuid: e3121cd0-b493-11ec-8a78-69c637e5ed92
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /hk51
-  ws-headers:
-    Host: hk51.balala2016.xyz
-  udp: true
-- name: 2.92| hkmlfenglingcloudcom80
-  server: hkml.fenglingcloud.com
-  port: 80
-  type: vmess
-  uuid: f2102f6b-431d-4760-8b1c-c43a1a7ed77a
+  uuid: a17ad3d8-6b83-4a57-8e4a-98b8be9fe72e
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /
+  ws-path: /index.php
   ws-headers:
-    Host: '%7B%22Host%22:%22hkml.fenglingcloud.com%22%7D'
-- name: 2.26| githubcomfreefq  日本  32
-  server: 146.56.105.192
-  port: 52660
+    Host: telelink.cc
+- name: 1.95| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 9
+  server: 65.49.205.10
+  port: 45387
   type: vmess
-  uuid: b4e44960-44ed-4c5e-9577-e945b93e41fc
+  uuid: 46f736c6-a86f-423e-c57a-deb85c998e64
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.94| US3722
+  server: 45.32.80.244
+  port: 61994
+  type: vmess
+  uuid: f98423e6-bac9-11ec-bf47-560003f1e1a4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /5fGJSKhY/
+  ws-headers:
+    Host: 45.32.80.244
+- name: 1.02| githubcomfreefq  美国新泽西州皮斯卡特维Vultr数据中心 13
+  server: 207.246.94.28
+  port: 42383
+  type: vmess
+  uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
   alterId: 0
   cipher: auto
   tls: false
