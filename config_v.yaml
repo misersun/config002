@@ -1,5 +1,20 @@
 proxies:
-- name: 4.51|109
+- name: 2.33|YouTube阿伟科技 152
+  server: 20.24.83.247
+  port: 80
+  type: vmess
+  uuid: 296c78e7-c4d7-456b-805a-3db82fe06edc
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 20.24.83.247
+  udp: true
+- name: 2.12|109
   server: 193.123.229.241
   port: 4226
   type: vmess
@@ -7,11 +22,11 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 4.13| US3710
-  server: 193.123.229.241
-  port: 4301
+- name: 1.01| US3683
+  server: 207.246.94.28
+  port: 42383
   type: vmess
-  uuid: f78458a9-cd20-4353-fbc6-35055b8ddada
+  uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
   alterId: 0
   cipher: auto
   tls: false
