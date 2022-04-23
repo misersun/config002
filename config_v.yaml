@@ -1,5 +1,41 @@
 proxies:
-- name: 2.05|6642111190ws
+- name: 5.49| US3792
+  server: hkaz6.xmrth-node.xyz
+  port: 11284
+  type: vmess
+  uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 3.64| RelaySGCA1795
+  server: sg2.31vpn.com
+  port: 80
+  type: vmess
+  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /fastssh/seikozero/62621831a0fc7/
+  ws-headers:
+    Host: sg2.31vpn.com
+- name: 2.15| Relay USUS1841
+  server: aa.kayalo.com
+  port: 26267
+  type: vmess
+  uuid: 9757cdba-c75b-4b94-9e31-7956dc7d852a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /wis
+  ws-headers:
+    Host: aa.kayalo.com
+- name: 1.88|6642111190ws
   server: 66.42.111.190
   port: 21560
   type: vmess
@@ -11,27 +47,3 @@ proxies:
   ws-path: /wNZgrebd/
   ws-headers:
     Host: 66.42.111.190
-- name: 1.96|4566157174ws
-  server: 45.66.157.174
-  port: 49192
-  type: vmess
-  uuid: 9451e6e0-c125-11ec-8012-00163c76ea30
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /atG37YNW/
-  ws-headers:
-    Host: 45.66.157.174
-- name: 1.17| US3815
-  server: 149.28.81.105
-  port: 45721
-  type: vmess
-  uuid: 492cbc4a-c07f-11ec-881d-560003f4a437
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /T3cj7mJZ/
-  ws-headers:
-    Host: 149.28.81.105
