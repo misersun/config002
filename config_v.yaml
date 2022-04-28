@@ -1,15 +1,7 @@
 proxies:
-- name: 4.60| JP1262
-  server: 146.56.99.245
-  port: 25135
-  type: vmess
-  uuid: 5893f7e5-9695-45af-f65e-bd2958ba93fa
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 3.40| HK1061
-  server: hkaz3.xmrth-node.xyz
-  port: 12567
+- name: 6.13| 27
+  server: hkaz7.xmrth-node.xyz
+  port: 13132
   type: vmess
   uuid: ebb8920a-63c4-368f-b3fd-3794f4fa1c98
   alterId: 2
@@ -19,11 +11,11 @@ proxies:
   ws-path: /index
   ws-headers:
     Host: www.baidu.com
-- name: 3.31| US3811
-  server: hkaz5.xmrth-node.xyz
-  port: 13889
+- name: 5.78| 24
+  server: hkaz004.xmrth-node.xyz
+  port: 10003
   type: vmess
-  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
+  uuid: 57d21b5b-284a-3433-8738-9dca3b69feb9
   alterId: 2
   cipher: auto
   tls: false
@@ -31,51 +23,29 @@ proxies:
   ws-path: /index
   ws-headers:
     Host: www.baidu.com
-- name: 2.82| RelayHKDE1059
-  server: hkaz3.xmrth-node.xyz
-  port: 12568
-  type: vmess
-  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: www.baidu.com
-- name: 2.30| US3845
-  server: 65.49.214.110
-  port: 59750
-  type: vmess
-  uuid: 32531e8d-8ca7-443a-d6d8-9a5e091bdf4b
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.14| RelayUSUS3855
-  server: kr.mayiyun.vip
+- name: 4.59| 74
+  server: hk3.fdns.cloudlink123.com
   port: 80
   type: vmess
-  uuid: 54b3ef87-0084-4362-af57-2fb494d8ca15
+  uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: kr.mayiyun.vip
-- name: 2.09| US3835
-  server: 149.28.89.173
-  port: 24725
+    Host: hk3.fdns.cloudlink123.com
+- name: 3.20|台湾TG阿伟科技油管 6
+  server: gc1.criskaka.com
+  port: 45658
   type: vmess
-  uuid: 1203942d-054a-4d63-87a6-3c56ee2e91a6
+  uuid: 9aac58a0-f5ef-4a9d-e493-850373c9f73e
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /3gGrItp9/
-  ws-headers:
-    Host: 149.28.89.173
-- name: 2.05| RelayUSDE3816
+  skip-cert-verify: true
+  udp: true
+- name: 3.15| RelayUSDE3816
   server: hkaz1.xmrth-node.xyz
   port: 10033
   type: vmess
@@ -87,23 +57,59 @@ proxies:
   ws-path: /index
   ws-headers:
     Host: hkaz1.xmrth-node.xyz
-- name: 2.01| US3879
-  server: 155.248.202.203
-  port: 14564
+- name: 2.02|8821892145ws
+  server: 88.218.92.145
+  port: 26816
   type: vmess
-  uuid: 4a0da379-a7cc-4389-88d7-45514b896883
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.61| 7 备用 0001x低带宽分享转卖1兆无限设备美国
-  server: share-1mbps.fanqiangvpn.com
-  port: 80
-  type: vmess
-  uuid: ee8d15c0-927d-497a-ba84-65447a790f56
+  uuid: 6a0799a6-db0d-4067-a1d5-b143a54085c4
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: share-1mbps.fanqiangvpn.com
+    Host: 88.218.92.145
+- name: 1.89|10861217130ws
+  server: 108.61.217.130
+  port: 49632
+  type: vmess
+  uuid: 9d9f370b-0d42-4850-8aa7-379b4333fb26
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /9nTNbW8X/
+  ws-headers:
+    Host: 108.61.217.130
+- name: 1.52| 66
+  server: 152.70.49.174
+  port: 55988
+  type: vmess
+  uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.51|
+  server: 43.135.70.192
+  port: 24740
+  type: vmess
+  uuid: 3749de34-a1a9-44db-b72a-510712a52d11
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 43.135.70.192
+- name: 1.31| 29
+  server: 65.52.77.131
+  port: 1492
+  type: vmess
+  uuid: 8dae6939-00e1-4f0c-9bc0-11365f99e3f8
+  alterId: 0
+  cipher: auto
+  tls: false

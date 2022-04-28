@@ -1,13 +1,16 @@
 proxies:
-- cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: YFVrXZgRo
-  port: 8081
-  protocol: origin
-  server: us-am32-5.eqnode.net
+- name: 2.02|TG阿伟科技油管 24
+  server: ssr.ssrfree1.xyz
+  port: 443
   type: ssr
-  name: 1.93|2151
-- name: 1.71| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶5SSR
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 1.91| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶5SSR
   server: clash5.free4444.xyz
   port: 443
   type: ssr
@@ -17,12 +20,22 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.39|LT1049  390Mb
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9006
-  password: FAdUvMJUq5vDgKEq
-  cipher: aes-256-cfb
+- cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: YFVrXZgRo
+  port: 8081
   protocol: origin
+  server: us-am32-5.eqnode.net
+  type: ssr
+  name: 1.61|227
+- name: 1.15|TG阿伟科技油管 26
+  server: 173.82.186.25
+  port: 60001
+  type: ssr
+  cipher: dummy
+  password: enterpassword
+  protocol: auth_chain_a
   obfs: plain
+  protocol-param: ''
+  obfs-param: ajax.microsoft.com
+  udp: true
