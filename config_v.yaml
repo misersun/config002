@@ -1,5 +1,30 @@
 proxies:
-- name: 3.48| RelaySGCA1892
+- name: 5.12|台湾TG阿伟科技油管 7
+  server: 132.145.125.23
+  port: 39693
+  type: vmess
+  uuid: c93dab4c-6d91-4a11-8f33-eefa086099e2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.60|台湾TG阿伟科技油管 12
+  server: tw-1.qwqjsq.top
+  port: 443
+  type: vmess
+  uuid: b0543a3b-d690-3ed9-9a81-f24f852e74f7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: aweikeji-YouTube-TG
+  udp: true
+- name: 2.93| RelaySGCA1892
   server: sg3.31vpn.com
   port: 80
   type: vmess
@@ -11,113 +36,74 @@ proxies:
   ws-path: /fastssh/ntmdq/6267584ee4988/
   ws-headers:
     Host: sg3.31vpn.com
-- name: 2.65|SSRSUBV12付费推荐suoytssrsub
-  server: jpaz1.xmrth-node.xyz
-  port: 10058
+- name: 2.72| AU203
+  server: 43.135.70.192
+  port: 24740
   type: vmess
-  uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: www.baidu.com
-- name: 2.59| RelayHKDE1123
-  server: hkaz3.xmrth-node.xyz
-  port: 12568
-  type: vmess
-  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: www.baidu.com
-- name: 2.48| RelayHKSG1124
-  server: hkaz3.xmrth-node.xyz
-  port: 12567
-  type: vmess
-  uuid: ececdd8d-d257-3e9b-a770-9abaf61e4920
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: www.baidu.com
-- name: 2.40| US3840
-  server: 150.230.249.169
-  port: 8888
-  type: vmess
-  uuid: f836d00e-73e0-4eb5-a0ac-18a8e9ee61ef
+  uuid: 3749de34-a1a9-44db-b72a-510712a52d11
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.37|台湾TG阿伟科技油管 7
-  server: 132.145.125.23
-  port: 39693
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 43.135.70.192
+- name: 2.22| US3765
+  server: 45.76.175.3
+  port: 39723
   type: vmess
-  uuid: c93dab4c-6d91-4a11-8f33-eefa086099e2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.95| US3824
-  server: 152.69.228.27
-  port: 29363
-  type: vmess
-  uuid: c71ba6b4-98c0-4e7c-b8a1-4b074a44933c
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.84| US3823
-  server: 149.248.1.76
-  port: 27266
-  type: vmess
-  uuid: 1a79bde9-ac7a-4cd9-899c-6dbbe35e16dd
+  uuid: edf11a4e-3d4d-456e-87a1-c657f05bff5e
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /QEc5C9RG/
+  ws-path: /aTthb8Zx/
   ws-headers:
-    Host: 149.248.1.76
-- name: 1.64| US1929
-  server: 129.146.250.54
-  port: 58899
-  type: vmess
-  uuid: bcd4ac9d-8414-4468-c099-e1df78861917
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.30| 74
-  server: hk3.fdns.cloudlink123.com
+    Host: 45.76.175.3
+- name: 2.20| RelayUSUS3767
+  server: us-ca1.qwqjsq.top
   port: 80
   type: vmess
-  uuid: 3f6006ca-e8ba-49d5-af9d-f4806dd36e09
+  uuid: b0543a3b-d690-3ed9-9a81-f24f852e74f7
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: hk3.fdns.cloudlink123.com
-- name: 1.21| AU321
-  server: 129.154.54.75
-  port: 33004
+    Host: aweikeji-YouTube-TG
+- name: 2.09|JPwmt429a165
+  server: 140.238.48.194
+  port: 8888
   type: vmess
-  uuid: 4f14695c-31b9-45bf-ca34-1d82170fc100
+  uuid: 24f1dfad-1267-4297-8e88-0e9b8ef47e47
+  alterId: 0
+  cipher: auto
+  country: JPwmt429a165
+  skip-cert-verify: true
+  tls: false
+  network: tcp
+  ws-opts:
+    path: /index
+    headers:
+      host: 140.238.48.194
+- name: 1.93| US3768
+  server: 20.211.32.62
+  port: 6666
+  type: vmess
+  uuid: 95ea233c-5044-4771-bee6-53fe0ea38727
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 129.154.54.75
-- name: 1.21|10861217130ws
+    Host: 20.211.32.62
+- name: 1.88|10861217130ws
   server: 108.61.217.130
   port: 49632
   type: vmess
@@ -129,3 +115,42 @@ proxies:
   ws-path: /9nTNbW8X/
   ws-headers:
     Host: 108.61.217.130
+- name: 1.85|GB357
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.34|HKwmt429a51
+  server: 43.132.109.14
+  port: 24886
+  type: vmess
+  uuid: 55711bf8-4785-4e86-9f5e-2fa64466c233
+  alterId: 0
+  cipher: auto
+  country: HKwmt429a51
+  skip-cert-verify: true
+  tls: false
+  network: http
+  ws-opts:
+    path: /
+    headers:
+      host: 43.132.109.14
+- name: 1.21|SSRSUBV06付费推荐suoytssrsub
+  server: 207.246.94.28
+  port: 42383
+  type: vmess
+  uuid: 4773dfdc-9c85-4873-8720-ce8cf5f74f7c
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.20| US58 1009Mb
+  server: 152.70.49.174
+  port: 55988
+  type: vmess
+  uuid: 2c644a6a-5817-40b2-b149-2f3ac7eb2447
+  alterId: 0
+  cipher: auto
+  tls: false
