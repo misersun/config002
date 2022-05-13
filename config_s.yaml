@@ -1,54 +1,98 @@
 proxies:
-- name: 2.76| 129
-  server: krr1.liuwei01.tk
+- name: 4.85| githubcomfreefq  美国Microsoft数据中心 1
+  server: an011.oioav.com
+  port: 52306
+  type: trojan
+  password: 55af954a-7634-4f28-8acf-8a64ca9fc4cd
+  sni: an011.oioav.com
+- name: 3.88|新加坡TG阿伟科技油管 13
+  server: v2-3.godlight.xyz
+  port: 39241
+  type: vmess
+  uuid: 6a52f259-4367-468c-a828-7b8283c2f059
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /f45361465j175
+    headers:
+      Host: v2-3.godlight.xyz
+  udp: true
+- name: 2.05|新加坡TG阿伟科技油管 12
+  server: v2-2.godlight.xyz
+  port: 30541
+  type: vmess
+  uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /54f634fs
+    headers:
+      Host: v2-2.godlight.xyz
+  udp: true
+- name: 1.58|日本TG阿伟科技油管 12
+  server: v2-1.godlight.xyz
+  port: 12241
+  type: vmess
+  uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /j75g1461x
+    headers:
+      Host: v2-1.godlight.xyz
+  udp: true
+- name: 1.54|美国TG阿伟科技油管 77
+  server: v2r-h.jmxh.ga
   port: 443
   type: vmess
-  uuid: d965d82e-b325-44e8-a472-84721a3ab07c
+  uuid: 17af76e1-a5d7-41ab-ae87-b48f185075d1
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /liuwei
-  ws-headers:
-    Host: krr1.liuwei01.tk
-- name: 2.02| 甲骨文东京AMD2trojan
-  server: jgwdj2.gaox.ml
-  port: 443
-  type: trojan
-  password: 86231db5-96d0-4271-9977-cae3a0cba614
-  sni: jgwdj2.gaox.ml
-- name: 1.77| githubcomv2rayfree  英国伦敦Oracle云计算数据中心 29
-  server: jgwld4.gaox.ml
-  port: 443
-  type: trojan
-  password: 58d32c66-43b1-4561-9951-d87c9123774e
-  sni: jgwld4.gaox.ml
-- type: vmess
   ws-opts:
-    path: /nmsl
+    path: /17af76e1-a5d7-41ab-ae87-b48f185075d1-vmess
     headers:
-      host: 1.ezydfdd.com
-  server: 1.ezydfdd.com
-  name: 1.74|US美国7
+      Host: v2r-h.jmxh.ga
+  udp: true
+- name: 1.22|日本TG阿伟科技油管 6
+  server: 43.154.5.144
   port: 443
-  uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49
+  type: vmess
+  uuid: 1ab2ba2c-1b6e-41a2-e03f-dbf75dc3f782
   alterId: 0
   cipher: auto
-  network: ws
   tls: true
-- name: 1.65| githubcomfreefq  美国  50
-  server: cp-asus.ml
-  port: 50275
-  type: trojan
-  password: 7Z29DRr1ts
-  sni: cp-asus.ml
-- name: 1.47| githubcomv2rayfree  美国3COM公司企业网 32
-  server: jgwhdlb1.gaox.ml
-  port: 443
-  type: trojan
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
-  sni: jgwhdlb1.gaox.ml
-- name: 1.47|商店8dushop 92
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /free
+    headers:
+      Host: jp.sayuri.cf
+  udp: true
+- name: 1.18| SSRSUB俄罗斯V04付费推荐dljtfssrsub
+  server: v4.ssrsub.com
+  port: 8443
+  type: vmess
+  uuid: b7c70df3-f92f-4800-a8e1-67e6dc833256
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ssrsub
+  ws-headers:
+    Host: v4.ssrsub.com
+- name: 1.03|商店8dushop 92
   server: jgwhdlb3.gaox.ml
   port: 443
   type: trojan
@@ -56,63 +100,3 @@ proxies:
   sni: jgwhdlb3.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: 1.45| 140
-  server: us-ny-rn.licom.ga
-  port: 62008
-  type: vmess
-  uuid: f81e990e-1283-48f9-9eff-acacad6fb661
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: us-ny-rn.licom.ga
-- name: 1.18| githubcomv2rayfree  美国3COM公司企业网 40
-  server: jgwxn4.gaox.ml
-  port: 443
-  type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
-- name: 1.11| githubcomv2rayfree  澳大利亚悉尼Oracle云计算数据中心 37
-  server: jgwxn3.gaox.ml
-  port: 443
-  type: trojan
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  sni: jgwxn3.gaox.ml
-- name: 1.09| 136
-  server: a34.v2.gay
-  port: 443
-  type: vmess
-  uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: yzjd01-ublubeu.koyeb.app
-- name: 1.03| githubcomv2rayfree  英国伦敦Oracle云计算数据中心 27
-  server: jgwld3.gaox.ml
-  port: 443
-  type: trojan
-  password: 71b55a84-3fac-4458-abff-eaad79219c91
-  sni: jgwld3.gaox.ml
-- name: 1.03| githubcomfreefq  美国  6
-  server: jgwdb3.gaox.ml
-  port: 443
-  type: trojan
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  sni: jgwdb3.gaox.ml
-- name: 1.00| githubcomv2rayfree  美国CloudFlare节点 38
-  server: v2ray.788644.xyz
-  port: 443
-  type: vmess
-  uuid: 000fe881-b655-4212-b804-b00f9970d5aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /happy
-  ws-headers:
-    Host: v2ray.788644.xyz
