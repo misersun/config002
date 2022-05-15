@@ -1,11 +1,43 @@
 proxies:
-- name: 3.67|甲骨文春川AMD2trojan
-  server: jgwcc2.gaox.ml
+- name: 5.51| githubcomfreefq  香港HKCABLE 3
+  server: ssl.tcpbbr.net
   port: 443
   type: trojan
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  sni: jgwcc2.gaox.ml
-- name: 2.48|商店8dushop 92
+  password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9
+  sni: ssl.tcpbbr.net
+- name: 4.20| githubcomfreefq  罗马尼亚  12
+  server: jp.tcpbbr.net
+  port: 443
+  type: trojan
+  password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9
+  sni: jp.tcpbbr.net
+- name: 3.61|YouTube阿阳AYANG 16
+  server: v2-2.godlight.xyz
+  port: 26942
+  type: vmess
+  uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /54f634fs
+  ws-headers:
+    Host: v2-2.godlight.xyz
+  udp: true
+- name: 3.56| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 3.15| githubcomfreefq  台湾省台北市中华电信 3
+  server: tw.tcpbbr.net
+  port: 443
+  type: trojan
+  password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9
+  sni: tw.tcpbbr.net
+- name: 2.61|商店8dushop 92
   server: jgwhdlb3.gaox.ml
   port: 443
   type: trojan
@@ -13,154 +45,170 @@ proxies:
   sni: jgwhdlb3.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: 2.24| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
-  port: 443
-  type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- type: vmess
-  ws-opts:
-    path: /v2ray
-    headers:
-      host: rn.102498.eu.org
-  server: rn.102498.eu.org
-  name: 2.10|US美国1
-  port: 2053
-  uuid: a1c43fac-d637-3da4-8081-5757854ffc48
+- name: 2.52|YouTube阿阳AYANG 28
+  server: v2-1.godlight.xyz
+  port: 26942
+  type: vmess
+  uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988
   alterId: 0
   cipher: auto
-  network: ws
   tls: true
-- name: 1.99| 甲骨文东京AMD2trojan
-  server: jgwdj2.gaox.ml
-  port: 443
-  type: trojan
-  password: 86231db5-96d0-4271-9977-cae3a0cba614
-  sni: jgwdj2.gaox.ml
-- type: vmess
-  ws-opts:
-    path: /nmsl
-    headers:
-      host: 1.ezydfdd.com
-  server: 1.ezydfdd.com
-  name: 1.90|US美国4
-  port: 443
-  uuid: 4ee48ad8-178c-40a2-9c52-a14e90a06e49
+  skip-cert-verify: true
+  network: ws
+  ws-path: /j75g1461x
+  ws-headers:
+    Host: v2-1.godlight.xyz
+  udp: true
+- name: 2.44|YouTube阿阳AYANG 7
+  server: yyyy.wwwbhjy.com
+  port: 2443
+  type: vmess
+  uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490
   alterId: 0
   cipher: auto
-  network: ws
   tls: true
-- name: 1.68| githubcomfreefq  美国  4
+  skip-cert-verify: true
+  network: ws
+  ws-path: /8a76fb13/
+  ws-headers:
+    Host: yyyy.wwwbhjy.com
+  udp: true
+- name: 1.98| 甲骨文大阪AMD1trojan
+  server: jgwdb1.gaox.ml
+  port: 443
+  type: trojan
+  password: a580d839-ee41-4df1-bf03-6789dca32e30
+  sni: jgwdb1.gaox.ml
+- name: 1.97| RelayUSUS3286
+  server: guil.tk
+  port: 443
+  type: vmess
+  uuid: 6be81d8a-4024-426c-90fd-86fb9379102f
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /rkhsvws
+  ws-headers:
+    Host: guil.tk
+- name: 1.85| githubcomfreefq  美国加利福尼亚州费利蒙Linode数据中心 18
+  server: us2.tcpbbr.net
+  port: 443
+  type: trojan
+  password: 280a1162-00cb-11ec-a8bf-f23c91cfbbc9
+  sni: us2.tcpbbr.net
+- name: 1.80| 甲骨文悉尼ARM1trojan
+  server: jgwxn3.gaox.ml
+  port: 443
+  type: trojan
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  sni: jgwxn3.gaox.ml
+- name: 1.71| RelayUSUS3324
+  server: us02.gogogoo.cyou
+  port: 443
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /go
+  ws-headers:
+    Host: us02.gogogoo.cyou
+- name: 1.69|RelayILIL1094
+  server: ru1.lolvps.xyz
+  port: 40040
+  type: vmess
+  uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /6129CFHR
+  ws-headers:
+    Host: ru1.lolvps.xyz
+- name: 1.69|YouTube阿阳AYANG 52
+  server: jgwcc1.gaox.ml
+  port: 443
+  type: trojan
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+  skip-cert-verify: true
+  udp: true
+- name: 1.67| githubcomfreefq  美国  2
   server: free.spcloud.us
-  port: 20010
+  port: 21010
   type: trojan
   password: 118fc04e-fb8c-4154-9092-352cf1958fcd
   sni: free.spcloud.us
-- name: 1.66|全球直连③
-  server: s3.upyun.online
-  port: 12340
-  type: trojan
-  password: c0276440-f163-4f40-a08c-78b158ce6c4f
-  sni: free.upyun.online
-  skip-cert-verify: true
-- name: 1.61| 甲骨文凤凰城ARM2trojan
-  server: fhcarm2.gaox.ml
-  port: 443
-  type: trojan
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  sni: fhcarm2.gaox.ml
-- name: 1.44|英国TG阿伟科技油管 5
-  server: jgwld1.gaox.ml
-  port: 443
-  type: trojan
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  skip-cert-verify: true
-  udp: true
-- name: 1.43| SSRSUB俄罗斯V04付费推荐dljtfssrsub
-  server: v4.ssrsub.com
-  port: 443
-  type: vmess
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: v4.ssrsub.com
-- name: 1.42| SSRSUB俄罗斯V03付费推荐dljtfssrsub
-  server: v3.ssrsub.com
-  port: 443
-  type: vmess
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: v3.ssrsub.com
-- name: 1.42| SSRSUB俄罗斯V02付费推荐dljtfssrsub
-  server: v2.ssrsub.com
-  port: 443
-  type: vmess
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: v2.ssrsub.com
-- name: 1.39|英国TG阿伟科技油管 6
-  server: jgwld3.gaox.ml
-  port: 443
-  type: trojan
-  password: 71b55a84-3fac-4458-abff-eaad79219c91
-  skip-cert-verify: true
-  udp: true
-- name: 1.37|全球直连④
+- name: 1.64|全球直连④
   server: s4.upyun.online
   port: 12340
   type: trojan
   password: c0276440-f163-4f40-a08c-78b158ce6c4f
   sni: free.upyun.online
   skip-cert-verify: true
-- name: 1.24| SSRSUB俄罗斯V05付费推荐dljtfssrsub
-  server: v5.ssrsub.com
+- name: 1.60| 甲骨文凤凰城ARM2trojan
+  server: fhcarm2.gaox.ml
   port: 443
-  type: vmess
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: v5.ssrsub.com
-- name: 1.23| SSRSUB俄罗斯V01付费推荐dljtfssrsub
-  server: v1.ssrsub.com
-  port: 443
-  type: vmess
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: v1.ssrsub.com
-- password: e4307a50-9853-11ec-9b4b-1239d0255272
-  port: 443
-  server: fr-trojan.bonds.id
-  skip-cert-verify: true
   type: trojan
-  udp: true
-  name: 1.18|2783
-- name: 1.06| 甲骨文伦敦ARM2trojan
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  sni: fhcarm2.gaox.ml
+- name: 1.58| 甲骨文伦敦ARM2trojan
   server: jgwld4.gaox.ml
   port: 443
   type: trojan
   password: 58d32c66-43b1-4561-9951-d87c9123774e
   sni: jgwld4.gaox.ml
+- name: 1.58|YouTube阿阳AYANG 46
+  server: ty2-8.nigirocloud.com
+  port: 443
+  type: trojan
+  password: ruWkGdbUKT4RN7kZ8t
+  sni: ty2-8.nigirocloud.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.50| 甲骨文伦敦AMD2trojan
+  server: jgwld2.gaox.ml
+  port: 443
+  type: trojan
+  password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
+  sni: jgwld2.gaox.ml
+- name: 1.47|YouTube阿阳AYANG 42
+  server: ty2-1.nigirocloud.com
+  port: 443
+  type: trojan
+  password: ruWkGdbUKT4RN7kZ8t
+  sni: ty2-1.nigirocloud.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.42|YouTube阿阳AYANG 44
+  server: ty2-3.nigirocloud.com
+  port: 443
+  type: trojan
+  password: ruWkGdbUKT4RN7kZ8t
+  sni: ty2-3.nigirocloud.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.42|YouTube阿阳AYANG 45
+  server: ty2-6.nigirocloud.com
+  port: 443
+  type: trojan
+  password: ruWkGdbUKT4RN7kZ8t
+  sni: ty2-6.nigirocloud.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.15| githubcomfreefq  美国  15
+  server: jgwdb4.gaox.ml
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 1.03|YouTube阿阳AYANG 43
+  server: ty2-2.nigirocloud.com
+  port: 443
+  type: trojan
+  password: ruWkGdbUKT4RN7kZ8t
+  sni: ty2-2.nigirocloud.com
+  skip-cert-verify: true
+  udp: true
