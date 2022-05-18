@@ -1,52 +1,104 @@
 proxies:
-- name: 5.44|YouTube阿阳AYANG 7
-  server: yyyy.wwwbhjy.com
-  port: 2443
-  type: vmess
-  uuid: dee32eb7-e190-4c6f-dd27-aa9c82cd5490
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /8a76fb13/
-  ws-headers:
-    Host: yyyy.wwwbhjy.com
+- name: 6.04| 香港 Hongkong HKTVIP
+  server: gz1.52168.xyz
+  port: 11112
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 5.93| 香港 Hongkong HKBGPVIP
+  server: gz1.52168.xyz
+  port: 11106
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 5.63|香港youtube阿伟科技 12
+  server: gz1.52168.xyz
+  port: 11113
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
   udp: true
-- name: 4.47| 甲骨文东京ARM2trojan
-  server: jgwdj4.gaox.ml
-  port: 443
-  type: trojan
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  sni: jgwdj4.gaox.ml
-- name: 3.50| githubcomfreefq  美国  29
-  server: kr01.wangxd.life
+- name: 5.63| 香港 Hongkong AZ
+  server: gz1.52168.xyz
+  port: 11114
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 5.48| 新加坡 SingaporeVIP
+  server: gz2.52168.xyz
+  port: 12106
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 5.20| 菲律宾 Philippine
+  server: gz1.52168.xyz
+  port: 11101
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 4.66| 日本 JapanVIP
+  server: gz2.52168.xyz
+  port: 12107
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 4.41| 泰国 Thailand
+  server: gz2.52168.xyz
+  port: 12109
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 4.11|GBwmt517a27
+  server: kr05.wangxd.life
   port: 3052
   type: trojan
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  sni: kr01.wangxd.life
-- name: 3.10|youtube阿伟科技 2
-  server: vn01v2.vpnsieure.com
-  port: 80
-  type: vmess
-  uuid: 330efbdb-7171-4fd1-a524-d7b7d8e76732
-  alterId: 0
-  cipher: auto
-  tls: false
+  sni: kr05.wangxd.life
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vpnsieure
-    headers:
-      Host: livestream2.tv360.vn
   udp: true
-- name: 2.15| githubcomfreefq  美国  15
-  server: jgwdb4.gaox.ml
-  port: 443
-  type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 2.07|台湾youtube阿伟科技
+- name: 4.04| 台湾 Taiwan
+  server: gz2.52168.xyz
+  port: 12105
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 3.59|台湾youtube阿伟科技
   server: 330tw.fans8.xyz
   port: 443
   type: vmess
@@ -61,24 +113,83 @@ proxies:
     headers:
       Host: 330tw.fans8.xyz
   udp: true
-- name: 2.01|全球直连②
-  server: s2.upyun.online
-  port: 12340
-  type: trojan
-  password: c0276440-f163-4f40-a08c-78b158ce6c4f
-  sni: free.upyun.online
-  skip-cert-verify: true
-- name: 1.84| httpsgithubcomAlvin9999newpacwiki clash ip5洛杉矶2SSR
-  server: ssr112.free4444.xyz
-  port: 443
+- name: 3.56| 越南 VietnamVIP
+  server: gz1.52168.xyz
+  port: 11107
   type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.68|16181497ws
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 2.89|KRwmt517a47
+  server: shouer.tk15.tk
+  port: 26122
+  type: vmess
+  uuid: c19949fe-e5ca-4aa7-b577-f9aed2c97c22
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.84|YouTube阿阳AYANG 52
+  server: jgwcc1.gaox.ml
+  port: 443
+  type: trojan
+  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
+  sni: jgwcc1.gaox.ml
+  skip-cert-verify: true
+  udp: true
+- name: 2.60|甲骨文春川AMD2trojan
+  server: jgwcc2.gaox.ml
+  port: 443
+  type: trojan
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  sni: jgwcc2.gaox.ml
+- name: 2.53| 美国 America
+  server: gz1.52168.xyz
+  port: 11109
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 2.26| githubcomfreefq  澳大利亚  26
+  server: kr04.wangxd.life
+  port: 3052
+  type: trojan
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  sni: kr04.wangxd.life
+- name: 2.00| 德国 Germany
+  server: gz2.52168.xyz
+  port: 12101
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 2.00| githubcomfreefq  美国  15
+  server: jgwdb4.gaox.ml
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 1.99| 俄罗斯 Russia
+  server: gz2.52168.xyz
+  port: 12103
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 1.92|16181497ws
   server: 161.8.149.7
   port: 38822
   type: vmess
@@ -90,20 +201,35 @@ proxies:
   ws-path: /ZXfq8Vm7/
   ws-headers:
     Host: 161.8.149.7
-- password: sharecentre
-  port: 443
-  server: ussc.scsevers.cf
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.67|2364
-- name: 1.66| 甲骨文悉尼AMD2trojan
-  server: jgwxn2.gaox.ml
+- name: 1.75| 甲骨文东京ARM2trojan
+  server: jgwdj4.gaox.ml
   port: 443
   type: trojan
-  password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  sni: jgwxn2.gaox.ml
-- name: 1.64| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶SSR
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+- name: 1.74| githubcomv2rayfree  美国3COM公司企业网 13
+  server: jgwxn4.gaox.ml
+  port: 443
+  type: trojan
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  sni: jgwxn4.gaox.ml
+- name: 1.70| httpsgithubcomAlvin9999newpacwiki clash ip5洛杉矶2SSR
+  server: ssr112.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.68| githubcomv2rayfree  美国  3
+  server: ty2-6.nigirocloud.com
+  port: 443
+  type: trojan
+  password: ruWkGdbUKT4RN7kZ8t
+  sni: ty2-6.nigirocloud.com
+- name: 1.60| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶SSR
   server: trojan33.free4444.xyz
   port: 443
   type: ssr
@@ -113,43 +239,17 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.59| githubcomfreefq  美国圣斯考拉斯蒂卡大学 32
-  server: bai-piao-wang-zhe-iplc8.98848.xyz
-  port: 19652
-  type: vmess
-  uuid: d88e33f0-4c5c-4a76-8c06-c7dbc2f08feb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /YouTube-bai-piao-wang-zhe
-  ws-headers:
-    Host: bai-piao-wang-zhe-iplc8.98848.xyz
-- name: 1.59| githubcomfreefq  美国圣斯考拉斯蒂卡大学 28
-  server: bai-piao-wang-zhe-iplc.98848.xyz
-  port: 54287
-  type: vmess
-  uuid: 77ef11ee-f995-4eb5-ad5e-43aabfcfb665
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /bit.ly/36b6iJh
-  ws-headers:
-    Host: bai-piao-wang-zhe-iplc.98848.xyz
-- name: 1.57| githubcomfreefq  美国圣斯考拉斯蒂卡大学 25
-  server: bai-piao-wang-zhe-iplc8.98848.xyz
-  port: 443
-  type: vmess
-  uuid: 8ac13614-d93e-4aab-a546-6a00e8360fb1
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /YouTube-bai-piao-wang-zhe_vws
-  ws-headers:
-    Host: bai-piao-wang-zhe-iplc8.98848.xyz
-- name: 1.46| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
+- name: 1.57|保加利亚 Bulgaria
+  server: gz1.52168.xyz
+  port: 11102
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 1.57| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
   server: ss-v2ray1.free4444.xyz
   port: 443
   type: ssr
@@ -159,68 +259,44 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.30| SSRSUB俄罗斯V04付费推荐dljtfssrsub
-  server: v4.ssrsub.com
-  port: 443
+- name: 1.50| githubcomfreefq  美国3COM公司企业网 16
+  server: 152.67.112.192
+  port: 8888
   type: vmess
-  uuid: 620d82a8-22ba-4945-90ba-a2bed1cde1d2
+  uuid: 4c8b076c-d644-4aa6-8968-65921ef989ae
   alterId: 0
   cipher: auto
-  tls: true
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: v4.ssrsub.com
-- name: 1.29|美国youtube阿伟科技 2
-  server: 51us.fans8.xyz
-  port: 80
+  tls: false
+- name: 1.43| 土耳其 Turkey
+  server: gz2.52168.xyz
+  port: 12104
+  type: ssr
+  cipher: aes-256-cfb
+  password: epChJS35fV
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 149:gt9img0d2jp
+  obfs-param: ee821149.baidu.com
+- name: 1.36|KRwmt517a58
+  server: 146.56.112.141
+  port: 17776
   type: vmess
-  uuid: dc09c9a0-1697-3f39-8ba9-65f2985e00ec
-  alterId: 2
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: 51us.fans8.xyz
-  udp: true
-- name: 1.27|YouTube阿阳AYANG 52
-  server: jgwcc1.gaox.ml
-  port: 443
-  type: trojan
-  password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
-  sni: jgwcc1.gaox.ml
-  skip-cert-verify: true
-  udp: true
-- name: 1.19| githubcomfreefq  澳大利亚  26
-  server: kr04.wangxd.life
-  port: 3052
-  type: trojan
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  sni: kr04.wangxd.life
-- name: 1.17| 甲骨文东京AMD2trojan
-  server: jgwdj2.gaox.ml
-  port: 443
-  type: trojan
-  password: 86231db5-96d0-4271-9977-cae3a0cba614
-  sni: jgwdj2.gaox.ml
-- name: 1.09| githubcomfreefq  新加坡Amazon数据中心 7
-  server: v2-3.godlight.xyz
-  port: 26943
-  type: vmess
-  uuid: 6a52f259-4367-468c-a828-7b8283c2f059
+  uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79
   alterId: 0
   cipher: auto
-  tls: true
-  network: ws
-  ws-path: /f45361465j175
-  ws-headers:
-    Host: v2-3.godlight.xyz
-- name: 1.06| githubcomv2rayfree  美国  3
-  server: ty2-6.nigirocloud.com
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.33| 甲骨文凤凰城ARM1trojan
+  server: fhcarm1.gaox.ml
   port: 443
   type: trojan
-  password: ruWkGdbUKT4RN7kZ8t
-  sni: ty2-6.nigirocloud.com
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  sni: fhcarm1.gaox.ml
+- password: sharecentre
+  port: 443
+  server: ussc.scsevers.cf
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.32|2364
