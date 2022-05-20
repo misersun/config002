@@ -1,15 +1,17 @@
 proxies:
-- name: 1.72|KRwmt517a47
-  server: shouer.tk15.tk
-  port: 26122
+- name: 1.66| RelayUSFR2946
+  server: 104.21.92.172
+  port: 2095
   type: vmess
-  uuid: c19949fe-e5ca-4aa7-b577-f9aed2c97c22
+  uuid: 477fb2a0-daf4-3041-b6f6-5de3f42ecc69
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.49|KRwmt517a58
+  network: ws
+  ws-path: /biteb
+  ws-headers:
+    Host: fr-direct-cdn.node001.xyz
+- name: 1.66|KRwmt517a58
   server: 146.56.112.141
   port: 17776
   type: vmess
@@ -19,3 +21,15 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
+- name: 1.44| Relay USUS1436
+  server: 172.67.196.147
+  port: 2095
+  type: vmess
+  uuid: 477fb2a0-daf4-3041-b6f6-5de3f42ecc69
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /biteb
+  ws-headers:
+    Host: kr-direct-cdn.node001.xyz

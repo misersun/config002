@@ -1,28 +1,41 @@
 proxies:
-- type: vmess
-  ws-opts:
-    path: /g1641hvx
-    headers:
-      host: v2-4.godlight.xyz
-  server: v2-4.godlight.xyz
-  name: 3.25|KR韩国
+- name: 2.36| RelayUSSG2958
+  server: v2-2.godlight.xyz
   port: 26944
-  uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf
+  type: vmess
+  uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9
   alterId: 0
   cipher: auto
-  network: ws
   tls: true
-- name: 1.72|KRwmt517a47
-  server: shouer.tk15.tk
-  port: 26122
+  network: ws
+  ws-path: /54f634fs
+  ws-headers:
+    Host: v2-2.godlight.xyz
+- name: 2.31| RelayJPJP853
+  server: v2-1.godlight.xyz
+  port: 26944
   type: vmess
-  uuid: c19949fe-e5ca-4aa7-b577-f9aed2c97c22
+  uuid: 719d4cec-82a8-4a65-ad01-32cf08f2c988
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /j75g1461x
+  ws-headers:
+    Host: v2-1.godlight.xyz
+- name: 1.66| RelayUSFR2946
+  server: 104.21.92.172
+  port: 2095
+  type: vmess
+  uuid: 477fb2a0-daf4-3041-b6f6-5de3f42ecc69
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.49|KRwmt517a58
+  network: ws
+  ws-path: /biteb
+  ws-headers:
+    Host: fr-direct-cdn.node001.xyz
+- name: 1.66|KRwmt517a58
   server: 146.56.112.141
   port: 17776
   type: vmess
@@ -32,3 +45,40 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
+- name: 1.44| Relay USUS1436
+  server: 172.67.196.147
+  port: 2095
+  type: vmess
+  uuid: 477fb2a0-daf4-3041-b6f6-5de3f42ecc69
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /biteb
+  ws-headers:
+    Host: kr-direct-cdn.node001.xyz
+- name: 1.31| RelayUSGB2937
+  server: app.ssfree.ru
+  port: 443
+  type: vmess
+  uuid: bda00ef0-d78c-11ec-92d7-000017022008
+  alterId: 64
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /getweather
+  ws-headers:
+    Host: app.ssfree.ru
+- type: vmess
+  ws-opts:
+    path: /g1641hvx
+    headers:
+      host: v2-4.godlight.xyz
+  server: v2-4.godlight.xyz
+  name: 1.24|KR韩国
+  port: 26944
+  uuid: 07ea283e-bbe8-466f-a268-c5819763a9bf
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
