@@ -1,38 +1,6 @@
 proxies:
-- name: 4.98| RelayHKHK825
-  server: hk-v.sserver.top
-  port: 80
-  type: vmess
-  uuid: 8cb5bcba-8b7f-3141-a400-351a83c80f09
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /ws
-  ws-headers:
-    Host: hk-v.sserver.top
-- name: 4.47| JP859
-  server: 146.56.112.141
-  port: 17776
-  type: vmess
-  uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.49| githubcomfreefq  美国加利福尼亚州洛杉矶Vultr数据中心 15
-  server: 207.246.108.107
-  port: 29303
-  type: vmess
-  uuid: e69a7cb6-ee04-40ed-99da-55f5ba8b0034
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cB35d8gV/
-  ws-headers:
-    Host: 207.246.108.107
-- name: 1.33|RelayZZZZ3609
-  server: vn04v2.vpnsieure.com
+- name: 3.13|RelayZZZZ3660
+  server: vn02v2.vpnsieure.com
   port: 80
   type: vmess
   uuid: 330efbdb-7171-4fd1-a524-d7b7d8e76732
@@ -43,15 +11,38 @@ proxies:
   ws-path: /vpnsieure
   ws-headers:
     Host: livestream2.tv360.vn
-- name: 1.11|IR838
-  server: mci.myandroidplus1.ir
+- name: 2.44|印度youtube阿伟科技
+  server: 65.20.71.127
   port: 80
   type: vmess
-  uuid: c1214c26-f0fc-2f0a-81b0-84d10f8d14dc
+  uuid: 1c780e39-f054-4175-b0cf-ec7727e020f6
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /api
+  ws-opts:
+    path: /
+    headers:
+      Host: livestream2.tv360.vn
+  udp: true
+- name: 1.98| US1872
+  server: 205.185.124.145
+  port: 85
+  type: vmess
+  uuid: 887a1c68-4665-3e74-a911-4e2be6f2e82f
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v2ray
   ws-headers:
-    Host: mci.myandroidplus1.ir
+    Host: 205.185.124.145
+- name: 1.06| JP859
+  server: 146.56.112.141
+  port: 17776
+  type: vmess
+  uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79
+  alterId: 0
+  cipher: auto
+  tls: false
