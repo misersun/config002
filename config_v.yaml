@@ -1,31 +1,31 @@
 proxies:
-- name: 3.18| RelayUSJP3094
-  server: jpaz2.xmrth-node.xyz
-  port: 14025
-  type: vmess
-  uuid: ff51ca4a-6050-3e26-a037-88b0dd62d138
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: www.baidu.com
-- name: 2.31|免流日本 A
-  server: twsxxnjp.158801.xyz
+- name: 4.22|韩国youtube阿伟科技 3
+  server: 146.56.191.148
   port: 80
   type: vmess
-  uuid: 775ed92a-4c87-4111-a6cf-fc5e0ac18ae5
+  uuid: ea8f61f2-bd0f-425e-a5c2-4ede08add085
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - aweikeji-YouTube
   udp: true
-- name: 1.53|越南youtube阿伟科技
+- name: 3.64| JP832
+  server: 146.56.112.141
+  port: 17776
+  type: vmess
+  uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.93|越南youtube阿伟科技
   server: 103.179.187.87
   port: 80
   type: vmess
@@ -40,15 +40,15 @@ proxies:
     headers:
       Host: livestream2.tv360.vn
   udp: true
-- name: 1.43| US1872
-  server: 205.185.124.145
-  port: 85
+- name: 1.61|231926218ws
+  server: 23.19.26.218
+  port: 6082
   type: vmess
-  uuid: 887a1c68-4665-3e74-a911-4e2be6f2e82f
-  alterId: 2
+  uuid: 9674b201-ac76-4322-a9a3-2afd7f746513
+  alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /v2ray
+  ws-path: /paQd6Rug/
   ws-headers:
-    Host: 205.185.124.145
+    Host: 23.19.26.218
