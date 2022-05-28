@@ -1,4 +1,28 @@
 proxies:
+- name: 5.10| JP80
+  server: jp-01.dingzige.gq
+  port: 80
+  type: vmess
+  uuid: 64561d57-81a0-4a58-bf11-7adb4d1103fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tms.dingtalk.com
+- name: 5.07| HK807
+  server: hkaz6.xmrth-node.xyz
+  port: 13890
+  type: vmess
+  uuid: b3f8c67e-aae9-3122-9dd5-4946a6ea7956
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
 - name: 4.22|韩国youtube阿伟科技 3
   server: 146.56.191.148
   port: 80
@@ -17,15 +41,65 @@ proxies:
       Host:
       - aweikeji-YouTube
   udp: true
-- name: 3.64| JP832
-  server: 146.56.112.141
-  port: 17776
+- name: 3.98| Big T日本专线
+  server: c05.hotland.site
+  port: 10006
   type: vmess
-  uuid: aa990962-a99b-4aa7-fdb8-bdbd19f61a79
+  uuid: e1a0a68a-eb6c-424e-b5a4-95fe3870b693
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.93|越南youtube阿伟科技
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: c05.hotland.site
+- name: 2.77| AU156
+  server: 43.129.87.145
+  port: 443
+  type: vmess
+  uuid: cfeb09c3-dc61-4a57-adb9-55aa968e5b14
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 43.129.87.145
+- name: 2.70|香港DC
+  server: crus10.gzfxd.xyz
+  port: 16616
+  type: vmess
+  uuid: 63156eb1-84ee-4b8b-bab2-67b74705a29a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: crus10.gzfxd.xyz
+  udp: true
+- name: 2.18| RelayUSUS2931
+  server: inap007.xmrth-node.xyz
+  port: 15567
+  type: vmess
+  uuid: b3f8c67e-aae9-3122-9dd5-4946a6ea7956
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 1.83|GB786
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.49|越南youtube阿伟科技
   server: 103.179.187.87
   port: 80
   type: vmess
@@ -40,15 +114,3 @@ proxies:
     headers:
       Host: livestream2.tv360.vn
   udp: true
-- name: 1.61|231926218ws
-  server: 23.19.26.218
-  port: 6082
-  type: vmess
-  uuid: 9674b201-ac76-4322-a9a3-2afd7f746513
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /paQd6Rug/
-  ws-headers:
-    Host: 23.19.26.218
