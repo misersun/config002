@@ -1,105 +1,111 @@
 proxies:
-- name: 5.10| JP80
-  server: jp-01.dingzige.gq
-  port: 80
+- name: 2.43| SG1830
+  server: 129.226.214.28
+  port: 15430
   type: vmess
-  uuid: 64561d57-81a0-4a58-bf11-7adb4d1103fa
+  uuid: 6e9a4ae9-e60b-4cea-af9f-9de18d37404e
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: tms.dingtalk.com
-- name: 5.07| HK807
-  server: hkaz6.xmrth-node.xyz
-  port: 13890
+- name: 2.28| SG1848
+  server: 129.226.94.77
+  port: 25551
   type: vmess
-  uuid: b3f8c67e-aae9-3122-9dd5-4946a6ea7956
-  alterId: 2
+  uuid: 03330845-8efa-4dc9-cc21-919bdbfd6ea0
+  alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: www.baidu.com
-- name: 4.22|韩国youtube阿伟科技 3
-  server: 146.56.191.148
-  port: 80
+- name: 1.96|新加坡youtube阿伟科技 20
+  server: 138.2.76.156
+  port: 46452
   type: vmess
-  uuid: ea8f61f2-bd0f-425e-a5c2-4ede08add085
+  uuid: aeb5106c-3494-489b-9386-e67e5f575cb5
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - aweikeji-YouTube
   udp: true
-- name: 3.98| Big T日本专线
-  server: c05.hotland.site
-  port: 10006
+- name: 1.86| SG1846
+  server: 129.226.94.247
+  port: 15301
   type: vmess
-  uuid: e1a0a68a-eb6c-424e-b5a4-95fe3870b693
+  uuid: 16844453-6154-4808-bdda-a26741ebe677
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.83| US2969
+  server: 129.150.61.170
+  port: 29493
+  type: vmess
+  uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: c05.hotland.site
-- name: 2.77| AU156
-  server: 43.129.87.145
-  port: 443
+    Host: 129.150.61.170
+- name: 1.82| SG1818
+  server: 129.226.94.152
+  port: 56382
   type: vmess
-  uuid: cfeb09c3-dc61-4a57-adb9-55aa968e5b14
+  uuid: b14dc53a-1505-4909-8f23-2f9391e30d56
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.67| SG1856
+  server: 129.226.216.150
+  port: 16984
+  type: vmess
+  uuid: 5a964737-0f49-4a42-9a70-b273207ecf5e
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.67| SG1788
+  server: 129.226.95.12
+  port: 14597
+  type: vmess
+  uuid: 4d346473-716f-404a-819c-e56fc07b0234
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.54| SG1817
+  server: 129.226.216.160
+  port: 49056
+  type: vmess
+  uuid: 89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.53| SG1861
+  server: 129.226.95.188
+  port: 20792
+  type: vmess
+  uuid: b7335dae-b946-46ae-f341-acbf8df21c86
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.42| US1884
+  server: 34.215.130.186
+  port: 10089
+  type: vmess
+  uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 43.129.87.145
-- name: 2.70|香港DC
-  server: crus10.gzfxd.xyz
-  port: 16616
+    Host: 34.215.130.186
+- name: 1.38| AU104
+  server: 43.132.153.167
+  port: 23873
   type: vmess
-  uuid: 63156eb1-84ee-4b8b-bab2-67b74705a29a
+  uuid: 143e2134-ca7d-46ff-e902-37d0967b9907
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: crus10.gzfxd.xyz
-  udp: true
-- name: 2.18| RelayUSUS2931
-  server: inap007.xmrth-node.xyz
-  port: 15567
-  type: vmess
-  uuid: b3f8c67e-aae9-3122-9dd5-4946a6ea7956
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: www.baidu.com
-- name: 1.83|GB786
-  server: 144.24.88.101
-  port: 16833
-  type: vmess
-  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.49|越南youtube阿伟科技
+- name: 1.32|越南youtube阿伟科技
   server: 103.179.187.87
   port: 80
   type: vmess
@@ -114,3 +120,19 @@ proxies:
     headers:
       Host: livestream2.tv360.vn
   udp: true
+- name: 1.26| SG1794
+  server: 129.226.94.134
+  port: 31149
+  type: vmess
+  uuid: 883557f2-88c9-4963-bd0e-2083353f7901
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.23| RelaySGSG1798
+  server: d02.v2.gay
+  port: 58681
+  type: vmess
+  uuid: 758c6c64-e7bc-4bbf-dd58-cbd21c09c75a
+  alterId: 0
+  cipher: auto
+  tls: false
