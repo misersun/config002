@@ -1,7 +1,7 @@
 proxies:
-- name: 4.02|日本中继03
+- name: 4.57|新加坡中继02
   server: cmrelay01.yiyorelay.xyz
-  port: 3702
+  port: 6701
   type: ssr
   cipher: chacha20-ietf
   password: jFa4F1
@@ -10,7 +10,18 @@ proxies:
   protocol-param: 67249:ojZU44
   obfs-param: microsoft.com
   udp: true
-- name: 4.01|日本中继04
+- name: 4.31|vpnpool香港Nerocloudnf
+  server: 120.233.185.189
+  port: 11810
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 13370:DqGDfE
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 4.03|日本中继04
   server: cmrelay01.yiyorelay.xyz
   port: 3703
   type: ssr
@@ -21,7 +32,7 @@ proxies:
   protocol-param: 67249:ojZU44
   obfs-param: microsoft.com
   udp: true
-- name: 3.75|vpnpoolTokyoDMITnf 3
+- name: 3.95|vpnpoolTokyoDMITnf 3
   server: 183.232.56.182
   port: 11812
   type: ssr
@@ -32,9 +43,20 @@ proxies:
   protocol-param: 13370:DqGDfE
   obfs-param: t.me/vpnhat
   udp: true
-- name: 3.67|vpnpool台中Hinetdip 2
-  server: 120.233.185.189
-  port: 11814
+- name: 3.94|日本中继03
+  server: cmrelay01.yiyorelay.xyz
+  port: 3702
+  type: ssr
+  cipher: chacha20-ietf
+  password: jFa4F1
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 67249:ojZU44
+  obfs-param: microsoft.com
+  udp: true
+- name: 3.93|vpnpoolTokyoDMITnf
+  server: 183.232.56.182
+  port: 11842
   type: ssr
   cipher: chacha20-ietf
   password: Fhbe0z
@@ -43,18 +65,7 @@ proxies:
   protocol-param: 13370:DqGDfE
   obfs-param: t.me/vpnhat
   udp: true
-- name: 3.66|vpnpool香港Azurenf
-  server: 116.129.253.86
-  port: 41512
-  type: ssr
-  cipher: chacha20-ietf
-  password: 44FxbP
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2366:ixueyao87
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 3.43|vpnpoolTokyoDMITnf 2
+- name: 3.87|vpnpoolTokyoDMITnf 2
   server: 120.233.185.189
   port: 11842
   type: ssr
@@ -65,30 +76,19 @@ proxies:
   protocol-param: 13370:DqGDfE
   obfs-param: t.me/vpnhat
   udp: true
-- name: 3.20|vpnpool香港Azurenf 2
-  server: 116.129.253.86
-  port: 41527
+- name: 3.84|中国0525372
+  server: cmrelay01.yiyorelay.xyz
+  port: 3709
   type: ssr
   cipher: chacha20-ietf
-  password: 44FxbP
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2366:ixueyao87
-  obfs-param: t.me/vpnhat
+  password: jFa4F1
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 67249:ojZU44
+  obfs-param: microsoft.com
   udp: true
-- name: 3.17|vpnpool香港Azurenf 3
-  server: 116.129.253.86
-  port: 41524
-  type: ssr
-  cipher: chacha20-ietf
-  password: 44FxbP
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2366:ixueyao87
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 3.16|vpnpool香港Nerocloudnf
-  server: 120.233.185.189
+- name: 3.61|vpnpool香港Nerocloudnf 2
+  server: 183.232.56.182
   port: 11810
   type: ssr
   cipher: chacha20-ietf
@@ -98,18 +98,18 @@ proxies:
   protocol-param: 13370:DqGDfE
   obfs-param: t.me/vpnhat
   udp: true
-- name: 3.15|vpnpoolTokyoLinode
-  server: 116.129.253.86
-  port: 43032
+- name: 3.49|vpnpool香港HKTdip 2
+  server: 183.232.56.182
+  port: 11845
   type: ssr
   cipher: chacha20-ietf
-  password: 44FxbP
-  protocol: auth_aes128_md5
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
-  protocol-param: 2366:ixueyao87
+  protocol-param: 13370:DqGDfE
   obfs-param: t.me/vpnhat
   udp: true
-- name: 3.14|vpnpool台中Hinetdip
+- name: 3.43|vpnpool台中Hinetdip
   server: 183.232.56.182
   port: 11814
   type: ssr
@@ -120,7 +120,40 @@ proxies:
   protocol-param: 13370:DqGDfE
   obfs-param: t.me/vpnhat
   udp: true
-- name: 3.10|vpnpoolSGNerocloudnf 4
+- name: 3.33|vpnpool台中Hinetdip 2
+  server: 120.233.185.189
+  port: 11814
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 13370:DqGDfE
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 3.25|vpnpool香港HKTdip 3
+  server: 120.233.185.189
+  port: 11845
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 13370:DqGDfE
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 3.22|vpnpoolSGNerocloudnf
+  server: 183.232.56.182
+  port: 11851
+  type: ssr
+  cipher: chacha20-ietf
+  password: Fhbe0z
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+  protocol-param: 13370:DqGDfE
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 3.14|vpnpoolSGNerocloudnf 4
   server: 120.233.185.189
   port: 11846
   type: ssr
@@ -131,40 +164,7 @@ proxies:
   protocol-param: 13370:DqGDfE
   obfs-param: t.me/vpnhat
   udp: true
-- name: 3.09|vpnpoolSGNerocloudnf
-  server: 183.232.56.182
-  port: 11851
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 13370:DqGDfE
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 3.09|vpnpoolSGNerocloudnf 5
-  server: 120.233.185.189
-  port: 11807
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 13370:DqGDfE
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 3.03|vpnpool新北Hinetdip
-  server: 116.129.253.86
-  port: 42155
-  type: ssr
-  cipher: chacha20-ietf
-  password: 44FxbP
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2366:ixueyao87
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 3.01|vpnpoolSGNerocloudnf 2
+- name: 3.14|vpnpoolSGNerocloudnf 2
   server: 183.232.56.182
   port: 11807
   type: ssr
@@ -175,18 +175,7 @@ proxies:
   protocol-param: 13370:DqGDfE
   obfs-param: t.me/vpnhat
   udp: true
-- name: 3.01|vpnpoolSeoulOracle
-  server: 116.129.253.86
-  port: 40001
-  type: ssr
-  cipher: chacha20-ietf
-  password: 44FxbP
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2366:ixueyao87
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 2.96|vpnpoolSGNerocloudnf 3
+- name: 3.01|vpnpoolSGNerocloudnf 3
   server: 120.233.185.189
   port: 11851
   type: ssr
@@ -197,29 +186,7 @@ proxies:
   protocol-param: 13370:DqGDfE
   obfs-param: t.me/vpnhat
   udp: true
-- name: 2.96|vpnpoolTokyoLinode 2
-  server: 116.129.253.86
-  port: 43033
-  type: ssr
-  cipher: chacha20-ietf
-  password: 44FxbP
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2366:ixueyao87
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 2.85|vpnpool香港HKTdip 3
-  server: 120.233.185.189
-  port: 11845
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 13370:DqGDfE
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 2.84|vpnpoolChuncheonOraclenf
+- name: 2.78|vpnpoolChuncheonOraclenf
   server: 120.233.185.189
   port: 11803
   type: ssr
@@ -230,9 +197,9 @@ proxies:
   protocol-param: 13370:DqGDfE
   obfs-param: t.me/vpnhat
   udp: true
-- name: 2.67|vpnpool香港HKTdip 2
-  server: 183.232.56.182
-  port: 11845
+- name: 2.76|vpnpoolSGNerocloudnf 5
+  server: 120.233.185.189
+  port: 11807
   type: ssr
   cipher: chacha20-ietf
   password: Fhbe0z
@@ -241,73 +208,7 @@ proxies:
   protocol-param: 13370:DqGDfE
   obfs-param: t.me/vpnhat
   udp: true
-- name: 2.61|vpnpool香港Azurenf 4
-  server: 116.129.253.86
-  port: 41526
-  type: ssr
-  cipher: chacha20-ietf
-  password: 44FxbP
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2366:ixueyao87
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 2.22|vpnpoolSeoulOracle 2
-  server: 116.129.253.86
-  port: 40002
-  type: ssr
-  cipher: chacha20-ietf
-  password: 44FxbP
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 2366:ixueyao87
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 1.89|vpnpoolTokyoDMITnf
-  server: 183.232.56.182
-  port: 11842
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 13370:DqGDfE
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 1.55|韩国中继01
-  server: cmrelay01.yiyorelay.xyz
-  port: 4000
-  type: ssr
-  cipher: chacha20-ietf
-  password: jFa4F1
-  protocol: auth_aes128_sha1
-  obfs: plain
-  protocol-param: 67249:ojZU44
-  obfs-param: microsoft.com
-  udp: true
-- name: 1.32|韩国中继03
-  server: cmrelay01.yiyorelay.xyz
-  port: 4002
-  type: ssr
-  cipher: chacha20-ietf
-  password: jFa4F1
-  protocol: auth_aes128_sha1
-  obfs: plain
-  protocol-param: 67249:ojZU44
-  obfs-param: microsoft.com
-  udp: true
-- name: 1.24|vpnpool香港Nerocloudnf 2
-  server: 183.232.56.182
-  port: 11810
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 13370:DqGDfE
-  obfs-param: t.me/vpnhat
-  udp: true
-- name: 1.19|cmrelay01yiyorelayxyz7702
+- name: 2.11|cmrelay01yiyorelayxyz7702
   server: cmrelay01.yiyorelay.xyz
   port: 7702
   type: ssr
@@ -318,7 +219,7 @@ proxies:
   protocol-param: 67249:ojZU44
   obfs-param: ''
   udp: true
-- name: 1.13|美国中继10
+- name: 2.04|美国中继10
   server: cmrelay01.yiyorelay.xyz
   port: 7709
   type: ssr
@@ -329,7 +230,29 @@ proxies:
   protocol-param: 67249:ojZU44
   obfs-param: microsoft.com
   udp: true
-- name: 0.91|vpnpool香港HKTdip
+- name: 1.86|韩国中继04
+  server: cmrelay01.yiyorelay.xyz
+  port: 4003
+  type: ssr
+  cipher: chacha20-ietf
+  password: jFa4F1
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 67249:ojZU44
+  obfs-param: microsoft.com
+  udp: true
+- name: 0.67|韩国中继01
+  server: cmrelay01.yiyorelay.xyz
+  port: 4000
+  type: ssr
+  cipher: chacha20-ietf
+  password: jFa4F1
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 67249:ojZU44
+  obfs-param: microsoft.com
+  udp: true
+- name: 0.65|vpnpool香港HKTdip
   server: 183.232.56.182
   port: 11802
   type: ssr
@@ -339,4 +262,15 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: 13370:DqGDfE
   obfs-param: t.me/vpnhat
+  udp: true
+- name: 0.61|韩国中继03
+  server: cmrelay01.yiyorelay.xyz
+  port: 4002
+  type: ssr
+  cipher: chacha20-ietf
+  password: jFa4F1
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 67249:ojZU44
+  obfs-param: microsoft.com
   udp: true
