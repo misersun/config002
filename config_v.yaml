@@ -1,138 +1,103 @@
 proxies:
-- name: 2.43| SG1830
-  server: 129.226.214.28
-  port: 15430
+- name: 5.65| US2993
+  server: 20.205.102.56
+  port: 20207
   type: vmess
-  uuid: 6e9a4ae9-e60b-4cea-af9f-9de18d37404e
+  uuid: 5a26cc45-3e1a-4d33-8d1a-e19a5e6058b8
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.28| SG1848
-  server: 129.226.94.77
-  port: 25551
+  network: ws
+  ws-path: general/hk/T0VJeVF6WXpORVkxTkRRME1EY3dRekEzT0VNeE9EQTJOVVk1TXprMk5qUkJRMFpDT0RRMVFqb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TXpnNE5EVTJNVHBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09
+  ws-headers:
+    Host: 20.205.102.56
+- name: 2.35| Relay TWTW1879
+  server: tw1.xmrth-node.xyz
+  port: 15660
   type: vmess
-  uuid: 03330845-8efa-4dc9-cc21-919bdbfd6ea0
+  uuid: f727bfd8-122f-38a0-82b4-d98e61820d0e
+  alterId: 2
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /index
+  ws-headers:
+    Host: www.baidu.com
+- name: 2.17| SG1843
+  server: 117.120.7.92
+  port: 20207
+  type: vmess
+  uuid: af39a32f-270c-4a9d-bb5f-e77e3c653d65
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.96|新加坡youtube阿伟科技 20
-  server: 138.2.76.156
-  port: 46452
+  network: ws
+  ws-path: /general/sg/UWpWR05qZENRek0wTWpKQ1FVVTJSRGxDUVVFMU16WXhOa0l3TWpFNE9EQkdOamxDUXpORU1qb3hPVGd3TkRZNU9UYzVNelUzTXpnME56QTBPakUyTlRNNE9UQXlOVGt3TURBNk1UWTFNemd3TkRNeE56azVOenBzVEhac1BVdzJMSEJzWVhROVNFSXNaRWxrUFRFd0xVdENNakF3TUMwd1pERXpPVEl4T1RKak5EWmtPVGRsTVdNNVltRXlZekZpTVRGak9XVXlaQT09
+  ws-headers:
+    Host: 117.120.7.92
+- name: 2.02| US2948
+  server: 150.230.4.136
+  port: 11151
   type: vmess
-  uuid: aeb5106c-3494-489b-9386-e67e5f575cb5
+  uuid: 18ef8b86-5dfe-48a9-b4e4-b5f595f7e555
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.86| SG1846
-  server: 129.226.94.247
-  port: 15301
+- name: 1.84| 韩国Az高速x05x
+  server: crus8.gzfxd.xyz
+  port: 16616
   type: vmess
-  uuid: 16844453-6154-4808-bdda-a26741ebe677
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.83| US2969
-  server: 129.150.61.170
-  port: 29493
-  type: vmess
-  uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132
+  uuid: 945b6561-8444-4dc0-85ec-65921fac4380
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 129.150.61.170
-- name: 1.82| SG1818
-  server: 129.226.94.152
-  port: 56382
+    Host: crus8.gzfxd.xyz
+- name: 1.81| RelayUSJP2995
+  server: V2-NODE-1.GFWAIRPORT.NET
+  port: 50001
   type: vmess
-  uuid: b14dc53a-1505-4909-8f23-2f9391e30d56
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.67| SG1856
-  server: 129.226.216.150
-  port: 16984
-  type: vmess
-  uuid: 5a964737-0f49-4a42-9a70-b273207ecf5e
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.67| SG1788
-  server: 129.226.95.12
-  port: 14597
-  type: vmess
-  uuid: 4d346473-716f-404a-819c-e56fc07b0234
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.54| SG1817
-  server: 129.226.216.160
-  port: 49056
-  type: vmess
-  uuid: 89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.53| SG1861
-  server: 129.226.95.188
-  port: 20792
-  type: vmess
-  uuid: b7335dae-b946-46ae-f341-acbf8df21c86
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.42| US1884
-  server: 34.215.130.186
-  port: 10089
-  type: vmess
-  uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e
+  uuid: 8d156446-2739-4f32-a8da-d2467dc235d0
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 34.215.130.186
-- name: 1.38| AU104
-  server: 43.132.153.167
-  port: 23873
+    Host: V2-NODE-1.GFWAIRPORT.NET
+- name: 1.78| SG1873
+  server: 129.226.214.101
+  port: 51332
   type: vmess
-  uuid: 143e2134-ca7d-46ff-e902-37d0967b9907
+  uuid: 6951282c-94d5-4f5d-cbc5-1e97f90bfe39
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.32|越南youtube阿伟科技
-  server: 103.179.187.87
-  port: 80
+- name: 1.51| SG1795
+  server: 129.226.215.218
+  port: 39758
   type: vmess
-  uuid: 1c780e39-f054-4175-b0cf-ec7727e020f6
+  uuid: e1afb696-1e40-4a45-e6de-792c1bd94038
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.46|香港youtube阿伟科技 13
+  server: 43.129.200.215
+  port: 46232
+  type: vmess
+  uuid: a6174b94-7340-440c-a505-2acf39f591f8
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: livestream2.tv360.vn
   udp: true
-- name: 1.26| SG1794
-  server: 129.226.94.134
-  port: 31149
+- name: 1.11| githubcomv2rayfree  美国  62
+  server: 45.150.165.97
+  port: 20083
   type: vmess
-  uuid: 883557f2-88c9-4963-bd0e-2083353f7901
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.23| RelaySGSG1798
-  server: d02.v2.gay
-  port: 58681
-  type: vmess
-  uuid: 758c6c64-e7bc-4bbf-dd58-cbd21c09c75a
+  uuid: 4a28c121-7b5b-41bc-8a66-12f3fa8ce422
   alterId: 0
   cipher: auto
   tls: false
