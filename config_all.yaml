@@ -1,51 +1,19 @@
 proxies:
-- name: 6.41|香港tg频道bpjzx2 5
-  server: 23.98.35.135
-  port: 11420
-  type: ssr
-  cipher: chacha20-ietf
-  password: Fhbe0z
-  protocol: auth_aes128_sha1
-  obfs: tls1.2_ticket_auth
-  protocol-param: 13370:DqGDfE
-  obfs-param: ''
-  udp: true
-- name: 6.40|香港HGCAZHK
-  server: az.gunangzhui.cloud
-  port: 12716
-  type: trojan
-  password: 9e496875-e09c-451b-a99c-fe2f57e221c2
-  sni: az.gunangzhui.cloud
-  skip-cert-verify: true
-  udp: true
-- name: 5.36|V3061xTokyo
-  server: o06.trojan.tel
-  port: 18443
-  type: trojan
-  password: b654e76e-08e2-4911-bd21-ce251104b963
-  sni: douyincdn.com
-  skip-cert-verify: true
-- name: 4.38|HINETAZHK
-  server: az.gunangzhui.cloud
-  port: 41534
-  type: trojan
-  password: 9e496875-e09c-451b-a99c-fe2f57e221c2
-  sni: az.gunangzhui.cloud
-  skip-cert-verify: true
-  udp: true
-- name: 4.27| githubcomfreefq  美国CloudFlare公司CDN节点 75
-  server: sg01.czsx1624.tk
+- name: 5.69| githubcomfreefq  美国  1
+  server: 155.248.162.21
   port: 443
   type: vmess
-  uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af
+  uuid: 7454097f-15fb-44bb-9e59-e1fdd1ac03a5
   alterId: 0
   cipher: auto
-  tls: true
-  network: ws
-  ws-path: /3a8545177/
-  ws-headers:
-    Host: sg01.czsx1624.tk
-- name: 3.94|RelayCACA205
+  tls: false
+- name: 4.49| githubcomfreefq  日本Kirin Networks 7
+  server: jpkirin.node.qchwnd.moe
+  port: 44616
+  type: trojan
+  password: 2971161c-46af-4ac3-b9c3-409b2750a751
+  sni: jpkirin.node.qchwnd.moe
+- name: 3.52|RelayCACA205
   server: 527hk1.fans8.xyz
   port: 80
   type: vmess
@@ -57,204 +25,85 @@ proxies:
   ws-path: /ray
   ws-headers:
     Host: 527hk1.fans8.xyz
-- name: 3.68| US185
-  server: 511hk.fans8.xyz
-  port: 80
+- name: 3.32| githubcomfreefq  美国CloudFlare公司CDN节点 75
+  server: sg01.czsx1624.tk
+  port: 443
   type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  alterId: 2
+  uuid: d002b422-eace-4e01-bf58-e4bb0bcfe7af
+  alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /ray
+  ws-path: /3a8545177/
   ws-headers:
-    Host: 511hk.fans8.xyz
-- name: 3.64| US183
-  server: 331tw.fans8.xyz
+    Host: sg01.czsx1624.tk
+- name: 2.92| 免流日本 A
+  server: 20.222.12.59
   port: 80
   type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  alterId: 2
+  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
+  alterId: 0
   cipher: auto
-  tls: true
+  tls: false
   network: ws
-  ws-path: /ray
+  ws-path: /images
   ws-headers:
-    Host: 331tw.fans8.xyz
-- name: 3.36|新加坡tg频道bpjzx2
+    Host: v.qq.com
+- name: 2.56| 甲骨文东京ARM2trojan
+  server: jgwdj4.gaox.ml
+  port: 443
+  type: trojan
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+- name: 2.24|EXTM3ULAXDMITnf
   server: 23.98.35.135
-  port: 11429
+  port: 11423
   type: ssr
   cipher: chacha20-ietf
   password: Fhbe0z
   protocol: auth_aes128_sha1
   obfs: tls1.2_ticket_auth
   protocol-param: 13370:DqGDfE
+  obfs-param: t.me/vpnhat
+  udp: true
+- name: 2.22|7day
+  server: 0o.autosc.me
+  port: 443
+  type: vmess
+  uuid: d156b2b9-3f94-4bad-8e8f-19000b9cedae
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: grpc
+  servername: p16-tiktokcdn-com.akamaized.net
+  grpc-opts:
+    grpc-service-name: GunService
+  udp: true
+- name: 2.09| RelayZZUS3012
+  server: v2fly.sab.quest
+  port: 443
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /chcar
+  ws-headers:
+    Host: v2fly.samrt.website
+- name: 1.97| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶less SSR
+  server: clash0.free4444.xyz
+  port: 30033
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
   obfs-param: ''
-  udp: true
-- name: 3.06| RelayAUKR143
-  server: v2-5.godlight.xyz
-  port: 250
-  type: vmess
-  uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /71h4b3s1f53
-  ws-headers:
-    Host: v2-5.godlight.xyz
-- name: 2.83| githubcomfreefq  加拿大  66
-  server: 331tw9.fans8.xyz
-  port: 443
-  type: trojan
-  password: dfa2821d-0418-4427-8f17-cef26d02370f
-  sni: 331tw9.fans8.xyz
-- name: 2.81| SG1441
-  server: 129.226.216.124
-  port: 14728
-  type: vmess
-  uuid: eea3d090-e068-4b74-8039-91fd79218d1a
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.55|甲骨文海得拉巴ARM1trojan
-  server: jgwhdlb3.gaox.ml
-  port: 443
-  type: trojan
-  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
-  sni: jgwhdlb3.gaox.ml
-- name: 2.25|油管全网最强白嫖 38
-  server: 132.226.22.158
-  port: 48921
-  type: vmess
-  uuid: b23e8a7b-f809-47ab-8519-6f24452399a2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.22| RelaySGSG1667
-  server: v2ray3.bonds.id
-  port: 443
-  type: vmess
-  uuid: 014291fb-3808-4ae8-9303-e1f40d58bb4f
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /howdy
-  ws-headers:
-    Host: v2ray3.bonds.id
-- name: 2.14|油管全网最强白嫖 296
-  server: 193.123.238.30
-  port: 18443
-  type: trojan
-  password: b654e76e-08e2-4911-bd21-ce251104b963
-  skip-cert-verify: true
-  udp: true
-- name: 2.09|1.94|2.17|
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9003
-  password: JdmRK9gMEqFgs8nP
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 2.08| githubcomfreefq  美国  41
-  server: x.uhwh.ga
-  port: 443
-  type: trojan
-  password: xianba2
-  sni: x.uhwh.ga
-- name: 2.08| githubcomfreefq  美国  32
-  server: jgwdj3.gaox.ml
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- name: 1.98|韩国youtube阿伟科技 5
-  server: 146.56.108.108
-  port: 26113
-  type: vmess
-  uuid: 1071810b-8a51-4fba-de7f-1efe88c87ea8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 1.97| githubcomfreefq  美国CloudFlare公司CDN节点 48
-  server: 1chuan.top
-  port: 443
-  type: vmess
-  uuid: fa8f90e0-2fae-4b05-df7a-ea325bc517d8
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /evo
-  ws-headers:
-    Host: 1chuan.top
-- name: 1.95|1.92|1.21|
-  server: 213.183.53.177
-  type: ssr
-  country: LT
-  port: 9033
-  password: UTJA57ypk2XKQpnm
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- cipher: aes-256-cfb
-  obfs: plain
-  password: aLpQtfEZe445QyHk
-  port: 9098
-  protocol: origin
-  server: 213.183.53.177
-  type: ssr
-  name: 1.91|731
-- name: 1.83| RelayUSUS2535
-  server: inap008.xmrth-node.xyz
-  port: 12265
-  type: vmess
-  uuid: 53ad95b1-8693-34e3-98d7-2010ad24aaf9
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /index
-  ws-headers:
-    Host: inap008.xmrth-node.xyz
-- cipher: aes-256-cfb
-  obfs: plain
-  password: cp8pRSUAyLhTfVWH
-  port: 9064
-  protocol: origin
-  server: 213.183.53.177
-  type: ssr
-  name: 1.81|2419
-- name: 1.71| 甲骨文悉尼ARM1trojan
-  server: jgwxn3.gaox.ml
-  port: 443
-  type: trojan
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
-  sni: jgwxn3.gaox.ml
-- name: 1.67|USwmt53012
-  server: au2-3.nigirocloud.com
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  sni: au2-3.nigirocloud.com
-  skip-cert-verify: true
-  udp: true
-- name: 1.64| 甲骨文悉尼AMD2trojan
-  server: jgwxn2.gaox.ml
-  port: 443
-  type: trojan
-  password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26
-  sni: jgwxn2.gaox.ml
-- name: 1.63| githubcomfreefq  美国Microsoft数据中心 3
-  server: hk.xxnmsl.com
+- name: 1.92| githubcomfreefq  美国Microsoft数据中心 6
+  server: kr.xxnmsl.com
   port: 80
   type: vmess
   uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4
@@ -264,16 +113,59 @@ proxies:
   network: ws
   ws-path: /
   ws-headers:
-    Host: tms.dingtalk.com
-- name: 1.62|USwmt53010
-  server: au2-4.nigirocloud.com
+    Host: kr.xxnmsl.com
+- name: 1.80| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
+  port: 443
+  type: trojan
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: 1.79|油管全网最强白嫖 319
+  server: 212.81.47.17
   port: 443
   type: trojan
   password: 3yFq7NCP53mVfpXJz3
-  sni: au2-4.nigirocloud.com
   skip-cert-verify: true
   udp: true
-- name: 1.60|油管全网最强白嫖 6
+- name: 1.76|油管全网最强白嫖 255
+  server: 212.81.47.11
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 1.67|trojan
+  type: trojan
+  server: 65.49.196.130
+  port: 443
+  password: 123abc,./
+  sni: ztinoz.com
+  alpn:
+  - h2
+  - http/1.1
+- password: MnROfwtPYa
+  port: 28931
+  server: neteasy.ga
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.65|98
+- name: 1.63|瑞士youtube阿伟科技
+  server: v2ray.wefuckgfw.ga
+  port: 2096
+  type: vmess
+  uuid: 556b20c1-272e-44ec-881b-94f410ac75de
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /H8VswtUJ/
+    headers:
+      Host: v2ray.wefuckgfw.ga
+  udp: true
+- name: 1.62|油管全网最强白嫖 6
   server: 103.162.28.126
   port: 80
   type: vmess
@@ -287,7 +179,7 @@ proxies:
   ws-headers:
     Host: fuzzyng.akamaized.net
   udp: true
-- name: 1.60|油管全网最强白嫖 7
+- name: 1.59|油管全网最强白嫖 7
   server: 103.162.28.128
   port: 80
   type: vmess
@@ -301,125 +193,155 @@ proxies:
   ws-headers:
     Host: fuzzyng.akamaized.net
   udp: true
-- name: 1.58|RelayCACA226
-  server: 51jp1.fans8.xyz
-  port: 80
+- name: 1.57|油管全网最强白嫖 4
+  server: 146.19.196.125
+  port: 31244
   type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  alterId: 2
+  uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
+  alterId: 0
   cipher: auto
   tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: 51jp1.fans8.xyz
-- name: 1.54|油管全网最强白嫖 324
-  server: 152.69.231.216
-  port: 18443
-  type: trojan
-  password: b654e76e-08e2-4911-bd21-ce251104b963
   skip-cert-verify: true
   udp: true
-- name: 1.48| githubcomfreefq  美国  81
-  server: 138.2.52.84
-  port: 23140
+- name: 1.56|油管全网最强白嫖 18
+  server: 51.210.179.47
+  port: 31225
   type: vmess
-  uuid: e03f030e-87a6-4282-9656-461732cc3b1f
+  uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 1.55|油管全网最强白嫖 15
+  server: 51.210.179.47
+  port: 31318
+  type: vmess
+  uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 1.53|油管全网最强白嫖 256
+  server: 212.81.47.18
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 1.53| httpsgithubcomAlvin9999newpacwiki clash ip5洛杉矶2SSR
+  server: ss-v2ray1.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.47|RO974 4916Mb
+  server: 185.126.116.125
+  type: ssr
+  country: RO
+  port: 9043
+  password: HSZuyJQcWe8dxNdF
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.45| githubcomfreefq  美国  5
+  server: 138.2.15.23
+  port: 46370
+  type: vmess
+  uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.41|油管全网最强白嫖 13
+  server: 213.226.71.209
+  port: 31251
+  type: vmess
+  uuid: b8aaa6e1-f0b3-b9ec-3dfc-bb226c167b33
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 1.41|LT792 4206Mb
+  server: 213.183.53.177
+  type: ssr
+  country: LT
+  port: 9041
+  password: U6qnYRhfyDmn8sgn
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.41| 韩国
+  server: 20.196.195.216
+  port: 80
+  type: vmess
+  uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 138.2.52.84
-- name: 1.45| githubcomfreefq  美国DXC Technology 39
-  server: au.project4gyuna.pw
-  port: 80
-  type: vmess
-  uuid: 0613c82b-1f56-432f-b94b-691e294d2314
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /project4gyuna.pw
-  ws-headers:
-    Host: yuna4g.akamaized.net
-- name: 1.40| 甲骨文伦敦AMD2trojan
-  server: jgwld2.gaox.ml
-  port: 443
-  type: trojan
-  password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
-  sni: jgwld2.gaox.ml
-- name: 1.37|
-  server: 213.183.59.206
+    Host: 20.196.195.216
+- name: 1.32|1.95|1.92|1.21|
+  server: 213.183.53.177
   type: ssr
-  country: NL
-  port: 9059
-  password: 9XwYyZsK8SNzQDtY
+  country: LT
+  port: 9033
+  password: UTJA57ypk2XKQpnm
   cipher: aes-256-cfb
   protocol: origin
   obfs: plain
-- name: 1.35| SG1584
-  server: 129.226.93.47
-  port: 54592
-  type: vmess
-  uuid: 5b1e77bf-a73c-4756-e64a-4f02ac35ed43
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.33| githubcomv2rayfree  美国  31
-  server: fhcarm1.gaox.ml
-  port: 443
-  type: trojan
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  sni: fhcarm1.gaox.ml
-- name: 1.30|美国youtube阿伟科技 5
-  server: sg6.6yhy.top
-  port: 4443
-  type: vmess
-  uuid: 8d13dc0f-c4c9-3f66-b8de-d9a5d432842a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /v2ray
-    headers:
-      Host: sg6.6yhy.top
-  udp: true
-- password: MnROfwtPYa
-  port: 28931
-  server: neteasy.ga
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.29|98
+- name: 1.30|LT803 3863Mb
+  server: 213.183.53.177
+  type: ssr
+  country: LT
+  port: 9008
+  password: y9VURyNzJWNRYEGQ
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
 - cipher: aes-256-cfb
   obfs: plain
   password: cp8pRSUAyLhTfVWH
   port: 9064
   protocol: origin
-  server: 152.89.210.105
+  server: 213.183.53.177
   type: ssr
-  name: 1.20|552
-- name: 1.17| RU147
-  server: 422wkl.fans8.xyz
-  port: 443
-  type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: 422wkl.fans8.xyz
-- name: 1.02|新加坡youtube阿伟科技 5
-  server: tx49sg.fans8.xyz
-  port: 443
+  name: 1.28|2419
+- name: 1.27|LT801
+  server: 213.183.53.177
+  type: ssr
+  country: LT
+  port: 9043
+  password: HSZuyJQcWe8dxNdF
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: plain
+- name: 1.23| githubcomfreefq  沙特阿拉伯Arabic Computer System Co 21
+  server: usa002.369boy.com
+  port: 12001
   type: trojan
-  password: dfa2821d-0418-4427-8f17-cef26d02370f
-  sni: tx49sg.fans8.xyz
+  password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6
+  sni: usa002.369boy.com
+- name: 1.14| githubcomfreefq  美国加利福尼亚州洛杉矶市SharkTech数据中心 18
+  server: usa003.369boy.com
+  port: 13011
+  type: trojan
+  password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6
+  sni: usa003.369boy.com
+- name: 1.05|油管全网最强白嫖 37
+  server: 129.226.216.160
+  port: 49056
+  type: vmess
+  uuid: 89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e
+  alterId: 0
+  cipher: auto
+  tls: false
   skip-cert-verify: true
   udp: true
