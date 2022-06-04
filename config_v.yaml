@@ -1,73 +1,5 @@
 proxies:
-- name: 5.69| githubcomfreefq  美国  1
-  server: 155.248.162.21
-  port: 443
-  type: vmess
-  uuid: 7454097f-15fb-44bb-9e59-e1fdd1ac03a5
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.92| 免流日本 A
-  server: 20.222.12.59
-  port: 80
-  type: vmess
-  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 1.92| githubcomfreefq  美国Microsoft数据中心 6
-  server: kr.xxnmsl.com
-  port: 80
-  type: vmess
-  uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: kr.xxnmsl.com
-- name: 1.62|油管全网最强白嫖 6
-  server: 103.162.28.126
-  port: 80
-  type: vmess
-  uuid: 8c7dd76c-f5b6-4453-b94d-6dd289b08752
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /fuzzyng?ed=2048
-  ws-headers:
-    Host: fuzzyng.akamaized.net
-  udp: true
-- name: 1.59|油管全网最强白嫖 7
-  server: 103.162.28.128
-  port: 80
-  type: vmess
-  uuid: 8c7dd76c-f5b6-4453-b94d-6dd289b08752
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /fuzzyng?ed=2048
-  ws-headers:
-    Host: fuzzyng.akamaized.net
-  udp: true
-- name: 1.45| githubcomfreefq  美国  5
-  server: 138.2.15.23
-  port: 46370
-  type: vmess
-  uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.41| 韩国
+- name: 2.29| 韩国
   server: 20.196.195.216
   port: 80
   type: vmess
@@ -79,13 +11,39 @@ proxies:
   ws-path: /
   ws-headers:
     Host: 20.196.195.216
-- name: 1.05|油管全网最强白嫖 37
-  server: 129.226.216.160
-  port: 49056
+- name: 1.93| githubcomfreefq  美国Microsoft数据中心 2
+  server: hk.xxnmsl.com
+  port: 80
   type: vmess
-  uuid: 89d7f316-c0d4-47f2-c6d3-fd9f37c11c7e
+  uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4
   alterId: 0
   cipher: auto
   tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: tms.dingtalk.com
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  network: tcp
+  port: 23292
+  server: 150.230.41.9
   skip-cert-verify: true
-  udp: true
+  type: vmess
+  uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
+  ws-path: /
+  name: 1.78|1491
+- name: 1.02| githubcomfreefq  美国Microsoft数据中心 6
+  server: kr.xxnmsl.com
+  port: 80
+  type: vmess
+  uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: kr.xxnmsl.com
