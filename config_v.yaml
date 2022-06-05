@@ -1,17 +1,25 @@
 proxies:
-- name: 2.29| 韩国
-  server: 20.196.195.216
-  port: 80
+- name: 4.70| githubcomfreefq  日本  1
+  server: 146.56.174.187
+  port: 31613
   type: vmess
-  uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4
+  uuid: 35137513-8f0a-4f74-84f8-ef9f5a8f85a6
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.16| githubcomfreefq  美国  10
+  server: 138.2.52.84
+  port: 23140
+  type: vmess
+  uuid: e03f030e-87a6-4282-9656-461732cc3b1f
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 20.196.195.216
-- name: 1.93| githubcomfreefq  美国Microsoft数据中心 2
+    Host: 138.2.52.84
+- name: 1.96| githubcomfreefq  美国Microsoft数据中心 2
   server: hk.xxnmsl.com
   port: 80
   type: vmess
@@ -23,27 +31,31 @@ proxies:
   ws-path: /
   ws-headers:
     Host: tms.dingtalk.com
-- alterId: 0
+- type: vmess
+  name: 1.33|USwmt6310
+  server: 138.2.117.173
+  port: '48193'
+  uuid: 93bd64e5-c062-4a42-895b-b7edeb6cd071
+  alterId: '0'
   cipher: auto
-  h2-opts: {}
-  http-opts: {}
   network: tcp
-  port: 23292
-  server: 150.230.41.9
-  skip-cert-verify: true
-  type: vmess
-  uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
-  ws-path: /
-  name: 1.78|1491
-- name: 1.02| githubcomfreefq  美国Microsoft数据中心 6
-  server: kr.xxnmsl.com
+- name: 1.15|githubcomfreefq  亚太地区  25
+  server: vietnam.hn14.shopvpn.net
   port: 80
   type: vmess
-  uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4
+  uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /
+  ws-path: /shopvpn.net
   ws-headers:
-    Host: kr.xxnmsl.com
+    Host: quangtien.akamaized.net
+- name: 1.12| KR 1724
+  server: 152.70.236.51
+  port: 33156
+  type: vmess
+  uuid: 49526417-e201-4949-8055-81b0fb264be5
+  alterId: 0
+  cipher: auto
+  tls: false
