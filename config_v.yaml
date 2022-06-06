@@ -1,61 +1,124 @@
 proxies:
-- name: 4.70| githubcomfreefq  日本  1
-  server: 146.56.174.187
-  port: 31613
-  type: vmess
-  uuid: 35137513-8f0a-4f74-84f8-ef9f5a8f85a6
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.16| githubcomfreefq  美国  10
-  server: 138.2.52.84
-  port: 23140
-  type: vmess
-  uuid: e03f030e-87a6-4282-9656-461732cc3b1f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 138.2.52.84
-- name: 1.96| githubcomfreefq  美国Microsoft数据中心 2
-  server: hk.xxnmsl.com
+- name: 5.31|香港youtube阿伟科技 9
+  server: hk-b.somserver.top
   port: 80
   type: vmess
-  uuid: f295e664-3c47-4f0a-b337-02ba9cd01bf4
+  uuid: fde42ff2-98f5-3977-8cda-4f4675f64868
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /
-  ws-headers:
-    Host: tms.dingtalk.com
-- type: vmess
-  name: 1.33|USwmt6310
-  server: 138.2.117.173
-  port: '48193'
-  uuid: 93bd64e5-c062-4a42-895b-b7edeb6cd071
-  alterId: '0'
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 2.73|香港youtube阿伟科技 12
+  server: hk-i.somserver.top
+  port: 80
+  type: vmess
+  uuid: fde42ff2-98f5-3977-8cda-4f4675f64868
+  alterId: 0
   cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 2.58|香港youtube阿伟科技 3
+  server: cn-i.somserver.top
+  port: 80
+  type: vmess
+  uuid: fde42ff2-98f5-3977-8cda-4f4675f64868
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
   network: tcp
-- name: 1.15|githubcomfreefq  亚太地区  25
-  server: vietnam.hn14.shopvpn.net
+  port: 7654
+  server: 119.28.92.125
+  skip-cert-verify: true
+  type: vmess
+  uuid: 9481e525-557b-485d-8b64-ec14270974d2
+  ws-path: /
+  name: 2.58|2172
+- name: 2.17|香港youtube阿伟科技 10
+  server: hk-c.somserver.top
   port: 80
   type: vmess
-  uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a
+  uuid: fde42ff2-98f5-3977-8cda-4f4675f64868
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 1.89| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 5
+  server: 96.45.188.199
+  port: 80
+  type: vmess
+  uuid: 5d37c20f-2176-47ac-c61a-a6529c6fba42
+  alterId: 64
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /home
+  ws-headers:
+    Host: 96.45.188.199
+- name: 1.73|104149154154ws
+  server: 104.149.154.154
+  port: 25966
+  type: vmess
+  uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /shopvpn.net
+  ws-path: /VTd4o3Kj/
   ws-headers:
-    Host: quangtien.akamaized.net
-- name: 1.12| KR 1724
-  server: 152.70.236.51
-  port: 33156
+    Host: 104.149.154.154
+- name: 1.50|越南youtube阿伟科技
+  server: hn.fuzzyng.com
+  port: 80
   type: vmess
-  uuid: 49526417-e201-4949-8055-81b0fb264be5
+  uuid: fc93a845-c480-4475-af86-6d2ea46400ee
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fuzzyng?ed=2048
+    headers:
+      Host: hn.fuzzyng.com
+  udp: true
+- name: 1.21|231926218ws
+  server: 23.19.26.218
+  port: 6082
+  type: vmess
+  uuid: 9674b201-ac76-4322-a9a3-2afd7f746513
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /paQd6Rug/
+  ws-headers:
+    Host: 23.19.26.218
