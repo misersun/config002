@@ -1,50 +1,31 @@
 proxies:
-- name: 6.28|香港youtube阿伟科技 5
-  server: cn-iii.somserver.top
-  port: 80
+- name: 2.34|韩国youtube阿伟科技
+  server: kr01.bosaidong.buzz
+  port: 8080
   type: vmess
-  uuid: fde42ff2-98f5-3977-8cda-4f4675f64868
+  uuid: 25a65a80-c9d8-4450-ae6b-f3555950d649
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
     headers:
-      Host: aweikeji-YouTube
+      Host:
+      - aweikeji-YouTube
   udp: true
-- name: 2.20|香港youtube阿伟科技 4
-  server: cn-ii.somserver.top
-  port: 80
+- name: 2.10| v2rayfreeeuorg  澳大利亚  23
+  server: 140.83.82.32
+  port: 20194
   type: vmess
-  uuid: fde42ff2-98f5-3977-8cda-4f4675f64868
+  uuid: 71f6a39d-ee6b-477b-af0a-78a41a6bd637
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: cn-ii.somserver.top
-  udp: true
-- name: 1.80|香港youtube阿伟科技 15
-  server: hk-iv.somserver.top
-  port: 80
-  type: vmess
-  uuid: fde42ff2-98f5-3977-8cda-4f4675f64868
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: hk-iv.somserver.top
-  udp: true
-- name: 1.41|104149154154ws
+- name: 1.54|104149154154ws
   server: 104.149.154.154
   port: 25966
   type: vmess
@@ -56,15 +37,21 @@ proxies:
   ws-path: /VTd4o3Kj/
   ws-headers:
     Host: 104.149.154.154
-- name: 1.09|231926218ws
-  server: 23.19.26.218
-  port: 6082
+- name: 1.52|日本youtube阿伟科技 4
+  server: 43.154.235.119
+  port: 10064
   type: vmess
-  uuid: 9674b201-ac76-4322-a9a3-2afd7f746513
+  uuid: 8b115f89-27cc-4ea9-85af-dda2de597928
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /paQd6Rug/
-  ws-headers:
-    Host: 23.19.26.218
+  skip-cert-verify: true
+  udp: true
+- name: 1.30|GB454
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  alterId: 0
+  cipher: auto
+  tls: false
