@@ -1,6 +1,6 @@
 proxies:
-- name: 5.42|VIPHong Kong 01  Media
-  server: iepl.hk.stoha.nodeg.cloud
+- name: 5.40|VIPHong Kong 01  Media 2
+  server: cdn.nodo3.abono.ink
   port: 26894
   type: ssr
   cipher: aes-128-ctr
@@ -10,7 +10,40 @@ proxies:
   protocol-param: 57611:G3lpM3
   obfs-param: ''
   udp: true
-- name: 5.36|Hong Kong 02
+- name: 5.10|VIPHong Kong 03 2
+  server: cdn.nodo3.abono.ink
+  port: 26889
+  type: ssr
+  cipher: aes-128-ctr
+  password: v0nxhydtt4
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 57611:G3lpM3
+  obfs-param: ''
+  udp: true
+- name: 5.06|Hong Kong 03 2
+  server: cdn.nodo1.abono.ink
+  port: 20003
+  type: ssr
+  cipher: aes-128-ctr
+  password: v0nxhydtt4
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 57611:G3lpM3
+  obfs-param: ''
+  udp: true
+- name: 4.95|Hong Kong 02
+  server: cdn.nodo2.abono.ink
+  port: 20002
+  type: ssr
+  cipher: aes-128-ctr
+  password: v0nxhydtt4
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 57611:G3lpM3
+  obfs-param: ''
+  udp: true
+- name: 4.18|Hong Kong 02
   server: gtr.ghz2.nodeg.cloud
   port: 20002
   type: ssr
@@ -21,8 +54,8 @@ proxies:
   protocol-param: 57611:G3lpM3
   obfs-param: ''
   udp: true
-- name: 3.61|VIPSingapore 01  Media
-  server: iepl.hk.stoha.nodeg.cloud
+- name: 4.12|VIPSingapore 01  Media 2
+  server: cdn.nodo4.abono.ink
   port: 26953
   type: ssr
   cipher: aes-128-ctr
@@ -32,51 +65,7 @@ proxies:
   protocol-param: 57611:G3lpM3
   obfs-param: ''
   udp: true
-- name: 3.40|Singapore 02
-  server: gtr.ghz2.nodeg.cloud
-  port: 20015
-  type: ssr
-  cipher: aes-128-ctr
-  password: v0nxhydtt4
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 57611:G3lpM3
-  obfs-param: ''
-  udp: true
-- name: 3.00|VIPJapan 01  Media
-  server: iepl.hk.stoha.nodeg.cloud
-  port: 26954
-  type: ssr
-  cipher: aes-128-ctr
-  password: v0nxhydtt4
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 57611:G3lpM3
-  obfs-param: ''
-  udp: true
-- name: 2.70|Japan 02
-  server: gtr.ghz2.nodeg.cloud
-  port: 20012
-  type: ssr
-  cipher: aes-128-ctr
-  password: v0nxhydtt4
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 57611:G3lpM3
-  obfs-param: ''
-  udp: true
-- name: 2.59|VIPHong Kong 05  Media
-  server: iepl.hk.stoha.nodeg.cloud
-  port: 26980
-  type: ssr
-  cipher: aes-128-ctr
-  password: v0nxhydtt4
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 57611:G3lpM3
-  obfs-param: ''
-  udp: true
-- name: 2.57|Hong Kong 01
+- name: 3.69|Hong Kong 01
   server: gtr.ghz2.nodeg.cloud
   port: 20001
   type: ssr
@@ -87,9 +76,9 @@ proxies:
   protocol-param: 57611:G3lpM3
   obfs-param: ''
   udp: true
-- name: 1.60|United States 02
-  server: gtr.ghz2.nodeg.cloud
-  port: 20007
+- name: 3.28|Taiwan 02
+  server: cdn.nodo2.abono.ink
+  port: 20018
   type: ssr
   cipher: aes-128-ctr
   password: v0nxhydtt4
@@ -98,7 +87,51 @@ proxies:
   protocol-param: 57611:G3lpM3
   obfs-param: ''
   udp: true
-- name: 1.57|United States 04
+- name: 3.26|Taiwan 01 2
+  server: cdn.nodo1.abono.ink
+  port: 20017
+  type: ssr
+  cipher: aes-128-ctr
+  password: v0nxhydtt4
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 57611:G3lpM3
+  obfs-param: ''
+  udp: true
+- name: 3.15|Hong Kong 01
+  server: cdn.nodo1.abono.ink
+  port: 20001
+  type: ssr
+  cipher: aes-128-ctr
+  password: v0nxhydtt4
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 57611:G3lpM3
+  obfs-param: ''
+  udp: true
+- name: 2.47|Singapore 02
+  server: gtr.ghz2.nodeg.cloud
+  port: 20015
+  type: ssr
+  cipher: aes-128-ctr
+  password: v0nxhydtt4
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 57611:G3lpM3
+  obfs-param: ''
+  udp: true
+- name: 2.10|Japan 02
+  server: gtr.ghz2.nodeg.cloud
+  port: 20012
+  type: ssr
+  cipher: aes-128-ctr
+  password: v0nxhydtt4
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+  protocol-param: 57611:G3lpM3
+  obfs-param: ''
+  udp: true
+- name: 1.50|United States 04
   server: gtr.ghz2.nodeg.cloud
   port: 20009
   type: ssr
@@ -109,29 +142,7 @@ proxies:
   protocol-param: 57611:G3lpM3
   obfs-param: ''
   udp: true
-- name: 1.44|VIPUnited States 01  Media
-  server: iepl.hk.stoha.nodeg.cloud
-  port: 26950
-  type: ssr
-  cipher: aes-128-ctr
-  password: v0nxhydtt4
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 57611:G3lpM3
-  obfs-param: ''
-  udp: true
-- name: 1.30|VIPZEngland
-  server: iepl.hk.stoha.nodeg.cloud
-  port: 26963
-  type: ssr
-  cipher: aes-128-ctr
-  password: v0nxhydtt4
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: 57611:G3lpM3
-  obfs-param: ''
-  udp: true
-- name: 1.15|VIPUnited States 02  Media
+- name: 1.23|VIPUnited States 02  Media
   server: iepl.hk.stohb.nodeg.cloud
   port: 26951
   type: ssr
@@ -142,9 +153,9 @@ proxies:
   protocol-param: 57611:G3lpM3
   obfs-param: ''
   udp: true
-- name: 1.03|VIPZGermany
-  server: iepl.hk.stoha.nodeg.cloud
-  port: 26965
+- name: 1.20|United States 02
+  server: gtr.ghz2.nodeg.cloud
+  port: 20007
   type: ssr
   cipher: aes-128-ctr
   password: v0nxhydtt4
