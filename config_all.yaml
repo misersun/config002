@@ -1,26 +1,37 @@
 proxies:
-- name: 5.29| githubcomfreefq  香港环球全域电讯国际互联节点 40
-  server: hgc1g-yyds.gdds.xyz
-  port: 25313
-  type: vmess
-  uuid: 3a57b49d-62b9-3e5b-a6ad-d0c462264946
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /pokego
-  ws-headers:
-    Host: 218.188.148.50
-- name: 3.80| JP149
-  server: 146.56.45.173
-  port: 21365
-  type: vmess
-  uuid: 49526417-e201-4949-8055-81b0fb264be5
+- type: vmess
+  name: 4.11|JP日本3
+  ws-opts:
+    path: /a185d5dc-c726-466c-98f2-ba494e63695f
+    headers:
+      host: mixv4-27.194610.xyz
+  server: mixv4-27.194610.xyz
+  port: 443
+  uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19
   alterId: 0
   cipher: auto
-  tls: false
+  network: ws
+  tls: true
+- name: 3.57| 甲骨文东京ARM1trojan
+  server: jgwdj3.gaox.ml
+  port: 443
+  type: trojan
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  sni: jgwdj3.gaox.ml
+- name: 3.32|RelayCACA174
+  server: 330tw.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 330tw.fans8.xyz
 - type: vmess
-  name: 3.75|JP日本1
+  name: 3.31|JP日本1
   ws-opts:
     path: /chat
     headers:
@@ -32,128 +43,60 @@ proxies:
   cipher: auto
   network: ws
   tls: true
-- name: 3.28| 甲骨文首尔AMD2trojan
-  server: jgw2.gaox.ml
-  port: 443
-  type: trojan
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  sni: jgw2.gaox.ml
-- name: 3.10|油管全网最强白嫖 139
-  server: s2.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: s2.hazz.win
-  skip-cert-verify: true
-  udp: true
-- name: 2.95|日本youtube阿伟科技
-  server: www.fewa.cf
-  port: 443
-  type: vmess
-  uuid: 9fcf1e10-772c-ce80-d51f-62c708333c50
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /paths/
-    headers:
-      Host: www.fewa.cf
-  udp: true
-- name: 2.52|Korea1
-  server: v2kr-1.freesw.xyz
-  port: 888
-  type: vmess
-  uuid: 5f55425c-0c0c-3e3d-8257-38314e1b8eee
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-path: /v2ray
-  ws-headers:
-    Host: v2kr-1.freesw.xyz
-  udp: true
-- name: 2.16|SSRSUBV10付费推荐suoytssrsub
-  server: 331tw.fans8.xyz
+- name: 3.26|油管全网最强白嫖 25
+  server: hkf.fuzzypn.me
   port: 80
   type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  alterId: 2
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: 331tw.fans8.xyz
-- name: 2.13| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
-  port: 443
-  type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 2.12|1424101137ws
-  server: 142.4.101.137
-  port: 20561
-  type: vmess
-  uuid: cf3eb126-ffbf-4452-91de-7393b6028782
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /nmLuM34N/
-  ws-headers:
-    Host: 142.4.101.137
-- name: 2.10|美国youtube阿伟科技 10
-  server: azgy001.xiba1.xyz
-  port: 20711
-  type: trojan
-  password: 6089bbd2-2bef-3ee3-a329-1b1a4339d7ed
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 2.05|日本youtube阿伟科技 5
-  server: 152.69.206.209
-  port: 1212
-  type: vmess
-  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
+  uuid: ab407771-afb9-4e5f-9960-2a49b6117526
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: aweikeji-YouTube
+  ws-path: /fuzzypn?ed=121212
+  ws-headers:
+    Host: Hteendepzai.akamaized.net
   udp: true
-- name: 1.93|油管全网最强白嫖 143
-  server: s3.hazz.win
+- name: 2.84|油管全网最强白嫖 2
+  server: vietnam.hn2.shopvpn.net
+  port: 80
+  type: vmess
+  uuid: bf10d6d5-c3f6-4b66-be29-62587aee40ef
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /shopvpn.net
+  ws-headers:
+    Host: aweikeji-YouTube
+  udp: true
+- name: 2.55|油管全网最强白嫖 105
+  server: s1.hazz.win
   port: 12340
   type: trojan
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: s3.hazz.win
+  sni: s1.hazz.win
   skip-cert-verify: true
   udp: true
-- name: 1.87| 美国
-  server: azgy001.xiba1.xyz
-  port: 20714
-  type: trojan
-  password: 6089bbd2-2bef-3ee3-a329-1b1a4339d7ed
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-- name: 1.75|美国wmt6944
-  server: au2-3.nigirocloud.com
+- name: 2.24|甲骨文海得拉巴ARM2trojan
+  server: jgwhdlb4.gaox.ml
   port: 443
   type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  sni: au2-3.nigirocloud.com
-  skip-cert-verify: true
-  udp: true
-- name: 1.71| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶SSR
-  server: trojan33.free4444.xyz
-  port: 443
+  password: 081a4198-d664-4bc5-a7c6-e35982da964b
+  sni: jgwhdlb4.gaox.ml
+- name: 2.23| JP674 2189Mb
+  server: 146.56.96.252
+  type: ssr
+  country: ' JP'
+  port: 2333
+  password: doub.io
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+- name: 2.21| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
+  server: clash0.free4444.xyz
+  port: 30033
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -161,19 +104,64 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.65|137175102ws
-  server: 137.175.10.2
-  port: 51987
+- name: 2.16| githubcomfreefq  韩国首尔Amazon数据中心 12
+  server: jisu65.yaya89.xyz
+  port: 50065
   type: vmess
-  uuid: 17926de0-16a7-46b1-993a-55eaa8ccd3a5
-  alterId: 0
+  uuid: 0358c017-415c-35e4-a79d-7cd9e25afe82
+  alterId: 2
   cipher: auto
   tls: false
   network: ws
-  ws-path: /MwrxiCgD/
+  ws-path: /hls/cctv5phd.m3u8
   ws-headers:
-    Host: 137.175.10.2
-- name: 1.61|19274238183ws
+    Host: jisu65.yaya89.xyz
+- password: c19d1432-8b3e-4818-8837-3d160cf65908
+  port: 443
+  server: jgwdb2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 2.15|1054
+- name: 2.13| 甲骨文大阪ARM1trojan
+  server: jgwdb3.gaox.ml
+  port: 443
+  type: trojan
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  sni: jgwdb3.gaox.ml
+- name: 2.06|油管全网最强白嫖 22
+  server: 20.247.107.46
+  port: 80
+  type: vmess
+  uuid: 95afdb4f-5a7f-4323-8fed-a89b05e9b66a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: aweikeji-YouTube
+  udp: true
+- name: 2.01| githubcomfreefq  日本东京Oracle云计算数据中心 16
+  server: mixv4-26.194610.xyz
+  port: 4440
+  type: vmess
+  uuid: e9bb0c5c-01c7-7907-c454-3b8b6d472b19
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /a185d5dc-c726-466c-98f2-ba494e63695f
+  ws-headers:
+    Host: mixv4-26.194610.xyz
+- name: 1.98| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 1.96|19274238183ws
   server: 192.74.238.183
   port: 36736
   type: vmess
@@ -185,23 +173,28 @@ proxies:
   ws-path: /yCBfYHrj/
   ws-headers:
     Host: 192.74.238.183
-- password: 3yFq7NCP53mVfpXJz3
-  port: 443
-  server: 212.81.47.12
-  skip-cert-verify: true
+- name: 1.95| githubcomfreefq  美国  36
+  server: kr01.wangxd.life
+  port: 3052
   type: trojan
-  udp: true
-  name: 1.58|1538
-- name: 1.56|油管全网最强白嫖 151
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  sni: kr01.wangxd.life
+- name: 1.80| 甲骨文东京ARM2trojan
+  server: jgwdj4.gaox.ml
+  port: 443
+  type: trojan
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  sni: jgwdj4.gaox.ml
+- name: 1.79|油管全网最强白嫖 151
   server: 212.81.47.13
   port: 443
   type: trojan
   password: 3yFq7NCP53mVfpXJz3
   skip-cert-verify: true
   udp: true
-- name: 1.54| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
-  server: clash0.free4444.xyz
-  port: 30033
+- name: 1.73| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶SSR
+  server: trojan33.free4444.xyz
+  port: 443
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -209,7 +202,190 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.47|美国youtube阿伟科技 4
+- name: 1.71| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
+  server: ss-v2ray1.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.67|美国wmt6944
+  server: au2-3.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-3.nigirocloud.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.66| githubcomfreefq  美国Microsoft数据中心 26
+  server: 20.239.196.162
+  port: 38286
+  type: vmess
+  uuid: 48ca3feb-03fd-454a-903c-eaa459772412
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.64|137175102ws
+  server: 137.175.10.2
+  port: 51987
+  type: vmess
+  uuid: 17926de0-16a7-46b1-993a-55eaa8ccd3a5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /MwrxiCgD/
+  ws-headers:
+    Host: 137.175.10.2
+- name: 1.63|油管全网最强白嫖 143
+  server: s3.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: s3.hazz.win
+  skip-cert-verify: true
+  udp: true
+- name: 1.62|SSRSUBV11付费推荐suoytssrsub
+  server: 527hk1.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 527hk1.fans8.xyz
+- password: 3yFq7NCP53mVfpXJz3
+  port: 443
+  server: 212.81.47.12
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.57|1538
+- password: 3yFq7NCP53mVfpXJz3
+  port: 443
+  server: 212.81.47.16
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.55|70
+- name: 1.51|油管全网最强白嫖 137
+  server: bai-piao-wang-zhe10.98848.xyz
+  port: 48240
+  type: trojan
+  password: c8bae3de-16ed-4247-8a99-f38ef79a4b51
+  sni: bai-piao-wang-zhe10.98848.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 1.50| 甲骨文悉尼ARM2trojan
+  server: jgwxn4.gaox.ml
+  port: 443
+  type: trojan
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  sni: jgwxn4.gaox.ml
+- name: 1.49| RelayZZUS2253
+  server: v2fly.sab.quest
+  port: 443
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /chcar
+  ws-headers:
+    Host: v2fly.samrt.website
+- name: 1.49|油管全网最强白嫖 141
+  server: au2-4.nigirocloud.com
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  sni: au2-4.nigirocloud.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.48| githubcomfreefq  荷兰  14
+  server: ru1.lolvps.xyz
+  port: 40047
+  type: vmess
+  uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /6129CFHR
+  ws-headers:
+    Host: ru1.lolvps.xyz
+- name: 1.48| githubcomfreefq  新加坡Linode数据中心 46
+  server: v2ray1.udpgw.com
+  port: 443
+  type: vmess
+  uuid: b6581737-539e-4b68-b853-e50c291b250d
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /howdy
+  ws-headers:
+    Host: v2ray1.udpgw.com
+- name: 1.42| githubcomfreefq  美国加利福尼亚州费利蒙Linode数据中心 22
+  server: vus2.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /chat
+  ws-headers:
+    Host: vus2.0bad.com
+- name: 1.41|油管全网最强白嫖 104
+  server: 212.81.47.18
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 1.38|美国youtube阿伟科技
+  server: vus4.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /chat
+    headers:
+      Host: vus4.0bad.com
+  udp: true
+- name: 1.30| v2rayfreeeuorg  美国CloudFlare节点 14
+  server: us03.gogogoo.cyou
+  port: 443
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /go
+  ws-headers:
+    Host: us03.gogogoo.cyou
+- name: 1.23|油管全网最强白嫖 157
+  server: 212.81.47.17
+  port: 443
+  type: trojan
+  password: 3yFq7NCP53mVfpXJz3
+  skip-cert-verify: true
+  udp: true
+- name: 1.22|美国youtube阿伟科技 4
   server: v2ray.wefuckgfw.ga
   port: 2096
   type: vmess
@@ -224,148 +400,48 @@ proxies:
     headers:
       Host: v2ray.wefuckgfw.ga
   udp: true
-- name: 1.44|湾湾
-  server: yqy2353.cdn-china.net
-  port: 2353
+- name: 1.21|油管全网最强白嫖 117
+  server: 194.156.120.236
+  port: 8443
   type: trojan
-  password: 1db6fdcf-506e-37d2-bd02-f2c0e5e6b7a7
-  sni: cdn-debian.org
-- name: 1.40| RelayZZUS2253
-  server: v2fly.sab.quest
-  port: 443
-  type: vmess
-  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /chcar
-  ws-headers:
-    Host: v2fly.samrt.website
-- name: 1.37|俄罗斯youtube阿伟科技 3
-  server: hj001.xiba1.xyz
-  port: 20762
-  type: trojan
-  password: 6089bbd2-2bef-3ee3-a329-1b1a4339d7ed
-  sni: ssl.ssl12.xyz
+  password: fa1c371a-bfc0-4784-a1f1-0f0f03af04bb
   skip-cert-verify: true
   udp: true
-- name: 1.36|油管全网最强白嫖 141
-  server: au2-4.nigirocloud.com
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  sni: au2-4.nigirocloud.com
-  skip-cert-verify: true
-  udp: true
-- name: 1.35|油管全网最强白嫖 157
-  server: 212.81.47.17
+- name: 1.19|USwmt61228
+  server: 212.81.47.14
   port: 443
   type: trojan
   password: 3yFq7NCP53mVfpXJz3
   skip-cert-verify: true
   udp: true
-- name: 1.34|油管全网最强白嫖 148
-  server: s4.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: s4.hazz.win
-  skip-cert-verify: true
-  udp: true
-- name: 1.32| githubcomfreefq  美国加利福尼亚州费利蒙Linode数据中心 22
-  server: vus2.0bad.com
-  port: 443
+- name: 1.19|githubcomfreefq  伊朗  42
+  server: srvf.myandroidplus1.ir
+  port: 80
   type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vus2.0bad.com
-- name: 1.31|油管全网最强白嫖 146
-  server: au2-2.nigirocloud.com
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  sni: au2-2.nigirocloud.com
-  skip-cert-verify: true
-  udp: true
-- name: 1.30|油管全网最强白嫖 45
-  server: els200.jklist.ga
-  port: 2095
-  type: vmess
-  uuid: e94c706a-235f-4663-e214-edfa052f256e
+  uuid: e7cf2f58-85b3-d3db-a75c-55df4a9ee83a
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-path: /wo.png
+  ws-path: /apiws
   ws-headers:
-    Host: els200.jklist.ga
-  udp: true
-- password: 3yFq7NCP53mVfpXJz3
+    Host: srvf.myandroidplus1.ir
+- name: 1.16| RelayUSUS1816
+  server: 172.67.140.112
   port: 443
-  server: 212.81.47.16
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.25|70
-- name: 1.24|油管全网最强白嫖 150
+  type: vmess
+  uuid: 4ac06183-feca-48f8-9f7d-3355bd950e2a
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: yzjd01-ublubeu.koyeb.app
+- name: 1.15|油管全网最强白嫖 150
   server: 212.81.47.11
   port: 443
   type: trojan
   password: 3yFq7NCP53mVfpXJz3
-  skip-cert-verify: true
-  udp: true
-- name: 1.24| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- name: 1.21| githubcomfreefq  美国  36
-  server: kr01.wangxd.life
-  port: 3052
-  type: trojan
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  sni: kr01.wangxd.life
-- name: 1.18|油管全网最强白嫖 140
-  server: 212.81.47.15
-  port: 443
-  type: trojan
-  password: 3yFq7NCP53mVfpXJz3
-  skip-cert-verify: true
-  udp: true
-- name: 1.14|俄罗斯youtube阿伟科技 2
-  server: ru2.lolvps.xyz
-  port: 40048
-  type: vmess
-  uuid: 882fe300-feb5-4e7b-b272-829e791755ee
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /J56OYLY9
-    headers:
-      Host: ru2.lolvps.xyz
-  udp: true
-- name: 1.10| 甲骨文大阪ARM1trojan
-  server: jgwdb3.gaox.ml
-  port: 443
-  type: trojan
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  sni: jgwdb3.gaox.ml
-- name: 1.05|油管全网最强白嫖 137
-  server: bai-piao-wang-zhe10.98848.xyz
-  port: 48240
-  type: trojan
-  password: c8bae3de-16ed-4247-8a99-f38ef79a4b51
-  sni: bai-piao-wang-zhe10.98848.xyz
   skip-cert-verify: true
   udp: true
