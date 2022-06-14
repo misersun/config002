@@ -1,71 +1,103 @@
 proxies:
-- name: 3.26|油管全网最强白嫖 25
-  server: hkf.fuzzypn.me
-  port: 80
-  type: vmess
-  uuid: ab407771-afb9-4e5f-9960-2a49b6117526
-  alterId: 0
+- alterId: 0
   cipher: auto
-  tls: false
+  h2-opts: {}
+  http-opts: {}
+  network: tcp
+  port: 443
+  server: 155.248.162.21
+  servername: vpn.16vpn.top
   skip-cert-verify: true
-  network: ws
-  ws-path: /fuzzypn?ed=121212
-  ws-headers:
-    Host: Hteendepzai.akamaized.net
-  udp: true
-- name: 2.84|油管全网最强白嫖 2
-  server: vietnam.hn2.shopvpn.net
-  port: 80
   type: vmess
-  uuid: bf10d6d5-c3f6-4b66-be29-62587aee40ef
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /shopvpn.net
-  ws-headers:
-    Host: aweikeji-YouTube
-  udp: true
-- name: 2.16| githubcomfreefq  韩国首尔Amazon数据中心 12
-  server: jisu65.yaya89.xyz
-  port: 50065
-  type: vmess
-  uuid: 0358c017-415c-35e4-a79d-7cd9e25afe82
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /hls/cctv5phd.m3u8
-  ws-headers:
-    Host: jisu65.yaya89.xyz
-- name: 2.06|油管全网最强白嫖 22
-  server: 20.247.107.46
-  port: 80
-  type: vmess
-  uuid: 95afdb4f-5a7f-4323-8fed-a89b05e9b66a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
+  uuid: 7454097f-15fb-44bb-9e59-e1fdd1ac03a5
   ws-path: /
-  ws-headers:
-    Host: aweikeji-YouTube
-  udp: true
-- name: 1.96|19274238183ws
-  server: 192.74.238.183
-  port: 36736
+  name: 6.27|32dacd881437
+- name: 4.49|油管全网最强白嫖 26
+  server: kr-07.freesocks5.tk
+  port: 28996
   type: vmess
-  uuid: 31177ee2-6ac5-4e96-bf7a-e50e8ffff0fe
+  uuid: 97db7c58-0573-481a-c90c-bc8e41b6b89b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.96|日本youtube阿伟科技 4
+  server: bgj.azzhuangaping.tw
+  port: 80
+  type: vmess
+  uuid: 992730fc-b237-43ed-a35a-1c5d3f4282b6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 3.03|香港youtube阿伟科技
+  server: 182.160.12.239
+  port: 45524
+  type: vmess
+  uuid: a265dcb2-04a3-48c0-a703-fad0e008d474
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.59|台湾youtube阿伟科技 2
+  server: v2bww2.azzhuangaping.tw
+  port: 80
+  type: vmess
+  uuid: 992730fc-b237-43ed-a35a-1c5d3f4282b6
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 2.39| 香港 直连B 1x
+  server: dnsfreexianggang01.gleeze.com
+  port: 20942
+  type: vmess
+  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /yCBfYHrj/
+  ws-path: /images
   ws-headers:
-    Host: 192.74.238.183
-- name: 1.66| githubcomfreefq  美国Microsoft数据中心 26
+    Host: v.qq.com
+- name: 2.13|日本youtube阿伟科技 8
+  server: 152.69.206.209
+  port: 1212
+  type: vmess
+  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aweikeji-YouTube
+  udp: true
+- name: 1.50|HU461
+  server: 185.225.69.134
+  port: 45081
+  type: vmess
+  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+  alterId: 64
+  cipher: auto
+  tls: false
+- name: 1.46| githubcomfreefq  美国Microsoft数据中心 26
   server: 20.239.196.162
   port: 38286
   type: vmess
@@ -73,27 +105,17 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.64|137175102ws
-  server: 137.175.10.2
-  port: 51987
-  type: vmess
-  uuid: 17926de0-16a7-46b1-993a-55eaa8ccd3a5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /MwrxiCgD/
-  ws-headers:
-    Host: 137.175.10.2
-- name: 1.19|githubcomfreefq  伊朗  42
-  server: srvf.myandroidplus1.ir
+- name: 1.24|油管全网最强白嫖 48
+  server: irancell.android-club.ir
   port: 80
   type: vmess
-  uuid: e7cf2f58-85b3-d3db-a75c-55df4a9ee83a
+  uuid: 040edd14-f4d9-4910-0c6d-8cca9863cdff
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
   ws-path: /apiws
   ws-headers:
-    Host: srvf.myandroidplus1.ir
+    Host: irancell.android-club.ir
+  udp: true
