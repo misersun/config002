@@ -1,13 +1,25 @@
 proxies:
-- name: 5.90| githubcomfreefq  美国Microsoft数据中心 26
-  server: 20.239.196.162
-  port: 38286
+- name: 5.44| v2rayfreeeuorg  美国德克萨斯州达拉斯OracleZenedge 51
+  server: kr-10.freesocks5.tk
+  port: 55534
   type: vmess
-  uuid: 48ca3feb-03fd-454a-903c-eaa459772412
+  uuid: 0da405a2-469d-4bf3-f705-10fa12231edc
   alterId: 0
   cipher: auto
   tls: false
-- name: 5.17|油管全网最强白嫖 75
+- name: 5.17| TW02V2直连
+  server: tw02.henet.cyou
+  port: 20000
+  type: vmess
+  uuid: 9be75dda-8238-46b5-ba87-12e749d693dc
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /live
+  ws-headers:
+    Host: cctv.com
+- name: 2.35|油管全网最强白嫖 75
   server: dnsfreexianggang01.gleeze.com
   port: 20944
   type: vmess
@@ -21,7 +33,81 @@ proxies:
   ws-headers:
     Host: v.qq.com
   udp: true
-- name: 3.76| JP489
+- name: 2.24|油管全网最强白嫖 74
+  server: dnsfreeriben01.gleeze.com
+  port: 80
+  type: vmess
+  uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+  udp: true
+- name: 2.10|Az香港12
+  server: hk12.ningmengshui.xyz
+  port: 80
+  type: vmess
+  uuid: 8f4832f7-a51b-4049-9060-0422c3223e76
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: hk12.ningmengshui.xyz
+  udp: true
+- name: 2.05|香港youtube阿伟科技 2
+  server: pqvdfamtzw.eastasia.cloudapp.azure.com
+  port: 20633
+  type: vmess
+  uuid: 1c1b6b25-7497-4ded-9393-dd4200518c25
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.99| 日本 直连C 1x
+  server: dnsfreeriben01.gleeze.com
+  port: 39813
+  type: vmess
+  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 1.71|137175102ws
+  server: 137.175.10.2
+  port: 51987
+  type: vmess
+  uuid: 17926de0-16a7-46b1-993a-55eaa8ccd3a5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /MwrxiCgD/
+  ws-headers:
+    Host: 137.175.10.2
+- name: 1.31|1424101137ws
+  server: 142.4.101.137
+  port: 20561
+  type: vmess
+  uuid: cf3eb126-ffbf-4452-91de-7393b6028782
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /nmLuM34N/
+  ws-headers:
+    Host: 142.4.101.137
+- name: 1.11| JP489
   server: 146.56.108.108
   port: 26113
   type: vmess
@@ -29,68 +115,3 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 3.70|油管全网最强白嫖 51
-  server: dnsfreeriben01.gleeze.com
-  port: 39814
-  type: vmess
-  uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-  udp: true
-- name: 3.40|油管全网最强白嫖 74
-  server: dnsfreeriben01.gleeze.com
-  port: 80
-  type: vmess
-  uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-  udp: true
-- name: 3.15|油管全网最强白嫖 49
-  server: dnsfreeriben01.gleeze.com
-  port: 39812
-  type: vmess
-  uuid: 792f4487-cf5e-4250-aa00-c3f8b19a984a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-  udp: true
-- name: 1.09| US1858
-  server: 20.123.187.212
-  port: 27931
-  type: vmess
-  uuid: 256eae41-0b8f-4faa-bce8-6366011dc19f
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.04|德国youtube阿伟科技 2
-  server: srvf.myandroidplus1.ir
-  port: 80
-  type: vmess
-  uuid: 040edd14-f4d9-4910-0c6d-8cca9863cdff
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /apiws
-    headers:
-      Host: aweikeji-YouTube
-  udp: true
