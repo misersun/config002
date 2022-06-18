@@ -1,31 +1,85 @@
 proxies:
-- name: 5.83|Az香港12
-  server: hk12.ningmengshui.xyz
-  port: 80
+- name: 5.19|香港youtube阿伟科技 8
+  server: hk1.beikui109.cf
+  port: 34901
   type: vmess
-  uuid: 8f4832f7-a51b-4049-9060-0422c3223e76
+  uuid: 9276f45a-aa25-4fd3-d75b-c19e249348f3
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 5.11| 香港 直连B 1x
+  server: dnsfreexianggang01.gleeze.com
+  port: 20942
+  type: vmess
+  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 4.88|香港youtube阿伟科技 13
+  server: dnsfreexianggang01.gleeze.com
+  port: 20941
+  type: vmess
+  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /
+  ws-path: /images
   ws-headers:
-    Host: hk12.ningmengshui.xyz
+    Host: aweikeji-YouTube
   udp: true
-- name: 4.16| TW02V2直连
-  server: tw02.henet.cyou
-  port: 20000
+- name: 3.58|Alien
+  server: 133.167.106.55
+  port: 33115
   type: vmess
-  uuid: 9be75dda-8238-46b5-ba87-12e749d693dc
+  uuid: 3a610ada-a699-4d6e-8140-7629febc6e51
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  network: tcp
+  port: 16833
+  server: 144.24.88.101
+  skip-cert-verify: true
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  ws-path: /
+  name: 2.91|d65218702405
+- name: 2.26| 日本 直连C 1x
+  server: dnsfreeriben01.gleeze.com
+  port: 39813
+  type: vmess
+  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /live
+  ws-path: /images
   ws-headers:
-    Host: cctv.com
-- name: 2.07|油管全网最强白嫖 5
+    Host: v.qq.com
+- name: 2.06|香港youtube阿伟科技 6
+  server: 182.160.12.239
+  port: 45524
+  type: vmess
+  uuid: a265dcb2-04a3-48c0-a703-fad0e008d474
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.92|油管全网最强白嫖 5
   server: 152.69.206.209
   port: 1212
   type: vmess
@@ -39,27 +93,33 @@ proxies:
   ws-headers:
     Host: aweikeji-YouTube
   udp: true
-- name: 1.77| 香港 直连B 1x
-  server: dnsfreexianggang01.gleeze.com
-  port: 20942
+- name: 1.49|韩国youtube阿伟科技 3
+  server: 152.70.234.70
+  port: 26701
   type: vmess
-  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
+  uuid: 05f824f3-4724-4344-b26b-9edd602874bb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 1.42| US309
+  server: 150.230.99.46
+  port: 22222
+  type: vmess
+  uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.11| SSRSUB美国V10付费推荐dljtfssrsub
+  server: v05.ssrsub.com
+  port: 153
+  type: vmess
+  uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /images
+  ws-path: /api/v3/download.getFile
   ws-headers:
-    Host: v.qq.com
-- name: 1.55| 日本 直连C 1x
-  server: dnsfreeriben01.gleeze.com
-  port: 39813
-  type: vmess
-  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
+    Host: d76bb35696.laowanxiang.com
