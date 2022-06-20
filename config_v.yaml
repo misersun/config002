@@ -1,5 +1,5 @@
 proxies:
-- name: 4.23|Alien
+- name: 3.17|Alien
   server: 133.167.106.55
   port: 33115
   type: vmess
@@ -9,48 +9,118 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 3.78|香港youtube阿伟科技 5
-  server: bai-piao-wang-zhe.hk.884899.cf
-  port: 20941
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  network: tcp
+  port: 32169
+  server: 5.183.32.187
+  skip-cert-verify: true
   type: vmess
-  uuid: fa3f6466-a3be-4e83-9f0e-f35680b2c79d
+  uuid: 46a2f46a-c56f-487b-b2c9-b4204bf8021e
+  ws-path: /
+  name: 2.09|3f647403932
+- name: 2.00|日本youtube阿伟科技 5
+  server: 158.101.74.69
+  port: 80
+  type: vmess
+  uuid: ed87b71c-b01e-40e5-b1c5-064d152effd2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 158.101.74.69
+  udp: true
+- name: 1.69|Unlimited Việt Nam 21
+  server: vietnam.hn21.shopvpn.net
+  port: 80
+  type: vmess
+  uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /shopvpn.net
+  ws-headers:
+    Host: quangtien.akamaized.net
+- name: 1.67|美国youtube阿伟科技 8
+  server: v125.v2dns.bar
+  port: 80
+  type: vmess
+  uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /images
+    path: /v1252N93nZez6Py
     headers:
-      Host: aweikeji-YouTube
+      Host: v125.v2dns.bar
   udp: true
-- name: 3.67|香港youtube阿伟科技 13
-  server: dnsfreexianggang01.gleeze.com
-  port: 20941
+- name: 1.61| v2rayfreeeuorg  美国CloudFlare公司CDN节点 13
+  server: v47.v2dns.bar
+  port: 2052
   type: vmess
-  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
+  uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v47-unlimitndxd
+  ws-headers:
+    Host: v47.v2dns.bar
+- name: 1.59|137175102tcp
+  server: 137.175.10.2
+  port: 28960
+  type: vmess
+  uuid: 29ad6383-d9ee-4009-82c7-8f14e0e0a451
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.46|油管全网最强白嫖 6
+  server: 104.149.154.154
+  port: 25966
+  type: vmess
+  uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
-  ws-path: /images
+  ws-path: /VTd4o3Kj/
   ws-headers:
     Host: aweikeji-YouTube
   udp: true
-- name: 1.94| 日本 直连C 1x
-  server: dnsfreeriben01.gleeze.com
-  port: 39813
+- name: 1.46| RelayUSUS1769
+  server: sg.guiqing.ml
+  port: 43956
   type: vmess
-  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
+  uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.42| SSRSUB美国V09付费推荐dljtfssrsub
+  server: v04.ssrsub.com
+  port: 153
+  type: vmess
+  uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /images
+  ws-path: /api/v3/download.getFile
   ws-headers:
-    Host: v.qq.com
-- name: 1.46|油管全网最强白嫖 24
+    Host: d76bb35696.laowanxiang.com
+- name: 1.40|油管全网最强白嫖 24
   server: 185.225.69.134
   port: 45081
   type: vmess
@@ -60,15 +130,17 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 1.45| 香港 直连B 1x
-  server: dnsfreexianggang01.gleeze.com
-  port: 20942
+- name: 1.40|油管全网最强白嫖 5
+  server: 152.69.206.209
+  port: 1212
   type: vmess
-  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
+  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /images
+  ws-path: /
   ws-headers:
-    Host: v.qq.com
+    Host: aweikeji-YouTube
+  udp: true

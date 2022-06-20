@@ -1,25 +1,115 @@
 proxies:
-- name: 5.99| 香港A限速
-  server: hkbgp1.jiantian.xyz
-  port: 14326
-  type: trojan
-  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
-  sni: hkbgp1.jiantian.xyz
-  skip-cert-verify: true
-- name: 2.68| 香港B限速
+- name: 6.64| 香港B限速
   server: hkbgp2.jiantian.xyz
   port: 34532
   type: trojan
   password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
   sni: hkbgp2.jiantian.xyz
   skip-cert-verify: true
-- name: 2.07| 美国1
-  server: 67us01.fans8.xyz
+- name: 5.95| 香港A限速
+  server: hkbgp1.jiantian.xyz
+  port: 14326
+  type: trojan
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
+  sni: hkbgp1.jiantian.xyz
+  skip-cert-verify: true
+- name: 5.57| CN80
+  server: 527hk2.fans8.xyz
+  port: 80
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 527hk2.fans8.xyz
+- name: 4.00|香港21AZ中转
+  server: azhk3.170809.xyz
+  port: 63393
+  type: trojan
+  password: 271cb32a-6321-4a6e-894a-bb9db2ac9f21
+  sni: azhk3.170809.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 3.57| US325
+  server: bai-piao-wang-zhe.hk2.jackson2025.cf
+  port: 80
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 527hk1.fans8.xyz
+- password: f64e69c0-e7b7-11ec-ab81-1239d0255272
+  port: 443
+  server: w11.udpgw.com
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 3.40|3f647403684
+- name: 3.09| v2rayfreeeuorg  新加坡Linode数据中心 41
+  server: w12.udpgw.com
   port: 443
   type: trojan
-  password: 6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93
-  sni: 67us01.fans8.xyz
-- name: 1.82|油管全网最强白嫖 105
+  password: 08964210-e7b8-11ec-95aa-1239d0255272
+  sni: w12.udpgw.com
+- name: 3.05|新加坡02DO香港AZ中转
+  server: azhk3.170809.xyz
+  port: 53212
+  type: trojan
+  password: 271cb32a-6321-4a6e-894a-bb9db2ac9f21
+  sni: azhk3.170809.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 2.93|githubcomfreefq  希腊  24
+  server: gnailiad.tk
+  port: 1443
+  type: vmess
+  uuid: 84c7039b-1d1e-4b78-aefd-1268e9c17f3d
+  alterId: 0
+  cipher: auto
+  tls: true
+- name: 2.77|新加坡03OC奈飞香港AZ中转
+  server: azhk3.170809.xyz
+  port: 31138
+  type: trojan
+  password: 271cb32a-6321-4a6e-894a-bb9db2ac9f21
+  sni: azhk3.170809.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 2.56|油管全网最强白嫖 8
+  server: 330tw.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  alterId: 2
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 330tw.fans8.xyz
+  udp: true
+- name: 2.33|甲骨文海得拉巴AMD2trojan
+  server: jgwhdlb2.gaox.ml
+  port: 443
+  type: trojan
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  sni: jgwhdlb2.gaox.ml
+- name: 2.29|美国youtube阿伟科技 14
+  server: jgwhdlb1.gaox.ml
+  port: 443
+  type: trojan
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  skip-cert-verify: true
+  udp: true
+- name: 2.13|油管全网最强白嫖 105
   server: s1.hazz.win
   port: 12340
   type: trojan
@@ -27,36 +117,13 @@ proxies:
   sni: s1.hazz.win
   skip-cert-verify: true
   udp: true
-- password: f0de3134-aef4-45b5-a135-3a82321bbac6
-  port: 50858
-  server: bai-piao-wang-zhe10.98848.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.75|32614c841307
-- type: trojan
-  name: 1.75|NLwmt617p35
-  server: nl1.nodegz.top
+- name: 1.92| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
   port: 443
-  password: 440055a3-7c84-3cb3-9b7a-a974a66e9b98
-  udp: true
-  skip-cert-verify: true
-- name: 1.55|油管全网最强白嫖 139
-  server: x.alinkrelay.com
-  port: 13000
   type: trojan
-  password: 9ed22ee0-1876-439c-826d-24e3d4c936ac
-  sni: x.alinkrelay.com
-  skip-cert-verify: true
-  udp: true
-- name: 1.52|全球直连③
-  server: s3.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: edge.apple.com
-  skip-cert-verify: true
-- name: 1.52|美国youtube阿伟科技
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 1.70|美国youtube阿伟科技
   server: us02.gogogoo.cyou
   port: 443
   type: vmess
@@ -71,7 +138,61 @@ proxies:
     headers:
       Host: us02.gogogoo.cyou
   udp: true
-- name: 1.29| v2rayfreeeuorg  美国得克萨斯州达拉斯Linode数据中心 40
+- name: 1.66| githubcomfreefq  美国  16
+  server: gnailiad.gq
+  port: 11823
+  type: trojan
+  password: eVH5bAf8mx
+  sni: gnailiad.gq
+- password: f0de3134-aef4-45b5-a135-3a82321bbac6
+  port: 50858
+  server: bai-piao-wang-zhe10.98848.xyz
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.59|32614c841307
+- name: 1.56| v2rayfreeeuorg  美国惠普公司 35
+  server: tj-sg02.yiyodns.xyz
+  port: 443
+  type: trojan
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  sni: tj-sg02.yiyodns.xyz
+- password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  port: 443
+  server: fhcamd2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.55|3f647403945
+- name: 1.51| 甲骨文悉尼ARM2trojan
+  server: jgwxn4.gaox.ml
+  port: 443
+  type: trojan
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  sni: jgwxn4.gaox.ml
+- name: 1.48| githubcomfreefq  美国  15
+  server: gnailiad.gq
+  port: 59484
+  type: vmess
+  uuid: f377c443-b6a5-40ef-c52c-a0ba721805ff
+  alterId: 0
+  cipher: auto
+  tls: true
+- password: 71b55a84-3fac-4458-abff-eaad79219c91
+  port: 443
+  server: jgwld3.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.40|3f6474031265
+- password: 58d32c66-43b1-4561-9951-d87c9123774e
+  port: 443
+  server: jgwld4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.39|3f647403309
+- name: 1.38| v2rayfreeeuorg  美国得克萨斯州达拉斯Linode数据中心 40
   server: vus4.0bad.com
   port: 443
   type: vmess
@@ -83,9 +204,89 @@ proxies:
   ws-path: /chat
   ws-headers:
     Host: vus4.0bad.com
-- name: 1.01| 台湾1
-  server: 67tw01.fans8.xyz
+- name: 1.33|全球直连③
+  server: s3.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: edge.apple.com
+  skip-cert-verify: true
+- name: 1.33| 甲骨文大阪AMD1trojan
+  server: jgwdb1.gaox.ml
   port: 443
   type: trojan
-  password: 6ba87c27-a1f0-4702-9c4e-3cba6fbd7e93
-  sni: 67tw01.fans8.xyz
+  password: a580d839-ee41-4df1-bf03-6789dca32e30
+  sni: jgwdb1.gaox.ml
+- name: 1.33| githubcomfreefq  美国  21
+  server: ga.gnailiad.ga
+  port: 2443
+  type: vmess
+  uuid: 5b6fd9e2-0bf7-4eee-92d6-21b7bdae7062
+  alterId: 0
+  cipher: auto
+  tls: true
+- name: 1.30| v2rayfreeeuorg  美国弗吉尼亚州阿什本Oracle云计算数据中心 45
+  server: usfree1.jiantian.xyz
+  port: 23425
+  type: trojan
+  password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c
+  sni: usfree1.jiantian.xyz
+- name: 1.28| githubcomfreefq  美国  17
+  server: ga.gnailiad.ga
+  port: 23578
+  type: trojan
+  password: aBfOmU3irR
+  sni: ga.gnailiad.ga
+- name: 1.27| RelayRURU909
+  server: 422wkl.fans8.xyz
+  port: 443
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  alterId: 2
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: 422wkl.fans8.xyz
+- password: 415a81c2-8a5c-37d1-8558-200be3c9cca9
+  port: 443
+  server: us1.nodegz.top
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.21|3f647403658
+- name: 1.14| RelayUSUS1771
+  server: lu1.gogogoo.cyou
+  port: 443
+  type: vmess
+  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /go
+  ws-headers:
+    Host: lu1.gogogoo.cyou
+- name: 1.09| githubcomfreefq  美国  19
+  server: gnailiad.gq
+  port: 2443
+  type: vmess
+  uuid: 0c500810-8ae6-44c4-86e4-f8230cb75e8c
+  alterId: 0
+  cipher: auto
+  tls: true
+- password: e23f408a-012e-4030-8b31-02022031cb50
+  port: 443
+  server: fhcamd1.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.07|3f6474032406
+- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s2.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.03|3f647403687
