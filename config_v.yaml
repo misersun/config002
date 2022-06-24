@@ -1,74 +1,21 @@
 proxies:
-- name: 5.27| 香港 直连C 1x
-  server: dnsfree01.theworkpc.com
-  port: 20943
-  type: vmess
-  uuid: 3e0a6f9a-a478-4752-900d-837b39d70792
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 5.01| 香港 免流 01x
-  server: dnsfree01.theworkpc.com
+- name: 5.14|香港youtube阿伟科技
+  server: hk9.ningmengshui.xyz
   port: 80
   type: vmess
-  uuid: 3e0a6f9a-a478-4752-900d-837b39d70792
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 4.54| TW935
-  server: 61.222.202.140
-  port: 33792
-  type: vmess
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 61.222.202.140
-- name: 4.23|Alien
-  server: 133.167.106.55
-  port: 33115
-  type: vmess
-  uuid: 3a610ada-a699-4d6e-8140-7629febc6e51
+  uuid: 8f4832f7-a51b-4049-9060-0422c3223e76
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: aweikeji-YouTube
   udp: true
-- name: 3.32| v2rayfreeeuorg  香港华为云 49
-  server: 182.160.12.239
-  port: 45524
-  type: vmess
-  uuid: a265dcb2-04a3-48c0-a703-fad0e008d474
-  alterId: 0
-  cipher: auto
-  tls: false
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  network: ws
-  port: 80
-  server: hk14.ningmengshui.xyz
-  skip-cert-verify: true
-  type: vmess
-  uuid: b17f9999-1608-4911-86f2-d0cf20bf1356
-  ws-headers:
-    HOST: ali2.a.yximgs.com
-  ws-path: /
-  name: 3.07|e7a513e91836
-- name: 2.21|Az香港12
-  server: hk12.ningmengshui.xyz
+- name: 4.68|日本youtube阿伟科技 7
+  server: 138.2.59.97
   port: 80
   type: vmess
   uuid: 0c220535-7e29-42c8-b247-c08aaf8ebc73
@@ -76,24 +23,16 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: hk12.ningmengshui.xyz
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - aweikeji-YouTube
   udp: true
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  network: tcp
-  port: 23292
-  server: 150.230.41.9
-  skip-cert-verify: true
-  type: vmess
-  uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
-  ws-path: /tDZcCqc
-  name: 2.13|e7a513e92188
-- name: 1.98|日本youtube阿伟科技 5
+- name: 4.27|日本youtube阿伟科技 5
   server: 158.101.74.69
   port: 80
   type: vmess
@@ -111,37 +50,87 @@ proxies:
       Host:
       - 158.101.74.69
   udp: true
-- name: 1.91|Unlimited Việt Nam 21
-  server: vietnam.hn21.shopvpn.net
+- name: 3.51|GB366
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.99| 香港G口喜羊羊
+  server: 20.247.105.52
   port: 80
   type: vmess
-  uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a
+  uuid: fa0f98d8-1caf-4ebe-9ec4-5980c294e98f
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /shopvpn.net
+  ws-path: /
   ws-headers:
-    Host: quangtien.akamaized.net
-- name: 1.79|油管全网最强白嫖 24
-  server: 185.225.69.134
-  port: 45081
+    Host: 20.247.105.52
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  network: ws
+  port: 80
+  server: hk14.ningmengshui.xyz
+  skip-cert-verify: true
   type: vmess
-  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+  uuid: b17f9999-1608-4911-86f2-d0cf20bf1356
+  ws-headers:
+    HOST: ali2.a.yximgs.com
+  ws-path: /
+  name: 2.82|e7a513e91836
+- name: 2.79| 香港G口无限通讯
+  server: 20.247.105.202
+  port: 80
+  type: vmess
+  uuid: fa0f98d8-1caf-4ebe-9ec4-5980c294e98f
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 20.247.105.202
+- name: 2.66|Alien
+  server: 133.167.106.55
+  port: 33115
+  type: vmess
+  uuid: 3a610ada-a699-4d6e-8140-7629febc6e51
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 1.78|137175102tcp
-  server: 137.175.10.2
-  port: 28960
+- name: 2.21| 香港 直连A 1x
+  server: dnsfree01.theworkpc.com
+  port: 20941
   type: vmess
-  uuid: 29ad6383-d9ee-4009-82c7-8f14e0e0a451
+  uuid: 26467dec-9f2b-4114-9c42-c8cc97493690
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.77|美国youtube阿伟科技 10
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  network: tcp
+  port: 23292
+  server: 150.230.41.9
+  skip-cert-verify: true
+  type: vmess
+  uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
+  ws-path: /tDZcCqc
+  name: 2.14|e7a513e92188
+- name: 2.07|美国youtube阿伟科技 10
   server: v125.v2dns.bar
   port: 80
   type: vmess
@@ -156,20 +145,23 @@ proxies:
     headers:
       Host: v125.v2dns.bar
   udp: true
-- name: 1.67| v2rayfreeeuorg  美国CloudFlare公司CDN节点 13
-  server: v47.v2dns.bar
+- name: 1.45|美国youtube阿伟科技 17
+  server: g1.v2.gay
   port: 2052
   type: vmess
   uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
   network: ws
-  ws-path: /v47-unlimitndxd
-  ws-headers:
-    Host: v47.v2dns.bar
-- name: 1.33| SSRSUB美国V09付费推荐dljtfssrsub
-  server: v04.ssrsub.com
+  ws-opts:
+    path: /v47-unlimitndxd
+    headers:
+      Host: v47.v2dns.bar
+  udp: true
+- name: 1.30| SSRSUB美国V10付费推荐dljtfssrsub
+  server: v05.ssrsub.com
   port: 153
   type: vmess
   uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6
@@ -180,15 +172,13 @@ proxies:
   ws-path: /api/v3/download.getFile
   ws-headers:
     Host: d76bb35696.laowanxiang.com
-- name: 1.28| SSRSUB俄罗斯V08付费推荐dljtfssrsub
-  server: v3.ssrsub.com
-  port: 153
+- name: 1.04|日本youtube阿伟科技 4
+  server: 152.69.202.245
+  port: 27614
   type: vmess
-  uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6
+  uuid: a7fe18a9-8b49-43fb-ddde-b4934bf11862
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: d76bb35696.laowanxiang.com
+  skip-cert-verify: true
+  udp: true
