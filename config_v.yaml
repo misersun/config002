@@ -1,5 +1,5 @@
 proxies:
-- name: 4.39|日本youtube阿伟科技 5
+- name: 4.30|日本youtube阿伟科技 5
   server: 158.101.74.69
   port: 80
   type: vmess
@@ -17,36 +17,16 @@ proxies:
       Host:
       - 158.101.74.69
   udp: true
-- type: vmess
-  name: 4.08|HKwmt625a13
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.227.118
-  server: 47.243.227.118
-  port: '46108'
-  uuid: 51f7927b-e4ae-44cc-acc8-605f2b662e2a
-  alterId: '0'
+- name: 3.39|GB127
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  alterId: 0
   cipher: auto
-  network: http
+  tls: false
 - type: vmess
-  name: 3.90|HKwmt625a11
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.31.8
-  server: 47.243.31.8
-  port: '51657'
-  uuid: f0eb8855-d3a4-4fc4-98b6-711681c756b8
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.69|HKwmt625a36
+  name: 3.11|HKwmt625a36
   http-opts:
     path:
     - /
@@ -59,21 +39,7 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- type: vmess
-  name: 2.49|USwmt625a14
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 45.145.6.100
-  server: 45.145.6.100
-  port: '63693'
-  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 2.44|美国youtube阿伟科技 16
+- name: 2.76|美国youtube阿伟科技 16
   server: 150.230.99.46
   port: 22222
   type: vmess
@@ -83,50 +49,36 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 2.02|油管全网最强白嫖 6
-  server: 104.149.154.154
-  port: 25966
-  type: vmess
-  uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /VTd4o3Kj/
-  ws-headers:
-    Host: aweikeji-YouTube
-  udp: true
 - type: vmess
-  name: 1.93|HKwmt625a12
+  name: 2.75|USwmt625a37
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 8.210.84.203
-  server: 8.210.84.203
-  port: '47059'
-  uuid: fd921f7d-bf89-4ec3-b928-972f54e3dd2a
+      - 154.12.43.88
+  server: 154.12.43.88
+  port: '56285'
+  uuid: 27b8f948-c4c2-457c-a741-ab8c128a629f
   alterId: '0'
   cipher: auto
   network: http
 - type: vmess
-  name: 1.86|HKwmt625a25
+  name: 2.58|USwmt625a16
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 119.28.133.119
-  server: 119.28.133.119
-  port: '32160'
-  uuid: 16b56cf6-a261-4c08-93e6-30b2b70904e2
+      - 154.12.43.65
+  server: 154.12.43.65
+  port: '54380'
+  uuid: 02647a96-bd5a-444a-b8d1-667bda0a7eb6
   alterId: '0'
   cipher: auto
   network: http
 - type: vmess
-  name: 1.44|HKwmt625a60
+  name: 2.54|HKwmt625a60
   http-opts:
     path:
     - /
@@ -140,16 +92,112 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 1.16|USwmt625a37
+  name: 2.25|USwmt625a15
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 154.12.43.88
-  server: 154.12.43.88
-  port: '56285'
-  uuid: 27b8f948-c4c2-457c-a741-ab8c128a629f
+      - 45.145.6.71
+  server: 45.145.6.71
+  port: '44056'
+  uuid: b563031e-11c3-4874-b0bd-15d76a7a1757
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.13|HKwmt625a11
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.31.8
+  server: 47.243.31.8
+  port: '51657'
+  uuid: f0eb8855-d3a4-4fc4-98b6-711681c756b8
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 1.82|油管全网最强白嫖 6
+  server: 104.149.154.154
+  port: 25966
+  type: vmess
+  uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /VTd4o3Kj/
+  ws-headers:
+    Host: aweikeji-YouTube
+  udp: true
+- name: 1.68|油管全网最强白嫖 5
+  server: 152.69.206.209
+  port: 1212
+  type: vmess
+  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: aweikeji-YouTube
+  udp: true
+- name: 1.30| SSRSUB美国V10付费推荐dljtfssrsub
+  server: v05.ssrsub.com
+  port: 153
+  type: vmess
+  uuid: 8fefb1b5-bee7-4736-8e00-cad32ab113d1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: d76bb35696.laowanxiang.com
+- type: vmess
+  name: 1.29|USwmt625a38
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 23.133.1.31
+  server: 23.133.1.31
+  port: '46361'
+  uuid: ca34c423-0411-497b-94cc-78aea73ae96f
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 1.10|HKwmt625a13
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.227.118
+  server: 47.243.227.118
+  port: '46108'
+  uuid: 51f7927b-e4ae-44cc-acc8-605f2b662e2a
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 1.04|HKwmt625a12
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.210.84.203
+  server: 8.210.84.203
+  port: '47059'
+  uuid: fd921f7d-bf89-4ec3-b928-972f54e3dd2a
   alterId: '0'
   cipher: auto
   network: http
