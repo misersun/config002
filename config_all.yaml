@@ -1,35 +1,27 @@
 proxies:
-- name: 6.71|17
-  server: AZHJ001.xiba1.xyz
-  port: 20724
-  type: trojan
-  password: f6f51e72-46a6-385b-9947-db5e448ea9b8
-  sni: ssl.ssl12.xyz
-- name: 6.54|13
-  server: AZHJ001.xiba1.xyz
+- name: 6.58|香港
+  server: azhj001.xiba1.xyz
   port: 20719
   type: trojan
-  password: f6f51e72-46a6-385b-9947-db5e448ea9b8
-  sni: ssl.ssl12.xyz
-- name: 6.33|2
+  password: 46ceba76-28b9-37df-8b08-b288e75aa646
+  sni: azhj001.xiba1.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 6.33|jkjgjkm
   server: AZHJ001.xiba1.xyz
-  port: 20726
+  port: 20718
   type: trojan
-  password: 97808a17-2e97-3840-8a36-b7bc5203200c
+  password: c2d62c65-5d48-3d17-8982-b4e85377c8c1
   sni: ssl.ssl12.xyz
-- name: 6.21|6
-  server: AZHJ001.xiba1.xyz
-  port: 20725
+- name: 6.19|beikui 2
+  server: azhj001.xiba1.xyz
+  port: 20722
   type: trojan
-  password: f6f51e72-46a6-385b-9947-db5e448ea9b8
-  sni: ssl.ssl12.xyz
-- name: 4.59| v2rayfreeeuorg  加拿大  5
-  server: 625tw.ok365.cyou
-  port: 443
-  type: trojan
-  password: 2523fe1a-1295-4525-be2c-d78ff1465d2a
-  sni: 625tw.ok365.cyou
-- name: 4.30|日本youtube阿伟科技 5
+  password: 00301563-a02b-30b9-a17a-8ba7db573dea
+  sni: azhj001.xiba1.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 6.02|日本youtube阿伟科技 5
   server: 158.101.74.69
   port: 80
   type: vmess
@@ -47,22 +39,218 @@ proxies:
       Host:
       - 158.101.74.69
   udp: true
-- password: 8d2d5953-d649-4034-94f2-72f2df2623da
+- name: 6.00|csebnn
+  server: AZHJ001.xiba1.xyz
+  port: 20727
+  type: trojan
+  password: 00301563-a02b-30b9-a17a-8ba7db573dea
+  sni: ssl.ssl12.xyz
+- name: 5.82|ghjhjm
+  server: AZHJ001.xiba1.xyz
+  port: 20720
+  type: trojan
+  password: c2d62c65-5d48-3d17-8982-b4e85377c8c1
+  sni: ssl.ssl12.xyz
+- password: c09eb137-bf68-4658-84e0-102d94b74168
   port: 443
-  server: jgwdb3.gaox.ml
+  server: jgwdj4.gaox.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 3.71|ca407207389
-- name: 3.39|GB127
-  server: 144.24.88.101
-  port: 16833
+  name: 5.05|535e82031781
+- name: 4.90| githubcomfreefq  美国  15
+  server: 158.101.74.69
+  port: 31939
   type: vmess
-  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  uuid: f130c826-40d9-44fb-be3d-75ebcb750d12
   alterId: 0
   cipher: auto
   tls: false
-- name: 3.31|jp3sgazgavmessgrpc
+- name: 4.33| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 4.09|台湾Hinet  解锁流媒体 2
+  server: hinet.52147.top
+  port: 28000
+  type: trojan
+  password: 7f77298a-cc14-45dd-a145-28f522443379
+  sni: hinet.52147.top
+  skip-cert-verify: true
+  udp: true
+- name: 3.69|越南1号 2
+  server: 103.173.255.21
+  port: 28000
+  type: trojan
+  password: 7f77298a-cc14-45dd-a145-28f522443379
+  skip-cert-verify: true
+  udp: true
+- name: 3.64|油管全网最强白嫖 5
+  server: 152.69.206.209
+  port: 1212
+  type: vmess
+  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: aweikeji-YouTube
+  udp: true
+- name: 3.57|新加坡youtube阿伟科技 6
+  server: 104.17.217.77
+  port: 443
+  type: vmess
+  uuid: de461076-bc21-4b96-dfd4-8382fea86eb7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xx
+    headers:
+      Host: nickchan.xyz
+  udp: true
+- name: 3.53|越南3号 2
+  server: 103.173.255.228
+  port: 28000
+  type: trojan
+  password: 7f77298a-cc14-45dd-a145-28f522443379
+  skip-cert-verify: true
+  udp: true
+- name: 3.49|越南4号
+  server: 103.173.255.234
+  port: 28443
+  type: trojan
+  password: fd8bdab1-ca58-460c-94f5-8260a730e006
+  skip-cert-verify: true
+  udp: true
+- name: 3.36|越南3号
+  server: 103.173.255.228
+  port: 28443
+  type: trojan
+  password: fd8bdab1-ca58-460c-94f5-8260a730e006
+  skip-cert-verify: true
+  udp: true
+- type: vmess
+  name: 3.27|HKwmt625a11
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.31.8
+  server: 47.243.31.8
+  port: '51657'
+  uuid: f0eb8855-d3a4-4fc4-98b6-711681c756b8
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: trojan
+  name: 3.14|AUwmt627a70
+  server: kr04.wangxd.life
+  port: 3052
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  udp: true
+  skip-cert-verify: true
+- type: vmess
+  name: 3.05|USwmt625a37
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 154.12.43.88
+  server: 154.12.43.88
+  port: '56285'
+  uuid: 27b8f948-c4c2-457c-a741-ab8c128a629f
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 2.92|beikui 3
+  server: azhj001.xiba1.xyz
+  port: 20726
+  type: trojan
+  password: 00301563-a02b-30b9-a17a-8ba7db573dea
+  sni: azhj001.xiba1.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 2.91|bhfstfgyhh
+  server: AZHJ001.xiba1.xyz
+  port: 20722
+  type: trojan
+  password: 2a9b7d4b-f44e-3998-ac23-52e548a9d258
+  sni: ssl.ssl12.xyz
+- name: 2.91| 甲骨文首尔AMD2trojan
+  server: jgw2.gaox.ml
+  port: 443
+  type: trojan
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  sni: jgw2.gaox.ml
+- name: 2.90|越南2号 2
+  server: 103.173.255.127
+  port: 28000
+  type: trojan
+  password: 7f77298a-cc14-45dd-a145-28f522443379
+  skip-cert-verify: true
+  udp: true
+- name: 2.89|美国youtube阿伟科技 16
+  server: 150.230.99.46
+  port: 22222
+  type: vmess
+  uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- type: vmess
+  name: 2.84|USwmt627a1
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 45.145.6.100
+  server: 45.145.6.100
+  port: '63693'
+  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 2.81|vbjfhjn
+  server: AZHJ001.xiba1.xyz
+  port: 20721
+  type: trojan
+  password: c2d62c65-5d48-3d17-8982-b4e85377c8c1
+  sni: ssl.ssl12.xyz
+- type: vmess
+  name: 2.76|USwmt625a16
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 154.12.43.65
+  server: 154.12.43.65
+  port: '54380'
+  uuid: 02647a96-bd5a-444a-b8d1-667bda0a7eb6
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 2.69|这是教程赠送免费节点
+  server: s1.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: edge.apple.com
+  skip-cert-verify: true
+- name: 2.64|jp3sgazgavmessgrpc
   server: 20.222.51.248
   port: 443
   type: vmess
@@ -77,99 +265,7 @@ proxies:
     grpc-service-name: fe39d984
   udp: true
 - type: vmess
-  name: 3.11|HKwmt625a36
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 119.28.139.142
-  server: 119.28.139.142
-  port: '64750'
-  uuid: 2b270dec-3611-4c41-9ea9-51a5a63df858
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 2.89|这是教程赠送免费节点
-  server: s1.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: edge.apple.com
-  skip-cert-verify: true
-- password: 794871c6-022b-4498-b816-296e8a581d86
-  port: 4443
-  server: sgg.2046.gq
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 2.78|ca4072071898
-- name: 2.76|美国youtube阿伟科技 16
-  server: 150.230.99.46
-  port: 22222
-  type: vmess
-  uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- type: vmess
-  name: 2.75|USwmt625a37
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 154.12.43.88
-  server: 154.12.43.88
-  port: '56285'
-  uuid: 27b8f948-c4c2-457c-a741-ab8c128a629f
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.58|USwmt625a16
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 154.12.43.65
-  server: 154.12.43.65
-  port: '54380'
-  uuid: 02647a96-bd5a-444a-b8d1-667bda0a7eb6
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 2.56| githubcomfreefq  美国惠普公司 20
-  server: tj-sg02.yiyodns.xyz
-  port: 443
-  type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  sni: tj-sg02.yiyodns.xyz
-- type: vmess
-  name: 2.54|HKwmt625a60
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 156.241.138.11
-  server: 156.241.138.11
-  port: '61800'
-  uuid: f59529de-5de4-4c75-826e-5f7562cb6d43
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 2.34| githubcomfreefq  美国3COM公司企业网 1
-  server: ss.2046.gq
-  port: 4443
-  type: trojan
-  password: 794871c6-022b-4498-b816-296e8a581d86
-  sni: ss.2046.gq
-- type: vmess
-  name: 2.25|USwmt625a15
+  name: 2.48|USwmt625a15
   http-opts:
     path:
     - /
@@ -183,114 +279,21 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 2.13|HKwmt625a11
+  name: 2.44|HKwmt625a60
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 47.243.31.8
-  server: 47.243.31.8
-  port: '51657'
-  uuid: f0eb8855-d3a4-4fc4-98b6-711681c756b8
+      - 156.241.138.11
+  server: 156.241.138.11
+  port: '61800'
+  uuid: f59529de-5de4-4c75-826e-5f7562cb6d43
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.82|油管全网最强白嫖 6
-  server: 104.149.154.154
-  port: 25966
-  type: vmess
-  uuid: ca06e0f0-ca6e-418f-800d-97b23ba51bca
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /VTd4o3Kj/
-  ws-headers:
-    Host: aweikeji-YouTube
-  udp: true
-- name: 1.76| v2rayfreeeuorg  美国弗吉尼亚州阿什本Oracle云计算数据中心 14
-  server: usfree1.jiantian.xyz
-  port: 23425
-  type: trojan
-  password: eecb88a3-d8c1-4fc3-bea0-8a4f13aa42be
-  sni: usfree1.jiantian.xyz
-- name: 1.68|油管全网最强白嫖 5
-  server: 152.69.206.209
-  port: 1212
-  type: vmess
-  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: aweikeji-YouTube
-  udp: true
-- type: trojan
-  name: 1.59|INwmt625a124
-  server: jgwhdlb2.gaox.ml
-  port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 1.58|USwmt623a23
-  server: ss2.2046.gq
-  port: 4443
-  password: 794871c6-022b-4498-b816-296e8a581d86
-  udp: true
-  skip-cert-verify: true
-- name: 1.38| 甲骨文伦敦ARM1trojan
-  server: jgwld3.gaox.ml
-  port: 443
-  type: trojan
-  password: 71b55a84-3fac-4458-abff-eaad79219c91
-  sni: jgwld3.gaox.ml
-- name: 1.30| SSRSUB美国V10付费推荐dljtfssrsub
-  server: v05.ssrsub.com
-  port: 153
-  type: vmess
-  uuid: 8fefb1b5-bee7-4736-8e00-cad32ab113d1
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: d76bb35696.laowanxiang.com
 - type: vmess
-  name: 1.29|USwmt625a38
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 23.133.1.31
-  server: 23.133.1.31
-  port: '46361'
-  uuid: ca34c423-0411-497b-94cc-78aea73ae96f
-  alterId: '0'
-  cipher: auto
-  network: http
-- password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157
-  port: 443
-  server: jgwld2.gaox.ml
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.26|ca407207341
-- name: 1.18| 甲骨文凤凰城AMD2trojan
-  server: fhcamd2.gaox.ml
-  port: 443
-  type: trojan
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  sni: fhcamd2.gaox.ml
-- type: vmess
-  name: 1.10|HKwmt625a13
+  name: 2.29|HKwmt625a13
   http-opts:
     path:
     - /
@@ -303,16 +306,8 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.07|油管全网最强白嫖 127
-  server: tj-us02.yiyodns.xyz
-  port: 443
-  type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  sni: tj-us02.yiyodns.xyz
-  skip-cert-verify: true
-  udp: true
 - type: vmess
-  name: 1.04|HKwmt625a12
+  name: 2.22|HKwmt625a12
   http-opts:
     path:
     - /
@@ -325,3 +320,206 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
+- name: 2.21| JP576 1940Mb
+  server: 146.56.96.252
+  type: ssr
+  country: ' JP'
+  port: 2333
+  password: doub.io
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  obfs: tls1.2_ticket_auth
+- type: trojan
+  name: 2.18|INwmt625a124
+  server: jgwhdlb2.gaox.ml
+  port: 443
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  udp: true
+  skip-cert-verify: true
+- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s4.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.94|535e8203243
+- name: 1.85|美国youtube阿伟科技 6
+  server: v125.v2dns.bar
+  port: 80
+  type: vmess
+  uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /v1252N93nZez6Py
+    headers:
+      Host: v125.v2dns.bar
+  udp: true
+- type: vmess
+  name: 1.67|USwmt625a38
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 23.133.1.31
+  server: 23.133.1.31
+  port: '46361'
+  uuid: ca34c423-0411-497b-94cc-78aea73ae96f
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 1.67| 甲骨文悉尼ARM2trojan
+  server: jgwxn4.gaox.ml
+  port: 443
+  type: trojan
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  sni: jgwxn4.gaox.ml
+- name: 1.62|CA434
+  server: 104.255.65.112
+  port: 30718
+  type: vmess
+  uuid: f0f63386-d747-4d44-8d16-6e2d254f0ed3
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.54|日本youtube阿伟科技 5
+  server: 203.138.98.199
+  port: 28443
+  type: trojan
+  password: fd8bdab1-ca58-460c-94f5-8260a730e006
+  sni: huayun.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 1.46| 甲骨文凤凰城AMD2trojan
+  server: fhcamd2.gaox.ml
+  port: 443
+  type: trojan
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  sni: fhcamd2.gaox.ml
+- cipher: aes-256-cfb
+  obfs: plain
+  password: 9XwYyZsK8SNzQDtY
+  port: 9059
+  protocol: origin
+  server: 213.183.59.206
+  type: ssr
+  name: 1.43|535e8203819
+- name: 1.41| 甲骨文凤凰城AMD1trojan
+  server: fhcamd1.gaox.ml
+  port: 443
+  type: trojan
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  sni: fhcamd1.gaox.ml
+- name: 1.41| v2rayfreeeuorg  美国弗吉尼亚州阿什本Oracle云计算数据中心 14
+  server: usfree1.jiantian.xyz
+  port: 23425
+  type: trojan
+  password: eecb88a3-d8c1-4fc3-bea0-8a4f13aa42be
+  sni: usfree1.jiantian.xyz
+- name: 1.40|越南4号 2
+  server: 103.173.255.234
+  port: 28000
+  type: trojan
+  password: 7f77298a-cc14-45dd-a145-28f522443379
+  skip-cert-verify: true
+  udp: true
+- name: 1.37|YouTube阿伟科技 14
+  server: 46.29.161.247
+  port: 10021
+  type: vmess
+  uuid: 405c48dc-2722-4095-bbf0-2591daad873d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 46.29.161.247
+  udp: true
+- name: 1.35| DE117 TGpeekfun
+  server: 162.55.231.78
+  port: 443
+  type: ssr
+  country: ' DE'
+  password: sEscPBiAD9K$&@79
+  cipher: aes-128-ctr
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+- name: 1.21| 甲骨文大阪AMD1trojan
+  server: jgwdb1.gaox.ml
+  port: 443
+  type: trojan
+  password: a580d839-ee41-4df1-bf03-6789dca32e30
+  sni: jgwdb1.gaox.ml
+- name: 1.20| 甲骨文伦敦ARM1trojan
+  server: jgwld3.gaox.ml
+  port: 443
+  type: trojan
+  password: 71b55a84-3fac-4458-abff-eaad79219c91
+  sni: jgwld3.gaox.ml
+- name: 1.14| SSRSUB美国V09付费推荐dljtfssrsub
+  server: v04.ssrsub.com
+  port: 153
+  type: vmess
+  uuid: 8fefb1b5-bee7-4736-8e00-cad32ab113d1
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: d76bb35696.laowanxiang.com
+- name: 1.12|GB539
+  server: 88.150.137.201
+  type: ssr
+  country: GB
+  port: 1021
+  password: sEscPBiAD9K$&@79
+  cipher: aes-128-ctr
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+- name: 1.11|日本youtube阿伟科技 7
+  server: 164.70.68.67
+  port: 28000
+  type: trojan
+  password: 7f77298a-cc14-45dd-a145-28f522443379
+  sni: huayun.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 1.10|日本youtube阿伟科技 8
+  server: 164.70.68.67
+  port: 28443
+  type: trojan
+  password: fd8bdab1-ca58-460c-94f5-8260a730e006
+  sni: huayun.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 1.09|印尼youtube阿伟科技
+  server: api.qiscus.com
+  port: 443
+  type: vmess
+  uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess-ws-makae
+    headers:
+      Host: bn-id01.ipv2ray.xyz
+  udp: true
+- name: 1.01|YouTube阿伟科技 5
+  server: 141.98.168.251
+  port: 443
+  type: trojan
+  password: LiX1tV
+  sni: cdnu2.ft2.us
+  skip-cert-verify: true
+  udp: true
