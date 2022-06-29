@@ -1,5 +1,5 @@
 proxies:
-- name: 6.02|日本youtube阿伟科技 5
+- name: 5.11|日本youtube阿伟科技 5
   server: 158.101.74.69
   port: 80
   type: vmess
@@ -17,15 +17,7 @@ proxies:
       Host:
       - 158.101.74.69
   udp: true
-- name: 4.90| githubcomfreefq  美国  15
-  server: 158.101.74.69
-  port: 31939
-  type: vmess
-  uuid: f130c826-40d9-44fb-be3d-75ebcb750d12
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 3.64|油管全网最强白嫖 5
+- name: 3.57|油管全网最强白嫖 5
   server: 152.69.206.209
   port: 1212
   type: vmess
@@ -40,21 +32,7 @@ proxies:
     Host: aweikeji-YouTube
   udp: true
 - type: vmess
-  name: 3.27|HKwmt625a11
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.31.8
-  server: 47.243.31.8
-  port: '51657'
-  uuid: f0eb8855-d3a4-4fc4-98b6-711681c756b8
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 3.05|USwmt625a37
+  name: 3.12|USwmt625a37
   http-opts:
     path:
     - /
@@ -67,46 +45,8 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 2.89|美国youtube阿伟科技 16
-  server: 150.230.99.46
-  port: 22222
-  type: vmess
-  uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
 - type: vmess
-  name: 2.84|USwmt627a1
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 45.145.6.100
-  server: 45.145.6.100
-  port: '63693'
-  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.76|USwmt625a16
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 154.12.43.65
-  server: 154.12.43.65
-  port: '54380'
-  uuid: 02647a96-bd5a-444a-b8d1-667bda0a7eb6
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.48|USwmt625a15
+  name: 3.04|USwmt625a15
   http-opts:
     path:
     - /
@@ -120,35 +60,7 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 2.44|HKwmt625a60
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 156.241.138.11
-  server: 156.241.138.11
-  port: '61800'
-  uuid: f59529de-5de4-4c75-826e-5f7562cb6d43
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.29|HKwmt625a13
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.227.118
-  server: 47.243.227.118
-  port: '46108'
-  uuid: 51f7927b-e4ae-44cc-acc8-605f2b662e2a
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.22|HKwmt625a12
+  name: 2.90|HKwmt625a12
   http-opts:
     path:
     - /
@@ -161,7 +73,112 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.85|美国youtube阿伟科技 6
+- type: vmess
+  name: 2.45|USwmt627a1
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 45.145.6.100
+  server: 45.145.6.100
+  port: '63693'
+  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.22|USwmt625a16
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 154.12.43.65
+  server: 154.12.43.65
+  port: '54380'
+  uuid: 02647a96-bd5a-444a-b8d1-667bda0a7eb6
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.17|HKwmt625a60
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 156.241.138.11
+  server: 156.241.138.11
+  port: '61800'
+  uuid: f59529de-5de4-4c75-826e-5f7562cb6d43
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 2.01|YouTube阿伟科技 16
+  server: v47.v2dns.bar
+  port: 2052
+  type: vmess
+  uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /v47-unlimitndxd
+    headers:
+      Host: v47.v2dns.bar
+  udp: true
+- name: 1.87|GB651
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  alterId: 0
+  cipher: auto
+  tls: false
+- type: vmess
+  name: 1.81|HKwmt625a11
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.31.8
+  server: 47.243.31.8
+  port: '51657'
+  uuid: f0eb8855-d3a4-4fc4-98b6-711681c756b8
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 1.71| v2rayfreeeuorg  美国CloudFlare公司CDN节点 7
+  server: 104.24.45.91
+  port: 2052
+  type: vmess
+  uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v47-unlimitndxd
+  ws-headers:
+    Host: v47.v2dns.bar
+- type: vmess
+  name: 1.71|HKwmt625a13
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.227.118
+  server: 47.243.227.118
+  port: '46108'
+  uuid: 51f7927b-e4ae-44cc-acc8-605f2b662e2a
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 1.53|美国youtube阿伟科技 6
   server: v125.v2dns.bar
   port: 80
   type: vmess
@@ -176,52 +193,26 @@ proxies:
     headers:
       Host: v125.v2dns.bar
   udp: true
-- type: vmess
-  name: 1.67|USwmt625a38
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 23.133.1.31
-  server: 23.133.1.31
-  port: '46361'
-  uuid: ca34c423-0411-497b-94cc-78aea73ae96f
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 1.62|CA434
-  server: 104.255.65.112
-  port: 30718
+- name: 1.46|YouTube阿伟科技 22
+  server: g1.v2.gay
+  port: 2052
   type: vmess
-  uuid: f0f63386-d747-4d44-8d16-6e2d254f0ed3
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.37|YouTube阿伟科技 14
-  server: 46.29.161.247
-  port: 10021
-  type: vmess
-  uuid: 405c48dc-2722-4095-bbf0-2591daad873d
+  uuid: 0c68af8a-961a-3065-a3a7-1800ebc70bdb
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /v47-unlimitndxd
     headers:
-      Host: 46.29.161.247
+      Host: v47.v2dns.bar
   udp: true
-- name: 1.14| SSRSUB美国V09付费推荐dljtfssrsub
-  server: v04.ssrsub.com
-  port: 153
+- name: 1.02| SG920
+  server: 81.90.188.59
+  port: 41657
   type: vmess
-  uuid: 8fefb1b5-bee7-4736-8e00-cad32ab113d1
-  alterId: 0
+  uuid: 930a425e-2fc8-4930-8735-141f6b237755
+  alterId: 64
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: d76bb35696.laowanxiang.com
