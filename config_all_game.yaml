@@ -1,15 +1,49 @@
 proxies:
-- name: 1.29| 德国0626127
-  server: 162.55.231.78
-  port: 443
+- name: 5.47|香港 301
+  server: hk301.sagittarius-link.com
+  port: 61301
   type: ssr
-  cipher: aes-128-ctr
-  password: sEscPBiAD9K$&@79
+  cipher: dummy
+  password: 5GMSIjTiXS8
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 24185:tMn5WV
+  obfs-param: 241850eba3.download.windowsupdate.com
+  udp: true
+- name: 3.13|香港HK172
+  server: cmonline02.duraker.xyz
+  port: 562
+  type: ssr
+  cipher: chacha20-ietf
+  password: mblank1port
   protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
+  obfs: plain
+  protocol-param: 35760:1sEzoslZeTH
+  obfs-param: ''
+  udp: true
+- name: 2.50|154362440088
+  server: 154.3.6.24
+  port: 40088
+  type: ssr
+  cipher: dummy
+  password: sytgta26erIOSTZrver@
+  protocol: auth_chain_a
+  obfs: plain
   protocol-param: ''
   obfs-param: ''
-- name: 1.13|httpsgithubcomAlvin9999newpacwiki ip3 SSR
+  udp: true
+- name: 2.25|15492041560000
+  server: 154.9.204.15
+  port: 60000
+  type: ssr
+  cipher: dummy
+  password: baredi*&^$rectnana
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 1.14|httpsgithubcomAlvin9999newpacwiki ip3 SSR
   server: clash11.free4444.xyz
   port: 443
   type: ssr
@@ -19,7 +53,17 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.97| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
+- name: 0.96| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶5SSR
+  server: clash5.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 0.96| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
   server: ss-v2ray1.free4444.xyz
   port: 443
   type: ssr
@@ -29,19 +73,9 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 0.97| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
+- name: 0.95| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
   server: clash0.free4444.xyz
   port: 40044
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.94| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶5SSR
-  server: clash5.free4444.xyz
-  port: 443
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -56,4 +90,4 @@ proxies:
   protocol: origin
   server: 185.4.65.6
   type: ssr
-  name: 0.54|RU185465658aba6381826
+  name: 0.43|RU185465658aba6381826
