@@ -1,5 +1,5 @@
 proxies:
-- name: 5.15|日本youtube阿伟科技 5
+- name: 4.96|日本youtube阿伟科技 5
   server: 158.101.74.69
   port: 80
   type: vmess
@@ -17,56 +17,28 @@ proxies:
       Host:
       - 158.101.74.69
   udp: true
-- name: 4.39| RelayHKHK376
-  server: imgU140111366548.hk.huawei-cacahe.com
-  port: 20224
+- name: 4.62| 亚太香港07负载均衡 1x
+  server: bpjchongkong.kozow.com
+  port: 12350
   type: vmess
-  uuid: d8860258-4ce1-4412-9ede-ecfd8d827ca4
-  alterId: 2
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: imgU140111366548.hk.huawei-cacahe.com
-- type: vmess
-  name: 3.07|USwmt627a1
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 45.145.6.100
-  server: 45.145.6.100
-  port: '63693'
-  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 3.06|USwmt625a15
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 45.145.6.71
-  server: 45.145.6.71
-  port: '44056'
-  uuid: b563031e-11c3-4874-b0bd-15d76a7a1757
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 3.04| US1719
-  server: 150.230.99.46
-  port: 22222
-  type: vmess
-  uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4
+  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
   alterId: 0
   cipher: auto
   tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 3.07| SG892
+  server: 81.90.188.59
+  port: 41657
+  type: vmess
+  uuid: 930a425e-2fc8-4930-8735-141f6b237755
+  alterId: 64
+  cipher: auto
+  tls: false
 - type: vmess
-  name: 2.43|USwmt625a16
+  name: 2.86|USwmt625a16
   http-opts:
     path:
     - /
@@ -80,36 +52,43 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 2.23|HKwmt625a13
+  name: 2.70|HKwmt625a60
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 47.243.227.118
-  server: 47.243.227.118
-  port: '46108'
-  uuid: 51f7927b-e4ae-44cc-acc8-605f2b662e2a
+      - 156.241.138.11
+  server: 156.241.138.11
+  port: '61800'
+  uuid: f59529de-5de4-4c75-826e-5f7562cb6d43
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.92|新加坡youtube阿伟科技 3
-  server: 209.97.167.12
-  port: 80
+- type: vmess
+  name: 2.22|USwmt627a1
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 45.145.6.100
+  server: 45.145.6.100
+  port: '63693'
+  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 2.10| US1719
+  server: 150.230.99.46
+  port: 22222
   type: vmess
-  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
+  uuid: e6c55d36-022c-4ebc-b9c2-e1220a7184f4
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
 - type: vmess
-  name: 1.65|HKwmt625a12
+  name: 1.26|HKwmt625a12
   http-opts:
     path:
     - /
@@ -123,36 +102,16 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 1.56|HKwmt625a60
+  name: 1.16|HKwmt625a13
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 156.241.138.11
-  server: 156.241.138.11
-  port: '61800'
-  uuid: f59529de-5de4-4c75-826e-5f7562cb6d43
+      - 47.243.227.118
+  server: 47.243.227.118
+  port: '46108'
+  uuid: 51f7927b-e4ae-44cc-acc8-605f2b662e2a
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.34| TW1125
-  server: 61.222.202.140
-  port: 33792
-  type: vmess
-  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 61.222.202.140
-- name: 1.28| TW956
-  server: 61.222.202.140
-  port: 15789
-  type: vmess
-  uuid: 4535e708-5988-4377-a083-755ed60d8068
-  alterId: 0
-  cipher: auto
-  tls: false
