@@ -1,9 +1,9 @@
 proxies:
-- name: 5.25| 免流香港01负载均衡 1x
+- name: 5.74| 亚太香港07负载均衡 1x
   server: bpjchongkong.kozow.com
-  port: 80
+  port: 12350
   type: vmess
-  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
   alterId: 0
   cipher: auto
   tls: false
@@ -11,48 +11,68 @@ proxies:
   ws-path: /images
   ws-headers:
     Host: v.qq.com
-- name: 4.34|日本youtube阿伟科技 5
-  server: 158.101.74.69
-  port: 80
+- name: 5.59| 亚太香港04负载均衡 1x
+  server: bpjchongkong.kozow.com
+  port: 12347
   type: vmess
-  uuid: ed87b71c-b01e-40e5-b1c5-064d152effd2
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 158.101.74.69
-  udp: true
-- name: 3.17| SG892
-  server: 81.90.188.59
-  port: 41657
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 5.39| 亚太香港06负载均衡 1x
+  server: bpjchongkong.kozow.com
+  port: 12349
   type: vmess
-  uuid: 930a425e-2fc8-4930-8735-141f6b237755
-  alterId: 64
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
   cipher: auto
   tls: false
-- type: vmess
-  name: 2.96|USwmt627a1
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 45.145.6.100
-  server: 45.145.6.100
-  port: '63693'
-  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
-  alterId: '0'
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 5.06| 亚太香港03负载均衡 1x
+  server: bpjchongkong.kozow.com
+  port: 12346
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
   cipher: auto
-  network: http
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 4.54| 家宽台湾03动态IP 1x
+  server: bpjcjapan.loseyourip.com
+  port: 12343
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 3.86| 家宽台湾02动态IP 1x
+  server: bpjcjapan.loseyourip.com
+  port: 12342
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
 - type: vmess
-  name: 2.36|USwmt625a16
+  name: 2.60|USwmt625a16
   http-opts:
     path:
     - /
@@ -65,35 +85,3 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.25|SSRSUBV16付费推荐suoytssrsub
-  server: 159.223.54.93
-  port: 80
-  type: vmess
-  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: khiemdz.akamaized.net
-- name: 1.22| JP650
-  server: 158.101.74.69
-  port: 31939
-  type: vmess
-  uuid: f130c826-40d9-44fb-be3d-75ebcb750d12
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.22| SSRSUB美国V09付费推荐dljtfssrsub
-  server: v04.ssrsub.com
-  port: 153
-  type: vmess
-  uuid: 61c4c45e-d5c8-47ed-ae28-cee95f09b3b7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: d76bb35696.laowanxiang.com

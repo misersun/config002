@@ -1,9 +1,9 @@
 proxies:
-- name: 5.25| 免流香港01负载均衡 1x
+- name: 5.74| 亚太香港07负载均衡 1x
   server: bpjchongkong.kozow.com
-  port: 80
+  port: 12350
   type: vmess
-  uuid: 9b29114b-723b-40ca-bc2b-e3f97d43534d
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
   alterId: 0
   cipher: auto
   tls: false
@@ -11,88 +11,93 @@ proxies:
   ws-path: /images
   ws-headers:
     Host: v.qq.com
-- name: 4.34|日本youtube阿伟科技 5
-  server: 158.101.74.69
-  port: 80
-  type: vmess
-  uuid: ed87b71c-b01e-40e5-b1c5-064d152effd2
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 158.101.74.69
-  udp: true
-- name: 4.23| 甲骨文东京ARM2trojan
+- name: 5.61| 甲骨文东京ARM2trojan
   server: jgwdj4.gaox.ml
   port: 443
   type: trojan
   password: c09eb137-bf68-4658-84e0-102d94b74168
   sni: jgwdj4.gaox.ml
-- name: 3.93| githubcomfreefq  新加坡Digital Ocean数据中心 15
+- name: 5.59| 亚太香港04负载均衡 1x
+  server: bpjchongkong.kozow.com
+  port: 12347
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 5.39| 亚太香港06负载均衡 1x
+  server: bpjchongkong.kozow.com
+  port: 12349
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 5.06| 亚太香港03负载均衡 1x
+  server: bpjchongkong.kozow.com
+  port: 12346
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 4.54| 家宽台湾03动态IP 1x
+  server: bpjcjapan.loseyourip.com
+  port: 12343
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 4.10| githubcomfreefq  新加坡Digital Ocean数据中心 15
   server: trojan2.udpgw.com
   port: 443
   type: trojan
   password: 973ef350-f6a5-11ec-9274-1239d0255272
   sni: trojan2.udpgw.com
+- name: 3.86| 家宽台湾02动态IP 1x
+  server: bpjcjapan.loseyourip.com
+  port: 12342
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
 - password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s2.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 3.79|US1592235513858aba638898
-- name: 3.71| 甲骨文大阪AMD2trojan
-  server: jgwdb2.gaox.ml
+  name: 3.71|US1592235513858aba638898
+- name: 2.70| v2rayfreeeuorg  美国惠普公司 20
+  server: tj-sg02.yiyodns.xyz
   port: 443
   type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  sni: jgwdb2.gaox.ml
-- name: 3.17| SG892
-  server: 81.90.188.59
-  port: 41657
-  type: vmess
-  uuid: 930a425e-2fc8-4930-8735-141f6b237755
-  alterId: 64
-  cipher: auto
-  tls: false
+  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
+  sni: tj-sg02.yiyodns.xyz
 - type: vmess
-  name: 2.96|USwmt627a1
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 45.145.6.100
-  server: 45.145.6.100
-  port: '63693'
-  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 2.63|香港youtube阿伟科技 2
-  server: vfly4.win
-  port: 443
-  type: vmess
-  uuid: 424afb77-4724-4ddc-f4c0-35de9c2239f5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /myblog
-    headers:
-      Host: vfly4.win
-  udp: true
-- type: vmess
-  name: 2.36|USwmt625a16
+  name: 2.60|USwmt625a16
   http-opts:
     path:
     - /
@@ -105,90 +110,15 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.87|新加坡youtube阿伟科技
-  server: vfly8.win
+- type: ssr
+  name: 1.28|DEwmt629a61
+  server: 162.55.231.78
   port: 443
-  type: vmess
-  uuid: 8fc94fe3-cfb1-4bc7-e43b-26d4d1e5f4cd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /myblog
-    headers:
-      Host: vfly8.win
-  udp: true
-- name: 1.74| v2rayfreeeuorg  美国惠普公司 20
-  server: tj-sg02.yiyodns.xyz
-  port: 443
-  type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  sni: tj-sg02.yiyodns.xyz
-- name: 1.61| US1615
-  server: 104.19.3.16
-  port: 443
-  type: vmess
-  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /chcar
-  ws-headers:
-    Host: v2fly.samrt.website
-- name: 1.57| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
-  port: 443
-  type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 1.56| 甲骨文凤凰城AMD2trojan
-  server: fhcamd2.gaox.ml
-  port: 443
-  type: trojan
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  sni: fhcamd2.gaox.ml
-- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s3.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.51|US13718417914658aba638928
-- name: 1.42| githubcomfreefq  美国CloudFlare公司CDN节点 22
-  server: powerservice.com
-  port: 443
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: uk2.v2rayserv.com
-- name: 1.39| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  port: 443
-  server: tj-us01.yiyodns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.38|US1520420228f346270e80
-- name: 1.37| 甲骨文凤凰城AMD1trojan
-  server: fhcamd1.gaox.ml
-  port: 443
-  type: trojan
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  sni: fhcamd1.gaox.ml
-- name: 1.30|GB539
+  protocol: auth_aes128_md5
+  cipher: aes-128-ctr
+  obfs: tls1.2_ticket_auth
+  password: sEscPBiAD9K$&@79
+- name: 1.14|GB539
   server: 88.150.137.201
   type: ssr
   country: GB
@@ -197,72 +127,26 @@ proxies:
   cipher: aes-128-ctr
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
-- name: 1.30|爱尔兰youtube阿伟科技
-  server: 23.102.1.76
+- name: 1.12|httpsgithubcomAlvin9999newpacwiki ip3 SSR
+  server: clash11.free4444.xyz
   port: 443
-  type: vmess
-  uuid: 0b0269fb-90ef-481f-b509-20fc3ab6009f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: grpc
-  servername: ''
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 913e3a4e
-  udp: true
-- password: 685022af-2086-454c-8725-8ff6b6ab1d13
-  port: 48240
-  server: bai-piao-wang-zhe10.98848.xyz
-  skip-cert-verify: true
-  sni: bai-piao-wang-zhe10.98848.xyz
-  type: trojan
-  udp: true
-  name: 1.28|90d15f731899
-- name: 1.25|SSRSUBV16付费推荐suoytssrsub
-  server: 159.223.54.93
-  port: 80
-  type: vmess
-  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: khiemdz.akamaized.net
-- name: 1.22| JP650
-  server: 158.101.74.69
-  port: 31939
-  type: vmess
-  uuid: f130c826-40d9-44fb-be3d-75ebcb750d12
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.22| SSRSUB美国V09付费推荐dljtfssrsub
-  server: v04.ssrsub.com
-  port: 153
-  type: vmess
-  uuid: 61c4c45e-d5c8-47ed-ae28-cee95f09b3b7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: d76bb35696.laowanxiang.com
-- type: ssr
-  name: 1.17|DEwmt629a61
-  server: 162.55.231.78
-  port: 443
-  protocol: auth_aes128_md5
-  cipher: aes-128-ctr
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
   obfs: tls1.2_ticket_auth
-  password: sEscPBiAD9K$&@79
-- name: 1.00| 甲骨文悉尼ARM2trojan
-  server: jgwxn4.gaox.ml
-  port: 443
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.09|mvxrigo
+  server: sgg.2046.gq
+  port: 4443
   type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
+  password: bfbd5c7f-2c23-44fd-8393-d0da67b23a49
+  sni: sgg.2046.gq
+- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s3.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.09|US13718417914658aba638928

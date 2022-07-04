@@ -1,11 +1,11 @@
 proxies:
-- name: 4.23| 甲骨文东京ARM2trojan
+- name: 5.61| 甲骨文东京ARM2trojan
   server: jgwdj4.gaox.ml
   port: 443
   type: trojan
   password: c09eb137-bf68-4658-84e0-102d94b74168
   sni: jgwdj4.gaox.ml
-- name: 3.93| githubcomfreefq  新加坡Digital Ocean数据中心 15
+- name: 4.10| githubcomfreefq  新加坡Digital Ocean数据中心 15
   server: trojan2.udpgw.com
   port: 443
   type: trojan
@@ -17,58 +17,22 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 3.79|US1592235513858aba638898
-- name: 3.71| 甲骨文大阪AMD2trojan
-  server: jgwdb2.gaox.ml
-  port: 443
-  type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  sni: jgwdb2.gaox.ml
-- name: 1.74| v2rayfreeeuorg  美国惠普公司 20
+  name: 3.71|US1592235513858aba638898
+- name: 2.70| v2rayfreeeuorg  美国惠普公司 20
   server: tj-sg02.yiyodns.xyz
   port: 443
   type: trojan
   password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
   sni: tj-sg02.yiyodns.xyz
-- name: 1.57| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
+- type: ssr
+  name: 1.28|DEwmt629a61
+  server: 162.55.231.78
   port: 443
-  type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 1.56| 甲骨文凤凰城AMD2trojan
-  server: fhcamd2.gaox.ml
-  port: 443
-  type: trojan
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  sni: fhcamd2.gaox.ml
-- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s3.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.51|US13718417914658aba638928
-- name: 1.39| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  port: 443
-  server: tj-us01.yiyodns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.38|US1520420228f346270e80
-- name: 1.37| 甲骨文凤凰城AMD1trojan
-  server: fhcamd1.gaox.ml
-  port: 443
-  type: trojan
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  sni: fhcamd1.gaox.ml
-- name: 1.30|GB539
+  protocol: auth_aes128_md5
+  cipher: aes-128-ctr
+  obfs: tls1.2_ticket_auth
+  password: sEscPBiAD9K$&@79
+- name: 1.14|GB539
   server: 88.150.137.201
   type: ssr
   country: GB
@@ -77,25 +41,26 @@ proxies:
   cipher: aes-128-ctr
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
-- password: 685022af-2086-454c-8725-8ff6b6ab1d13
-  port: 48240
-  server: bai-piao-wang-zhe10.98848.xyz
+- name: 1.12|httpsgithubcomAlvin9999newpacwiki ip3 SSR
+  server: clash11.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.09|mvxrigo
+  server: sgg.2046.gq
+  port: 4443
+  type: trojan
+  password: bfbd5c7f-2c23-44fd-8393-d0da67b23a49
+  sni: sgg.2046.gq
+- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s3.hazz.win
   skip-cert-verify: true
-  sni: bai-piao-wang-zhe10.98848.xyz
   type: trojan
   udp: true
-  name: 1.28|90d15f731899
-- type: ssr
-  name: 1.17|DEwmt629a61
-  server: 162.55.231.78
-  port: 443
-  protocol: auth_aes128_md5
-  cipher: aes-128-ctr
-  obfs: tls1.2_ticket_auth
-  password: sEscPBiAD9K$&@79
-- name: 1.00| 甲骨文悉尼ARM2trojan
-  server: jgwxn4.gaox.ml
-  port: 443
-  type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
+  name: 1.09|US13718417914658aba638928

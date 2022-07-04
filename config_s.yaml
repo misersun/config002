@@ -1,11 +1,11 @@
 proxies:
-- name: 4.23| 甲骨文东京ARM2trojan
+- name: 5.61| 甲骨文东京ARM2trojan
   server: jgwdj4.gaox.ml
   port: 443
   type: trojan
   password: c09eb137-bf68-4658-84e0-102d94b74168
   sni: jgwdj4.gaox.ml
-- name: 3.93| githubcomfreefq  新加坡Digital Ocean数据中心 15
+- name: 4.10| githubcomfreefq  新加坡Digital Ocean数据中心 15
   server: trojan2.udpgw.com
   port: 443
   type: trojan
@@ -17,137 +17,23 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 3.79|US1592235513858aba638898
-- name: 3.71| 甲骨文大阪AMD2trojan
-  server: jgwdb2.gaox.ml
-  port: 443
-  type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  sni: jgwdb2.gaox.ml
-- name: 2.63|香港youtube阿伟科技 2
-  server: vfly4.win
-  port: 443
-  type: vmess
-  uuid: 424afb77-4724-4ddc-f4c0-35de9c2239f5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /myblog
-    headers:
-      Host: vfly4.win
-  udp: true
-- name: 1.87|新加坡youtube阿伟科技
-  server: vfly8.win
-  port: 443
-  type: vmess
-  uuid: 8fc94fe3-cfb1-4bc7-e43b-26d4d1e5f4cd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /myblog
-    headers:
-      Host: vfly8.win
-  udp: true
-- name: 1.74| v2rayfreeeuorg  美国惠普公司 20
+  name: 3.71|US1592235513858aba638898
+- name: 2.70| v2rayfreeeuorg  美国惠普公司 20
   server: tj-sg02.yiyodns.xyz
   port: 443
   type: trojan
   password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
   sni: tj-sg02.yiyodns.xyz
-- name: 1.61| US1615
-  server: 104.19.3.16
-  port: 443
-  type: vmess
-  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /chcar
-  ws-headers:
-    Host: v2fly.samrt.website
-- name: 1.57| 甲骨文大阪ARM2trojan
-  server: jgwdb4.gaox.ml
-  port: 443
+- name: 1.09|mvxrigo
+  server: sgg.2046.gq
+  port: 4443
   type: trojan
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
-  sni: jgwdb4.gaox.ml
-- name: 1.56| 甲骨文凤凰城AMD2trojan
-  server: fhcamd2.gaox.ml
-  port: 443
-  type: trojan
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  sni: fhcamd2.gaox.ml
+  password: bfbd5c7f-2c23-44fd-8393-d0da67b23a49
+  sni: sgg.2046.gq
 - password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s3.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 1.51|US13718417914658aba638928
-- name: 1.42| githubcomfreefq  美国CloudFlare公司CDN节点 22
-  server: powerservice.com
-  port: 443
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /sshocean
-  ws-headers:
-    Host: uk2.v2rayserv.com
-- name: 1.39| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
-  port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
-- password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  port: 443
-  server: tj-us01.yiyodns.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.38|US1520420228f346270e80
-- name: 1.37| 甲骨文凤凰城AMD1trojan
-  server: fhcamd1.gaox.ml
-  port: 443
-  type: trojan
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  sni: fhcamd1.gaox.ml
-- name: 1.30|爱尔兰youtube阿伟科技
-  server: 23.102.1.76
-  port: 443
-  type: vmess
-  uuid: 0b0269fb-90ef-481f-b509-20fc3ab6009f
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: grpc
-  servername: ''
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: 913e3a4e
-  udp: true
-- password: 685022af-2086-454c-8725-8ff6b6ab1d13
-  port: 48240
-  server: bai-piao-wang-zhe10.98848.xyz
-  skip-cert-verify: true
-  sni: bai-piao-wang-zhe10.98848.xyz
-  type: trojan
-  udp: true
-  name: 1.28|90d15f731899
-- name: 1.00| 甲骨文悉尼ARM2trojan
-  server: jgwxn4.gaox.ml
-  port: 443
-  type: trojan
-  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
-  sni: jgwxn4.gaox.ml
+  name: 1.09|US13718417914658aba638928
