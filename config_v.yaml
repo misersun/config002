@@ -1,5 +1,47 @@
 proxies:
-- name: 3.25| 家宽台湾03动态IP 1x
+- name: 5.07| 亚太香港03负载均衡 1x
+  server: hongkong.xn--z4q48lcvp.com
+  port: 12346
+  type: vmess
+  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /images
+  ws-headers:
+    Host: v.qq.com
+- name: 3.84|GB625
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 3.18| SG1033
+  server: 81.90.188.59
+  port: 41657
+  type: vmess
+  uuid: 930a425e-2fc8-4930-8735-141f6b237755
+  alterId: 64
+  cipher: auto
+  tls: false
+- type: vmess
+  name: 2.97|USwmt75p1
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 45.145.6.71
+  server: 45.145.6.71
+  port: '44056'
+  uuid: b563031e-11c3-4874-b0bd-15d76a7a1757
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 1.72| 家宽台湾03动态IP 1x
   server: bpjcjapan.loseyourip.com
   port: 12343
   type: vmess
@@ -11,51 +53,11 @@ proxies:
   ws-path: /images
   ws-headers:
     Host: v.qq.com
-- name: 3.06| 家宽台湾02动态IP 1x
-  server: bpjcjapan.loseyourip.com
-  port: 12342
+- name: 1.02| SG1038
+  server: 43.129.30.122
+  port: 15256
   type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  uuid: 02ee559e-a1aa-427e-e42b-f97977795dbc
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 2.93| 实验免流日本A不限速 1x
-  server: japan.xn--z4q48lcvp.com
-  port: 80
-  type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 2.69| githubcomfreefq  美国  24
-  server: 152.69.206.209
-  port: 1212
-  type: vmess
-  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 152.69.206.209
-- name: 1.40| SSRSUB美国V09付费推荐dljtfssrsub
-  server: v04.ssrsub.com
-  port: 153
-  type: vmess
-  uuid: 61c4c45e-d5c8-47ed-ae28-cee95f09b3b7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: d76bb35696.laowanxiang.com
