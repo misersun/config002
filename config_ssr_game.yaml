@@ -1,87 +1,77 @@
 proxies:
-- cipher: aes-256-cfb
-  obfs: plain
-  password: bf7v334KKDV3YDhH
-  port: 9070
-  protocol: origin
-  server: 103.172.116.9
+- name: 5.98| 大麦专线GameSGP广新115x游戏
+  server: aiasgp1.game.www.klrxyru.cn
+  port: 1520
   type: ssr
-  name: 3.90|SG10317211698776a2791812
-- cipher: aes-256-cfb
-  obfs: plain
-  password: p9z5BVADH2YFs3MN
-  port: 9040
-  protocol: origin
-  server: 103.172.116.9
-  type: ssr
-  name: 3.46|SG10317211698776a2791811
-- name: 1.90|AU05
-  server: 45.77.48.44
-  type: ssr
-  country: AU
-  port: 8099
-  password: eIW0Dnk69454e6nSwuspv9DmS201tQ0D
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: plain
-- name: 1.44| GB77 TGpeekfun
-  server: 88.150.137.201
-  port: 1021
-  type: ssr
-  country: ' GB'
-  password: sEscPBiAD9K$&@79
-  cipher: aes-128-ctr
+  cipher: chacha20-ietf
+  password: mtbv8n
   protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-- type: ssr
-  name: 1.40|NLwmt75a20
-  server: 213.183.59.211
-  port: 9008
-  protocol: origin
-  cipher: aes-256-cfb
   obfs: plain
-  password: y9VURyNzJWNRYEGQ
-- type: ssr
-  name: 1.37|NLwmt75a55
-  server: 213.183.59.190
-  port: 9059
-  protocol: origin
-  cipher: aes-256-cfb
+  protocol-param: 84393:25lGIs
+  obfs-param: b43e313.wns.windows.com
+- name: 5.61| 中国0706488
+  server: yd-01.paofunlink.com
+  port: 5956
+  type: ssr
+  cipher: chacha20-ietf
+  password: bxsnucrgk6hfish
+  protocol: auth_aes128_sha1
   obfs: plain
-  password: 9XwYyZsK8SNzQDtY
-- name: 1.29| 德国0701143
-  server: 162.55.231.78
-  port: 443
+  protocol-param: 115989:JbCUPq
+  obfs-param: 6f9d8115989.microsoft.com
+- name: 5.38| 中国0706487
+  server: yd-01.paofunlink.com
+  port: 5958
   type: ssr
-  cipher: aes-128-ctr
-  password: sEscPBiAD9K$&@79
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.14|httpsgithubcomAlvin9999newpacwiki ip3 SSR
-  server: clash11.free4444.xyz
-  port: 443
+  cipher: chacha20-ietf
+  password: bxsnucrgk6hfish
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 115989:JbCUPq
+  obfs-param: 6f9d8115989.microsoft.com
+- name: 5.07| v1 日本02
+  server: yd-02.paofunlink.com
+  port: 1051
   type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
+  cipher: chacha20-ietf
+  password: bxsnucrgk6hfish
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 115989:JbCUPq
+  obfs-param: 6f9d8115989.microsoft.com
+- name: 4.30| 中国0706485
+  server: yd-04.paofunlink.com
+  port: 5953
+  type: ssr
+  cipher: chacha20-ietf
+  password: bxsnucrgk6hfish
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 115989:JbCUPq
+  obfs-param: 6f9d8115989.microsoft.com
+- name: 2.69| 中国0706486
+  server: yd-03.paofunlink.com
+  port: 1072
+  type: ssr
+  cipher: chacha20-ietf
+  password: bxsnucrgk6hfish
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 115989:JbCUPq
+  obfs-param: 6f9d8115989.microsoft.com
+- name: 2.18| 中国0706477
+  server: yd-03.paofunlink.com
+  port: 1088
+  type: ssr
+  cipher: chacha20-ietf
+  password: bxsnucrgk6hfish
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 115989:JbCUPq
+  obfs-param: 6f9d8115989.microsoft.com
 - name: 0.97| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
   server: clash0.free4444.xyz
   port: 40044
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 0.94| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
-  server: ss-v2ray1.free4444.xyz
-  port: 443
   type: ssr
   cipher: dummy
   password: dongtaiwang.com
@@ -96,14 +86,4 @@ proxies:
   protocol: origin
   server: 185.4.65.6
   type: ssr
-  name: 0.75|RU1854656f346270e101
-- name: 0.73| httpsgithubcomAlvin9999newpacwiki 洛杉矶0SSR
-  server: clash-ssr0.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
+  name: 0.46|RU1854656f346270e101
