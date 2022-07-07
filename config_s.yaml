@@ -1,11 +1,18 @@
 proxies:
-- name: 5.18| 甲骨文东京ARM2trojan
+- name: 5.29| 甲骨文东京ARM2trojan
   server: jgwdj4.gaox.ml
   port: 443
   type: trojan
   password: c09eb137-bf68-4658-84e0-102d94b74168
   sni: jgwdj4.gaox.ml
-- name: 4.17|新加坡youtube阿伟科技 6
+- name: 4.01| ncsyoghkk
+  server: s1.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: edge.apple.com
+  skip-cert-verify: true
+- name: 3.81|新加坡youtube阿伟科技 6
   server: bai-piao-wang-zhe.us.567568.ml
   port: 12337
   type: trojan
@@ -14,87 +21,52 @@ proxies:
   udp: true
 - password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
-  server: s2.hazz.win
+  server: s4.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 3.97|US1592235513858aba638898
-- name: 3.86|新加坡youtube阿伟科技 7
+  name: 3.78|SG14319820091445ff041182
+- password: 841b229a-304f-46a2-a0fe-3b4e3e0e44f6
+  port: 28443
+  server: 203.138.98.199
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 3.32|JP20313898199445ff0411850
+- password: 54080134-2cba-4535-8599-95650bd9aa54
+  port: 443
+  server: jgwhdlb2.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 2.24|IN15267160174445ff041197
+- name: 2.19|新加坡youtube阿伟科技 7
   server: bai-piao-wang-zhe.us.567568.ml
   port: 19568
   type: trojan
   password: AglrNchEnS
   skip-cert-verify: true
   udp: true
-- name: 3.78| JP682
-  server: vjp3.0bad.com
-  port: 443
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vjp3.0bad.com
-- name: 2.88| v2rayfreeeuorg  美国惠普公司 20
-  server: tj-sg02.yiyodns.xyz
-  port: 443
-  type: trojan
-  password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc
-  sni: tj-sg02.yiyodns.xyz
-- name: 2.37|美国youtube阿伟科技 24
-  server: us22.lolvps.xyz
-  port: 60071
-  type: vmess
-  uuid: bf9a1ef0-9e68-447b-ae58-6617b2eedffa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /MI3W3NM8
-    headers:
-      Host: us22.lolvps.xyz
-  udp: true
-- name: 1.78|美国youtube阿伟科技 26
-  server: 192.74.242.182
-  port: 443
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /path/170419111021
-    headers:
-      Host: www.32338075.xyz
-  udp: true
 - password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
-  server: s3.hazz.win
+  server: s2.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 1.54|US13718417914658aba638928
-- name: 1.32| ncsyoghkk
-  server: s1.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: edge.apple.com
-  skip-cert-verify: true
-- password: cb5e2135-4d64-4454-be98-5bae4f2618d1
-  port: 32462
-  server: usfree2.jiantian.xyz
-  skip-cert-verify: true
-  type: trojan
-  name: 1.32|US1581011121378776a2791934
-- name: 1.07|美国youtube阿伟科技 35
+  name: 1.98|US1592235513858aba638898
+- name: 1.86| 香港TG专用
+  server: 161.117.231.89
+  port: 443
+  type: vmess
+  uuid: 3a3b0878-2306-4930-9aba-ee411441d9f8
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /hk.pengui.xyz
+  ws-headers:
+    Host: hk.pengui.xyz
+- name: 1.74|美国youtube阿伟科技 35
   server: zzydnfw-v.bp365.cf
   port: 443
   type: vmess
@@ -109,3 +81,45 @@ proxies:
     headers:
       Host: zzydnfw-v.bp365.cf
   udp: true
+- password: 2c2b076e-42c1-4761-9b5c-1800ba829e1a
+  port: 4443
+  server: ss.2046.gq
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.64|US15267229132445ff0411556
+- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s3.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.36|US13718417914658aba638928
+- password: 2c2b076e-42c1-4761-9b5c-1800ba829e1a
+  port: 4443
+  server: ru.2046.gq
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.32|RU19487102241445ff041961
+- name: 1.05|美国youtube阿伟科技 39
+  server: k9.v2.gay
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxusa.fovi.tk
+  udp: true
+- name: 1.02| 甲骨文悉尼ARM2trojan
+  server: jgwxn4.gaox.ml
+  port: 443
+  type: trojan
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  sni: jgwxn4.gaox.ml
