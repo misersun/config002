@@ -1,84 +1,74 @@
 proxies:
-- name: 5.34| 亚太香港10负载均衡 1x
-  server: hongkong.xn--z4q48lcvp.com
-  port: 12353
+- name: 3.14| US1600
+  server: 152.69.197.60
+  port: 1069
   type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 5.26|日本youtube阿伟科技 20
-  server: hongkong.xn--z4q48lcvp.com
-  port: 12349
+- name: 1.78|俄罗斯youtube阿伟科技 3
+  server: v001.v2dns.bar
+  port: 80
   type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /images
+    path: /a11-dCeBnloadPy
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 5.11| 亚太香港03负载均衡 1x
-  server: hongkong.xn--z4q48lcvp.com
-  port: 12346
+- name: 1.70|GB639
+  server: 144.24.88.101
+  port: 16833
   type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- name: 5.08| 免流香港01负载均衡 1x
-  server: hongkong.xn--z4q48lcvp.com
-  port: 80
+- name: 1.12|俄罗斯youtube阿伟科技 5
+  server: 195.133.53.192
+  port: 43688
   type: vmess
-  uuid: 341dd977-ce83-42af-8f6d-1a1004ba8c5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /images
-  ws-headers:
-    Host: v.qq.com
-- type: vmess
-  name: 2.80|USwmt75p1
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 45.145.6.71
-  server: 45.145.6.71
-  port: '44056'
-  uuid: b563031e-11c3-4874-b0bd-15d76a7a1757
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 2.20| US1627
-  server: 150.230.41.9
-  port: 23292
-  type: vmess
-  uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.11|az hk
-  server: 20.189.124.150
-  port: 16578
-  type: vmess
-  uuid: 5f66eeaf-2a7a-4c07-ae83-c440e0da2934
+  uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
   udp: true
+- name: 1.11|俄罗斯youtube阿伟科技 4
+  server: 195.133.53.192
+  port: 14369
+  type: vmess
+  uuid: 2331affa-1194-45ae-9457-3746120c4751
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- type: vmess
+  name: 1.05|VNwmt77a134
+  ws-opts:
+    path: /
+    headers:
+      host: 103.90.220.27
+  server: 103.90.220.27
+  port: '80'
+  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
+  alterId: '0'
+  cipher: auto
+  network: ws
