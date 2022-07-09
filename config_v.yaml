@@ -1,13 +1,21 @@
 proxies:
-- name: 3.14| US1600
-  server: 152.69.197.60
-  port: 1069
+- name: 3.15| SG980
+  server: 81.90.188.59
+  port: 41657
   type: vmess
-  uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
+  uuid: 930a425e-2fc8-4930-8735-141f6b237755
+  alterId: 64
+  cipher: auto
+  tls: false
+- name: 3.08|GB639
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.78|俄罗斯youtube阿伟科技 3
+- name: 2.42|俄罗斯youtube阿伟科技 3
   server: v001.v2dns.bar
   port: 80
   type: vmess
@@ -22,15 +30,17 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 1.70|GB639
-  server: 144.24.88.101
-  port: 16833
+- name: 1.75|az hk
+  server: 20.187.252.131
+  port: 16578
   type: vmess
-  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  uuid: 5f66eeaf-2a7a-4c07-ae83-c440e0da2934
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.12|俄罗斯youtube阿伟科技 5
+  skip-cert-verify: true
+  udp: true
+- name: 1.13|俄罗斯youtube阿伟科技 5
   server: 195.133.53.192
   port: 43688
   type: vmess
@@ -45,7 +55,7 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- name: 1.11|俄罗斯youtube阿伟科技 4
+- name: 1.09|俄罗斯youtube阿伟科技 4
   server: 195.133.53.192
   port: 14369
   type: vmess
@@ -60,15 +70,3 @@ proxies:
     headers:
       Host: YouTube-aweikeji
   udp: true
-- type: vmess
-  name: 1.05|VNwmt77a134
-  ws-opts:
-    path: /
-    headers:
-      host: 103.90.220.27
-  server: 103.90.220.27
-  port: '80'
-  uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e
-  alterId: '0'
-  cipher: auto
-  network: ws
