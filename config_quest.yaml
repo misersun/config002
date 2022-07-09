@@ -1,16 +1,20 @@
 proxies:
-- name: 4.62|3
-  server: hinet.52147.top
-  port: 28443
+- name: 4.15|西班牙
+  server: a.es.hideu.tw
+  port: 10629
+  type: ssr
+  cipher: dummy
+  password: .hideu0430.
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: 258433:lUoukm
+  obfs-param: ''
+  udp: true
+- name: 4.08|新加坡youtube阿伟科技 6
+  server: bai-piao-wang-zhe.us.567568.ml
+  port: 12337
   type: trojan
-  password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca
-  sni: download.windowsupdate1.com
-  skip-cert-verify: true
-- name: 4.02|台湾Sky  解锁流媒体
-  server: 103.186.187.52
-  port: 28443
-  type: trojan
-  password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca
+  password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342
   skip-cert-verify: true
   udp: true
 - password: dfbf0d67-f03d-4184-a224-c2d64a571f99
@@ -19,68 +23,88 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 3.94|SG14319820091445ff041182
-- name: 3.84|新加坡youtube阿伟科技 7
-  server: bai-piao-wang-zhe.us.567568.ml
-  port: 19568
-  type: trojan
-  password: AglrNchEnS
-  skip-cert-verify: true
-  udp: true
-- name: 3.83| ncsyoghkk
+  name: 4.07|SG14319820091445ff041182
+- name: 4.01| ncsyoghkk
   server: s1.hazz.win
   port: 12340
   type: trojan
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   sni: edge.apple.com
   skip-cert-verify: true
-- name: 3.61|新加坡youtube阿伟科技 6
+- name: 3.95|巴西
+  server: a.br.hideu.tw
+  port: 10629
+  type: ssr
+  cipher: dummy
+  password: .hideu0430.
+  protocol: auth_chain_a
+  obfs: plain
+  protocol-param: 258433:lUoukm
+  obfs-param: ''
+  udp: true
+- type: trojan
+  name: 3.95|USwmt79a148
+  server: s2.hazz.win
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  udp: true
+  skip-cert-verify: true
+- name: 3.87|新加坡youtube阿伟科技 7
   server: bai-piao-wang-zhe.us.567568.ml
-  port: 12337
+  port: 19568
   type: trojan
-  password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342
+  password: AglrNchEnS
   skip-cert-verify: true
   udp: true
-- name: 3.29|12
-  server: 203.138.98.199
-  port: 28443
-  type: trojan
-  password: 62de567b-6b72-4b8f-bc2b-c2d0d492adca
-  sni: download.windowsupdate1.com
+- password: ce433528-39fa-4711-bc0d-25a5b1579574
+  port: 8443
+  server: sg-01.licom.ml
   skip-cert-verify: true
-- name: 3.15|台湾Hinet  解锁流媒体
-  server: hinet.52147.top
-  port: 28000
+  sni: sg-01.licom.ml
   type: trojan
-  password: f5f239fc-d21a-45ba-aeaf-b137d7d730a6
-  sni: hinet.52147.top
+  udp: true
+  name: 2.53|SG17210416531bf1a019d1959
+- name: 2.21|美国youtube阿伟科技 29
+  server: 165.154.235.49
+  port: 443
+  type: trojan
+  password: cd10d125-cd96-3cda-9a0c-a3ca3d1f6558
+  sni: 20020627.luohuaxian.xyz
   skip-cert-verify: true
   udp: true
+- password: ce433528-39fa-4711-bc0d-25a5b1579574
+  port: 8443
+  server: sg-02.licom.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 2.02|SG6818318170bf1a019d103
+- name: 1.89|RelayUSUS1136
+  server: us-am32-5.eqnode.net
+  type: ssr
+  country: US
+  port: 8081
+  password: YFVrXZgRo
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- name: 1.87|hfgj
+  server: 20.89.140.237
+  port: 80
+  type: trojan
+  password: 2e54f411-a718-313d-9902-72c34f7bc827
+  sni: jp5.daydaygeek.icu
 - password: 6f48efb9-3817-4652-832f-fd04d93ebbc1
   port: 48443
   server: v5.tgfaka.com
   skip-cert-verify: true
   sni: d76bb35696.laowanxiang.com
   type: trojan
-  name: 1.84|US15023018518257e510e91313
+  name: 1.68|US15023018518257e510e91313
 - password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s3.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 1.65|US13718417914658aba638928
-- type: trojan
-  name: 1.23|USwmt77a41
-  server: bai-piao-wang-zhe10.98848.xyz
-  port: 50858
-  password: 685022af-2086-454c-8725-8ff6b6ab1d13
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 1.05|USwmt77a43
-  server: bai-piao-wang-zhe10.98848.xyz
-  port: 48240
-  password: 685022af-2086-454c-8725-8ff6b6ab1d13
-  udp: true
-  skip-cert-verify: true
+  name: 1.27|US13718417914658aba638928
