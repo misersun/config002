@@ -1,17 +1,21 @@
 proxies:
+- name: 4.08| TW1010
+  server: 61.222.202.140
+  port: 15789
+  type: vmess
+  uuid: 4535e708-5988-4377-a083-755ed60d8068
+  alterId: 0
+  cipher: auto
+  tls: false
 - type: vmess
-  name: 3.88|USwmt79a61
-  ws-opts:
-    path: /
-    headers:
-      host: 129.150.61.170
-  server: 129.150.61.170
-  port: '29493'
-  uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132
+  name: 2.88|GBwmt711a52
+  server: 144.24.88.101
+  port: '16833'
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
   alterId: '0'
   cipher: auto
-  network: ws
-- name: 3.65| US1572
+  network: tcp
+- name: 2.76| US1572
   server: 150.230.99.46
   port: 22222
   type: vmess
@@ -19,15 +23,31 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.81| JP728
-  server: 146.56.110.129
-  port: 26401
+- name: 2.31|SSRSUBV14付费推荐suoytssrsub
+  server: v001.v2dns.bar
+  port: 80
   type: vmess
-  uuid: 8906c760-4d98-4301-d84d-5b21937d7d61
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.56|韩国youtube阿伟科技 3
+  network: ws
+  ws-path: /a11-dCeBnloadPy
+  ws-headers:
+    Host: YouTube-aweikeji
+- name: 1.96| TW1008
+  server: 61.222.202.140
+  port: 33792
+  type: vmess
+  uuid: e55cd182-01b0-4fb7-a510-363701a491c5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 61.222.202.140
+- name: 1.79|韩国youtube阿伟科技 3
   server: 152.67.218.38
   port: 443
   type: vmess
@@ -42,86 +62,7 @@ proxies:
     headers:
       Host: 152.67.218.38
   udp: true
-- name: 2.43| JP729
-  server: 146.56.110.129
-  port: 15417
-  type: vmess
-  uuid: 81d30774-9e1b-4633-f8e1-90d5331dd68b
-  alterId: 0
-  cipher: auto
-  tls: false
-- type: vmess
-  name: 2.35|KRwmt79a135
-  server: 152.67.223.187
-  port: '13774'
-  uuid: 5da35e16-0af7-47cc-ed73-269824ccb1a2
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 2.33| v2rayfreeeuorg  美国内华达州拉斯维加斯BuyVM 7
-  server: su11.chaoxn.top
-  port: 80
-  type: vmess
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: su11.chaoxn.top
-- name: 2.20| v2rayfreeeuorg  美国内华达州拉斯维加斯BuyVM 5
-  server: su10.chaoxn.top
-  port: 80
-  type: vmess
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: su10.chaoxn.top
-- name: 1.72|美国youtube阿伟科技 17
-  server: 152.69.206.209
-  port: 1212
-  type: vmess
-  uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 152.69.206.209
-  udp: true
-- name: 1.42|SSRSUBV14付费推荐suoytssrsub
-  server: v001.v2dns.bar
-  port: 80
-  type: vmess
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /a11-dCeBnloadPy
-  ws-headers:
-    Host: YouTube-aweikeji
-- name: 1.36| 80日本1号
-  server: jp1.chaoxn.top
-  port: 80
-  type: vmess
-  uuid: 9e4a7268-4c66-49d9-b6fb-59e33c8c7c59
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: jp1.chaoxn.top
-- name: 1.19| githubcomfreefq  日本  11
+- name: 1.73| githubcomfreefq  日本  11
   server: 146.56.110.129
   port: 26396
   type: vmess
@@ -129,11 +70,35 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.03| v2rayfreeeuorg  美国  17
-  server: sg.guiqing.ml
-  port: 43956
+- name: 1.47| githubcomfreefq  美国  4
+  server: 152.69.193.245
+  port: 80
   type: vmess
-  uuid: 91df6837-896d-45bc-ec6f-0fe4b792b369
+  uuid: 6697776b-d009-413b-8708-822ee2e02515
   alterId: 0
   cipher: auto
   tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 152.69.193.245
+- name: 1.22| JP729
+  server: 146.56.110.129
+  port: 15417
+  type: vmess
+  uuid: 81d30774-9e1b-4633-f8e1-90d5331dd68b
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.19|SSRSUBV13付费推荐suoytssrsub
+  server: 195.133.53.192
+  port: 43688
+  type: vmess
+  uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: YouTube-aweikeji
