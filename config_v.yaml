@@ -1,5 +1,5 @@
 proxies:
-- name: 4.55| githubcomfreefq  美国CloudFlare节点 17
+- name: 4.51| githubcomfreefq  美国CloudFlare节点 17
   server: lms.uin-antasari.ac.id
   port: 80
   type: vmess
@@ -11,24 +11,117 @@ proxies:
   ws-path: /vpnneo
   ws-headers:
     Host: exa.nextvpn.cc
+- name: 4.06|新加坡youtube阿伟科技 8
+  server: 129.150.61.170
+  port: 29493
+  type: vmess
+  uuid: ac0d0076-93d2-48ad-ba6e-ea5c8d7b0132
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
 - type: vmess
-  name: 2.88|KRwmt713a290
+  name: 3.85|HKwmt715a4
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.31.8
+  server: 47.243.31.8
+  port: '51657'
+  uuid: f0eb8855-d3a4-4fc4-98b6-711681c756b8
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 3.12| SG932
+  server: 81.90.188.59
+  port: 41657
+  type: vmess
+  uuid: 930a425e-2fc8-4930-8735-141f6b237755
+  alterId: 64
+  cipher: auto
+  tls: false
+- name: 3.00| TW949
+  server: 61.222.202.140
+  port: 15789
+  type: vmess
+  uuid: 4535e708-5988-4377-a083-755ed60d8068
+  alterId: 0
+  cipher: auto
+  tls: false
+- type: vmess
+  name: 2.96|USwmt715a48
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 45.145.6.100
+  server: 45.145.6.100
+  port: '63693'
+  uuid: 33dbd488-0163-4464-933e-ff5d364fd9db
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.66|HKwmt715a6
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.227.118
+  server: 47.243.227.118
+  port: '46108'
+  uuid: 51f7927b-e4ae-44cc-acc8-605f2b662e2a
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.34|KRwmt713a290
   server: 152.67.223.187
   port: '13774'
   uuid: 5da35e16-0af7-47cc-ed73-269824ccb1a2
   alterId: '0'
   cipher: auto
   network: tcp
-- name: 2.42| githubcomfreefq  日本  11
-  server: 146.56.110.129
-  port: 26396
-  type: vmess
-  uuid: f4baed1c-ab86-4b70-caa3-df853467e1bd
-  alterId: 0
+- type: vmess
+  name: 2.15|USwmt715a7
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 154.12.43.65
+  server: 154.12.43.65
+  port: '54380'
+  uuid: 02647a96-bd5a-444a-b8d1-667bda0a7eb6
+  alterId: '0'
   cipher: auto
-  tls: false
-- name: 2.27|SSRSUBV14付费推荐suoytssrsub
-  server: v001.v2dns.bar
+  network: http
+- type: vmess
+  name: 1.85|HKwmt715a5
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.210.84.203
+  server: 8.210.84.203
+  port: '47059'
+  uuid: fd921f7d-bf89-4ec3-b928-972f54e3dd2a
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 1.81|SSRSUBV09付费推荐suoytssrsub
+  server: v116.v2dns.bar
   port: 80
   type: vmess
   uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
@@ -36,56 +129,50 @@ proxies:
   cipher: auto
   tls: false
   network: ws
-  ws-path: /a11-dCeBnloadPy
+  ws-path: /v116-DtoEwAEX
   ws-headers:
-    Host: YouTube-aweikeji
-- name: 2.13|SSRSUBV16付费推荐suoytssrsub
-  server: 129.159.33.199
-  port: 45328
+    Host: v116.v2dns.bar
+- name: 1.65| githubcomfreefq  美国3COM公司企业网 28
+  server: hk04.bp777.buzz
+  port: 21665
   type: vmess
-  uuid: 842c33ff-31b5-410c-a96e-0cb52a99a6da
+  uuid: b0fa6b76-5817-416e-8034-7b0c129c7f7a
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 129.159.33.199
-- name: 1.93| githubcomfreefq  美国CloudFlare节点 10
-  server: jp.azzhuangaping.tw
-  port: 80
+    Host: hk04.bp777.buzz
+- name: 1.21| v2rayfreeeuorg  美国  32
+  server: hk18.bp777.buzz
+  port: 21665
   type: vmess
-  uuid: cebeb605-6e5e-3a13-a0ce-1ee247f91bf7
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /adobe
-  ws-headers:
-    Host: jp.azzhuangaping.tw
-- name: 1.41| githubcomfreefq  美国  4
-  server: 152.69.193.245
-  port: 80
-  type: vmess
-  uuid: 6697776b-d009-413b-8708-822ee2e02515
+  uuid: 57dd8fa2-1088-43bc-85df-7eeb9745f806
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 152.69.193.245
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  network: ws
-  port: 14369
-  server: 195.133.53.192
-  skip-cert-verify: true
+    Host: hk18.bp777.buzz
+- name: 1.12|SSRSUBV28付费推荐suoytssrsub
+  server: hk15.bp777.buzz
+  port: 21665
   type: vmess
-  uuid: 2331affa-1194-45ae-9457-3746120c4751
-  ws-headers:
-    HOST: 195.133.53.192
+  uuid: a4e03884-306d-42e4-85ee-2d89eabe6d2b
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
   ws-path: /
-  name: 1.41|CZ19513353192e746951f1583
+  ws-headers:
+    Host: hk15.bp777.buzz
+- name: 1.01|SSRSUBV22付费推荐suoytssrsub
+  server: 146.56.110.129
+  port: 15417
+  type: vmess
+  uuid: 81d30774-9e1b-4633-f8e1-90d5331dd68b
+  alterId: 0
+  cipher: auto
+  tls: false
