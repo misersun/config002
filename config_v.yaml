@@ -1,14 +1,77 @@
 proxies:
-- name: 2.43|SSRSUBV22付费推荐suoytssrsub
-  server: 146.56.110.129
-  port: 15417
+- name: 5.70|日本youtube阿伟科技 6
+  server: jp01.xiaoqi99.cf
+  port: 10122
   type: vmess
-  uuid: 81d30774-9e1b-4633-f8e1-90d5331dd68b
+  uuid: fbf813bf-8df7-4729-8e94-667b17544e0f
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
 - type: vmess
-  name: 1.80|HKwmt715a4
+  name: 2.63|HKwmt717a9
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.210.84.203
+  server: 8.210.84.203
+  port: '47059'
+  uuid: fd921f7d-bf89-4ec3-b928-972f54e3dd2a
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 2.44|韩国youtube阿伟科技 6
+  server: hk10.bp777.buzz
+  port: 21665
+  type: vmess
+  uuid: bbf70a11-767d-49c6-a612-97a4553aaaa2
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 2.13| v2rayfreeeuorg  美国3COM公司企业网 3
+  server: 152.67.218.38
+  port: 443
+  type: vmess
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 152.67.218.38
+- name: 2.11|韩国youtube阿伟科技 4
+  server: hk09.bp777.buzz
+  port: 21665
+  type: vmess
+  uuid: e1b9a15f-74b2-4acd-8e42-d2ca6099f7d7
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- type: vmess
+  name: 1.92|HKwmt715a4
   http-opts:
     path:
     - /
@@ -21,20 +84,35 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.69|SSRSUBV09付费推荐suoytssrsub
-  server: v116.v2dns.bar
-  port: 80
+- name: 1.86| githubcomfreefq  香港特别行政区 3
+  server: 104.208.66.126
+  port: 10002
   type: vmess
-  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  uuid: 9b3a6753-2f33-4e0b-bb2e-84e5076d445c
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /v116-DtoEwAEX
+  ws-path: /
   ws-headers:
-    Host: v116.v2dns.bar
+    Host: 104.208.66.126
+- name: 1.54|韩国youtube阿伟科技 5
+  server: hk12.bp777.buzz
+  port: 21665
+  type: vmess
+  uuid: 25c333c8-a53c-42b6-8199-43a518fbfb27
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
 - type: vmess
-  name: 1.68|HKwmt715a6
+  name: 1.42|HKwmt715a6
   http-opts:
     path:
     - /
@@ -47,27 +125,15 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.19| v2rayfreeeuorg  美国3COM公司企业网 3
-  server: 152.67.218.38
-  port: 443
+- name: 1.08| githubcomfreefq  香港特别行政区 6
+  server: 104.208.66.126
+  port: 10001
   type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
+  uuid: 21f6cf3d-add5-4335-ba2a-96972a7f05bf
   alterId: 0
   cipher: auto
   tls: false
   network: ws
   ws-path: /
   ws-headers:
-    Host: 152.67.218.38
-- name: 1.16|SSRSUBV08付费推荐suoytssrsub
-  server: lms.uin-antasari.ac.id
-  port: 80
-  type: vmess
-  uuid: 46bfdb59-83c6-4710-877e-c809b5a90dff
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vpnneo
-  ws-headers:
-    Host: exa.nextvpn.cc
+    Host: 104.208.66.126
