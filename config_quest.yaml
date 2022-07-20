@@ -5,28 +5,31 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 6.04|HK201877550cdb2796e1726
-- name: 5.07| 甲骨文东京ARM1trojan
-  server: jgwdj3.gaox.ml
+  name: 5.48|HK201877550cdb2796e1726
+- name: 4.45| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
+  server: clash24.free4444.xyz
   port: 443
-  type: trojan
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  sni: jgwdj3.gaox.ml
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
 - password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s4.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 3.82|SG14319820091445ff041182
-- type: trojan
-  name: 2.16|USwmt717a88
-  server: jgwdj4.gaox.ml
-  port: 443
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  udp: true
+  name: 4.10|SG14319820091445ff041182
+- password: ce433528-39fa-4711-bc0d-25a5b1579574
+  port: 8443
+  server: sg-03.licom.ml
   skip-cert-verify: true
-- name: 2.15|httpsgithubcomAlvin9999newpacwiki ip3 SSR
+  type: trojan
+  name: 3.26|SG68183187255af2fcc1b1224
+- name: 2.32|httpsgithubcomAlvin9999newpacwiki ip3 SSR
   server: clash26.free4444.xyz
   port: 12345
   type: ssr
@@ -36,6 +39,22 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
+- name: 1.95|RelayUSUS950
+  server: us-am32-5.eqnode.net
+  type: ssr
+  country: US
+  port: 8081
+  password: YFVrXZgRo
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- password: ce433528-39fa-4711-bc0d-25a5b1579574
+  port: 8443
+  server: in-01.licom.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.87|IN17210525383e746951f283
 - type: trojan
   name: 1.85|USwmt79a148
   server: s2.hazz.win
@@ -43,51 +62,34 @@ proxies:
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
   skip-cert-verify: true
-- type: trojan
-  name: 1.80|USwmt715a120
-  server: s3.hazz.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
+- name: 1.75| v2rayfreeeuorg  法国  11
+  server: us-05.licom.ml
+  port: 12501
+  type: trojan
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  sni: us-05.licom.ml
 - password: ce433528-39fa-4711-bc0d-25a5b1579574
   port: 8443
-  server: in-01.licom.ml
+  server: us-01.licom.ml
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 1.65|IN17210525383e746951f283
+  name: 1.68|US1982110172af2fcc1b1738
 - type: trojan
-  name: 1.64|USwmt715a44
+  name: 1.55|USwmt715a44
   server: s1.hazz.win
   port: 12340
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
   skip-cert-verify: true
-- name: 1.52|日本youtube阿伟科技
-  server: 207.2.120.172
-  port: 443
-  type: trojan
-  password: c79d5829-f131-37ea-a1b5-d2d1de746bdd
-  sni: 20020517.luohuaxian.xyz
-  skip-cert-verify: true
+- type: trojan
+  name: 1.43|USwmt715a120
+  server: s3.hazz.win
+  port: 12340
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
-- name: 1.47|GB380
-  server: 88.150.137.201
-  type: ssr
-  country: GB
-  port: 1021
-  password: sEscPBiAD9K$&@79
-  cipher: aes-128-ctr
-  protocol: auth_aes128_md5
-  obfs: tls1.2_ticket_auth
-- name: 1.37| 甲骨文凤凰城AMD2trojan
-  server: fhcamd2.gaox.ml
-  port: 443
-  type: trojan
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  sni: fhcamd2.gaox.ml
-- name: 1.31| DE73 TGpeekfun
+  skip-cert-verify: true
+- name: 1.34| DE73 TGpeekfun
   server: 162.55.231.78
   port: 443
   type: ssr
@@ -96,19 +98,31 @@ proxies:
   cipher: aes-128-ctr
   protocol: auth_aes128_md5
   obfs: tls1.2_ticket_auth
-- name: 1.14| httpsgithubcomAlvin9999newpacwiki 洛杉矶0SSR
-  server: clash11.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.02| 甲骨文伦敦ARM1trojan
-  server: jgwld3.gaox.ml
+- name: 1.23|trojan3udpgwcom443baiducom
+  server: trojan3.udpgw.com
   port: 443
   type: trojan
-  password: 71b55a84-3fac-4458-abff-eaad79219c91
-  sni: jgwld3.gaox.ml
+  password: 8db1b560-019d-11ed-8bdf-1239d0255272
+  sni: trojan3.udpgw.com
+- name: 1.22|GB380
+  server: 88.150.137.201
+  type: ssr
+  country: GB
+  port: 1021
+  password: sEscPBiAD9K$&@79
+  cipher: aes-128-ctr
+  protocol: auth_aes128_md5
+  obfs: tls1.2_ticket_auth
+- name: 1.17| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 1.13| 美国 G51  直连  0x
+  server: 141.98.168.251
+  port: 443
+  type: trojan
+  password: LiX1tV
+  sni: cdnu2.ft2.us
+  skip-cert-verify: true
