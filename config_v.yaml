@@ -1,49 +1,5 @@
 proxies:
-- name: 4.28| githubcomfreefq  日本东京Linode数据中心 2
-  server: 172.104.125.125
-  port: 80
-  type: vmess
-  uuid: a8941bb8-19f8-43f7-ab52-1001d101a538
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 172.104.125.125
-- name: 4.00| githubcomfreefq  新加坡Linode数据中心 20
-  server: 139.162.4.68
-  port: 80
-  type: vmess
-  uuid: a8941bb8-19f8-43f7-ab52-1001d101a538
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 139.162.4.68
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  network: tcp
-  port: 46370
-  server: 138.2.15.23
-  skip-cert-verify: true
-  type: vmess
-  uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c
-  ws-path: /
-  name: 3.31|US13821523a207548a1645
-- name: 2.79|githubcomfreefq  希腊  19
-  server: 144.24.88.101
-  port: 16833
-  type: vmess
-  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.27| v2rayfreeeuorg  美国3COM公司企业网 3
+- name: 1.83| v2rayfreeeuorg  美国3COM公司企业网 3
   server: 152.67.218.38
   port: 443
   type: vmess
@@ -66,32 +22,16 @@ proxies:
   type: vmess
   uuid: efa2ab76-539d-4b6a-9572-24ba709fb81b
   ws-path: /
-  name: 2.22|US1738222627bfac2a051186
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  network: tcp
-  port: 49840
-  server: 140.83.57.80
-  skip-cert-verify: true
+  name: 1.80|US1738222627bfac2a051186
+- name: 1.71|githubcomfreefq  希腊  19
+  server: 144.24.88.101
+  port: 16833
   type: vmess
-  uuid: 2969ad1b-9787-4927-94e6-22f597618de0
-  ws-path: /path/120306182525
-  name: 1.79|JP140835780bfac2a05175
-- name: 1.54| githubcomfreefq  英国  14
-  server: 88.80.189.108
-  port: 80
-  type: vmess
-  uuid: a8941bb8-19f8-43f7-ab52-1001d101a538
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 88.80.189.108
-- name: 1.39|SSRSUBV25付费推荐suoytssrsub
+- name: 1.32|SSRSUBV25付费推荐suoytssrsub
   server: 129.159.33.199
   port: 45328
   type: vmess
@@ -103,20 +43,18 @@ proxies:
   ws-path: /
   ws-headers:
     Host: 129.159.33.199
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  network: ws
-  port: 43688
-  server: 195.133.53.192
-  skip-cert-verify: true
+- name: 1.24|SSRSUBV09付费推荐suoytssrsub
+  server: v116.v2dns.bar
+  port: 80
   type: vmess
-  uuid: bd1c8b57-0a9e-4e9f-a261-48e90c871e41
+  uuid: c97cf46e-1554-36cb-8b36-c3556b883dc4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /v116-DtoEwAEX
   ws-headers:
-    HOST: YouTube-aweikeji
-  ws-path: /
-  name: 1.20|CZ19513353192bfac2a05676
+    Host: v116.v2dns.bar
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -128,4 +66,4 @@ proxies:
   type: vmess
   uuid: 39a1dff4-9c7d-487b-9917-2f2c8e9572f2
   ws-path: /
-  name: 1.01|US19221023159bfac2a051686
+  name: 1.24|US19221023159bfac2a051686
