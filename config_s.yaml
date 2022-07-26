@@ -1,12 +1,23 @@
 proxies:
-- password: dd04c158-1bac-47cd-99c1-5c4f64796dd5
-  port: 12001
-  server: supernortheast.xn--mesv7f5toqlp.club
-  skip-cert-verify: true
+- name: 5.84| githubcomfreefq  美国CloudFlare公司CDN节点 40
+  server: vfly6.xyz
+  port: 443
+  type: vmess
+  uuid: f3b6fd11-4444-4efa-b19a-13ad22d0a782
+  alterId: 60
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /myblog
+  ws-headers:
+    Host: vfly6.xyz
+- name: 4.41| githubcomfreefq  澳大利亚  30
+  server: jp2.autlinzh.xyz
+  port: 8443
   type: trojan
-  udp: true
-  name: 5.85|JP1721052191584e68e54765
-- name: 4.62| githubcomfreefq  日本东京Linode数据中心 6
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  sni: jp2.autlinzh.xyz
+- name: 4.32| githubcomfreefq  日本东京Linode数据中心 6
   server: supernortheast.xn--mesv7f5toqlp.club
   port: 12002
   type: trojan
@@ -18,74 +29,59 @@ proxies:
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 4.13|SG14319820091445ff041182
-- password: ce433528-39fa-4711-bc0d-25a5b1579574
-  port: 8443
-  server: jp-03.licom.ml
+  name: 4.01|SG14319820091445ff041182
+- name: 3.83| 台湾Hinet  解锁流媒体
+  server: hinet.52147.top
+  port: 443
+  type: trojan
+  password: 0efdcf2f-e274-4305-ac82-b489162ec929
+  sni: www.download.windowsupdate1.com
+- name: 3.25|韩国youtube阿伟科技 2
+  server: chess.magicefire.com
+  port: 443
+  type: vmess
+  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  type: trojan
   udp: true
-  name: 4.12|JP13916268224e68e54760
-- name: 3.29| githubcomfreefq  加拿大  39
-  server: 724tw01.ok365.cyou
+- name: 2.75| 新加坡Az  解锁流媒体
+  server: 20.205.233.12
   port: 443
   type: trojan
-  password: e9192a1e-b73e-4fcb-8a9c-e52b7471d11f
-  sni: 724tw01.ok365.cyou
-- name: 3.00|
-  server: azjp.gd1214b.tech
+  password: 0efdcf2f-e274-4305-ac82-b489162ec929
+  sni: www.download.windowsupdate1.com
+- name: 2.37|新加坡youtube阿伟科技
+  server: vsg1.0bad.com
   port: 443
   type: vmess
-  uuid: 039c184e-9f50-46ec-80a3-c506c78c2a44
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /3f8d7a9ba6?ed=2048
-  ws-headers:
-    Host: azjp.gd1214b.tech
-- name: 2.67|Sharecentrepro
-  server: azhk.sharecentre.xyz
-  port: 58975
-  type: vmess
-  uuid: f0e9aff1-ba59-4af4-f3a1-6d17fffb4aca
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /Sharecentrepro
-  ws-headers:
-    Host: azhk.sharecentre.xyz
-- name: 2.35|新加坡youtube阿伟科技 4
-  server: status.qiscus.com
-  port: 443
-  type: vmess
-  uuid: 283e8955-4a4a-41ca-ac61-3eabf3077a95
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /v2ray
+    path: /chat
     headers:
-      Host: sg2.jupiterv2ray.xyz
+      Host: vsg1.0bad.com
   udp: true
-- name: 2.14| v2rayfreeeuorg  法国  11
-  server: us-05.licom.ml
-  port: 12501
-  type: trojan
-  password: ce433528-39fa-4711-bc0d-25a5b1579574
-  sni: us-05.licom.ml
 - password: cUDgjDkSfn
   port: 8443
   server: 104.129.63.65
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 1.98|US10412963654e68e5471614
+  name: 2.20|US10412963654e68e5471614
+- name: 1.90| v2rayfreeeuorg  法国  11
+  server: us-05.licom.ml
+  port: 12501
+  type: trojan
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  sni: us-05.licom.ml
 - type: vmess
-  name: 1.93|defaultname2
+  name: 1.88|defaultname2
   ws-opts:
     path: /Telegram@BDovo_qaq
     headers:
@@ -97,13 +93,6 @@ proxies:
   cipher: auto
   network: ws
   tls: true
-- password: PHnvNV7HGp
-  port: 17159
-  server: 119.59.116.248
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.91|TH11959116248c676be57920
 - type: trojan
   name: 1.76|USwmt79a148
   server: s2.hazz.win
@@ -111,28 +100,44 @@ proxies:
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   udp: true
   skip-cert-verify: true
-- name: 1.70| githubcomfreefq  日本东京Linode数据中心 62
-  server: in-01.licom.ml
-  port: 8443
+- name: 1.74| githubcomfreefq  美国CloudFlare公司CDN节点 24
+  server: meet.ruangguru.com
+  port: 443
+  type: vmess
+  uuid: 36f20d01-79a1-4370-90a3-d3b536d5fe44
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /d407d4904/
+  ws-headers:
+    Host: gt.setopratama.com
+- name: 1.73| 新加坡GCore  解锁流媒体
+  server: 91.243.81.248
+  port: 443
   type: trojan
-  password: ce433528-39fa-4711-bc0d-25a5b1579574
-  sni: in-01.licom.ml
-- type: trojan
-  name: 1.51|USwmt715a44
-  server: s1.hazz.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 1.50|USwmt715a120
-  server: s3.hazz.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
+  password: 0efdcf2f-e274-4305-ac82-b489162ec929
+  sni: www.download.windowsupdate1.com
+- name: '1.71| 美国  25x  簽到可免費使用  體驗節點  D  官網  ninihaocc  体验节点不等于付费节点效果喔 '
+  server: azgy001.xiba1.xyz
+  port: 20711
+  type: trojan
+  password: 7497242f-3044-3c77-bf48-14bb26c92a83
+  sni: ssl.ssl12.xyz
+- name: 1.65|3.00|
+  server: azjp.gd1214b.tech
+  port: 443
+  type: vmess
+  uuid: 039c184e-9f50-46ec-80a3-c506c78c2a44
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /3f8d7a9ba6?ed=2048
+  ws-headers:
+    Host: azjp.gd1214b.tech
 - type: vmess
-  name: 1.49|德国youtube阿伟科技1
+  name: 1.40|德国youtube阿伟科技1
   ws-opts:
     path: /path/273213070933
     headers:
@@ -144,22 +149,10 @@ proxies:
   cipher: auto
   network: ws
   tls: true
-- name: 1.46| githubcomfreefq  日本东京Linode数据中心 30
-  server: supernortheast.xn--mesv7f5toqlp.club
-  port: 12003
+- password: PHnvNV7HGp
+  port: 17159
+  server: 119.59.116.248
+  skip-cert-verify: true
   type: trojan
-  password: dd04c158-1bac-47cd-99c1-5c4f64796dd5
-  sni: supernortheast.xn--mesv7f5toqlp.club
-- type: vmess
-  name: 1.27|美国youtube阿伟科技2
-  ws-opts:
-    path: /eisasqa
-    headers:
-      host: foxusa.fovi.tk
-  server: cf.fullcloud.tk
-  port: '2053'
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
+  udp: true
+  name: 1.33|TH11959116248c676be57920
