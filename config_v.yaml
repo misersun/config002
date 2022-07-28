@@ -1,13 +1,29 @@
 proxies:
-- name: 3.16|SSRSUBV14付费推荐suoytssrsub
-  server: 168.138.207.66
-  port: 21365
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  network: tcp
+  port: 49840
+  server: 140.83.57.80
+  skip-cert-verify: true
   type: vmess
-  uuid: 905f99b1-e7ba-45e0-ae4d-b0ffdf0ad245
+  uuid: 2969ad1b-9787-4927-94e6-22f597618de0
+  ws-path: /path/120306182525
+  name: 3.91|JP14083578032c877c3407
+- name: 2.69|SSRSUBV26付费推荐suoytssrsub
+  server: 168.138.161.22
+  port: 26039
+  type: vmess
+  uuid: 2b353530-fd72-4079-9a73-e50842f8b39d
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.94|SSRSUBV52付费推荐suoytssrsub
+  network: ws
+  ws-path: /we
+  ws-headers:
+    Host: 168.138.161.22
+- name: 2.42|SSRSUBV52付费推荐suoytssrsub
   server: 138.2.71.189
   port: 11188
   type: vmess
@@ -19,43 +35,15 @@ proxies:
   ws-path: /hello
   ws-headers:
     Host: 138.2.71.189
-- name: 2.91|SSRSUBV75付费推荐suoytssrsub
-  server: 129.150.51.215
-  port: 30839
-  type: vmess
-  uuid: 19bf4866-54ce-4fc9-8903-db7e160c5b81
-  alterId: 0
-  cipher: auto
-  tls: false
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  network: tcp
-  port: 46370
-  server: 138.2.15.23
-  skip-cert-verify: true
-  type: vmess
-  uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c
-  ws-path: /
-  name: 2.80|US13821523cb89751b1495
-- name: 2.74| KR76
+- name: 1.92| JP105
   server: 146.56.110.129
-  port: 53702
+  port: 26396
   type: vmess
-  uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9
+  uuid: f4baed1c-ab86-4b70-caa3-df853467e1bd
   alterId: 0
   cipher: auto
   tls: false
-- name: 2.22|SSRSUBV60付费推荐suoytssrsub
-  server: 146.56.103.73
-  port: 14003
-  type: vmess
-  uuid: b294b95e-71cc-4cbb-cf4b-6b6ad8fb3d00
-  alterId: 64
-  cipher: auto
-  tls: false
-- name: 1.88|SSRSUBV11付费推荐suoytssrsub
+- name: 1.56|SSRSUBV11付费推荐suoytssrsub
   server: 192.210.206.50
   port: 11188
   type: vmess
@@ -67,19 +55,35 @@ proxies:
   ws-path: /hello
   ws-headers:
     Host: 192.210.206.50
-- name: 1.82|SSRSUBV68付费推荐suoytssrsub
-  server: 193.123.67.0
-  port: 11188
+- name: 1.50|SSRSUBV60付费推荐suoytssrsub
+  server: 146.56.103.73
+  port: 14003
   type: vmess
-  uuid: 280683d0-369c-42e9-be4b-e723a73b7785
+  uuid: b294b95e-71cc-4cbb-cf4b-6b6ad8fb3d00
+  alterId: 64
+  cipher: auto
+  tls: false
+- name: 1.33| githubcomfreefq  美国  38
+  server: in.do.cl0udf1are.cf
+  port: 80
+  type: vmess
+  uuid: 389ba207-e732-4c63-b895-5862b3e4dad7
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /hello
+  ws-path: /aries
   ws-headers:
-    Host: 193.123.67.0
-- name: 1.75|SSRSUBV64付费推荐suoytssrsub
+    Host: in.do.cl0udf1are.cf
+- name: 1.21| KR76
+  server: 146.56.110.129
+  port: 53702
+  type: vmess
+  uuid: d0ee8ec0-ef63-41aa-9087-11edf7a978b9
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 1.19|SSRSUBV64付费推荐suoytssrsub
   server: 150.230.197.142
   port: 44634
   type: vmess
@@ -87,23 +91,7 @@ proxies:
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.28|SSRSUBV58付费推荐suoytssrsub
-  server: 45.129.3.222
-  port: 55555
-  type: vmess
-  uuid: 6742be84-a40d-4b91-adda-12dd4e8a94b6
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.20|SSRSUBV22付费推荐suoytssrsub
-  server: 129.146.133.157
-  port: 51009
-  type: vmess
-  uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.16|SSRSUBV09付费推荐suoytssrsub
+- name: 1.01|SSRSUBV09付费推荐suoytssrsub
   server: v116.v2dns.bar
   port: 80
   type: vmess
