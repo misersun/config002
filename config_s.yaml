@@ -1,17 +1,17 @@
 proxies:
-- name: 2.91|
-  server: azjp.gd1214b.tech
+- name: 3.72| US LAX CTG 01 TRtrojan
+  server: us-lax-ctg-01-tr.cdn.savoy.click
+  port: 889
+  type: trojan
+  password: uDTmEAGwuCUZXZvwhWJk
+  sni: cdn.savoy.click
+- name: 2.23| 台湾Hinet  解锁流媒体
+  server: hinet.52147.top
   port: 443
-  type: vmess
-  uuid: 039c184e-9f50-46ec-80a3-c506c78c2a44
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /3f8d7a9ba6?ed=2048
-  ws-headers:
-    Host: azjp.gd1214b.tech
-- name: 2.21|美国youtube阿伟科技 21
+  type: trojan
+  password: 2ad895a4-90e1-460d-9291-bbfb3463190e
+  sni: www.download.windowsupdate1.com
+- name: 1.51|美国youtube阿伟科技 60
   server: cf.fullcloud.tk
   port: 2053
   type: vmess
@@ -26,56 +26,39 @@ proxies:
     headers:
       Host: foxusa.fovi.tk
   udp: true
-- password: 7497242f-3044-3c77-bf48-14bb26c92a83
-  port: 20712
-  server: azgy001.xiba1.xyz
-  skip-cert-verify: true
+- name: 1.27| 新加坡GCore  解锁流媒体
+  server: 91.243.81.248
+  port: 443
   type: trojan
-  udp: true
-  name: 1.75|US20251433132c877c3686
-- password: 3df66137-a428-429c-a858-8b150721b354
-  port: 27956
-  server: us23.567568.ml
+  password: 2ad895a4-90e1-460d-9291-bbfb3463190e
+  sni: www.download.windowsupdate1.com
+- name: 1.27|美国youtube阿伟科技 54
+  server: us-lax-ctg-01-v2.cdn.savoy.click
+  port: 888
+  type: vmess
+  uuid: b536533e-6fa0-4575-a1f8-bbf81a194f44
+  alterId: 0
+  cipher: auto
+  tls: true
   skip-cert-verify: true
-  type: trojan
+  network: ws
+  ws-opts:
+    path: /je5x3pBN1vez3NQudNkB
+    headers:
+      Host: cdn.savoy.click
   udp: true
-  name: 1.69|US1431981442332c877c31276
-- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s3.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.56|US1649015522332c877c31309
-- type: trojan
-  name: 1.41|USwmt79a148
-  server: s2.hazz.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
-- name: 1.22| githubcomfreefq  美国CloudFlare公司CDN节点 42
-  server: 104.16.22.247
+- name: 1.11|英国youtube阿伟科技 2
+  server: powerservice.com
   port: 443
   type: vmess
-  uuid: 0d296784-00c0-4543-9b4d-6679e01ae1b0
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: m3.v2rayfree1.xyz
-- type: vmess
-  name: 1.12|defaultname2
   ws-opts:
-    path: /Telegram@BDovo_qaq
+    path: /sshocean
     headers:
-      host: bissen.114514cn.me
-  server: 104.23.102.53
-  port: 443
-  uuid: 5c84e109-4772-4efb-a1cb-7b09d5a1791e
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
+      Host: uk2.v2rayserv.com
+  udp: true
