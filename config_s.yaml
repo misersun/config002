@@ -11,8 +11,8 @@ proxies:
   type: vmess
   uuid: 42104b60-1988-4063-96ce-5c4b20b53130
   ws-path: /
-  name: 4.89|JP1383208203da35d72c173
-- name: 4.09|印尼youtube阿伟科技
+  name: 4.93|JP1383208203da35d72c173
+- name: 4.10|印尼youtube阿伟科技
   server: api.qiscus.com
   port: 443
   type: vmess
@@ -27,14 +27,13 @@ proxies:
     headers:
       Host: bn-id01.ipv2ray.xyz
   udp: true
-- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hazz.win
-  skip-cert-verify: true
+- name: 4.04| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
+  port: 443
   type: trojan
-  udp: true
-  name: 3.71|SG188166228125a5f8f8e3106
-- name: 3.59|新加坡youtube阿伟科技 13
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: 2.92|新加坡youtube阿伟科技 13
   server: www.fuckdbuy.xyz
   port: 57170
   type: vmess
@@ -44,50 +43,24 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 3.47|新加坡youtube阿伟科技 5
-  server: 20.24.44.110
-  port: 28443
-  type: trojan
-  password: 28cc373c-0da8-45b0-a423-256c72fe232d
-  sni: www.download.windowsupdate1.com
-  skip-cert-verify: true
-  udp: true
-- name: 3.26| HK127
-  server: hgc.sharecentre.xyz
-  port: 120
+- name: 2.75|中国香港youtube阿伟科技
+  server: azhk1.sharecentre.xyz
+  port: 26635
   type: vmess
-  uuid: be84d85b-cefa-3d44-99f8-8dab4da44f2d
+  uuid: 74c466dd-b8c7-4a9e-b46b-3a4cc6889ca4
   alterId: 0
   cipher: auto
   tls: true
-  network: ws
-  ws-path: /nj
-  ws-headers:
-    Host: hgc.sharecentre.xyz
-- password: dbdd4673-06e7-4a53-adb7-aa4232df529e
-  port: 44601
-  server: 223.17.43.52
+  skip-cert-verify: true
+  udp: true
+- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s4.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 3.21|HK223174352da35d72c334
-- name: 2.68|越南youtube阿伟科技 2
-  server: 103.173.255.234
-  port: 28443
-  type: trojan
-  password: 28cc373c-0da8-45b0-a423-256c72fe232d
-  sni: www.download.windowsupdate1.com
-  skip-cert-verify: true
-  udp: true
-- name: 2.28|越南youtube阿伟科技 3
-  server: 103.173.255.127
-  port: 28443
-  type: trojan
-  password: 28cc373c-0da8-45b0-a423-256c72fe232d
-  sni: www.download.windowsupdate1.com
-  skip-cert-verify: true
-  udp: true
-- name: 2.20| v2rayfreeeuorg  俄罗斯  22
+  name: 1.88|SG188166228125a5f8f8e3106
+- name: 1.86| v2rayfreeeuorg  俄罗斯  22
   server: www.olaola.top
   port: 48493
   type: vmess
@@ -95,80 +68,49 @@ proxies:
   alterId: 0
   cipher: auto
   tls: true
-- name: 2.05|俄罗斯youtube阿伟科技 2
-  server: sara.marythunt.xyz
+- type: vmess
+  name: 1.78|CZ捷克
+  server: www.olaola.top
+  port: 8090
+  uuid: 76218523-5eae-49ae-a53a-2f043d5460b9
+  alterId: 64
+  cipher: auto
+  network: tcp
+  tls: true
+- name: 1.54| v2rayfreeeuorg  南非豪登省约翰内斯堡Cloudinnovation数据中心 10
+  server: v2.4.doubledou.win
+  port: 4586
+  type: trojan
+  password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
+  sni: v2.4.doubledou.win
+- password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
+  port: 6520
+  server: los3.doubledou.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.53|US4561184184e27364d31646
+- name: 1.48| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 30
+  server: bw.mario-web.live
   port: 443
   type: vmess
-  uuid: b73c8bba-8fce-48ec-884d-d201424cdd4b
+  uuid: dbea6907-abf2-4cc2-d507-bba7998beb65
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sara.marythunt.xyz
-  udp: true
-- name: 1.94|美国youtube阿伟科技 55
-  server: 45.88.148.234
-  port: 28443
-  type: trojan
-  password: 28cc373c-0da8-45b0-a423-256c72fe232d
-  sni: www.download.windowsupdate1.com
-  skip-cert-verify: true
-  udp: true
-- name: 1.93| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 30
-  server: zero.marythunt.xyz
-  port: 443
+- name: 1.46| githubcomfreefq  美国  54
+  server: emby.metalink.cf
+  port: 36369
   type: vmess
-  uuid: 435b85ba-1c8f-4b54-9f85-6f5a36450c34
+  uuid: 859fd7c6-c76d-4e9b-fa4e-b3b057e4520e
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-path: /
   ws-headers:
-    Host: zero.marythunt.xyz
-- name: 1.86|日本youtube阿伟科技 5
-  server: 203.138.98.199
-  port: 28443
-  type: trojan
-  password: 28cc373c-0da8-45b0-a423-256c72fe232d
-  sni: www.download.windowsupdate1.com
-  skip-cert-verify: true
-  udp: true
-- name: 1.59|美国youtube阿伟科技 52
-  server: 212.90.123.130
-  port: 28443
-  type: trojan
-  password: 28cc373c-0da8-45b0-a423-256c72fe232d
-  sni: www.download.windowsupdate1.com
-  skip-cert-verify: true
-  udp: true
-- name: 1.51|美国youtube阿伟科技 12
-  server: us.dreamlin.xyz
-  port: 12000
-  type: vmess
-  uuid: 55805bea-a238-4011-97cc-43a5126ecc49
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- name: 1.42| githubcomfreefq  美国CloudFlare公司CDN节点 51
-  server: 104.17.22.121
-  port: 443
-  type: vmess
-  uuid: c2b41992-e8eb-40bc-9e2a-4a58c22ab98b
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ray
-  ws-headers:
-    Host: m3.v2rayfree1.xyz
-- name: 1.14|英国youtube阿伟科技
+    Host: emby.metalink.cf
+- name: 1.40|英国youtube阿伟科技
   server: powerservice.com
   port: 443
   type: vmess
@@ -184,9 +126,26 @@ proxies:
       Host: uk2.v2rayserv.com
   udp: true
 - type: trojan
-  name: 1.12|USwmt85a82
-  server: 150.230.23.0
-  port: 44616
-  password: dbdd4673-06e7-4a53-adb7-aa4232df529e
+  name: 1.32|USwmt814a108
+  server: 104.168.144.215
+  port: 443
+  password: srGSKqR5Fv
   udp: true
   skip-cert-verify: true
+- password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de
+  port: 8443
+  server: 20.187.95.117
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.11|HK2018795117e27364d3144
+- name: 1.05|美国youtube阿伟科技 12
+  server: us.dreamlin.xyz
+  port: 12000
+  type: vmess
+  uuid: 55805bea-a238-4011-97cc-43a5126ecc49
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
