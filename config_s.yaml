@@ -1,4 +1,18 @@
 proxies:
+- name: 6.17| githubcomfreefq  香港阿里云 7
+  server: qlhk2.doubledou.win
+  port: 4598
+  type: trojan
+  password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
+  sni: qlhk2.doubledou.win
+- name: 5.29|日本youtube阿伟科技 3
+  server: v2iijjp1.doubledou.win
+  port: 11445
+  type: trojan
+  password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
+  sni: v2iijjp1.doubledou.win
+  skip-cert-verify: true
+  udp: true
 - alterId: 0
   cipher: auto
   h2-opts: {}
@@ -11,29 +25,15 @@ proxies:
   type: vmess
   uuid: 42104b60-1988-4063-96ce-5c4b20b53130
   ws-path: /
-  name: 4.93|JP1383208203da35d72c173
-- name: 4.10|印尼youtube阿伟科技
-  server: api.qiscus.com
-  port: 443
-  type: vmess
-  uuid: 8f9b60e6-1db3-42e4-97b9-1e311f427649
-  alterId: 0
-  cipher: auto
-  tls: true
+  name: 4.77|JP1383208203da35d72c173
+- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s4.hazz.win
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /vmess-ws-makae
-    headers:
-      Host: bn-id01.ipv2ray.xyz
-  udp: true
-- name: 4.04| 甲骨文大阪AMD2trojan
-  server: jgwdb2.gaox.ml
-  port: 443
   type: trojan
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  sni: jgwdb2.gaox.ml
-- name: 2.92|新加坡youtube阿伟科技 13
+  udp: true
+  name: 3.86|SG188166228125a5f8f8e3106
+- name: 3.77|新加坡youtube阿伟科技 13
   server: www.fuckdbuy.xyz
   port: 57170
   type: vmess
@@ -43,74 +43,70 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 2.75|中国香港youtube阿伟科技
-  server: azhk1.sharecentre.xyz
-  port: 26635
-  type: vmess
-  uuid: 74c466dd-b8c7-4a9e-b46b-3a4cc6889ca4
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  udp: true
-- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.88|SG188166228125a5f8f8e3106
-- name: 1.86| v2rayfreeeuorg  俄罗斯  22
-  server: www.olaola.top
-  port: 48493
-  type: vmess
-  uuid: bd8f6efe-b3ce-4bdb-ddf3-957148f25377
-  alterId: 0
-  cipher: auto
-  tls: true
-- type: vmess
-  name: 1.78|CZ捷克
-  server: www.olaola.top
-  port: 8090
-  uuid: 76218523-5eae-49ae-a53a-2f043d5460b9
-  alterId: 64
-  cipher: auto
-  network: tcp
-  tls: true
-- name: 1.54| v2rayfreeeuorg  南非豪登省约翰内斯堡Cloudinnovation数据中心 10
-  server: v2.4.doubledou.win
-  port: 4586
-  type: trojan
-  password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
-  sni: v2.4.doubledou.win
-- password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
-  port: 6520
-  server: los3.doubledou.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.53|US4561184184e27364d31646
-- name: 1.48| githubcomfreefq  美国加利福尼亚州洛杉矶IT7网络 30
-  server: bw.mario-web.live
+- type: trojan
+  name: 2.35|USwmt814a108
+  server: 104.168.144.215
   port: 443
+  password: srGSKqR5Fv
+  udp: true
+  skip-cert-verify: true
+- name: 2.33| v2rayfreeeuorg  日本东京Linode数据中心 65
+  server: in-04.licom.ml
+  port: 40001
+  type: trojan
+  password: ce433528-39fa-4711-bc0d-25a5b1579574
+  sni: in-04.licom.ml
+- name: 1.92| githubcomfreefq  荷兰  30
+  server: ru2.lolvps.xyz
+  port: 50728
   type: vmess
-  uuid: dbea6907-abf2-4cc2-d507-bba7998beb65
-  alterId: 0
-  cipher: auto
-  tls: true
-- name: 1.46| githubcomfreefq  美国  54
-  server: emby.metalink.cf
-  port: 36369
-  type: vmess
-  uuid: 859fd7c6-c76d-4e9b-fa4e-b3b057e4520e
+  uuid: 882fe300-feb5-4e7b-b272-829e791755ee
   alterId: 0
   cipher: auto
   tls: true
   network: ws
-  ws-path: /
+  ws-path: /J56OYLY9
   ws-headers:
-    Host: emby.metalink.cf
-- name: 1.40|英国youtube阿伟科技
+    Host: ru2.lolvps.xyz
+- name: 1.84|俄罗斯youtube阿伟科技解锁流媒体
+  server: ru1.lolvps.xyz
+  port: 50717
+  type: vmess
+  uuid: 2b8e4fc6-0112-4b26-8c17-1bfef9a3ff99
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /6129CFHR
+    headers:
+      Host: ru1.lolvps.xyz
+  udp: true
+- name: 1.64|荷兰youtube阿伟科技
+  server: helan.doubledou.win
+  port: 4586
+  type: trojan
+  password: 7484d7c8-b010-373e-9c2a-2b9d20f8c963
+  sni: helan.doubledou.win
+  skip-cert-verify: true
+  udp: true
+- name: 1.39|SSRSUBV34付费推荐suoytssrsub
+  server: emby.metalink.cf
+  port: 8096
+  type: vmess
+  uuid: b8f9b514-4835-493b-e9a0-c135bbeb764b
+  alterId: 0
+  cipher: auto
+  tls: true
+- password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de
+  port: 8443
+  server: 20.187.95.117
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.36|HK2018795117e27364d3144
+- name: 1.19|英国youtube阿伟科技
   server: powerservice.com
   port: 443
   type: vmess
@@ -125,27 +121,45 @@ proxies:
     headers:
       Host: uk2.v2rayserv.com
   udp: true
-- type: trojan
-  name: 1.32|USwmt814a108
-  server: 104.168.144.215
+- name: 1.18| 甲骨文大阪AMD2trojan
+  server: jgwdb2.gaox.ml
   port: 443
-  password: srGSKqR5Fv
-  udp: true
-  skip-cert-verify: true
-- password: 190e2a95-63f0-4a9c-9aef-9f2ec6e542de
-  port: 8443
-  server: 20.187.95.117
-  skip-cert-verify: true
   type: trojan
-  udp: true
-  name: 1.11|HK2018795117e27364d3144
-- name: 1.05|美国youtube阿伟科技 12
-  server: us.dreamlin.xyz
-  port: 12000
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  sni: jgwdb2.gaox.ml
+- name: 1.16| githubcomfreefq  新加坡Amazon数据中心 13
+  server: simpang.freetrade.link
+  port: 443
+  type: trojan
+  password: XEyN0OZ28xxCDO7C83DeAa3YcSjYKTgFA5n9IRpFwuB3qSz4aZClSapy3eRl6D
+  sni: simpang.freetrade.link
+- name: 1.04| githubcomfreefq  美国  54
+  server: emby.metalink.cf
+  port: 36369
   type: vmess
-  uuid: 55805bea-a238-4011-97cc-43a5126ecc49
+  uuid: 859fd7c6-c76d-4e9b-fa4e-b3b057e4520e
   alterId: 0
   cipher: auto
   tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: emby.metalink.cf
+- name: 1.04|中国香港youtube阿伟科技
+  server: azhk1.sharecentre.xyz
+  port: 26635
+  type: vmess
+  uuid: 74c466dd-b8c7-4a9e-b46b-3a4cc6889ca4
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  udp: true
+- name: 1.01|美国youtube阿伟科技
+  server: fhcamd2.gaox.ml
+  port: 443
+  type: trojan
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  sni: fhcamd2.gaox.ml
   skip-cert-verify: true
   udp: true
