@@ -1,62 +1,19 @@
 proxies:
-- name: 6.80| 直连丝袜奶茶Hkt
-  server: hkt.403w.club
-  port: 11301
-  type: trojan
-  password: fbda7e99-943d-4c81-811a-019acb08c1af
-  sni: hkt.403w.club
-- name: 6.70| 香港HKIX
-  server: 103.135.102.156
-  port: 28443
-  type: trojan
-  password: 1a263611-435a-4dab-9992-d52fd288b334
-  sni: www.download.windowsupdate1.com
-- name: 6.61| US SJC CTG 02 TRtrojan
-  server: us-sjc-ctg-02-tr.node.inforun.work
-  port: 889
-  type: trojan
-  password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
-  sni: cdn.savoy.click
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  network: tcp
-  port: 43298
-  server: 138.3.208.203
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 42104b60-1988-4063-96ce-5c4b20b53130
-  ws-path: /
-  name: 4.56|JP1383208203da35d72c173
-- name: 4.26| 新加坡²
-  server: awssg2.crunode.top
-  port: 1400
-  type: trojan
-  password: 296ca33b-a840-45c0-a0cc-460c5dd45ae3
-  sni: awssg2.crunode.top
 - password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s4.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 3.00|SG188166228125a5f8f8e3106
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  network: tcp
-  port: 443
-  server: chess.magicefire.com
+  name: 3.79|SG188166228125a5f8f8e3106
+- name: 3.72| 大萝卜鸡新加坡
+  server: s2.hazz.win
+  port: 12340
+  type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  sni: static.dingtalk.com
   skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
-  ws-path: /
-  name: 2.93|KR152672132420eed41b21526
-- name: 2.54|新加坡youtube阿伟科技 13
+- name: 2.32|新加坡youtube阿伟科技 13
   server: www.fuckdbuy.xyz
   port: 57170
   type: vmess
@@ -66,42 +23,20 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 2.47| 大萝卜鸡新加坡
-  server: s2.hazz.win
-  port: 12340
-  type: trojan
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  sni: static.dingtalk.com
-  skip-cert-verify: true
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  network: tcp
-  port: 30803
-  server: lz717.aijiasu.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 5833a0df-fa04-446b-d6cf-00ab174097df
-  ws-path: /
-  name: 2.26|US199191111810eed41b21793
-- alterId: 0
-  cipher: auto
-  h2-opts: {}
-  http-opts: {}
-  network: ws
+- type: vmess
+  name: 1.86|SG新加坡
+  ws-opts:
+    path: /chat
+    headers:
+      host: vsg1.0bad.com
+  server: vsg1.0bad.com
   port: 443
-  server: erqi.live
-  skip-cert-verify: true
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  network: ws
   tls: true
-  type: vmess
-  uuid: 7caa244f-37f1-4b0c-cc12-0c2d392d4f6a
-  ws-headers:
-    HOST: erqi.live
-  ws-path: /
-  name: 1.84|US1726718590dcb7bcf61545
-- name: 1.50|美国youtube阿伟科技
+- name: 1.51|美国youtube阿伟科技
   server: fhcamd2.gaox.ml
   port: 443
   type: trojan
@@ -109,87 +44,23 @@ proxies:
   sni: fhcamd2.gaox.ml
   skip-cert-verify: true
   udp: true
-- name: 1.39|美国youtube阿伟科技 9
-  server: 64.112.42.73
-  port: 443
-  type: vmess
-  uuid: 4946f776-0af3-49f3-acad-d157475d253e
-  alterId: 0
-  cipher: auto
-  tls: true
+- name: 1.44| 荷兰
+  server: hl.jiashumao.net
+  port: 45519
+  type: trojan
+  password: 9d846d39-2f5e-3fae-8ad7-239cedc56048
+  sni: hl.jiashumao.net
+- password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s3.hazz.win
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /P0S5U7NK
-    headers:
-      Host: www.shunxin.ml
+  type: trojan
   udp: true
-- name: 1.36| v2rayfreeeuorg  美国CloudFlare公司CDN节点 53
-  server: 104.23.102.53
+  name: 1.43|US13718411638c3ad6bc21638
+- password: srGSKqR5Fv
   port: 443
-  type: vmess
-  uuid: 5c84e109-4772-4efb-a1cb-7b09d5a1791e
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /Telegram@BDovo_qaq
-  ws-headers:
-    Host: bissen.114514cn.me
-- name: 1.34|英国youtube阿伟科技
-  server: powerservice.com
-  port: 443
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 0
-  cipher: auto
-  tls: true
+  server: 104.168.144.215
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: uk2.v2rayserv.com
+  type: trojan
   udp: true
-- name: 1.26|美国youtube阿伟科技 21
-  server: us-sjc-ctg-02-v2.node.inforun.work
-  port: 888
-  type: vmess
-  uuid: 4d578f9e-6af4-4d29-966f-88c061d075b7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /je5x3pBN1vez3NQudNkB
-    headers:
-      Host: cdn.savoy.click
-  udp: true
-- name: 1.25|美国youtube阿伟科技 15
-  server: cf.fullcloud.tk
-  port: 2053
-  type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /eisasqa
-    headers:
-      Host: foxusa.fovi.tk
-  udp: true
-- name: 1.07| githubcomfreefq  美国CloudFlare公司CDN节点 30
-  server: cdn.linil.ml
-  port: 443
-  type: vmess
-  uuid: 2c7da08b-b0a0-4544-a4d9-fd75515cc373
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /ukqzvws
-  ws-headers:
-    Host: eu.ratx.tech
+  name: 1.20|US104168144215c3ad6bc2110
