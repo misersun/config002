@@ -1,18 +1,17 @@
 proxies:
-- name: 6.41| US SJC CTG 02 TRtrojan
+- name: 5.19| US SJC CTG 02 TRtrojan
   server: us-sjc-ctg-02-tr.node.inforun.work
   port: 889
   type: trojan
   password: kFyvvCcvMXQKFcJZWuxcdTZOFummlVbf
   sni: cdn.savoy.click
-- type: trojan
-  name: 4.51|CNwmt818a6
-  server: cm.spacez.cloud
-  port: 30003
-  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
-  udp: true
-  skip-cert-verify: true
-- name: 3.68|新加坡youtube阿伟科技 13
+- name: 5.10| v2rayfreeeuorg  加拿大  12
+  server: 727tw01.ok365.cyou
+  port: 443
+  type: trojan
+  password: 10ce7093-cdfb-4839-a21e-05c818a160d8
+  sni: 727tw01.ok365.cyou
+- name: 3.63|新加坡youtube阿伟科技 13
   server: www.fuckdbuy.xyz
   port: 57170
   type: vmess
@@ -22,38 +21,44 @@ proxies:
   tls: true
   skip-cert-verify: true
   udp: true
-- name: 3.20|印度youtube阿伟科技 2
-  server: cloudflare.catcdndev.tk
-  port: 443
+- alterId: 0
+  cipher: auto
+  h2-opts: {}
+  http-opts: {}
+  network: tcp
+  port: 31848
+  server: yytok.wvs22.buzz
+  skip-cert-verify: true
+  tls: true
   type: vmess
-  uuid: f977588f-0890-4fd7-9c36-4f13cd20527f
+  uuid: b88dd566-4fb4-42d0-bb79-7f06638d4d61
+  ws-path: /
+  name: 1.97|ID821564803c52d214220
+- name: 1.56| 甲骨文凤凰城AMD2trojan
+  server: fhcamd2.gaox.ml
+  port: 443
+  type: trojan
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  sni: fhcamd2.gaox.ml
+- password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  port: 443
+  server: jgwxn4.gaox.ml
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  name: 1.44|AU1526798303c52d2142
+- name: 1.44|美国youtube阿伟科技 10
+  server: s337.s2022.buzz
+  port: 40994
+  type: vmess
+  uuid: 935b6c3c-ca6c-3acc-b18f-87b9787160ce
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /vido/4k
+    path: /panelmyadmin
     headers:
-      Host: in-01-dev.lilicloud.cf
+      Host: s337.s2022.buzz
   udp: true
-- type: trojan
-  name: 1.54|CNwmt818a12
-  server: iiiieeepppplll.zhengzhongfeizhu.xyz
-  port: 34004
-  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
-  udp: true
-  skip-cert-verify: true
-- password: 84773125-8f79-481c-a80b-e1f4aad86850
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  name: 1.26|KR146561762393f829198171
-- name: 1.20| v2rayfreeeuorg  俄罗斯新西伯利亚JustHost 31
-  server: ru.hootfun.top
-  port: 45112
-  type: trojan
-  password: 935f34c1-1713-402c-bfe1-f051cf49d370
-  sni: ru.hootfun.top

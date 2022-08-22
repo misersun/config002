@@ -1,5 +1,35 @@
 proxies:
-- name: 5.48|中国香港youtube阿伟科技 8
+- name: 4.40|SSRSUBV13付费推荐suoytssrsub
+  server: blogs.microsoft.com
+  port: 80
+  type: vmess
+  uuid: 15df1f53-9101-404b-dd52-7774cdb3c218
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: net2.xtls.my.id
+- name: 3.47|日本youtube阿伟科技 5
+  server: 155.248.170.1
+  port: 80
+  type: vmess
+  uuid: 5bf5388b-a8e2-4dfe-a33a-d9d5f524fcbe
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 155.248.170.1
+  udp: true
+- name: 2.46|中国香港youtube阿伟科技 8
   server: 16.162.100.9
   port: 6688
   type: vmess
@@ -9,15 +39,15 @@ proxies:
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 4.34| v2rayfreeeuorg  香港Amazon数据中心 17
-  server: 18.167.20.169
-  port: 8080
+- name: 1.84|SSRSUBV15付费推荐suoytssrsub
+  server: online.uc.edu
+  port: 80
   type: vmess
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  uuid: e5d7063b-afbc-47bb-a913-e459a7714830
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /
+  ws-path: /vpnneo
   ws-headers:
-    Host: 18.167.20.169
+    Host: hurricane3.nextvpn.cc
