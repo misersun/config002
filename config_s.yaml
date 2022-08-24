@@ -1,59 +1,22 @@
 proxies:
-- type: trojan
-  name: 3.85|CNwmt821p3
-  server: cm.spacez.cloud
-  port: 30003
-  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 3.71|SGwmt821p28
-  server: s4.hazz.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 2.65|KRwmt821p10
-  server: kr1.api-aws.com
-  port: 443
-  password: 3753719b-eb37-4f34-ab60-ae3a70486b27
-  udp: true
-  skip-cert-verify: true
+- name: 5.17| 香港HGC直连1x
+  server: 210.0.158.220
+  port: 28443
+  type: trojan
+  password: 410a6fdc-94fe-42df-ae29-d1350c5763e1
+  sni: zaelot.cc
 - password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: 12340
   server: s3.hazz.win
   skip-cert-verify: true
   type: trojan
   udp: true
-  name: 1.68|US1431981527ff357e22363
-- alterId: 4
-  cipher: auto
-  network: ws
-  port: 443
-  server: germany-dusseldorf.mah3Hoet.com
-  skip-cert-verify: true
-  tls: true
+  name: 1.72|US1431981527ff357e22363
+- name: 1.26| v2rayfreeeuorg  中国阿里云 27
+  server: yytok.wvs22.buzz
+  port: 31848
   type: vmess
-  udp: true
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-opts:
-    headers:
-      Host: germany-dusseldorf.mah3Hoet.com
-    path: /ws
-  name: 1.17|DE14604287ff357e2220
-- alterId: 0
+  uuid: b88dd566-4fb4-42d0-bb79-7f06638d4d61
+  alterId: 0
   cipher: auto
-  network: ws
-  port: 443
-  server: blogs.microsoft.com
-  skip-cert-verify: true
   tls: true
-  type: vmess
-  udp: true
-  uuid: 3890505d-a496-4418-91a1-742faa2b0ac7
-  ws-opts:
-    headers:
-      Host: biznet3.nextvpn.cc
-    path: /vpnneo
-  name: 1.12|US14119321321ff357e2251
