@@ -1,60 +1,5 @@
 proxies:
-- name: 5.33|中国台湾youtube阿伟科技 6
-  server: tw.tcpbbr.net
-  port: 443
-  type: trojan
-  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
-  sni: www.tcpbbr.net
-  skip-cert-verify: true
-  udp: true
-- name: 3.71| 其他 14
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: 12340
-  server: s4.hazz.win
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- type: vmess
-  name: 1.91|KRwmt826a64
-  server: chess.magicefire.com
-  port: '443'
-  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
-  alterId: '0'
-  cipher: auto
-  network: tcp
-  tls: true
-- name: 1.83| 美国 2
-  server: s3.hazz.win
-  type: trojan
-  country: US
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: 1.68|US75
-  server: us.tcpbbr.net
-  port: 443
-  type: trojan
-  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
-  skip-cert-verify: true
-  udp: true
-- name: 1.64|中国香港youtube阿伟科技 2
-  server: mshk1.369boy.com
-  port: 23511
-  type: trojan
-  password: 0bdf3a1f-c046-41c2-a7e5-ed92b8155997
-  sni: mshk1.369boy.com
-  skip-cert-verify: true
-  udp: true
-- name: 1.51| KRhttps1808ga  Node167
-  server: m4.40010010.xyz
-  port: 37121
-  type: vmess
-  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
-  alterId: 0
-  cipher: auto
-  tls: true
-- name: 1.17|日本youtube阿伟科技 9
+- name: 3.32|日本youtube阿伟科技 9
   server: vultr1.755657.xyz
   port: 8443
   type: vmess
@@ -69,28 +14,38 @@ proxies:
     grpc-mode: gun
     grpc-service-name: dhtfvbhfeetti
   udp: true
-- name: 1.11|RelayGBGB48
-  server: vuk2.0bad.com
+- name: 2.96| KRhttps1808ga  Node167
+  server: m4.40010010.xyz
+  port: 37121
   type: vmess
-  country: GB
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
   alterId: 0
   cipher: auto
+  tls: true
+- name: 1.36| 圣何塞丨不限流量
+  server: 137.175.14.208
+  port: 443
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: true
   network: ws
-  ws-path: /chat
-  servername: vuk2.0bad.com
+  ws-path: /path/090124272135
   ws-headers:
-    HOST: vuk2.0bad.com
-  http-opts: {}
-  h2-opts: {}
+    Host: www.13655303.xyz
+- name: 1.12|保加利亚youtube阿伟科技 2
+  server: fdhg.755657.xyz
+  port: 8443
+  type: vmess
+  uuid: 5f056baf-8322-4113-8a55-4d456a02ce93
+  alterId: 0
+  cipher: auto
   tls: true
   skip-cert-verify: true
-- name: 1.03|日本youtube阿伟科技 3
-  server: 823jp.tfzhc.top
-  port: 443
-  type: trojan
-  password: 9f14e025-a479-4de0-9f00-c9eb2f69217c
-  sni: 823jp.tfzhc.top
-  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /java/18/latest/
+    headers:
+      Host: fdhg.755657.xyz
   udp: true
