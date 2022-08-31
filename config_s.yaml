@@ -1,21 +1,13 @@
 proxies:
-- name: 5.71|RelayCNHK16
-  server: iiiieeepppplll.zhengzhongfeizhu.xyz
+- name: 3.50| CN87 TGpeekfun
+  server: cm.spacez.cloud
+  port: 30000
   type: trojan
-  country: CN
-  port: 34001
-  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
+  country: ' CN'
+  password: c9a3a61d-5d49-4158-9e60-6fa32684b122
   skip-cert-verify: true
   udp: true
-- name: 4.29|RelayCNHK14
-  server: iiiieeepppplll.zhengzhongfeizhu.xyz
-  type: trojan
-  country: CN
-  port: 34003
-  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
-  skip-cert-verify: true
-  udp: true
-- name: 3.34|新加坡youtube阿伟科技 6
+- name: 3.30|新加坡youtube阿伟科技 6
   server: awssg4.naixii.top
   port: 443
   type: vmess
@@ -30,102 +22,70 @@ proxies:
     headers:
       Host: awssg4.naixii.top
   udp: true
-- name: 2.85|3509Mb
-  server: 825hk09.fx6688.top
-  port: 4433
+- name: 2.41|美国youtube阿伟科技 9
+  server: d200.clco.in
+  port: 24919
   type: vmess
-  uuid: 2cc10f9c-fb02-3e45-b619-c3b98cde912a
-  alterId: 2
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: 825hk09.fx6688.top
-- name: 2.17| 直连香港PQ高速
-  server: tr04.kaochangonline.online
-  port: 443
-  type: trojan
-  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
-  sni: tr04.kaochangonline.online
-  skip-cert-verify: true
-- name: 1.92|1319Mb
-  server: 104.23.102.53
-  port: 443
-  type: vmess
-  uuid: 5c84e109-4772-4efb-a1cb-7b09d5a1791e
+  uuid: c83c011c-dd21-4065-fd26-a51de743be8a
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /Telegram@BDovo_qaq
+    path: /
     headers:
-      Host: bissen.114514cn.me
-- name: 1.85|CN3
-  server: hk-hkg-hgc-a-v2.node.inforun.work
-  port: 888
-  type: vmess
-  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /je5x3pBN1vez3NQudNkB
-  ws-headers:
-    HOST: cdn.savoy.click
-  skip-cert-verify: true
-  servername: cdn.savoy.click
-- type: trojan
-  name: 1.66|SGwmt829p18
-  server: 825hk01.tfzhc.top
-  port: 443
-  password: 2e66a51c-d393-4c9a-800a-93e58de44c4d
+      Host: d200.clco.in
   udp: true
-  skip-cert-verify: true
-  sni: 825hk01.tfzhc.top
-- name: 1.58| 直连莫斯科200M
+- name: 2.40| 直连莫斯科200M
   server: transfer02.kaochangonline.online
   port: 443
   type: trojan
   password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
   sni: transfer02.kaochangonline.online
   skip-cert-verify: true
-- name: 1.56|RelayJPJP44
-  server: vjp3.0bad.com
+- name: 2.29|美国youtube阿伟科技 10
+  server: d200.clco.in
+  port: 36846
   type: vmess
-  country: JP
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  uuid: 8e6afb36-e9a7-44d3-d7d7-ca1443875acf
   alterId: 0
   cipher: auto
+  tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /chat
-  servername: vjp3.0bad.com
-  ws-headers:
-    HOST: vjp3.0bad.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: 1.38| 美国 2
-  server: s3.hazz.win
-  type: trojan
-  country: US
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
+  ws-opts:
+    path: /
+    headers:
+      Host: d200.clco.in
   udp: true
-- type: vmess
-  name: 1.01|KR韩国US美国
-  server: chess.magicefire.com
+- name: 1.35|英国youtube阿伟科技 4
+  server: powerservice.com
   port: 443
-  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
+  type: vmess
+  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
   alterId: 0
   cipher: auto
-  network: tcp
   tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: uk2.v2rayserv.com
+  udp: true
+- name: 1.31|美国youtube阿伟科技 3
+  server: free.us2.ecydy.com
+  port: 443
+  type: vmess
+  uuid: c4831574-6b86-332e-a229-4d47812b0bb4
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ecy
+    headers:
+      Host: free.us2.ecydy.com
+  udp: true
