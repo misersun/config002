@@ -1,5 +1,29 @@
 proxies:
-- name: 3.50| CN87 TGpeekfun
+- name: 5.67| HK97 TGpeekfun
+  server: hk.vc3.hyperlinkvpn.xyz
+  port: 52000
+  type: trojan
+  country: ' HK'
+  password: 0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8
+  skip-cert-verify: true
+  udp: true
+- name: 5.28|香港youtube阿伟科技 6
+  server: api.hostyunhk1.frydipxian.top
+  port: 444
+  type: trojan
+  password: 97ea5c08e262acf366b3b973b91960cb
+  sni: api.hostyunhk1.frydipxian.top
+  skip-cert-verify: true
+  udp: true
+- name: 3.69|新加坡youtube阿伟科技 20
+  server: sg1.crunode.top
+  port: 22000
+  type: trojan
+  password: aaa0493e-83d5-3a04-9d58-6ab12eea07b4
+  sni: sg1.crunode.top
+  skip-cert-verify: true
+  udp: true
+- name: 2.69| CN87 TGpeekfun
   server: cm.spacez.cloud
   port: 30000
   type: trojan
@@ -7,59 +31,75 @@ proxies:
   password: c9a3a61d-5d49-4158-9e60-6fa32684b122
   skip-cert-verify: true
   udp: true
-- name: 3.30|新加坡youtube阿伟科技 6
-  server: awssg4.naixii.top
-  port: 443
-  type: vmess
-  uuid: 153bceef-4839-4f2d-86ce-93f74bca5cae
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /c5f2c2f29cfac0/
-    headers:
-      Host: awssg4.naixii.top
-  udp: true
-- name: 2.41|美国youtube阿伟科技 9
-  server: d200.clco.in
-  port: 24919
-  type: vmess
-  uuid: c83c011c-dd21-4065-fd26-a51de743be8a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: d200.clco.in
-  udp: true
-- name: 2.40| 直连莫斯科200M
-  server: transfer02.kaochangonline.online
-  port: 443
+- name: 2.47| HK95 TGpeekfun
+  server: 103.103.245.125
+  port: 50418
   type: trojan
-  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
-  sni: transfer02.kaochangonline.online
+  country: ' HK'
+  password: a70b39d1-62ea-4d9e-b681-9c5408352234
   skip-cert-verify: true
-- name: 2.29|美国youtube阿伟科技 10
-  server: d200.clco.in
-  port: 36846
+  udp: true
+- name: 2.45|新加坡youtube阿伟科技 8
+  server: ttt3.swiftfalcon.app
+  port: 8443
+  type: trojan
+  password: coldwar2
+  skip-cert-verify: true
+  udp: true
+- name: 2.24|美国youtube阿伟科技 6
+  server: arm.ptuu.gq
+  port: 443
   type: vmess
-  uuid: 8e6afb36-e9a7-44d3-d7d7-ca1443875acf
+  uuid: 9821b817-5cb0-4af3-a3e3-7c137850935d
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /123
     headers:
-      Host: d200.clco.in
+      Host: arm.ptuu.gq
   udp: true
-- name: 1.35|英国youtube阿伟科技 4
+- name: 2.17|美国youtube阿伟科技 16
+  server: gia.whatsteewrong.top
+  port: 443
+  type: vmess
+  uuid: ca3f995f-dc0d-4b40-8c9b-d52f474d974c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /d9f46d886c836/
+    headers:
+      Host: gia.whatsteewrong.top
+  udp: true
+- name: 1.85|美国youtube阿伟科技 3
+  server: free.us2.ecydy.com
+  port: 443
+  type: vmess
+  uuid: c4831574-6b86-332e-a229-4d47812b0bb4
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ecy
+    headers:
+      Host: free.us2.ecydy.com
+  udp: true
+- name: 1.43| githubcomfreefq  北美地区  12
+  server: rbobo.tk
+  port: 39346
+  type: vmess
+  uuid: 787e09ce-f999-478a-ee3e-04729faf292e
+  alterId: 0
+  cipher: auto
+  tls: true
+- name: 1.25|英国youtube阿伟科技 4
   server: powerservice.com
   port: 443
   type: vmess
@@ -74,18 +114,72 @@ proxies:
     headers:
       Host: uk2.v2rayserv.com
   udp: true
-- name: 1.31|美国youtube阿伟科技 3
-  server: free.us2.ecydy.com
+- name: 1.24|日本youtube阿伟科技 12
+  server: jparm.fineyoo.cf
   port: 443
   type: vmess
-  uuid: c4831574-6b86-332e-a229-4d47812b0bb4
+  uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /ecy
+    path: /123
     headers:
-      Host: free.us2.ecydy.com
+      Host: jparm.fineyoo.cf
+  udp: true
+- name: 1.23|韩国youtube阿伟科技 4
+  server: amdkr.ptuu.ga
+  port: 443
+  type: vmess
+  uuid: a612b67f-a79b-4a71-a82b-a46906752023
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /408
+    headers:
+      Host: amdkr.ptuu.ga
+  udp: true
+- name: 1.22|日本youtube阿伟科技 10
+  server: api.hostyunjp.frydipxian.top
+  port: 9018
+  type: trojan
+  password: 97ea5c08e262acf366b3b973b91960cb
+  sni: api.hostyunjp.frydipxian.top
+  skip-cert-verify: true
+  udp: true
+- name: 1.13|美国youtube阿伟科技 2
+  server: ttt1.swiftfalcon.app
+  port: 8443
+  type: trojan
+  password: coldwar2
+  sni: ttt1.swiftfalcon.app
+  skip-cert-verify: true
+  udp: true
+- name: 1.13|日本youtube阿伟科技 10
+  server: jpamd.fineyoo.cf
+  port: 443
+  type: vmess
+  uuid: 9bdac558-1d2b-425b-f0e7-445d38be025e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /123
+    headers:
+      Host: jpamd.fineyoo.cf
+  udp: true
+- name: 1.13|日本youtube阿伟科技 9
+  server: 823jp.tfzhc.top
+  port: 443
+  type: trojan
+  password: 5b9e5277-9b8e-4402-a6d2-fd3001e273dd
+  sni: 823jp.tfzhc.top
+  skip-cert-verify: true
   udp: true
