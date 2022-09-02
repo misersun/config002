@@ -1,5 +1,17 @@
 proxies:
-- name: 3.35|日本youtube阿伟科技 2
+- name: 6.26| githubcomfreefq  香港Amazon数据中心 15
+  server: 18.167.94.243
+  port: 36831
+  type: vmess
+  uuid: 5b979e45-2697-49ce-8903-70a1c5787702
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 18.167.94.243
+- name: 4.84|日本youtube阿伟科技 2
   server: 140.238.41.248
   port: 80
   type: vmess
@@ -17,50 +29,83 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- name: 2.25|美国youtube阿伟科技 16
-  server: 152.70.241.18
-  port: 26676
+- type: vmess
+  name: 4.49|油管全网最强白嫖21
+  ws-opts:
+    path: /live
+    headers:
+      host: cctv.com
+  server: jp01.henet.cyou
+  port: '20000'
+  uuid: b88849e9-3f10-4494-a785-828b1da5ecbb
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: 4.48|油管全网最强白嫖22
+  ws-opts:
+    path: /live
+    headers:
+      host: cctv.com
+  server: jp02.henet.cyou
+  port: '20000'
+  uuid: b88849e9-3f10-4494-a785-828b1da5ecbb
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: 3.84|油管全网最强白嫖23
+  ws-opts:
+    path: /live
+    headers:
+      host: cctv.com
+  server: hk01.henet.cyou
+  port: '20000'
+  uuid: b88849e9-3f10-4494-a785-828b1da5ecbb
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: 3.47|油管全网最强白嫖16
+  ws-opts:
+    path: /live
+    headers:
+      host: cctv.com
+  server: sg01.henet.cyou
+  port: '20000'
+  uuid: b88849e9-3f10-4494-a785-828b1da5ecbb
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 3.00|2790Mb
+  server: jp02-vm0.entry.rwesdhytjuftyhdafsdgfrh.club
+  port: 446
   type: vmess
-  uuid: ecd274c0-175d-45f7-8276-a3da93786632
+  uuid: 42d6267b-e043-3bed-900b-b22729a87c56
+  alterId: 1
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /hls/cctv5phd.m3u8
+    headers:
+      Host: jp02-vm0.entry.rwesdhytjuftyhdafsdgfrh.club
+- name: 2.88|韩国youtube阿伟科技 3
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
   udp: true
-- name: 2.16|日
-  server: 40.115.212.243
-  port: 33004
-  type: vmess
-  uuid: 1ce245b5-6a47-44e3-9dc3-3cdddecdab38
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.08|2497Mb
-  server: 129.154.57.134
-  port: 26282
-  type: vmess
-  uuid: cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.99| githubcomfreefq  美国  11
-  server: do2.hgdbk.ga
+- name: 2.85|美国youtube阿伟科技 20
+  server: 152.67.218.38
   port: 443
   type: vmess
-  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: do2.hgdbk.ga
-- name: 1.70|香港youtube阿伟科技 5
-  server: 18.167.20.169
-  port: 8080
-  type: vmess
-  uuid: e1f97064-adcd-40d3-91a0-3f0bea035fca
+  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
   alterId: 0
   cipher: auto
   tls: false
@@ -69,44 +114,18 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: YouTube-aweikeji
+      Host: 152.67.218.38
   udp: true
-- name: 1.61| githubcomfreefq  美国亚利桑那州凤凰城Oracle云计算数据中心 8
-  server: 129.146.84.253
-  port: 26875
+- name: 2.75|1919Mb
+  server: 192.161.164.156
+  port: 40338
   type: vmess
-  uuid: bb240cb0-a6d2-4b8e-ee85-a976e48ac241
+  uuid: fe20f87d-4e11-4c2a-af6e-5b8bd9927092
   alterId: 0
   cipher: auto
   tls: false
-- name: 1.52|美国youtube阿伟科技 17
-  server: jgwus.jgwaad.tk
-  port: 443
-  type: vmess
-  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13/hd.m3u8
-    headers:
-      Host: jgwus.jgwaad.tk
-  udp: true
-- name: 1.51|SSRSUBV24付费推荐suoytssrsub
-  server: 141.193.213.21
-  port: 80
-  type: vmess
-  uuid: a55b7d77-d251-4e31-a76e-22d09ac69eb0
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /vpnneo
-  ws-headers:
-    Host: sanggoro6.nextvpn.cc
-- name: 1.48|俄罗斯youtube阿伟科技 3
+  skip-cert-verify: false
+- name: 2.58|俄罗斯youtube阿伟科技 3
   server: els.tdzjing.xyz
   port: 80
   type: vmess
@@ -124,30 +143,39 @@ proxies:
       Host:
       - els.tdzjing.xyz
   udp: true
-- name: 1.42|US62
-  server: 147.139.7.71
-  port: 888
+- type: vmess
+  name: 2.32|HKwmt91pa78
+  server: zhenye.zhenyejd.net
+  port: '10003'
+  uuid: 9a5d43aa-29ce-466f-8297-05d2661e07cf
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 2.27|日本youtube阿伟科技 4
+  server: 20.89.43.106
+  port: 80
   type: vmess
-  uuid: 08d6729d-830e-4341-df76-62d3d12e75e8
+  uuid: f3cd0282-a0a3-47c4-9e81-87b39b46f58d
   alterId: 0
   cipher: auto
-  network: ws
-  http-opts: {}
-  ws-path: /
-  ws-headers:
-    HOST: 147.139.7.71
+  tls: false
   skip-cert-verify: true
-  servername: 147.139.7.71
-- name: 1.40|2612Mb
-  server: 216.127.169.211
-  port: 50438
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.78|1078Mb
+  server: 107.173.250.129
+  port: 42713
   type: vmess
-  uuid: 9e980ce6-6b1c-49c6-d0be-6a0f7ab961e3
+  uuid: 4012d932-93fe-4828-dcc9-331c871490c6
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 1.24| githubcomfreefq  美国弗吉尼亚州阿什本Oracle云计算数据中心 22
+- name: 1.70| githubcomfreefq  美国弗吉尼亚州阿什本Oracle云计算数据中心 22
   server: small.rome.tk
   port: 19088
   type: vmess
@@ -159,7 +187,104 @@ proxies:
   ws-path: /
   ws-headers:
     Host: small.rome.tk
-- name: 1.20|澳大利亚youtube阿伟科技 2
+- name: 1.65|1085Mb
+  server: 107.173.250.129
+  port: 25881
+  type: vmess
+  uuid: 68f8ed9c-9ac3-427a-b16c-6f1d7fb7f12d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.58| githubcomfreefq  美国  11
+  server: do2.hgdbk.ga
+  port: 443
+  type: vmess
+  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /cctv13/hd.m3u8
+  ws-headers:
+    Host: do2.hgdbk.ga
+- name: 1.52|HU489
+  server: 185.225.69.134
+  type: vmess
+  country: HU
+  port: 45081
+  uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: 1.47|香港youtube阿伟科技 3
+  server: 20.239.195.254
+  port: 80
+  type: vmess
+  uuid: 498817b2-d42e-4083-b193-ddfe22cf6887
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.35|日本youtube阿伟科技 16
+  server: 155.248.170.1
+  port: 80
+  type: vmess
+  uuid: 5bf5388b-a8e2-4dfe-a33a-d9d5f524fcbe
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - YouTube-aweikeji
+  udp: true
+- name: 1.20|加拿大youtube阿伟科技
+  server: zz.jgwaad.tk
+  port: 1004
+  type: vmess
+  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13/hd.m3u8
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.19|新加坡youtube阿伟科技 25
+  server: cs.hgdbk.ga
+  port: 443
+  type: vmess
+  uuid: 3f724115-8ca2-4aa4-b8cc-eb72d9b6b1ef
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /cctv13/hd.m3u8
+    headers:
+      Host: cs.hgdbk.ga
+  udp: true
+- name: 1.19|澳大利亚youtube阿伟科技 2
   server: 20.227.152.156
   port: 80
   type: vmess
@@ -174,7 +299,7 @@ proxies:
     headers:
       Host: 20.227.152.156
   udp: true
-- name: 1.09| githubcomfreefq  美国Microsoft数据中心 30
+- name: 1.13| githubcomfreefq  美国Microsoft数据中心 30
   server: 20.211.107.37
   port: 80
   type: vmess
