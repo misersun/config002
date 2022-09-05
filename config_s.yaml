@@ -1,183 +1,13 @@
 proxies:
-- name: 3.95|日本youtube阿伟科技 17
-  server: cuddns.pdjc.cc
-  port: 44000
-  type: trojan
-  password: 722af5d9-51c9-47d0-8c8b-22190806389c
-  sni: jp-a.bbbb.pw
-  skip-cert-verify: true
-  udp: true
-- name: 3.79|香港youtube阿伟科技 6
-  server: api.hostyunhk1.frydipxian.top
-  port: 444
-  type: trojan
-  password: 97ea5c08e262acf366b3b973b91960cb
-  sni: api.hostyunhk1.frydipxian.top
-  skip-cert-verify: true
-  udp: true
-- name: 3.23| HK95 TGpeekfun
-  server: 103.103.245.125
-  port: 50418
-  type: trojan
-  country: ' HK'
-  password: a70b39d1-62ea-4d9e-b681-9c5408352234
-  skip-cert-verify: true
-  udp: true
-- name: 2.93|日本youtube阿伟科技 12
-  server: jparm.fineyoo.cf
+- name: 5.54|日本youtube阿伟科技 10
+  server: 172.105.236.208
   port: 443
-  type: vmess
-  uuid: bd5ee249-fe7b-4669-a6d9-b3f5eecb98e6
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /123
-    headers:
-      Host: jparm.fineyoo.cf
-  udp: true
-- name: 2.59| 175Mb
-  server: chess.magicefire.com
-  port: 443
-  type: vmess
-  uuid: 9aa80017-3427-4165-a522-f5f9a11330d0
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-- name: 2.55|HK17
-  server: hk-hkg-hgc-a-v2.node.inforun.work
-  port: 888
-  type: vmess
-  uuid: b46e5bfe-739c-4026-91fd-686209ce6d85
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  http-opts: {}
-  ws-path: /je5x3pBN1vez3NQudNkB
-  ws-headers:
-    HOST: cdn.savoy.click
-  skip-cert-verify: true
-  servername: cdn.savoy.click
-- name: 2.41|新加坡youtube阿伟科技 8
-  server: ttt3.swiftfalcon.app
-  port: 8443
   type: trojan
-  password: coldwar2
+  password: a1e12464-9208-4583-bd21-ab6889fdd242
+  sni: cdn.qchwnd.moe
   skip-cert-verify: true
   udp: true
-- name: 2.32|1932Mb
-  server: kvgwv-1037-v2-1.hkg-d-cmi.jd.cjhh.lol
-  port: 888
-  type: vmess
-  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /je5x3pBN1vez3NQudNkB
-    headers:
-      Host: node.inforun.work
-- name: 2.19|HK484
-  server: 103.103.245.125
-  type: trojan
-  country: HK
-  port: 50350
-  password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40
-  skip-cert-verify: true
-  udp: true
-- name: 1.87| githubcomfreefq  美国CloudFlare节点 54
-  server: us03.gogogoo.cyou
-  port: 443
-  type: vmess
-  uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /go
-  ws-headers:
-    Host: us03.gogogoo.cyou
-- name: 1.79|香港youtube阿伟科技
-  server: cuddns.pdjc.cc
-  port: 41000
-  type: trojan
-  password: 722af5d9-51c9-47d0-8c8b-22190806389c
-  sni: hk-a.bbbb.pw
-  skip-cert-verify: true
-  udp: true
-- type: trojan
-  name: 1.75|USwmt91p32
-  server: 64.27.30.211
-  port: 14815
-  password: JDpCGXNLHq
-  udp: true
-  skip-cert-verify: true
-- name: 1.50| githubcomfreefq  北美地区  12
-  server: rbobo.tk
-  port: 39346
-  type: vmess
-  uuid: 787e09ce-f999-478a-ee3e-04729faf292e
-  alterId: 0
-  cipher: auto
-  tls: true
-- name: 1.47|1771Mb
-  server: eskum-1044-v2-0.fra-d-cn2.jd.cjhh.lol
-  port: 888
-  type: vmess
-  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /je5x3pBN1vez3NQudNkB
-    headers:
-      Host: cdn.cjhh.lol
-- name: 1.43|英国youtube阿伟科技 4
-  server: powerservice.com
-  port: 443
-  type: vmess
-  uuid: 0764a598-82c4-4b41-ba10-551a625beed5
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sshocean
-    headers:
-      Host: uk2.v2rayserv.com
-  udp: true
-- name: 1.35|2473Mb
-  server: xiexi.tk
-  port: 2096
-  type: vmess
-  uuid: 37551ca0-8cc3-432f-ca1f-82aba1db3ef9
-  alterId: 64
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: xiexi.tk
-- name: 1.27|RelayUSUS680
-  server: rbobosz.tk
-  type: trojan
-  country: US
-  port: 23868
-  password: gMVN7PbEX2
-  skip-cert-verify: true
-  udp: true
-- name: 1.08|美国youtube阿伟科技 6
+- name: 2.28|美国youtube阿伟科技
   server: arm.ptuu.gq
   port: 443
   type: vmess
@@ -191,4 +21,47 @@ proxies:
     path: /123
     headers:
       Host: arm.ptuu.gq
+  udp: true
+- name: 1.99|韩国youtube阿伟科技 6
+  server: kr.wangfuzheng.top
+  port: 443
+  type: vmess
+  uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: kr.wangfuzheng.top
+  udp: true
+- name: 1.86| githubcomfreefq  台湾省新北市中华电信 7
+  server: tw.tcpbbr.net
+  port: 443
+  type: trojan
+  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
+  sni: tw.tcpbbr.net
+- name: 1.66|美国youtube阿伟科技 26
+  server: 45.33.109.70
+  port: 443
+  type: trojan
+  password: a1e12464-9208-4583-bd21-ab6889fdd242
+  sni: cdn.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 1.49|荷兰youtube阿伟科技
+  server: hl.jiashumao.net
+  port: 45519
+  type: trojan
+  password: 9d846d39-2f5e-3fae-8ad7-239cedc56048
+  skip-cert-verify: true
+  udp: true
+- name: 1.26|新加坡youtube阿伟科技
+  server: ttt3.swiftfalcon.app
+  port: 8443
+  type: trojan
+  password: coldwar2
+  skip-cert-verify: true
   udp: true
