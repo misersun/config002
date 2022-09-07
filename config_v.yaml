@@ -1,27 +1,17 @@
 proxies:
-- name: 4.27|日本youtube阿伟科技 12
-  server: 168.138.201.208
-  port: 10328
-  type: vmess
-  uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.71| Singapore 2  Tiktok
-  server: sing-2.4g.mkvn.net
+- name: 2.84| githubcomfreefq  香港Amazon数据中心 7
+  server: v21.xn--6nq44r2uh9rhj7f.com
   port: 80
   type: vmess
-  uuid: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed
+  uuid: 0164445c-98cb-4333-82ee-11f6de992b6d
   alterId: 0
   cipher: auto
   tls: false
   network: ws
-  ws-path: /4g.mkvn.net
+  ws-path: /
   ws-headers:
-    Host: v9-vn.tiktokcdn.com
-- name: 2.15|俄罗斯youtube阿伟科技
+    Host: tms.dingtalk.com
+- name: 2.59|俄罗斯youtube阿伟科技
   server: els.tdzjing.xyz
   port: 80
   type: vmess
@@ -39,7 +29,34 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- name: 1.84|2335Mb
+- name: 2.46|美国youtube阿伟科技 25
+  server: qcjs.cc.freedl.heinu.cc
+  port: 15743
+  type: vmess
+  uuid: 1a892341-2086-4d9e-ca77-90177533f189
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /qingchengjisu
+    headers:
+      Host: qcjs.cc.freedl.heinu.cc
+  udp: true
+- name: 2.37| githubcomfreefq  越南  8
+  server: hanoi05.vifast.net
+  port: 80
+  type: vmess
+  uuid: 4c2d3f00-8f9b-49c2-a43b-10f022b2fde5
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: dl.kgvn.garenanow.com
+- name: 1.88|2335Mb
   server: 129.146.84.253
   port: 26875
   type: vmess
@@ -48,19 +65,7 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 1.75| Hong Kong 2  Garena
-  server: hk-2.4g.mkvn.net
-  port: 80
-  type: vmess
-  uuid: 952e97d2-17ef-4e42-b8aa-c9f892ca4eed
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /4g.mkvn.net
-  ws-headers:
-    Host: dl.kgvn.garenanow.com
-- name: 1.65| RelayUSUS1683 1003Mb
+- name: 1.84| RelayUSUS1683 1003Mb
   server: v29.heduian.online
   port: 30866
   type: vmess
@@ -74,22 +79,17 @@ proxies:
     path: /oooo
     headers:
       Host: baidu.com
-- name: 1.64|卢森堡youtube阿伟科技
-  server: 8.209.220.34
-  port: 80
+- name: 1.65|美国youtube阿伟科技 2
+  server: 23.95.215.14
+  port: 63101
   type: vmess
-  uuid: 74758f06-f4b9-4ef1-a86c-f0a0cc82109f
+  uuid: 53bcad38-ae39-4b6c-bb3c-f5bfa63e0348
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: lux.justu.ml
   udp: true
-- name: 1.64| RelayUSUS1682  845Mb
+- name: 1.56| RelayUSUS1682  845Mb
   server: v4.heduian.online
   port: 30866
   type: vmess
@@ -103,24 +103,58 @@ proxies:
     path: /oooo
     headers:
       Host: baidu.com
-- name: 1.46|SG361
-  server: 139.59.244.143
+- name: 1.56|2205Mb
+  server: 107.173.83.214
+  port: 37541
   type: vmess
-  country: SG
-  port: 38941
-  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.31| githubcomfreefq  澳大利亚  13
-  server: 129.154.61.32
-  port: 80
-  type: vmess
-  uuid: 93c8fd94-17de-4730-8977-d55e304e9a85
+  uuid: ef59a586-0532-4763-f353-948eb413f00d
   alterId: 0
   cipher: auto
   tls: false
+  skip-cert-verify: false
+- name: 1.55| githubcomfreefq  美国爱荷华州得梅因Microsoft数据中心 7
+  server: 23.95.215.14
+  port: 31170
+  type: vmess
+  uuid: 9114505c-9bb1-4fbb-bdc1-54d39192de63
+  alterId: 0
+  cipher: auto
+  tls: false
+- type: vmess
+  name: 1.53|US美国4
+  server: rbobosz.tk
+  port: 40762
+  uuid: 5115f550-3f8c-44fe-a064-eb02e2fbb89b
+  alterId: 0
+  cipher: auto
+  network: tcp
+- name: 1.38|美国youtube阿伟科技 17
+  server: small.rome.tk
+  port: 19088
+  type: vmess
+  uuid: 69b4577a-ece8-4044-a3f8-85dd3bfc98c8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: YouTube-aweikeji
+  udp: true
+- name: 1.35|新加坡youtube阿伟科技 2
+  server: xjp.azzhuangaping.tw
+  port: 80
+  type: vmess
+  uuid: 2c178223-0bd9-3af7-bcd3-32c074f626be
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /adobe
+    headers:
+      Host: xjp.azzhuangaping.tw
+  udp: true

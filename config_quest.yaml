@@ -1,23 +1,42 @@
 proxies:
-- name: 5.44| githubcomfreefq  加拿大  21
-  server: 727tw01.ok365.cyou
-  port: 443
-  type: trojan
-  password: d09d2305-24db-43c4-b309-0e1d2737329f
-  sni: 727tw01.ok365.cyou
-- name: 4.43|sg4
-  server: 13.213.69.245
+- name: 4.78|jp3
+  server: 13.112.247.141
   port: 443
   type: trojan
   password: iyinglong
   skip-cert-verify: true
-- name: 2.86| githubcomfreefq  美国  3
-  server: ty1-1.nigirocloud.com
+- name: 4.33| 新加坡0906201
+  server: sg-am21.eqsunshine.com
+  port: 8080
+  type: ssr
+  cipher: aes-256-cfb
+  password: jUQAcjhEG
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 4.07|台湾youtube阿伟科技 4
+  server: tw.tcpbbr.net
   port: 443
   type: trojan
-  password: 4V4kxVXmcg5Yn2DqF2
-  sni: ty1-1.nigirocloud.com
-- name: 2.56|油管阿伟科技 38
+  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
+  sni: tw.tcpbbr.net
+  skip-cert-verify: true
+  udp: true
+- type: trojan
+  name: 3.28|JP日本2
+  server: 18.179.205.215
+  port: 443
+  password: iyinglong
+  udp: true
+  skip-cert-verify: true
+- name: 2.88| githubcomfreefq  日本  9
+  server: 823jp.tfzhc.top
+  port: 443
+  type: trojan
+  password: 21aefd43-c656-4c38-8c99-afe5aee918d6
+  sni: 823jp.tfzhc.top
+- name: 2.43|油管阿伟科技 38
   server: clash11.free4444.xyz
   port: 443
   type: ssr
@@ -28,41 +47,8 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 2.36| httpsgithubcomAlvin9999newpacwiki clash ip1洛杉矶0SSR
-  server: clash4.ssrfree4.xyz
-  port: 22333
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.35|新加坡youtube阿伟科技
-  server: ttt3.swiftfalcon.app
-  port: 8443
-  type: trojan
-  password: coldwar2
-  skip-cert-verify: true
-  udp: true
-- name: 2.22| githubcomfreefq  美国  5
-  server: www.sxsy88.tk
-  port: 44150
-  type: trojan
-  password: zFyLKH62WN
-  sni: www.sxsy88.tk
-- name: 2.11| httpsgithubcomAlvin9999newpacwiki clash ip2ip4洛杉矶SSR
-  server: clash4-2.ssrfree4.xyz
-  port: 12345
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.03| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶2SSR
-  server: clash1-2.ssrfree1.xyz
+- name: 2.36| httpsgithubcomAlvin9999newpacwiki clash ip3洛杉矶SSR
+  server: clash3.ssrfree3.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -71,19 +57,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.96| us3
-  server: 54.188.168.172
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.93| githubcomfreefq  美国  2
-  server: ty1-2.nigirocloud.com
-  port: 443
-  type: trojan
-  password: 4V4kxVXmcg5Yn2DqF2
-  sni: ty1-2.nigirocloud.com
-- name: 1.91| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
+- name: 2.35| httpsgithubcomAlvin9999newpacwiki clash ip6洛杉矶SSR
   server: clash6.ssrfree6.xyz
   port: 443
   type: ssr
@@ -93,14 +67,24 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.81| uk4
-  server: 13.40.154.20
+- name: 2.24| githubcomfreefq  美国  3
+  server: ty1-1.nigirocloud.com
   port: 443
   type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.81|油管0阿伟科技 12
-  server: sss11.free4444.xyz
+  password: 4V4kxVXmcg5Yn2DqF2
+  sni: ty1-1.nigirocloud.com
+- name: 2.16| httpsgithubcomAlvin9999newpacwiki clash ip2ip4洛杉矶SSR
+  server: clash4-2.ssrfree4.xyz
+  port: 12345
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.06| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶2SSR
+  server: clash1-2.ssrfree1.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -109,49 +93,8 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-  udp: true
-- name: 1.77|日本youtube阿伟科技 10
-  server: 172.105.236.208
-  port: 443
-  type: trojan
-  password: a1e12464-9208-4583-bd21-ab6889fdd242
-  sni: cdn.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 1.77| uk7
-  server: 3.10.209.85
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.73|fr9
-  server: 35.180.122.151
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.71|fr5
-  server: 52.47.99.22
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.70| uk2
-  server: 13.40.126.229
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.66| 美国 2
-  server: s3.hazz.win
-  type: trojan
-  country: US
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: 1.61| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶3SSR
-  server: clash1-3.ssrfree1.xyz
+- name: 1.87| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶1SSR
+  server: clash1.ssrfree1.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -160,56 +103,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.51|RelayUSUS451
-  server: rbobosz.tk
-  type: trojan
-  country: US
-  port: 23868
-  password: gMVN7PbEX2
-  skip-cert-verify: true
-  udp: true
-- name: 1.50| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶1
-  server: zjg1.ssrfree2.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.49|fr3
-  server: 35.180.202.38
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.43|美国youtube阿伟科技 26
-  server: 45.33.109.70
-  port: 443
-  type: trojan
-  password: a1e12464-9208-4583-bd21-ab6889fdd242
-  sni: cdn.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 1.28|油管0阿伟科技 3
-  server: sg-am3.eqsunshine.com
-  port: 32001
-  type: ssr
-  cipher: aes-256-cfb
-  password: 3g0dHlKME
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 1.21|fr2
-  server: 15.237.116.79
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.14|油管0阿伟科技 6
+- name: 1.83|油管0阿伟科技 6
   server: clash5.ssrfree5.xyz
   port: 443
   type: ssr
@@ -220,3 +114,64 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
+- name: 1.83| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶3SSR
+  server: clash1-3.ssrfree1.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.82|油管0阿伟科技 12
+  server: sss11.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 1.73|sg4
+  server: 13.213.69.245
+  port: 443
+  type: trojan
+  password: iyinglong
+  skip-cert-verify: true
+- name: 1.38|美国youtube阿伟科技 26
+  server: 45.33.109.70
+  port: 443
+  type: trojan
+  password: a1e12464-9208-4583-bd21-ab6889fdd242
+  sni: cdn.qchwnd.moe
+  skip-cert-verify: true
+  udp: true
+- name: 1.38|RelayUSUS451
+  server: rbobosz.tk
+  type: trojan
+  country: US
+  port: 23868
+  password: gMVN7PbEX2
+  skip-cert-verify: true
+  udp: true
+- name: 1.33|油管阿伟科技 6
+  server: sss13.free4444.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- type: trojan
+  name: 1.24|US美国5
+  server: 8.9.30.35
+  port: 29544
+  password: rmo75mm5xK
+  udp: true
+  skip-cert-verify: true

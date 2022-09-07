@@ -1,63 +1,51 @@
 proxies:
-- name: 5.44| githubcomfreefq  加拿大  21
-  server: 727tw01.ok365.cyou
-  port: 443
-  type: trojan
-  password: d09d2305-24db-43c4-b309-0e1d2737329f
-  sni: 727tw01.ok365.cyou
-- name: 4.43|sg4
-  server: 13.213.69.245
+- name: 4.78|jp3
+  server: 13.112.247.141
   port: 443
   type: trojan
   password: iyinglong
   skip-cert-verify: true
-- name: 2.86| githubcomfreefq  美国  3
-  server: ty1-1.nigirocloud.com
+- name: 4.07|台湾youtube阿伟科技 4
+  server: tw.tcpbbr.net
   port: 443
   type: trojan
-  password: 4V4kxVXmcg5Yn2DqF2
-  sni: ty1-1.nigirocloud.com
-- name: 2.35|新加坡youtube阿伟科技
-  server: ttt3.swiftfalcon.app
-  port: 8443
-  type: trojan
-  password: coldwar2
+  password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d
+  sni: tw.tcpbbr.net
   skip-cert-verify: true
   udp: true
-- name: 2.22| githubcomfreefq  美国  5
-  server: www.sxsy88.tk
-  port: 44150
-  type: trojan
-  password: zFyLKH62WN
-  sni: www.sxsy88.tk
-- name: 2.14|香港youtube阿伟科技 6
-  server: us-nyc-ctg-04-v2.nodes.cjhh.one
-  port: 888
+- type: trojan
+  name: 3.28|JP日本2
+  server: 18.179.205.215
+  port: 443
+  password: iyinglong
+  udp: true
+  skip-cert-verify: true
+- name: 3.21|香港youtube阿伟科技 3
+  server: s192.s2022.buzz
+  port: 41565
   type: vmess
-  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
+  uuid: 424fb726-b6a3-3459-9f39-8e5dd1ab5b41
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /je5x3pBN1vez3NQudNkB
+    path: /panelmyadmin
     headers:
-      Host: us-nyc-ctg-04-v2.nodes.cjhh.one
+      Host: s192.s2022.buzz
   udp: true
-- name: 2.04| US 9929
-  server: us9929.azus.ml
-  port: 20206
-  type: vmess
-  uuid: cb6b51a8-085c-4428-dc77-4fd5c05fca90
-  alterId: 0
-  cipher: auto
-  tls: true
-- name: 2.01|美国youtube阿伟科技
-  server: arm.ptuu.gq
+- name: 2.88| githubcomfreefq  日本  9
+  server: 823jp.tfzhc.top
+  port: 443
+  type: trojan
+  password: 21aefd43-c656-4c38-8c99-afe5aee918d6
+  sni: 823jp.tfzhc.top
+- name: 2.48|新加坡youtube阿伟科技 8
+  server: sgamd.ptuu.ga
   port: 443
   type: vmess
-  uuid: 9821b817-5cb0-4af3-a3e3-7c137850935d
+  uuid: 1bbf1ef7-3056-4160-9cab-491e024de705
   alterId: 0
   cipher: auto
   tls: true
@@ -66,96 +54,105 @@ proxies:
   ws-opts:
     path: /123
     headers:
-      Host: arm.ptuu.gq
+      Host: sgamd.ptuu.ga
   udp: true
-- name: 1.97|韩国youtube阿伟科技 6
-  server: kr.wangfuzheng.top
+- name: 2.35|2439Mb
+  server: 104.19.3.16
   port: 443
   type: vmess
-  uuid: 47d0be27-bb7f-48a7-bf9f-c7f8a9f3de24
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /
+    path: /chcar
     headers:
-      Host: kr.wangfuzheng.top
-  udp: true
-- name: 1.96| us3
-  server: 54.188.168.172
+      Host: v2fly.samrt.website
+- name: 2.26|2176Mb
+  server: 188.114.97.113
   port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.93| githubcomfreefq  美国  2
-  server: ty1-2.nigirocloud.com
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /chcar
+    headers:
+      Host: v2fly.samrt.website
+- name: 2.24|2198Mb
+  server: 188.114.97.110
+  port: 443
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /chcar
+    headers:
+      Host: v2fly.samrt.website
+- name: 2.24| githubcomfreefq  美国  3
+  server: ty1-1.nigirocloud.com
   port: 443
   type: trojan
   password: 4V4kxVXmcg5Yn2DqF2
-  sni: ty1-2.nigirocloud.com
-- name: 1.81| uk4
-  server: 13.40.154.20
+  sni: ty1-1.nigirocloud.com
+- name: 2.10|2066Mb
+  server: 104.19.3.32
+  port: 443
+  type: vmess
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
+  alterId: 1
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /chcar
+    headers:
+      Host: v2fly.samrt.website
+- name: 1.83|1250Mb
+  server: asjlg-1041-v2-1.hkg-d-hkt.nd.cjhh.mom
+  port: 888
+  type: vmess
+  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /je5x3pBN1vez3NQudNkB
+    headers:
+      Host: edge.cjhh.mom
+- name: 1.73|sg4
+  server: 13.213.69.245
   port: 443
   type: trojan
   password: iyinglong
   skip-cert-verify: true
-- name: 1.77|日本youtube阿伟科技 10
-  server: 172.105.236.208
-  port: 443
-  type: trojan
-  password: a1e12464-9208-4583-bd21-ab6889fdd242
-  sni: cdn.qchwnd.moe
-  skip-cert-verify: true
-  udp: true
-- name: 1.77| uk7
-  server: 3.10.209.85
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.73|fr9
-  server: 35.180.122.151
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.71|fr5
-  server: 52.47.99.22
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.70| uk2
-  server: 13.40.126.229
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.66| 美国 2
-  server: s3.hazz.win
-  type: trojan
-  country: US
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: 1.51|RelayUSUS451
-  server: rbobosz.tk
-  type: trojan
-  country: US
-  port: 23868
-  password: gMVN7PbEX2
-  skip-cert-verify: true
-  udp: true
-- name: 1.49|fr3
-  server: 35.180.202.38
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.43|美国youtube阿伟科技 26
+- name: 1.65|1565Mb
+  server: mtkzb-1038-v2-1.sjc-d-cn2.jd.cjhh.lol
+  port: 888
+  type: vmess
+  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /je5x3pBN1vez3NQudNkB
+    headers:
+      Host: node.inforun.work
+- name: 1.38|美国youtube阿伟科技 26
   server: 45.33.109.70
   port: 443
   type: trojan
@@ -163,9 +160,48 @@ proxies:
   sni: cdn.qchwnd.moe
   skip-cert-verify: true
   udp: true
-- name: 1.21|fr2
-  server: 15.237.116.79
-  port: 443
+- name: 1.38|RelayUSUS451
+  server: rbobosz.tk
   type: trojan
-  password: iyinglong
+  country: US
+  port: 23868
+  password: gMVN7PbEX2
   skip-cert-verify: true
+  udp: true
+- name: 1.29|美国youtube阿伟科技 26
+  server: 45.136.187.80
+  port: 443
+  type: vmess
+  uuid: 76bace05-1cd8-4ae8-9e45-1ef496568aca
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /herbalserver
+    headers:
+      Host: usl-1.herbalv2ray.me
+  udp: true
+- type: trojan
+  name: 1.24|US美国5
+  server: 8.9.30.35
+  port: 29544
+  password: rmo75mm5xK
+  udp: true
+  skip-cert-verify: true
+- name: 1.07|巴西youtube阿伟科技
+  server: brasil.jcnf.app
+  port: 443
+  type: vmess
+  uuid: c753e8a8-e180-4e76-a486-c917273d718b
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /zcjd
+    headers:
+      Host: brasil.jcnf.app
+  udp: true
