@@ -1,28 +1,78 @@
 proxies:
-- name: 4.75| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶1SSR
-  server: clash6-1.ssrfree6.xyz
+- name: 4.26| 新加坡A
+  server: 18.140.64.185
+  port: 43632
+  type: vmess
+  uuid: ece1505c-3c16-4e4f-88df-ec0ebce03078
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 3.70| githubcomfreefq  韩国首尔Choopa数据中心 13
+  server: krdog2.omm556.xyz
+  port: 17766
+  type: vmess
+  uuid: 22fccefa-f820-36b5-863b-01e451b99e7a
+  alterId: 0
+  cipher: auto
+  tls: true
+- name: 3.69|RelayJPJP95
+  server: vjp3.0bad.com
+  type: vmess
+  country: JP
   port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /chat
+  servername: vjp3.0bad.com
+  ws-headers:
+    HOST: vjp3.0bad.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: 3.35| 美国专线01
+  server: c90s4.jamjams3.net
+  port: 19623
+  type: vmess
+  uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4
+  alterId: 0
+  cipher: aes-128-gcm
+  tls: false
+- name: 3.16| 测试CM新加坡0x
+  server: 139.162.46.222
+  port: 443
+  type: trojan
+  password: a1e12464-9208-4583-bd21-ab6889fdd242
+  sni: cdn.qchwnd.moe
+  skip-cert-verify: true
 - type: vmess
-  name: 2.85|日本youtube阿伟科技31
+  name: 3.07|印尼youtube阿伟科技
   ws-opts:
-    path: /123
-    headers:
-      host: jpamd.fineyoo.cf
-  server: jpamd.fineyoo.cf
-  port: '443'
-  uuid: 9bdac558-1d2b-425b-f0e7-445d38be025e
+    path: /fastssh/hkaa0/6315d6fd8ece0/
+  server: id-herza.v2-ray.com
+  port: '80'
+  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
   alterId: '0'
   cipher: auto
   network: ws
+- name: 2.84|韩国youtube阿伟科技 4
+  server: seoul.napsternetv.com
+  port: 443
+  type: vmess
+  uuid: 5ADDADF4-E05B-65E6-A409-E08CEA8826DF
+  alterId: 0
+  cipher: auto
   tls: true
-- name: 2.65|俄罗斯youtube阿伟科技
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: seoul.napsternetv.com
+  udp: true
+- name: 2.76|俄罗斯youtube阿伟科技
   server: els.tdzjing.xyz
   port: 80
   type: vmess
@@ -40,29 +90,15 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- type: vmess
-  name: 2.45|新加坡youtube阿伟科技1
-  ws-opts:
-    path: /adobe
-    headers:
-      host: xjp.azzhuangaping.tw
-  server: xjp.azzhuangaping.tw
-  port: '80'
-  uuid: 2c178223-0bd9-3af7-bcd3-32c074f626be
-  alterId: '0'
+- name: 2.54| githubcomfreefq  新加坡Choopa数据中心 46
+  server: sgqqgo1.omm556.xyz
+  port: 38880
+  type: vmess
+  uuid: 22fccefa-f820-36b5-863b-01e451b99e7a
+  alterId: 0
   cipher: auto
-  network: ws
-- type: vmess
-  name: 2.30|印尼youtube阿伟科技
-  ws-opts:
-    path: /fastssh/hkaa0/6315d6fd8ece0/
-  server: id-herza.v2-ray.com
-  port: '80'
-  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
-  alterId: '0'
-  cipher: auto
-  network: ws
-- name: 2.27| httpsgithubcomAlvin9999newpacwiki clash ip2ip4洛杉矶SSR
+  tls: true
+- name: 2.39| httpsgithubcomAlvin9999newpacwiki clash ip2ip4洛杉矶SSR
   server: clash4-2.ssrfree4.xyz
   port: 12345
   type: ssr
@@ -72,35 +108,29 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- type: trojan
-  name: 2.20|保加利亚youtube阿伟科技
-  server: ty1-2.nigirocloud.com
-  port: 443
-  password: 4V4kxVXmcg5Yn2DqF2
-  udp: true
-  skip-cert-verify: true
-  sni: ty1-2.nigirocloud.com
-- name: 2.20| githubcomfreefq  美国  20
-  server: ty1-2.crabyakiniku.com
-  port: 443
+- name: '2.31| 美国  Trojan  A  08x  黃金 '
+  server: azhj001.xibai6.top
+  port: 20714
   type: trojan
-  password: UhCF2JxsDxStDp5NTQ
-  sni: ty1-2.crabyakiniku.com
-- name: 2.08| JP414  534Mb
-  server: 47.91.25.176
-  port: 36788
+  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
+  sni: ssl.ssl12.xyz
+- name: 2.26| 美国专线02
+  server: c90s3.jamjams3.net
+  port: 19623
   type: vmess
-  uuid: e56a6bdd-4f2f-41ee-cb47-1e0f006a4b78
+  uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4
+  alterId: 0
+  cipher: aes-128-gcm
+  tls: false
+- name: 2.23| githubcomfreefq  美国加利福尼亚州洛杉矶SharkTech 15
+  server: sjsgood.omm556.xyz
+  port: 10986
+  type: vmess
+  uuid: 22fccefa-f820-36b5-863b-01e451b99e7a
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 47.91.25.176
-- name: 1.99|油管阿伟科技 10
+  tls: true
+- name: 2.07|油管阿伟科技 10
   server: sss9.free4444.xyz
   port: 443
   type: ssr
@@ -111,39 +141,7 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 1.97| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶3SSR
-  server: clash6-3.ssrfree6.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.94| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶3SSR
-  server: clash1-3.ssrfree1.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.93| us8
-  server: 54.245.213.176
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.90| us9
-  server: 54.218.99.141
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.88| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶2SSR
+- name: 2.04| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶2SSR
   server: clash6-2.ssrfree6.xyz
   port: 443
   type: ssr
@@ -153,68 +151,30 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-- name: 1.86| us6
-  server: 34.219.183.33
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.84| us10
+- name: 2.04| 韩国专线01
+  server: c90s5.jamjams3.net
+  port: 19623
+  type: vmess
+  uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4
+  alterId: 0
+  cipher: aes-128-gcm
+  tls: false
+- name: 2.04|SSRSUBV07付费推荐suoytssrsub
+  server: 139.59.244.143
+  port: 38941
+  type: vmess
+  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 2.03| us10
   server: 52.12.10.181
   port: 443
   type: trojan
   password: iyinglong
   skip-cert-verify: true
-- name: 1.82|日本youtube阿伟科技 9
-  server: 155.248.170.1
-  port: 80
-  type: vmess
-  uuid: 5bf5388b-a8e2-4dfe-a33a-d9d5f524fcbe
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 155.248.170.1
-  udp: true
-- name: 1.79|RelayUSUS425
-  server: us-am32-5.eqnode.net
-  type: ssr
-  country: US
-  port: 8081
-  password: YFVrXZgRo
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: 1.71| 美国A
-  server: 3.145.104.12
-  port: 43632
-  type: vmess
-  uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566
-  alterId: 0
-  cipher: auto
-  tls: false
-- type: trojan
-  name: 1.70|FR法国1
-  server: 15.237.116.79
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- name: 1.64| uk8
-  server: 3.8.216.52
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.58|油管0阿伟科技 12
-  server: sss11.free4444.xyz
+- name: 2.01| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶3SSR
+  server: clash6-3.ssrfree6.xyz
   port: 443
   type: ssr
   cipher: dummy
@@ -223,16 +183,7 @@ proxies:
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
-  udp: true
-- name: 1.58| 美国 2
-  server: s3.hazz.win
-  type: trojan
-  country: US
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  skip-cert-verify: true
-  udp: true
-- name: 1.56|油管阿伟科技 2
+- name: 1.93|油管阿伟科技 2
   server: sss10.free4444.xyz
   port: 443
   type: ssr
@@ -243,71 +194,100 @@ proxies:
   protocol-param: ''
   obfs-param: ''
   udp: true
-- name: 1.54| us2
+- name: 1.88| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶3SSR
+  server: clash1-3.ssrfree1.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.87| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶4SSR
+  server: clash6.ssrfree6.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 1.85|RelayUSUS425
+  server: us-am32-5.eqnode.net
+  type: ssr
+  country: US
+  port: 8081
+  password: YFVrXZgRo
+  cipher: aes-256-cfb
+  protocol: origin
+  obfs: tls1.2_ticket_auth
+- type: ssr
+  name: 1.83|油管阿伟科技20
+  server: 43.132.194.79
+  port: 31580
+  protocol: auth_aes128_sha1
+  cipher: aes-256-cfb
+  obfs: tls1.2_ticket_auth
+  password: zxOmdD
+  protocol-param: 22082:tgXIaG
+- type: vmess
+  name: 1.79|新加坡youtube阿伟科技1
+  ws-opts:
+    path: /adobe
+    headers:
+      host: xjp.azzhuangaping.tw
+  server: xjp.azzhuangaping.tw
+  port: '80'
+  uuid: 2c178223-0bd9-3af7-bcd3-32c074f626be
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 1.74| 测试CT美国0x
+  server: 45.33.57.17
+  port: 443
+  type: trojan
+  password: a1e12464-9208-4583-bd21-ab6889fdd242
+  sni: cdn.qchwnd.moe
+  skip-cert-verify: true
+- name: 1.69|美国youtube阿伟科技 8
+  server: v29.heduian.online
+  port: 30866
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+  udp: true
+- name: 1.69|美国youtube阿伟科技 10
+  server: v4.heduian.online
+  port: 30866
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: v4.heduian.online
+  udp: true
+- name: 1.64| us2
   server: 54.84.14.46
   port: 443
   type: trojan
   password: iyinglong
   skip-cert-verify: true
-- type: trojan
-  name: 1.49|USwmt98a138
-  server: 8.9.30.35
-  port: 29544
-  password: rmo75mm5xK
-  udp: true
-  skip-cert-verify: true
-- type: vmess
-  name: 1.43|瑞士youtube阿伟科技
-  ws-opts:
-    path: /H8VswtUJ/
-    headers:
-      host: v2ray.wefuckgfw.ga
-  server: v2ray.wefuckgfw.ga
-  port: '2096'
-  uuid: dafdb36b-9e15-4d21-aebf-312ef001c7f6
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- name: 1.39|US438
-  server: 45.10.153.188
-  type: vmess
-  country: US
-  port: 37558
-  uuid: 9d0f86ad-eec3-424f-f69a-fcb37e783d06
-  alterId: 0
-  cipher: auto
-  ws-path: /
-  servername: 45.10.153.188
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.31| uk10
-  server: 3.10.180.114
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.26| githubcomfreefq  美国内华达州拉斯维加斯BuyVM 10
-  server: 205.185.121.4
-  port: 80
-  type: vmess
-  uuid: 1e45ace9-8284-445b-b8fd-195b51ec8b6b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 205.185.121.4
-- type: trojan
-  name: 1.12|FRwmt98a146
-  server: 52.47.99.22
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- name: 1.09|githubcomfreefq  卢森堡  25
+- name: 1.57|githubcomfreefq  卢森堡  25
   server: lsb.ycsfree.xyz
   port: 443
   type: vmess
@@ -319,14 +299,108 @@ proxies:
   ws-path: /zcjd
   ws-headers:
     Host: lsb.ycsfree.xyz
-- name: 1.02|油管阿伟科技 12
-  server: sg-am21.eqsunshine.com
-  port: 8080
+- type: trojan
+  name: 1.50|FRwmt98a146
+  server: 52.47.99.22
+  port: 443
+  password: iyinglong
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.49|GBwmt98a37
+  server: 18.133.181.177
+  port: 443
+  password: iyinglong
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.42|GBwmt98a171
+  server: 3.10.209.85
+  port: 443
+  password: iyinglong
+  udp: true
+  skip-cert-verify: true
+- name: 1.40|美国youtube阿伟科技
+  server: azgy001.xibai6.top
+  port: 20785
+  type: trojan
+  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
+  sni: ssl.ssl12.xyz
+  skip-cert-verify: true
+  udp: true
+- name: 1.36|油管阿伟科技 20
+  server: sv.ssrfree7.xyz
+  port: 443
   type: ssr
-  cipher: aes-256-cfb
-  password: jUQAcjhEG
-  protocol: origin
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
   obfs: tls1.2_ticket_auth
   protocol-param: ''
   obfs-param: ''
+  udp: true
+- name: 1.35|2367Mb
+  server: c90s801.jamjams3.net
+  port: 19623
+  type: vmess
+  uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 1.27|俄罗斯youtube阿伟科技
+  server: ru1.v2rayserv.com
+  port: 80
+  type: vmess
+  uuid: bc4f16e3-0b57-4367-8caf-88ee67859920
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sshocean
+    headers:
+      Host: ru1.v2rayserv.com
+  udp: true
+- name: 1.19|美国youtube阿伟科技 13
+  server: ex.755657.xyz
+  port: 8443
+  type: vmess
+  uuid: 11b8206c-8ae2-4ab3-a92c-208cdb8cc73d
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /javasdkyhgudf
+    headers:
+      Host: ex.755657.xyz
+  udp: true
+- name: 1.16|油管阿伟科技 10
+  server: jp-1.ssrfree5.xyz
+  port: 443
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+  udp: true
+- name: 1.08|德国youtube阿伟科技 5
+  server: vde2.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /chat
+    headers:
+      Host: vde2.0bad.com
   udp: true

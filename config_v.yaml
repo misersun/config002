@@ -1,5 +1,31 @@
 proxies:
-- name: 2.65|俄罗斯youtube阿伟科技
+- name: 4.26| 新加坡A
+  server: 18.140.64.185
+  port: 43632
+  type: vmess
+  uuid: ece1505c-3c16-4e4f-88df-ec0ebce03078
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 3.35| 美国专线01
+  server: c90s4.jamjams3.net
+  port: 19623
+  type: vmess
+  uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4
+  alterId: 0
+  cipher: aes-128-gcm
+  tls: false
+- type: vmess
+  name: 3.07|印尼youtube阿伟科技
+  ws-opts:
+    path: /fastssh/hkaa0/6315d6fd8ece0/
+  server: id-herza.v2-ray.com
+  port: '80'
+  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 2.76|俄罗斯youtube阿伟科技
   server: els.tdzjing.xyz
   port: 80
   type: vmess
@@ -17,8 +43,32 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
+- name: 2.26| 美国专线02
+  server: c90s3.jamjams3.net
+  port: 19623
+  type: vmess
+  uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4
+  alterId: 0
+  cipher: aes-128-gcm
+  tls: false
+- name: 2.04| 韩国专线01
+  server: c90s5.jamjams3.net
+  port: 19623
+  type: vmess
+  uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4
+  alterId: 0
+  cipher: aes-128-gcm
+  tls: false
+- name: 2.04|SSRSUBV07付费推荐suoytssrsub
+  server: 139.59.244.143
+  port: 38941
+  type: vmess
+  uuid: 3dc5c1c9-7d8c-432e-daff-4422103a7918
+  alterId: 0
+  cipher: auto
+  tls: false
 - type: vmess
-  name: 2.45|新加坡youtube阿伟科技1
+  name: 1.79|新加坡youtube阿伟科技1
   ws-opts:
     path: /adobe
     headers:
@@ -29,78 +79,57 @@ proxies:
   alterId: '0'
   cipher: auto
   network: ws
-- type: vmess
-  name: 2.30|印尼youtube阿伟科技
-  ws-opts:
-    path: /fastssh/hkaa0/6315d6fd8ece0/
-  server: id-herza.v2-ray.com
-  port: '80'
-  uuid: fbf78c1f-6f42-45e0-a1a9-67de703b90f8
-  alterId: '0'
-  cipher: auto
-  network: ws
-- name: 2.08| JP414  534Mb
-  server: 47.91.25.176
-  port: 36788
+- name: 1.69|美国youtube阿伟科技 8
+  server: v29.heduian.online
+  port: 30866
   type: vmess
-  uuid: e56a6bdd-4f2f-41ee-cb47-1e0f006a4b78
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: baidu.com
+  udp: true
+- name: 1.69|美国youtube阿伟科技 10
+  server: v4.heduian.online
+  port: 30866
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /oooo
+    headers:
+      Host: v4.heduian.online
+  udp: true
+- name: 1.35|2367Mb
+  server: c90s801.jamjams3.net
+  port: 19623
+  type: vmess
+  uuid: b03a1e7b-f1ad-4d0e-895d-639354e35ff4
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
+- name: 1.27|俄罗斯youtube阿伟科技
+  server: ru1.v2rayserv.com
+  port: 80
+  type: vmess
+  uuid: bc4f16e3-0b57-4367-8caf-88ee67859920
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /
+    path: /sshocean
     headers:
-      Host: 47.91.25.176
-- name: 1.82|日本youtube阿伟科技 9
-  server: 155.248.170.1
-  port: 80
-  type: vmess
-  uuid: 5bf5388b-a8e2-4dfe-a33a-d9d5f524fcbe
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 155.248.170.1
+      Host: ru1.v2rayserv.com
   udp: true
-- name: 1.71| 美国A
-  server: 3.145.104.12
-  port: 43632
-  type: vmess
-  uuid: 5b028d7f-9e30-4475-a558-ebb2c4b02566
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.39|US438
-  server: 45.10.153.188
-  type: vmess
-  country: US
-  port: 37558
-  uuid: 9d0f86ad-eec3-424f-f69a-fcb37e783d06
-  alterId: 0
-  cipher: auto
-  ws-path: /
-  servername: 45.10.153.188
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: 1.26| githubcomfreefq  美国内华达州拉斯维加斯BuyVM 10
-  server: 205.185.121.4
-  port: 80
-  type: vmess
-  uuid: 1e45ace9-8284-445b-b8fd-195b51ec8b6b
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 205.185.121.4
