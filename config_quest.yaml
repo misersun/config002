@@ -1,161 +1,18 @@
 proxies:
-- type: trojan
-  name: 6.06|USwmt910a117
-  server: 20.239.188.10
-  port: 20718
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 4.99|USwmt910a13
-  server: 20.239.188.10
-  port: 20767
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 4.92|USwmt910a8
-  server: 20.239.188.10
-  port: 20769
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 4.57|HKwmt910a20
-  server: 20.205.63.249
-  port: 20769
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 4.55|USwmt910a116
-  server: 20.239.188.10
-  port: 20721
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 4.52|HKwmt910a3
-  server: 20.205.63.249
-  port: 20803
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 4.24|HKwmt910a15
-  server: 20.205.63.249
-  port: 20770
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-  sni: ssl.ssl12.xyz
-- type: trojan
-  name: 3.96|HKwmt910a118
-  server: 20.205.63.249
-  port: 20727
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  udp: true
-  skip-cert-verify: true
-- name: 3.49| 测试CM新加坡0x
+- name: 4.17| githubcomfreefq  加拿大  11
+  server: 99tw03.tfzhc.top
+  port: 443
+  type: trojan
+  password: bc3c39e5-b259-47b4-8762-fcf8d79a82ab
+  sni: 99tw03.tfzhc.top
+- name: 3.84| 测试CM新加坡0x
   server: 139.162.46.222
   port: 443
   type: trojan
   password: a1e12464-9208-4583-bd21-ab6889fdd242
   sni: cdn.qchwnd.moe
   skip-cert-verify: true
-- type: trojan
-  name: 2.71|US美国10
-  server: 150.230.249.42
-  port: 443
-  password: 0Y9gOHSdRt
-  udp: true
-  skip-cert-verify: true
-- name: 2.25| httpsgithubcomAlvin9999newpacwiki clash ip2ip4洛杉矶SSR
-  server: clash4-2.ssrfree4.xyz
-  port: 12345
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.04| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶2SSR
-  server: clash6-2.ssrfree6.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.04|油管阿伟科技 10
-  server: sss9.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 2.02| httpsgithubcomAlvin9999newpacwiki clash ip3 洛杉矶2SSR
-  server: sv.ssrfree3.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.99|油管阿伟科技 2
-  server: sss10.free4444.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-  udp: true
-- name: 1.92| us10
-  server: 52.12.10.181
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.86| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶3SSR
-  server: clash1-3.ssrfree1.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.85| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶3SSR
-  server: clash6-3.ssrfree6.xyz
-  port: 443
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.85| 测试CT美国0x
-  server: 45.33.57.17
-  port: 443
-  type: trojan
-  password: a1e12464-9208-4583-bd21-ab6889fdd242
-  sni: cdn.qchwnd.moe
-  skip-cert-verify: true
-- name: 1.70|澳大利亚youtube阿伟科技 2
+- name: 1.92|澳大利亚youtube阿伟科技 2
   server: 194.195.254.50
   port: 443
   type: trojan
@@ -163,66 +20,21 @@ proxies:
   sni: cdn.qchwnd.moe
   skip-cert-verify: true
   udp: true
-- type: trojan
-  name: 1.69|GB英国
-  server: 3.9.175.102
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- name: 1.67| us2
-  server: 54.84.14.46
-  port: 443
-  type: trojan
-  password: iyinglong
-  skip-cert-verify: true
-- name: 1.65|美国youtube阿伟科技
-  server: azgy001.xibai6.top
-  port: 20785
-  type: trojan
-  password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a
-  sni: ssl.ssl12.xyz
-  skip-cert-verify: true
-  udp: true
-- name: 1.63| 其他 11
-  password: 274c1b23-2bfe-40ac-943c-ebc1aa044b22
-  port: 443
-  server: 41.216.177.41
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 1.50| 美国 2
-  server: s3.hazz.win
-  type: trojan
-  country: US
+- name: 1.78|US395
+  server: s1.hass.win
   port: 12340
+  type: trojan
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   skip-cert-verify: true
   udp: true
-- type: ssr
-  name: 1.50|油管阿伟科技20
-  server: 43.132.194.79
-  port: 31580
-  protocol: auth_aes128_sha1
-  cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: zxOmdD
-  protocol-param: 22082:tgXIaG
-- type: trojan
-  name: 1.42|FRwmt98a146
-  server: 52.47.99.22
-  port: 443
-  password: iyinglong
-  udp: true
-  skip-cert-verify: true
-- name: 1.32| 其他 13
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+- name: 1.75|US435
+  server: s3.hass.win
   port: 12340
-  server: s1.hazz.win
-  skip-cert-verify: true
   type: trojan
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  skip-cert-verify: true
   udp: true
-- name: 1.22|加拿大youtube阿伟科技
+- name: 1.71|加拿大youtube阿伟科技
   server: 170.187.182.212
   port: 443
   type: trojan
@@ -230,3 +42,24 @@ proxies:
   sni: cdn.qchwnd.moe
   skip-cert-verify: true
   udp: true
+- type: trojan
+  name: 1.63|US美国10
+  server: 150.230.249.42
+  port: 443
+  password: 0Y9gOHSdRt
+  udp: true
+  skip-cert-verify: true
+- name: 1.60| 其他 13
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: 12340
+  server: s1.hazz.win
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+- name: 1.30| 测试CT美国0x
+  server: 45.33.57.17
+  port: 443
+  type: trojan
+  password: a1e12464-9208-4583-bd21-ab6889fdd242
+  sni: cdn.qchwnd.moe
+  skip-cert-verify: true
