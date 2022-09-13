@@ -1,24 +1,16 @@
 proxies:
-- name: 2.88|俄罗斯youtube阿伟科技
-  server: els.tdzjing.xyz
-  port: 80
+- name: 4.85|日本youtube阿伟科技 4
+  server: 138.2.8.227
+  port: 59442
   type: vmess
-  uuid: 00000000-1111-1111-1111-222222222222
+  uuid: 6fd042fa-e864-4a95-85bc-6f590a03d34a
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - YouTube-aweikeji
   udp: true
 - type: vmess
-  name: 2.81|HK香港1
+  name: 3.64|HK香港1
   http-opts:
     path:
     - /
@@ -32,85 +24,7 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 2.59|HKwmt910a46
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.242.18.21
-  server: 47.242.18.21
-  port: '44850'
-  uuid: 4e390bc8-a22a-49e0-a538-d1b6da917677
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.41|HKwmt910a48
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.212.41
-  server: 8.210.212.41
-  port: '22303'
-  uuid: a0775aec-e4f8-4d5d-aad0-e50ccff0a7dc
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.22|HK香港6
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.242.177.115
-  server: 47.242.177.115
-  port: 46675
-  uuid: ac10c2ce-b233-4ea2-bf70-2dfc5721c8d1
-  alterId: 0
-  cipher: auto
-  network: http
-- type: vmess
-  name: 1.90|HKwmt910a44
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.242.236.239
-  server: 47.242.236.239
-  port: '35707'
-  uuid: 81acfa46-1c36-4950-8dd5-04dd0a1ff0f6
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 1.84|HKwmt910a88
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.253.214
-  server: 8.210.253.214
-  port: '63586'
-  uuid: c83db083-ff44-4727-899f-02d501e68d05
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 1.82| githubcomfreefq  美国  39
-  server: hg.cycfly.xyz
-  port: 53525
-  type: vmess
-  uuid: 9c7daea1-ef4b-403d-8cb9-ceed7d526bba
-  alterId: 0
-  cipher: auto
-  tls: false
-- type: vmess
-  name: 1.74|HKwmt910a47
+  name: 3.14|HKwmt910a47
   http-opts:
     path:
     - /
@@ -124,7 +38,29 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 1.69|HK香港8
+  name: 3.04|JP日本3
+  server: 168.138.201.208
+  port: 10328
+  uuid: bf847bf7-0ba5-4885-bd2b-da4d77afbda8
+  alterId: 0
+  cipher: auto
+  network: tcp
+- type: vmess
+  name: 2.76|HKwmt910a44
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.242.236.239
+  server: 47.242.236.239
+  port: '35707'
+  uuid: 81acfa46-1c36-4950-8dd5-04dd0a1ff0f6
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.45|HK香港8
   http-opts:
     path:
     - /
@@ -137,37 +73,54 @@ proxies:
   alterId: 0
   cipher: auto
   network: http
-- name: 1.68|美国youtube阿伟科技 14
-  server: 205.185.121.4
+- type: vmess
+  name: 2.44|HK香港6
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.242.177.115
+  server: 47.242.177.115
+  port: 46675
+  uuid: ac10c2ce-b233-4ea2-bf70-2dfc5721c8d1
+  alterId: 0
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.12|KR韩国US美国
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 193.122.117.52
+  server: 193.122.117.52
   port: 80
+  uuid: 8478fdb2-e155-4800-dfc5-b1c8548fb6b7
+  alterId: 0
+  cipher: auto
+  network: http
+- name: 2.00|美国youtube阿伟科技 4
+  server: 152.70.136.12
+  port: 23054
   type: vmess
-  uuid: 1e45ace9-8284-445b-b8fd-195b51ec8b6b
+  uuid: 199ab409-63c4-43f7-8164-7a8231be4a3c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 205.185.121.4
   udp: true
-- type: vmess
-  name: 1.32|US美国1
-  http-opts:
-    path:
-    - /hkaa0
-    headers:
-      Host:
-      - 20.249.22.111
-  server: 20.249.22.111
-  port: 29049
-  uuid: 539362a0-044c-43c4-ab16-9ad6b169f181
-  alterId: 1
+- name: 1.92| githubcomfreefq  澳大利亚  1
+  server: 129.154.61.32
+  port: 80
+  type: vmess
+  uuid: 93c8fd94-17de-4730-8977-d55e304e9a85
+  alterId: 0
   cipher: auto
-  network: http
+  tls: false
 - type: vmess
-  name: 1.15|HK香港7
+  name: 1.80|HK香港7
   http-opts:
     path:
     - /
@@ -180,3 +133,51 @@ proxies:
   alterId: 0
   cipher: auto
   network: http
+- type: vmess
+  name: 1.64|HKwmt910a46
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.242.18.21
+  server: 47.242.18.21
+  port: '44850'
+  uuid: 4e390bc8-a22a-49e0-a538-d1b6da917677
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 1.53|HKwmt910a48
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 8.210.212.41
+  server: 8.210.212.41
+  port: '22303'
+  uuid: a0775aec-e4f8-4d5d-aad0-e50ccff0a7dc
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 1.10|SSRSUBV15付费推荐suoytssrsub
+  server: ca2.v2rayserv.com
+  port: 80
+  type: vmess
+  uuid: e3eba3ac-5bea-409f-ac5c-6c964e04d0c4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /sshocean
+  ws-headers:
+    Host: ca2.v2rayserv.com
+- name: 1.02| githubcomfreefq  美国纽约州伊利县威廉斯维尔村ColoCrossing有限公司 8
+  server: xui.dongshang.tk
+  port: 43753
+  type: vmess
+  uuid: 767c4fc8-0fd4-4f37-e82e-3f9ae646264d
+  alterId: 0
+  cipher: auto
+  tls: false
