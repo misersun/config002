@@ -1,6 +1,20 @@
 proxies:
 - type: vmess
-  name: 3.25|HKwmt92143
+  name: 6.12|CNwmt92359
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 43.154.31.230
+  server: 43.154.31.230
+  port: '25916'
+  uuid: cfd98bac-dc87-4e95-a979-b481aed312ef
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 3.56|HKwmt92143
   http-opts:
     path:
     - /
@@ -13,7 +27,31 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 2.62|RU 俄罗斯youtube阿伟科技
+- name: 2.92|KR 韩国youtube阿伟科技
+  server: 144.24.88.101
+  port: 16833
+  type: vmess
+  uuid: f5425ccf-3946-4fb4-eb24-5393d78a392f
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.24|5089Mb
+  server: 103.186.148.113
+  port: 80
+  type: vmess
+  uuid: a479fc02-07c5-4864-8564-c4f147dfa488
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /shopvpn.net
+    headers:
+      Host: frontier-i18n.tiktokv.com
+- name: 2.05|RU 俄罗斯youtube阿伟科技
   server: els.tdzjing.xyz
   port: 80
   type: vmess
@@ -31,22 +69,35 @@ proxies:
       Host:
       - YouTube-aweikeji
   udp: true
-- type: vmess
-  name: 2.44|HKwmt910a44
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.242.236.239
-  server: 47.242.236.239
-  port: '35707'
-  uuid: 81acfa46-1c36-4950-8dd5-04dd0a1ff0f6
-  alterId: '0'
+- name: 1.74|SG 新加坡youtube阿伟科技电信可用
+  server: sg-ovh1.v2-ray.com
+  port: 80
+  type: vmess
+  uuid: afef92d5-b5b9-46aa-a982-3914fe62c1c5
+  alterId: 0
   cipher: auto
-  network: http
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fastssh/ghhhur/632736634acba/
+    headers:
+      Host: sg-ovh1.v2-ray.com
+  udp: true
+- name: 1.63|SSRSUBV11付费推荐suoytssrsub
+  server: 165.227.231.254
+  port: 8080
+  type: vmess
+  uuid: 2ed609d0-7467-471b-94a9-34a734ccc40a
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /cctv13/hd.m3u8
+  ws-headers:
+    Host: 165.227.231.254
 - type: vmess
-  name: 2.09|HKwmt92145
+  name: 1.53|HKwmt92145
   http-opts:
     path:
     - /
@@ -60,7 +111,45 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 1.73|HKwmt910a47
+  name: 1.48|ESwmt923109
+  server: 92.38.171.97
+  port: '21008'
+  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+  alterId: '0'
+  cipher: auto
+  network: tcp
+- name: 1.31| githubcomfreefq  印度卡纳塔克邦班加罗尔DigitalOcean数据中心 47
+  server: 139.59.85.231
+  port: 8080
+  type: vmess
+  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /cctv13/hd.m3u8
+  ws-headers:
+    Host: 139.59.85.231
+- name: 1.29|SG 新加坡youtube阿伟科技 6
+  server: 8.210.212.41
+  port: 22303
+  type: vmess
+  uuid: a0775aec-e4f8-4d5d-aad0-e50ccff0a7dc
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
+    headers:
+      Host:
+      - 8.210.212.41
+  udp: true
+- type: vmess
+  name: 1.07|HKwmt910a47
   http-opts:
     path:
     - /
@@ -73,96 +162,17 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.51| githubcomfreefq  美国纽约市DigitalOcean云公司 35
-  server: 138.197.165.31
-  port: 8080
-  type: vmess
-  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: '%7B%22Host%22:%22138.197.165.31%22%7D'
-- name: 1.48|美国youtube阿伟科技 18
-  server: 68.183.129.197
-  port: 8080
-  type: vmess
-  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /cctv13/hd.m3u8
-    headers:
-      Host: '%7B%22Host%22:%2268.183.129.197%22%7D'
-  udp: true
-- name: 1.45| githubcomfreefq  德国黑森州法兰克福DigitalOcean数据中心 20
-  server: 138.68.90.231
-  port: 8080
-  type: vmess
-  uuid: 826b8d0a-e0d3-407a-927d-19953c170779
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: 138.68.90.231
-- name: 1.42|Ita 意大利youtube阿伟科技 2
-  server: 92.223.79.25
-  port: 21008
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
 - type: vmess
-  name: 1.26|HKwmt921115
+  name: 1.02|HKwmt92318
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 47.242.18.21
-  server: 47.242.18.21
-  port: '44850'
-  uuid: 4e390bc8-a22a-49e0-a538-d1b6da917677
+      - 47.243.131.231
+  server: 47.243.131.231
+  port: '58681'
+  uuid: df206563-b36c-4999-8764-c3e21a931b9e
   alterId: '0'
   cipher: auto
   network: http
-- name: 1.23|HK 香港youtube阿伟科技 2
-  server: 43.155.93.16
-  port: 50044
-  type: vmess
-  uuid: 27ddeff3-bf6a-4b02-9f48-4c676cdef59a
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 43.155.93.16
-  udp: true
-- name: 1.11| githubcomfreefq  印度卡纳塔克邦班加罗尔DigitalOcean数据中心 47
-  server: 139.59.85.231
-  port: 8080
-  type: vmess
-  uuid: 7002330d-fe27-4b56-b22f-d7e3eb825fdb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /cctv13/hd.m3u8
-  ws-headers:
-    Host: 139.59.85.231
