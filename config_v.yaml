@@ -1,112 +1,17 @@
 proxies:
-- name: 5.01| githubcomfreefq  美国  43
-  server: 152.70.235.207
-  port: 35412
+- name: 4.82| githubcomfreefq  美国  2
+  server: 138.2.8.227
+  port: 59442
   type: vmess
-  uuid: 70d95308-2a61-4f93-f139-9103d0587fd9
+  uuid: 6fd042fa-e864-4a95-85bc-6f590a03d34a
   alterId: 0
   cipher: auto
   tls: false
-- type: vmess
-  name: 4.04|HKwmt92449
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.84.180
-  server: 8.210.84.180
-  port: '51529'
-  uuid: 3b38d661-b5e7-485e-96af-6d4518d819d5
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 3.97| 韩国B
-  server: hanguob.yongyevpn.com
-  port: 43632
+- name: 4.06|HK 香港youtube阿伟科技 8
+  server: 43.154.31.230
+  port: 25916
   type: vmess
-  uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 3.96| 新加坡A
-  server: xinjiapoa.yongyevpn.com
-  port: 43632
-  type: vmess
-  uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 3.20|Relay 3784Mb
-  server: c12s4.jamjams3.net
-  port: 12623
-  type: vmess
-  uuid: 8ff878d1-eaf8-4afd-8cbb-6d657596af64
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 2.74| v2rayfreeeuorg  美国3COM公司企业网 35
-  server: 152.67.218.38
-  port: 443
-  type: vmess
-  uuid: b5e9480a-b7aa-40a4-f9a7-5299b5e363b4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 152.67.218.38
-- name: 2.73| 韩国A
-  server: hanguoa.yongyevpn.com
-  port: 43632
-  type: vmess
-  uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 2.04|KR 韩国youtube阿伟科技 5
-  server: 129.154.61.32
-  port: 80
-  type: vmess
-  uuid: 93c8fd94-17de-4730-8977-d55e304e9a85
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  udp: true
-- name: 2.00| githubcomfreefq  美国CloudFlare节点 32
-  server: cfhk.oppo.quest
-  port: 80
-  type: vmess
-  uuid: 3a78cb1d-bd54-47c0-aead-1b8f55090427
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: scw.cloudflare.quest
-- type: vmess
-  name: 2.00|HKwmt910a47
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.136.17
-  server: 47.243.136.17
-  port: '37205'
-  uuid: abb92d0b-5613-48ae-9564-03fda7830a96
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 1.92|HK 香港youtube阿伟科技
-  server: 47.242.236.239
-  port: 35707
-  type: vmess
-  uuid: 81acfa46-1c36-4950-8dd5-04dd0a1ff0f6
+  uuid: cfd98bac-dc87-4e95-a979-b481aed312ef
   alterId: 0
   cipher: auto
   tls: false
@@ -118,9 +23,96 @@ proxies:
     - /
     headers:
       Host:
-      - 47.242.236.239
+      - 43.154.31.230
   udp: true
-- name: 1.85| US1444  360Mb
+- name: 4.01| 新加坡A
+  server: xinjiapoa.yongyevpn.com
+  port: 43632
+  type: vmess
+  uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 3.94|新加坡D
+  server: 3.0.96.91
+  port: 43632
+  type: vmess
+  uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 3.64| 韩国B
+  server: hanguob.yongyevpn.com
+  port: 43632
+  type: vmess
+  uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 3.30|6799Mb
+  server: 138.2.15.23
+  port: 46370
+  type: vmess
+  uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 3.00|KR 韩国youtube阿伟科技 4
+  server: 3.36.117.134
+  port: 43632
+  type: vmess
+  uuid: 064f68c7-9245-4f27-9d2f-47a630aa3103
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  udp: true
+- name: 2.55|2089Mb
+  server: 23.105.199.160
+  port: 23903
+  type: vmess
+  uuid: 60b6c1a6-6306-4e28-91d9-8d2be2449ae8
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.48|KR 韩国youtube阿伟科技 3
+  server: riop.miaoge110.cf
+  port: 443
+  type: vmess
+  uuid: 4893ed3e-8a5f-48dc-aa1e-bbc2e67a065b
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: riop.miaoge110.cf
+  udp: true
+- name: 2.45| 788Mb
+  server: 152.70.241.18
+  port: 26676
+  type: vmess
+  uuid: ecd274c0-175d-45f7-8276-a3da93786632
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.18|2076Mb
+  server: 23.105.199.160
+  port: 25078
+  type: vmess
+  uuid: 964f9b2b-7ff1-4026-d4a9-41b824f4b3bb
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- name: 2.02| US1444  360Mb
   server: 152.69.204.193
   port: 33226
   type: vmess
@@ -129,49 +121,17 @@ proxies:
   cipher: auto
   tls: false
   skip-cert-verify: false
-- name: 1.59|Relay 2613Mb
-  server: c12s801.jamjams3.net
-  port: 12623
+- name: 1.47|KR 韩国youtube阿伟科技 5
+  server: 129.154.61.32
+  port: 80
   type: vmess
-  uuid: 8ff878d1-eaf8-4afd-8cbb-6d657596af64
+  uuid: 93c8fd94-17de-4730-8977-d55e304e9a85
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
-- type: vmess
-  name: 1.54|US美国4
-  server: 64.112.42.72
-  port: 16999
-  uuid: b5a01f44-b981-421a-bdc0-6d9d53da07fd
-  alterId: 0
-  cipher: auto
-  network: tcp
-- name: 1.32|ZZ1431 2607Mb
-  server: 64.112.42.53
-  port: 16999
-  type: vmess
-  uuid: 48fb27a4-e6fe-42cf-95bf-103d2318ed5d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.28| githubcomfreefq  美国  2
-  server: 138.2.8.227
-  port: 59442
-  type: vmess
-  uuid: 6fd042fa-e864-4a95-85bc-6f590a03d34a
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.09| githubcomfreefq  澳大利亚  38
-  server: 129.154.57.134
-  port: 26282
-  type: vmess
-  uuid: cabbdf5d-3cca-4605-ba1c-c89a7d5b4c07
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 1.00| githubcomfreefq  德国黑森州法兰克福DigitalOcean数据中心 21
+  skip-cert-verify: true
+  udp: true
+- name: 1.31| githubcomfreefq  德国黑森州法兰克福DigitalOcean数据中心 21
   server: 138.68.90.231
   port: 8080
   type: vmess
@@ -183,3 +143,12 @@ proxies:
   ws-path: /cctv13/hd.m3u8
   ws-headers:
     Host: 138.68.90.231
+- name: 1.10| 596Mb
+  server: 23.105.199.160
+  port: 37584
+  type: vmess
+  uuid: 61914893-393a-4685-fc2d-13328bd8e491
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
