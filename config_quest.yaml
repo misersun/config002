@@ -1,137 +1,44 @@
 proxies:
-- type: trojan
-  name: 4.63|US美国11
-  server: 150.230.96.103
+- name: 5.45| githubcomfreefq  美国惠普HP 9
+  server: hk4.turingnet.top
+  port: 50001
+  type: trojan
+  password: f8886f00-cebf-44ca-baf2-ffc058433348
+  sni: hk4.turingnet.top
+- name: 5.07| githubcomfreefq  日本东京都Amazon数据中心 30
+  server: jp1.turingnet.top
+  port: 50001
+  type: trojan
+  password: f8886f00-cebf-44ca-baf2-ffc058433348
+  sni: jp1.turingnet.top
+- name: 3.17| githubcomfreefq  加拿大  10
+  server: 1002jp.tfzhc.top
   port: 443
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  udp: true
-  skip-cert-verify: true
+  type: trojan
+  password: 75f9d187-a9c5-4944-8a09-d1f08ceac302
+  sni: 1002jp.tfzhc.top
+- name: 3.14| githubcomfreefq  新加坡亚马逊Amazon公司数据中心 7
+  server: sg2.turingnet.top
+  port: 50001
+  type: trojan
+  password: f8886f00-cebf-44ca-baf2-ffc058433348
+  sni: sg2.turingnet.top
 - type: trojan
-  name: 3.77|US美国8
-  server: 138.2.45.243
-  port: 443
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 3.72|USwmt10147
-  server: 138.2.113.248
-  port: 443
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  udp: true
-  skip-cert-verify: true
-- type: ssr
-  name: 3.15|044日本0926428
-  server: jp-am48-6.eqnode.net
-  port: 8081
-  protocol: origin
-  cipher: aes-256-cfb
-  obfs: tls1.2_ticket_auth
-  password: eAokbaDN6
-- name: 3.06| 新加坡0930194
-  server: sg-am3.eqsunshine.com
-  port: 32001
-  type: ssr
-  cipher: aes-256-cfb
-  password: 3g0dHlKME
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.34| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶1SSR
-  server: clash4.ssrfree4.xyz
-  port: 22333
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.11| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶2SSR
-  server: clash4-2.ssrfree4.xyz
-  port: 12345
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- type: trojan
-  name: 1.96|US美国5
+  name: 2.40|US美国5
   server: 150.230.249.42
   port: 443
   password: 0Y9gOHSdRt
   udp: true
   skip-cert-verify: true
-- type: trojan
-  name: 1.90|US美国16
-  server: 129.146.190.42
-  port: 443
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  udp: true
-  skip-cert-verify: true
-- name: 1.69| githubcomfreefq  美国  40
-  server: fhcarm2.gaox.ml
+- name: 1.60| githubcomfreefq  日本东京Choopa数据中心 8
+  server: jp3.fastconnect.ml
   port: 443
   type: trojan
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  sni: fhcarm2.gaox.ml
-- type: trojan
-  name: 1.64|GB英国
-  server: 132.145.51.172
+  password: f8886f00-cebf-44ca-baf2-ffc058433348
+  sni: jp3.fastconnect.ml
+- name: 1.41| githubcomfreefq  加拿大  46
+  server: 1002tw01.tfzhc.top
   port: 443
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
-  udp: true
-  skip-cert-verify: true
-- type: ssr
-  name: 1.64|美国直连01
-  server: 88.210.37.123
-  port: 41007
-  protocol: auth_aes128_sha1
-  cipher: chacha20-ietf
-  obfs: tls1.2_ticket_auth
-  password: yPKrexXaVMAXFfez
-  obfs-param: MGVjNTQyODA4NC5kb3dubG9hZC53aW5kb3dzdXBkYXRlLmNvbQ
-  protocol-param: 28084:kf47Xf
-- type: trojan
-  name: 1.48|USwmt93013
-  server: s3.hass.win
-  port: 12340
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 1.43|英国01LINyoutube阿伟科技
-  server: uk01.170203.xyz
-  port: 10000
-  password: 108e4ac1-b24c-41e5-bf1e-720c357a6473
-  udp: true
-  skip-cert-verify: true
-  sni: uk01.170203.xyz
-- type: ssr
-  name: 1.41|美国直连02
-  server: 88.210.37.124
-  port: 41008
-  protocol: auth_aes128_sha1
-  cipher: chacha20-ietf
-  obfs: tls1.2_ticket_auth
-  password: yPKrexXaVMAXFfez
-  obfs-param: MGVjNTQyODA4NC5kb3dubG9hZC53aW5kb3dzdXBkYXRlLmNvbQ
-  protocol-param: 28084:kf47Xf
-- type: trojan
-  name: 1.10|US美国14
-  server: 129.146.242.130
-  port: 443
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 1.04|阿根廷youtube阿伟科技
-  server: agt-zf.jiashumao.net
-  port: 24540
-  password: 948b552c-4282-392a-bc1c-b14c1fd86a6a
-  udp: true
-  skip-cert-verify: true
-  sni: agt.jiashumao.net
+  type: trojan
+  password: 75f9d187-a9c5-4944-8a09-d1f08ceac302
+  sni: 1002tw01.tfzhc.top
