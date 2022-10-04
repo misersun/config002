@@ -1,6 +1,6 @@
 proxies:
 - type: vmess
-  name: 5.69|US美国youtube阿伟科技12
+  name: 6.28|US美国youtube阿伟科技12
   ws-opts:
     path: /aries
     headers:
@@ -11,80 +11,22 @@ proxies:
   alterId: '0'
   cipher: auto
   network: ws
-- name: 5.45| githubcomfreefq  美国惠普HP 9
-  server: hk4.turingnet.top
-  port: 50001
-  type: trojan
-  password: f8886f00-cebf-44ca-baf2-ffc058433348
-  sni: hk4.turingnet.top
-- name: 5.07| githubcomfreefq  日本东京都Amazon数据中心 30
-  server: jp1.turingnet.top
-  port: 50001
-  type: trojan
-  password: f8886f00-cebf-44ca-baf2-ffc058433348
-  sni: jp1.turingnet.top
-- name: 3.68|US32
-  server: 152.69.204.193
-  port: 33226
-  type: vmess
-  uuid: cfee6a64-66c4-4a20-b193-3326ad7b4cc5
-  alterId: 0
-  cipher: auto
-  network: tcp
-  http-opts: {}
-  ws-path: /
-  skip-cert-verify: true
-  servername: 152.69.204.193
-- name: 3.58|Relay 7324Mb
-  server: vfly11.win
-  port: 443
-  type: vmess
-  uuid: 7b8e6437-86cd-4603-99c7-531047e64da7
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /myblog
-    headers:
-      Host: vfly11.win
-- name: 3.27|4076Mb
-  server: 8.209.252.35
-  port: 443
-  type: vmess
-  uuid: 3706161f-3ee3-48e5-bfcf-0d856cc6f0ab
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /down
-    headers:
-      Host: js.adbse.xyz
-- name: 3.17| githubcomfreefq  加拿大  10
-  server: 1002jp.tfzhc.top
-  port: 443
-  type: trojan
-  password: 75f9d187-a9c5-4944-8a09-d1f08ceac302
-  sni: 1002jp.tfzhc.top
-- name: 3.14| githubcomfreefq  加拿大  16
-  server: twscloud.litewindy.top
-  port: 62243
-  type: vmess
-  uuid: 03812310-addc-4f25-81e6-d67e81fdee14
-  alterId: 0
-  cipher: auto
-  tls: true
-- name: 3.14| githubcomfreefq  新加坡亚马逊Amazon公司数据中心 7
-  server: sg2.turingnet.top
-  port: 50001
-  type: trojan
-  password: f8886f00-cebf-44ca-baf2-ffc058433348
-  sni: sg2.turingnet.top
 - type: vmess
-  name: 3.02|HKwmt92914
+  name: 3.98|HKwmt92960
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.187.152
+  server: 47.243.187.152
+  port: '61847'
+  uuid: af998f95-c214-418c-9ad2-cdf55ed755b2
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 3.40|HKwmt92914
   http-opts:
     path:
     - /
@@ -97,27 +39,46 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
+- name: 3.09|2046Mb
+  server: 138.2.15.23
+  port: 46370
+  type: vmess
+  uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- type: trojan
+  name: 2.95|USwmt10316
+  server: sgmax08.170203.xyz
+  port: 30326
+  password: 4b553aa2-03c7-4b44-9b1a-5ac32adb8746
+  udp: true
+  skip-cert-verify: true
+  sni: sgmax08.170203.xyz
 - type: vmess
-  name: 2.90|HKwmt102p105
-  ws-opts:
-    path: /
+  name: 2.69|HKwmt92937
+  http-opts:
+    path:
+    - /
     headers:
-      host: tms.dingtalk.com
-  server: 9a9e161c-8727-11f0-dc0f-1f0b32f4e6e0.cnnic.rip
-  port: '80'
-  uuid: 6b468d94-f14a-4109-88d7-e23587536eca
+      Host:
+      - 47.243.247.109
+  server: 47.243.247.109
+  port: '53314'
+  uuid: 8c232a9e-6760-43b5-851e-a65b9965b5ee
   alterId: '0'
   cipher: auto
-  network: ws
+  network: http
 - type: trojan
-  name: 2.40|US美国5
+  name: 2.10|US美国5
   server: 150.230.249.42
   port: 443
   password: 0Y9gOHSdRt
   udp: true
   skip-cert-verify: true
 - type: vmess
-  name: 2.20|HKwmt9299
+  name: 1.58|HKwmt9299
   http-opts:
     path:
     - /
@@ -131,44 +92,19 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 1.77|爱沙尼亚youtube阿伟科技1油管阿伟科技3
+  name: 1.57|JP日本youtube阿伟科技4
   ws-opts:
-    path: /aries
+    path: /123
     headers:
-      host: ee.cloudflare.quest
-  server: ee.cloudflare.quest
-  port: '80'
-  uuid: f9247df4-02d5-4b31-acc5-4022652c5953
+      host: jparm.fineyoo.ml
+  server: jparm.fineyoo.ml
+  port: '443'
+  uuid: 10ba478e-9de1-4aa9-c09e-7707025334d3
   alterId: '0'
   cipher: auto
   network: ws
-- type: vmess
-  name: 1.66|HKwmt92960
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.187.152
-  server: 47.243.187.152
-  port: '61847'
-  uuid: af998f95-c214-418c-9ad2-cdf55ed755b2
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 1.60| githubcomfreefq  日本东京Choopa数据中心 8
-  server: jp3.fastconnect.ml
-  port: 443
-  type: trojan
-  password: f8886f00-cebf-44ca-baf2-ffc058433348
-  sni: jp3.fastconnect.ml
-- name: 1.41| githubcomfreefq  加拿大  46
-  server: 1002tw01.tfzhc.top
-  port: 443
-  type: trojan
-  password: 75f9d187-a9c5-4944-8a09-d1f08ceac302
-  sni: 1002tw01.tfzhc.top
-- name: 1.38| githubcomfreefq  美国CloudFlare节点 29
+  tls: true
+- name: 1.30| githubcomfreefq  美国CloudFlare节点 29
   server: sgamd.ptuu.tk
   port: 443
   type: vmess
@@ -180,57 +116,35 @@ proxies:
   ws-path: /123
   ws-headers:
     Host: sgamd.ptuu.tk
-- name: 1.38|5209Mb
-  server: 140.83.81.87
-  port: 55555
-  type: vmess
-  uuid: a709aa18-357b-46bf-a1b5-ac6d68ffb820
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.38| US1493 1542Mb
-  server: 129.146.133.157
-  port: 51009
-  type: vmess
-  uuid: 81714cef-9bde-4a08-aa50-d6bc0172d78b
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.23|AU 澳大利亚youtube阿伟科技
-  server: 94.177.8.87
-  port: 41443
-  type: vmess
-  uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
+- type: trojan
+  name: 1.29|韩国油管阿伟科技10
+  server: hanguo.jiashumao.net
+  port: 34210
+  password: 14be28df-1728-3015-a0f8-da275104617e
   udp: true
-- name: 1.18| githubcomfreefq  美国CloudFlare公司CDN节点 20
-  server: cdn.bootloader.cf
-  port: 80
-  type: vmess
-  uuid: 74758f06-f4b9-4ef1-a86c-f0a0cc82109f
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /aries
-  ws-headers:
-    Host: lux.justu.ml
-- type: vmess
-  name: 1.05|HKwmt92937
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.247.109
-  server: 47.243.247.109
-  port: '53314'
-  uuid: 8c232a9e-6760-43b5-851e-a65b9965b5ee
-  alterId: '0'
-  cipher: auto
-  network: http
+  skip-cert-verify: true
+  sni: hanguo.jiashumao.net
+- type: trojan
+  name: 1.18|FRwmt10331
+  server: fg.jiashumao.net
+  port: 45580
+  password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2
+  udp: true
+  skip-cert-verify: true
+  sni: fg.jiashumao.net
+- type: trojan
+  name: 1.16|USwmt10328
+  server: yd.jiashumao.net
+  port: 29957
+  password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2
+  udp: true
+  skip-cert-verify: true
+  sni: yd.jiashumao.net
+- type: trojan
+  name: 1.16|USwmt10326
+  server: usc-zf.jiashumao.net
+  port: 26972
+  password: 53b93c4c-2fc4-3f25-80d6-be17cef6c3a2
+  udp: true
+  skip-cert-verify: true
+  sni: ahbn.jiashumao.net
