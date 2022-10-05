@@ -1,55 +1,6 @@
 proxies:
 - type: vmess
-  name: 6.28|US美国youtube阿伟科技12
-  ws-opts:
-    path: /aries
-    headers:
-      host: linode.cloudflare.quest
-  server: shopify.com
-  port: '80'
-  uuid: 4397d066-f753-4300-e7ed-44797ddfcd24
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: 3.98|HKwmt92960
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.187.152
-  server: 47.243.187.152
-  port: '61847'
-  uuid: af998f95-c214-418c-9ad2-cdf55ed755b2
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 3.40|HKwmt92914
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.249.85
-  server: 47.243.249.85
-  port: '31230'
-  uuid: 19499d00-ae11-4520-942c-e4b7be10739d
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 3.09|2046Mb
-  server: 138.2.15.23
-  port: 46370
-  type: vmess
-  uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-- type: vmess
-  name: 2.69|HKwmt92937
+  name: 3.63|HKwmt92937
   http-opts:
     path:
     - /
@@ -63,16 +14,42 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 1.58|HKwmt9299
+  name: 2.95|HKwmt10426
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 47.243.248.22
-  server: 47.243.248.22
-  port: '38120'
-  uuid: 29d435a4-b7fb-44db-9119-4ede4e22c250
+      - 47.243.244.200
+  server: 47.243.244.200
+  port: '51535'
+  uuid: 98a2ba95-d179-4563-82be-ea5c897be747
   alterId: '0'
   cipher: auto
   network: http
+- type: vmess
+  name: 1.70|HKwmt92914
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.249.85
+  server: 47.243.249.85
+  port: '31230'
+  uuid: 19499d00-ae11-4520-942c-e4b7be10739d
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 1.38|US美国youtube阿伟科技15
+  ws-opts:
+    path: /aries
+    headers:
+      host: scw.cloudflare.quest
+  server: cfhk.oppo.quest
+  port: '80'
+  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
+  alterId: '0'
+  cipher: auto
+  network: ws
