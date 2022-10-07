@@ -1,12 +1,66 @@
 proxies:
 - type: trojan
-  name: 4.06|JP日本2
-  server: 168.138.43.89
+  name: 5.72|KR韩国
+  server: 146.56.176.239
   port: 443
-  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  password: a153fb4e-6d1b-4db0-b03d-acb4012b7198
   udp: true
   skip-cert-verify: true
-- name: 1.81| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶2SSR
+- type: trojan
+  name: 5.54|US美国2
+  server: 150.230.217.213
+  port: 443
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 4.70|JP日本
+  server: 168.138.44.176
+  port: 443
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 4.20|US美国11
+  server: 138.2.45.243
+  port: 443
+  password: c19d1432-8b3e-4818-8837-3d160cf65908
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 3.75|US美国4
+  server: 138.2.113.248
+  port: 443
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 3.25|wmt106123
+  server: realhk-1.tiktokcdn.sbs
+  port: 12425
+  password: 7rfcbuZdkU
+  udp: true
+  skip-cert-verify: true
+  sni: realhk-1.tiktokcdn.sbs
+- type: trojan
+  name: 2.77|HK香港youtube阿伟科技4
+  server: 165.154.253.15
+  port: 49011
+  password: 562c4c98-00c9-4037-a966-c7fc6a81367c
+  udp: true
+  skip-cert-verify: true
+  sni: hk-b.bbbb.pw
+- name: 2.46| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶1SSR
+  server: clash4.ssrfree4.xyz
+  port: 22333
+  type: ssr
+  cipher: dummy
+  password: dongtaiwang.com
+  protocol: auth_chain_a
+  obfs: tls1.2_ticket_auth
+  protocol-param: ''
+  obfs-param: ''
+- name: 2.28| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶2SSR
   server: clash4-2.ssrfree4.xyz
   port: 12345
   type: ssr
@@ -17,16 +71,106 @@ proxies:
   protocol-param: ''
   obfs-param: ''
 - type: trojan
-  name: 1.69|US美国11
-  server: 138.2.45.243
-  port: 443
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  udp: true
-  skip-cert-verify: true
-- type: trojan
-  name: 1.68|US美国5
+  name: 2.04|US美国5
   server: 150.230.249.42
   port: 443
   password: 0Y9gOHSdRt
   udp: true
   skip-cert-verify: true
+- type: trojan
+  name: 2.01|US美国youtube阿伟科技4
+  server: 165.154.253.15
+  port: 49004
+  password: 562c4c98-00c9-4037-a966-c7fc6a81367c
+  udp: true
+  skip-cert-verify: true
+  sni: us-c.bbbb.pw
+- type: trojan
+  name: 1.86|AU澳大利亚1
+  server: 152.67.98.30
+  port: 443
+  password: e8c1ab3c-89b3-4933-92df-682e6dce7819
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.85|INwmt105138
+  server: 152.67.162.166
+  port: 443
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.78|US美国youtube阿伟科技5
+  server: 165.154.253.15
+  port: 49002
+  password: 562c4c98-00c9-4037-a966-c7fc6a81367c
+  udp: true
+  skip-cert-verify: true
+  sni: us-a.bbbb.pw
+- type: trojan
+  name: 1.72|HK香港youtube阿伟科技6
+  server: 165.154.253.15
+  port: 49001
+  password: 562c4c98-00c9-4037-a966-c7fc6a81367c
+  udp: true
+  skip-cert-verify: true
+  sni: hk-c.bbbb.pw
+- type: trojan
+  name: 1.66|US美国8
+  server: 129.146.242.130
+  port: 443
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.56|HK香港youtube阿伟科技3
+  server: 34.92.10.35
+  port: 443
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  udp: true
+  skip-cert-verify: true
+  sni: motivate.meijireform.com
+- type: trojan
+  name: 1.53|IN印度2
+  server: 152.67.160.174
+  port: 443
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.31|JP日本youtube阿伟科技7
+  server: 35.190.229.93
+  port: 443
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  udp: true
+  skip-cert-verify: true
+  sni: practice.meijireform.com
+- name: 1.22| 新加坡3
+  server: sg-01.tiktokcdn.top
+  port: 443
+  type: trojan
+  password: bb5b1337-fa9e-4e00-b8c6-1110e626171d
+  sni: sg-01.tiktokcdn.top
+- type: trojan
+  name: 1.12|JP日本youtube阿伟科技5
+  server: 45.64.22.37
+  port: 443
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  udp: true
+  skip-cert-verify: true
+  sni: corporal.meijireform.com
+- type: trojan
+  name: 1.09|JP日本youtube阿伟科技
+  server: nice-jp03.tiktokcdn.buzz
+  port: 43857
+  password: P9qGW38zz7
+  udp: true
+  skip-cert-verify: true
+- type: trojan
+  name: 1.09|JP日本youtube阿伟科技4
+  server: 45.64.22.5
+  port: 443
+  password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS
+  udp: true
+  skip-cert-verify: true
+  sni: motivate.meijireform.com
