@@ -1,15 +1,89 @@
 proxies:
-- name: 4.09|2341Mb
-  server: 152.69.195.171
-  port: 55555
+- type: vmess
+  name: 5.07|HKwmt10555
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.249.85
+  server: 47.243.249.85
+  port: '31230'
+  uuid: 19499d00-ae11-4520-942c-e4b7be10739d
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 3.45|HKwmt10562
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.53.166
+  server: 47.243.53.166
+  port: '53132'
+  uuid: dd9503be-4542-451b-a2a0-3cf26d4af98d
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 3.43|3307Mb
+  server: 138.2.15.23
+  port: 46370
   type: vmess
-  uuid: b86d95da-b843-4804-8443-d849d3207076
+  uuid: 998151e5-0bc5-4377-e390-c41bb26fdd0c
   alterId: 0
   cipher: auto
   tls: false
   skip-cert-verify: false
 - type: vmess
-  name: 3.86|HKwmt10430
+  name: 3.30|HK香港2
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.242.200.131
+  server: 47.242.200.131
+  port: 26508
+  uuid: cf84576f-a31d-4d7b-a077-3a2b3d5bd7fa
+  alterId: 0
+  cipher: auto
+  network: http
+- name: 2.64|4975Mb
+  server: c6s4.jamjams3.net
+  port: 8937
+  type: vmess
+  uuid: 656a08a0-482e-403a-8228-2f27def97b44
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- type: vmess
+  name: 2.59|HKwmt105120
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.108.35
+  server: 47.243.108.35
+  port: '39729'
+  uuid: dc47d16f-d3e0-4b37-bde4-218e90144a8f
+  alterId: '0'
+  cipher: auto
+  network: http
+- name: 2.49|2285Mb
+  server: c6s3.jamjams3.net
+  port: 8937
+  type: vmess
+  uuid: 656a08a0-482e-403a-8228-2f27def97b44
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+- type: vmess
+  name: 2.24|HKwmt10430
   http-opts:
     path:
     - /
@@ -23,49 +97,21 @@ proxies:
   cipher: auto
   network: http
 - type: vmess
-  name: 3.27|HKwmt105112
+  name: 2.08|HKwmt10710
   http-opts:
     path:
     - /
     headers:
       Host:
-      - 47.243.143.215
-  server: 47.243.143.215
-  port: '64008'
-  uuid: dae844ab-4613-4884-893e-14b74ba4b687
+      - 47.242.86.208
+  server: 47.242.86.208
+  port: '48788'
+  uuid: 46664d6f-f900-47eb-976c-f3893d1def3e
   alterId: '0'
   cipher: auto
   network: http
 - type: vmess
-  name: 2.68|HK香港11
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.125.63
-  server: 8.210.125.63
-  port: 56911
-  uuid: 602dc255-5441-40c5-bcf6-2ca4a12d90a4
-  alterId: 0
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.50|HKwmt105120
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.108.35
-  server: 47.243.108.35
-  port: '39729'
-  uuid: dc47d16f-d3e0-4b37-bde4-218e90144a8f
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 2.49|HKwmt106220
+  name: 1.95|HKwmt106220
   http-opts:
     path:
     - /
@@ -78,8 +124,34 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
+- name: 1.71| SSRSUB美国V03付费推荐dljtfssrsub
+  server: www.digitalocean.com
+  port: 80
+  type: vmess
+  uuid: 645fc4e7-e3a3-4e82-8abd-2d71324894c4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /api/v3/download.getFile
+  ws-headers:
+    Host: ssrsub.v02.asuka.buzz
 - type: vmess
-  name: 2.35|HK香港7
+  name: 1.68|HKwmt10537
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.241.250
+  server: 47.243.241.250
+  port: '54703'
+  uuid: 95b8821c-3432-4630-ad55-35ab873a0796
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 1.58|HK香港7
   http-opts:
     path:
     - /
@@ -92,16 +164,21 @@ proxies:
   alterId: 0
   cipher: auto
   network: http
-- name: 2.02|1153Mb
-  server: 92.38.171.97
-  port: 21008
-  type: vmess
-  uuid: 80b5645a-86b7-48af-9252-977ba807a338
+- type: vmess
+  name: 1.44|HK香港5
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.242.164.139
+  server: 47.242.164.139
+  port: 21853
+  uuid: 5a67daf6-438b-46d6-9343-e7bc84fd2038
   alterId: 0
   cipher: auto
-  tls: false
-  skip-cert-verify: false
-- name: 1.99| RelayUSUS1242 2454Mb
+  network: http
+- name: 1.42| RelayUSUS1242 2454Mb
   server: aa.houdinix.space
   port: 56656
   type: vmess
@@ -116,115 +193,7 @@ proxies:
     headers:
       Host: aa.houdinix.space
 - type: vmess
-  name: 1.84|HKwmt10562
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.53.166
-  server: 47.243.53.166
-  port: '53132'
-  uuid: dd9503be-4542-451b-a2a0-3cf26d4af98d
-  alterId: '0'
-  cipher: auto
-  network: http
-- name: 1.79| SSRSUB美国V04付费推荐dljtfssrsub
-  server: 104.16.122.77
-  port: 80
-  type: vmess
-  uuid: 645fc4e7-e3a3-4e82-8abd-2d71324894c4
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /api/v3/download.getFile
-  ws-headers:
-    Host: ssrsub.v02.asuka.buzz
-- type: vmess
-  name: 1.69|HKwmt10710
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.242.86.208
-  server: 47.242.86.208
-  port: '48788'
-  uuid: 46664d6f-f900-47eb-976c-f3893d1def3e
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 1.65|HK香港2
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.242.200.131
-  server: 47.242.200.131
-  port: 26508
-  uuid: cf84576f-a31d-4d7b-a077-3a2b3d5bd7fa
-  alterId: 0
-  cipher: auto
-  network: http
-- type: vmess
-  name: 1.65|HK香港5
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.242.164.139
-  server: 47.242.164.139
-  port: 21853
-  uuid: 5a67daf6-438b-46d6-9343-e7bc84fd2038
-  alterId: 0
-  cipher: auto
-  network: http
-- name: 1.43| githubcomfreefq  美国加利福尼亚州洛杉矶Dedipath 5
-  server: gs.jisudashi.top
-  port: 15234
-  type: vmess
-  uuid: bb81313e-a9bc-435c-b6cb-b1f6485332ff
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /jisudashi.top
-  ws-headers:
-    Host: gs.jisudashi.top
-- type: vmess
-  name: 1.29|HKwmt10724
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.250.21
-  server: 47.243.250.21
-  port: '32895'
-  uuid: ae7f10da-663f-4fe2-a141-a23eab12e83e
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 1.22|HKwmt10555
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.249.85
-  server: 47.243.249.85
-  port: '31230'
-  uuid: 19499d00-ae11-4520-942c-e4b7be10739d
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 1.17|HKwmt10426
+  name: 1.22|HKwmt10426
   http-opts:
     path:
     - /
@@ -237,17 +206,26 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
-- type: vmess
-  name: 1.03|HKwmt10537
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.241.250
-  server: 47.243.241.250
-  port: '54703'
-  uuid: 95b8821c-3432-4630-ad55-35ab873a0796
-  alterId: '0'
+- name: 1.19|2633Mb
+  server: c6s801.jamjams3.net
+  port: 8937
+  type: vmess
+  uuid: 656a08a0-482e-403a-8228-2f27def97b44
+  alterId: 0
   cipher: auto
-  network: http
+  tls: false
+  skip-cert-verify: false
+- name: 1.08|SG 新加坡youtube阿伟科技 4
+  server: shopify.com
+  port: 80
+  type: vmess
+  uuid: 90e35d9e-d5a0-4ffa-fdeb-f5c14f957b21
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-path: /aries
+  ws-headers:
+    Host: tgsg.cloudflare.quest
+  udp: true
