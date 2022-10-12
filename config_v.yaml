@@ -1,5 +1,17 @@
 proxies:
-- name: 2.11| RelayUSUS1242 2454Mb
+- type: vmess
+  name: 5.24|VN越南youtube阿伟科技1
+  ws-opts:
+    path: /aries
+    headers:
+      host: vn.cloudflare.quest
+  server: shopify.com
+  port: '2086'
+  uuid: dc8b64db-eb6d-4bdf-98b2-31615319bea8
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 2.18| RelayUSUS1242 2454Mb
   server: aa.houdinix.space
   port: 56656
   type: vmess
@@ -13,20 +25,23 @@ proxies:
     path: /wis
     headers:
       Host: aa.houdinix.space
-- type: vmess
-  name: 1.74|JP日本youtube阿伟科技4
-  server: 152.69.195.171
-  port: '55555'
-  uuid: b86d95da-b843-4804-8443-d849d3207076
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- name: 1.43|2590Mb
-  server: 107.173.83.214
-  port: 37541
+- name: 1.87| 美国A
+  server: 3.145.97.59
+  port: 43632
   type: vmess
-  uuid: ef59a586-0532-4763-f353-948eb413f00d
+  uuid: 1d2978ba-30ba-4b64-8699-9ba6ba3cd4e8
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: false
+- type: vmess
+  name: 1.73|卢森堡youtube阿伟科技2
+  ws-opts:
+    path: /aries
+    headers:
+      host: lux.justu.ml
+  server: 8.209.220.34
+  port: '80'
+  uuid: 74758f06-f4b9-4ef1-a86c-f0a0cc82109f
+  alterId: '0'
+  cipher: auto
+  network: ws
