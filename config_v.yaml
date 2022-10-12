@@ -1,6 +1,6 @@
 proxies:
 - type: vmess
-  name: 5.24|VN越南youtube阿伟科技1
+  name: 3.97|VN越南youtube阿伟科技1
   ws-opts:
     path: /aries
     headers:
@@ -11,28 +11,6 @@ proxies:
   alterId: '0'
   cipher: auto
   network: ws
-- name: 2.18| RelayUSUS1242 2454Mb
-  server: aa.houdinix.space
-  port: 56656
-  type: vmess
-  uuid: fdb1740c-f246-4f5d-d1ff-87c5b29ae22c
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /wis
-    headers:
-      Host: aa.houdinix.space
-- name: 1.87| 美国A
-  server: 3.145.97.59
-  port: 43632
-  type: vmess
-  uuid: 1d2978ba-30ba-4b64-8699-9ba6ba3cd4e8
-  alterId: 0
-  cipher: auto
-  tls: false
 - type: vmess
   name: 1.73|卢森堡youtube阿伟科技2
   ws-opts:
@@ -45,3 +23,23 @@ proxies:
   alterId: '0'
   cipher: auto
   network: ws
+- name: 1.71| githubcomfreefq  新加坡Amazon数据中心 2
+  server: hk-1-tunnel.pannode.top
+  port: 80
+  type: vmess
+  uuid: bae86d97-31e2-4736-ba23-219aa7bb32eb
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /wroot?ed=2048
+  ws-headers:
+    Host: tms.dingtalk.com
+- type: vmess
+  name: 1.60|US美国youtube阿伟科技14
+  server: 152.69.195.171
+  port: '55555'
+  uuid: b86d95da-b843-4804-8443-d849d3207076
+  alterId: '0'
+  cipher: auto
+  network: tcp
