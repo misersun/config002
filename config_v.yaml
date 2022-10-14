@@ -1,18 +1,42 @@
 proxies:
 - type: vmess
-  name: 3.97|VN越南youtube阿伟科技1
+  name: 5.95|US美国youtube阿伟科技32
+  ws-opts:
+    path: /by.xbygood.xyz
+    headers:
+      host: '%7B%22host%22:%22a.189.cn%22%7D'
+  server: text2.xbywwcp.us
+  port: '80'
+  uuid: c13208bf-d4f7-3e84-8f17-3d6c0830be2e
+  alterId: '0'
+  cipher: auto
+  network: ws
+- name: 2.64| githubcomfreefq  美国华盛顿Cogent通信公司 20
+  server: 38.54.33.77
+  port: 53257
+  type: vmess
+  uuid: 808793fa-09e1-4318-b0f6-631e41f2de48
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 38.54.33.77
+- type: vmess
+  name: 2.08|US美国youtube阿伟科技11
   ws-opts:
     path: /aries
     headers:
-      host: vn.cloudflare.quest
-  server: shopify.com
-  port: '2086'
-  uuid: dc8b64db-eb6d-4bdf-98b2-31615319bea8
+      host: scw.cloudflare.quest
+  server: cfhk.oppo.quest
+  port: '80'
+  uuid: 2508cb1d-bd54-47c0-aead-1b8f55090427
   alterId: '0'
   cipher: auto
   network: ws
 - type: vmess
-  name: 1.73|卢森堡youtube阿伟科技2
+  name: 1.67|卢森堡youtube阿伟科技2
   ws-opts:
     path: /aries
     headers:
@@ -23,23 +47,3 @@ proxies:
   alterId: '0'
   cipher: auto
   network: ws
-- name: 1.71| githubcomfreefq  新加坡Amazon数据中心 2
-  server: hk-1-tunnel.pannode.top
-  port: 80
-  type: vmess
-  uuid: bae86d97-31e2-4736-ba23-219aa7bb32eb
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /wroot?ed=2048
-  ws-headers:
-    Host: tms.dingtalk.com
-- type: vmess
-  name: 1.60|US美国youtube阿伟科技14
-  server: 152.69.195.171
-  port: '55555'
-  uuid: b86d95da-b843-4804-8443-d849d3207076
-  alterId: '0'
-  cipher: auto
-  network: tcp
