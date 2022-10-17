@@ -1,29 +1,71 @@
 proxies:
 - type: vmess
-  name: 4.13|SG新加坡youtube阿伟科技5
-  server: 13.212.118.181
-  port: '43632'
-  uuid: 1d2978ba-30ba-4b64-8699-9ba6ba3cd4e8
-  alterId: '0'
-  cipher: auto
-  network: tcp
-- type: vmess
-  name: 2.19|UK英国youtube阿伟科技2
-  ws-opts:
-    path: /user
+  name: 4.29|HKwmt101647
+  http-opts:
+    path:
+    - /
     headers:
-      host: stream.azadrah22.com
-  server: stream.azadrah22.com
-  port: '80'
-  uuid: 76e151a7-9980-4077-bd52-07ef4e9cb496
+      Host:
+      - 47.243.190.110
+  server: 47.243.190.110
+  port: '33232'
+  uuid: 1a76d211-1dee-4fb2-99cc-b19b95dcbbb0
   alterId: '0'
   cipher: auto
-  network: ws
+  network: http
 - type: vmess
-  name: 1.51|TW台湾youtube阿伟科技1
-  server: 165.154.253.63
-  port: '443'
-  uuid: 5ff06f6b-69a6-436b-a8e8-2db071b2fd65
+  name: 2.69|HKwmt101618
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.134.223
+  server: 47.243.134.223
+  port: '36079'
+  uuid: 73eb2fee-b1aa-44a6-af18-224c0ab348e6
   alterId: '0'
   cipher: auto
-  network: tcp
+  network: http
+- type: vmess
+  name: 2.23|HKwmt101617
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.100.254
+  server: 47.243.100.254
+  port: '20373'
+  uuid: 180c6326-6679-4192-b418-457df58e8ba9
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.15|HKwmt101613
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.182.204
+  server: 47.243.182.204
+  port: '22082'
+  uuid: f46292d1-a5c6-44e3-9539-c45ea9f7ec6a
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 1.08|HKwmt101616
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.177.72
+  server: 47.243.177.72
+  port: '27991'
+  uuid: 7f25b2a0-188a-4fea-89cb-e3a4f6e3434a
+  alterId: '0'
+  cipher: auto
+  network: http
