@@ -1,48 +1,51 @@
 proxies:
-- type: vmess
-  name: 4.29|HKwmt101647
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.190.110
-  server: 47.243.190.110
-  port: '33232'
-  uuid: 1a76d211-1dee-4fb2-99cc-b19b95dcbbb0
-  alterId: '0'
+- name: 5.26|HK 香港youtube阿伟科技
+  server: 20.239.180.240
+  port: 80
+  type: vmess
+  uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e
+  alterId: 0
   cipher: auto
-  network: http
-- type: vmess
-  name: 2.69|HKwmt101618
-  http-opts:
-    path:
-    - /
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
     headers:
-      Host:
-      - 47.243.134.223
-  server: 47.243.134.223
-  port: '36079'
-  uuid: 73eb2fee-b1aa-44a6-af18-224c0ab348e6
-  alterId: '0'
+      Host: YouTube-aweikeji
+  udp: true
+- name: 2.28|HK 香港youtube阿伟科技 2
+  server: 20.239.65.134
+  port: 80
+  type: vmess
+  uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e
+  alterId: 0
   cipher: auto
-  network: http
-- type: vmess
-  name: 2.23|HKwmt101617
-  http-opts:
-    path:
-    - /
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ws?ed=2048
     headers:
-      Host:
-      - 47.243.100.254
-  server: 47.243.100.254
-  port: '20373'
-  uuid: 180c6326-6679-4192-b418-457df58e8ba9
-  alterId: '0'
+      Host: YouTube-aweikeji
+  udp: true
+- name: 2.06|巴基斯坦youtube阿伟科技 2
+  server: 185.215.234.21
+  port: 80
+  type: vmess
+  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
+  alterId: 0
   cipher: auto
-  network: http
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /graphql
+    headers:
+      Host: mahsaproxy.com
+  udp: true
 - type: vmess
-  name: 2.15|HKwmt101613
+  name: 1.14|HKwmt101613
   http-opts:
     path:
     - /
@@ -52,20 +55,6 @@ proxies:
   server: 47.243.182.204
   port: '22082'
   uuid: f46292d1-a5c6-44e3-9539-c45ea9f7ec6a
-  alterId: '0'
-  cipher: auto
-  network: http
-- type: vmess
-  name: 1.08|HKwmt101616
-  http-opts:
-    path:
-    - /
-    headers:
-      Host:
-      - 47.243.177.72
-  server: 47.243.177.72
-  port: '27991'
-  uuid: 7f25b2a0-188a-4fea-89cb-e3a4f6e3434a
   alterId: '0'
   cipher: auto
   network: http
