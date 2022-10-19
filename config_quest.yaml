@@ -1,49 +1,16 @@
 proxies:
-- name: 5.54| githubcomfreefq  日本东京都品川区Linode数据中心 5
-  server: aewfhe5z1pokrkw8bi9g07.xingbayun.buzz
-  port: 10001
-  type: trojan
-  password: 862e68d2-05f3-4253-9116-819623bb7335
-  sni: aewfhe5z1pokrkw8bi9g07.xingbayun.buzz
-- name: 2.80|JP12
-  server: jp-am48-6.eqnode.net
-  port: 8081
-  type: ssr
-  password: eAokbaDN6
-  cipher: aes-256-cfb
-  protocol: origin
-  obfs: tls1.2_ticket_auth
-- name: 2.72| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶1SSR
-  server: clash4.ssrfree4.xyz
-  port: 22333
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- type: ssr
-  name: 2.33|油管阿伟科技11
-  server: 121.0.97.25
-  port: 44002
-  protocol: auth_chain_a
-  cipher: dummy
-  obfs: tls1.2_ticket_auth
-  password: dongtaiwang.com
-- name: 2.30| httpsgithubcomAlvin9999newpacwiki clash ip4 洛杉矶2SSR
-  server: clash4-2.ssrfree4.xyz
-  port: 12345
-  type: ssr
-  cipher: dummy
-  password: dongtaiwang.com
-  protocol: auth_chain_a
-  obfs: tls1.2_ticket_auth
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.88| githubcomfreefq  日本东京Linode数据中心 4
-  server: aewfhe5z1pokrkw8bi9g08.xingbayun.buzz
-  port: 10001
-  type: trojan
-  password: 862e68d2-05f3-4253-9116-819623bb7335
-  sni: aewfhe5z1pokrkw8bi9g08.xingbayun.buzz
+- type: trojan
+  name: 4.98|US美国youtube阿伟科技1
+  server: iplchk1.bitznet.one
+  port: 34443
+  password: d91e58e8-0ce1-495d-b7a7-0bb96200884e
+  udp: true
+  skip-cert-verify: true
+  sni: cert.bitbyte.one
+- type: trojan
+  name: 2.40|SG新加坡youtube阿伟科技4
+  server: digitalocean.kinhproxy.com
+  port: 443
+  password: DigitalOcean
+  udp: true
+  skip-cert-verify: true

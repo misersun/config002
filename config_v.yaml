@@ -1,51 +1,48 @@
 proxies:
-- name: 5.26|HK 香港youtube阿伟科技
-  server: 20.239.180.240
-  port: 80
-  type: vmess
-  uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- name: 2.28|HK 香港youtube阿伟科技 2
-  server: 20.239.65.134
-  port: 80
-  type: vmess
-  uuid: d41c193f-52ca-3ef9-9cf5-e7d50330f26e
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /ws?ed=2048
-    headers:
-      Host: YouTube-aweikeji
-  udp: true
-- name: 2.06|巴基斯坦youtube阿伟科技 2
-  server: 185.215.234.21
-  port: 80
-  type: vmess
-  uuid: b831381d-6324-4d53-ad4f-8cda48b30811
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /graphql
-    headers:
-      Host: mahsaproxy.com
-  udp: true
 - type: vmess
-  name: 1.14|HKwmt101613
+  name: 2.66|HKwmt10173
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.177.72
+  server: 47.243.177.72
+  port: '27991'
+  uuid: 7f25b2a0-188a-4fea-89cb-e3a4f6e3434a
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 2.62|HKwmt10176
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.18.69
+  server: 47.243.18.69
+  port: '39941'
+  uuid: f2f964e9-1a9b-43f9-82a5-b80ee2ccb4f7
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 1.72|HKwmt10172
+  http-opts:
+    path:
+    - /
+    headers:
+      Host:
+      - 47.243.100.254
+  server: 47.243.100.254
+  port: '20373'
+  uuid: 180c6326-6679-4192-b418-457df58e8ba9
+  alterId: '0'
+  cipher: auto
+  network: http
+- type: vmess
+  name: 1.45|HKwmt101613
   http-opts:
     path:
     - /
