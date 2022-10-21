@@ -1,6 +1,6 @@
 proxies:
 - type: vmess
-  name: 1.53|HKwmt10172
+  name: 3.50|HKwmt10172
   http-opts:
     path:
     - /
@@ -13,3 +13,28 @@ proxies:
   alterId: '0'
   cipher: auto
   network: http
+- type: vmess
+  name: 1.89|HK香港1
+  http-opts:
+    path:
+    - /
+  server: 47.242.193.213
+  port: 26605
+  uuid: 59f44d1e-c2e7-4de9-983a-4727bb861f43
+  alterId: 0
+  cipher: auto
+  network: http
+- name: 1.73|30693Mb
+  server: madush.duckdns.org
+  port: 40515
+  type: vmess
+  uuid: f0e69c63-99e9-455c-a8ae-cbab068c7481
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ar.linkedin.com
