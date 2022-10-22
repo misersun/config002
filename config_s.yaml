@@ -1,6 +1,6 @@
 proxies:
 - type: vmess
-  name: 1.23|SG新加坡youtube阿伟科技1
+  name: 2.80|SG新加坡youtube阿伟科技1
   ws-opts:
     path: /chat
     headers:
@@ -12,10 +12,16 @@ proxies:
   cipher: auto
   network: ws
   tls: true
-- type: trojan
-  name: 1.14|KRwmt101965
-  server: kr1.api-aws.com
+- type: vmess
+  name: 1.34|AU澳大利亚
+  ws-opts:
+    path: /chat
+    headers:
+      host: vau1.0bad.com
+  server: vau1.0bad.com
   port: 443
-  password: 84773125-8f79-481c-a80b-e1f4aad86850
-  udp: true
-  skip-cert-verify: true
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
