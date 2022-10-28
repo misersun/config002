@@ -1,5 +1,5 @@
 proxies:
-- name: 1.51| 日本1026265
+- name: 4.46| 日本1026265
   server: 139.162.119.159
   port: 80
   type: vmess
@@ -11,3 +11,29 @@ proxies:
   ws-path: /vmess
   ws-headers:
     Host: 139.162.119.159
+- name: 1.68|US 美国youtube阿伟科技 17
+  server: linus.oppo.quest
+  port: 2086
+  type: vmess
+  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: linus.oppo.quest
+  udp: true
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 80
+  server: 137.184.164.233
+  skip-cert-verify: true
+  type: vmess
+  uuid: 8d8a181d-c9e7-4eb5-8c0f-09c0bf10b923
+  ws-opts:
+    path: /vmess
+  name: 1.43|CA1371841642331027b83e1387
