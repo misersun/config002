@@ -3,14 +3,76 @@ proxies:
   cipher: auto
   network: ws
   port: 80
-  server: 137.184.164.233
+  server: 51.79.164.146
+  skip-cert-verify: true
+  type: vmess
+  uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b
+  ws-opts:
+    path: /fastssh/putdcbb/63500f2541b87/
+  name: 2.72|SG51791641461031e2991146
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 80
+  server: 15.235.147.186
   tls: false
   type: vmess
-  uuid: 8d8a181d-c9e7-4eb5-8c0f-09c0bf10b923
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
   ws-opts:
-    path: /vmess
-  name: 1.38|CA13718416423310304681266
-- name: 1.38|US 美国youtube阿伟科技 30
+    path: /sshkit/Ertusg86/635014638c264/
+  name: 2.60|SG1523514718610316cd84576
+- name: 1.80| VIP1美国1
+  server: 143.198.59.82
+  port: 63201
+  type: vmess
+  uuid: 23dfc63d-b86a-4202-9cee-58b9cc0d52f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /jcnf
+  ws-headers:
+    Host: 143.198.59.82
+- name: 1.79|US 美国youtube阿伟科技 29
+  server: www.gov.hk
+  port: 2086
+  type: vmess
+  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: linus.cloudflare.quest
+  udp: true
+- name: 1.66|旧金山01
+  server: jjs.xbywwcp.us
+  port: 12345
+  type: vmess
+  uuid: e3dcfe09-bda5-35db-a717-0f6e5bc2f4cb
+  alterId: 0
+  cipher: chacha20-poly1305
+  tls: false
+  network: ws
+  ws-path: /by.xbygood.xyz
+  ws-headers:
+    Host: jjs.xbywwcp.us
+- name: 1.46| VIP1英国2
+  server: 213.52.129.63
+  port: 63210
+  type: vmess
+  uuid: 23dfc63d-b86a-4202-9cee-58b9cc0d52f0
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /jcnf
+  ws-headers:
+    Host: 213.52.129.63
+- name: 1.25|US 美国youtube阿伟科技 30
   server: 57.128.45.161
   port: 80
   type: vmess
@@ -24,4 +86,19 @@ proxies:
     path: /user
     headers:
       Host: 57.128.45.161
+  udp: true
+- name: 1.15|US 美国youtube阿伟科技 33
+  server: mgny.xbywwcp.us
+  port: 114
+  type: vmess
+  uuid: 7c982e1d-647f-3a15-a8a4-102d73d1913d
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /by.xbygood.xyz
+    headers:
+      Host: a.189.cn
   udp: true

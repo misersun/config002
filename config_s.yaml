@@ -1,87 +1,5 @@
 proxies:
-- name: 5.98|HK 香港youtube阿伟科技 4
-  server: 172.64.156.100
-  port: 8443
-  type: vmess
-  uuid: 3cf2b27d-6e54-4c70-ead1-877b92359e08
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: sg.mochen1314.ga
-  udp: true
-- name: 5.61| 新加坡a
-  server: dl-hk1.efpan.one
-  port: 443
-  type: trojan
-  password: 6d8d2ced-54da-4e79-bfae-2ed55345b954
-  sni: data-sg.efpan.one
-- name: 4.69| RelayJPJP373
-  server: vjp1.0bad.com
-  port: 443
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /chat
-  ws-headers:
-    Host: vjp1.0bad.com
-- name: 4.68| 日本2
-  server: 20.222.31.103
-  port: 443
-  type: trojan
-  password: 6d8d2ced-54da-4e79-bfae-2ed55345b954
-  sni: rprknb2lcp.eastasia.cloudapp.azure.com
-- name: 4.46| 台湾c
-  server: dl-jp1.efpan.one
-  port: 443
-  type: trojan
-  password: 6d8d2ced-54da-4e79-bfae-2ed55345b954
-  sni: data-tw.efpan.one
-- name: 4.22|JP 日本youtube阿伟科技 15
-  server: jp1.mayaa.cf
-  port: 443
-  type: vmess
-  uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /hfhqqweqwxxx
-    headers:
-      Host: jp1.mayaa.cf
-  udp: true
-- name: 3.53| US 3  openitsubcom
-  server: 20.222.72.8
-  port: 443
-  type: trojan
-  password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa
-  sni: wel-usgt.optage.moe
-  skip-cert-verify: true
-  udp: true
-- name: 3.39| 日本4
-  server: 20.222.103.147
-  port: 443
-  type: trojan
-  password: 6d8d2ced-54da-4e79-bfae-2ed55345b954
-  sni: rprknb2lcp.eastasia.cloudapp.azure.com
-- name: 3.29|JP 日本youtube阿伟科技
-  server: 20.46.182.185
-  port: 443
-  type: trojan
-  password: 2f95d996-e911-4b1b-82b1-1d86bf2c517d
-  sni: rprknb2lcp.eastasia.cloudapp.azure.com
-  skip-cert-verify: true
-  udp: true
-- name: 3.22|JP 日本youtube阿伟科技 13
+- name: 4.65|JP 日本youtube阿伟科技 13
   server: jp4.mayaa.cf
   port: 443
   type: vmess
@@ -96,31 +14,19 @@ proxies:
     headers:
       Host: jp4.mayaa.cf
   udp: true
-- name: 3.12| 香港4
-  server: 23.100.91.146
+- alterId: 0
+  cipher: auto
+  network: ws
   port: 443
-  type: trojan
-  password: 6d8d2ced-54da-4e79-bfae-2ed55345b954
-  sni: rprknb2lcp.eastasia.cloudapp.azure.com
-- name: 3.02| 香港3
-  server: 23.100.91.117
-  port: 443
-  type: trojan
-  password: 6d8d2ced-54da-4e79-bfae-2ed55345b954
-  sni: rprknb2lcp.eastasia.cloudapp.azure.com
-- name: 2.92| 日本b
-  server: dl-jp2.efpan.one
-  port: 443
-  type: trojan
-  password: 6d8d2ced-54da-4e79-bfae-2ed55345b954
-  sni: rprknb2lcp.eastasia.cloudapp.azure.com
-- name: 2.48| 香港1
-  server: 23.100.91.61
-  port: 443
-  type: trojan
-  password: 6d8d2ced-54da-4e79-bfae-2ed55345b954
-  sni: rprknb2lcp.eastasia.cloudapp.azure.com
-- name: 2.17|US 美国youtube阿伟科技 11
+  server: mjj3006.hjdn.tk
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 71e87aec-1569-4f0a-c2c2-77176b66f0bc
+  ws-opts:
+    path: /
+  name: 2.20|SG1382824410304ba81549
+- name: 2.14|US 美国youtube阿伟科技 11
   server: v159a.aagogo.cf
   port: 443
   type: vmess
@@ -135,7 +41,160 @@ proxies:
     headers:
       Host: v159a.aagogo.cf
   udp: true
-- name: 2.15|DE 德国youtube阿伟科技 3
+- name: 1.97|US 美国youtube阿伟科技 18
+  server: 141.101.114.20
+  port: 443
+  type: vmess
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash1.trump2023.net
+  udp: true
+- name: 1.95|US 美国youtube阿伟科技 11
+  server: 138.2.122.225
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /ray
+    headers:
+      Host: lg30.cfcdn3.xyz
+  udp: true
+- name: 1.70|AU 澳大利亚youtube阿伟科技
+  server: vau1.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /chat
+    headers:
+      Host: vau1.0bad.com
+  udp: true
+- name: 1.64| 新加坡1031276
+  server: 8.219.58.58
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: london1.na.invari.na.oonvari.com
+  tls: true
+  type: vmess
+  uuid: 3f3c52f5-0e50-4fcf-8ee2-c8b7e0c8abab
+  ws-opts:
+    path: /aaf44db73dfc/
+  name: 1.61|DE18521523421030eee5407
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 36246
+  server: jps.dafeicnd.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 9e4d3781-1e73-49d8-a8d3-a065b22e927d
+  ws-opts:
+    path: /grzvhmgexlntcmp4
+  name: 1.53|JP1032301564103168411377
+- name: 1.51| RelayJPJP374
+  server: vjp3.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /chat
+  ws-headers:
+    Host: vjp3.0bad.com
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: vus2.0bad.com
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    path: /chat
+  name: 1.48|US45792257410304681319
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: vus3.0bad.com
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    path: /chat
+  name: 1.47|US4533544710307438927
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: vus4.0bad.com
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    path: /chat
+  name: 1.43|US19858116441027ebea313
+- type: vmess
+  name: 1.37|DE德国
+  ws-opts:
+    path: /chat
+    headers:
+      host: vde1.0bad.com
+  server: vde1.0bad.com
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  network: ws
+  tls: true
+- name: 1.36|US 美国youtube阿伟科技 19
+  server: cf.fovi.tk
+  port: 2053
+  type: vmess
+  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /eisasqa
+    headers:
+      Host: foxuk.fovi.tk
+  udp: true
+- name: 1.34|DE 德国youtube阿伟科技 3
   server: v159.aagogo.cf
   port: 443
   type: vmess
@@ -150,15 +209,73 @@ proxies:
     headers:
       Host: v159.aagogo.cf
   udp: true
-- name: 2.02| US 13  openitsubcom
-  server: ap-northeast.6641634715834932.me
+- alterId: 0
+  cipher: auto
+  network: ws
   port: 443
-  type: trojan
-  password: 5c777277-17f2-4272-ae65-7bd00fa4fbaa
-  sni: wel-kr.optage.moe
+  server: vuk2.0bad.com
   skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    path: /chat
+  name: 1.33|GB176581001281031e299326
+- name: 1.29| RelayJPJP373
+  server: vjp1.0bad.com
+  port: 443
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /chat
+  ws-headers:
+    Host: vjp1.0bad.com
+- name: 1.28|RU 俄罗斯youtube阿伟科技
+  server: 211.72.35.110
+  port: 443
+  type: vmess
+  uuid: 541ca026-58d3-48f1-d6ef-3a05543ddcb7
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ru.tzccifq.ga
   udp: true
-- name: 2.02|爱尔兰youtube阿伟科技
+- name: 1.23|JP 日本youtube阿伟科技 15
+  server: jp1.mayaa.cf
+  port: 443
+  type: vmess
+  uuid: 595b4629-116d-4fe1-dcab-d2a6b112b81a
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /hfhqqweqwxxx
+    headers:
+      Host: jp1.mayaa.cf
+  udp: true
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: 172.105.246.122
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    path: /chat
+  name: 1.23|DE17210524612210280fb4217
+- name: 1.20|爱尔兰youtube阿伟科技
   server: v2ray.wefuckgfw.ga
   port: 2083
   type: vmess
@@ -173,95 +290,45 @@ proxies:
     headers:
       Host: v2ray.wefuckgfw.ga
   udp: true
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 443
-  server: mjj3006.hjdn.tk
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 71e87aec-1569-4f0a-c2c2-77176b66f0bc
-  ws-opts:
-    path: /
-  name: 1.99|SG1382824410304ba81549
-- name: 1.35| 千兆Gcore荷兰 01
-  server: gcore.heimayun.tk
+- name: 1.19|US 美国youtube阿伟科技 27
+  server: 47.90.138.13
   port: 443
   type: vmess
-  uuid: 9b6626d2-0ff8-4ecc-95e7-ed118643dc40
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   alterId: 0
   cipher: auto
   tls: true
+  skip-cert-verify: true
   network: ws
-  ws-path: /gcore
-  ws-headers:
-    Host: gcore.heimayun.tk
-- type: vmess
-  name: 1.35|US美国1
   ws-opts:
-    path: /chat
+    path: /ray
     headers:
-      host: vde2.0bad.com
-  server: vde2.0bad.com
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  network: ws
-  tls: true
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 443
-  server: 172.105.246.122
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    path: /chat
-  name: 1.13|DE17210524612210280fb4217
-- name: 1.13|乌克兰youtube阿伟科技
-  server: v2ray.wefuckgfw.gq
-  port: 2096
-  type: vmess
-  uuid: 70df68b4-bc0b-430f-ba25-0f1969f1d81d
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /Nsy6wz4A/
-    headers:
-      Host: v2ray.wefuckgfw.gq
+      Host: lg30.cfcdn3.xyz
   udp: true
-- type: vmess
-  name: 1.07|DE德国
-  ws-opts:
-    path: /chat
-    headers:
-      host: vde1.0bad.com
-  server: vde1.0bad.com
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
+- alterId: 0
   cipher: auto
   network: ws
+  port: 443
+  server: 170.187.185.37
+  skip-cert-verify: true
   tls: true
-- name: 1.02|US 美国youtube阿伟科技 19
-  server: cf.fovi.tk
-  port: 2053
   type: vmess
-  uuid: bf67437e-6c90-45ca-abc2-c7240a5ce2aa
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-opts:
+    path: /chat
+  name: 1.05|DE170187185371031e299236
+- name: 1.03|DE 德国youtube阿伟科技 2
+  server: 172.67.178.55
+  port: 443
+  type: vmess
+  uuid: 0145bfef-aa53-416f-90d4-8634295dab57
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /eisasqa
+    path: /live
     headers:
-      Host: foxuk.fovi.tk
+      Host: www.aoopmiss.cf
   udp: true
