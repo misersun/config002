@@ -1,9 +1,9 @@
 proxies:
-- name: 1.81|US 美国youtube阿伟科技 29
+- name: 2.24|US 美国youtube阿伟科技 29
   server: www.gov.hk
   port: 2086
   type: vmess
-  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
+  uuid: 250f4331-8c3e-4b87-a86b-5c5fbf9ddba8
   alterId: 0
   cipher: auto
   tls: false
@@ -12,35 +12,64 @@ proxies:
   ws-opts:
     path: /aries
     headers:
-      Host: linus.cloudflare.quest
+      Host: fr.cloudflare.quest
   udp: true
-- name: 1.38|US 美国youtube阿伟科技 30
-  server: 57.128.45.161
+- name: 1.95|US 美国youtube阿伟科技 31
+  server: ip.skk.moe
+  port: 2086
+  type: vmess
+  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+  alterId: 0
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /aries
+    headers:
+      Host: buyvm.cloudflare.quest
+  udp: true
+- alterId: 0
+  cipher: auto
+  network: ws
   port: 80
+  server: 137.184.164.233
+  skip-cert-verify: true
+  type: vmess
+  uuid: 5cee90e3-b915-4f1e-bb8d-efadad0c6feb
+  ws-opts:
+    path: /vmess
+  name: 1.41|CA137184164233110335de3871
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 80
+  server: 15.235.147.186
+  skip-cert-verify: true
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-opts:
+    path: /sshkit/Ertusg86/635014638c264/
+  name: 1.38|SG152351471861103752c1239
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 80
+  server: 139.162.76.223
+  skip-cert-verify: true
+  type: vmess
+  uuid: 37953153-64df-44c8-a966-1f5008c901d6
+  ws-opts:
+    path: /vmess
+  name: 1.27|JP139162762231103752c229
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 80
+  server: 57.128.45.161
+  tls: false
   type: vmess
   uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
   ws-opts:
     path: /user
-    headers:
-      Host: 57.128.45.161
-  udp: true
-- name: 1.31|US 美国youtube阿伟科技 33
-  server: mgny.xbywwcp.us
-  port: 114
-  type: vmess
-  uuid: 7c982e1d-647f-3a15-a8a4-102d73d1913d
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /by.xbygood.xyz
-    headers:
-      Host: a.189.cn
-  udp: true
+  name: 1.12|FR5712845161110335de1496
