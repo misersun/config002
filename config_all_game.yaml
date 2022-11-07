@@ -1,5 +1,15 @@
 proxies:
-- name: 4.97|v3 香港07
+- cipher: chacha20-ietf
+  obfs: plain
+  obfs-param: 5494e201817.microsoft.com
+  password: renzhecloud
+  port: 3500
+  protocol: auth_aes128_sha1
+  protocol-param: 201817:qr7kq3wbfe
+  server: pr2.jymzffbquawl.com
+  type: ssr
+  name: 4.05|CN202110801831106980e2305
+- name: 4.04|v3 香港07
   server: yd-04.paofunlink.com
   port: 5956
   type: ssr
@@ -10,19 +20,49 @@ proxies:
   protocol-param: 61245:yj9cb7gwjwp
   obfs-param: e61b761245.microsoft.com
   udp: true
-- name: 2.66|新加坡ssrsgam3eqsunshinecom32001可用中转18141224248不支持Netflix
+- cipher: chacha20-ietf
+  obfs: plain
+  obfs-param: 5494e201817.microsoft.com
+  password: renzhecloud
+  port: 3503
+  protocol: auth_aes128_sha1
+  protocol-param: 201817:qr7kq3wbfe
+  server: pr1.jymzffbquawl.com
   type: ssr
-  server: sg-am3.eqsunshine.com
-  password: 3g0dHlKME
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 32001
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 2.45|v1美国02油管阿伟科技8
-  server: yd-05.paofunlink.com
-  port: 1081
+  name: 3.69|CN202110801831106980e2310
+- cipher: chacha20-ietf
+  obfs: plain
+  obfs-param: 5494e201817.microsoft.com
+  password: renzhecloud
+  port: 3500
+  protocol: auth_aes128_sha1
+  protocol-param: 201817:qr7kq3wbfe
+  server: bs1.jymzffbquawl.com
+  type: ssr
+  name: 3.15|CN14181222211106980e2318
+- cipher: chacha20-ietf
+  obfs: plain
+  obfs-param: 5494e201817.microsoft.com
+  password: renzhecloud
+  port: 3501
+  protocol: auth_aes128_sha1
+  protocol-param: 201817:qr7kq3wbfe
+  server: pr1.jymzffbquawl.com
+  type: ssr
+  name: 2.76|CN202110801831106980e2312
+- cipher: chacha20-ietf
+  obfs: plain
+  obfs-param: 5494e201817.microsoft.com
+  password: renzhecloud
+  port: 3504
+  protocol: auth_aes128_sha1
+  protocol-param: 201817:qr7kq3wbfe
+  server: pr2.jymzffbquawl.com
+  type: ssr
+  name: 2.12|CN202110801831106980e2313
+- name: 1.83|v3日本01油管阿伟科技5
+  server: yd-03.paofunlink.com
+  port: 1055
   type: ssr
   cipher: chacha20-ietf
   password: bxsnucrgk6hfish
@@ -31,19 +71,30 @@ proxies:
   protocol-param: 61245:yj9cb7gwjwp
   obfs-param: ZTYxYjc2MTI0NS5taWNyb3NvZnQuY29t
   udp: true
-- name: 2.26|日本ssrjpam486eqnodenet8081可用中转13230177238不支持Netflix
+- cipher: chacha20-ietf
+  obfs: plain
+  obfs-param: 5494e201817.microsoft.com
+  password: renzhecloud
+  port: 3504
+  protocol: auth_aes128_sha1
+  protocol-param: 201817:qr7kq3wbfe
+  server: bs1.jymzffbquawl.com
   type: ssr
-  server: jp-am48-6.eqnode.net
-  password: eAokbaDN6
-  obfs: tls1.2_ticket_auth
-  protocol: origin
-  port: 8081
-  cipher: aes-256-cfb
-  protocol-param: ''
-  obfs-param: ''
-- name: 1.90|v1日本01油管阿伟科技1
+  name: 1.72|CN14181222211106980e2319
+- name: 1.49|v1日本01油管阿伟科技1
   server: yd-05.paofunlink.com
   port: 1050
+  type: ssr
+  cipher: chacha20-ietf
+  password: bxsnucrgk6hfish
+  protocol: auth_aes128_sha1
+  obfs: plain
+  protocol-param: 61245:yj9cb7gwjwp
+  obfs-param: ZTYxYjc2MTI0NS5taWNyb3NvZnQuY29t
+  udp: true
+- name: 1.49|v1日本02油管阿伟科技2
+  server: yd-05.paofunlink.com
+  port: 1051
   type: ssr
   cipher: chacha20-ietf
   password: bxsnucrgk6hfish
