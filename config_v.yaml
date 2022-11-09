@@ -2,27 +2,14 @@ proxies:
 - alterId: 0
   cipher: auto
   http-opts:
-    method: GET
     path:
     - /
   network: http
-  port: 63239
-  server: 8.218.83.148
-  skip-cert-verify: true
+  port: 48471
+  server: 47.242.243.218
   type: vmess
-  uuid: bc035c93-4a47-4f06-8833-fadc03527539
-  name: 3.21|LA8218831481106980e2328
-- alterId: 0
-  cipher: auto
-  network: none
-  port: 37853
-  server: 47.242.174.56
-  skip-cert-verify: true
-  type: vmess
-  uuid: a67cd336-3fd6-404f-9454-4039572d88e9
-  ws-opts:
-    path: /
-  name: 3.00|HK47242174561106e720167
+  uuid: 7daf0d3d-8c74-4f46-8912-fbf59be05e39
+  name: 4.17|HK472422432181108202273c71787
 - alterId: 0
   cipher: auto
   http-opts:
@@ -36,92 +23,78 @@ proxies:
   server: 47.242.56.3
   type: vmess
   uuid: d2a10a17-6191-472c-896b-782331f49fb9
-  name: 2.37|HK472425631106980e2428
-- name: 2.19| 香港8210203189
-  server: 8.210.203.189
-  port: 37309
+  name: 4.12|HK472425631106980e2428
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  network: http
+  port: 58641
+  server: 8.218.73.227
+  skip-cert-verify: true
   type: vmess
-  uuid: 74cdcc28-a0bc-421f-bd15-c6a6e401b523
+  uuid: 4821f5d8-dc31-4bb4-811c-8babcb8aec1a
+  name: 2.38|HK821873227110889d31144
+- alterId: 0
+  cipher: auto
+  http-opts:
+    path:
+    - /
+  network: http
+  port: 63020
+  server: 8.210.1.44
+  type: vmess
+  uuid: 2afd0c9f-57fa-4773-8686-b480e8be5814
+  name: 2.29|HK821014411082022ffe01215
+- name: 1.60|HK 香港youtube阿伟科技 3
+  server: hk80-2.sanfen001.pics
+  port: 80
+  type: vmess
+  uuid: 4456b502-fe61-4be7-a969-aa37d924dbd2
   alterId: 0
   cipher: auto
   tls: false
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-    headers:
-      Host:
-      - 8.210.203.189
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  network: http
-  port: 49935
-  server: 47.242.205.255
   skip-cert-verify: true
-  type: vmess
-  uuid: 3ffddc7c-80a3-4677-ab9e-30da4190ec6a
-  name: 1.98|HK472422052551106e720267
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  network: http
-  port: 51578
-  server: 8.210.34.212
-  skip-cert-verify: true
-  type: vmess
-  uuid: 24cfd28c-a3d7-4028-89e8-b25fdcb28bac
-  name: 1.92|HK8210342121106e720256
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  network: http
-  port: 51616
-  server: 8.218.86.226
-  skip-cert-verify: true
-  type: vmess
-  uuid: bf6bc39e-9453-43b3-805e-7f11965981a4
-  name: 1.86|HK8218862261106e720255
-- alterId: 0
-  cipher: auto
   network: ws
-  port: 80
-  server: 51.161.152.180
-  skip-cert-verify: true
-  type: vmess
-  uuid: 6174a585-9a14-4a30-81d4-076376325328
   ws-opts:
-    path: /vmess
-  name: 1.64|AU511611521801106980e1117
+    path: /zh-cn/download
+    headers:
+      Host: a.189.cn
+  udp: true
 - alterId: 0
   cipher: auto
   network: ws
   port: 80
-  server: 57.128.45.161
+  server: 51.79.207.226
   tls: false
   type: vmess
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
+  uuid: 511ad999-dbfd-49fd-b6db-740f15af4ec5
   ws-opts:
-    path: /user
-  name: 1.50|FR5712845161110335de1496
+    path: /vmess
+  name: 1.56|SG51792072261108202273c72860
+- alterId: 0
+  cipher: auto
+  http-opts:
+    method: GET
+    path:
+    - /
+  network: http
+  port: 63239
+  server: 8.218.83.148
+  skip-cert-verify: true
+  type: vmess
+  uuid: bc035c93-4a47-4f06-8833-fadc03527539
+  name: 1.51|LA8218831481106980e2328
 - alterId: 0
   cipher: auto
   network: ws
   port: 80
-  server: 137.184.164.233
-  skip-cert-verify: true
+  server: 134.209.67.222
+  tls: false
   type: vmess
-  uuid: 5cee90e3-b915-4f1e-bb8d-efadad0c6feb
+  uuid: 328f686c-6b2b-3c40-b677-ed769728dcc0
   ws-opts:
-    path: /vmess
-  name: 1.03|CA137184164233110335de78
+    path: /by.xbygood.xyz
+  name: 1.29|US1342096722211082022ffe0296
