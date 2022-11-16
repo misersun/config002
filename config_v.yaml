@@ -1,16 +1,4 @@
 proxies:
-- name: 2.98| githubcomfreefq  美国CloudFlare节点 29
-  server: uicdn.cf
-  port: 80
-  type: vmess
-  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /sshkit/1736960111/635cb6dd4206c/
-  ws-headers:
-    Host: sg3-v2ray.sshkit.org
 - alterId: 0
   cipher: auto
   http-opts:
@@ -18,69 +6,22 @@ proxies:
     path:
     - /
   network: http
-  port: 37064
-  server: 47.242.56.3
-  tls: false
-  type: vmess
-  uuid: d2a10a17-6191-472c-896b-782331f49fb9
-  name: 2.56|HK4724256311071218309
-- name: 2.23|NL 荷兰youtube阿伟科技 3
-  server: www.gov.hk
-  port: 2086
-  type: vmess
-  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-  alterId: 0
-  cipher: auto
-  tls: false
+  port: 63239
+  server: 8.218.83.148
   skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: scw.cloudflare.quest
-  udp: true
-- name: 1.92|NL 荷兰youtube阿伟科技 2
-  server: Shopify.com
-  port: 2086
-  type: vmess
-  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-  alterId: 0
-  cipher: auto
   tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /aries
-    headers:
-      Host: scw.cloudflare.quest
-  udp: true
-- name: 1.90|US 美国youtube阿伟科技 25
-  server: mg1.xbywwcp.us
-  port: 8080
   type: vmess
-  uuid: cc6d1ac1-6bb3-36ca-bcbe-9e45e6839753
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /by.xbygood.xyz
-    headers:
-      Host: mg1.xbywwcp.us
-  udp: true
-- name: 1.02|FR 法国youtube阿伟科技 5
-  server: 57.128.45.161
+  uuid: bc035c93-4a47-4f06-8833-fadc03527539
+  name: 3.11|LA821883148111520223f8a1385
+- name: 1.56|这些节点只能备用或者防止失联虽然质量并不是很好也请低调使用 69
+  server: 15.235.147.186
   port: 80
   type: vmess
-  uuid: 35d25899-ed20-46d9-9c7c-99c0d414d5e4
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
   alterId: 0
   cipher: auto
   tls: false
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /user
-    headers:
-      Host: 57.128.45.161
-  udp: true
+  ws-path: /sshkit/Ertusg86/635014638c264/
+  ws-headers:
+    Host: 15.235.147.186

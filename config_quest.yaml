@@ -1,9 +1,25 @@
 proxies:
-- name: 1.46|US239
-  server: tj2.dalazhi.cyou
+- name: 5.19|日本ssrjpam486eqnodenet8081可用中转13230177238不支持Netflix
+  type: ssr
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- type: ssr
+  name: 2.61|油管阿伟科技油管阿伟科技6
+  server: 38.143.0.144
+  port: 34000
+  protocol: auth_chain_b
+  cipher: dummy
+  obfs: plain
+  password: aabbccddee
+- password: TestingServer@@
   port: 443
-  type: trojan
-  password: 8f70fde3-a04c-4f6a-b705-aef7406f6ac1
-  sni: tj2.dalazhi.cyou
+  server: content-provider1.cdn-delivery.akamaicd.com
   skip-cert-verify: true
-  udp: true
+  type: trojan
+  name: 1.24|NL9410253191115202207b1283

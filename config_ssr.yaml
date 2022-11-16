@@ -1,11 +1,19 @@
 proxies:
-- name: 6.32| 香港HKTdip
-  server: 119.237.195.230
-  port: 543
+- name: 5.19|日本ssrjpam486eqnodenet8081可用中转13230177238不支持Netflix
   type: ssr
-  cipher: chacha20-ietf
-  password: mblank1port
-  protocol: auth_aes128_md5
+  server: jp-am48-6.eqnode.net
+  password: eAokbaDN6
+  obfs: tls1.2_ticket_auth
+  protocol: origin
+  port: 8081
+  cipher: aes-256-cfb
+  protocol-param: ''
+  obfs-param: ''
+- type: ssr
+  name: 2.61|油管阿伟科技油管阿伟科技6
+  server: 38.143.0.144
+  port: 34000
+  protocol: auth_chain_b
+  cipher: dummy
   obfs: plain
-  protocol-param: 38735:LLLLhgujhjh67786gh
-  obfs-param: t.me/vpnhat
+  password: aabbccddee
