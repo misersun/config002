@@ -1,19 +1,17 @@
 proxies:
-- alterId: 0
+- type: vmess
+  name: 5.09|VN越南youtube阿伟科技1
+  ws-opts:
+    path: /images
+    headers:
+      host: shoutingtoutiao3.10010.com
+  server: 103.117.102.108
+  port: '5031'
+  uuid: 8ae99d30-65a6-4f38-8ecc-56c1c3f4d679
+  alterId: '0'
   cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  network: http
-  port: 63239
-  server: 8.218.83.148
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: bc035c93-4a47-4f06-8833-fadc03527539
-  name: 3.11|LA821883148111520223f8a1385
-- name: 1.56|这些节点只能备用或者防止失联虽然质量并不是很好也请低调使用 69
+  network: ws
+- name: 1.55|这些节点只能备用或者防止失联虽然质量并不是很好也请低调使用 69
   server: 15.235.147.186
   port: 80
   type: vmess
@@ -25,3 +23,38 @@ proxies:
   ws-path: /sshkit/Ertusg86/635014638c264/
   ws-headers:
     Host: 15.235.147.186
+- alterId: 0
+  cipher: auto
+  http-opts:
+    path:
+    - /
+  network: http
+  port: 58793
+  server: 8.218.80.207
+  type: vmess
+  uuid: 652919af-4b0f-4211-8f06-952958d05038
+  name: 1.47|HK82188020711122022afcf391
+- type: vmess
+  name: 1.47|SG新加坡1
+  ws-opts:
+    path: /sshocean
+    headers:
+      host: sg2.v2rayserv.com
+  server: 139.99.47.36
+  port: 80
+  uuid: 0bf0cc63-cc4d-4a6f-8770-a7fa5a0d1c55
+  alterId: 0
+  cipher: auto
+  network: ws
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 80
+  server: 103.186.148.113
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 67468d89-cf87-443c-baca-49f1e73b5991
+  ws-opts:
+    path: /shopvpn.net
+  name: 1.15|VN1031861481131116202270c71909
