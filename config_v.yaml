@@ -1,5 +1,5 @@
 proxies:
-- name: 5.39| 新加坡DigitalOcean xiaoli12338
+- name: 5.63| 新加坡DigitalOcean xiaoli12338
   server: ip.skk.moe
   port: 2082
   type: vmess
@@ -13,7 +13,7 @@ proxies:
     Host: dosgWyyOCcdBFwMVKuak.6577617.xyz
 - alterId: 0
   cipher: auto
-  name: 2.13|美国 056
+  name: 2.28|美国 056
   network: ws
   port: 2086
   server: ip.skk.moe
@@ -26,25 +26,15 @@ proxies:
     path: /aries
 - alterId: 0
   cipher: auto
-  network: ws
-  port: 80
-  server: kh1.v2rayserv.com
+  http-opts:
+    method: GET
+    path:
+    - /
+  network: http
+  port: 55986
+  server: 47.243.36.34
+  skip-cert-verify: true
   tls: false
   type: vmess
-  uuid: 0cc9a7d6-75f6-4c05-9da3-83aa9dcc4845
-  ws-opts:
-    path: /sshocean
-  name: 1.45|KH3854931581117202292362788
-- alterId: 0
-  cipher: auto
-  name: 1.37|美国 053
-  network: ws
-  port: 2086
-  server: www.dynadot.com
-  tls: false
-  type: vmess
-  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
-  ws-opts:
-    headers:
-      Host: kz.cloudflare.quest
-    path: /aries
+  uuid: 87ed289f-cae3-49b4-bbe3-23da298c0e81
+  name: 1.05|HK472433634111520223f8a273
