@@ -1,47 +1,44 @@
 proxies:
-- name: 4.40| 甲骨文大阪ARM2trojan
+- name: 4.27| 甲骨文大阪ARM2trojan
   server: jgwdb4.gaox.ml
   port: 443
   type: trojan
   password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   sni: jgwdb4.gaox.ml
-- password: 6578df36-8b6f-4411-b42a-521877145573
+- name: 2.63|US美国
+  server: 138.2.113.248
   port: 443
-  server: jp1.happyfree.top
+  type: trojan
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  skip-cert-verify: true
+  udp: true
+- name: 1.74| 甲骨文凤凰城ARM1trojan
+  server: fhcarm1.gaox.ml
+  port: 443
+  type: trojan
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  sni: fhcarm1.gaox.ml
+- name: 1.61|美国 010
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  port: 443
+  server: 129.146.190.42
   skip-cert-verify: true
   type: trojan
-  name: 3.16|JP43206104321118202200d31186
-- password: 6578df36-8b6f-4411-b42a-521877145573
-  port: 443
-  server: ocrb2.happyfree.top
-  skip-cert-verify: true
-  type: trojan
-  name: 3.10|JP138321671118202200d31191
-- password: f8d19ba5-8684-45f2-8523-77dbea588955
-  port: 443
-  server: hgc.iamnotagoodman.com
-  skip-cert-verify: false
-  type: trojan
-  name: 3.00|HK2018712616211182022823a215
-- password: 6578df36-8b6f-4411-b42a-521877145573
-  port: 443
-  server: dba.happyfree.top
-  skip-cert-verify: true
-  type: trojan
-  name: 2.70|JP432061241361118202200d31182
-- password: 6578df36-8b6f-4411-b42a-521877145573
-  port: 443
-  server: ocrb1.happyfree.top
-  skip-cert-verify: true
-  type: trojan
-  name: 1.83|JP15023010601118202200d31190
+  udp: true
+  uuid: 34f4cb1a-d3e9-0e9f-3ca4-ee2f06a3f285
 - password: origin
   port: 443
   server: 176.31.83.90
   skip-cert-verify: true
   type: trojan
-  name: 1.68|FR176318390111720229236140
-- name: 1.67|FR129
+  name: 1.56|FR176318390111720229236140
+- name: 1.36| githubcomfreefq  美国  10
+  server: fhcarm2.gaox.ml
+  port: 443
+  type: trojan
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  sni: fhcarm2.gaox.ml
+- name: 1.34|FR129
   server: content-provider26.cdn-delivery.akamaicd.com
   port: 443
   type: trojan
@@ -49,15 +46,13 @@ proxies:
   sni: content-provider26.cdn-delivery.akamaicd.com
   skip-cert-verify: true
   udp: true
-- name: 1.49|荷兰 001
-  password: Sp3eDVp
+- password: TestingServer@@
   port: 443
-  server: 185.212.200.75
+  server: 94.102.53.19
   skip-cert-verify: true
   type: trojan
-  udp: true
-  uuid: 2d617ecb-bb4f-9b35-5954-8d3cbf0fe68d
-- name: 1.40|荷兰 001
+  name: 1.29|NL9410253191118202200d372
+- name: 1.29|荷兰 001
   password: Sp3eDVp
   port: 443
   server: content-provider24.cdn-delivery.akamaicd.com
@@ -65,7 +60,15 @@ proxies:
   type: trojan
   udp: true
   uuid: e600e5e1-9ad4-6fa4-006e-aacf27a1a194
-- name: 1.26|荷兰 003
+- name: 1.20|荷兰 001
+  password: Sp3eDVp
+  port: 443
+  server: 185.212.200.75
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  uuid: 2d617ecb-bb4f-9b35-5954-8d3cbf0fe68d
+- name: 1.11|荷兰 003
   password: Sp3eDVp
   port: 443
   server: content-provider23.cdn-delivery.akamaicd.com
@@ -73,23 +76,3 @@ proxies:
   type: trojan
   udp: true
   uuid: 455e7a1f-fc06-9482-cde6-30b3aab95066
-- name: 1.16| HK 1  openitsubcom
-  server: 219.76.13.181
-  port: 443
-  type: trojan
-  password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
-  sni: arbettp.freetrade.link
-  skip-cert-verify: true
-  udp: true
-- password: origin
-  port: 443
-  server: 51.77.71.134
-  skip-cert-verify: true
-  type: trojan
-  name: 1.15|FR5177711341115202207b153
-- password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  port: 443
-  server: 129.146.242.130
-  skip-cert-verify: true
-  type: trojan
-  name: 1.01|US129146242130111820225a3d3391

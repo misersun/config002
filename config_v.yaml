@@ -1,98 +1,48 @@
 proxies:
-- alterId: 0
-  cipher: auto
-  port: 543
-  server: v2-hkg-cm.clsnet.online
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: 7ee5a840-75d1-34a8-bd2a-187cdb286792
-  name: 3.82|HK218255651591118202200d31273
-- alterId: 0
-  cipher: auto
-  network: ws
+- name: 3.38|5417Mb
+  server: awskr.azzhuangaping.tw
   port: 80
-  server: 103.186.148.113
-  tls: false
   type: vmess
-  uuid: 67468d89-cf87-443c-baca-49f1e73b5991
-  ws-opts:
-    path: /shopvpn.net
-  name: 2.07|VN103186148113111820225a3d3126
-- alterId: 0
+  uuid: 4c4e065f-363b-3c9b-8a4d-312f6b9840d3
+  alterId: 0
   cipher: auto
-  network: ws
-  port: 80
-  server: dpzg89ykiz7ni.cloudfront.net
-  skip-cert-verify: true
   tls: false
-  type: vmess
-  uuid: d012f981-b15f-41ca-f5c9-6c68e079b3be
+  skip-cert-verify: false
+  network: ws
   ws-opts:
-    path: /
-  name: 1.66|US260090002200b400c38e4df802111182022823a186
-- name: 1.58| 法国频道 nodesshare
-  server: 8.219.230.131
+    path: /adobe
+    headers:
+      Host: awskr.azzhuangaping.tw
+- name: 1.90|联通电信旧金山 03
+  server: do-3.heicloud.cf
+  port: 7773
+  type: vmess
+  uuid: b9c76bfb-2a78-4442-b40a-9faf19a99541
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /m3
+  ws-headers:
+    Host: do-3.heicloud.cf
+- name: 1.42|NL 荷兰youtube阿伟科技
+  server: 104.29.64.24
   port: 80
   type: vmess
   uuid: 61811ce4-1b9b-47bb-9473-c6666a0a8fa4
   alterId: 0
   cipher: auto
   tls: false
-  network: ws
-  ws-path: /p9Dq67Nx/
-  ws-headers:
-    Host: fr1.cachexy.ga
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 80
-  server: d3jfc9m0y46p2q.cloudfront.net
   skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: c514a059-ce21-4e09-ea3d-62a937a10968
-  ws-opts:
-    path: /
-  name: 1.51|US260090002200ac008ade41c802111182022823a185
-- name: 1.39|w80
-  server: 8.219.204.195
-  port: 80
-  type: vmess
-  uuid: c9fe8359-5878-4413-c80e-3ffeabc47b02
-  alterId: 0
-  cipher: auto
-  tls: false
   network: ws
-  ws-path: /?ed=2048
-  ws-headers:
-    Host: w.800876.xyz
+  ws-opts:
+    path: /p9Dq67Nx/
+    headers:
+      Host: fr1.cachexy.ga
+  udp: true
 - alterId: 0
   cipher: auto
-  network: ws
-  port: 80
-  server: d3ddulurbvblts.cloudfront.net
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: f6ba0bc5-3ed1-4b49-9621-40f55e5138ec
-  ws-opts:
-    path: /
-  name: 1.35|US260090002200d4001525bf90002111182022823a188
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 35855
-  server: 188.34.159.186
-  tls: false
-  type: vmess
-  uuid: 97e8fba7-327a-4752-8aca-043858a7e518
-  ws-opts:
-    path: /
-  name: 1.13|DE188341591861118202200d33730
-- alterId: 0
-  cipher: auto
-  name: 1.03|美国 044
+  name: 1.29|美国 044
   network: ws
   port: 7771
   server: do-1.heicloud.cf
@@ -104,3 +54,15 @@ proxies:
   ws-headers:
     Host: do-1.heicloud.cf
   ws-path: /m1
+- name: 1.25| 法国频道 nodesshare
+  server: 8.219.230.131
+  port: 80
+  type: vmess
+  uuid: 61811ce4-1b9b-47bb-9473-c6666a0a8fa4
+  alterId: 0
+  cipher: auto
+  tls: false
+  network: ws
+  ws-path: /p9Dq67Nx/
+  ws-headers:
+    Host: fr1.cachexy.ga
