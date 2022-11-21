@@ -1,60 +1,31 @@
 proxies:
-- name: 3.38|5417Mb
-  server: awskr.azzhuangaping.tw
-  port: 80
-  type: vmess
-  uuid: 4c4e065f-363b-3c9b-8a4d-312f6b9840d3
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /adobe
-    headers:
-      Host: awskr.azzhuangaping.tw
-- name: 1.90|联通电信旧金山 03
-  server: do-3.heicloud.cf
-  port: 7773
-  type: vmess
-  uuid: b9c76bfb-2a78-4442-b40a-9faf19a99541
-  alterId: 0
-  cipher: auto
-  tls: false
-  network: ws
-  ws-path: /m3
-  ws-headers:
-    Host: do-3.heicloud.cf
-- name: 1.42|NL 荷兰youtube阿伟科技
-  server: 104.29.64.24
-  port: 80
-  type: vmess
-  uuid: 61811ce4-1b9b-47bb-9473-c6666a0a8fa4
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /p9Dq67Nx/
-    headers:
-      Host: fr1.cachexy.ga
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 1.29|美国 044
   network: ws
-  port: 7771
-  server: do-1.heicloud.cf
-  skip-cert-verify: true
+  port: 80
+  server: 103.147.126.127
   tls: false
   type: vmess
+  uuid: c863dd9d-55f2-4615-b1a1-549da098722e
+  ws-opts:
+    path: /nkpvpn.site
+  name: 3.61|VN103147126127112020224a832829
+- name: 2.09| RU 1  openitsubcom
+  server: 176.119.159.245
+  port: 37672
+  type: vmess
+  uuid: 86b4e35c-1061-47b3-8c6c-811d1853a477
+  alterId: 64
+  cipher: auto
+  tls: false
+  skip-cert-verify: true
+  network: http
+  http-opts:
+    method: GET
+    path:
+    - /
   udp: true
-  uuid: b9c76bfb-2a78-4442-b40a-9faf19a99541
-  ws-headers:
-    Host: do-1.heicloud.cf
-  ws-path: /m1
-- name: 1.25| 法国频道 nodesshare
+- name: 1.85| 法国频道 nodesshare
   server: 8.219.230.131
   port: 80
   type: vmess
@@ -66,3 +37,68 @@ proxies:
   ws-path: /p9Dq67Nx/
   ws-headers:
     Host: fr1.cachexy.ga
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 42517
+  server: 43.200.177.138
+  tls: false
+  type: vmess
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  ws-opts:
+    path: /
+  name: 1.77|KR43200177138112020224a832844
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 2086
+  server: 139.144.172.78
+  tls: false
+  type: vmess
+  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
+  ws-opts:
+    path: /aries
+  name: 1.72|US13914417278110668df6
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 2086
+  server: linus.oppo.quest
+  tls: false
+  type: vmess
+  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
+  ws-opts:
+    path: /aries
+  name: 1.55|US139144172781114202264f4226
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 80
+  server: 15.235.147.186
+  tls: false
+  type: vmess
+  uuid: 6fea1649-425b-4092-bf53-29792152c925
+  ws-opts:
+    path: /sshkit/Ertusg86/635014638c264/
+  name: 1.51|SG15235147186112020224a83893
+- alterId: '0'
+  cipher: auto
+  network: ws
+  port: 8081
+  server: 134.209.146.170
+  type: vmess
+  uuid: 05baa241-7978-4048-8dae-b0819b241cf8
+  ws-opts:
+    path: /
+  name: 1.45|IN134209146170112020224a83852
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 80
+  server: 18.143.123.35
+  tls: false
+  type: vmess
+  uuid: 68df4838-46d0-4b5b-c3f0-a40ec7063245
+  ws-opts:
+    path: /
+  name: 1.00|SG1814312335112020224a83897
