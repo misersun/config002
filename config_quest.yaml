@@ -1,51 +1,31 @@
 proxies:
-- name: 5.82| US 14  openitsubcom
-  server: sg02.awcloud.top
-  port: 443
-  type: trojan
-  password: b88a1a71-5250-4ddc-8337-3a28594b6192
-  sni: sg02.awcloud.top
-  skip-cert-verify: true
-  udp: true
 - password: 8d2d5953-d649-4034-94f2-72f2df2623da
   port: 443
   server: 168.138.44.176
   skip-cert-verify: true
   type: trojan
-  name: 4.80|JP168138441761120202228aa174
-- password: 84773125-8f79-481c-a80b-e1f4aad86850
+  name: 2.96|JP168138441761120202228aa174
+- password: 9c822f05-cfdc-479a-9534-60f3d4127435
   port: 443
-  server: kr1.api-aws.com
+  server: 138.2.113.248
   skip-cert-verify: true
   type: trojan
-  name: 3.40|KR14656176239112220227130267
-- name: 3.40| 香港 04
-  server: dl-hk4.efpan.one
+  name: 2.82|KR138211324811242022ba665928
+- name: 2.79|MO 1  openitsubcom
+  server: 45.64.22.55
   port: 443
   type: trojan
-  password: d59a5583-519e-47b7-b0f6-072962d4cdb7
-  sni: data-hk.efpan.one
-- name: 2.97| 韩国 02
-  server: dl-kr2.efpan.one
-  port: 443
-  type: trojan
-  password: d59a5583-519e-47b7-b0f6-072962d4cdb7
-  sni: data-kr.efpan.one
-- name: 2.31| US 17  openitsubcom
-  server: ru01.awcloud.top
-  port: 443
-  type: trojan
-  password: b88a1a71-5250-4ddc-8337-3a28594b6192
-  sni: ru01.awcloud.top
+  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
+  sni: stutter.freetrade.link
   skip-cert-verify: true
   udp: true
-- password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+- name: 1.69| 甲骨文大阪ARM1trojan
+  server: jgwdb3.gaox.ml
   port: 443
-  server: 129.146.242.130
-  skip-cert-verify: true
   type: trojan
-  name: 1.81|US12914624213011232022f63d2619
-- name: 1.65|美国 010
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  sni: jgwdb3.gaox.ml
+- name: 1.66|美国 010
   password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   port: 443
   server: 129.146.190.42
@@ -53,14 +33,48 @@ proxies:
   type: trojan
   udp: true
   uuid: 34f4cb1a-d3e9-0e9f-3ca4-ee2f06a3f285
-- name: 1.64|美国 101
+- name: 1.62|美国 101
   password: e23f408a-012e-4030-8b31-02022031cb50
   port: 443
   server: 129.146.135.157
   skip-cert-verify: true
   type: trojan
   uuid: 174c0bd2-dfc5-b7b7-9534-47361fa4f62f
-- name: 1.54|法国 001
+- password: 54080134-2cba-4535-8599-95650bd9aa54
+  port: 443
+  server: 152.67.160.174
+  skip-cert-verify: true
+  type: trojan
+  name: 1.54|IN152671601741123202246b5857
+- password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  port: 443
+  server: 129.146.242.130
+  skip-cert-verify: true
+  type: trojan
+  name: 1.50|US12914624213011232022f63d2619
+- name: 1.38|FRwmt1121137
+  server: content-provider26.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: origin
+  sni: content-provider26.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.36| 甲骨文大阪ARM2trojan
+  server: jgwdb4.gaox.ml
+  port: 443
+  type: trojan
+  password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
+  sni: jgwdb4.gaox.ml
+- name: 1.35|NLwmt1121133
+  server: content-provider24.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: Sp3eDVp
+  sni: content-provider24.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  udp: true
+- name: 1.32|法国 001
   password: origin
   port: 443
   server: 176.31.83.90
@@ -68,34 +82,35 @@ proxies:
   type: trojan
   udp: true
   uuid: ec175be9-f90c-9441-4b5a-4fd4402f3522
-- name: 1.53|美国 007
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+- password: TestingServer@@
   port: 443
-  server: 129.146.255.158
+  server: 94.102.53.19
   skip-cert-verify: true
   type: trojan
-  udp: true
-  uuid: 1bc62db2-5331-1f92-7721-4a63830d9457
-- name: 1.41|荷兰 003
-  password: Sp3eDVp
-  port: 443
-  server: content-provider23.cdn-delivery.akamaicd.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  uuid: 455e7a1f-fc06-9482-cde6-30b3aab95066
-- name: 1.27| HK 2  openitsubcom
-  server: 219.76.13.181
-  port: 443
-  type: trojan
-  password: SyOxpKxC8u5jgNa3DCZ34y3D9CRenFcaABpYATEeqI2RSaXD76zS8YF0Owl3lZ
-  sni: arbettp.freetrade.link
-  skip-cert-verify: true
-  udp: true
-- name: 1.01|USwmt1121139
+  name: 1.26|NL9410253191118202200d35
+- name: 1.22|USwmt1121139
   server: 148.113.141.99
   port: 443
   type: trojan
   password: HdsUZmsHQW
+  skip-cert-verify: true
+  udp: true
+- password: ca2345ba-46e7-3991-b1b7-45d18954caf1
+  port: 20789
+  server: azgy001.xibai6.top
+  skip-cert-verify: true
+  type: trojan
+  name: 1.16|HK2023918011211232022888d1284
+- password: TestingServer@@
+  port: 443
+  server: content-provider1.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  type: trojan
+  name: 1.14|NL9410253191118202200d3102
+- name: 1.11|NLwmt1121134
+  server: 185.212.200.75
+  port: 443
+  type: trojan
+  password: Sp3eDVp
   skip-cert-verify: true
   udp: true

@@ -1,50 +1,4 @@
 proxies:
-- name: 5.82| US 14  openitsubcom
-  server: sg02.awcloud.top
-  port: 443
-  type: trojan
-  password: b88a1a71-5250-4ddc-8337-3a28594b6192
-  sni: sg02.awcloud.top
-  skip-cert-verify: true
-  udp: true
-- password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: 443
-  server: 168.138.44.176
-  skip-cert-verify: true
-  type: trojan
-  name: 4.80|JP168138441761120202228aa174
-- password: 84773125-8f79-481c-a80b-e1f4aad86850
-  port: 443
-  server: kr1.api-aws.com
-  skip-cert-verify: true
-  type: trojan
-  name: 3.40|KR14656176239112220227130267
-- name: 3.40| 香港 04
-  server: dl-hk4.efpan.one
-  port: 443
-  type: trojan
-  password: d59a5583-519e-47b7-b0f6-072962d4cdb7
-  sni: data-hk.efpan.one
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 443
-  server: vjp1.0bad.com
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  ws-opts:
-    path: /chat
-  name: 3.36|JP1391621067011202022bec33522
-- name: 3.07| 新加坡01
-  server: sg4.czs1000.com
-  port: 6688
-  type: vmess
-  uuid: 3974a0e4-3a24-498b-ba35-81b1e5dc377f
-  alterId: 0
-  cipher: auto
-  tls: true
 - alterId: 0
   cipher: auto
   network: ws
@@ -56,14 +10,141 @@ proxies:
   uuid: 927094d3-d678-4763-8591-e240d0bcae87
   ws-opts:
     path: /chat
-  name: 3.02|JP1391621171731123202246b5194
-- name: 2.97| 韩国 02
-  server: dl-kr2.efpan.one
+  name: 3.51|JP1391621171731123202246b5194
+- password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  port: 443
+  server: 168.138.44.176
+  skip-cert-verify: true
+  type: trojan
+  name: 2.96|JP168138441761120202228aa174
+- password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  port: 443
+  server: 138.2.113.248
+  skip-cert-verify: true
+  type: trojan
+  name: 2.82|KR138211324811242022ba665928
+- name: 2.79|MO 1  openitsubcom
+  server: 45.64.22.55
   port: 443
   type: trojan
-  password: d59a5583-519e-47b7-b0f6-072962d4cdb7
-  sni: data-kr.efpan.one
-- name: 2.42|US 美国youtube阿伟科技 24
+  password: F3CSSRxD8uljgF73IAn34C3aE9wSqAzZDp5ZOCpxDBRacNYelOYayKTe826Xy0
+  sni: stutter.freetrade.link
+  skip-cert-verify: true
+  udp: true
+- name: 2.13| 美国YouTube由零開始 9
+  server: 128.14.162.48
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+- alterId: '0'
+  cipher: auto
+  index: 203
+  network: ws
+  port: 443
+  server: 34.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+  name: 2.08|US26064700303168155efd11232022f63d5122
+- name: 2.08| US美国
+  server: 172.66.40.10
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: 38.72img.xyz
+- name: 2.08| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶3CDN
+  server: 141.101.114.100
+  port: 443
+  type: vmess
+  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /VHONOFZ3
+    headers:
+      Host: lg1.cfcdn2.xyz
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: zhuyong.hucloud-dns.xyz
+  tls: true
+  type: vmess
+  uuid: 4ce21a11-44fe-4814-a639-4b7caf501031
+  ws-opts:
+    path: /
+  name: 2.08|US260647003030ac43951e1122202271301886
+- name: 2.03| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶12CDN
+  server: 141.101.114.120
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- type: vmess
+  name: 1.92|US美国youtube阿伟科技44
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: clash6.ssr-free.xyz
+  server: 172.64.153.155
+  port: '443'
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 1.89|未知1124021
+  server: 141.101.114.150
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: clash6.ssr-free.xyz
+- alterId: 0
+  cipher: auto
+  name: 1.85|美国 016
+  network: ws
+  port: 443
+  server: 198.41.203.5
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  ws-opts:
+    headers:
+      Host: lg30.cfcdn3.xyz
+    path: /ray
+- name: 1.83|US 美国youtube阿伟科技 24
   server: 172.66.43.1
   port: 443
   type: vmess
@@ -78,225 +159,7 @@ proxies:
     headers:
       Host: 38.72img.xyz
   udp: true
-- name: 2.31| US 17  openitsubcom
-  server: ru01.awcloud.top
-  port: 443
-  type: trojan
-  password: b88a1a71-5250-4ddc-8337-3a28594b6192
-  sni: ru01.awcloud.top
-  skip-cert-verify: true
-  udp: true
-- name: 2.07| 美国YouTube由零開始 9
-  server: 128.14.162.48
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /dongtaiwang.com
-  ws-headers:
-    Host: clash6.ssr-free.xyz
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 443
-  server: 33.72img.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    path: /
-  name: 2.03|US260647003035ac438e711122202271303691
-- name: 2.02| US美国
-  server: 172.66.40.10
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 38.72img.xyz
-- name: 1.98| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶1CDN
-  server: 141.101.114.20
-  port: 443
-  type: vmess
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash1.trump2023.net
-- type: vmess
-  name: 1.98|US美国youtube阿伟科技44
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      host: clash6.ssr-free.xyz
-  server: 172.64.153.155
-  port: '443'
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- name: 1.90| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶15CDN
-  server: 141.101.115.140
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- name: 1.88|ID 印尼youtube阿伟科技 7
-  server: 172.67.125.28
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 38.72img.xyz
-  udp: true
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 443
-  server: 144.126.214.218
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2757fd62-fcf0-4946-9b46-1b697741575b
-  ws-opts:
-    path: /m1
-  name: 1.87|US144126214218112220227130241
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 443
-  server: 30.72img.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  name: 1.86|US26064700303168155efd1122202271303623
-- name: 1.85| 美国YouTube由零開始
-  server: 14.72img.xyz
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /
-  ws-headers:
-    Host: 14.72img.xyz
-- name: 1.83|SSRSUBV07付费推荐suoytssrsub
-  server: 1.1808.cf
-  port: 443
-  type: vmess
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-path: /vmess
-  ws-headers:
-    Host: v2.chigua.tk
-- name: 1.82|US 美国youtube阿伟科技 44
-  server: 4.72img.xyz
-  port: 443
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 4.72img.xyz
-  udp: true
-- password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  port: 443
-  server: 129.146.242.130
-  skip-cert-verify: true
-  type: trojan
-  name: 1.81|US12914624213011232022f63d2619
-- alterId: '0'
-  cipher: auto
-  index: 203
-  network: ws
-  port: 443
-  server: 34.72img.xyz
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    path: /
-  name: 1.81|US26064700303168155efd11232022f63d5122
-- type: vmess
-  name: 1.81|US美国youtube阿伟科技39
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      host: lg1.cfcdn3.xyz
-  server: 198.41.203.3
-  port: '443'
-  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- name: 1.78| httpsgithubcomAlvin9999newpacwiki clash ip2 洛杉矶14CDN
-  server: 141.101.115.136
-  port: 443
-  type: vmess
-  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: lg1.cfcdn1.xyz
-- name: 1.76|US 美国youtube阿伟科技 12
-  server: 172.64.154.102
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-  udp: true
-- name: 1.76| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN15
+- name: 1.77| httpsgithubcomAlvin9999newpacwiki clash ip5 法国CDN15
   server: 198.41.203.6
   port: 443
   type: vmess
@@ -309,31 +172,104 @@ proxies:
     path: /ray
     headers:
       Host: fr2.cfcdn4.xyz
+- type: vmess
+  name: 1.76|US美国youtube阿伟科技39
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      host: lg1.cfcdn3.xyz
+  server: 198.41.203.3
+  port: '443'
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- name: 1.70|SSRSUBV07付费推荐suoytssrsub
+  server: 1.1808.cf
+  port: 443
+  type: vmess
+  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /vmess
+  ws-headers:
+    Host: v2.chigua.tk
+- name: 1.70| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶1CDN
+  server: 141.101.114.102
+  port: 443
+  type: vmess
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+- name: 1.69| 甲骨文大阪ARM1trojan
+  server: jgwdb3.gaox.ml
+  port: 443
+  type: trojan
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  sni: jgwdb3.gaox.ml
+- name: 1.66| githubcomfreefq  美国CloudFlare公司CDN节点 23
+  server: uk.xlkjjs.top
+  port: 443
+  type: vmess
+  uuid: 6ea22ab5-2923-3feb-827c-79e4b8cd3f38
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /
+  ws-headers:
+    Host: uk.xlkjjs.top
+- name: 1.66|美国 010
+  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
+  port: 443
+  server: 129.146.190.42
+  skip-cert-verify: true
+  type: trojan
+  udp: true
+  uuid: 34f4cb1a-d3e9-0e9f-3ca4-ee2f06a3f285
+- name: 1.62|美国 101
+  password: e23f408a-012e-4030-8b31-02022031cb50
+  port: 443
+  server: 129.146.135.157
+  skip-cert-verify: true
+  type: trojan
+  uuid: 174c0bd2-dfc5-b7b7-9534-47361fa4f62f
 - alterId: '0'
   cipher: auto
-  index: 97
   network: ws
   port: 443
-  server: 25.72img.xyz
+  server: 36.72img.xyz
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   ws-opts:
     path: /
-  name: 1.74|US260647003035ac438e7111232022f63d5016
-- alterId: 0
-  cipher: auto
-  network: ws
+  name: 1.62|US260647003035ac438e7111232022f63d159
+- name: 1.55|US 美国youtube阿伟科技 2
+  server: 172.64.152.150
   port: 443
-  server: do-2.heicloud.cf
-  skip-cert-verify: true
-  tls: true
   type: vmess
-  uuid: 2757fd62-fcf0-4946-9b46-1b697741575b
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
   ws-opts:
-    path: /m2
-  name: 1.72|US144126214218112220226c783306
-- name: 1.71|US 美国youtube阿伟科技 4
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+  udp: true
+- name: 1.55|US 美国youtube阿伟科技 4
   server: 141.101.115.121
   port: 443
   type: vmess
@@ -348,62 +284,11 @@ proxies:
     headers:
       Host: lg30.cfcdn3.xyz
   udp: true
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 443
-  server: 144.24.150.126
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    path: /
-  name: 1.71|IN1442415012611222022ce2d91
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 443
-  server: 155.248.241.52
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    path: /
-  name: 1.67|IN1552482415211162022427893
-- name: 1.65|美国 010
-  password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
-  port: 443
-  server: 129.146.190.42
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  uuid: 34f4cb1a-d3e9-0e9f-3ca4-ee2f06a3f285
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 443
-  server: 168.138.94.194
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  ws-opts:
-    path: /
-  name: 1.64|CA1681389419411172022b05a2296
-- name: 1.64|美国 101
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  port: 443
-  server: 129.146.135.157
-  skip-cert-verify: true
-  type: trojan
-  uuid: 174c0bd2-dfc5-b7b7-9534-47361fa4f62f
-- name: 1.62|FR 法国youtube阿伟科技 4
-  server: 172.64.148.111
+- name: 1.54|ID 印尼youtube阿伟科技 5
+  server: 146.56.162.25
   port: 443
   type: vmess
-  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   alterId: 0
   cipher: auto
   tls: true
@@ -412,10 +297,76 @@ proxies:
   ws-opts:
     path: /ray
     headers:
-      Host: fr2.cfcdn4.xyz
+      Host: lg30.cfcdn3.xyz
   udp: true
-- name: 1.61|ID 印尼youtube阿伟科技 4
-  server: 172.67.183.35
+- password: 54080134-2cba-4535-8599-95650bd9aa54
+  port: 443
+  server: 152.67.160.174
+  skip-cert-verify: true
+  type: trojan
+  name: 1.54|IN152671601741123202246b5857
+- name: 1.54|未知1124012
+  server: 141.101.114.25
+  port: 443
+  type: vmess
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg30.cfcdn3.xyz
+- alterId: 0
+  cipher: auto
+  name: 1.53|新加坡 003
+  port: 40771
+  server: lll.277428.xyz
+  skip-cert-verify: false
+  tls: true
+  type: vmess
+  udp: true
+  uuid: 61194810-5193-48bc-eb0a-7978a059d681
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: surongwei.eu.org
+  tls: true
+  type: vmess
+  uuid: 6093eefb-7ab6-41df-aba0-d5fa58147e10
+  ws-opts:
+    path: /reffs7y26g0ua
+  name: 1.52|KR1301621411041122202271301280
+- alterId: 0
+  cipher: auto
+  name: 1.51|美国 041
+  network: ws
+  port: 443
+  server: hynesconstruction.com
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+  ws-opts:
+    headers:
+      Host: sg1-v2ray.sshkit.org
+    path: /sshkit/401452697/635b464921141/
+- alterId: '0'
+  cipher: auto
+  index: 97
+  network: ws
+  port: 443
+  server: 25.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+  name: 1.51|US260647003035ac438e7111232022f63d5016
+- name: 1.50|ID 印尼youtube阿伟科技 7
+  server: 172.67.125.28
   port: 443
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
@@ -429,77 +380,68 @@ proxies:
     headers:
       Host: 38.72img.xyz
   udp: true
+- password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  port: 443
+  server: 129.146.242.130
+  skip-cert-verify: true
+  type: trojan
+  name: 1.50|US12914624213011232022f63d2619
+- name: 1.49|SSRSUBV12付费推荐suoytssrsub
+  server: 128.14.140.254
+  port: 443
+  type: vmess
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /dongtaiwang.com
+  ws-headers:
+    Host: v2ray2.ssr-free2.xyz
 - alterId: 0
   cipher: auto
   network: ws
   port: 443
-  server: 53.72img.xyz
+  server: 155.248.241.52
+  skip-cert-verify: true
   tls: true
   type: vmess
   uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   ws-opts:
     path: /
-  name: 1.61|US26064700130436c6f7564666c6172651113202240f7285
-- name: 1.58| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶14CDN
-  server: 198.41.212.150
-  port: 443
-  type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  tls: true
-  network: ws
-  ws-opts:
-    path: /dongtaiwang.com
-    headers:
-      Host: clash6.ssr-free.xyz
-- name: 1.57|US 美国youtube阿伟科技 3
-  server: 141.101.114.121
+  name: 1.49|IN1552482415211162022427893
+- name: 1.46|未知1124026
+  server: 141.101.114.111
   port: 443
   type: vmess
   uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
   alterId: 0
   cipher: auto
   tls: true
-  skip-cert-verify: true
   network: ws
-  ws-opts:
-    path: /ray
-    headers:
-      Host: fr2.cfcdn4.xyz
-  udp: true
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 443
-  server: do-1.heicloud.cf
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  uuid: 2757fd62-fcf0-4946-9b46-1b697741575b
-  ws-opts:
-    path: /m1
-  name: 1.56|US1441262142181122202271303167
-- name: 1.55|AU 澳大利亚youtube阿伟科技
-  server: vau1.0bad.com
+  ws-path: /ray
+  ws-headers:
+    Host: fr2.cfcdn4.xyz
+- name: 1.46|US 美国youtube阿伟科技 12
+  server: 172.64.154.102
   port: 443
   type: vmess
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
   alterId: 0
   cipher: auto
   tls: true
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /chat
+    path: /dongtaiwang.com
     headers:
-      Host: vau1.0bad.com
+      Host: clash6.ssr-free.xyz
   udp: true
-- name: 1.55| httpsgithubcomAlvin9999newpacwiki clash ip6 洛杉矶12CDN
-  server: 141.101.114.120
+- name: 1.45| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶23CDN
+  server: 198.41.212.145
   port: 443
   type: vmess
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  uuid: 33aa57df-1c93-4318-9fce-e850437ee781
   alterId: 0
   cipher: auto
   tls: true
@@ -507,35 +449,8 @@ proxies:
   ws-opts:
     path: /dongtaiwang.com
     headers:
-      Host: clash6.ssr-free.xyz
-- alterId: 0
-  cipher: auto
-  network: ws
-  port: 443
-  server: zhuyong.hucloud-dns.xyz
-  tls: true
-  type: vmess
-  uuid: 4ce21a11-44fe-4814-a639-4b7caf501031
-  ws-opts:
-    path: /
-  name: 1.54|US260647003030ac43951e1122202271301886
-- name: 1.54|法国 001
-  password: origin
-  port: 443
-  server: 176.31.83.90
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  uuid: ec175be9-f90c-9441-4b5a-4fd4402f3522
-- name: 1.53|美国 007
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  port: 443
-  server: 129.146.255.158
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  uuid: 1bc62db2-5331-1f92-7721-4a63830d9457
-- name: 1.42|FR 法国youtube阿伟科技 2
+      Host: lg1.cfcdn3.xyz
+- name: 1.44|FR 法国youtube阿伟科技 2
   server: 104.29.64.2
   port: 443
   type: vmess
@@ -550,24 +465,123 @@ proxies:
     headers:
       Host: fr2.cfcdn4.xyz
   udp: true
-- name: 1.41|荷兰 003
-  password: Sp3eDVp
-  port: 443
-  server: content-provider23.cdn-delivery.akamaicd.com
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-  uuid: 455e7a1f-fc06-9482-cde6-30b3aab95066
-- name: 1.41| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶3CDN
-  server: 141.101.114.100
+- name: 1.43|US 美国youtube阿伟科技 15
+  server: 172.64.154.155
   port: 443
   type: vmess
-  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /dongtaiwang.com
+    headers:
+      Host: clash6.ssr-free.xyz
+  udp: true
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: 55.72img.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+  name: 1.43|US26064700303168155efd112220226c783316
+- name: 1.42|ID 印尼youtube阿伟科技 4
+  server: 172.67.183.35
+  port: 443
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  tls: true
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 38.72img.xyz
+  udp: true
+- alterId: '0'
+  cipher: auto
+  network: ws
+  port: 443
+  server: 26.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+  name: 1.41|US26064700303168155efd11232022f63d146
+- alterId: '0'
+  cipher: auto
+  network: ws
+  port: 443
+  server: 54.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+  name: 1.40|US260647003035ac438e7111232022f63d150
+- name: 1.40|SSRSUBV10付费推荐suoytssrsub
+  server: 172.64.154.222
+  port: 443
+  type: vmess
+  uuid: fcfaec91-6096-44d8-956c-7868d9e874b1
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  ws-path: /ray
+  ws-headers:
+    Host: lg1.cfcdn1.xyz
+- name: 1.40| httpsgithubcomAlvin9999newpacwiki clash ip1 洛杉矶1CDN
+  server: 141.101.114.20
+  port: 443
+  type: vmess
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
   alterId: 0
   cipher: auto
   tls: true
   network: ws
   ws-opts:
-    path: /VHONOFZ3
+    path: /dongtaiwang.com
     headers:
-      Host: lg1.cfcdn2.xyz
+      Host: clash1.trump2023.net
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: 9.72img.xyz
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+  name: 1.39|US26064700303168155efd1122202271301279
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 443
+  server: 29.72img.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  ws-opts:
+    path: /
+  name: 1.39|US26064700303168155efd11232022888d127
+- name: 1.38|FRwmt1121137
+  server: content-provider26.cdn-delivery.akamaicd.com
+  port: 443
+  type: trojan
+  password: origin
+  sni: content-provider26.cdn-delivery.akamaicd.com
+  skip-cert-verify: true
+  udp: true

@@ -1,37 +1,41 @@
 proxies:
-- name: 1.68|US 美国youtube阿伟科技 16
-  server: 104.19.22.249
-  port: 80
-  type: vmess
-  uuid: e8d7eb23-d79e-42ec-ff2d-8e0871cec1fc
-  alterId: 0
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: raksmart.dopamine.ga
-  udp: true
-- name: 1.50| RU 1  openitsubcom
-  server: 176.119.159.245
-  port: 37672
-  type: vmess
-  uuid: 86b4e35c-1061-47b3-8c6c-811d1853a477
-  alterId: 64
-  cipher: auto
-  tls: false
-  skip-cert-verify: true
-  network: http
-  http-opts:
-    method: GET
-    path:
-    - /
-  udp: true
 - alterId: 0
   cipher: auto
-  name: 1.16|美国 040
+  network: ws
+  port: 80
+  server: 104.208.96.44
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
+  ws-opts:
+    path: /zh-cn/download
+  name: 2.58|HK1042089644112120226ad8706
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 80
+  server: hk80.sanfen001.pics
+  tls: false
+  type: vmess
+  uuid: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
+  ws-opts:
+    path: /zh-cn/download
+  name: 2.31|HK1042089644112420222c78238
+- alterId: 0
+  cipher: auto
+  network: ws
+  port: 80
+  server: 103.161.112.225
+  tls: false
+  type: vmess
+  uuid: fc49716a-3594-47b2-8667-0bfba2a88e60
+  ws-opts:
+    path: /vpndata.shop
+  name: 1.43|VN10316111222511222022547f12
+- alterId: 0
+  cipher: auto
+  name: 1.19|美国 040
   network: ws
   port: 2095
   server: king2.mmadserr.ml
